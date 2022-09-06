@@ -1,0 +1,10 @@
+name = "Network Addon Mod"
+license = "MIT"
+licenselink = "https://github.com/NAMTeam/namteam.github.io/blob/master/LICENSE"
+description = "The official home of the Network Addon Mod documentation."
+
+homepage = "https://github.com/NAMTeam"
+
+[author]
+  name = "Daniel Henderson"
+  homepage = "https://github.com/h3ndofry"

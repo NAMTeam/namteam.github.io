@@ -1,0 +1,5 @@
+- baseurl: "/docs"
+  description: "Current major release. Last update was version 45."
+  versions:
+    - v: "45"
+    - v: "46"

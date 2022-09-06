@@ -1,0 +1,97 @@
+# Meta Data for SEO
+
+## Homepage
+title = "Network Addon Mod"
+titleSeparator = "-"
+titleAddition = "Official Documentation"
+description = "Official Network Addon documentation"
+
+## Documentation
+docsVersion = "45"
+
+## Twitter Cards
+
+## JSON-LD
+schemaType = "Organization"
+schemaName = "NAM Team"
+schemaAuthorGitHub = "https://github.com/NAMTeam"
+schemaLocale = "en-US"
+schemaLogo = "logo-namteam.png"
+schemaLogoWidth = 512
+schemaLogoHeight = 512
+schemaImage = "namteam.png"
+schemaImageWidth = 1280
+schemaImageHeight = 640
+schemaLinkedIn = ""
+
+## Sitelinks Search Box
+siteLinksSearchBox = false
+
+## Chrome Browser
+themeColor = "#fff"
+
+# Images
+quality = 85
+bgColor = "#fff"
+landscapePhotoWidths = [900, 800, 700, 600, 500]
+portraitPhotoWidths = [800, 700, 600, 500]
+lqipWidth = "20x"
+smallLimit = "300"
+
+# Images
+imageResponsive = true
+imageConvertTo = "webp"
+imageImageSizes = ["480","720","1080","1280","1600","2048"]
+singleSize = false
+imageAddClass = "img-fluid lazyload blur-up"
+
+### Image template
+defaultImage = "default-image.png" # put in `./assets/images/`
+fillImage = "1270x740 Center" # normalize image size
+
+# Footer
+footer = "Copyright (c) 2008-2022 NAM Team"
+
+# Feed
+copyRight = "Copyright (c) 2008-2022 NAM Team"
+
+# Alert
+alert = false
+alertDismissable = true
+# alertText = ""
+
+# Edit Page
+# repoHost [Github | Gitea | GitLab | Bitbucket | BitbucketServer ] is used for building the edit link based on git hoster
+repoHost = "GitHub"
+docsRepo = "https://github.com/NAMTeam/namteam.github.io"
+docsRepoBranch = "master"
+docsRepoSubPath = ""
+editPage = false
+lastMod = false
+
+[sections]
+  sectionNav = ["docs"]
+
+[options]
+  lazySizes = true
+  clipBoard = true
+  instantPage = true
+  flexSearch = true
+  searchSectionsShow = []
+  searchSectionsIndex = []
+  darkMode = true
+  bootStrapJs = true
+  breadCrumb = true
+  highLight = true
+  kaTex = false
+  multilingualMode = true
+  docsVersioning = false
+  fullWidth = false
+  navbarSticky = true
+  toTopButton = true
+  scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+
+[menu]
+  [menu.section]
+    auto = true
+    collapsibleSidebar = true
