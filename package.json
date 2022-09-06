@@ -1,7 +1,7 @@
 {
-  "name": "@hyas/doks",
-  "description": "Doks theme",
-  "version": "0.5.0",
+  "name": "NAMTeam/namdocs",
+  "description": "Network Addon Mod official documentation",
+  "version": "45",
   "engines": {
     "node": ">=16.16.0"
   },

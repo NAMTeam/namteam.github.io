@@ -10,7 +10,7 @@ Describe the issue that you're seeing.
 
 ### Steps to reproduce
 
-Clear steps describing how to reproduce the issue. Please please please link to a demo project if possible, this makes your issue _much_ easier to diagnose (seriously).
+Clear steps describing how to reproduce the issue. Please please please provide screenshots, it helps us out a lot!
 
 ### Expected result
 
@@ -19,7 +19,3 @@ What should happen?
 ### Actual result
 
 What happened.
-
-### Environment
-
-Paste the information here as shown by `npm run check`

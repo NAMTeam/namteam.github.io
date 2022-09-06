@@ -24,10 +24,14 @@ $blue-300: #8ed6fb;
 $pink-100: #fcfaff;
 $pink-500: #d32e9d;
 
-$primary: $purple;
+$nam-primary: #EF6C00;
+$nam-yellow: #f4c91a;
+$nam-asphalt: #181818;
 
-$color-btn-bg: $pink-500;
-$color-btn-border: darken($pink-500, 5%);
+$primary: $nam-primary;
+
+$color-btn-bg: $nam-yellow;
+$color-btn-border: darken($nam-yellow, 5%);
 $color-btn-text: $white;
 
 // Options

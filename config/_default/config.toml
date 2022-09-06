@@ -1,4 +1,4 @@
-baseurl = "https://doks.netlify.app/"
+baseurl = "https://namteam.github.io"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
@@ -10,8 +10,7 @@ rssLimit = 10
 
 # Multilingual
 defaultContentLanguage = "en"
-disableLanguages = ["de", "nl"]
-# defaultContentLanguageInSubdir = true
+disableLanguages = [] # use this for working on translations in progress
 
 # add redirects/headers
 [outputs]
@@ -62,8 +61,7 @@ rel  = "sitemap"
   tag = "tags"
 
 [permalinks]
-  blog = "/blog/:title/"
-# docs = "/docs/1.0/:sections[1:]/:title/"
+  docs = "/docs/:sections[1:]/:title/"
 
 [minify.tdewolff.html]
   keepWhitespace = false
