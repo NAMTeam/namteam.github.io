@@ -1,0 +1,13 @@
+[en]
+  languageName = "English"
+  weight = 10
+  [en.params]
+    languageISO = "EN"
+    languageTag = "en-US"
+
+[de]
+  languageName = "Deutsch"
+  weight = 15
+  [de.params]
+    languageISO = "DE"
+    languageTag = "de-DE"
