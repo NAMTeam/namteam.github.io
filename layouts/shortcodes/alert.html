@@ -1,5 +1,6 @@
-<div class="alert alert-{{ with .Get "context" }}{{.}}{{ else }}doks{{ end }} d-flex" role="alert">
-  <div class="flex-shrink-1 alert-icon">{{ with .Get "icon" }}{{.}} {{ end }}</div>
+{{ $context := .Get "context" -}}
+
+<div class="alert text-{{ $context }} text-center border border-{{ $context }} border-5 d-flex" role="alert">
   {{ with .Get "text"}}
     <div class="w-100">{{ . | safeHTML }} </div>
   {{ else }}
