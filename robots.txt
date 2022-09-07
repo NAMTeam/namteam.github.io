@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://namteam.github.io/sitemap.xml
+Sitemap: https://www.sc4nam.com/sitemap.xml
