@@ -1,4 +1,4 @@
-baseurl = "https://namteam.github.io"
+baseurl = "https://www.sc4nam.com"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
