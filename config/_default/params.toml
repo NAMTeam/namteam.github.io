@@ -14,12 +14,12 @@ docsVersion = "45"
 ## JSON-LD
 schemaType = "Organization"
 schemaName = "NAM Team"
-schemaAuthorGitHub = "https://github.com/NAMTeam"
+schemaGitHub = "https://github.com/NAMTeam"
 schemaLocale = "en-US"
-schemaLogo = "logo-namteam.png"
+schemaLogo = "nam_blackwithtext.png"
 schemaLogoWidth = 512
 schemaLogoHeight = 512
-schemaImage = "namteam.png"
+schemaImage = "nam_blackwithtext.png"
 schemaImageWidth = 1280
 schemaImageHeight = 640
 schemaLinkedIn = ""

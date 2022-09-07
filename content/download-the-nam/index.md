@@ -10,6 +10,6 @@ images: []
 
 The Network Addon Mod can be downloaded at the following locations:
 
-* ModDB
-* SC4Devotion
-* Simtropolis
+* [ModDB](https://www.moddb.com/mods/network-addon-mod)
+* [SC4Devotion](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=851)
+* [Simtropolis](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/)
