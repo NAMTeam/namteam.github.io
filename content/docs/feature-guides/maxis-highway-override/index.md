@@ -1,6 +1,8 @@
 ---
 title : "Maxis Highway Override"
-description: ""
+description: "The Maxis Highway Override (abbreviated MHO), sometimes called Project Symphony
+(abbreviated PS), is an attempt to join the Maxis Highways (abbreviated as MHW) with the Real
+Highway Mod (RHW) by the total conversion of the MHW."
 lead: ""
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
@@ -9,20 +11,16 @@ images: []
 ---
 
 <div class="row mx-0 g-1">
-<div class="col text-center">{{< img-simple src="images/MHO_Intro2.jpg" class="img-fluid" >}}</div>
+<div class="col text-center">{{< img-simple src="images/MHO_Intro2.jpg" class="" >}}</div>
 </div>
 
 <div class="row mx-0 g-1">
-<div class="col text-center">{{< img-simple src="images/MHO_Intro1.jpg" class="img-fluid" >}}</div>
-<div class="col text-center">{{< img-simple src="images/MHO_Intro3.jpg" class="img-fluid" >}}</div>
-<div class="col text-center">{{< img-simple src="images/MHO_Intro4.jpg" class="img-fluid" >}}</div>
+<div class="col text-center">{{< img-simple src="images/MHO_Intro1.jpg" class="" >}}</div>
+<div class="col text-center">{{< img-simple src="images/MHO_Intro3.jpg" class="" >}}</div>
+<div class="col text-center">{{< img-simple src="images/MHO_Intro4.jpg" class="" >}}</div>
 </div>
 
-{{< alert context="danger" >}}
-<span class="fs-4 fw-bold">The documentation on this page is out of date.</span>
-
-This documentation was last updated with **NAM 35**. It is in the process of being rewritten.
-{{< /alert >}}
+{{< docstatus status="outdated" version="NAM 35" >}}
 
 ## Preface
 
@@ -180,7 +178,7 @@ them distinctive from the RHW.
 
 
 <div class="row mx-0 g-1">
-<div class="col text-center">{{< img-simple src="images/MHO_GHW_RHW.jpg" class="img-fluid" >}}</div>
+<div class="col text-center">{{< img-simple src="images/MHO_GHW_RHW.jpg" class="" >}}</div>
 </div>
 
 <p class="text-center fst-italic">Shown left to right: Project Symphony MHW and Dual RHW-4.</p>
@@ -197,8 +195,8 @@ meters higher than its ground level counterpart. It may look a lot like a Dual R
 difference is that it only has a single centre barrier instead of a double one.
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_EHW_RHW_1.jpg" class="img-fluid w-100" >}}</div>
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_EHW_RHW_2.jpg" class="img-fluid w-100" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_EHW_RHW_1.jpg" class=" w-100" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_EHW_RHW_2.jpg" class=" w-100" >}}</div>
 </div>
 
 <p class="text-center fst-italic">Shown left to right: MHO MHW (L2) and Dual RHW-4 (L2). Note the difference between the pillars
@@ -231,7 +229,7 @@ The tunnels for MHW have been repurposed and remodeled to be compatible for the 
 designed MHWs. This requires a custom slope mod, which is also included.
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Tunnel.jpg" class="img-fluid" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Tunnel.jpg" class="" >}}</div>
 </div>
 
 
@@ -272,8 +270,8 @@ These pieces are found under the **Ramps Button** , located under the buttons fr
 networks of the mod.
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_PP_01.jpg" class="img-fluid w-100" >}}</div>
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_PP_02.jpg" class="img-fluid w-100" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_PP_01.jpg" class=" w-100" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_PP_02.jpg" class=" w-100" >}}</div>
 </div>
 
 ### Curves
@@ -286,7 +284,7 @@ orthogonal nor diagonal. These can be used for extremely gentle curves and for g
 orthogonal-diagonal grid in general.
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_WRC.jpg" class="img-fluid" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_WRC.jpg" class="" >}}</div>
 </div>
 
 ### Transitions
@@ -298,7 +296,7 @@ be placed on slopes. These pieces are found under the **Transitions Button.**
 
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Transitions.jpg" class="img-fluid" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Transitions.jpg" class="" >}}</div>
 </div>
 
 
@@ -315,7 +313,7 @@ flexible than total prefabs.
 
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Prefabs.jpg" class="img-fluid" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Prefabs.jpg" class="" >}}</div>
 </div>
 
 
@@ -335,11 +333,11 @@ RHW) will still cross with these networks.
 As these networks are base networks and are “natural” to begin with, both MHW and EMHW will still create neighbour connections as before, and the need of neighbour connection pieces is not necessary.
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Crossings_01.jpg" class="img-fluid" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Crossings_01.jpg" class="" >}}</div>
 </div>
 
 <div class="row mx-0 g-1">
-<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Crossings_02.jpg" class="img-fluid" >}}</div>
+<div class="col text-center align-content-around">{{< img-simple src="images/MHO_Crossings_02.jpg" class="" >}}</div>
 </div>
 
 However, for cities that already have the original Highway Interchanges or the NAM’s Custom Interchanges, none of these interchanges will fit with the revamped highways. Because of the large scaling differences between the original interchanges and the revamped highways, it was decided by the NAM Team that none of these interchanges will be modified.
@@ -347,15 +345,15 @@ However, for cities that already have the original Highway Interchanges or the N
 **All original MHW interchanges are incompatible with the Maxis Highway Override and it is recommended to bulldoze and replace them if you have these in your cities. Also, all of the original MHW Interchange menu buttons are disabled; however, several interchanges can still be accessed using Autoplace. Refrain from using these interchanges; they may still work, but they will be visually incompatible with the MHO.**
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Maxis_Interchange_1.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Maxis_Interchange_1.jpg" class="" >}}</div>
 </div>
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Maxis_Interchange_2.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Maxis_Interchange_2.jpg" class="" >}}</div>
 </div>
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Maxis_Interchange_3.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Maxis_Interchange_3.jpg" class="" >}}</div>
 </div>
 
 ### Understanding Ramp Interfaces
@@ -364,10 +362,10 @@ Unlike the RHW, there are only four types of Ramp Interfaces available: A1, B1, 
 diagrammed below from left to right.
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_1.jpg" class="img-fluid" >}}</div>
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_2.jpg" class="img-fluid" >}}</div>
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_3.jpg" class="img-fluid" >}}</div>
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_4.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_1.jpg" class="" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_2.jpg" class="" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_3.jpg" class="" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RI_4.jpg" class="" >}}</div>
 </div>
 
 **Types A1 and B1** (shown left) branch one lane outwards while retaining the two original lanes of
@@ -383,7 +381,7 @@ Bridges made for RHW-4 can be used with the MHO. When you build a Dual RHW-4 bri
 stretch of MHW, you’ll see a subtle height shift:
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Bridge_1.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Bridge_1.jpg" class="" >}}</div>
 </div>
 
 This is because the MHW is raised 0.75m at ground level. Therefore, under the Transition Menu, a
@@ -391,8 +389,8 @@ This is because the MHW is raised 0.75m at ground level. Therefore, under the Tr
 the network with the lower end facing the bridge. This will result in a much more gentle transition:
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Bridge_2.jpg" class="img-fluid" >}}</div>
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Bridge_3.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Bridge_2.jpg" class="" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Bridge_3.jpg" class="" >}}</div>
 </div>
 
 ### Using RHW with the Maxis Highway Override
@@ -403,7 +401,7 @@ MHW into a RHW-4. Both MHWs can transition to their respective RHW-4 counterpart
 issues.
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RHW4.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RHW4.jpg" class="" >}}</div>
 </div>
 
 
@@ -413,7 +411,7 @@ interface RHW-6S:
 
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RHW_Interchange.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RHW_Interchange.jpg" class="" >}}</div>
 </div>
 
 Additionally, the MHWs can also be drawn in conjunction with RHW to create a hybrid Multi-RHW.
@@ -443,14 +441,14 @@ road, hence the name.
     away. Do this for both sides of the highway.    
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_1.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_1.jpg" class="" >}}</div>
     </div>
 
 - Place the **Road over MHW Piece** (found in the **Roads Menu** ) on top of the MHW, in the
     place as shown. This is where the Road will go over the MHW.
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_2.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_2.jpg" class="" >}}</div>
     </div>
 
 - Place the **Road-MIS Intersection** next to the Road over MHW Pieces as shown. Rotate
@@ -458,7 +456,7 @@ road, hence the name.
     will cross with the Road. Do this for both sides of the interchange.
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_3.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_3.jpg" class="" >}}</div>
     </div>
 
 - Place the **Road Start/End Piece** so that it joins with the Road-MIS intersection and the
@@ -467,7 +465,7 @@ road, hence the name.
     three tiles from the Road-MIS intersection.
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_4.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_4.jpg" class="" >}}</div>
     </div>
 
 - Place an **L0-L2 MIS Starterless Height Transition** connecting to the Road-MIS crossing.
@@ -476,7 +474,7 @@ road, hence the name.
     word “ON” or “OFF” in the name of the piece. Do this for each of the quadrants.
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_5.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_5.jpg" class="" >}}</div>
     </div>
 
 - Place the **Type A1 Ramps** at the MHW to connect the transitions with the MHW. Do this
@@ -484,12 +482,12 @@ road, hence the name.
     original Diamond Interchange, but is still very compact.
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_6.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_6.jpg" class="" >}}</div>
     </div>
 
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_7.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_7.jpg" class="" >}}</div>
 </div>
 
 
@@ -508,7 +506,7 @@ capacity. Constructing both the two-level and three-level Roundabout are similar
 
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_1.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_1.jpg" class="" >}}</div>
     </div>
 
 
@@ -518,11 +516,11 @@ capacity. Constructing both the two-level and three-level Roundabout are similar
     highway directly connects to the Roundabout.
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_2.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_2.jpg" class="" >}}</div>
     </div>
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_3.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_3.jpg" class="" >}}</div>
     </div>
 
 - Plop the **L0-L1** and **L1-L2 MIS Transitions** (Found in the Maxis Highway Override
@@ -534,11 +532,11 @@ capacity. Constructing both the two-level and three-level Roundabout are similar
     **of the transitions!**
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_4.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_4.jpg" class="" >}}</div>
     </div>
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_5.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_5.jpg" class="" >}}</div>
     </div>
 
 - Finally, plop the **Type A1 Ramps** at the ends of the height transitions to complete this
@@ -548,17 +546,17 @@ capacity. Constructing both the two-level and three-level Roundabout are similar
     **Interchange** , in terms of how much space one takes compared to the other.
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_6.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_6.jpg" class="" >}}</div>
     </div>
 
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_7.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_7.jpg" class="" >}}</div>
     </div>
 
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_8.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_8.jpg" class="" >}}</div>
     </div>
 
 #### **A Note about the Two-Level Roundabout**
@@ -571,7 +569,7 @@ Avenue to Elevated Highway Transition**.
 
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_9.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_9.jpg" class="" >}}</div>
 </div>
 
 
@@ -583,7 +581,7 @@ will be the only prefab interchange to be added in the NAM.
 
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_1.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_1.jpg" class="" >}}</div>
 </div>
 
 
@@ -593,7 +591,7 @@ placing.
 
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_2.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_2.jpg" class="" >}}</div>
 </div>
 
 
@@ -604,7 +602,7 @@ highways don’t matter, since the proper interchange will always be assigned.
 
 
 <div class="row mx-0 g-1">
-    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_3.jpg" class="img-fluid" >}}</div>
+    <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_3.jpg" class="" >}}</div>
 </div>
 
 ### Cloverleaf Interchanges
@@ -622,7 +620,7 @@ leaf clover, hence the name
        autoplace window for the original MHW Stack Interchange.
        
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_1.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_1.jpg" class="" >}}</div>
     </div>
 
 - Plop the **Type A1 ramps** at the centre first. Keep one tile between the overpass and the
@@ -630,7 +628,7 @@ leaf clover, hence the name
        for the ground highway.
        
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_2.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_2.jpg" class="" >}}</div>
     </div>
 
 - Plop the **Cloverleaf Ramps** to connect the ends of the ramps. This piece is found under
@@ -638,7 +636,7 @@ leaf clover, hence the name
        pieces. This will create the turn loops. Do this for all four quadrants.
        
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_3.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_3.jpg" class="" >}}</div>
     </div>
 
 
@@ -647,22 +645,22 @@ leaf clover, hence the name
     both ends of the Interchange. Drag out a stretch of Ground Highway out from the stubs.
        
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_4.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_4.jpg" class="" >}}</div>
     </div>
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_5.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_5.jpg" class="" >}}</div>
     </div>
        
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_6.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_6.jpg" class="" >}}</div>
     </div>
 
 - Drag a diagonal stretch of **RHW** right next to the cloverleaf ramps. This will create the
     shape of the right-turn ramps (or left-turn in LHD).
        
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_7.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_7.jpg" class="" >}}</div>
     </div>
 
 - Place down a **MIS Starter** at one end of the diagonal RHW. Be sure that the yellow line* is
@@ -670,26 +668,26 @@ leaf clover, hence the name
     RHW using the RHW Tool.
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_8.jpg" class="img-fluid" >}}</div>
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_9.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_8.jpg" class="" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_9.jpg" class="" >}}</div>
     </div>
 
 - Click outwards from the starter to convert the RHW into MIS. Demolish the orthogonal
     starters afterwards.    
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_A.jpg" class="img-fluid" >}}</div>
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_B.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_A.jpg" class="" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_B.jpg" class="" >}}</div>
     </div>
 
 - Place down **Type B1 Ramps** to connect the diagonal MIS to the highway. Use the RHW
     Tool to connect the MIS to the Ramps.
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_C.jpg" class="img-fluid" >}}</div>
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_D.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_C.jpg" class="" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_D.jpg" class="" >}}</div>
     </div>
 
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_E.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_E.jpg" class="" >}}</div>
     </div>
 
 - Repeat steps 5 to 8 for the remaining ramps to complete the interchange. The final
@@ -697,7 +695,7 @@ leaf clover, hence the name
     the immense size actually brings the MHO Cloverleaf within reasonable real-life scaling.
     
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_F.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_F.jpg" class="" >}}</div>
     </div>
 
 ***NOTE:** if you use the Euro Textures, there will be no yellow lines; all lines are white in the Euro
@@ -716,17 +714,17 @@ Additionally, the interchange itself can be upgraded into a Full Cloverleaf if n
 - Drag one single stretch of **Ground Highway**. This will create the upper “bar” of the
     interchange.
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_1.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_1.jpg" class="" >}}</div>
     </div>
 - Place down two **Type A1 Ramps**. Make sure that they are four tiles from each other.
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_2.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_2.jpg" class="" >}}</div>
     </div>
 
 - Drag two four-tile stretches of RHW so that they both bisect the Ground Highway. Make
     sure these are two tiles apart. This will become the MIS overpasses.
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_3.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_3.jpg" class="" >}}</div>
     </div>
 - Place an **L2 MIS starter** on the two RHW “stubs”. This will override the RHW into the
     needed overpass. Be sure to keep the yellow lines* on the inside. After which, bulldoze the
@@ -738,7 +736,7 @@ Additionally, the interchange itself can be upgraded into a Full Cloverleaf if n
 
 - Place down two MIS S-curves.
     <div class="row mx-0 g-1">
-        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_4.jpg" class="img-fluid" >}}</div>
+        <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_4.jpg" class="" >}}</div>
     </div>
 - Place down two Type E1 Ramps. Make sure they connect with the MIS curves. Follow steps
     5 through 8 for the Full Cloverleaf to connect the Type E1 Ramps with the other highway to

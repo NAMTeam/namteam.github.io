@@ -1,0 +1,16 @@
+{{ $status := .Get "status" -}}
+
+{{ if eq $status "outdated" -}}
+<div class="alert text-danger border border-danger border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="fs-4 fw-bold">The documentation on this page is out of date.</span><br/>
+    <span class="fs-5">This documentation was last updated with {{ .Get "version" | default "an old version of the NAM" }}. It is in the process of being rewritten.</span>
+  </div>
+</div>
+{{ else }}
+<div class="alert text-warning border border-warning border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="fs-4 fw-bold">The documentation on this page has not yet been written.</span>
+  </div>
+</div>
+{{ end -}}
