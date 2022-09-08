@@ -3,30 +3,30 @@
 {{ if eq $status "outdated" -}}
 <div class="alert text-danger border border-danger border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="fs-4 fw-bold">The documentation on this page is out of date.</span><br/>
-    <span class="fs-5">This documentation was last updated with {{ .Get "version" | default "an old version of the NAM" }}. It is in the process of being rewritten.</span>
+    <span class="h4 fw-bold">The documentation on this page is out of date.</span><br/>
+    <span class="fs-6">This documentation was last updated with {{ .Get "version" | default "an old version of the NAM" }}. It is in the process of being rewritten.</span>
   </div>
 </div>
-{{ else if eq $status "warning" -}}
-<div class="alert text-warning border border-warning border-5 d-flex" role="alert">
+{{ else if eq $status "oldcontent" -}}
+<div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="fs-4 fw-bold">The documentation on this page may be out of date.</span><br/>
-    <span class="fs-5">You may refer to the documentation, but it may reference older NAM content.</span>
+    <span class="h4 fw-bold">The documentation on this page may be out of date.</span><br/>
+    <span class="fs-6">The contents of this document may reference older, obsolete NAM content.<br/> It, however, can still be used as a reference guide.</span>
   </div>
 </div>
 {{ else if eq $status "compatibility" -}}
 <div class="alert border border-info border-5 d-flex mb-4" role="alert">
   <div class="w-100 text-center">
-    <span class="fs-4 fw-bold text-info">Compatibility Warning - EA App and Origin Copies of SimCity 4 Deluxe</span><br/>
-    <p class="fs-5 text-info">This mod is NOT compatible with the EA App/Origin editions of SimCity 4 Deluxe (as sold on EA.com, and also available via EA play and Xbox Game Pass).</p>
-    <p class="fs-5 text-danger">Do NOT run other versions of SimCity 4 Deluxe (i.e. Steam or GOG) with the EA App or its background processes running,  as it is CAPABLE OF SILENTLY UNPATCHING STEAM AND GOG COPIES OF THE GAME, MAKING THEM INCOMPATIBLE.</p>
+    <span class="h4 fw-bold text-info">Compatibility Warning - EA App and Origin Copies of SimCity 4 Deluxe</span><br/>
+    <p class="fs-6 text-info">This mod is NOT compatible with the EA App/Origin editions of SimCity 4 Deluxe (as sold on EA.com, and also available via EA play and Xbox Game Pass).</p>
+    <p class="fs-6 text-danger">Do NOT run other versions of SimCity 4 Deluxe (i.e. Steam or GOG) with the EA App or its background processes running,  as it is CAPABLE OF SILENTLY UNPATCHING STEAM AND GOG COPIES OF THE GAME, MAKING THEM INCOMPATIBLE.</p>
     <a href="https://simtarkus.wordpress.com/category/origin/" target="_blank" role="button" class="btn btn-info btn-lg text-decoration-none">Read more</a>
   </div>
 </div>
 {{ else }}
-<div class="alert text-warning border border-warning border-5 d-flex" role="alert">
+<div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="fs-4 fw-bold">The documentation on this page has not yet been written.</span>
+    <span class="h4 fw-bold">The documentation on this page has not yet been written.</span>
   </div>
 </div>
 {{ end -}}

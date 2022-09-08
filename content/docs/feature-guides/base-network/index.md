@@ -8,7 +8,7 @@ draft: false
 images: []
 ---
 
-**Note that this document is still in the process of transitioning to the new format introduced in NAM 36, and may contain some outdated information.**
+{{< docstatus status="oldcontent" >}}
 
 Some additional features, such as the RealHighways (RHW), Network Widening Mod (NWM), RealRailways (RRW), High Speed Rail Project (HSRP), Turn Lanes, and PedMalls are covered in the [Feature Guides](/docs/feature-guides/) section of this documentation.
 
