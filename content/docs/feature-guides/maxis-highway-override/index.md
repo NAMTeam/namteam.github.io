@@ -10,6 +10,8 @@ draft: false
 images: []
 ---
 
+{{< docstatus status="outdated" version="NAM 35" >}}
+
 <div class="row mx-0 g-1">
 <div class="col text-center">{{< img-simple src="images/MHO_Intro2.jpg" class="" >}}</div>
 </div>
@@ -19,8 +21,6 @@ images: []
 <div class="col text-center">{{< img-simple src="images/MHO_Intro3.jpg" class="" >}}</div>
 <div class="col text-center">{{< img-simple src="images/MHO_Intro4.jpg" class="" >}}</div>
 </div>
-
-{{< docstatus status="outdated" version="NAM 35" >}}
 
 ## Preface
 
