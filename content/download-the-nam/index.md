@@ -8,6 +8,8 @@ draft: false
 images: []
 ---
 
+{{< docstatus status="compatibility" >}}
+
 The Network Addon Mod can be downloaded at the following locations:
 
 * [ModDB](https://www.moddb.com/mods/network-addon-mod)

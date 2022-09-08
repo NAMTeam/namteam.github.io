@@ -21,6 +21,10 @@ $navbar-dark-hover-color:           $link-color-dark;
 $navbar-dark-active-color:          $link-color-dark;
 
 /** Theme styles */
+[data-dark-mode] {
+  $info: $cyan !global;
+}
+
 
 [data-dark-mode] body {
   background: $body-bg-dark;
