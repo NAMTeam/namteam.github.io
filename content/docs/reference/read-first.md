@@ -9,6 +9,8 @@ draft: false
 images: []
 ---
 
+{{< docstatus status="compatibility" >}}
+
 Before you run off in excitement to install the new NAM version, please make sure to read this (short) document first, to ensure the best Network Addon Mod experience.
 
 Also, make sure you have the following installed:
