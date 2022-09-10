@@ -11,6 +11,36 @@ weight: 7
 
 # Agile Releases (2020 and later)
 
+## Version 45 (8 September 2022)
+
+* **Traffic Simulator Updates**: The NAM Traffic Simulator has been upgraded to Simulator Z 3.0, resulting in further optimizations to both the speed and accuracy of the simulation, and improved network utilization. The Low capacity version of the simulator is now the recommended version, as it provides the most optimized simulation. The Traffic Volume View Plugins have also been updated. The Traffic Simulator Configuration Tool (TSCT) has been discontinued and is no longer supported, as it was designed to work with the 2.x releases of Simulator Z, and because of the nature of the changes in the 3.0 release.
+* **Ploppable Interchanges for the RealHighway (RHW) System**: The initial QuickChange Xpress (QCX) ploppable interchanges for the RHW have been incorporated, featuring 16 Road and Avenue Diamond Interchanges, which are FLEX-based, adding to their ease-of-use and post-plop customization potential. The QCX interchanges are at the end of the RHW QuickChange menu button on the Highways Menu.
+* **Pedestrian Revolution Mod (PRM) Midblock Crosswalks**: The initial phase of the new Pedestrian Revolution Mod (PRM, or PedRev), spearheaded by developer Lucario Boricua has been added, featuring Midblock Crosswalk options for Roads, Avenues, and the two-way Network Widening Mod (NWM) override networks, in three sizes. These crosswalks calm traffic and allow for connections to the NAM's existing Pedestrian Mall (PedMall) features. The Midblock Crossings button can be found on the Roads Menu.
+* **NAMLite Package**: The initial version of NAMLite, a bite-sized package for users looking for a minimal install has been added to the download, with its own installer. NAMLite Version 1 features the Traffic Simulator, Automata Controllers, bugfixes, One-Way Roads, Roundabouts, Diagonal Streets, and the option to install the Diagonal Street FLEX/Helper Pieces, Avenue Roundabouts, and Additional Highway Interchanges for the Maxis (Elevated) Highway and Ground Highway networks.
+* **Hybrid Railway (HRW) Features**: L1 Diagonal support has been added, along with a number of new crossings.
+* **Left-Hand Driving (LHD) Improvements**: The Left-Hand Driving (LHD) functionality of the NAM has been dramatically overhauled and improved, fixing numerous bugs and improving reliability for users playing the game with traffic running on the left side of roads and rails. Note that some RHW ramp interfaces and FLEX transitions may need to be reclicked as a result of their LHD reimplementation.
+* **Documentation Upgrades**: The documentation has been thoroughly updated and now covers almost all NAM features to at least some extent, with the addition of feature guides for Hybrid Railway (HRW), the Pedestrian Revolution Mod, Ground Light Rail (GLR) and Tram Dual-Networking, the Elevated Road Viaducts, RealExpressway (REW), Utility Items (Network Eraser and Hole Diggers/Raisers), Underground Rail (URail), and the Canal Addon Mod (CAN-AM), alongside an updated glossary page.
+* **Euro Texture Optimization**: As a result of the large-scale file cleanup effort undertaken following the release of NAM 44 (known as "NAM 44X"), the NAM's Euro textures largely operate independently, and no longer rely upon overrides of the default US texture set. This has decreased the size of a Euro Texture installation of the NAM by about 300MB, and along with other optimizations, has dropped the size of the NAM download package by about 150MB.
+* **New Bridges**: A plethora of new bridges designed by IDS2 have been added this release:
+  - Walnut Street (V-Shaped Girder) Bridges: Support for Road, Street, One-Way Road, SAM Sets 2, 6, 7, 8, 9, and 10, RHW-2, and RHW-4.
+  - Antheor Viaduct (Brick Arch Viaduct) Bridges: Support for RealRailway (RRW) Dual-Track Rail (DTR) and Single-Track Rail (STR).
+  - Additionally, the existing Cable-Stayed Bridge has been ported to cover Ground Light Rail (GLR).
+* **Additional RealExpressway Ramps**: New Road-to-OWR-1 splits have been added to the RealExpressway Mod, and can be found at the end of the RealExpressway Ramps button on the Roads Menu.
+    RHW MIS Ramp and FLEX Turn Lane Additions: L1 support for MIS 2-Lane FLEX Turn Lanes (FTLs) has been added, including a new combination upward height/width transition. Additionally, network support for the MIS 2-Lane FTLs has been improved, along with the ability to use the same draggable method used on the One-Way Roads (via transition to Road prior to an intersection) for SITAP (Signalized Intersection and Turn Arrow Project) support has been incorporated. The 3x3 90° Curves for the MIS have also been ported to L1-L4 elevations.
+* **RHW Model Improvements**: Courtesy of Flann, the elevated versions of the RHW-6C and RHW-8C now feature a single median barrier, matching their ground counterparts, and eliminating the previous gap between the two halves/carriageways of the highways. Additionally, the elevated versions of the 2x2 MIS Short 90° Curves have also received further optimization. New barrier and pillar textures by Bipin have also been incorporated to coincide with these changes.
+* **Italian Translation**: As a result of the efforts of ulisse99, the entirety of the NAM has been translated into Italian.
+* **Other Bugfixes**:
+  - The level crossings for Ground Light Rail (GLR) and RealRailway (RRW) have been properly color-corrected.
+  - Adjacency issues involving the RHW-8S Type D1 and Type D1-Inside ramps have been addressed.
+  - 3x3 Street circles have been stabilized and modified to use a smoother blend curve.
+  - The Ground Light Rail (GLR) pathing on the ulisse Transit Stations has been fixed.
+  - The rotation of some intersections involving OWR-3 (esp. OWR-3 x AVE-2 +) has been corrected.
+  - Various issues with the Maxis Highway and Maxis Highway Override crossings with the RealHighway (RHW) system have been addressed.
+  - Fixes have been applied to the Elevated Light Rail and Monorail versions of the Cable-Stayed Bridge, the Steel Arch Rail Bridge, the High Elevated (30m) Monorail Bridge, and the L1/L2 RHW-8S and RHW-10S Viaduct Bridges.
+  - Some stop point issues causing some signals on AVE-6 intersections with Avenue to remain permanently green have been addressed.
+  - The model for the SimGoober-Style Canal Station in the Canal Addon Mod (CAN-AM) plugin has been fixed by Tyberius06.
+
+
 ## Version 44 (22 March 2022)
 
 * **Hybrid Railway (HRW) Features**: The Hybrid Railway system now features FA-2 Alt content, new textures to blend with the RealRailway (RRW) system, improvements to catenaries, and major improvements to Left-Hand Drive [LHD] support.
