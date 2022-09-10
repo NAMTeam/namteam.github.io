@@ -120,7 +120,7 @@ Furthermore, the changes have also broken simmaster07's SC4MacInjector, which al
 
 Additionally, the installation procedure for the NAM varies depending on if one is using the Steam version or the App Store version.
 
-With the Steam version, the NAM will install into the correct location by default: **/Users/{username}/Documents/SimCity 4/Plugins/**.
+With the Steam version, the NAM will install into the correct location by default: `/Users/{username}/Documents/SimCity 4/Plugins/`.
 
 The NAM Team is not familiar enough with the App Store version to give reliable installation instructions, and we would instead refer users to the [SC4 Mac Users board at Simtropolis](https://community.simtropolis.com/forums/forum/20-sc4-mac-users/) for assistance.
 
