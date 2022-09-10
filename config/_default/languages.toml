@@ -11,3 +11,10 @@
   [de.params]
     languageISO = "DE"
     languageTag = "de-DE"
+
+[it]
+  languageName = "Italian"
+  weight = 15
+  [it.params]
+    languageISO = "IT"
+    languageTag = "it-IT"
