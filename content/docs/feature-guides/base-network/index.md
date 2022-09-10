@@ -1,6 +1,7 @@
 ---
-title : "Base Network"
-description: ""
+title : "Base Network Additions"
+url: "/docs/feature-guides/base-network"
+description: "This file is a general outline to the contents that the Network Addon Mod has, and is intended for anyone and everyone to read."
 lead: "This file is a general outline to the contents that the Network Addon Mod has, and is intended for anyone and everyone to read. "
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
