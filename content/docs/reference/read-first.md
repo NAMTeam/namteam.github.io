@@ -147,7 +147,7 @@ Furthermore, the changes have also broken simmaster07's SC4MacInjector, which al
 
 Additionally, the installation procedure for the NAM varies depending on if one is using the Steam version or the App Store version.
 
-With the Steam version, the NAM will install into the correct location by default: `**/Users/{username}/Documents/SimCity 4/Plugins/**`.
+With the Steam version, the NAM will install into the correct location by default: `/Users/{username}/Documents/SimCity 4/Plugins/`.
 
 The NAM Team is not familiar enough with the App Store version to give reliable installation instructions, and we would instead refer users to the [SC4 Mac Users board at Simtropolis](https://community.simtropolis.com/forums/forum/20-sc4-mac-users/) for assistance.
 
@@ -204,7 +204,7 @@ The default directory for where SimCity 4.exe may be located depends on how and 
 
 #### Running the Controller Compiler
 
-If you are an advanced user, and would like to trim down your installation of the NAM, it is still possible to run the NAM Controller Compiler (a cross-platform application) after installing the NAM. Extract/open the _"Controller Compiler"_ folder, and double-click the file _"NAMControllerCompiler.jar"_. Select the 'input' folder _"Network Addon Mod/Controller/"_ from the current "Controller Compiler" directory, and the 'output' folder _"~/Documents/SimCity 4/Plugins/Network Addon Mod/"_ inside your plugins. For the rest, follow the instructions of the compiler.
+If you are an advanced user, and would like to trim down your installation of the NAM, it is still possible to run the NAM Controller Compiler (a cross-platform application) after installing the NAM. Extract/open the _"Controller Compiler"_ folder, and double-click the file _"NAMControllerCompiler.jar"_. Select the 'input' folder _"Network Addon Mod/Controller/"_ from the current "Controller Compiler" directory, and the 'output' folder `~/Documents/SimCity 4/Plugins/Network Addon Mod/` inside your plugins. For the rest, follow the instructions of the compiler.
 
 #### Regarding "DatPacking" and File Consolidation Post-Installation
 
