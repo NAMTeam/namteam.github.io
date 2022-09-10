@@ -4,7 +4,7 @@
 <div class="alert text-danger border border-danger border-5 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">The documentation on this page is out of date.</span><br/>
-    <span class="fs-6">This documentation was last updated with {{ .Get "version" | default "an old version of the NAM" }}. It is in the process of being rewritten.</span>
+    <span class="fs-6">This documentation was last updated with <strong>{{ .Get "version" | default "an old version of the NAM" }}</strong>. It is in the process of being rewritten.</span>
   </div>
 </div>
 {{ else if eq $status "oldcontent" -}}
