@@ -8,3 +8,7 @@ draft: false
 images: []
 weight: 10
 ---
+
+{{< docstatus status="compatibility" >}}
+
+This section contains technical and installation information about the Network Addon Mod for SimCity 4.

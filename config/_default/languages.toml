@@ -5,9 +5,9 @@
     languageISO = "EN"
     languageTag = "en-US"
 
-[de]
-  languageName = "Deutsch"
+[it]
+  languageName = "Italiano"
   weight = 15
-  [de.params]
-    languageISO = "DE"
-    languageTag = "de-DE"
+  [it.params]
+    languageISO = "IT"
+    languageTag = "it-IT"

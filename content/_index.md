@@ -14,7 +14,7 @@ Please note that this documentation is still in a state of transition, and some 
 
 The most recent version of this documentation may always be found at [https://www.sc4nam.com](https://www.sc4nam.com).
 
-**In memory of Paul Pedriana, Lead Programmer for SimCity 4, who passed away in July 2021 from a sudden heart attack while cycling. Thank you, Paul, for everything--we wouldn't be here without you.**
+**This release is dedicated to CorinaMarie, Admin at Simtropolis (and co-author of our batch script)--we wish you the best in your recovery, and hope to see you back soon.**
 
 ![](images/intro1.jpg)&nbsp;![](images/intro3.jpg)
 
