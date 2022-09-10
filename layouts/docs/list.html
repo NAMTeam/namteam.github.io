@@ -6,11 +6,11 @@
       <div class="text-center">{{ .Content }}</div>
 			<div class="card-list">
 				{{ $currentSection := .CurrentSection }}
-				{{ range where .Site.RegularPages.ByTitle "Section" .Section }}
+				{{ range where .Site.RegularPages.ByWeight "Section" .Section }}
 					{{ if in (.RelPermalink | string) $currentSection.RelPermalink }}
 						<div class="card my-3">
 							<div class="card-body">
-								<a class="stretched-link" href="{{ .RelPermalink }}">{{ .Params.title | title }} &rarr;</a>
+								<a class="stretched-link h4 link-primary" href="{{ .RelPermalink }}">{{ .Params.title | title }} &raquo;</a>
 							</div>
 						</div>
 					{{ end }}
