@@ -14,7 +14,7 @@ Si noti che questa documentazione è ancora in fase di transizione e che alcuni 
 
 La versione più recente di questa documentazione è sempre disponibile all'indirizzo [https://www.sc4nam.com](https://www.sc4nam.com).
 
-**In memoria di Paul Pedriana, programmatore capo di SimCity 4, scomparso nel luglio 2021 per un improvviso attacco di cuore mentre era in bicicletta. Grazie, Paul, per tutto: non saremmo qui senza di te.
+**In memoria di Paul Pedriana, programmatore capo di SimCity 4, scomparso nel luglio 2021 per un improvviso attacco di cuore mentre era in bicicletta. Grazie, Paul, per tutto: non saremmo qui senza di te.**
 
 ![](images/intro1.jpg)&nbsp;![](images/intro3.jpg)
 
