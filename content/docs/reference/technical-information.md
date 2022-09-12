@@ -9,7 +9,8 @@ draft: false
 images: []
 ---
 
-**Note that this document is still in the process of transitioning to the new format introduced in NAM 36, and may contain some outdated information.**
+{{< docstatus status="outdated" >}}
+
 While it is mainly intended for persons with the skills to open the NAM's associated file(s), it contains important information about the game. Therefore the following information aims at the more technical side of things and should only be considered as an additional source of information about the mods' files &/or game. To install the mod, please refer to the [Installation Instructions](/docs/reference/installation-notes/).
 
 ## 1. Known (Game) Issue(s) &/or Bugs
@@ -23,7 +24,7 @@ Because we do not have the same level of tools &/or degree of control over the g
 
 SimCity 4's Networks, in general, exhibit a proximity behaviour when actively using the bulldozing tool &/or the different Networking Tools (Street, Road, Avenue, Rail, etc). When actively using these tools to bulldoze &/or draw a section of network, intersection tile &/or otherwise, this proximity behaviour can sometimes invoke issues, drawing bugs &/or otherwise in certain circumstances that may not otherwise occur normally. Such issues may also prevent the drawing of an intersection &/or section of network that might otherwise be possible to draw. This proximity behaviour is generally 3 to 4 tiles, but may be higher or lower in some cases.
 
-**Solution**
+#### **Solution**
 
 While this proximity behaviour may be overcome in some cases by implementing the necessary rules for the game for such issues, the time it would take outweighs the benefits of implementing such rules in most cases (though some rules have been implemented for some of these). Often times, some issues may be rectified by bulldozing &/or re-drawing a section of network, intersection tile &/or otherwise, making sure the same action, series of actions, or set-up, that invoked the issue in the first place is not repeated.
 
@@ -31,7 +32,7 @@ While this proximity behaviour may be overcome in some cases by implementing the
 
 SimCity 4's Pathing system, in general, is controlled by a set of rules. For each tile of network that exists in the game, there is a Path file, & Paths (or Plotting Points) within that file, for the in-game tile. Unfortunately, some aspects of SimCity 4's Pathing system are controlled by the games engine (or EXE). Because of this, some custom-based items may currently have UDI/Pathing issues with them, & exhibit commuter &/or UDI behaviour that may not &/or should not occur normally. Some Custom-Based Interchanges & Rail-Based networks, at least, are known to be affected by this to some degree.
 
-### 1.4 Interchange-Base Related Items - Placement -
+### 1.4 Interchange-Base Related Items - Placement
 
 There are two known critical bugs that exist with the game that are related to Interchange-Base RelatedItems, & the placement of these items. The following section explains these two bugs.
 
@@ -39,17 +40,17 @@ There are two known critical bugs that exist with the game that are related to I
 
 A bug exists that can potentially prevent the removal of a zones' Building/Lot. This same bug also has the potential to cause the game to crash. The exact precise cause of the issue is not known. The following outlines the general-case scenario in which these issues may arise & possible solution:
 
-**Items related to known issue:**
+##### **Items related to known issue:**
 
 * Zones of any type (excluding Landfill) & the associated Buildings/Lots that spur from &/or sit on these zones. This can include residential, commercial, industrial zones, of all density levels, & their related Buildings &/or Lots. These related Buildings/Lots can include both Maxis originals & any custom made Buildings/Lots related to zones.
 * Interchange Related Item(s) (IRI); this can include both Maxis originals & any custom made items that are interchange-base related, such as; Highway Overpasses; Ramps; Cloverleafs; PuzzlePieces; & other similar item(s).
 * Route Query Tool &/or Normal Query Tool (in the case of the game crashing).
 
-**Point of Issue Arising &/or Crashing:**
+##### **Point of Issue Arising &/or Crashing:**
 
 If an IRI is built on already existing zones' Buildings/Lots, the removal of these buildings where the IRI is &/or was built may potentially no longer be possible to properly remove. Using either the Route Query Tool &/or Normal Query Tool on these affected Buildings/Lots, including even just hovering the Query Tool over any affected Lots, may also potentially cause the game to instantly crash to the desktop.
 
-**Solution:**
+##### **Solution:**
 
 In order for this bug not to be triggered in the first place, it is highly advisable that when placing an IRI that the terrain below the item be clear, & not contain any zones, &/or related buildings.
 
@@ -57,19 +58,19 @@ If by some reason the bug has been triggered, i.e. an IRI has been built on some
 
 #### 1.4.2 Placement & Transit Enabled Lots
 
-An issue with the game which may cause the game to **crash**has been identified. At this time the exact precise cause of the issue is yet to be determined. The following outlines the general-case scenario in which the issue may cause the game to crash:
+An issue with the game which may cause the game to **crash** has been identified. At this time the exact precise cause of the issue is yet to be determined. The following outlines the general-case scenario in which the issue may cause the game to crash:
 
-**Items related to known issue:**
+##### **Items related to known issue:**
 
 * Transit Enabled Lot(s) (TEL); this can include both Maxis originals & any custom made TEL.
 * Interchange Related Item(s) (IRI); this can include both Maxis originals & any custom made items that are interchange-base related, such as; Highway Overpasses; Ramps; Cloverleafs; PuzzlePieces; & other similar item(s).
 * Cursor of Interchange-base Related Item(s).
 
-**Point of Crashing:**
+##### **Point of Crashing:**
 
 If the Cursor contains an IRI on it & then this Cursor is hovered over &/or clicked on (&/or repeated) a TEL, it can in some circumstantial cases cause the game to instantly crash to the desktop. Currently this is only known to occur if the IRIs' network on the Cursor is the same network with which the TEL is compatible with.
 
-**Solution:**
+##### **Solution:**
 
 Currently at this time, a full-proof work-around to the issue is not yet known. It is simply advised that users avoid moving the Cursor over a TEL if the Cursor has an IRI on it to minimize the chances of the game crashing. It is also advised that any TEL that exists in a city has its compatible network drawn right into/through the Lot, as this will also minimize the chances of the game crashing.
 
@@ -101,11 +102,11 @@ If you've changed the look and/or contents of any of these above files, &/or use
 
 The Network Addon Mod includes, depends on, and uses a number of files that are unique to games' engine. Because of this, certain files can not be replicated, changed, removed, &/or modified without any change, consequences &/or adverse affects on the game. These files include, but are not limited to, the following specific files [with Instance IDs]:
 
-**Cohort File(s)**
+#### **Cohort File(s)**
 
 * ElTrain Cohort - 0x8BBF6D45
 
-**Exemplar File(s)**
+#### **Exemplar File(s)**
 
 * Traffic Simulator - 0xC9133286
 * Automata Tuning - 0x00000001
@@ -113,7 +114,7 @@ The Network Addon Mod includes, depends on, and uses a number of files that are 
 * Dirt Road Placement Tuning Parameters - 0xEBE08CDA
 * Traffic Commute Graph - 0x0000000B [This file is included with " _..._10xCommute_" files]
 
-**RUL File(s)**
+#### **RUL File(s)**
 
 * Highway - 0x00000001
 * Highway - 0x00000002
@@ -136,7 +137,7 @@ The Network Addon Mod includes, depends on, and uses a number of files that are 
 * Intersection Solutions - 0x10000001
 * Rule Overrides - 0x10000002
 
-**INI File(s)**
+#### **INI File(s)**
 
 * Network Parameters - 0x8A5993B9
 
@@ -146,7 +147,7 @@ The Network Addon Mod includes, depends on, and uses a number of files that are 
 
 Because the game has Left-hand & Right-hand driving versions, covering all the different Pathing possibilities involved in relation to OneWayRoad Puzzle Pieces, in an efficient & effective manner, sometimes makes them somewhat problematic to code/path for. For this reason some OneWayRoad Puzzle Pieces, namely **Intersection-Based** related Puzzle Pieces, contain Bi-Directional Pathing for both forward and reverse Pathing files, or Right-hand & Left-hand drive. The same also applies to some Road & Avenue Intersection-Based Puzzle Pieces. This was done as a preventative measure to overcome any complication issues that may have arisen with players using the items of this mod that are associated with, namely OneWayRoad, Puzzle Pieces, with having any functional &/or just general problems with them. As a result players may notice some pathing &/or automata oddities &/or issues with/when using these particular items of the mod.
 
-The above paragraph typically does not apply to Puzzle Pieces or Overpasses that contain **Directional Arrows**. Puzzle Pieces & Overpasses that contain **Directional Arrows**should function properly as they should, typically without any Pathing/Automata oddities, as long as they are placed & linked up properly according to their **Directional Arrows**.
+The above paragraph typically does not apply to Puzzle Pieces or Overpasses that contain **Directional Arrows**. Puzzle Pieces & Overpasses that contain **Directional Arrows** should function properly as they should, typically without any Pathing/Automata oddities, as long as they are placed & linked up properly according to their **Directional Arrows**.
 
 ### 3.2 U-Drive-It &/for EI Rail
 
@@ -205,13 +206,13 @@ This section is an extension from the above section that deals with NAM ID Conve
 
 This section deals with the 'Left-Hand Version Rail Networks fix' included in the Network Addon Mod.
 
-Right-Hand Drive Version versus Left-Hand Drive Version; SimCity 4 path files were written with Right-Hand Drive players in mind. Nearly all **Path files**were written with Right-Hand drive as the default. This applies to road-based networks such as street, road, avenue, & rail-based networks such as rail, monorail & elevated rail. For Left-Hand Drive versions, the game automatically reverses all road based pathing (or "Car" pathing), with the exception of onewayroads. The game does not however, apply this same automatic reversal for rail-based networks; and this is why this fix has, in part, been created.
+Right-Hand Drive Version versus Left-Hand Drive Version; SimCity 4 path files were written with Right-Hand Drive players in mind. Nearly all **Path files** were written with Right-Hand drive as the default. This applies to road-based networks such as street, road, avenue, & rail-based networks such as rail, monorail & elevated rail. For Left-Hand Drive versions, the game automatically reverses all road based pathing (or "Car" pathing), with the exception of onewayroads. The game does not however, apply this same automatic reversal for rail-based networks; and this is why this fix has, in part, been created.
 
-This fix makes use of the games INI Network file that enables manual reversing of path files specifically for Left Hand Versions through the use of special InstanceID masking & path file replacement, upon which the exe automatically scans at runtime. Unfortunately, current tests show that the Subway network is an exception to this. For this reason these paths have been included in an additional Plugin for Left-Hand versions. This extra additional Plugin also contains other files for Left-Hand versions. This extra dat Plugin should only be used for Left Hand drive versions. See the [Installation Instructions](2-installation.html)regarding the installation of this extra Plugin file.
+This fix makes use of the games INI Network file that enables manual reversing of path files specifically for Left Hand Versions through the use of special InstanceID masking & path file replacement, upon which the exe automatically scans at runtime. Unfortunately, current tests show that the Subway network is an exception to this. For this reason these paths have been included in an additional Plugin for Left-Hand versions. This extra additional Plugin also contains other files for Left-Hand versions. This extra dat Plugin should only be used for Left Hand drive versions. See the [Installation Instructions](/docs/installation-notes/) regarding the installation of this extra Plugin file.
 
 This particular fix will impact on Left-Hand Drive Versions. Because of the necessary adjustments that have been made, this fix will subsequently impact on Transit Enabled Lots, for Left Hand Versions. The following explains this impact in more detail.
 
-Transit Enabled Lots
+### Transit Enabled Lots
 
 Transit Enabled Lots that do not specify an actual Path file &/or just use simple RUL Flags in its LotConFig property, then it should not be affected & no change should need to be made. However, Transit Enabled Lots that actually specify path file(s) in any of their LotConFig Properties will most likely be affected & may need modifying. Transit Enabled Lots of this type will typically have 0x00000007 type LotConFig properties (or in other words; 0x00000007 as the first value), & have 16+ values for the LotConFig property, specifying actual path files (i.e. InstanceID) in the 16th+ value. To overcome any adverse affects this fix may cause, for Transit Enabled Lots for Left Hand Versions, please read the following very carefully;
 

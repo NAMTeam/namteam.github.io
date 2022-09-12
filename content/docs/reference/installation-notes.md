@@ -43,7 +43,7 @@ Additionally, the addition of any plugins to the game will have at least some ef
 * D) Retail Mac digital copies of SimCity 4 Deluxe, purchased through Steam or the App Store. (Note: technical support availability from the NAM Team is limited for Steam version users, and _very limited_ for macOS Store version users.)
 * E) Retail Mac disc copies of SimCity 4 Deluxe, running on macOS/OS X Version 10.6 (Snow Leopard) or earlier Note: technical support availability from the NAM Team _very limited_ for Mac disc version users, and the ability to run Full 4GB/RHW-inclusive installation options is an unknown.).
 
-**The Network Addon Mod is NOT compatible with the following versions of the game:**
+**The Network Addon Mod is _NOT_ compatible with the following versions of the game:**
 
 * F) Retail disc copies of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion Pack that have not been patched (Version 1.1.610 or 1.1.613).
 * G) Retail Windows digital copies of SimCity 4 Deluxe purchased from the Origin Store or the EA app (these are perma-unpatched to Version 1.1.610).

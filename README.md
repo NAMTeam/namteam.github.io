@@ -73,3 +73,93 @@ Using the above example, you can see that a German language version of `index.md
 ```
 
 Please note that if you need to add a new language to the list, you will also need to edit `/config/_default/languages.toml` (pay attention to indentation!). 2 letter ISO codes are used, for a list you can [refer to this document](https://www.iban.com/country-codes). Use the lower-case versions otherwise our documentation engine freaks out.
+
+### Short codes
+
+There are a handful of Hugo shortcodes that can be used to make developing documentation easier. Take a look in `~/layouts/shortcodes` to see a full list of them.
+
+#### Alert
+
+Shortcode: 
+```
+{{< alert context="CONTEXT" text="This is an example alert." >}}
+```
+The above shortcode uses a simple string to create the alert. 
+
+The following contexts are supported:
+* primary
+* info
+* success
+* warning
+* danger
+
+An alternative shortcode can be used using the following (if you wish to use Markdown within the alert):
+```
+{{< alert context="CONTEXT" >}}
+This is an example multi-line alert.
+
+<span class="text-success">You can even add custom HTML to the alert.</span>
+{{< /alert >}}
+```
+
+#### Details
+Shortcode:
+```
+{{< details <summary> [state] >}}
+<content>
+{{< /details >}}
+```
+
+#### Document Status
+
+This is a variation of the Alert shortcode however it has different statuses depending on what's required.
+
+Shortcode:
+```
+{{< docstatus status="STATUS" >}}
+```
+
+The following statuses are supported:
+
+* (blank) - Defaults to "not yet written"
+* `outdated` - Documentation is outdated. Optionally you can add `version="VERSION"` to the shortcode to state what version of the NAM the documentation refers to.
+* `oldcontent` - Warns that the documentation refers to older content but is still useful for reference with the current NAM version.
+* `compatibility` - EA App/Origin compatibility warning. Refers to the current issue with the NAM not being able to run on EA App/Origin copies of SimCity 4.
+
+#### Simple image
+
+(note: a feature including galleries will come out soon in a future version of this documentation)
+
+This will allow you to create quick, simple images that can be inserted into the body of documentation, with additional CSS classes.
+
+Shortcode:
+```
+{{< img-simple src="SOURCE" class="" >}}
+```
+
+Standard Bootstrap 5.2 classes can be used.
+
+#### Table of Contents
+
+While "On This Page" appears on most pages in the NAM documentation, an additional table of contents can be added. This will retrieve headings down to `h3`, any further will not display.
+
+Shortcode:
+```
+{{< toc >}}
+```
+
+## Credits
+
+[In addition to the main NAM team](https://www.sc4nam.com/docs/reference/credits/), the following people (so far!) have contributed to getting this documentation project off the ground:
+
+* h3ndofry
+* jflann
+* memo33
+* ulisse99
+
+### Developers
+
+These are the third party developers who made this project possible:
+
+* [h-enk](https://github.com/h-enk/doks) - creator of Doks (and Hyas) - the base on which the NAM documentation is built.
+* [Hugo](https://gohugo.io/) - the Go-based templating engine
