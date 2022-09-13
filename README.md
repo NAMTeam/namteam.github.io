@@ -148,6 +148,18 @@ Shortcode:
 {{< toc >}}
 ```
 
+#### Table
+
+This is probably our bread and butter. Use a [Markdown table generator](https://www.tablesgenerator.com/markdown_tables) to make a Markdown table, paste it inside the below shortcode:
+
+```
+{{< table class="CLASS" >}}
+MARKDOWN_TABLE
+{{< /table >}}
+```
+
+`class` will accept any Bootstrap class.
+
 ## Credits
 
 [In addition to the main NAM team](https://www.sc4nam.com/docs/reference/credits/), the following people (so far!) have contributed to getting this documentation project off the ground:

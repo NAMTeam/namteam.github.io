@@ -53,195 +53,38 @@ The second major area of work on the original Simulator Z involved a more flexib
 
 The NAM Traffic Simulator comes in five capacity versions - Classic, Low, Medium, High, and Ultra. The name of the version refers to the network capacities in the simulator. The name "Classic" refers to the fact that the capacities are similar to those used in the original Maxis traffic simulator. The following is a list of the network capacities for each version of the simulator; all capacities are per tile (for two-tile networks such as the Avenue and Highways, multiply the value by 2):
 
-<table class="table table-striped-columns table-md-responsive w-auto">
-    <thead class="fw-bold">
-        <tr>
-            <td>Network</td>
-            <td>Classic</td>
-            <td>Low</td>
-            <td>Medium</td>
-            <td>High</td>
-            <td>Ultra</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Street:</td>
-            <td>750</td>
-            <td>1500</td>
-            <td>2400</td>
-            <td>3600</td>
-            <td>7200</td>
-        </tr>
-        <tr>
-            <td>Road:</td>
-            <td>1200</td>
-            <td>2400</td>
-            <td>4000</td>
-            <td>6000</td>
-            <td>12000</td>
-        </tr>
-        <tr>
-            <td>Avenue:</td>
-            <td>1200</td>
-            <td>2400</td>
-            <td>4000</td>
-            <td>6000</td>
-            <td>12000</td>
-        </tr>
-        <tr>
-            <td>One-Way Road:</td>
-            <td>1800</td>
-            <td>3600</td>
-            <td>6000</td>
-            <td>9000</td>
-            <td>18000</td>
-        </tr>
-        <tr>
-            <td>Highway (Ground and Elevated):</td>
-            <td>3750</td>
-            <td>7500</td>
-            <td>12500</td>
-            <td>18750</td>
-            <td>37500</td>
-        </tr>
-        <tr>
-            <td>RealHighway:</td>
-            <td>3000</td>
-            <td>6000</td>
-            <td>10000</td>
-            <td>15000</td>
-            <td>30000</td>
-        </tr>
-        <tr>
-            <td>Subway/Elevated Rail/Ground Light Rail:</td>
-            <td>5000</td>
-            <td>10000</td>
-            <td>16000</td>
-            <td>30000</td>
-            <td>65200</td>
-        </tr>
-        <tr>
-            <td>Monorail/High Speed Rail:</td>
-            <td>5000</td>
-            <td>10000</td>
-            <td>16000</td>
-            <td>30000</td>
-            <td>65200</td>
-        </tr>
-        <tr>
-            <td>Rail:</td>
-            <td>5000</td>
-            <td>10000</td>
-            <td>16000</td>
-            <td>30000</td>
-            <td>65200</td>
-        </tr>
-    </tbody>
-</table>
+{{< table class="table table-md-responsive w-auto table-bordered border-default table-striped-columns" >}}
+|Network|Classic|Low|Medium|High|Ultra|
+|:----|:----:|:---:|:---:|:---:|:---:|
+|Street:|750|1500|2400|3600|7200|
+|Road:|1200|2400|4000|6000|12000|
+|Avenue:|1200|2400|4000|6000|12000|
+|One-Way Road:|1800|3600|6000|9000|18000|
+|Highway (Ground and Elevated):|3750|7500|12500|18750|37500|
+|RealHighway:|3000|6000|10000|15000|30000|
+|Subway/Elevated Rail/Ground Light Rail:|5000|10000|16000|30000|65200|
+|Monorail/High Speed Rail:|5000|10000|16000|30000|65200|
+|Rail:|5000|10000|16000|30000|65200|
+{{< /table >}}
 
-All versions of the NAM Traffic Simulator use the same speed settings for the various networks, as shown below:
+{{< table class="table table-md-responsive w-auto table-bordered border-default table-striped-columns" >}}
+|Vehicle Type|Rail|
+|:----|:----:|
+|Passenger Train|140|
+|Freight Train|105|
+{{< /table >}}
 
-<table class="table table-striped-columns w-auto">
-    <thead class="fw-bold">
-        <tr>
-            <td>Vehicle Type</td>
-            <td>Street</td>
-            <td>Road</td>
-            <td>Avenue</td>
-            <td>One-Way Road</td>
-            <td>Maxis Highway</td>
-            <td>RealHighway</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Car</td>
-            <td>30</td>
-            <td>50</td>
-            <td>50</td>
-            <td>75</td>
-            <td>150</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>Bus</td>
-            <td>25</td>
-            <td>45</td>
-            <td>45</td>
-            <td>65</td>
-            <td>150</td>
-            <td>150</td>
-        </tr>
-        <tr>
-            <td>Freight Truck</td>
-            <td>25</td>
-            <td>40</td>
-            <td>45</td>
-            <td>60</td>
-            <td>130</td>
-            <td>130</td>
-        </tr>
-        <tr>
-            <td>Pedestrian</td>
-            <td>15</td>
-            <td>15</td>
-            <td>15</td>
-            <td>15</td>
-            <td>0</td>
-            <td>10</td>
-        </tr>
-    </tbody>
-</table>
+{{< table class="table table-md-responsive w-auto table-bordered border-default table-striped-columns" >}}
+|Vehicle Type|Ground/Elevated Light Rail/Subway|
+|:----|:----:|
+|Light Rail Train/Tram|115|
+{{< /table >}}
 
-<table class="table table-striped-columns w-auto">
-    <thead class="fw-bold">
-        <tr>
-            <td>Vehicle Type</td>
-            <td>Rail</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Passenger Train</td>
-            <td>140</td>
-        </tr>
-        <tr>
-            <td>Freight Train</td>
-            <td>105</td>
-        </tr>
-    </tbody>
-</table>
-
-<table class="table table-striped-columns w-auto">
-    <thead class="fw-bold">
-        <tr>
-            <td>Vehicle Type</td>
-            <td>Ground/Elevated Light Rail/Subway</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Light Rail Train/Tram</td>
-            <td>115</td>
-        </tr>
-    </tbody>
-</table>
-
-<table class="table table-striped-columns w-auto">
-    <thead class="fw-bold">
-        <tr>
-            <td>Vehicle Type</td>
-            <td>Monorail/High Speed Rail</td>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Monorail/High Speed Rail Train</td>
-            <td>225</td>
-        </tr>
-    </tbody>
-</table>
+{{< table class="table table-md-responsive w-auto table-bordered border-default table-striped-columns" >}}
+|Vehicle Type|Monorail/High Speed Rail|
+|:----|:----:|
+|Monorail/High Speed Rail Train|225|
+{{< /table >}}
 
 Which simulator version is appropriate for a particular city depends primarily on three things: the population of the city, the amount of rapid transit (rails) available, and the type of simulator used. Less capacity is needed for lower population cities, but less capacity is also required for cities with a lot of rapid transit. Finally, as mentioned above, the Classic and Low capacity simulators use the best pathfinder, and will therefore give the best simulation results if they can be used. So pick a simulator version based on these three factors; if it doesn't seem to be the right capacity, you can always switch it out for a different capacity version by rerunning the NAM installer. Experience has shown that in large cities, the effects of such a switch may take up to five years to fully manifest. You can tell when things have stabilized by looking at the Traffic Volume Graph in the following way: First, let the game run until there is a sudden shift in traffic patterns. Sometimes, this may take over a year. Then run the game until you go at least a full year without any sudden change in traffic patterns. At that point, the transition to the new capacity simulator is complete. All this can be done without any harmful effects to your city.
 
