@@ -8,6 +8,8 @@ draft: false
 images: []
 ---
 
+{{< docstatus status="oldcontent" >}}
+
 *Note:** The Automata Plugins are also referred as Automata Controllers, like other NAM files where only one file can be installed at a time.
 
 **IT IS IMPORTANT THAT YOU ONLY USE ONE OF THE "..._Automata_Plugin_..." FILES, & ONE ONLY. The NAM Installer should ensure this.**
