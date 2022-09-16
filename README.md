@@ -122,6 +122,7 @@ Shortcode:
 The following statuses are supported:
 
 * (blank) - Defaults to "not yet written"
+* `workinprogress` = Documentation is in progress and subject to change.
 * `outdated` - Documentation is outdated. Optionally you can add `version="VERSION"` to the shortcode to state what version of the NAM the documentation refers to.
 * `oldcontent` - Warns that the documentation refers to older content but is still useful for reference with the current NAM version.
 * `compatibility` - EA App/Origin compatibility warning. Refers to the current issue with the NAM not being able to run on EA App/Origin copies of SimCity 4.
