@@ -23,6 +23,13 @@
     <a href="/docs/reference/read-first/#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass" role="button" class="btn btn-info btn-lg text-decoration-none">Read more</a>
   </div>
 </div>
+{{ else if eq $status "workinprogress" -}}
+<div class="alert border border-warning border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">The documentation on this page is in progress.</span><br/>
+    <span class="fs-6">The contents of this document are undergoing revision and are subject to change.</span>
+  </div>
+</div>
 {{ else }}
 <div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
@@ -53,6 +60,13 @@
     <span class="h4 fw-bold text-info">ITALIAN: Compatibility Warning - EA App and Origin Copies of SimCity 4 Deluxe</span><br/>
     <p class="fs-6 text-info">Digital copies of SimCity 4 Deluxe purchased via EA.com, the EA App, or the Origin Store feature an unpatched executable that is below the minimum requirements for this mod. The same is true if playing the game via an EA Play or Xbox Game Pass subscription. </p>
     <a href="/it/docs/reference/read-first/#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass" role="button" class="btn btn-info btn-lg text-decoration-none">Read more</a>
+  </div>
+</div>
+{{ else if eq $status "workinprogress" -}}
+<div class="alert border border-warning border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">ITALIAN: The documentation on this page is in progress.</span><br/>
+    <span class="fs-6">The contents of this document are undergoing revision and are subject to change.</span>
   </div>
 </div>
 {{ else }}
