@@ -2,4 +2,52 @@ table {
   @extend .table;
 
   margin: 3rem 0;
+
+  &.nam-compat-status {
+
+    tbody {
+      border-top: 2px solid var(--bs-table-border-color);
+    }
+
+    th:first-child, td:first-child { 
+      font-weight: bold;
+      border-right: 2px solid var(--bs-table-border-color);
+    }
+    
+    td[data-compat='yes'] {
+      color: $white;
+      background-color: darken($green, 5%);
+    }
+
+    td[data-compat='partial'] {
+      background-color: darken($yellow, 5%);
+    }
+
+    td[data-compat='no'] {
+      color: $white;
+      background-color: darken($red, 5%);
+    }
+  }
+
+}
+
+[data-dark-mode] {
+  table {
+    &.nam-compat-status {
+      td[data-compat='yes'] {
+        color: inherit;
+        background-color: darken($green, 15%);
+      }
+
+      td[data-compat='partial'] {
+        color: $white;
+        background-color: darken($yellow, 15%);
+      }
+
+      td[data-compat='no'] {
+        background-color: darken($red, 15%);
+      }
+
+    }
+  }
 }
