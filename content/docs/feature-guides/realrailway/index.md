@@ -325,7 +325,7 @@ Of course this action is not needed if the network being crossed is the Rail net
 #### Crossing Support
 
 ##### L1
-
+{{< table class="table-bordered nam-compat-status" >}}
 |      Network     |   OxO   | OxD | DxO | DxD |
 |:----------------:|:-------:|:---:|:---:|:---:|
 |      Street      |   Yes   |  No |  No |  No |
@@ -362,9 +362,11 @@ Of course this action is not needed if the network being crossed is the Rail net
 |        TIA       | Partial |  No |  No |  No |
 |     SAM Sets     |   Yes   |  No |  No |  No |
 |       GHSR       |   Yes   |  No |  No |  No |
+{{< /table >}}
 
 ##### L2
 
+{{< table class="table-bordered nam-compat-status" >}}
 |      Network     |   OxO   | OxD | DxO | DxD |
 |:----------------:|:-------:|:---:|:---:|:---:|
 |      Street      |   Yes   |  No |  No |  No |
@@ -401,6 +403,7 @@ Of course this action is not needed if the network being crossed is the Rail net
 |        TIA       | Partial |  No |  No |  No |
 |     SAM Sets     |   Yes   |  No |  No |  No |
 |       GHSR       |   Yes   |  No |  No |  No |
+{{< /table >}}
 
 ## Credits
 
