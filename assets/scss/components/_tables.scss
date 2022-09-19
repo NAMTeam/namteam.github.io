@@ -20,7 +20,7 @@ table {
     }
 
     td[data-compat='partial'] {
-      background-color: darken($yellow, 5%);
+      background-color: lighten($yellow, 5%);
     }
 
     td[data-compat='no'] {
