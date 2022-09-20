@@ -37,7 +37,11 @@ At first, RealRailway was basic in appearance and functionality.  However, furth
 
 ## Basic Usage  
 
-RealRailway is a complete replacement of the rail network.  Basic double-track rail (**DTR**) is drawn using the rail tool and advanced functionality is achieved with draggable patterns or ploppable FLEX pieces.  Single-track rail (**STR**) is provided as an override network and can initiated by a dedicated starter or by certain FLEX turnouts.  RRW also covers legacy DTR puzzle pieces and wide radius curves.  
+RealRailway is a complete replacement of the rail network.  Basic double-track rail (**DTR**) is drawn using the rail tool and advanced functionality is achieved with draggable patterns or ploppable FLEX pieces.  Single-track rail (**STR**) is provided as an override network and can initiated by a dedicated starter or by certain FLEX turnouts.  RRW also covers legacy DTR puzzle pieces and wide radius curves.
+
+An explanation of the RRW menu icons is given below.
+
+![RRW Icons](images/RealRailway-RailwayAddonMod-Icons.jpg)
 
 ## FlexTrack
 
@@ -59,65 +63,31 @@ The patterns and resultants are shown below.
 
 ![Drag pattern RRW orthogonal s-curve](images/FlexTrack/Curves/S2-P.jpg)  
 
-![Drag pattern RRW diagonal s-curve](images/FlexTrack/Curves/S-D-P.jpg)  
+![Drag pattern RRW diagonal s-curve](images/FlexTrack/Curves/S-D-P.jpg)
+
+### Macro Curves
+
+At the start of the TAB loop for FLEX-Pieces there are a number of Pieces called _macro_-curves and switches. These are switches with wider geometry than previously-developed _mini_-curves which occupy a similar footprint. The curves and switches are offered as FLEX only due to the drag patterns arlready being used for the mini-curves. Macro-curves and switches are quite flexible in that drawing the rail tool through the piece placed down can make an array of different switches as shown in the table below.
+
+![RRW macro-curve switch chart](images/FlexTrack/macro-curves/macro-switch-chart.jpg)
 
 ### Fractional Angle Railroad (FARR)
 
 ![Screenshot of RealRailway FARR](images/RRW-FARR.jpg)
 
-Fractional Angle Rail Road (**FARR**) is the angled sections of track that conform to three angles which compiment the orthogonal (0 degrees) and diagional (45 degrees). They are FARR-3 (18.43 degrees), FARR-2 (26.56 degrees) and FARR-1.5 (33.69 degrees). At the time of writing this document the FARR is only able to be drawn out using the rail tool. Flex pieces for these sections of track are anticipated but will arrive in a future edition of the NAM.
+Fractional Angle Rail Road (**FARR**) is the angled sections of track that conform to three angles which compiment the orthogonal (0 degrees) and diagional (45 degrees). They are FARR-3 (18.43 degrees), FARR-2 (26.56 degrees) and FARR-1.5 (33.69 degrees). FARR was originally developed to use drag patterns as the means of creation, however, the majority these patterns were replaced by FLEX piece implementation with NAM 37.  FARR Flex piece usage and remaining drag patterns are documented in this section.
 
-Patterns are shown below...
+#### FARR Flex Piece Usage
 
-#### FARR-3
+![FARR Flex Piece Usage](images/flextrack/FARR/RRW-FARR-Demonstration.jpg)
 
-FARR-3 Straight
-
-![Drag pattern FARR-3 straight](images/FlexTrack/FARR/FA-3/FA-3-O-P.jpg)
-
-FARR-3 to Orthogonal
-
-![Drag pattern FARR-3 to orthogonal](images/FlexTrack/FARR/FA-3/O-FA-3-P.jpg)
-
-FARR-3 to Diagonal
-
-![Drag pattern FARR-3 to diagonal](images/FlexTrack/FARR/FA-3/D-FA-3-P.jpg)
-
-FARR-3 to FARR-2
-
-![Drag pattern FARR-3 to FARR-2](images/FlexTrack/FARR/FA-3/FA-3-FA-2-P.jpg)
-
-#### FARR-2
-
-FARR-2 Straight
-
-![Drag pattern FARR-2 straight](images/FlexTrack/FARR/FA-2/FA-2-O-P.jpg)
-
-FARR-2 to Orthogonal
-
-![Drag pattern FARR-2 to orthogonal](images/FlexTrack/FARR/FA-2/O-FA-2-P.jpg)
-
-FARR-2 to Diagonal
-
-![Drag pattern FARR-2 to diagonal](images/FlexTrack/FARR/FA-2/D-FA-2-P.jpg)
-
-FARR-2 to FARR-1.5
-
-![Drag pattern FARR-2 to FARR-1.5](images/FlexTrack/FARR/FA-2/FA-2-FA-1.5-P.jpg)
+#### FARR-2 Drag Patterns
 
 FARR-2 G2 Turnout
 
 ![Drag pattern FARR-2 G2 Turnout](images/FlexTrack/FARR/FA-2/G2-T-P.jpg)
 
-#### FARR-1.5
-
-FARR-1.5 Straight
-
-![Drag pattern FARR-1.5 straight](images/FlexTrack/FARR/FA-1.5/FA-1.5-P.jpg)
-
-FARR-1.5 to Orthogonal
-
-![Drag pattern FARR-1.5 to orthogonal](images/FlexTrack/FARR/FA-1.5/FA-1.5-O-P.jpg)
+#### FARR-1.5 Drag Patterns
 
 FARR-1.5 to Diagonal
 
@@ -211,10 +181,9 @@ The turnouts and switches come in all sorts of forms and there are a range of tu
 
 ![](images/D2-CC-P.jpg)
 
-The small complex turnouts compliments the FARR-2 Alt with turnout setups
-that cross double track rail DTR with both single track rail STR and
-DTR variants. Upgrading to DTR involves drawing through the middle
-pointsas shown by the red arrow. 
+#### FARR-2 Alt Turnouts
+
+The small complex turnouts compliments the FARR-2 Alt with turnout setups that cross DTR with both STR and DTR variants. Upgrading to DTR involves drawing through the middle points as shown by the red arrow.  
 
 ![](images/ST-3-P.jpg)
 
