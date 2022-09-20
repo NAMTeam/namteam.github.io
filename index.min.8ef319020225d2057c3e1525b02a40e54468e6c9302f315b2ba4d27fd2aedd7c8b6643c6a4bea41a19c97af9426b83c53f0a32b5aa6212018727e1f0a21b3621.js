@@ -732,23 +732,14 @@ The following is a snapshot from the initial 2013 RealRailway documentation whic
 Notice how the road pieces line up with the real life road networks but the Maxis Rail does not!
 At first, RealRailway was basic in appearance and functionality. However, further enhancements have led to RRW surpassing the functionality of Maxis rail in the NAM.
 Basic Usage # RealRailway is a complete replacement of the rail network. Basic double-track rail (DTR) is drawn using the rail tool and advanced functionality is achieved with draggable patterns or ploppable FLEX pieces. Single-track rail (STR) is provided as an override network and can initiated by a dedicated starter or by certain FLEX turnouts. RRW also covers legacy DTR puzzle pieces and wide radius curves.
+An explanation of the RRW menu icons is given below.
 FlexTrack # NAM 33 delivered a suite of new functionality to the RealRailway known as FlexTrack. This advancement allowed for medium to large wide radius curves rechristened as multi-radius curves (MRC). Under the MRC nomenclature, sizes range from the smallest existing minicurves at R1 to large, sweeping curves at R5. Patterns were devised to allow the curves to drawn out with the rail tool without having to go into the puzzle piece tab loop. R1, R2 and R3 can also be made into turnouts by drawing orthogonally from the orthogonal end while there is support for diagonal turnouts with R1 and R3. R4 and R5 do not support any turnouts with there sole function to be curves! Also a range of new turnout options were introduced with the RealRailway FlexTrack component. This allowed for new turnouts in tight situations where the former parts where not applicable or accessible. FlexTrack improvements were spearheaded by eggman121 who developed the new components building on the base provided by Swordmaster.
 The FlexTrack currently relies on patterns to make the desired curves or turnouts/ switches. While there is the advantage of not having to go into the menu to find the pieces they can be hard to find the right patterns with conflicts if the pieces are too close to each other. Testing the capabilities in a blank region is always helpful to get the right patterns for the FlexTrack component.
 The patterns and resultants are shown below.
-Curves # Fractional Angle Railroad (FARR) # Fractional Angle Rail Road (FARR) is the angled sections of track that conform to three angles which compiment the orthogonal (0 degrees) and diagional (45 degrees). They are FARR-3 (18.43 degrees), FARR-2 (26.56 degrees) and FARR-1.5 (33.69 degrees). At the time of writing this document the FARR is only able to be drawn out using the rail tool. Flex pieces for these sections of track are anticipated but will arrive in a future edition of the NAM.
-Patterns are shown below\u0026hellip;
-FARR-3 # FARR-3 Straight
-FARR-3 to Orthogonal
-FARR-3 to Diagonal
-FARR-3 to FARR-2
-FARR-2 # FARR-2 Straight
-FARR-2 to Orthogonal
-FARR-2 to Diagonal
-FARR-2 to FARR-1.5
-FARR-2 G2 Turnout
-FARR-1.5 # FARR-1.5 Straight
-FARR-1.5 to Orthogonal
-FARR-1.5 to Diagonal
+Curves # Macro Curves # At the start of the TAB loop for FLEX-Pieces there are a number of Pieces called macro-curves and switches. These are switches with wider geometry than previously-developed mini-curves which occupy a similar footprint. The curves and switches are offered as FLEX only due to the drag patterns arlready being used for the mini-curves. Macro-curves and switches are quite flexible in that drawing the rail tool through the piece placed down can make an array of different switches as shown in the table below.
+Fractional Angle Railroad (FARR) # Fractional Angle Rail Road (FARR) is the angled sections of track that conform to three angles which compiment the orthogonal (0 degrees) and diagional (45 degrees). They are FARR-3 (18.43 degrees), FARR-2 (26.56 degrees) and FARR-1.5 (33.69 degrees). FARR was originally developed to use drag patterns as the means of creation, however, the majority these patterns were replaced by FLEX piece implementation with NAM 37. FARR Flex piece usage and remaining drag patterns are documented in this section.
+FARR Flex Piece Usage # FARR-2 Drag Patterns # FARR-2 G2 Turnout
+FARR-1.5 Drag Patterns # FARR-1.5 to Diagonal
 FARR-1.5 J2 Turnout
 FARR-2 Alt # The FARR-2 Alt has the same angle as the normal FARR-2 but has a different base and pattern. Also the geometry is slightly different and can make complex turnouts as shown further in the document. The FARR-2 Alternative implementation is considered a FlexTrack item. Below are the various setups. The base for the FARR-2 Alt is the zig zag base and is designed for flat surfaces only. This section of track has no slope tolerance.
 FARR-2 Alt Straight
@@ -756,7 +747,7 @@ FARR-2 Alt to Orthogonal
 FARR-2 Alt to Diagonal
 FARR-2 Alt G2 Turnout
 Turnouts # The turnouts and switches come in all sorts of forms and there are a range of turnouts to use. They range from A1 Turnouts to large B2 extended turnouts as well. The set classes are shown in the table below. Not all the turnouts have been made. Some of the possibilities will need flex implementation to be realised. The table shown is just an example of the proposed turnouts. Additional turnouts have been made possible however for the Real Railway.
-A Class Turnouts # B Class Turnouts # C Class Turnouts # D Class Turnouts # E Class Turnouts # The small complex turnouts compliments the FARR-2 Alt with turnout setups that cross double track rail DTR with both single track rail STR and DTR variants. Upgrading to DTR involves drawing through the middle pointsas shown by the red arrow.
+A Class Turnouts # B Class Turnouts # C Class Turnouts # D Class Turnouts # E Class Turnouts # FARR-2 Alt Turnouts # The small complex turnouts compliments the FARR-2 Alt with turnout setups that cross DTR with both STR and DTR variants. Upgrading to DTR involves drawing through the middle points as shown by the red arrow.
 Elevated RealRailway (ERRW) # Elevated RealRailway (ERRW) is the draggable implementation of heavy rail viaducts. ERRW is implemented at both L1 (7.5m) and L2 (15.5m). Both variants include support for some minicurves and multi radius curves. The MRCs supported are Radius (1, 2 and 3).
 Height Transitions # Switching between ground level (L0) RRW and ERRW is accomplished using FLEX transition pieces found in the Draggable Elevated Railways (ERRW) menu.
 Usage Notes # The rail is not to be drawn through the transition but to the stub at each end shown in the pictures below\u0026hellip;
