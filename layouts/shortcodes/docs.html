@@ -1,0 +1,16 @@
+<div class="container">
+<hr>
+{{ range where .Site.Sections "Section" "docs" }}
+    {{ range .CurrentSection.Pages }}
+        <h3>{{ .Title }}</h3>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
+            {{ range .Pages }}
+            <div class="col my-1">
+                <a class="d-flex h-100 align-items-center justify-content-center btn btn-outline-primary" href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </div>
+            {{ end }}
+        </div>
+    {{ end }}
+{{ end }}
+<hr>
+</div>
