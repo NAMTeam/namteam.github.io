@@ -122,7 +122,7 @@ Shortcode:
 The following statuses are supported:
 
 * (blank) - Defaults to "not yet written"
-* `workinprogress` = Documentation is in progress and subject to change.
+* `workinprogress` - Documentation is in progress and subject to change.
 * `outdated` - Documentation is outdated. Optionally you can add `version="VERSION"` to the shortcode to state what version of the NAM the documentation refers to.
 * `oldcontent` - Warns that the documentation refers to older content but is still useful for reference with the current NAM version.
 * `compatibility` - EA App/Origin compatibility warning. Refers to the current issue with the NAM not being able to run on EA App/Origin copies of SimCity 4.
@@ -140,6 +140,20 @@ Shortcode:
 
 Standard Bootstrap 5.2 classes can be used.
 
+#### Override
+
+This shortcode allows you to display override tiles for Flex-based items. This is designed to be responsive on mobile.
+
+Shortcode:
+```
+{{< override from="IMAGE_1" to="IMAGE_2" class="" >}}
+```
+Parameters:
+
+* `from` - the original tile layout
+* `to` - the completed tile layout
+* `class` - optional CSS classes to be applied to both images
+
 #### Table of Contents
 
 While "On This Page" appears on most pages in the NAM documentation, an additional table of contents can be added. This will retrieve headings down to `h3`, any further will not display.
@@ -151,7 +165,7 @@ Shortcode:
 
 #### Table
 
-This is probably our bread and butter. Use a [Markdown table generator](https://www.tablesgenerator.com/markdown_tables) to make a Markdown table, paste it inside the below shortcode:
+Use a [Markdown table generator](https://www.tablesgenerator.com/markdown_tables) to make a Markdown table, paste it inside the below shortcode:
 
 ```
 {{< table class="CLASS" >}}
@@ -159,7 +173,9 @@ MARKDOWN_TABLE
 {{< /table >}}
 ```
 
-`class` will accept any Bootstrap class.
+`class` will accept any Bootstrap class. Note that if color is required to highlight status, add `nam-compat-status` to the `class` parameter. This will highlight individual cells based on what's inside them (yes/no/partial). Any other text will not be styled.
+
+**NOTE:** In future this will be refined to allow us to explain why a particular piece does not have full compatibility.
 
 ## Credits
 

@@ -53,17 +53,17 @@ The patterns and resultants are shown below.
 
 ### Curves
 
-![Drag pattern MRC R2](images/FlexTrack/Curves/R2-P.jpg)  
+{{< override from="images/flextrack/curves/R2-P-before.jpg" to="images/flextrack/curves/R2-P-after.jpg" caption="Drag pattern MRC R2" >}}
 
-![Drag pattern MRC R3](images/FlexTrack/Curves/R3-P.jpg)  
+{{< override from="images/flextrack/curves/R3-P-before.jpg" to="images/flextrack/curves/R3-P-after.jpg" caption="Drag pattern MRC R3" >}}
 
-![Drag pattern MRC R4](images/FlexTrack/Curves/R4-P.jpg)  
+{{< override from="images/flextrack/curves/R4-P-before.jpg" to="images/flextrack/curves/R4-P-after.jpg" caption="Drag pattern MRC R4" >}}
 
-![Drag pattern MRC R5](images/FlexTrack/Curves/R5-P.jpg)  
+{{< override from="images/flextrack/curves/R5-P-before.jpg" to="images/flextrack/curves/R5-P-after.jpg" caption="Drag pattern MRC R5" >}}
 
-![Drag pattern RRW orthogonal s-curve](images/FlexTrack/Curves/S2-P.jpg)  
+{{< override from="images/flextrack/curves/S2-P-before.jpg" to="images/flextrack/curves/S2-P-after.jpg" caption="Drag pattern RRW Orthogonal S-Curve" >}}
 
-![Drag pattern RRW diagonal s-curve](images/FlexTrack/Curves/S-D-P.jpg)
+{{< override from="images/flextrack/curves/S-D-P-before.jpg" to="images/flextrack/curves/S-D-P-after.jpg" caption="Drag pattern RRW Diagonal S-Curve" >}}
 
 ### Macro Curves
 
