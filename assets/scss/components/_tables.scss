@@ -16,16 +16,16 @@ table {
     
     td[data-compat='yes'] {
       color: $white;
-      background-color: darken($green, 5%);
+      background-color: #0D6EFD;
     }
 
     td[data-compat='partial'] {
-      background-color: lighten($yellow, 5%);
+      background-color: #FFC107;
     }
 
     td[data-compat='no'] {
       color: $white;
-      background-color: darken($red, 5%);
+      background-color: #D81B60;
     }
   }
 
@@ -36,16 +36,16 @@ table {
     &.nam-compat-status {
       td[data-compat='yes'] {
         color: inherit;
-        background-color: darken($green, 15%);
+        background-color: #0D6EFD;
       }
 
       td[data-compat='partial'] {
-        color: $white;
-        background-color: darken($yellow, 15%);
+        color: $black;
+        background-color: #FFC107;
       }
 
       td[data-compat='no'] {
-        background-color: darken($red, 15%);
+        background-color: #D81B60;
       }
 
     }

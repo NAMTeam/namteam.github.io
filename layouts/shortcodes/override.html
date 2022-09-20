@@ -1,0 +1,24 @@
+{{ $caption := .Get "caption" | default "" }}
+{{ $imageBefore := .Page.Resources.GetMatch (printf "*%s*" (.Get "from")) -}}
+{{ $imageAfter := .Page.Resources.GetMatch (printf "*%s*" (.Get "to")) -}}
+{{ $lqipBefore := $imageBefore.Resize $.Site.Params.lqipWidth -}}
+{{ $lqipAfter := $imageAfter.Resize $.Site.Params.lqipWidth -}}
+
+<div class="card mb-3">
+    <div class="card-body pb-0">
+        <div class="card-title">
+            <h5 class="my-0">{{ $caption | safeHTML }}</h5>
+        </div>
+        <div class="row g-0">
+            <div class="before col-md text-center">
+                <img class="w-full mb-md-3 img-fluid lazyload blur-up" src="{{ $lqipBefore.Permalink }}" data-src="{{ $imageBefore.Permalink }}" width="{{ $imageBefore.Width }}" height="{{ $imageBefore.Height }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}>
+            </div>
+            <div class="arrow col-md mx-auto px-0 text-center">
+                <span class="transform-to"></span>
+            </div>
+            <div class="after col-md text-center">
+                <img class="w-full mb-md-3 img-fluid lazyload blur-up" src="{{ $lqipAfter.Permalink }}" data-src="{{ $imageAfter.Permalink }}" width="{{ $imageAfter.Width }}" height="{{ $imageAfter.Height }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}>
+            </div>
+        </div>
+    </div>
+</div>
