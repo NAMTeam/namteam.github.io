@@ -146,13 +146,15 @@ This shortcode allows you to display override tiles for Flex-based items. This i
 
 Shortcode:
 ```
-{{< override from="IMAGE_1" to="IMAGE_2" class="" >}}
+{{< override from="IMAGE_1" to="IMAGE_2" caption="CAPTION" >}}
 ```
 Parameters:
 
 * `from` - the original tile layout
 * `to` - the completed tile layout
-* `class` - optional CSS classes to be applied to both images
+* `caption` - a caption describing the nature of the override
+
+For an example of this in action, [check out the RRW documentation](https://www.sc4nam.com/docs/feature-guides/real-railway-rrw/).
 
 #### Table of Contents
 
