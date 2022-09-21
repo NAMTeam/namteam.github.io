@@ -20,8 +20,8 @@ The most recent version of this documentation may always be found at [https://ww
 
 {{< docs >}}
 
-## Disclaimer
+<h2>Disclaimer</h2>
 Users download, install, and run this mod completely and solely at their own risk. Electronic Arts (EA), the creators, and its individual contributors, are not responsible for any errors, crashes, problems, or any other issue that you may have if you have downloaded and applied this mod file to your game. Players should also expect that any future patches and/or expansion packs and SimCityscape may not function properly with the game if you have downloaded this mod and applied it to your game. The use of this document, the information within, and the Network Addon Mod is conditional upon the acceptance of this disclaimer and all that is within this document.
 
-## A Big Thank You
+<h2>A Big Thank You</h2>
 Thanks goes first and foremost to the SC4 fansite admins, for creating and laboring over their sites in order to make them a vibrant SimCity 4 community. Without them, none of this would be possible. A very special thank you goes to the entire SC4 community and all the members who have contributed to this Network Addon Mod in its current form.
