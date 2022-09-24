@@ -145,16 +145,34 @@ The following statuses are supported:
 
 #### Simple image
 
-(note: a feature including galleries will come out soon in a future version of this documentation)
-
 This will allow you to create quick, simple images that can be inserted into the body of documentation, with additional CSS classes.
 
 Shortcode:
 ```
-{{< img-simple src="SOURCE" class="" >}}
+{{< img-simple src="SOURCE" class="" clickable="" >}}
 ```
 
-Standard Bootstrap 5.2 classes can be used.
+* `src`: image source
+* `class`: any CSS class
+* `clickable`: boolean, true or false. This enables clicking through to larger versions of the image. At time of writing this is not fully implemented.
+
+#### Gallery
+
+You can create quick, flexible galleries by using the following shortcode:
+
+```
+{{< gallery columns="2" >}}
+    images/foo.jpg
+    images/bar.jpg
+    images/baz.jpg
+    ...
+{{< /gallery >}}
+```
+
+Parameters:
+
+* `columns`: a number between 1 and 6, this only affects large (desktop) screen sizes. Default setting is `3`.
+* `clickable`: boolean, true or false. This enables clicking through to larger versions of the images in the gallery. At time of writing this is not fully implemented.
 
 #### Override
 
@@ -182,8 +200,8 @@ A convenience function is included to show menu icons in a nice format.
 
 Parameters:
 
-* `icon` - the menu icon
-* `caption` - a short caption describing the menu icon
+* `icon` - the menu icon. Icon can be blank, in which case it simply won't be displayed.
+* `caption` - a short caption describing the menu icon and the caption supports standard Markdown
 
 For example, the below is what's used in the RHW documentation:
 
@@ -214,6 +232,8 @@ MARKDOWN_TABLE
 `class` will accept any Bootstrap class. Note that if color is required to highlight status, add `nam-compat-status` to the `class` parameter. This will highlight individual cells based on what's inside them (yes/no/partial). Any other text will not be styled.
 
 **NOTE:** In future this will be refined to allow us to explain why a particular piece does not have full compatibility.
+
+**NOTE:** Table headings are mandatory, otherwise if you want finer control use HTML instead.
 
 ## Credits
 
