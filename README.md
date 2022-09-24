@@ -74,6 +74,22 @@ Using the above example, you can see that a German language version of `index.md
 
 Please note that if you need to add a new language to the list, you will also need to edit `/config/_default/languages.toml` (pay attention to indentation!). 2 letter ISO codes are used, for a list you can [refer to this document](https://www.iban.com/country-codes). Use the lower-case versions otherwise our documentation engine freaks out.
 
+### Convenience Functions
+
+#### Section Headings
+
+Sometimes you may want to change the URLs for section titles that are automatically generated.
+
+To do this, on a Markdown heading, add `{#ID}`. 
+
+For example, a heading might have a very long name, so to simplify the link you would do the below in the Markdown documentation:
+
+```
+## Heading that is really long, way too long to have as an anchor {#short-name-of-heading}
+```
+
+This is extremely useful if you need to link from legacy documentation.
+
 ### Short codes
 
 There are a handful of Hugo shortcodes that can be used to make developing documentation easier. Take a look in `~/layouts/shortcodes` to see a full list of them.
@@ -155,6 +171,26 @@ Parameters:
 * `caption` - a caption describing the nature of the override
 
 For an example of this in action, [check out the RRW documentation](https://www.sc4nam.com/docs/feature-guides/real-railway-rrw/).
+
+#### Menu Icon
+
+A convenience function is included to show menu icons in a nice format.
+
+```
+{{< menu-icon icon="ICON" caption="CAPTION" >}}
+```
+
+Parameters:
+
+* `icon` - the menu icon
+* `caption` - a short caption describing the menu icon
+
+For example, the below is what's used in the RHW documentation:
+
+```
+{{< menu-icon icon="images/icons/rhw-network-button.jpg" caption="RHW-2 Network Button" >}}
+```
+
 
 #### Table of Contents
 
