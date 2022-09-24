@@ -8,3 +8,6 @@ for (const table of namCompatTables) {
         cell.setAttribute("data-compat", cell.innerText.replace(/\s+/g, '-').toLowerCase())
     }
 }
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))

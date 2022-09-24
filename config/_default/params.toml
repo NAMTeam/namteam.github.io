@@ -67,7 +67,7 @@ docsRepo = "https://github.com/NAMTeam/namteam.github.io"
 docsRepoBranch = "master"
 docsRepoSubPath = ""
 editPage = false
-lastMod = false
+lastMod = true
 
 [sections]
   sectionNav = ["docs"]
@@ -88,7 +88,7 @@ lastMod = false
   docsVersioning = false
   fullWidth = true
   navbarSticky = true
-  toTopButton = true
+  toTopButton = false # temporarily disabled due to bug with toTop button
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
 
 [menu]

@@ -92,6 +92,9 @@ rel  = "sitemap"
     source = "static"
     target = "static"
   [[module.mounts]]
+    source = "node_modules/bootstrap"
+    target = "assets/js/vendor/bootstrap"
+  [[module.mounts]]
     source = "layouts"
     target = "layouts"
   [[module.mounts]]

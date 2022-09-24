@@ -5,9 +5,9 @@
   url = "/docs/reference/"
 
 [[main]]
-  name = "Guides"
+  name = "Feature Guides"
   weight = 15
-  identifier = "guides"
+  identifier = "feature-guides"
   url = "/docs/feature-guides/"
 
 [[main]]
