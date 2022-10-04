@@ -349,7 +349,7 @@ Since the drag patterns involve the creation of intersections, the point where t
 
 The table below shows all of the basic drag patterns for the DRIs:
 
-{{< img-simple src="images/Dri-table.png" class="border bg-white" alt="DRI Drag Patterns" >}}
+{{< img-simple src="images/Dri-table.png" class="border bg-white" alt="DRI Drag Patterns" clickable="yes" >}}
 
 ##### Older Puzzle Piece Ramp Interfaces
 
@@ -886,7 +886,7 @@ Currently, the only crossing networks supported by the MIS-2 FTLs are Roads (wit
 
 ## Network and FLEX Piece Capabilities
 
-This is not currently available as it is currently in the progress of being migrated to a new document.
+> Refer to [the RealHighway mod technical document](/docs/tech-specs/realhighway-mod) to see what the RealHighway mod is capable of.
 
 ## List of Menu Items
 
@@ -1671,7 +1671,7 @@ There is one requirement for the mod to function correctly: **You MUST activate 
 
 After installation, each city tile must be opened and saved (after opening any dataview) in order to update the region map. Similarly when uninstalling the mod, each city tile must be resaved to update the region map.
 
-## Frequently Asked Questions
+### Frequently Asked Questions
 
 **Q: Why are highways black instead of red?**<br>
 **A:** Because of the way this workaround functions, the red color would show up as a halo around diagonal roads, bridges and certain puzzle pieces. The black color does as well, but is less noticeable.

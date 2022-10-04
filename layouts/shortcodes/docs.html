@@ -3,6 +3,7 @@
 {{ range where .Site.Sections "Section" "docs" }}
     {{ range .CurrentSection.Pages }}
         <h3>{{ .Title }}</h3>
+        {{ with .Summary }}<p class="lead fst-italic mb-4">{{ . }}</p>{{ end }}
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-2">
             {{ range .Pages }}
             <div class="col my-1">
