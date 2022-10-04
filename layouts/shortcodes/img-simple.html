@@ -1,5 +1,7 @@
 {{ $image := .Page.Resources.GetMatch (printf "*%s*" (.Get "src")) -}}
 {{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
 <div class="text-center">
+    {{ if .Get "clickable" }}<a href="{{ $image.Permalink }}" target="_blank" class="img-clickable position-relative d-block"><span class="badge rounded-pill text-bg-primary border border-primary text-uppercase d-flex align-items-center">Open image in new tab</span>{{ end -}}
     <img class="img-simple img-fluid lazyload blur-up{{ with .Get "class" }} {{.}}{{ end }}" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}>
+    {{ if .Get "clickable" }}</a>{{ end -}}
 </div>

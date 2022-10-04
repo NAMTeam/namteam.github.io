@@ -27,6 +27,10 @@ table {
       color: $white;
       background-color: #D81B60;
     }
+
+    td[data-compat='limited'] {
+      background-color: #D08828;
+    }
   }
 
 }
@@ -46,6 +50,10 @@ table {
 
       td[data-compat='no'] {
         background-color: #D81B60;
+      }
+
+      td[data-compat='limited'] {
+        color: $black;
       }
 
     }

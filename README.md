@@ -229,11 +229,10 @@ MARKDOWN_TABLE
 {{< /table >}}
 ```
 
-`class` will accept any Bootstrap class. Note that if color is required to highlight status, add `nam-compat-status` to the `class` parameter. This will highlight individual cells based on what's inside them (yes/no/partial). Any other text will not be styled.
-
-**NOTE:** In future this will be refined to allow us to explain why a particular piece does not have full compatibility.
+`class` will accept any Bootstrap class. Note that if color is required to highlight status, add `nam-compat-status` to the `class` parameter. This will highlight individual cells based on what's inside them (yes/no/partial/limited). A Javascript function will process the table to automatically add `data-compat` tags to fields that fit requirements. Add the `processed` class to prevent this from happening, as it's assumed you will have customised the table accordingly. Any other text will not be styled.
 
 **NOTE:** Table headings are mandatory, otherwise if you want finer control use HTML instead.
+
 
 ## Credits
 
