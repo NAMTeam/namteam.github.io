@@ -8,6 +8,8 @@ draft: false
 images: []
 ---
 
+{{< feature-guide link="/docs/feature-guides/realhighway-mod" mod="RealHighway Mod feature guide" >}}
+
 {{< docstatus status="workinprogress" >}}
 
 ## Network and FLEX Piece Capabilities
