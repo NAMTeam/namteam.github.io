@@ -93,7 +93,7 @@ lastMod = true
 
 # lazyimg
 [lazyimg]
-  resizer = "auto"
+  resizer = "responsive"
   renderer = "lqip-webp"
 
   # Resizer options:
@@ -103,7 +103,7 @@ lastMod = true
   resizeOptions = "Lanczos q95"
 
   # Renderer options:
-  class = "img-fluid"
+  class = "img-fluid mx-auto"
   # alt = ""
   noscript = true
 

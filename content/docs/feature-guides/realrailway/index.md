@@ -121,7 +121,7 @@ FARR-2 Alt G2 Turnout
 
 The turnouts and switches come in all sorts of forms and there are a range of turnouts to use. They range from A1 Turnouts to large B2 extended turnouts as well. The set classes are shown in the table below. Not all the turnouts have been made. Some of the possibilities will need flex implementation to be realised. The table shown is just an example of the proposed turnouts. Additional turnouts have been made possible however for the Real Railway.
 
-![Table of proposed turnouts for the RealRailway](images/flextrack/rrw_turnouts.jpg)  
+{{< img-simple src="images/flextrack/rrw_turnouts.jpg" clickable="yes" >}}
 
 #### A Class Turnouts
 
