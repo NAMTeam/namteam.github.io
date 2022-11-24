@@ -5,5 +5,5 @@
     {{- $lqip := $image.Resize $.Site.Params.lqipWidth -}}
     <div class="flex-shrink-0 flex-fill pe-3"><img class="lazyload blur-up{{ with $.Get "class" }} {{.}}{{ end }}" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with $.Get "caption" }}alt="{{.}}"{{ end }}></div>
     {{- end }}
-    <div class="flex-grow-1 w-100 flex-fill d-flex align-items-center"><div>{{ .Get "caption" | default "The menu icon." | markdownify }}</div></div>
+    <div class="flex-grow-1 w-100 flex-fill d-flex align-items-center"><div>{{ .Get "caption" | default nil | markdownify }}</div></div>
 </div>

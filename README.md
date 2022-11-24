@@ -32,6 +32,10 @@ npm run start
 The site will be deployed automatically to `https://localhost:1313`.
 
 
+## Style guide
+
+Style guides provide a guideline as to how to write a technical document to ensure consistency across multiple authors. At this time of writing, no formal style guide has been created.
+
 ## Editing documentation
 
 All files are located inside `/content/`. Images are _relative_ to the document - it's highly suggested that an `images` subfolder is used within each document bundle to keep things tidy.
@@ -149,12 +153,13 @@ This will allow you to create quick, simple images that can be inserted into the
 
 Shortcode:
 ```
-{{< img-simple src="SOURCE" class="" clickable="" >}}
+{{< img-simple src="SOURCE" class="" clickable="" caption="" >}}
 ```
 
 * `src`: image source
 * `class`: any CSS class
-* `clickable`: boolean, true or false. This enables clicking through to larger versions of the image. At time of writing this is not fully implemented.
+* `clickable`: boolean, true or false. This enables clicking through to larger versions of the image.
+* `caption`: brief description of the image
 
 #### Gallery
 
