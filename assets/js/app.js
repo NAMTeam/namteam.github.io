@@ -3,7 +3,7 @@
 var namCompatTables = document.getElementsByClassName("nam-compat-status");
 
 // :)
-const safeWords = ["yes", "partial", "limited", "no"];
+const safeWords = ["yes", "partial", "limited", "no", "n/a", "--"];
 
 for (const table of namCompatTables) {
 
@@ -16,7 +16,7 @@ for (const table of namCompatTables) {
     for (const cell of cells) {
         // match containing table cell data against safeWords
         const cellText = cell.innerText.toLowerCase();
-        const idx = safeWords.findIndex(v => cellText.includes(v));
+        const idx = safeWords.findIndex(v => cellText.startsWith(v));
 
         if (idx > -1) {
             cell.setAttribute("data-compat", safeWords[idx])

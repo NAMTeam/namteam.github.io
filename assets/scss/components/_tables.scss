@@ -1,7 +1,7 @@
 table {
   @extend .table;
 
-  margin: 3rem 0;
+  margin: 0 0 2rem;
 
   &.nam-compat-status {
 
@@ -30,6 +30,15 @@ table {
 
     td[data-compat='limited'] {
       background-color: #D08828;
+    }
+
+    td[data-compat='n/a'] {
+      @extend .text-muted;
+      font-style: italic;
+    }
+
+    td[data-compat='--'] {
+      @extend .text-muted;
     }
   }
 
