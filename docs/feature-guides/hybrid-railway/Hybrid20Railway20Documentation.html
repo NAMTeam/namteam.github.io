@@ -1,0 +1,1016 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>Hybrid Railway Documentation</title>
+
+  
+</head><body style="margin: auto; width: 960px; color: rgb(0, 0, 0); background-color: rgb(153, 153, 153);" alink="#000099" link="black" vlink="#990099">
+<p class="MsoNormal" style="font-family: Arial; font-weight: bold; text-align: center;"><big><big><big><a name="Hybrid_Railway_Mod_for_the_Network_Addon"></a>Hybrid Railway Mod
+for the Network Addon Mod [NAM]</big></big></big></p>
+
+<div style="text-align: justify;"><br>
+</div>
+
+<ol style="font-family: Arial Black; text-align: justify;">
+
+  <li><a href="#Introduction"><big>Introduction</big></a></li>
+  <li><a href="#Menu_Icons"><big>Menu Icons</big></a></li>
+  <li><a href="#Multi-Radius-Curves"><big>Multi-Radius-Curves (MRCs)</big></a></li>
+  <li><a href="#Hybrid_Railway_FLEX_Switches."><big>Switches</big></a></li>
+  <li><a href="#Fractional_Angle_2_Short_FLEX_Switch"><big>FA-2s
+FLEX-Switch</big></a></li>
+  <li><big><a href="#Hybrid_Railway_Elevated_Content">Elevated Hybrid Railway</a><br>
+</big></li>
+
+  <li><a href="#Stub_to_Stub_crossing_construction"><big>Stub to Stub
+crossing method</big></a></li>
+  <li><a href="#Crossing_support."><big>Supported Crossings</big></a></li>
+  <li><a href="#Stations_for_the_HRW"><big>Stations for the Hybrid
+Railway</big></a></li>
+  <li><big><a href="#Tips_and_Tricks">Tips and Tricks</a><br>
+</big></li>
+
+  <li><big><a href="#Credits">Credits</a><br>
+    </big></li>
+</ol>
+
+<p class="MsoNormal" style="font-family: Arial; font-weight: bold; text-align: justify;"><br>
+<big><big><o:p></o:p></big></big></p>
+
+<p class="MsoNormal" style="font-family: Arial; font-weight: bold; text-align: justify;"><big><big><a name="Introduction"></a>Introduction</big></big><o:p></o:p></p>
+
+<p style="font-family: Arial; text-align: justify;" class="MsoNormal"><big>The
+Hybrid
+railway or HRW is an intermediate FLEX based
+network that provides for both heavy and High Speed (Monorail) traffic.
+Specifications include catenaries, textures that are the same as the
+RRW along
+with some purpose textures for specific pieces. <o:p></o:p></big></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><big><span style="font-weight: normal;">In terms of
+functionality, the HRW
+handles both Heavy Rail
+(In orange) and Monorail as shown (In Blue).</span></big><o:p></o:p></p>
+
+<div style="text-align: justify;"><br>
+</div>
+
+<table style="text-align: left; width: 100%; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr align="left">
+      <td style="vertical-align: top;"><img src="%7ECombined%20use%20HRW.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;">Multiple
+transit networks using the Hybrid Railway</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><o:p>&nbsp;</o:p><br>
+<big><span style="font-weight: normal;">The HRW is a FLEX network
+meaning it has
+to be constructed
+with FLEX pieces provided in the menus. All items will require
+placing
+down FLEX pieces with drawability only really relevant for
+transitioning to the
+RRW.</span></big><o:p></o:p></p>
+
+<div style="text-align: justify;"><a style="font-weight: bold;" href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;">Return to
+top</span></a><br>
+<br>
+<big style="font-weight: bold; text-decoration: underline;"><span style="font-family: Arial;"><a name="Menu_Icons"></a>Menu Icons</span></big><br>
+<br>
+<big style="font-family: Arial;">The HybridRailway menu icons are
+grouped together above the RealRailway and all of the HybridRailway
+content can be accessed from these buttorns. The icon's are curtesy
+of&nbsp; RVT or Rivit. <o:p></o:p></big><span style="font-family: Arial;">
+</span> <br>
+<br>
+</div>
+
+<table style="text-align: left; width: 99px; height: 244px; background-color: white; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="_HRW-Icons.jpg" alt=""></td>
+      <td style="vertical-align: top;">
+      <table style="text-align: left; width: 645px; height: 220px;" border="1" cellpadding="2" cellspacing="2">
+        <tbody>
+          <tr>
+            <td style="vertical-align: top; font-family: Arial; font-weight: bold;">Straight
+Pieces<br>
+            </td>
+            <td style="vertical-align: top; font-family: Arial;">Contains
+straight segments in both Orthogonal and Diagonal of various lengths.<br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; font-family: Arial; font-weight: bold;">Elevated
+Pieces [L1]<br>
+            </td>
+            <td style="vertical-align: top; font-family: Arial;">Elevated
+staters including an L1 FlexHT and Orthogonal and Diagonal FLEX onslope
+transitions.<br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; font-family: Arial; font-weight: bold;">Multi-Radius-Curves<br>
+            </td>
+            <td style="vertical-align: top; font-family: Arial;">Curves
+from R1 to R5; Smaller curves are wider than the RRW counterparts<br>
+            </td>
+          </tr>
+          <tr>
+            <td style="vertical-align: top; font-family: Arial; font-weight: bold;">Switches
+for the Hybrid Railway<br>
+            </td>
+            <td style="vertical-align: top; font-family: Arial;">Switches
+for the HRW that include A2 types, B2 Types, Compounds and the FA-2s
+FLEXswitch piece<br>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><o:p></o:p><span style="font-family: Arial; font-weight: bold;">Return to
+top</span></a></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><big><u><a name="Multi-Radius-Curves"></a>Multi-Radius-Curves<o:p></o:p></u></big></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><big><span style="font-weight: normal;">There are 5
+Radii of Multi-Radius-Curves
+that are similar to
+the RRW specified curves with the notable first three curves that have
+a wider
+geometry than the RRW classed curves. These are R1-Macro curve and the
+R2 and
+R3 alternatives.</span><o:p></o:p></big></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><big>Multi-Radius-Curves
+(MRC&#8217;s) for the Hybrid Railway.</big><o:p></o:p></p>
+
+<div style="text-align: justify;"><br>
+</div>
+
+<table style="text-align: left; width: 511px; height: 1118px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="1-R1-Macro.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Radii #1 Macro Curve<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="2-R2-Alt.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Radii #2 Alternative Curve<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="3-R3-Alt.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Radii #3 Alternative Curve<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><span style="font-family: Arial;"><big><span style="font-weight: bold;"></span></big></span><br>
+<span style="font-family: Arial;"><big><span style="font-weight: bold;"></span>These
+above curves have a wider geometry than the corresponding
+curves for the Real Railway. For reference <span style="text-decoration: underline; font-style: italic;">"alternative"</span>&nbsp;
+notation is wider or bigger radii or <span style="font-style: italic; text-decoration: underline;">"short"</span>
+is smaller radii than the standard Multi-Radius or Fractional Angle
+Curve.</big></span><br style="text-decoration: underline;">
+<span style="font-family: Arial;"><span style="font-weight: bold;"></span></span><br>
+<span style="font-family: Arial;"><span style="font-weight: bold;"></span></span>
+</div>
+
+<table style="text-align: left; width: 510px; height: 786px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="4-R4.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Radii #4 Curve<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="5-R5.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Radii #5 Curve<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><span style="font-family: Arial;"><span style="font-weight: bold;"></span></span><br>
+<span style="font-family: Arial;"><span style="font-weight: bold;"><a href="#Hybrid_Railway_Mod_for_the_Network_Addon">Return to top</a></span></span><br>
+<span style="font-family: Arial;"><span style="font-weight: bold;"></span></span>
+</div>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><u><a name="Hybrid_Railway_FLEX_Switches."></a>Hybrid
+Railway FLEX Switches.<o:p></o:p></u></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;">There are a few
+switch options for the
+Hybrid Railway system
+that consist of a few FLEX-piece items that can be used to make a
+variety of
+layout combinations. Apart from the FA-2 short FLEX Switch piece, these
+are partially
+static due to the mechanics of the codebase.</span><o:p></o:p></p>
+
+<div style="text-align: justify;"><br>
+</div>
+
+<table style="text-align: left; width: 942px; height: 4634px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr style="font-family: Arial;" align="center">
+      <td style="vertical-align: top;"><img style="width: 1024px; height: 572px;" src="a-A2-DTR-HRW.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;" align="center">
+      <td style="vertical-align: top; text-align: left;">A2 switch
+orthogonal single branch<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;" align="center">
+      <td style="vertical-align: top;"><img src="b-A2-DTR-Dual-HRW.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">A2 switch orthogonal dual<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="c-Symmetrical%20to%20Asymmetrical%20Transition.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Symmetrical to asymmetrical bend
+(Technically a curve but in the switch tab for asymmetric switches)<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="d-D2-Asymmetric-DTR.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">D2 asymmetric switch<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="e-B2-Switch.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">B2 small switch (Bend has the
+same geometry as the R1 curve)<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="f-B2-Switch-Wide.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">B2 large switch (Bend has the
+same geometry as the R2 curve)<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="g-Compound%20Curve%20R1-R2.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">B1-R2 compound switch<br>
+      </td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="h-Compund%20Curve%20R1%20B2.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">B1-B2 compound switch<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><br>
+<a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+</div>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><o:p><a name="Fractional_Angle_2_Short_FLEX_Switch"></a>&nbsp;Fractional
+Angle #2 Short FLEX Switch Piece</o:p></p>
+
+<div style="text-align: justify;"><big style="font-family: Arial;">The
+HRW also has a piece that can be
+made by placing down straight orthogonal segments to make a variety of
+switches for the Hybrid Railway.<span style="font-family: Arial;"> The
+piece is in the switches tab loop and can be used for fractional angle
+straight segments, bends, and switches</span></big>.<br>
+<span style="font-family: Arial;"><span style="font-weight: bold;"></span></span>
+</div>
+
+<table style="text-align: left; width: 731px; height: 567px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="i-FLEXswitch-FA2s.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">Fractional Angle #2 short
+FLEX-Switch Piece<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><br>
+<br>
+</div>
+
+<big><o:p style="font-family: Arial;"><span style="font-weight: normal;">The
+switches are made by adding in segments of straight to the FA2-s piece.
+Straight pieces can be compounded to make a longer straight section.
+This piece has limited slope tolerance.</span> Below are the patterns
+for making various switches.</o:p></big><br>
+
+<o:p></o:p>
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><o:p></o:p></p>
+
+<table style="text-align: left; width: 1032px; height: 2013px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img style="width: 1024px; height: 2000px;" src="FlexSwitch-FA2s.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><span style="font-weight: normal;">These are just some of the combinations
+for the HRW FLEXswitch Piece.</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><br>
+<br>
+</div>
+
+<table style="text-align: left; width: 667px; height: 535px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="j-FLEXswitch-Demo.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;">A few possibilities with the
+FLEX-switch piece<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><br>
+<a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+</div>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><o:p>&nbsp;<a name="Hybrid_Railway_Elevated_Content"></a></o:p><u>Hybrid
+Railway Elevated Content</u></p>
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;">The Hybird Railway has orthogonal and diagonal L1 sections or sections elevated to 7.5m. Only straights can be elevated.</span><span style="font-weight: normal;"> </span><span style="font-weight: normal;">Curves and swiches will remain at Ground level</span>.<u><br>
+</u></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="text-decoration: underline;"></span></p>
+
+<table style="text-align: left; width: 548px; height: 682px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="El-Preview.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;">Diagonal
+overpass over the RHW6S</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><span style="font-family: Arial;"></span><br>
+<span style="font-family: Arial;"><span style="font-weight: bold; text-decoration: underline;"><a name="Stub_to_Stub_crossing_construction"></a>Stub to Stub crossing
+construction method</span></span><br>
+<span style="font-family: Arial;"></span>
+</div>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;">The
+Hybrid Railway currently support L1 or 7.5m elevation for Straights
+(Orthogonal and diagonal) as well as crossings that are initated with
+the <span style="font-style: italic;">stub to stub (STS)</span> method
+of crossings.</span></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;">The
+STS method is very important for the construction of crosssings for the
+Hybrid Railway. Since the Hybrid Railway is a multi-tile network in
+itself, the HRW crossings neet to use the Stub to Stub or STS method of
+making a crossing.</span></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;">Demonstation
+below.</span></p>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;"></span></p>
+
+<table style="text-align: left; width: 100%; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="StubToStubSTS_Crossing.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;">Demonstration
+diagram of stub to stub method</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><br>
+<a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+</div>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify;" class="MsoNormal"><span style="font-weight: normal;"><span style="font-weight: bold; text-decoration: underline;"><a name="Crossing_support."></a>Crossing support.</span></span></p>
+
+<span style="font-family: Arial;">The
+Hybrid Railway supports a large amout but no all crossings in the
+Network Addon Mod (NAM). Orthogonal crossing orthogonal has a large
+coverage in additions to other configurations.However, except HRW X HRW
+configurations all require the stub to stub method to complete the
+crossings </span>. <span style="font-family: Arial;">The table shown
+below is the supported crossing as of the current Network Addon Mod
+Version</span>.<br>
+
+<div style="text-align: justify;">
+</div>
+
+<table style="text-align: left; width: 1018px; height: 709px; margin-left: 0px; margin-right: 0px;" border="0" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">Orthogonal
+Network<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L0 Orthogonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L1 Orthgonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L0 Diagonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L1 Diagonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">Diagonal
+Network </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L0 Orthogonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L1 Orthogonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L0 Diagonal<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial; font-weight: bold;">HRW
+L1 Diagonal<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">Street<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes*<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">Street
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">Road<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">Road
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">One
+Way Road<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">One
+Way Road </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">Avenue<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">Avenue
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes**<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">TLA-3<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">TLA-3
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">AVE-2<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">AVE-2
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">ARD-3<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">ARD-3
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">NRD-4<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">NRD-4
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">TLA-5<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">TLA-5</td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RD-4<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RD-4
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RD-6<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RD-6
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">TLA-7<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">TLA-7
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">AVE-6<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">AVE-6
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-2<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-2
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-3<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-3
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">MIS<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">MIS
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-4s<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-4s
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-6s<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-6s
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-8s<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-8s
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-10s<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-10s
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-6c<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-6c
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+      <td colspan="1" rowspan="1" style="vertical-align: top; font-family: Arial; text-decoration: underline;">RHW-8c<br>
+      </td>
+      <td colspan="1" rowspan="1" style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td colspan="1" rowspan="1" style="vertical-align: top; font-family: Arial;">Yes</td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; text-decoration: underline; font-family: Arial;">RHW-8c
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No<br>
+      </td>
+      <td style="vertical-align: top; font-family: Arial;">No </td>
+      <td style="vertical-align: top; font-family: Arial;">No</td>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+  </tbody>
+</table>
+
+<div style="text-align: justify;"><span style="font-family: Arial;">*Defaults
+to the road network for the crossing</span><br>
+<span style="font-family: Arial;">**</span><u><span style="font-family: Arial;"> Road tile needed to make the crossing
+activate</span></u><br>
+<br>
+<a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+</div>
+
+<p style="font-family: Arial; font-weight: bold; text-align: justify; text-decoration: underline;" class="MsoNormal"><o:p><a name="Stations_for_the_HRW"></a>Stations for
+the HRW</o:p></p>
+
+<div style="text-align: justify;"><span style="font-family: Arial;"><span style="font-weight: bold;">
+</span></span></div>
+
+<p style="font-family: Arial; text-align: justify;" class="MsoNormal">In
+addition, the
+HRW has a few station options for both
+utilizing heavy rail and monorail/HSR traffic.<o:p></o:p></p>
+
+<p style="font-family: Arial; text-align: justify;" class="MsoNormal">These
+have
+been provided by <i>&#8220;Tyberius06&#8221;</i> and <i>&#8220;ulisse99&#8221;</i></p>
+<table style="text-align: left; width: 488px; height: 427px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="T_Station-Icons.jpg" alt=""></td>
+      <td colspan="1" rowspan="2" style="vertical-align: top; font-family: Arial;">Various Stations to accompany the Hybrid Railway Mod. These stations are highlighted by the icons shown on the left.<br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><img src="U_Station-Icons.jpg" alt=""></td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<span style="font-family: Arial;">In most situations the monorail tool will need to be drawn through the station to make the connection to the Hybrid Railway.
+For the Station to function for the HRW with both Heavy Rail and High
+Speed/Monorail Traffic, the station needs to use the monorail. If the
+station just uses Heavy rail then the Heavy Rail tool gets used</span>.<br style="font-family: Arial;">
+<br style="font-family: Arial;">
+<table style="text-align: left; width: 949px; font-family: Arial; height: 258px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img style="width: 481px; height: 217px;" src="FLEX%20STATION%201.jpg" alt=""></td>
+      <td style="vertical-align: top;"><img style="width: 446px; height: 218px;" src="FLEX%20STATION%202.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td colspan="2" rowspan="1" style="vertical-align: top;">Conncting a station to the Hybrid Railway (Images by <i>"ulisse99")</i></td>
+    </tr>
+  </tbody>
+</table>
+<p style="font-family: Arial; text-align: justify;" class="MsoNormal"><i><br>
+</i></p>
+
+<div style="text-align: justify;"><span style="font-family: Arial;">The
+HRW network can have both Heavy Rail and High Speed/Monorail Traffic so
+existing stations in a given city can be used with the Hybrid Railway. They will only support Heavy Rail traffic however.</span><br>
+<br>
+<a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+<big style="font-weight: bold; text-decoration: underline; font-family: Arial;"><br>
+<a name="Tips_and_Tricks"></a>Tips and Tricks</big><br>
+<br style="font-family: Arial;">
+<span style="font-family: Arial;">There is one draw way of making or converting segments of the RRW to HRW specification as shown below.</span><br>
+<br>
+<table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><img src="FLEX%201.jpg" alt=""></td>
+    </tr>
+    <tr style="font-family: Arial;">
+      <td style="vertical-align: top;"><span style="font-weight: bold;">1)</span> Draw out an Orthogonal or Diagonal segment of Railway. <span style="font-style: italic;">Note: This only works with straight sections of the Real Railway.</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><img src="FLEX%202.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;"><span style="font-weight: bold;">2)</span> click on each Rail section with the monorail tool.</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><img src="FLEX%203.jpg" alt=""><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;"><span style="font-weight: bold;">3)</span> After progressively clicking the RRW will be converted to the HRW as defined by the overhead wires and poles.</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<div style="text-align: center;"><big><span style="font-family: Arial;"><br>
+<br>
+<br>
+</span></big>
+<table style="text-align: left; width: 1032px; height: 116px;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><img src="FLEX%20HT%201.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;">Additionally, the height of the HRW L1 is the same as the L1 ERRW. <span style="font-style: italic;">Note: The RRW flex OST is NOT compatible with the monorail network</span>. An onslope can be used from the Elevated HRW menu</span><br>
+      </td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><img src="FLEX%20HT%202.jpg" alt=""></td>
+    </tr>
+    <tr>
+      <td style="vertical-align: top;"><span style="font-family: Arial;">With
+straight sections of L1 the RRW can be overclicked on the Real Railway
+to make HRW L1. An over riding tile is needed to make this function.</span><br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<big><span style="font-family: Arial;"><br>
+Tutorial pictures by ulisse99</span></big><br>
+</div>
+<a href="Hybrid20Railway20Documentation.html#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+<br style="font-family: Arial;">
+<big style="text-decoration: underline;"><span style="font-family: Arial; font-weight: bold;"><a name="Credits"></a>Credits</span></big><br style="font-family: Arial;">
+<br style="font-family: Arial;">
+<span style="font-family: Arial;">Without the input from the NAM team
+this project would have not have been started. There are some notable
+members that have contributed are listed below.</span><br>
+<br>
+<big><span style="font-family: Arial;">eggman121</span></big><br style="font-family: Arial;">
+<big><span style="font-family: Arial;">Rivit</span></big><br style="font-family: Arial;">
+<big><span style="font-family: Arial;">Vester</span></big><br style="font-family: Arial;">
+<big><i style="font-family: Arial;">Tyberius06</i></big><br>
+<big><span style="font-family: Arial;">LucarioBoricua</span></big><br style="font-family: Arial;">
+<i><big><span style="font-family: Arial;">ulisse99</span></big></i><br style="font-family: Arial;">
+<i><big><span style="font-family: Arial;">Tarkus</span></big></i><br>
+<br>
+<a href="#Hybrid_Railway_Mod_for_the_Network_Addon"><span style="font-family: Arial;"><span style="font-weight: bold;">Return to
+top</span></span></a><br>
+</div>
+
+<br>
+
+<br>
+
+</body></html>
