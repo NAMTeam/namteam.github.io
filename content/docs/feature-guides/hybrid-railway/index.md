@@ -93,7 +93,7 @@ The Hybrid Railway has orthogonal and diagonal L1 sections or sections elevated 
 
 ## Stub-to-Stub (STS) Crossing Construction Method
 
-The Hybrid Railway currently support L1 or 7.5m elevation for straight pieces (orthogonal and diagonal) as well as crossings that are initated with the *stub to stub (STS)* method of crossings.
+The Hybrid Railway currently supports L1 or 7.5m elevation for straight pieces (orthogonal and diagonal), as well as crossings that are initated with the *stub to stub (STS)* method of crossings.
 
 The STS method is very important for the construction of crosssings for the Hybrid Railway. Since the Hybrid Railway is a multi-network override in itself, the HRW crossings neet to use the Stub to Stub or STS method of making a crossing. A demonstration is below.
 
@@ -125,7 +125,7 @@ The HRW network can support both Heavy Rail and High Speed/Monorail Traffic. Exi
 
 ## Tips and Tricks
 
-There is one way to make or convert segments of the RRW to the HRW specification by following the below instructions. Note that this method only works with straight sections of the Real Railway.  
+There is one way to make or convert segments of the RRW to the HRW specification by following the below instructions. Note that this method only works with straight orthogonal or diagonal sections of the Real Railway.  
 
 1. Draw out an Orthogonal or Diagonal segment of Railway.
 {{< img-simple src="images/FLEX-1.jpg">}}
