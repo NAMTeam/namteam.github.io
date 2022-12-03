@@ -24,20 +24,16 @@ The HybridRailway menu icons are grouped together above the RealRailway and all 
 <table class="table table-striped table-bordered w-auto">
     <tr>
         <td rowspan="4" valign="middle">{{< menu-icon icon="images/_HRW-Icons.jpg" >}}</td>
-        <td><b>Straight Pieces</b></td>
-        <td>Contains straight segments in both Orthogonal and Diagonal of various lengths.</td>
+        <td><b>Straight Pieces</b><br/>Contains straight segments in both Orthogonal and Diagonal of various lengths.</td>
     </tr>
     <tr>
-        <td><b>Elevated Pieces [L1]</b></td>
-        <td>Elevated starters including a L1 Flex Height Transition, Orthogonal and Diagonal FLEX onslope transitions.</td>
+        <td><b>Elevated Pieces [L1]</b><br/>Elevated starters including a L1 Flex Height Transition, Orthogonal and Diagonal FLEX onslope transitions.</td>
     </tr>
     <tr>
-        <td><b>Multi-Radius Curves</b></td>
-        <td>Includes curves from R1 to R5. Smaller curves are wider than their RRW counterparts</td>
+        <td><b>Multi-Radius Curves</b><br/>Includes curves from R1 to R5. Smaller curves are wider than their RRW counterparts</td>
     </tr>
     <tr>
-        <td><b>Switches for the Hybrid Railway</b></td>
-        <td>Switches for the HRW that include A2 types, B2 Types, Compounds and the FA-2 FLEX Switch pieces.</td>
+        <td><b>Switches for the Hybrid Railway</b><br/>Switches for the HRW that include A2 types, B2 Types, Compounds and the FA-2 FLEX Switch pieces.</td>
     </tr>
 </table>
 
