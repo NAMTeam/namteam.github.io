@@ -11,6 +11,28 @@ weight: 7
 
 # Agile Releases (2020 and later)
 
+## Version 46 (15 January 2023) (SC4 20th Anniversary)
+* **Network Widening Mod (NWM) Features**:
+  - Support for diagonal 4-way (+) intersections and crossings has been added for all six single-tile NWM networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4), including orthogonal X diagonal (OXD), diagonal X orthogonal (DXO) and diagonal X diagonal (DXD). These networks may cross one another, along with all base Maxis networks, Ground Light Rail (GLR), and Single-Track Rail (STR). Support for 3-way intersections, other NAM network families (i.e. RHW, SAM, etc.), and those involving multi-tile NWM networks will be added in a future phase.
+  - A preliminary version of an Avenue-based form of the 6-lane Avenue (AVE-6) network has been added, which supports full wealthing. To build an AVE-6 with the Avenue tool, overlap two orthogonal Avenues, and they will convert (diagonals are not presently supported). Most intersections supported by the existing AVE-6 are supported with this new implementation, and it is also possible to transition to the traditional Road-based AVE-6 for any functionality not yet supported.
+* **Network Widening Mod (NWM) Features**: Over 20 new Bridges have been added, courtesy of IDS2, including the first Bridges for the OWR-4 and OWR-5 networks (which are Avenue-based Bridges, due to the side-by-side Bridge limitation). Further bridge support has been added for RD-4, RD-6, SAM-6 (Klinker Streets), SAM-11 (MGB Industial), Double-Track Rail (DTR) and Single Track Rail (STR).
+* **Hybrid Railway (HRW) Features**: L2 HRW support has been added, along with LHD improvements, and a reimplementation of the OnSlope Transitions to improve slope handling. Elevated support includes R2 elevated curves (at L1 and L2), orthogonal X orthogonal (OXO) crossings with the base road networks (Road, OWR, Avenue), the Network Widening Mod and the RealHighway, and diagonal X orthogonal (DXO) includes the base road networks and the RealHighway.
+* **Rail Slope Settings**: An improved set of Rail Slope Settings has been prepared, providing more user choice and greater usability with the smoother/more restrictive options.
+* **Base Network Features**:
+  - Courtesy of the recently-returned Shadow Assassin, the diagonal transitions between the Avenue network and the Road and RHW-2 networks have been dramatically improved, and extended versions have been added. Direct connection transitions were re-designed for a smoother look, and the new extended versions use a stub-to-stub override.
+  - In preparation for future phases of the NWM diagonal intersection expansion, the base T-intersections involving diagonal Road and/or One-Way Road have been revamped.
+* **RealHighway (RHW) Features**:
+  - The long-awaited Dual Type 230 QuickChange Xpress Diamond Interchange setups are now available, which allow one to quickly build pre-fabricated interchanges between various RealHighway (RHW) networks and the triple-tile NWM networks, complete with turn lanes and all the bells and whistles.
+  - The Diagonal Ramp-Style FLEX Height Transitions now support RHW-3 and RHW-6S.
+  - The Double-Decker RHW-4 (DDRHW-4) models have been revamped, courtesy of Ulisse, coupled with some improvements to base functionality.
+  - The Type E1-Inside ramps now have elevated forms, and various incremental improvements have been made to the elevated ramp interface models.
+  - The Type A2 and B2 merging ramps have been re-designed to feature a lane drop prior to connecting with the mainline lanes.
+  - A new FLEX Width Transition piece has been added, to better facilitate transitions involving multi-tile S-type networks (especially the previously unstable RHW-8S-to-6S transitions, with their tile drop).
+  - The MIS 2-Lane FLEX Turn Lanes (including the FLEX Height Transition) can now connect smoothly to FlexSPUI and FlexDDI.
+ * **FLEX Turn Lane (FTL) Streetlights**: The FLEX Turn Lane (FTL) setups (except the very limited Avenue Type 020) now support streetlights.
+ * **New NAM Website**: An official Network Addon Mod website has been launched, [https://www.sc4nam.com](https://www.sc4nam.com), featuring NAM documentation and feature guides.
+ * **NAM Lite**: NAM Lite has now been spun off as a standalone download.
+
 ## Version 45 (8 September 2022)
 
 * **Traffic Simulator Updates**: The NAM Traffic Simulator has been upgraded to Simulator Z 3.0, resulting in further optimizations to both the speed and accuracy of the simulation, and improved network utilization. The Low capacity version of the simulator is now the recommended version, as it provides the most optimized simulation. The Traffic Volume View Plugins have also been updated. The Traffic Simulator Configuration Tool (TSCT) has been discontinued and is no longer supported, as it was designed to work with the 2.x releases of Simulator Z, and because of the nature of the changes in the 3.0 release.
