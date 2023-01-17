@@ -15,7 +15,9 @@ images: []
 
 2. **What is required to run the NAM?**
 
-    You must be running a retail copy of SimCity 4 Deluxe/Rush Hour, with a version number of 1.1.638 or higher. For further information, see the compatibility info on the opening page of the documentation. Any computer built since SC4's release in 2003 should have sufficient power to run the NAM, though the use of a 64-bit operating system and at least 4GB RAM is highly recommended. The NAM is not compatible with original SimCity 4 (non-Deluxe/without Rush Hour), nor is it intended to run on Deluxe/Rush Hour copies with version numbers of 1.1.610 or 1.1.613.
+    You must be running a retail copy of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion, with a version number of 1.1.638 or higher. For further information, see the compatibility info on the opening page of the documentation. Any computer built since SC4's release in 2003 should have sufficient power to run the NAM, though the use of a 64-bit operating system, at least 4GB RAM, and the NTCore 4GB Patch applied to the game's executable is highly recommended, and necessary to utilize the full feature set of the mod. 
+	
+	The NAM is not compatible with original SimCity 4 (non-Deluxe/without Rush Hour), nor is it intended to run on Deluxe/Rush Hour copies with version numbers of 1.1.610 or 1.1.613, including the EA App/Origin version of the game (also used by EA Play/Xbox Game Pass).
 
 3. **Why is my game crashing to desktop when I load a city tile after installing this mod?**
 
@@ -25,15 +27,17 @@ images: []
 
 4. **Does this mod work on a Mac?**
 
-    Yes. The NAM is a cross-platform mod, with a cross-platform Java installer, and being cross-platform, it will run on macOS, even more recent versions, provided Java has been installed. The version of Java included in this package is for Windows users, so it will not work for you. Instead, go to [Adoptium](https://adoptium.net/) or [Oracle](https://www.java.com/) to download a Mac version of Java. Also, since Aspyr updated the Mac port of SimCity 4 to be a 64-bit application, the 4GB Patch is NOT required for Mac users. One quirk to note is that NAM network items in TAB Loops will require the user to press Ctrl-TAB or Ctrl-Shift-TAB to cycle through, rather than the mere TAB or Shift-TAB on other operating systems (or the earlier Mac version), in order to access all the items available under each menu button.
+    Yes. The NAM is a cross-platform mod, with a cross-platform Java installer. Being cross-platform, it will run on macOS, provided Java has been installed. The version of Java included in this package is for Windows users, so it will not work for you. Instead, go to [Adoptium](https://adoptium.net/) or [Oracle](https://www.java.com/) to download a Mac version of Java. Also, since Aspyr updated the Mac port of SimCity 4 to be a 64-bit application (and as of January 2023, has also implemented Apple Silicon support), the 4GB Patch is NOT required for Mac users. 
+	
+	One quirk to note is that NAM network items in TAB Loops will require the user to press Ctrl-TAB or Ctrl-Shift-TAB to cycle through, rather than the mere TAB or Shift-TAB on other operating systems (or the earlier Mac version), in order to access all the items available under each menu button.
 
 5. **How much hard drive space will the NAM require?**
 
-    It depends on the options you install, but it can range anywhere from 1.7MB to about 1GB.
+    It depends on the options you install.  Expect about about 1.2GB for a full NAM install with the RealHighway plugin, down to about 30MB if you've installed NAM Lite.
 
 6. **Will this mod impact game performance?**
 
-    With modern hardware (as of 2022), any performance impact will be minimal--the most prominent impact is that the game may initially be slower to load upon first opening it, particularly if you are running a full installation.
+    Adding any Plugins to the game will impact performance to at least some extent--more for the game to load.  With modern hardware (as of 2023), the most prominent impacts is will be with the initial load of the game, and when loading a city tile for the first time after that initial load. This can be a noticeable difference, particularly if you've installed the full NAM after running completely "vanilla" (without plugins).
 
 7. **What all is included in the NAM?**
 
@@ -41,11 +45,11 @@ images: []
 
 8. **Is this mod stable?**
 
-    The NAM has been around for over 18 years, and is the most widely-used mod for SimCity 4 Deluxe/Rush Hour. While there are always things in the NAM that are being improved, it has such wide acceptance because it is generally considered to be a stable addition to the game. If you encounter issues while using the mod, the NAM Team would like to know, as we want to ensure users of this mod have an enjoyable experience.
+    The NAM has been around for almost 19 years, and is the most widely-used mod for SimCity 4 Deluxe/Rush Hour. While there are always things in the NAM that are being improved, it has such wide acceptance because it is generally considered to be a stable addition to the game. If you encounter issues while using the mod, the NAM Team would like to know, as we want to ensure users of this mod have an enjoyable experience.
 
 9. **Is using this mod considered cheating?**
 
-    The consensus of most SC4 players is that it is not. The NAM restores the traffic simulator to something much more in line with what Maxis originally intended, before they were forced to significantly down-tune it in order to allow the game to run on a 500MHz Pentium III. While the NAM does allow one to adjust the capacity of the simulator, potentially up to levels significantly higher than the base game, using the "Classic" setting, or customizing the capacity settings with the Traffic Simulator Configuration Tool (TSCT) can actually provide an experience that is more challenging than that offered by the base game. Many of the NAM's expansions are designed to provide more options for managing one's grid, and they are, to the greatest extent possible, designed to be functional additions, not cheats.
+    The consensus of most SC4 players is that it is not. The NAM restores the traffic simulator to something much more in line with what Maxis originally intended, before they were forced to significantly down-tune it in order to allow the game to run on a 500MHz Pentium III. While the NAM does allow one to adjust the capacity of the simulator, potentially up to levels significantly higher than the base game, using the "Classic" setting can actually provide an experience that is more challenging than that offered by the base game. Many of the NAM's expansions are designed to provide more options for managing one's grid, and they are, to the greatest extent possible, designed to be functional additions, not cheats.
 
 10. **Is the NAM compatible with other transportation mods?**
 
@@ -57,7 +61,9 @@ images: []
 
 12. **How do EA and Maxis feel about this mod? Is it legal?**
 
-    The NAM is 100% legal, and EA Maxis has been extremely supportive of our efforts. Maxis employee Frank Simon (AKA MaxisFrank) actually encouraged NAM co-founder **the7trumpets** to undertake modification of the traffic simulator, as the company could not issue a patch themselves, due to the need to still meet the published minimum technical requirements.
+    The NAM is 100% legal, and Maxis was extremely supportive of our efforts. Maxis employee Frank Simon (AKA MaxisFrank) actually encouraged NAM co-founder **the7trumpets** to undertake modification of the traffic simulator, as the company could not issue a patch themselves, due to the need to still meet the published minimum technical requirements.
+	
+	EA is currently using a series of screenshots featuring the NAM on their official page for SimCity 4 (though ironically, the version for sale on that page is the EA App version, which features a Version 1.1.610 executable and is not supported by the NAM).
 
 13. **What is this CAM thing? Is it related to the NAM?**
 
@@ -65,7 +71,7 @@ images: []
 
 14. **Are there any tutorials or videos that help explain this mod and its functionality?**
 
-    Yes, there are some tutorials included in this documentation. There are also quite a few on the main SC4 forums, as well as on YouTube, but considering that the NAM has actually been around longer than YouTube (!), it is important to pay attention to the date of tutorial, as the NAM has changed significantly since the early days, and is still changing (particularly in light of the long-term project to move away from standard puzzle pieces)..
+    Yes, there are some tutorials included in this documentation. There are also quite a few on the main SC4 forums, as well as on YouTube, but considering that the NAM has actually been around longer than YouTube (!), it is important to pay attention to the date of tutorial, as the NAM has changed significantly since the early days, and is still changing (particularly in light of the long-term project to move away from standard puzzle pieces).
 
 15. **Does the NAM have dependencies?**
 
@@ -73,7 +79,7 @@ images: []
 
 16. **Why is the game crashing to desktop immediately upon loading after installing this mod?**
 
-    The only reason the NAM could cause an immediate crash to desktop (CTD) would be if you're running the original version of SimCity 4 (not Deluxe/Rush Hour). If you are running Deluxe/Rush Hour, you may want to check any other plugins you may have installed.
+    The only reason the NAM could cause an immediate crash to desktop (CTD) would be if you're running the original version of SimCity 4 (not Deluxe/Rush Hour), or if your game is improperly configured for your hardware (in which case it will crash similarly without the NAM). If you are running Deluxe/Rush Hour, you may want to check any other plugins you may have installed.
 
 17. **What's with all the acronyms? Is there a list of what they all mean?**
 
@@ -85,7 +91,7 @@ images: []
 
 19. **Why am I seeing duplicate icons?**
 
-    You may have two copies of a given plugin installed. You'll need to find and remove the duplicate, which could be from an earlier NAM or NAM component plugin release, which could interfere with your NAM installation in other ways.
+    You may have two copies of a given NAM plugin installed. You'll need to find and remove the duplicate, which could be from an earlier NAM or NAM component plugin release, which could interfere with your NAM installation in other ways.
 
 20. **Why am I getting a red arrow/gray cursor when I click one of the new icons in game?**
 
@@ -93,11 +99,11 @@ images: []
 
 21. **After installing the NAM, why are the tiles leading up to my intersections suddenly orange or red in the Congestion Data View?**
 
-    The NAM's traffic simulator plugin, with its default settings, amplifies the effect of the Intersection and Turn Capacity Effect property, affecting network tiles that are within a 2-tile radius of an intersection (or transition) to better simulate the effects of queues at intersections (esp. signalized ones). If you don't like this effect, you can tweak it using the NAM Traffic Simulator Configuration Tool (TSCT). Lowering the value of the "Intersection Capacity Effect" will diminish the redness of the tiles leading up to your intersections.
+    The NAM's traffic simulator plugin, with its default settings, amplifies the effect of the Intersection and Turn Capacity Effect property, affecting network tiles that are within a 2-tile radius of an intersection (or transition) to better simulate the effects of queues at intersections (esp. signalized ones).
 
 22. **Why are the cars disappearing in game?**
 
-    The "cars" are not really there in the traffic simulation--they're simply a visual effect that merely has a casual correlation to actual traffic data in the game. Being visual effects, they can eat up processing power, and in order to keep the game from becoming overloaded, the game's engine puts a finite limit on how many vehicular automata can show up at one time. Over that limit, and they disappear. Certain plugin options for Automata Simulation can allow more automata to stay on the screen at one time, though keeping the cars on the road all the time is simply an impossibility, due to the way the game is programmed. SimCity 4 is a statistics-based simulator, not an agent-based simulator (as SimCity (2013) and Cities: Skylines are).
+    The "cars", or "automata", are not really there in the traffic simulation--they're simply a visual effect that merely has a casual correlation to actual traffic data in the game. Being visual effects, they can eat up processing power, and in order to keep the game from becoming overloaded, the game's engine puts a finite limit on how many vehicular automata can show up at one time. Over that limit, and they disappear. Certain Automata Plugin options can allow more automata to stay on the screen at one time, though keeping the cars on the road all the time is simply an impossibility, due to the way the game is programmed. SimCity 4 is a statistics-based simulator, not an agent-based simulator (as SimCity (2013) and Cities: Skylines are).
 
 23. **What are the differences between "puzzle pieces", "FLEX pieces", "starter pieces", and TE lots"?**
 
@@ -113,11 +119,11 @@ images: []
 
 24. How do I move between the different puzzle/FLEX/starter pieces, and how do I rotate them?
 
-    The TAB key will move forward through a given set of puzzle pieces under a single icon, and Shift-TAB will move backwards. Rotation is accomplished through the Home and End keys. For MacBook users, it's actually Fn+Home and Fn+End.
+    The TAB key will move forward through a given set of puzzle pieces under a single icon, and Shift-TAB will move backwards. Rotation is accomplished through the Home and End keys. On macOS, it is actually Ctrl-TAB and Ctrl-Shift-TAB (TAB and Shift-TAB will still work, but will tend to skip every other item).
 
 25. What is up with the icon with the NAM logo at the bottom of the Highways menu, and why does it do nothing when I click it?
 
-    The NAM logo icon is a diagnostic tool, which, if hovered over, will show you which version of the NAM controller you are currently running. This can be useful in diagnosing issues pertaining to the controller.
+    The NAM logo icon is a diagnostic tool, which, if hovered over, will show you which version of the NAM Controller you are currently running. This can be useful in diagnosing issues pertaining to the NAM Controller.  It is not supposed to do anything when you click it.
 
 26. Why is the game crashing after I place a puzzle piece?
 
@@ -127,11 +133,11 @@ images: []
 
 27. Why isn't it possible to add true new networks, instead of using starter pieces?
 
-    Adding new networks is, at this time, impossible. The base RHW network was only possible as it used an unused network stub left in the game. There are no more unused network stubs for us to use. The starter piece paradigm allows us to very closely mimic the effects of adding true new networks, however.
+    Adding new networks is, at this time, impossible. The base RHW network was only possible as it used an unused network stub left in the game. Although game files suggest that theoretically, there is space for three more true networks (for a total of 16), there is not enough of a stub for these final three slots for us to enable them. The starter piece paradigm allows us to very closely mimic the effects of adding true new networks, however.
 
 28. Why haven't you guys added submenus instead of using TAB loops?
 
-    Adding new submenus is, at this time, impossible. SC4 mod developers have tried for many years, to no avail.
+    Adding new submenus is, at this time, impossible. SC4 mod developers have tried for many years, to no avail, though have come up with workarounds like Daeley's Advanced Menu Navigator (DAMN), which repurposes the game's News system, and Menu Management Lots (MMLs).
 
 29. Certain draggable items are not working for me, and I'm following the directions. Why isn't it working?
 
@@ -159,7 +165,7 @@ images: []
 
 35. How do I build an interchange with the RealHighway (RHW) system?
 
-    Rather than the pre-fabricated, one-piece interchanges of the game's default highway system, the RealHighway system was designed with the concept of modular interchange construction in mind. More details can be found in the RHW portion of the documentation. An upcoming release of the NAM will, however, change this at long last, as a series of FLEX-based pre-fabricated interchanges for the RHW system is in the works.
+    Rather than the pre-fabricated, one-piece interchanges of the game's default highway system, the RealHighway system was designed with the concept of modular interchange construction in mind. More details can be found in the RHW portion of the documentation. That said, NAM 45 (September 2022) did introduce the QuickChange Xpress (QCX) system, which currently adds full diamond interchanges to the RHW's repertoire.  These can be found under the QuickChanges button on the Highways Menu.
 
 36. Why aren't my neighbor connections working on RealHighways and/or wider Roads, Avenues and One-Way Roads? How do I fix them?
 
@@ -171,15 +177,15 @@ images: []
 
 38. Why can't I build diagonal intersections with some of the wider Roads, Avenues and One-Way Roads?
 
-    This functionality is still in the works, and will be added in a future release.
+    As of NAM 46, diagonal 4-way ("+") intersections and crossings are now possible betwen the single-tile Network Widening Mod (NWM) networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4) with all of the game's base networks, plus Ground Light Rail (GLR), Single-Track Rail (STR), and all other single-tile NWM networks.  3-way ("T") intersections are not presently available, nor are any diagonal intersection or crossing options for the multi-tile NWM networks.
 
 39. When is the next NAM version being released?
 
-    There is no date or timeline for the next release. We honestly have no idea. This project is a very passionate hobby for many NAM Team members, but it is still just that--a hobby, something we do in our spare time. It's also a technically complex undertaking, where things can unexpectedly go wrong in development. It's simply not possible for us to predict when we'll be done with a release, and coming up with arbitrary release dates just leads to extremely buggy releases or postponement, disappointing everyone in the process. The one time we did it (in 2013), it did not go well. Besides, we like to surprise people.
+    There is no date or timeline for the next release. We honestly have no idea. This project is a very passionate hobby for many NAM Team members, but it is still just that--a hobby, something we do in our spare time, as volunteers. It's also a technically complex undertaking, where things can unexpectedly go wrong in development. It's simply not possible for us to predict when we'll be done with a release, and coming up with arbitrary release dates just leads to extremely buggy releases or postponement, disappointing everyone in the process. The one time we did it (in 2013), it did not go well. Besides, we like to surprise people.
 
 40. I'm a user from outside the North America--are there Euro road textures to make the roads look more familiar to me?
 
-    Yes, just select either the "EU_Right Side" or "EU_Left Side" option (depending on your drive side) under "7_Texture and Drive Side Support".
+    Yes, just select either the "EU_Right Side" or "EU_Left Side" option (depending on your drive side) under "8 Texture and Drive Side Support".
 
 41. I have ideas for new features. Does the NAM Team take requests?
 
@@ -189,6 +195,6 @@ images: []
 
     As far membership on the NAM Team or the NAM Associates testing group goes, we're always on the lookout for folks with the right skills on the forums. If you're looking to add something to the mod, show us a prototype of some sort--we'll help you figure out the best way to realize it. We don't, however, have open sign-ups for development or testing positions.
 
-43. Are you guys crazy, making this extensive mod for a 19-year-old game?!
+43. Are you guys crazy, making this extensive mod for a 20-year-old game?!
 
     Yes. Always have been, always will be.
