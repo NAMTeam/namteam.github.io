@@ -170,3 +170,728 @@ Due to the nature of the DirtRoad network, tunnels were never implemented and as
 
 ## Network ID Assignments
 
+The RealHighway Mod uses the following ID ranges:
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Network Range</th>
+        <th>Purpose</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5700 - 0x57FF</code></td>
+        <td>Current RHW range</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x7700 - 0x77FF</code></td>
+        <td>LHD Path remapping range</td>
+    </tr>
+</table>
+
+Within the Network Addon Mod, the RealHighway Mod occupies the entire 0x57 range.
+
+There are some Flex FARHW pieces in the 0x56F range, and there are also a handful of legacy RHW puzzle pieces in 0x5E.
+
+### Detailed information
+
+#### 0x570
+
+Primarily contains the base networks.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25" style="max-width:120px;">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5700</code></td>
+        <td>L0 RHW-2</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5701</code></td>
+        <td>L0 RHW-3</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5702</code></td>
+        <td>L0 RHW-MIS</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5703</code></td>
+        <td>L0 RHW-4</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5704</code></td>
+        <td>L0 RHW-6S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5705</code></td>
+        <td>L0 RHW-8S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5706</code></td>
+        <td>L0 RHW-10S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5707</code></td>
+        <td>L0 RHW-12S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5708</code></td>
+        <td>L0 RHW-6C</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5709</code></td>
+        <td>L0 RHW-8C</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x570A</code></td>
+        <td>L0 RHW-10C (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x570B</code></td>
+        <td>RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x570C</code></td>
+        <td>RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x570D</code></td>
+        <td>RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x570E</code></td>
+        <td>RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x570F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x571
+
+Primarily contains Level 1 networks.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5710</code></td>
+        <td>L1 RHW-2</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5711</code></td>
+        <td>L1 RHW-3</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5712</code></td>
+        <td>L1 RHW-MIS</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5713</code></td>
+        <td>L1 RHW-4</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5714</code></td>
+        <td>L1 RHW-6S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5715</code></td>
+        <td>L1 RHW-8S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5716</code></td>
+        <td>L1 RHW-10S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5717</code></td>
+        <td>L1 RHW-12S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5718</code></td>
+        <td>L1 RHW-6C</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5719</code></td>
+        <td>L1 RHW-8C</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x571A</code></td>
+        <td>L1 RHW-10C (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x571B</code></td>
+        <td>L1 RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x571C</code></td>
+        <td>L1 RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x571D</code></td>
+        <td>L1 RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x571E</code></td>
+        <td>L1 RHW Ultrawides (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x571F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x572
+
+Primarily contains Level 2 networks.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5720</code></td>
+        <td>L2 RHW-2</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5721</code></td>
+        <td>L2 RHW-3</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5722</code></td>
+        <td>L2 RHW-MIS</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5723</code></td>
+        <td>L2 RHW-4</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5724</code></td>
+        <td>L2 RHW-6S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5725</code></td>
+        <td>L2 RHW-8S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5726</code></td>
+        <td>L2 RHW-10S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5727</code></td>
+        <td>L2 RHW-12S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5728</code></td>
+        <td>L2 RHW-6C</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5729</code></td>
+        <td>L2 RHW-8C</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x572A</code></td>
+        <td>L2 RHW-10C (Proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x572B</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x572C</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x572D</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x572E</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x572F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x573
+
+Primarily contains single-tile Level 3 networks.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5730</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5731</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5732</code></td>
+        <td>L3 RHW-MIS</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5733</code></td>
+        <td>L3 RHW-4</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5734</code></td>
+        <td>L3 RHW-6S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5735</code></td>
+        <td>DDRHW-8 (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5736</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5737</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5738</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5739</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x573A</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x573B</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x573C</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x573D</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x573E</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x573F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x574
+
+Primarily contains single-tile Level 4 networks and the proposed X3 ramps.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5740</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5741</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5742</code></td>
+        <td>L4 RHW-MIS</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5743</code></td>
+        <td>L4 RHW-4</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5744</code></td>
+        <td>L3 RHW-6S</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5745</code></td>
+        <td>RHW-8S X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5746</code></td>
+        <td>RHW-10S X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5747</code></td>
+        <td>RHW-12S X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5748</code></td>
+        <td>RHW-6C X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5749</code></td>
+        <td>RHW-8C X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x574A</code></td>
+        <td>RHW-10C X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x574B</code></td>
+        <td>Ultrawide RHW X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x574C</code></td>
+        <td>Ultrawide RHW X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x574D</code></td>
+        <td>Ultrawide RHW X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x574E</code></td>
+        <td>Ultrawide RHW X3 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x574F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x575
+
+Primarily contains DDRHW-4, but is otherwise mostly unused. DDRHW-8 has been proposed for a part of this range.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5750</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5751</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5752</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5753</code></td>
+        <td>DDRHW-4</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5754</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5755</code></td>
+        <td>DDRHW-8 (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5756</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5757</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5758</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5759</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x575A</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x575B</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x575C</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x575D</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x575E</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x575F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x576
+
+Primarily contains RHW-2/3/4/MIS intersections and other base network items, and X2 ramp interfaces.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5760</code></td>
+        <td>RHW-2 intersections</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5761</code></td>
+        <td>RHW-3 intersections</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5762</code></td>
+        <td>RHW-MIS intersections</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5763</code></td>
+        <td>RHW-4 intersections</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5764</code></td>
+        <td>RHW-6S X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5765</code></td>
+        <td>RHW-8S X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5766</code></td>
+        <td>RHW-10S X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5767</code></td>
+        <td>RHW-12S X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5768</code></td>
+        <td>RHW-6C X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5769</code></td>
+        <td>RHW-8C X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x576A</code></td>
+        <td>RHW-10C X2 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x576B</code></td>
+        <td>Ultrawide RHW X2 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x576C</code></td>
+        <td>Ultrawide RHW X2 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x576D</code></td>
+        <td>Ultrawide RHW X2 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x576E</code></td>
+        <td>Ultrawide RHW X2 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x576F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x577
+
+Primarily used for width and height transitions.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5770</code></td>
+        <td>RHW-2 OST & WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5771</code></td>
+        <td>RHW-3 OST & WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5772</code></td>
+        <td>RHW-MIS OST, RHW-MIS to RHW-4 WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5773</code></td>
+        <td>RHW-4 OST, RHW-4 to RHW-6S WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5774</code></td>
+        <td>RHW-6S OST, RHW-6S to RHW-8S WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5775</code></td>
+        <td>RHW-8S OST, RHW-8S to RHW-10S WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5776</code></td>
+        <td>RHW-10S OST, RHW-10S to RHW-12S WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5777</code></td>
+        <td>RHW-12S OST</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5778</code></td>
+        <td>RHW-6C OST, RHW-6C to RHW-8C WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5779</code></td>
+        <td>RHW-8C OST, RHW-8C to RHW-10C WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x577A</code></td>
+        <td>RHW-10C OST</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x577B</code></td>
+        <td>S-to-C WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x577C</code></td>
+        <td>S-to-C WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x577D</code></td>
+        <td>S-to-C WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x577E</code></td>
+        <td>S-to-C WT</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x577F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x578
+
+Primarily contains X1 ramps.
+
+<table class="table-bordered w-full">
+    <thead class="text-center">
+        <th class="w-25">Range</th>
+        <th>Used by</th>
+    </thead>
+    <tr>
+        <td class="text-center"><code>0x5780</code></td>
+        <td>RHW-2 X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5781</code></td>
+        <td>RHW-3 X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5782</code></td>
+        <td>RHW-MIS X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5783</code></td>
+        <td>RHW-4 X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5784</code></td>
+        <td>RHW-6S X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5785</code></td>
+        <td>RHW-8S X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5786</code></td>
+        <td>RHW-10S X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5787</code></td>
+        <td>RHW-12S X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5788</code></td>
+        <td>RHW-6C X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x5789</code></td>
+        <td>RHW-8C X1 Ramps</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x578A</code></td>
+        <td>RHW-10C X1 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x578B</code></td>
+        <td>Ultrawide RHW X1 Ramps (proposed)</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x578C</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x578D</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x578E</code></td>
+        <td>Unused</td>
+    </tr>
+    <tr>
+        <td class="text-center"><code>0x578F</code></td>
+        <td>Unused</td>
+    </tr>
+</table>
+
+#### 0x579
+
+Primarily contains MRCs/WRCs.
+
+#### 0x57A
+
+Primarily contains Three-Level Crossing pieces.
+
+#### 0x57B
+
+Primarily contains specialised ramp pieces.
+
+#### 0x57C
+
+Primarily contains RHW cosmetic pieces and FTLs.
+
+#### 0x57D
+
+Primarily contains RHW cosmetic pieces and FTLs.
+
+#### 0x57E
+
+Primarily contains specialised interchange items (Volleyballs, SPUIs, DDIs, etc).
+
+#### 0x57F
+
+Primarily contains starter pieces, fillers and other miscellaneous items.
