@@ -1,9 +1,9 @@
-{{- $images := split (trim $.Inner "\n") "\n" -}}
+{{- $images := split (trim $.InnerDeindent "\n\r") "\n" -}}
 {{- $columns := .Get "columns" | default 3 }}
 {{- $clickable := .Get "clickable" | default true }}
 <div class="gallery row row-cols-1 row-cols-md-2 row-cols-lg-{{$columns}} g-2{{ if .Get "caption"}} mb-1{{ else }} mb-4{{ end }}">
     {{ range $k, $v := $images }}
-        {{ $image := $.Page.Resources.GetMatch (printf "*%s*" (trim $v " ")) -}}
+        {{ $image := $.Page.Resources.GetMatch (printf "*%s*" (trim $v "\r\n ")) -}}
         {{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
         <div class="col mx-auto text-center">
             <img class="my-0 img-simple img-fluid lazyload blur-up{{ with $.Get "class" }} {{.}}{{ end }}" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">

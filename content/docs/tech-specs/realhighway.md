@@ -852,15 +852,15 @@ Primarily contains X1 ramps.
     </tr>
     <tr>
         <td class="text-center"><code>0x578C</code></td>
-        <td>Ultrawide RHW X1 Ramps (proposed)</td>
+        <td>Unused</td>
     </tr>
     <tr>
         <td class="text-center"><code>0x578D</code></td>
-        <td>Ultrawide RHW X1 Ramps (proposed)</td>
+        <td>Unused</td>
     </tr>
     <tr>
         <td class="text-center"><code>0x578E</code></td>
-        <td>Ultrawide RHW X1 Ramps (proposed)</td>
+        <td>Unused</td>
     </tr>
     <tr>
         <td class="text-center"><code>0x578F</code></td>
