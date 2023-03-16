@@ -19,7 +19,6 @@ weight: 7
     - Special underground paths enable residential zone development, while crossings discourage car traffic through restricted car paths.
   - In addition, some enhancements to existing functionality have been implemented:
     - The override code for the size 3 mid-block crosswalks for TLA-7 and AVE-6 have been overhauled, enabling these to be overridden from one side.
-
 * **RealHighway (RHW) Features**:
   - **RHW-12S**: A new, 12-lane quadruple-tile RHW network (separable into two dual-tile halves, carrying 6 lanes in each direction) has been added, with the following features:
     - Three height levels are supported: L0/Ground, L1/7.5-meter elevation, and L2/15-meter elevation.  Transitioning between these height levels is supported by the ramp-style FLEX Height Transitions (FLEX-HT), as well as the FLEX OnSlope Transitions (FLEX-OSTs), by connecting them to the RHW-12S networks.
@@ -34,7 +33,9 @@ weight: 7
     - Some enhancements, courtesy of **memo99**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
     - Some enhancements, courtesy of **Flann**, to elevated RHW network models have been added.
 * **Bridges**:
-  - A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**.
+  - A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**:
+    - New viaduct bridges for L0 RHW-8S, L0 RHW-10S and L0-L2 RHW-12S.
+    - A pair of new Steel Arch bridges for RHW-10S and RHW-12S.
 * **Base Network Features**:
   - A new 5x5 90° Wide Radius Curve FLEX piece has been added to the Avenue network.
 * **Miscellaneous**:

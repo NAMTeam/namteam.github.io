@@ -1,6 +1,6 @@
 ---
 title : "Network Addon Mod Utilities"
-description: "Utility items assist players with additional functionality and features of the Network Addon Mod."
+description: "These utility items assist players with implementing the enhanced functionality and features of the Network Addon Mod."
 lead: "Two utility items are available on every network menu in the game with the NAM: the Network Eraser and the Hole Diggers and Raisers. The former acts as a more refined version of the game's default Bulldozer tool, while the latter allows precise terraforming, useful when working with network grades, tunnels, bridges, and placing On-Slope transitions."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2023-03-16T10:40:00+00:00
