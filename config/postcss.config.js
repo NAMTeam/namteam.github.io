@@ -20,6 +20,7 @@ module.exports = {
         'td',
         'h5',
         'alert-link',
+        /row-cols-*/,
         'container-xxl',
         'container-fluid',
         'offcanvas-backdrop',
