@@ -1,7 +1,10 @@
 {{- $images := split (trim $.InnerDeindent "\n\r") "\n" -}}
 {{- $columns := .Get "columns" | default 3 }}
+{{- $lgcols := .Get "col-lg" | default 3 }}
+{{- $xlcols := .Get "col-xl" | default 3 }}
+{{- $mdcols := .Get "col-md" | default 2 }}
 {{- $clickable := .Get "clickable" | default true }}
-<div class="gallery row row-cols-1 row-cols-md-2 row-cols-lg-{{$columns}} g-2{{ if .Get "caption"}} mb-1{{ else }} mb-4{{ end }}">
+<div class="gallery row row-cols-1 row-cols-md-{{$mdcols}} row-cols-lg-{{$lgcols}} row-cols-xl-{{$xlcols}} g-2{{ if .Get "caption"}} mb-1{{ else }} mb-4{{ end }}">
     {{ range $k, $v := $images }}
         {{ $image := $.Page.Resources.GetMatch (printf "*%s*" (trim $v "\r\n ")) -}}
         {{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}

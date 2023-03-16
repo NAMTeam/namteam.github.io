@@ -3,7 +3,7 @@ title: "NAM Version History"
 description: "NAM Version History"
 lead: "An appendix of hosted documentation for nearly every release of the Network Addon Mod."
 date: 2021-09-24T08:50:23+02:00
-lastmod: 2021-09-24T08:50:23+02:00
+lastmod: 2023-03-16T08:09:00+00:00
 draft: false
 images: []
 weight: 7
