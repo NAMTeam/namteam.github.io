@@ -10,7 +10,7 @@ images: []
 
 {{< docstatus status="workinprogress" >}}
 
-{{< gallery columns="4">}}
+{{< gallery col-xl="4" col-lg="4" col-md="2">}}
     images/rhwteaser1.jpg
     images/rhwteaser2.jpg
     images/rhwteaser3.jpg
@@ -188,7 +188,7 @@ The QCX setups are located near the end of the TAB Loop under the RHW QuickChang
 
 To use a QCX, simply plop the interchange in its desired location/rotation, and connect it up with the surrounding networks. It's really that easy!
 
-{{< gallery columns="2" clickable="true" >}}
+{{< gallery col-xl="2" col-lg="2" clickable="true" >}}
     images/quickchange/rhw-qcx-1.jpg
     images/quickchange/rhw-qcx-2.jpg
     images/quickchange/rhw-qcx-3.jpg
@@ -198,7 +198,7 @@ To use a QCX, simply plop the interchange in its desired location/rotation, and 
 
 It is also possible to plop a QCX directly over an existing crossing.
 
-{{< gallery columns="2" clickable="true" >}}
+{{< gallery col-xl="2" col-lg="2" clickable="true" >}}
     images/quickchange/rhw-qcx-6.jpg
     images/quickchange/rhw-qcx-7.jpg
 {{< /gallery >}}
@@ -570,7 +570,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-2 Viaduct Bridge
 * L2 RHW-2 Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw2-bridges-1.jpg
     images/bridges/rhw2-viaduct-bridges.jpg
 {{< /gallery >}}
@@ -581,7 +581,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-3 Viaduct Bridge
 * L2 RHW-3 Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw3-viaduct-bridges.jpg
 {{< /gallery >}}
 
@@ -591,7 +591,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 MIS Viaduct Bridge
 * L2 MIS Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/mis-viaduct-bridges.jpg
 {{< /gallery >}}
 
@@ -610,7 +610,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-4 Viaduct Bridge
 * L2 RHW-4 Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw4-bridges-1.jpg
     images/bridges/rhw4-bridges-2.jpg
     images/bridges/rhw4-bridges-3.jpg
@@ -629,7 +629,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-6S Viaduct Bridge
 * L2 RHW-6S Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw6s-bridges-1.jpg
     images/bridges/rhw6s-bridges-2.jpg
     images/bridges/rhw6s-bridges-3.jpg
@@ -642,7 +642,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-8S Viaduct Bridge
 * L2 RHW-8S Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw8s-bridges-1.jpg
     images/bridges/rhw8s-viaduct-bridges.jpg
 {{< /gallery >}}
@@ -654,7 +654,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-10S Viaduct Bridge
 * L2 RHW-10S Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw10s-bridges-1.jpg
     images/bridges/rhw10s-viaduct-bridges.jpg
 {{< /gallery >}}
@@ -663,7 +663,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 
 * Plain DDRHW-4 Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/ddrhw4-bridges-1.jpg
 {{< /gallery >}}
 
@@ -798,7 +798,7 @@ In certain situations, using special Three-Level Crossing helper pieces (located
 
 Note that any FLEXFly or curve pieces must be _at least 1 tile away_ from a Three-Level Crossing FLEX Piece, as at present, the adjacency stability does not exist, nor does FLEXFly-over-FLEXFly functionality.
 
-{{< gallery columns="2">}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1">}}
 images/tlc/rhw-tlc-1.jpg
 images/tlc/rhw-tlc-2.jpg
 images/tlc/rhw-tlc-3.jpg
@@ -819,7 +819,7 @@ The RHW has its own set of (rapidly-expanding) FLEX Turn Lane (FTL) options avai
 
 To build the RHW-2 FTLs, begin with the transition, and drag RHW-2 out from it. The override of the turn lane will carry until you reach an intersection with another network.
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-rhw2-1.jpg
 images/ftl/rhw-ftl-rhw2-2.jpg
 images/ftl/rhw-ftl-rhw2-3.jpg
@@ -832,7 +832,7 @@ The override does not continue on the other side of the intersection, if a +-int
 
 It is possible to signalize intersections with Roads and other RHW-2s, via two methods: the first involves transitioning to Road immediately before the intersection (as is the case with the draggable signalized One-Way Road intersections in SITAP).
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-rhw2-6.jpg
 images/ftl/rhw-ftl-rhw2-7.jpg
 images/ftl/rhw-ftl-rhw2-8.jpg
@@ -850,7 +850,7 @@ Currently, the only crossing networks supported by the RHW-2 FTLs are Streets, R
 
 To build rural-style RHW-4 FTLs, use the same transition as the RHW-2 FTLs, but override it with the RHW-4 network to convert it.
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-rhw4-1.jpg
 images/ftl/rhw-ftl-rhw4-2.jpg
 images/ftl/rhw-ftl-rhw4-3.jpg
@@ -865,7 +865,7 @@ Currently, the only crossing networks supported by the Rural RHW-4 FTLs are Stre
 
 The MIS FTLs, known in their 2-lane form as "MIS-2", currently come in two flavors: one that favors right turns, and the other that favors left turns. Each produces a different end result at a Road +-intersection (with SITAP support).
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-mis-1.jpg
 images/ftl/rhw-ftl-mis-2.jpg
 images/ftl/rhw-ftl-mis-3.jpg
@@ -873,7 +873,7 @@ images/ftl/rhw-ftl-mis-3.jpg
 
 It is also possible to hook an RHW-4 into an MIS FTL, in which case the RHW-4 seamlessly transitions into an MIS-2 FTL.
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-mis-4.jpg
 images/ftl/rhw-ftl-mis-5.jpg
 {{< /gallery >}}

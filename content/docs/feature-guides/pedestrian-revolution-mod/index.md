@@ -24,7 +24,7 @@ Version 45 of the Network Addon Mod introduced the first FLEX-based pedestrian-o
 
 The initial set of 9 pieces provides crossings for all the bidirectional surface road networks: Road, Avenue, and the two-way (Road-based) Network Widening Mod overrides. Each network width has 3 sizes, measured based on the length of the crosswalk piece. All pieces use a crossing table or raised crosswalk design, where the road pavement is raised to sidewalk height, providing a continuous walking surface for pedestrians, along with traffic calming for motor vehicles.
 
-{{< gallery columns=3 >}}
+{{< gallery col-xl=3 >}}
     images/mbc/mbc01.jpg
     images/mbc/mbc02.jpg
     images/mbc/mbc03.jpg

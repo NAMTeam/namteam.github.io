@@ -166,7 +166,7 @@ Shortcode:
 You can create quick, flexible galleries by using the following shortcode:
 
 ```
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/foo.jpg
     images/bar.jpg
     images/baz.jpg
@@ -176,7 +176,9 @@ You can create quick, flexible galleries by using the following shortcode:
 
 Parameters:
 
-* `columns`: a number between 1 and 6, this only affects large (desktop) screen sizes. Default setting is `3`.
+* `col-xl`: a number between 1 and 6, this only affects extra-large (desktop) screen sizes. Default setting is `3`.
+* `col-lg`: a number between 1 and 6, this only affects large (desktop) screen sizes. Default setting is `3`.
+* `col-md`: a number between 1 and 6, this only affects medium (tablet) screen sizes. Default setting is `2`.
 * `clickable`: boolean, true or false. This enables clicking through to larger versions of the images in the gallery. At time of writing this is not fully implemented.
 
 #### Override
