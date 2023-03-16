@@ -39,6 +39,7 @@ module.exports = {
           './assets/scss/common/_dark.scss',
           './node_modules/bootstrap/scss/_tooltip.scss',
           './node_modules/bootstrap/scss/_dropdown.scss',
+          './node_modules/bootstrap/scss/_grid.scss',
           './node_modules/katex/dist/katex.css',
         ]),
       ],
