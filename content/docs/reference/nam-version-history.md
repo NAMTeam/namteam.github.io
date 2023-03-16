@@ -11,6 +11,44 @@ weight: 7
 
 # Agile Releases (2020 and later)
 
+## Version 47 (?? March 2023)
+* **Pedestrian Revolution Mod Features**:
+  - The NAM team is pleased to present the Classic Draggable Pedmalls, courtesy of Ulisse Wolf and Lucario Boricua. These come in 8 styles, 6 of which are equivalents to the Pedmall Puzzle Pieces, and introducing 2 new designs: the Retrowave Red Brick, inspired in the old brick texture used for the U-Rail in earlier NAM versions, and the Industrial Style, using the concrete surface typical of industrial lots. The initially supported features of these pedmalls include:
+    - Multidirectional draggable starter pieces using the Street network, supporting all orthogonal, diagonal, intersection and roundabout configurations, with the exception of wide radius curves.
+    - Intersection support (OXO T and 4-way) in the form of mid-block crosswalks. These support Road, Avenue, and all two-way Network Widening Mod override networks (TLA-3, AVE-2, ARD-3, NRD-4, TLA-5, RD-4, RD-6, TLA-7 and AVE-6). These draggable pedmalls are also compatible with the FLEX mid-block crosswalk pieces.
+    - Special underground paths enable residential zone development, while crossings discourage car traffic through restricted car paths.
+  - In addition, some enhancements to existing functionality have been implemented:
+    - The override code for the size 3 mid-block crosswalks for TLA-7 and AVE-6 have been overhauled, enabling these to be overridden from one side.
+
+* **RealHighway (RHW) Features**:
+  - **RHW-12S**: A new, 12-lane quadruple-tile RHW network (separable into two dual-tile halves, carrying 6 lanes in each direction) has been added, with the following features:
+    - Three height levels are supported: L0/Ground, L1/7.5-meter elevation, and L2/15-meter elevation.  Transitioning between these height levels is supported by the ramp-style FLEX Height Transitions (FLEX-HT), as well as the FLEX OnSlope Transitions (FLEX-OSTs), by connecting them to the RHW-12S networks.
+    - The RHW-12S features the same network crossings presently available to the other S-Type RHW networks, including crossings in all orientations for all Maxis base networks, all other RHW networks, Draggable Ground Light Rail, and Draggable Road Viaducts (L0-under-Viaduct-only), plus Orthogonal x Orthogonal (OxO)-only support for Network Widening Mod networks, Elevated RealRailway (ERRW) Viaducts, Tram-on-Street, Tram-in-Road, and Tram-in-Avenue.  Limited Hybrid Railway (HRW) support also exists.
+    - Extensive ramp interface support: supported ramps using FLEXRamps and Draggable Ramp Interfaces (when applicable) include Orthogonal Type A1 (all levels), Type B1 (all levels), Type D1 (all levels), Type E1 (all levels), Type A2 (all levels), Type B2 (L0 only), Type D2 (all levels), Type E2 (L0 only), Type A1-Inside (all levels), Type B1-Inside (all levels), Type D1-Inside (L0 only), Type E1-Inside (L0 only), the new Type A3 (L0 only) and Type D3 (L0 only), plus Diagonal Type A1 (L0 only), Type B1 (L0 only), Type D1 (L0 only), and Type E1 (L0 only).
+    - FLEX Width Transition (FLEX-WT) has been added, to support width transitions between RHW-12S and RHW-10S at all applicable height levels.
+    - FLEXFly over and undercrossings are supported with the RHW-12S (orthogonal-only, as diagonal undercrossings for FLEXFly do not presently exist for any network).
+    - Several bridges have been added (see Bridge section).
+    - Support for FlexSPUI is presently limited, and Three-Level Crossings are not yet supported.
+  - **RHW X3 Ramps**: The first two FLEX 3-lane ramps, in A3 and D3 configurations, have been provided for RHW-8S, 10S and 12S. At present, only L0 support is available.
+  - **General Improvements**
+    - Some enhancements, courtesy of **memo99**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
+    - Some enhancements, courtesy of **Flann**, to elevated RHW network models have been added.
+* **Bridges**:
+  - A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**.
+* **Base Network Features**:
+  - A new 5x5 90° Wide Radius Curve FLEX piece has been added to the Avenue network.
+* **Miscellaneous**:
+  - A huge list of bugfixes have been done for this release, including:
+    - Various RHW situations involving "tile drops", such as the RHW-8S-to-6S FLEX Width Transitions, the RHW-8S Type D1, E1, and B2 ramps, and the RHW-10S Type D2 and E2 ramps, have received considerable stability upgrades.
+    - The orientation of the Road end-T on OWR-1 intersection has been corrected.
+    - The orientations of certain NWM intersections involving the OWR-1 network with Euro textures have been corrected.
+    - Stability improvements have been made to the Ground Light Rail crossings with various wider RHW networks.
+    - The Dual Type 230 QCXs with L1 Dual Type 230-over-RHW-8C/6C and RHW-10S/8S have been improved.
+    - Issues in which lane drop arrows appeared in the wrong places on the S-to-C FLEX Width Transitions have been corrected.
+    - The ramp textures for the RHW-10S Type D2 and E2 ramps, as well as for the RHW-8S Type A2-Wide and B2 ramps have been improved.
+    - Orientation and stability issues have been fixed with the Avenue-based AVE-6 and its Thru-T-intersections with Street, Road, and One-Way Road (both Short-T and Long-T).
+    - Orthogonal x Diagonal slip lanes involving Road and One-way Road (OWR) have been re-implemented.
+
 ## Version 46 (15 January 2023) (SC4 20th Anniversary)
 * **Network Widening Mod (NWM) Features**:
   - Support for diagonal 4-way (+) intersections and crossings has been added for all six single-tile NWM networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4), including orthogonal X diagonal (OXD), diagonal X orthogonal (DXO) and diagonal X diagonal (DXD). These networks may cross one another, along with all base Maxis networks, Ground Light Rail (GLR), and Single-Track Rail (STR). Support for 3-way intersections, other NAM network families (i.e. RHW, SAM, etc.), and those involving multi-tile NWM networks will be added in a future phase.

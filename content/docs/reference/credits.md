@@ -72,6 +72,14 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 -   MadSim (original design)
 -   Ramona Brie (updated design)
 
+**NAM Documentation Website**
+
+-   Flann
+-   memo
+-   Shadow Assassin
+-   Tarkus
+-   ulisse
+
 **Tool Programmers**
 
 -   cjmarshall
