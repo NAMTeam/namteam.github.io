@@ -1148,11 +1148,6 @@ The items in this group are not in any particular or specific format.
 ##### Road
 
 * Road Turning Lanes. **Note:** Requires an additional Plugin. See [Installation Instructions](/docs/reference/installation-notes/ )for details.
-* Roundabouts. To trigger the initial Road roundabout, you must draw a Road Circle in a 2x2 tile area. There currently exists many variations with one, two, three &/or four orthogonal &/or Diagonal Roads stemming from this initial 2x2 tile area. **Note:** Requires an additional Plugin. See [Installation Instructions](/docs/reference/installation-notes/) for details.
-
-    <div class="row mx-0 g-1">
-    <div class="col text-center">{{< img-simple src="images/road_roundabout.jpg" class="img-fluid" >}}</div>
-    </div>
 
 ##### OneWayRoad
 
