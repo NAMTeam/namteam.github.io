@@ -1512,11 +1512,32 @@ Since the release of NAM 31 in 2013, Pattern-Based Draggable options have been a
 <div class="col">{{< img-simple src="images/FAR_pattern_D2.jpg" class="img-fluid" >}}</div>
 </div>
 
+Street S-Curve
+{{< override from="images/street_s-curve_pattern.png" to="images/street_s-curve.png">}}
 
-<div class="row mx-0 g-1">
-<div class="col text-center">{{< img-simple src="images/street s-curve_footprint.jpg" class="img-fluid" >}}</div>
-</div>
+Diagonal S-Curve
+{{< override from="images/diag_s-curve_pattern.png" to="images/diag_s-curve.png">}}
 
+The following networks support diagonal s-curves using the above pattern:
+- Road
+- One Way Road (OWR-2)
+- OWR-1
+- RHW-2
+- MIS
+
+Diagonal S-Curve (Street & SAM)
+
+{{< override from="images/diag_s-curve_street_pattern.png" to="images/diag_s-curve_street.png">}}
+
+**Note** - The street s-curve can also be constructed using diagonal street helper pieces.
+
+Avenue 5x5 90° Curve
+{{< override from="images/avenue-90-curve_pattern.png" to="images/avenue-90-curve.png">}}
+
+2x2 90° Curve
+{{< override from="images/2x2_curve_drag_pattern.png" to="images/2x2_curve_drag.png">}}
+
+**Caution** - Please note that you must take care when drawing the one way road version of the 2x2 curve to ensure the path directions are correct.  The inner stub must be drawn toward the direction of travel.  Additionally, the game's path reversing functionality does not carry through this curve.  To change the direction, drag over each portion of the curve in the proper direction. 
 
 #### **FAR Patterns**
 
