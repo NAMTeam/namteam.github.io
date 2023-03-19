@@ -1529,7 +1529,9 @@ Diagonal S-Curve (Street & SAM)
 
 {{< override from="images/diag_s-curve_street_pattern.png" to="images/diag_s-curve_street.png">}}
 
+{{< alert context="info" >}}
 **Note** - The street s-curve can also be constructed using diagonal street helper pieces.
+{{< /alert >}}
 
 Avenue 5x5 90° Curve
 {{< override from="images/avenue-90-curve_pattern.png" to="images/avenue-90-curve.png">}}
@@ -1539,9 +1541,12 @@ Avenue 5x5 90° Curve
 
 The 2x2 90° curve supports all single-tile NWM overrides and SAM overrides except SAM-1.
 
+{{< alert context="warning" >}}
 **Caution** - Please note that you must take care when drawing the one way road version of the 2x2 curve to ensure the path directions are correct.  The inner stub must be drawn toward the direction of travel.  Additionally, the game's path reversing functionality does not carry through this curve.  To change the direction, drag over each portion of the curve in the proper direction. 
+{{< /alert >}}
 
 3x3 90° Curve
+
 {{< override from="images/3x3_curve_drag_pattern.png" to="images/3x3_curve_drag.png">}}
 
 The following networks support 3x3 90° curves using the above pattern:
