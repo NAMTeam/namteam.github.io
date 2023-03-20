@@ -1,6 +1,6 @@
 {{ $context := .Get "context" -}}
 
-<div class="alert text-{{ $context }} text-center border border-{{ $context }} border-5 d-flex" role="alert">
+<div class="alert text text-center border border-{{ $context }} border-5 d-flex" role="alert">
   {{ with .Get "text"}}
     <div class="w-100">{{ . | safeHTML }} </div>
   {{ else }}
