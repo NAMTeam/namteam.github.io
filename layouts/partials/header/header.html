@@ -107,6 +107,7 @@
           <span class="toggle-dark"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span>
           <span class="toggle-light"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg></span>
         </button>
+        <small class="ms-2 d-lg-none">Toggle light/dark mode</small>
         {{ end -}}
 
         {{ if eq .Site.Params.options.multilingualMode true -}}
@@ -137,6 +138,32 @@
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="/docs/contributing/how-to-contribute/">Help Translate</a></li>
               -->
+          </ul>
+        </div>
+        {{ end -}}
+
+        {{ if eq .Site.Params.options.readingOptions true -}}
+        <hr class="text-black-50 my-4 d-lg-none">
+        <div class="dropdown">
+          <button class="btn btn-doks-light dropdown-toggle" id="doks-reading-options" data-bs-toggle="dropdown" data-bs-auto-close="outside" aria-expanded="false" data-bs-display="static">
+            Options
+            <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end me-lg-2 shadow rounded border-0" aria-labelledby="doks-reading-options">
+            {{/*  <li><h6 class="dropdown-header mt-0 text-uppercase">Font size</h6></li>
+            <li><div class="d-flex flex-row">
+              <button class="dropdown-item btn btn-doks-light col text-center" id="doks-font-smaller" aria-label="Reduce font size"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/></svg></button>
+              <button class="dropdown-item btn btn-doks-light col text-center" id="doks-font-larger" aria-label="Increase font size"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg></button>
+            </div></li>  */}}
+            {{/*  <li><h6 class="dropdown-header mt-0 text-uppercase">Line spacing</h6></li>
+            <li><div class="d-flex flex-row">
+              <button class="dropdown-item btn btn-doks-light col text-center" id="doks-line-smaller" aria-label="Reduce line spacing"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/></svg></button>
+              <button class="dropdown-item btn btn-doks-light col text-center" id="doks-line-larger" aria-label="Increase line spacing"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg></button>
+            </div></li>              */}}
+            <li><h6 class="dropdown-header mt-0 text-uppercase">Font selection</h6></li>
+            <li><button class="dropdown-item doks-font-selector sans-serif" type="button" aria-label="Select sans-serif fonts" data-font-mode="default" data-bs-auto-close="inside">Sans serif</button></li>
+            <li><button class="dropdown-item doks-font-selector serif" type="button" aria-label="Select serif fonts" data-font-mode="serif">Serif</button></li>
+            <li><button class="dropdown-item doks-font-selector monospaced" type="button" aria-label="Select serif fonts" data-font-mode="monospace">Monospaced</button></li>
           </ul>
         </div>
         {{ end -}}

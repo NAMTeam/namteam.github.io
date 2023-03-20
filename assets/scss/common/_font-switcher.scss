@@ -1,0 +1,31 @@
+.sans-serif {
+    font-family: $font-family-sans-serif;
+}
+
+.serif {
+    font-family: $font-family-serif;
+}
+
+.monospaced {
+    font-family: $font-family-monospace;
+}
+
+// [data-preferred-font='default'] {
+        
+//     .docs-content {
+//         line-height: 1.7;
+//     }
+// }
+
+[data-preferred-font='serif'] {
+    --bs-body-font-family: $font-family-serif;
+    
+    .docs-content {
+        line-height: 1.7;
+    }
+}
+
+
+[data-preferred-font='monospace'] {
+    --bs-body-font-family: sfmono-regular, menlo, monaco, "Cascadia Mono", consolas, "Liberation Mono", "Courier New", monospace;
+}

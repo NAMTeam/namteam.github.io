@@ -2,6 +2,8 @@
   {{ $darkModeInit := resources.Get "js/darkmode-init.js" | js.Build | minify -}}
   <script>{{ $darkModeInit.Content | safeJS }}</script>
 {{ end -}}
+{{ $fontSelectorInit := resources.Get "js/font-selector-init.js" | js.Build | minify -}}
+<script>{{ $fontSelectorInit.Content | safeJS }}</script>
 {{- if and (.Site.Params.alert) (.Site.Params.alertDismissable) -}}
   {{ $alertInit := resources.Get "js/alert-init.js" | js.Build | minify -}}
   <script>{{ $alertInit.Content | safeJS }}</script>
