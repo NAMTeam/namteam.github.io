@@ -815,7 +815,7 @@ The "Stackasaurus Rex" Interchange, built by NAM Team developer Lucario Boricua,
 
 #### RHW FLEX Turn Lanes (FTLs)
 
-The RHW has its own set of (rapidly-expanding) FLEX Turn Lane (FTL) options available. Supported types include the RHW-2 (L0 only), RHW-4 Rural (L0 only), and MIS Ramps (L0 and L1). Support for [SITAP-style signalized intersections](../turning-lanes/#sitap) is also available in at least some instances.
+The RHW has its own set of (rapidly-expanding) FLEX Turn Lane (FTL) options available. Supported types include the RHW-2 (L0 only), RHW-4 Rural (L0 only), and MIS Ramps (L0 and L1). Support for [SITAP-style signalized intersections](/docs/feature-guides/turning-lanes/#sitap) is also available in at least some instances.
 
 To build the RHW-2 FTLs, begin with the transition, and drag RHW-2 out from it. The override of the turn lane will carry until you reach an intersection with another network.
 
