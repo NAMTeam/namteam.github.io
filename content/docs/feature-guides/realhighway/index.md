@@ -76,6 +76,9 @@ The following networks are included as part of the RealHighway mod.
     images/base-and-override-networks/rhw8c.jpg
     images/base-and-override-networks/rhw10s.jpg
 {{< /gallery >}}
+{{< gallery >}}
+    images/base-and-override-networks/rhw12s.jpg
+{{< /gallery >}}
 
 All widths of the RealHighway have access to **L1** and **L2** elevations, which are produced with separate starters. The **MIS**, **RHW-4**, and **RHW-6S** also have access to **L3** and **L4** elevations (only installed by selecting the appropriate options in the Custom Installation section of the NAM Installer), and as previously mentioned, the RHW-4 also has a double-decker form, the **DDRHW-4** (decks at **L1** and **L2**).
 
