@@ -28,7 +28,7 @@ Euro textures for the RealHighways will be automatically installed if one select
 
 ## RealHighway Base and Override Networks
 
-The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the ANT - the Additional Network Tool; or the DirtRoad network), and adds a true base network, the 2-lane RealHighway (RHW-2), along with 33 override networks based upon it. With the exception of the Modular Interchange System (MIS) Ramp override network, the nomenclature used for RealHighway networks distinguishes the networks by the total number of lanes it would require to facilitate two-way traffic with the network. For instance, while each individual tile of the 4-lane RealHighway (RHW-4) may only carry 2 lanes going in one direction, full bidirectional traffic with the network would require 2 stretches of the network traveling in opposite directions, thereby resulting in a total of 4 lanes.
+The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the ANT - the Additional Network Tool; or the DirtRoad network), and adds a true base network, the 2-lane RealHighway (RHW-2), along with 36 override networks based upon it. With the exception of the Modular Interchange System (MIS) Ramp override network, the nomenclature used for RealHighway networks distinguishes the networks by the total number of lanes it would require to facilitate two-way traffic with the network. For instance, while each individual tile of the 4-lane RealHighway (RHW-4) may only carry 2 lanes going in one direction, full bidirectional traffic with the network would require 2 stretches of the network traveling in opposite directions, thereby resulting in a total of 4 lanes.
 
 With some of the wider networks, the letters "S" or "C" may be added after the lane count designation (i.e. RHW-8S or RHW-6C). The "S" is an indication for "separable", meaning that the lanes carrying travel in the opposite direction may be separated by any distance. The "C" stands for "combined", and the center tile of the "C" override carries the median separating the two directions of traffic, thereby making it inseparable. While the smaller networks do not have "S" or "C" suffixes, the RHW-2 and RHW-3 may be thought of as small C-type networks, and the MIS Ramp and RHW-4 as S-type networks.
 
@@ -58,11 +58,12 @@ The following networks are included as part of the RealHighway mod.
 | RHW-6S | 6-lane Separable RealHighway | 1* (One-Way) 2* (Two-Way) |
 | RHW-8S | 8-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
 | RHW-10S | 10-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
+| RHW-12S | 12-lane Separable RealHighway | 2* (One-Way) 4* (Two-Way) |
 | RHW-6C | 6-lane Combined RealHighway | 3 (Two-Way) |
 | RHW-8C | 8-lane Combined RealHighway | 3 (Two-Way) |
 {{< /table >}}
 
-\* Note that the **RHW-6S** network has a partial tile overhang. This means that the shoulder will overlap part of the adjacent tile.
+\* Note that the **RHW-6S** and **RHW-12S** networks have partial tile overhang. This means that the shoulder will overlap part of the adjacent tile.  This is much more noticeable on the RHW-6S than on the RHW-12S.
 
 {{< gallery >}}
     images/base-and-override-networks/misramp.jpg
@@ -104,7 +105,7 @@ The capacity of each network depends on the [Traffic Plugin](/docs/feature-guide
 
 All RHW networks are also highway-type networks, meaning that they do not allow full access to RCI Zones. The capacities for the five standard capacity levels of the NAM Traffic Plugin are listed below. Please note that these capacities listed are for the _full width_ of the network, rather than the per-tile capacity.
 
-Note that networks with crossover paths (i.e. the **RHW-6C**, **RHW-8S**, **RHW-8C**, and **RHW-10S**), and those that use a special workaround (the **RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why the **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**.
+Note that networks with crossover paths (i.e. the **RHW-6C**, **RHW-8S**, **RHW-8C**, **RHW-10S**, and **RHW-12S**), and those that use a special workaround (the **RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why the **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**.
 
 Note that these figures also apply to all elevated versions of each network width - this means that the **L0** **RHW-4** will have the same capacity as its **L1**, **L2**, **L3**, and **L4** counterparts.
 
@@ -121,6 +122,7 @@ Note that these figures also apply to all elevated versions of each network widt
 | RHW-8S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
 | RHW-8C (triple-tile capacity) | 10125 | 22500 | 37500 | 56250 | 112500 |
 | RHW-10S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
+| RHW-12S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
 {{< /table >}}
 
 The catalog speeds for the base RealHighway network are listed below. Note, however, that these catalog speeds are for 100% of catalog capacity, and that speeds on empty networks will exceed these figures by 30%, declining as the networks increase in volume per the Congestion vs. Speed Curve.
@@ -160,7 +162,7 @@ The Disconnector is also used as part of some Pattern-Based Draggable setups use
 
 With the networks that are single-tile (RHW-2, RHW-3), or have self-contained single-tile halves (MIS, RHW-4, RHW-6S), one can simply drag the network out as would be normally expected in order to produce the curves to go diagonal with the network. Aside from the **L0** RHW-2, however, the shared-tile "double diagonal" setup cannot be built, and pairs of MIS, RHW-4, and/or RHW-6S carriageways must be separated, out into a split-tile setup.
 
-For the wider RHW networks (the RHW-8S, RHW-10S, RHW-6C, and RHW-8C), the split-tile diagonal setup must be used.
+For the wider RHW networks (the RHW-8S, RHW-10S, RHW-12S, RHW-6C, and RHW-8C), the split-tile diagonal setup must be used.
 
 {{< img-simple src="images/rhw-multitile-diagonals.jpg" >}}
 
@@ -293,10 +295,10 @@ There are a number of different types of Ramp Interfaces included in the plugin,
 * **D2**: Indicates a dual-lane (RHW-4) branch off the mainline, with an orthogonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
 * **E2**: Indicates a dual-lane (RHW-4) branch off the mainline, with a diagonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
 * **F2**: Indicates a dual-lane (RHW-4) branch off the mainline, with a fractional angle (18.4-degree) branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
-* _**A3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom. There are currently no Type A3 ramps available._
+* **A3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.
 * _**B3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a diagonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom. There are currently no Type B3 ramps available._
 * **C3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a fractional angle (18.4-degree) branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.
-* _**D3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom. There are currently no Type D3 ramps available._
+* **D3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom.
 * _**E3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a diagonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom. There are currently no Type E3 ramps available._
 * _**F3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a fractional angle (18.4-degree) branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom. There are currently no Type F3 ramps available._
 
@@ -331,6 +333,8 @@ Below is a list of the default networks for each FLEXRamp:
 | Type B2 | RHW-6S |
 | Type D2 | RHW-6S |
 | Type E2 | RHW-6S |
+| Type A3 | RHW-8S |
+| Type D3 | RHW-8S |
 | Type A1-Inside | MIS Ramp |
 | Type B1-Inside | MIS Ramp |
 | Type D1-Inside | RHW-4 |
