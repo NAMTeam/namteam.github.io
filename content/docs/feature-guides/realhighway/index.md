@@ -187,7 +187,7 @@ For additional information about what network crossings are supported with the o
 
 #### QuickChange Xpress: Full Interchanges in a Click
 
-With the release of NAM 45 in mid-2022, the RealHighway has support for full ploppable interchanges, known as QuickChange Xpress (QCX). At present, only Diamond Interchanges involving the Road and Avenue networks (with appropriate turn lanes applied on the surface networks and the on/offramps) exist. Four different RHW width configurations are supported (RHW-6S/RHW-4 Adjacent, RHW-6S/RHW-4 With Median, RHW-8C/6C, and RHW-10S/8S), and the option to have the RHW go over or under the surface street (in an L0/L1 configuration).
+With the release of NAM 45 in mid-2022, the RealHighway has support for full ploppable interchanges, known as QuickChange Xpress (QCX). At present, only Diamond Interchanges involving the Road, Avenue, and 6-lane Avenue (AVE-6, from the Network Widening Mod) networks (with appropriate turn lanes applied on the surface networks and the on/offramps) exist. Four different RHW width configurations are supported (RHW-6S/RHW-4 Adjacent, RHW-6S/RHW-4 With Median, RHW-8C/6C, and RHW-10S/8S), and the option to have the RHW go over or under the surface street (in an L0/L1 configuration).
 
 The QCX setups are located near the end of the TAB Loop under the RHW QuickChange button on the Highways Menu. TABing through will change the surface network width (Road or Avenue) and whether it or the RHW is elevated or the surface network is. Home/End rotation on each TAB entry will allow one to cycle through the different RHW widths/configurations supported.
 
@@ -646,8 +646,9 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 #### RHW-8S Bridges
 
 * Undertruss RHW-8S Bridge [Maxis Ground Highway-based]
-* L1 RHW-8S Viaduct Bridge
-* L2 RHW-8S Viaduct Bridge
+* L0 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
+* L1 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
+* L2 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
 
 {{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw8s-bridges-1.jpg
@@ -658,13 +659,22 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 
 * Large Concrete Arch RHW-10S Bridge [Maxis Ground Highway-based]
 * Cable Stayed RHW-10S Bridge [Maxis Ground Highway-based]
-* L1 RHW-10S Viaduct Bridge
-* L2 RHW-10S Viaduct Bridge
+* Steel Arch RHW-10S Bridge [Maxis Ground Highway-based]
+* L0 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
+* L1 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
+* L2 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
 
 {{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw10s-bridges-1.jpg
     images/bridges/rhw10s-viaduct-bridges.jpg
 {{< /gallery >}}
+
+#### RHW-12S Bridges
+
+* Steel Arch RHW-12S Bridge [Maxis Ground Highway-based]
+* L0 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
+* L1 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
+* L2 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
 
 #### DDRHW-4 Bridges
 
