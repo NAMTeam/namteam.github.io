@@ -510,9 +510,14 @@ To use a FLEXFly piece, first place the desired setup. Each FLEXFly will allow d
 
 {{< img-simple src="images/rhw-flexfly-use-1.jpg" >}}
 
-Note that FLEXFly pieces can only support a single crossing network at any given point. In certain situations, such as the one below, it is actually possible to cross one FLEXFly over another FLEXFly, though this is strictly limited, and attempting to build unsupported setups will yield blank or glitched tiles.  Additionally, FLEXFly pieces do not support the overlap/composite technique of the R2 Multi-Radius Curves.
+Note that FLEXFly pieces can only support a single crossing network at any given point. In certain situations, such as the first one (with the green checkmark), it is actually possible to cross one FLEXFly over another FLEXFly, though this is strictly limited.  Attempting to build unsupported overlaps, or crossing two networks under one tile of FLEXFly will yield glitched or blank network tiles, as seen in the other three images (with the red circle-and-slash).  Additionally, FLEXFly pieces do not support the overlap/composite technique of the R2 Multi-Radius Curves.
 
-{{< img-simple src="images/rhw-flexfly-no.jpg" >}}
+{{< gallery col-xl="2" col-lg="2" clickable="true" >}}
+    images/flexfly-overlap-yes.jpg
+    images/flexfly-overlap-no1.jpg
+    images/flexfly-overlap-no2.jpg
+    images/flexfly-overlap-no3.jpg
+{{< /gallery >}}
 
 ### Fractional Angle RealHighways (FARHW)
 
