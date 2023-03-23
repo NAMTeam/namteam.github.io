@@ -510,7 +510,7 @@ To use a FLEXFly piece, first place the desired setup. Each FLEXFly will allow d
 
 {{< img-simple src="images/rhw-flexfly-use-1.jpg" >}}
 
-Note that FLEXFly pieces can only support a single crossing network at any given point. It is also not possible to have a FLEXFly piece cross over another FLEXFly piece--the result of this will be a blank tile at the point where the two collide. Additionally, FLEXFly pieces do not support the overlap/composite technique of the R2 Multi-Radius Curves.
+Note that FLEXFly pieces can only support a single crossing network at any given point. In certain situations, such as the one below, it is actually possible to cross one FLEXFly over another FLEXFly, though this is strictly limited, and attempting to build unsupported setups will yield blank or glitched tiles.  Additionally, FLEXFly pieces do not support the overlap/composite technique of the R2 Multi-Radius Curves.
 
 {{< img-simple src="images/rhw-flexfly-no.jpg" >}}
 
