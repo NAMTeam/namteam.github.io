@@ -273,10 +273,10 @@ There are a number of different types of Ramp Interfaces included in the plugin,
             <td class="bg-white"><img src="images/ramps/TypeF3.png" /></td>
         </tr>
         <tr>
-            <td>Type A3<br><sup><i>Not available</i></sup></td>
+            <td>Type A3</td>
             <td>Type B3<br><sup><i>Not available</i></sup></td>
             <td>Type C3</td>
-            <td>Type D3<br><sup><i>Not available</i></sup></td>
+            <td>Type D3</td>
             <td>Type E3<br><sup><i>Not available</i></sup></td>
             <td>Type F3<br><sup><i>Not available</i></sup></td>
         </tr>
