@@ -6,6 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/hybrid-railway"
 ---
 
 The **Hybrid Railway**, or HRW is an intermediate FLEX based network that provides for both heavy and High Speed (Monorail) traffic. Specifications of the HRW include catenaries, textures that are the same as the RRW, as well as including some purpose-built textures for specific pieces.
@@ -112,7 +113,7 @@ These stations have been created by **Tyberius06** and **ulisse99**.
 
 In most situations, the monorail tool will need to be drawn through the station to make a successful connection to the Hybrid Railway. For the Station to function correctly with both Heavy Rail and High Speed/Monorail traffic, the station needs to use monorail. If only Heavy Rail is used, the station will only accept Heavy Rail traffic.
 
-{{< gallery columns="2" caption="*Connecting a station to the Hybrid Railway*">}}
+{{< gallery col-xl="1" col-lg="1" col-md="1" caption="*Connecting a station to the Hybrid Railway*">}}
     images/FLEX-STATION-1.jpg
     images/FLEX-STATION-2.jpg
 {{< /gallery >}}

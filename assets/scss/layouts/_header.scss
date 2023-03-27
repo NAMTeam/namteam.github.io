@@ -105,6 +105,14 @@ button#doks-versions {
   }
 }
 
+button#doks-reading-options {
+  margin: 0.25rem 0 0;
+
+  @include media-breakpoint-up(lg) {
+    margin: 0.25rem 0.5rem 0 0.25rem;
+  }
+}
+
 .offcanvas .nav-link {
   color: $body-color;
 }

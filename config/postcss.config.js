@@ -37,6 +37,8 @@ module.exports = {
           './assets/scss/components/_search.scss',
           './assets/scss/components/_tables.scss',
           './assets/scss/common/_dark.scss',
+          './assets/scss/common/_font-switcher.scss',
+          './assets/scss/common/_readingmode.scss',
           './node_modules/bootstrap/scss/_tooltip.scss',
           './node_modules/bootstrap/scss/_dropdown.scss',
           './node_modules/bootstrap/scss/_grid.scss',

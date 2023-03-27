@@ -70,6 +70,9 @@
   {{ $slice = $slice | append $toTopButton -}}
 {{ end -}}
 
+{{ $fontSelector := resources.Get "js/font-selector.js" | js.Build -}}
+{{ $slice = $slice | append $fontSelector -}}
+
 {{ $js := $slice | resources.Concat "main.js" -}}
 
 {{ if eq (hugo.Environment) "development" -}}

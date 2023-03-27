@@ -2,8 +2,22 @@
 // browser support: all modern browsers (not you, IE)
 var namCompatTables = document.getElementsByClassName("nam-compat-status");
 
+// get language code, we're gonna alter the arrays based on language
+var lang = document.documentElement.lang;
+console.log(lang)
+
 // :)
-const safeWords = ["yes", "partial", "limited", "no", "n/a", "--"];
+let safeWords = ["yes", "partial", "limited", "no", "n/a", "--"];
+let langWords = [];
+
+switch(lang) {
+    case "it-IT":
+        langWords = ["si", "parziale", "limitato", "no", "n/a", "--"];
+        break;
+    default:
+        langWords = ["yes", "partial", "limited", "no", "n/a", "--"];
+        break;
+}
 
 for (const table of namCompatTables) {
 
@@ -16,7 +30,7 @@ for (const table of namCompatTables) {
     for (const cell of cells) {
         // match containing table cell data against safeWords
         const cellText = cell.innerText.toLowerCase();
-        const idx = safeWords.findIndex(v => cellText.startsWith(v));
+        const idx = langWords.findIndex(v => cellText.startsWith(v));
 
         if (idx > -1) {
             cell.setAttribute("data-compat", safeWords[idx])

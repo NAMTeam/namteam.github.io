@@ -6,6 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/real-railway"
 ---
 
 {{< docstatus status="workinprogress" >}}
@@ -175,21 +176,21 @@ The turnouts and switches come in all sorts of forms and there are a range of tu
 
 ![](images/flextrack/turnouts/E/E2-P.jpg)
 
-![](images/CC-R2S-R3-P.jpg)
+![](images/flextrack/turnouts/F_Combination/CC-R2S-R3-P.jpg)
 
-![](images/CC-R3-R2-P.jpg)
+![](images/flextrack/turnouts/F_Combination/CC-R3-R2-P.jpg)
 
-![](images/D2-CC-P.jpg)
+![](images/flextrack/turnouts/F_Combination/D2-CC-P.jpg)
 
 #### FARR-2 Alt Turnouts
 
 The small complex turnouts compliments the FARR-2 Alt with turnout setups that cross DTR with both STR and DTR variants. Upgrading to DTR involves drawing through the middle points as shown by the red arrow.  
 
-![](images/ST-3-P.jpg)
+![](images/flextrack/turnouts/S/ST-3-P.jpg)
 
-![](images/ST-O-P.jpg)
+![](images/flextrack/turnouts/S/ST-O-P.jpg)
 
-![](images/ST-D-P.jpg)  
+![](images/flextrack/turnouts/S/ST-D-P.jpg)  
 
 ---  
 
@@ -207,13 +208,13 @@ Switching between ground level (L0) RRW and ERRW is accomplished using FLEX tran
 
 The rail is not to be drawn through the transition but to the stub at each end shown in the pictures below...
 
-![](images/4.jpg)  ![](images/5.jpg)
+![](images/rrw-orth-transition-stubs.jpg)  ![](images/rrw-diag-transition-stubs.jpg)
 
 White represents the adjoining stub connections while Black represents the network you want to cross.  
 
 Upon a successful draw you should see something like this...
 
-![](images/6.jpg)
+![](images/rrw-successful-draw.jpg)
 
 This is the preview of the ERRW before placing it. Previews are in-place for the majority of the ERRW.
 
@@ -232,7 +233,7 @@ Diagonal on-slope transitions support the following configurations:
 - L0 to L2 (_15.5m embankment_)
 - L0 to L1 (_7.5m embankment_)
 
-![](images/3.jpg)
+![](images/rrw-diag-transition.jpg)
 
 
 #### Ramp-style Transitions  
@@ -248,18 +249,18 @@ As mentioned above the R1, R2 and R3 curves can have overrides at each level for
 
 R1 Curve  
 
-![](images/7-0.jpg)
-![](images/7-1.jpg)
+![](images/flextrack/errw/7-0.jpg)
+![](images/flextrack/errw/7-1.jpg)
 
 R2 Curve  
 
-![](images/8-0.jpg)
-![](images/8-1.jpg)
+![](images/flextrack/errw/8-0.jpg)
+![](images/flextrack/errw/8-1.jpg)
 
 R3 Curve  
 
-![](images/9-0.jpg)
-![](images/9-1.jpg)
+![](images/flextrack/errw/9-0.jpg)
+![](images/flextrack/errw/9-1.jpg)
 
 MiniCurves
 
@@ -267,29 +268,29 @@ Some Minicurves and Mini Turnouts can be override to have elevated turnouts. Onl
 
 A2 Turnout  
 
-![](images/A-0.jpg)
-![](images/A-1.jpg)
+![](images/flextrack/errw/A-0.jpg)
+![](images/flextrack/errw/A-1.jpg)
 
 B2 Turnout
 
-![](images/B-0.jpg)
-![](images/B-1.jpg)
+![](images/flextrack/errw/B-0.jpg)
+![](images/flextrack/errw/B-1.jpg)
 
 A2 Wye Turnout  
 
-![](images/C-0.jpg)
-![](images/C-1.jpg)  
+![](images/flextrack/errw/C-0.jpg)
+![](images/flextrack/errw/C-1.jpg)  
 
 ### Crossings
 
 
 When crossing other networks a rail piece MUST! be placed on the concerning tile if you are crossing a non-rail network. This is due to the fact that rail code must be present in the network. Level crossing (LX) overridden by the ERRW are exempt however. A picture of what you should do is shown below...
 
-![](images/D.jpg)
+![](images/flextrack/errw/D.jpg)
 
 Of course this action is not needed if the network being crossed is the Rail network itself.
 
-![](images/E.jpg)
+![](images/flextrack/errw/E.jpg)
 
 #### Crossing Support
 

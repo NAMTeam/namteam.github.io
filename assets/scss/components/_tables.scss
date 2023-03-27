@@ -9,11 +9,23 @@ table {
       border-top: 2px solid var(--bs-table-border-color);
     }
 
+    &.fc-25 {
+      th:first-child {
+        min-width: 25%;
+        width: 270px;
+        max-width: 33%;
+      }
+    }
+
     th:first-child, td:first-child { 
       font-weight: bold;
       border-right: 2px solid var(--bs-table-border-color);
     }
     
+    th {
+      white-space: nowrap;
+    }
+
     td[data-compat='yes'] {
       color: $white;
       background-color: #0D6EFD;

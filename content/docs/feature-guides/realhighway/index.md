@@ -6,11 +6,12 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/realhighway-mod"
 ---
 
 {{< docstatus status="workinprogress" >}}
 
-{{< gallery columns="4">}}
+{{< gallery col-xl="4" col-lg="4" col-md="2">}}
     images/rhwteaser1.jpg
     images/rhwteaser2.jpg
     images/rhwteaser3.jpg
@@ -18,17 +19,17 @@ images: []
 {{< /gallery >}}
 
 ## Installing the RealHighways from the NAM Installer
-A mostly complete install (missing the upper elevated heights) of the RealHighway plugin is one of the features included by default if one selects the "_Complete Standard Installation_" or "_Networks and Traffic Simulator_" options in the NAM Installer. In Custom Installation, there is a whole section dedicated to the RealHighways and related optional features.
+A  complete install of the RealHighway plugin is one of the features included by default in the NAM Installer. There is a whole section dedicated to the RealHighways and related optional features.
 
-In Custom Installation, under the "_2 Additional Network Features_" section, selecting the "_RealHighway_" box will install the mod in its entirety. Deselecting any of the other boxes under this section should only be done by advanced users who are manually compiling a NAM Controller to exclude certain RHW networks.
+Under the "_2 Additional Network Features_" section, selecting the "_RealHighway_" box will install the mod in its entirety. Deselecting any of the other boxes under this section should only be done by advanced users who are manually compiling a NAM Controller to exclude certain RHW networks.
 
 Note that the RHW **requires a 4GB_Full NAM Controller, and as such, also requires the 4GB Patch**. It is the largest component in the NAM package by a wide margin, and requires a 64-bit operating system and at least 4GB RAM to utilize.
 
-Euro textures for the RealHighways will be automatically installed if one selects one of the Euro road texture options. (Note that MandelSoft's older Euro texture options have been discontinued, as they are no longer being maintained.)
+Euro textures for the RealHighways will be automatically installed if one selects one of the Euro road texture options.
 
 ## RealHighway Base and Override Networks
 
-The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the ANT - the Additional Network Tool; or the DirtRoad network), and adds a true base network, the 2-lane RealHighway (RHW-2), along with 33 override networks based upon it. With the exception of the Modular Interchange System (MIS) Ramp override network, the nomenclature used for RealHighway networks distinguishes the networks by the total number of lanes it would require to facilitate two-way traffic with the network. For instance, while each individual tile of the 4-lane RealHighway (RHW-4) may only carry 2 lanes going in one direction, full bidirectional traffic with the network would require 2 stretches of the network traveling in opposite directions, thereby resulting in a total of 4 lanes.
+The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the ANT - the Additional Network Tool; or the DirtRoad network), and adds a true base network, the 2-lane RealHighway (RHW-2), along with 36 override networks based upon it. With the exception of the Modular Interchange System (MIS) Ramp override network, the nomenclature used for RealHighway networks distinguishes the networks by the total number of lanes it would require to facilitate two-way traffic with the network. For instance, while each individual tile of the 4-lane RealHighway (RHW-4) may only carry 2 lanes going in one direction, full bidirectional traffic with the network would require 2 stretches of the network traveling in opposite directions, thereby resulting in a total of 4 lanes.
 
 With some of the wider networks, the letters "S" or "C" may be added after the lane count designation (i.e. RHW-8S or RHW-6C). The "S" is an indication for "separable", meaning that the lanes carrying travel in the opposite direction may be separated by any distance. The "C" stands for "combined", and the center tile of the "C" override carries the median separating the two directions of traffic, thereby making it inseparable. While the smaller networks do not have "S" or "C" suffixes, the RHW-2 and RHW-3 may be thought of as small C-type networks, and the MIS Ramp and RHW-4 as S-type networks.
 
@@ -58,11 +59,12 @@ The following networks are included as part of the RealHighway mod.
 | RHW-6S | 6-lane Separable RealHighway | 1* (One-Way) 2* (Two-Way) |
 | RHW-8S | 8-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
 | RHW-10S | 10-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
+| RHW-12S | 12-lane Separable RealHighway | 2* (One-Way) 4* (Two-Way) |
 | RHW-6C | 6-lane Combined RealHighway | 3 (Two-Way) |
 | RHW-8C | 8-lane Combined RealHighway | 3 (Two-Way) |
 {{< /table >}}
 
-\* Note that the **RHW-6S** network has a partial tile overhang. This means that the shoulder will overlap part of the adjacent tile.
+\* Note that the **RHW-6S** and **RHW-12S** networks have partial tile overhang. This means that the shoulder will overlap part of the adjacent tile.  This is much more noticeable on the RHW-6S than on the RHW-12S.
 
 {{< gallery >}}
     images/base-and-override-networks/misramp.jpg
@@ -74,6 +76,9 @@ The following networks are included as part of the RealHighway mod.
     images/base-and-override-networks/rhw8s.jpg
     images/base-and-override-networks/rhw8c.jpg
     images/base-and-override-networks/rhw10s.jpg
+{{< /gallery >}}
+{{< gallery >}}
+    images/base-and-override-networks/rhw12s.jpg
 {{< /gallery >}}
 
 All widths of the RealHighway have access to **L1** and **L2** elevations, which are produced with separate starters. The **MIS**, **RHW-4**, and **RHW-6S** also have access to **L3** and **L4** elevations (only installed by selecting the appropriate options in the Custom Installation section of the NAM Installer), and as previously mentioned, the RHW-4 also has a double-decker form, the **DDRHW-4** (decks at **L1** and **L2**).
@@ -104,23 +109,24 @@ The capacity of each network depends on the [Traffic Plugin](/docs/feature-guide
 
 All RHW networks are also highway-type networks, meaning that they do not allow full access to RCI Zones. The capacities for the five standard capacity levels of the NAM Traffic Plugin are listed below. Please note that these capacities listed are for the _full width_ of the network, rather than the per-tile capacity.
 
-Note that networks with crossover paths (i.e. the **RHW-6C**, **RHW-8S**, **RHW-8C**, and **RHW-10S**), and those that use a special workaround (the **RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why the **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**.
+Note that networks with crossover paths (i.e. the **RHW-6C**, **RHW-8S**, **RHW-8C**, **RHW-10S**, and **RHW-12S**), and those that use a special workaround (the **RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why the **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**.
 
 Note that these figures also apply to all elevated versions of each network width - this means that the **L0** **RHW-4** will have the same capacity as its **L1**, **L2**, **L3**, and **L4** counterparts.
 
 {{< table class="table table-striped table-bordered w-auto" >}}
 | RHW Network Type | Classic | Low | Medium | High | Ultra |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| RHW-2 (single-tile capacity) | 2700 | 6000 | 10000 | 15000 | 30000 |
-| RHW-3 (single-tile capacity) | 3375 | 7500 | 12500 | 18750 | 37500 |
-| MIS Ramps (single-tile capacity) | 2700 | 6000 | 10000 | 15000 | 30000 |
-| RHW-4 (dual-tile capacity) | 5400 | 12000 | 20000 | 30000 | 60000 |
-| DDRHW-4 (single-tile capacity) | 3375 | 7500 | 12500 | 18750 | 37500 |
-| RHW-6S (dual-tile capacity) | 6750 | 15000 | 25000 | 37500 | 75000 |
-| RHW-6C (triple-tile capacity) | 10125 | 22500 | 37500 | 56250 | 112500 |
-| RHW-8S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
-| RHW-8C (triple-tile capacity) | 10125 | 22500 | 37500 | 56250 | 112500 |
-| RHW-10S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
+| RHW-2 (single-tile capacity) | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-3 (single-tile capacity) | 3750 | 7500 | 12500 | 18750 | 37500 |
+| MIS Ramps (single-tile capacity) | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-4 (dual-tile capacity) | 6000 | 12000 | 20000 | 30000 | 60000 |
+| DDRHW-4 (single-tile capacity) | 3750 | 7500 | 12500 | 18750 | 37500 |
+| RHW-6S (dual-tile capacity) | 7500 | 15000 | 25000 | 37500 | 75000 |
+| RHW-6C (triple-tile capacity) | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-8S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-8C (triple-tile capacity) | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-10S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-12S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
 {{< /table >}}
 
 The catalog speeds for the base RealHighway network are listed below. Note, however, that these catalog speeds are for 100% of catalog capacity, and that speeds on empty networks will exceed these figures by 30%, declining as the networks increase in volume per the Congestion vs. Speed Curve.
@@ -160,7 +166,7 @@ The Disconnector is also used as part of some Pattern-Based Draggable setups use
 
 With the networks that are single-tile (RHW-2, RHW-3), or have self-contained single-tile halves (MIS, RHW-4, RHW-6S), one can simply drag the network out as would be normally expected in order to produce the curves to go diagonal with the network. Aside from the **L0** RHW-2, however, the shared-tile "double diagonal" setup cannot be built, and pairs of MIS, RHW-4, and/or RHW-6S carriageways must be separated, out into a split-tile setup.
 
-For the wider RHW networks (the RHW-8S, RHW-10S, RHW-6C, and RHW-8C), the split-tile diagonal setup must be used.
+For the wider RHW networks (the RHW-8S, RHW-10S, RHW-12S, RHW-6C, and RHW-8C), the split-tile diagonal setup must be used.
 
 {{< img-simple src="images/rhw-multitile-diagonals.jpg" >}}
 
@@ -182,13 +188,13 @@ For additional information about what network crossings are supported with the o
 
 #### QuickChange Xpress: Full Interchanges in a Click
 
-With the release of NAM 45 in mid-2022, the RealHighway has support for full ploppable interchanges, known as QuickChange Xpress (QCX). At present, only Diamond Interchanges involving the Road and Avenue networks (with appropriate turn lanes applied on the surface networks and the on/offramps) exist. Four different RHW width configurations are supported (RHW-6S/RHW-4 Adjacent, RHW-6S/RHW-4 With Median, RHW-8C/6C, and RHW-10S/8S), and the option to have the RHW go over or under the surface street (in an L0/L1 configuration).
+With the release of NAM 45 in mid-2022, the RealHighway has support for full ploppable interchanges, known as QuickChange Xpress (QCX). At present, only Diamond Interchanges involving the Road, Avenue, and 6-lane Avenue (AVE-6, from the Network Widening Mod) networks (with appropriate turn lanes applied on the surface networks and the on/offramps) exist. Four different RHW width configurations are supported (RHW-6S/RHW-4 Adjacent, RHW-6S/RHW-4 With Median, RHW-8C/6C, and RHW-10S/8S), and the option to have the RHW go over or under the surface street (in an L0/L1 configuration).
 
 The QCX setups are located near the end of the TAB Loop under the RHW QuickChange button on the Highways Menu. TABing through will change the surface network width (Road or Avenue) and whether it or the RHW is elevated or the surface network is. Home/End rotation on each TAB entry will allow one to cycle through the different RHW widths/configurations supported.
 
 To use a QCX, simply plop the interchange in its desired location/rotation, and connect it up with the surrounding networks. It's really that easy!
 
-{{< gallery columns="2" clickable="true" >}}
+{{< gallery col-xl="2" col-lg="2" clickable="true" >}}
     images/quickchange/rhw-qcx-1.jpg
     images/quickchange/rhw-qcx-2.jpg
     images/quickchange/rhw-qcx-3.jpg
@@ -198,7 +204,7 @@ To use a QCX, simply plop the interchange in its desired location/rotation, and 
 
 It is also possible to plop a QCX directly over an existing crossing.
 
-{{< gallery columns="2" clickable="true" >}}
+{{< gallery col-xl="2" col-lg="2" clickable="true" >}}
     images/quickchange/rhw-qcx-6.jpg
     images/quickchange/rhw-qcx-7.jpg
 {{< /gallery >}}
@@ -271,10 +277,10 @@ There are a number of different types of Ramp Interfaces included in the plugin,
             <td class="bg-white"><img src="images/ramps/TypeF3.png" /></td>
         </tr>
         <tr>
-            <td>Type A3<br><sup><i>Not available</i></sup></td>
+            <td>Type A3</td>
             <td>Type B3<br><sup><i>Not available</i></sup></td>
             <td>Type C3</td>
-            <td>Type D3<br><sup><i>Not available</i></sup></td>
+            <td>Type D3</td>
             <td>Type E3<br><sup><i>Not available</i></sup></td>
             <td>Type F3<br><sup><i>Not available</i></sup></td>
         </tr>
@@ -293,10 +299,10 @@ There are a number of different types of Ramp Interfaces included in the plugin,
 * **D2**: Indicates a dual-lane (RHW-4) branch off the mainline, with an orthogonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
 * **E2**: Indicates a dual-lane (RHW-4) branch off the mainline, with a diagonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
 * **F2**: Indicates a dual-lane (RHW-4) branch off the mainline, with a fractional angle (18.4-degree) branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
-* _**A3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom. There are currently no Type A3 ramps available._
+* **A3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.
 * _**B3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a diagonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom. There are currently no Type B3 ramps available._
 * **C3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a fractional angle (18.4-degree) branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.
-* _**D3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom. There are currently no Type D3 ramps available._
+* **D3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with an orthogonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom.
 * _**E3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a diagonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom. There are currently no Type E3 ramps available._
 * _**F3**: Indicates a triple-lane (RHW-6S) branch off the mainline, with a fractional angle (18.4-degree) branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom. There are currently no Type F3 ramps available._
 
@@ -331,6 +337,8 @@ Below is a list of the default networks for each FLEXRamp:
 | Type B2 | RHW-6S |
 | Type D2 | RHW-6S |
 | Type E2 | RHW-6S |
+| Type A3 | RHW-8S |
+| Type D3 | RHW-8S |
 | Type A1-Inside | MIS Ramp |
 | Type B1-Inside | MIS Ramp |
 | Type D1-Inside | RHW-4 |
@@ -503,9 +511,14 @@ To use a FLEXFly piece, first place the desired setup. Each FLEXFly will allow d
 
 {{< img-simple src="images/rhw-flexfly-use-1.jpg" >}}
 
-Note that FLEXFly pieces can only support a single crossing network at any given point. It is also not possible to have a FLEXFly piece cross over another FLEXFly piece--the result of this will be a blank tile at the point where the two collide. Additionally, FLEXFly pieces do not support the overlap/composite technique of the R2 Multi-Radius Curves.
+Note that FLEXFly pieces can only support a single crossing network at any given point. In certain situations, such as the first one (with the green checkmark), it is actually possible to cross one FLEXFly over another FLEXFly, though this is strictly limited.  Attempting to build unsupported overlaps, or crossing two networks under one tile of FLEXFly will yield glitched or blank network tiles, as seen in the other three images (with the red circle-and-slash).  Additionally, FLEXFly pieces do not support the overlap/composite technique of the R2 Multi-Radius Curves.
 
-{{< img-simple src="images/rhw-flexfly-no.jpg" >}}
+{{< gallery col-xl="2" col-lg="2" clickable="true" >}}
+    images/flexfly-overlap-yes.jpg
+    images/flexfly-overlap-no1.jpg
+    images/flexfly-overlap-no2.jpg
+    images/flexfly-overlap-no3.jpg
+{{< /gallery >}}
 
 ### Fractional Angle RealHighways (FARHW)
 
@@ -570,7 +583,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-2 Viaduct Bridge
 * L2 RHW-2 Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw2-bridges-1.jpg
     images/bridges/rhw2-viaduct-bridges.jpg
 {{< /gallery >}}
@@ -581,7 +594,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-3 Viaduct Bridge
 * L2 RHW-3 Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw3-viaduct-bridges.jpg
 {{< /gallery >}}
 
@@ -591,7 +604,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 MIS Viaduct Bridge
 * L2 MIS Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/mis-viaduct-bridges.jpg
 {{< /gallery >}}
 
@@ -610,7 +623,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-4 Viaduct Bridge
 * L2 RHW-4 Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw4-bridges-1.jpg
     images/bridges/rhw4-bridges-2.jpg
     images/bridges/rhw4-bridges-3.jpg
@@ -629,7 +642,7 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 * L1 RHW-6S Viaduct Bridge
 * L2 RHW-6S Viaduct Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw6s-bridges-1.jpg
     images/bridges/rhw6s-bridges-2.jpg
     images/bridges/rhw6s-bridges-3.jpg
@@ -639,10 +652,11 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 #### RHW-8S Bridges
 
 * Undertruss RHW-8S Bridge [Maxis Ground Highway-based]
-* L1 RHW-8S Viaduct Bridge
-* L2 RHW-8S Viaduct Bridge
+* L0 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
+* L1 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
+* L2 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw8s-bridges-1.jpg
     images/bridges/rhw8s-viaduct-bridges.jpg
 {{< /gallery >}}
@@ -651,19 +665,28 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
 
 * Large Concrete Arch RHW-10S Bridge [Maxis Ground Highway-based]
 * Cable Stayed RHW-10S Bridge [Maxis Ground Highway-based]
-* L1 RHW-10S Viaduct Bridge
-* L2 RHW-10S Viaduct Bridge
+* Steel Arch RHW-10S Bridge [Maxis Ground Highway-based]
+* L0 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
+* L1 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
+* L2 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/rhw10s-bridges-1.jpg
     images/bridges/rhw10s-viaduct-bridges.jpg
 {{< /gallery >}}
+
+#### RHW-12S Bridges
+
+* Steel Arch RHW-12S Bridge [Maxis Ground Highway-based]
+* L0 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
+* L1 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
+* L2 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
 
 #### DDRHW-4 Bridges
 
 * Plain DDRHW-4 Bridge
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
     images/bridges/ddrhw4-bridges-1.jpg
 {{< /gallery >}}
 
@@ -798,7 +821,7 @@ In certain situations, using special Three-Level Crossing helper pieces (located
 
 Note that any FLEXFly or curve pieces must be _at least 1 tile away_ from a Three-Level Crossing FLEX Piece, as at present, the adjacency stability does not exist, nor does FLEXFly-over-FLEXFly functionality.
 
-{{< gallery columns="2">}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1">}}
 images/tlc/rhw-tlc-1.jpg
 images/tlc/rhw-tlc-2.jpg
 images/tlc/rhw-tlc-3.jpg
@@ -815,11 +838,11 @@ The "Stackasaurus Rex" Interchange, built by NAM Team developer Lucario Boricua,
 
 #### RHW FLEX Turn Lanes (FTLs)
 
-The RHW has its own set of (rapidly-expanding) FLEX Turn Lane (FTL) options available. Supported types include the RHW-2 (L0 only), RHW-4 Rural (L0 only), and MIS Ramps (L0 and L1). Support for [SITAP-style signalized intersections](../turning-lanes/#sitap) is also available in at least some instances.
+The RHW has its own set of (rapidly-expanding) FLEX Turn Lane (FTL) options available. Supported types include the RHW-2 (L0 only), RHW-4 Rural (L0 only), and MIS Ramps (L0 and L1). Support for [SITAP-style signalized intersections](/docs/feature-guides/turning-lanes/#sitap) is also available in at least some instances.
 
 To build the RHW-2 FTLs, begin with the transition, and drag RHW-2 out from it. The override of the turn lane will carry until you reach an intersection with another network.
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-rhw2-1.jpg
 images/ftl/rhw-ftl-rhw2-2.jpg
 images/ftl/rhw-ftl-rhw2-3.jpg
@@ -832,7 +855,7 @@ The override does not continue on the other side of the intersection, if a +-int
 
 It is possible to signalize intersections with Roads and other RHW-2s, via two methods: the first involves transitioning to Road immediately before the intersection (as is the case with the draggable signalized One-Way Road intersections in SITAP).
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-rhw2-6.jpg
 images/ftl/rhw-ftl-rhw2-7.jpg
 images/ftl/rhw-ftl-rhw2-8.jpg
@@ -850,7 +873,7 @@ Currently, the only crossing networks supported by the RHW-2 FTLs are Streets, R
 
 To build rural-style RHW-4 FTLs, use the same transition as the RHW-2 FTLs, but override it with the RHW-4 network to convert it.
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-rhw4-1.jpg
 images/ftl/rhw-ftl-rhw4-2.jpg
 images/ftl/rhw-ftl-rhw4-3.jpg
@@ -865,7 +888,7 @@ Currently, the only crossing networks supported by the Rural RHW-4 FTLs are Stre
 
 The MIS FTLs, known in their 2-lane form as "MIS-2", currently come in two flavors: one that favors right turns, and the other that favors left turns. Each produces a different end result at a Road +-intersection (with SITAP support).
 
-{{< gallery columns="2" >}}
+{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-mis-1.jpg
 images/ftl/rhw-ftl-mis-2.jpg
 images/ftl/rhw-ftl-mis-3.jpg
@@ -873,7 +896,7 @@ images/ftl/rhw-ftl-mis-3.jpg
 
 It is also possible to hook an RHW-4 into an MIS FTL, in which case the RHW-4 seamlessly transitions into an MIS-2 FTL.
 
-{{< gallery columns="2" >}}
+{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
 images/ftl/rhw-ftl-mis-4.jpg
 images/ftl/rhw-ftl-mis-5.jpg
 {{< /gallery >}}
@@ -913,33 +936,36 @@ The Starter Pieces allow one to widen and/or elevate their RealHighways, by drag
 7. L0 RHW-8C Starter
 8. L0 RHW-7C Starter
 9. L0 RHW-10S Starter
-10. L1 RHW-2 Starter
-11. L1 RHW-4 Starter
-12. L1 MIS Starter
-13. L1 RHW-3 Starter
-14. L1 RHW-6S Starter
-15. L1 RHW-6C Starter
-16. L1 RHW-8S Starter
-17. L1 RHW-8C Starter
-18. L1 RHW-7C Starter
-19. L1 RHW-10S Starter
-20. L2 RHW-2 Starter
-21. L2 RHW-4 Starter
-22. L2 MIS Starter
-23. L2 RHW-3 Starter
-24. L2 RHW-6S Starter
-25. L2 RHW-6C Starter
-26. L2 RHW-8S Starter
-27. L2 RHW-8C Starter
-28. L2 RHW-7C Starter
-29. L2 RHW-10S Starter
-30. L3 RHW-4 Starter
-31. L3 MIS Starter
-32. L3 RHW-6S Starter
-33. L4 RHW-4 Starter
-34. L4 MIS Starter
-35. L4 RHW-6S Starter
-36. DDRHW-4 Starter
+10. L0 RHW-12S Starter
+11. L1 RHW-2 Starter
+12. L1 RHW-4 Starter
+13. L1 MIS Starter
+14. L1 RHW-3 Starter
+15. L1 RHW-6S Starter
+16. L1 RHW-6C Starter
+17. L1 RHW-8S Starter
+18. L1 RHW-8C Starter
+19. L1 RHW-7C Starter
+20. L1 RHW-10S Starter
+21. L1 RHW-12S Starter
+22. L2 RHW-2 Starter
+23. L2 RHW-4 Starter
+24. L2 MIS Starter
+25. L2 RHW-3 Starter
+26. L2 RHW-6S Starter
+27. L2 RHW-6C Starter
+28. L2 RHW-8S Starter
+29. L2 RHW-8C Starter
+30. L2 RHW-7C Starter
+31. L2 RHW-10S Starter
+32. L2 RHW-12S Starter
+33. L3 RHW-4 Starter
+34. L3 MIS Starter
+35. L3 RHW-6S Starter
+36. L4 RHW-4 Starter
+37. L4 MIS Starter
+38. L4 RHW-6S Starter
+39. DDRHW-4 Starter
 
 #### RHW Fillers
 
@@ -1007,6 +1033,19 @@ The Filler Puzzle Pieces exist for ease of use in tight spaces, where overrides 
 
 ### RHW Ramp & Interchange Menu Items
 
+#### QuickChange Xpress Pieces
+
+{{< menu-icon icon="images/icons/rhw-qc-button.jpg" caption="_QuickChange Pieces (located under the Highways Menu)_" >}}
+
+The QuickChange Xpress button offers pre-constructed full interchanges, in FLEX format. For more details, see the [QuickChange portion of this document](/docs/feature-guides/realhighway-mod/#quickchange-xpress-full-interchanges-in-a-click).
+
+1. QuickChange L0 Dual Type 110 (Road)/L1 RHW
+2. QuickChange L1 Dual Type 110 (Road)/L0 RHW
+3. QuickChange L0 Dual Type 120 (Avenue)/L1 RHW
+4. QuickChange L1 Dual Type 120 (Avenue)/L0 RHW
+5. QuickChange L0 Dual Type 230 (AVE-6)/L1 RHW
+6. QuickChange L1 Dual Type 230 (AVE-6)/L0 RHW
+
 #### QuickChange Pieces
 
 {{< menu-icon icon="images/icons/rhw-qc-button.jpg" caption="_QuickChange Pieces (located under the Highways Menu)_" >}}
@@ -1039,6 +1078,8 @@ The FLEXRamps offer an easy way to have on/offramps branch off one's RealHighway
 13. Type D1-Inside FLEXRamp
 14. Type E1-Inside FLEXRamp
 15. Type D1-Inside Dual Shift FLEXRamp
+16. Type A3 FLEXRamp
+17. Type D3 FLEXRamp
 
 #### RHW Old Puzzle Piece Ramps {{< deprecated >}}
 
@@ -1115,19 +1156,34 @@ These puzzle pieces allow you to connect your RHW system through grade-separated
 
 These FLEX pieces allow you to transition to a different elevation with your RealHighway networks. The "1-Level" and "2-Level" setups can be used with any network, while the 180° MIS Curve will only work with the L0 and L1 MIS.
 
-1. FLEXOnSlope 1-Level
-2. FLEXOnSlope 2-Level
-3. FlexHT L0-L1 1-Level
-4. FlexHT L0-L2 2-Level
-5. 180-Degree MIS 1-Level Transition
-6. Diag FLEXOnSlope 1-Level
-7. Diag FLEXOnSlope 2-Level
+1. FlexHeight 1-Level Orthogonal
+2. FlexHeight 1-Level Diagonal
+3. FlexHeight 2-Level Orthogonal
+4. FLEXOnSlope 1-Level Orthogonal
+5. FLEXOnSlope 2-Level Orthogonal
+6. FLEXOnSlope 1-Level Diagonal
+7. FLEXOnSlope 2-Level Diagonal
+8. FlexHeight 1-Level 90-Degree Transition
+9. FlexHeight MIS 1-Level 180-Degree Transition
+10. FlexHeight 1-Level R3 45-Degree Transition (Orthogonal Lower/Diagonal Higher)
+11. FlexHeight 1-Level R3 45-Degree Transition (Orthogonal Higher/Diagonal Lower)
+
+#### RHW FLEXWidth Transitions
+
+These FLEX pieces allow you to transition to a different width with your RealHighway networks (presently Orthogonal-only).
+
+1. FLEXWidth Transition for Same Network Type (S-to-S or C-to-C)
+2. FLEXWidth Transition for Same Network Type/Tile Drop
+3. FLEXWidth Transition for Different Network Type (S-to-C) Asymmetrical
+4. FLEXWidth Transition for Different Network Type (S-to-C) Symmetrical/Wishbone
+5. FLEXWidth Transition for RHW-2/3-to-4 (and Dual RHW-4 to DDRHW-4) Asymmetrical
+6. FLEXWidth Transition for RHW-2/3-to-4 (and Dual RHW-4 to DDRHW-4) Symmetrical/Wishbone
 
 #### RHW Old Height Transition Puzzle Pieces {{< deprecated >}}
 
 {{< menu-icon icon="images/icons/rhw-old-height-button.jpg" caption="_Height Transition Puzzle Pieces (located under the Highways Menu)_" >}}
 
-These older puzzle pieces allow for transitions between two different height levels of RHW networks. They generally have starter drag end stubs. Use of the FLEXHeight Transitions is generally recommended instead, as they support more networks. The MIS Curved Height Transitions are the only setups not presently covered by FLEXHeight.
+These older puzzle pieces allow for transitions between two different height levels of RHW networks. They generally have starter drag end stubs. Use of the FLEXHeight Transitions is generally recommended instead, as they support more networks.
 
 1. RHW-2-to-RHW-4 Transition A
 2. RHW-2-to-RHW-4 Transition B
@@ -1169,7 +1225,7 @@ These older puzzle pieces allow for transitions between two different height lev
 38. MIS L2-to-L3 Starterless
 39. MIS Ground-to-Mid-Elevated L3 Starterless
 
-#### RHW Width Transitions
+#### RHW Width Transitions {{< deprecated >}}
 
 {{< menu-icon icon="images/icons/rhw-width-transition-button.jpg" caption="_Width Transition Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1245,38 +1301,40 @@ These FLEX pieces allow for construction of flyover ramps.
 
 These pieces allow you to build smoother curves.
 
-1. RHW-4 Double Curve
-2. RHW-4 Outer Curve
-3. RHW-4 Inner Curve
-4. RHW-4 Lane Shift
-5. RHW-4 Dual Lane Shift
-6. FLEX-MRC R2 45
-7. FLEX-MRC R2 90
-8. FLEX-MRC R3 45
-9. FLEX-MRC R4 45
-10. FLEX-MRC R5 45
-11. MIS S-Curve 1
-12. MIS 45-Curve 1
-13. MIS 45-Curve 2
-14. MIS 90-Curve
-15. RHW-2 S-Curve
-16. RHW-2 45-Curve
-17. RHW-2 90-Curve (Large)
-18. RHW-2 90-Curve (Small)
-19. RHW-3 S-Curve 1
-20. RHW-3 S-Curve 2
-21. RHW-3 45-Curve 1
-22. RHW-3 45-Curve 2
-23. RHW-6S Single Lane Shift
-24. RHW-6S Dual Lane Shift
-25. RHW-6S Outer Curve
-26. RHW-6S Inner Curve
-27. RHW-8S Outer Curve
-28. RHW-8S Inner Curve
-29. RHW-6C S-Curve Half
-30. RHW-8C S-Curve Half
-31. RHW-10 Outer Curve
-32. RHW-10 Inner Curve
+1. FLEX-MRC R2 45
+2. FLEX-MRC R2 90
+3. FLEX-MRC R3 45
+4. FLEX-MRC R4 45
+5. FLEX-MRC R5 45
+6. FLEX S-Curve
+7. FLEX Basketweave
+8. RHW-4 Double Curve
+9. RHW-4 Outer Curve
+10. RHW-4 Inner Curve
+11. RHW-4 Lane Shift
+12. RHW-4 Dual Lane Shift
+13. MIS S-Curve 1
+14. MIS 45-Curve 1
+15. MIS 45-Curve 2
+16. MIS 90-Curve
+17. RHW-2 S-Curve
+18. RHW-2 45-Curve
+19. RHW-2 90-Curve (Large)
+20. RHW-2 90-Curve (Small)
+21. RHW-3 S-Curve 1
+22. RHW-3 S-Curve 2
+23. RHW-3 45-Curve 1
+24. RHW-3 45-Curve 2
+25. RHW-6S Single Lane Shift
+26. RHW-6S Dual Lane Shift
+27. RHW-6S Outer Curve
+28. RHW-6S Inner Curve
+29. RHW-8S Outer Curve
+30. RHW-8S Inner Curve
+31. RHW-6C S-Curve Half
+32. RHW-8C S-Curve Half
+33. RHW-10 Outer Curve
+34. RHW-10 Inner Curve
 
 ### Fractional Angle RHW Menu Items
 
@@ -1349,6 +1407,7 @@ These pieces allow one to build the Type C and Type F ramp interfaces, in puzzle
 23. RHW-10S Type F2
 24. RHW-10S Type C3
 25. MIS/FAMIS Ramp Type C1 - out
+26. Avenue Type C1 RHW-MIS Exit/Entrance Ramp
 
 #### FARHW Intersection Puzzle Pieces {{< legacy >}}
 
@@ -1559,11 +1618,16 @@ These pieces allow you to manipulate the appearance of your RHW networks and tra
 
 ### RHW Utility Menu Items
 
-#### RHW Neighbor Connection Pieces
-
-{{< menu-icon icon="images/icons/rhw-nc-button.jpg" caption="_RHW Neighbor Connectors (located under the Highways Menu)_" >}}
+#### RHW Neighbor Connectors
 
 These pieces allow you to build properly functioning Neighbor Connections with RHWs beyond the base RHW-2 (Neighbor Connectors are also not needed for RHW-3 and Double-Decker RHW-4 connections).
+1. RHW FLEX Neighbor Connector (FLEX-NC).
+2. RHW Invisible Loop Connector
+
+
+#### RHW Neighbor Connection Puzzle Pieces {{< deprecated >}}
+
+{{< menu-icon icon="images/icons/rhw-nc-button.jpg" caption="_RHW Neighbor Connectors (located under the Highways Menu)_" >}}
 
 1. RHW Invisible Loop Connector
 2. RHW-4 Neighbor Connector
@@ -1580,7 +1644,15 @@ These pieces allow you to build properly functioning Neighbor Connections with R
 
 ### RHW Cross-Network Menu Items
 
-#### RHW/Road
+#### Specialized RHW x Surface Intersections
+
+These FLEX pieces allow for specialized intersections with RHW ramps.
+
+1. FlexSPUI (Single-Point Urban Interchange) Terminus
+2. FlexDDI (Diverging Diamond Interchange) Terminus
+
+
+#### RHW/Road {{< deprecated >}}
 
 {{< menu-icon icon="images/icons/rhw-rd-button.jpg" caption="_Road/RHW Puzzle Pieces and FLUPs (located under the Roads Menu)_" >}}
 
@@ -1607,7 +1679,7 @@ These puzzle pieces extend the NAM Elevated Road Puzzle Pieces to allow you to c
 19. FLUPs Underpass-Under RHW-6S/RHW-8S/RHW-10
 20. FLUPs RHW-2 Ramp
 
-#### RHW/One-Way Road
+#### RHW/One-Way Road {{< deprecated >}}
 
 {{< menu-icon icon="images/icons/rhw-owr-button.jpg" caption="_One-Way Road (OWR)/RHW Puzzle Pieces (located under the Roads Menu)_" >}}
 
@@ -1625,7 +1697,7 @@ These puzzle pieces extend the NAM Elevated One-Way Road Puzzle Pieces to allow 
 10. Elevated OWR/EMIS +-Intersection
 11. Elevated OWR/EMIS T-Intersection
 
-#### RHW/Avenue
+#### RHW/Avenue {{< deprecated >}}
 
 {{< menu-icon icon="images/icons/rhw-owr-button.jpg" caption="_Avenue/RHW Puzzle Pieces and FlexSPUI (located under the Roads Menu)_" >}}
 
@@ -1643,9 +1715,8 @@ These puzzle pieces extend the NAM Elevated Avenue Puzzle Pieces to allow you to
 10. Avenue/MIS +-Intersection Avenue/MIS T-Intersection
 11. Avenue Type A1 RHW-MIS Exit/Entrance Ramp
 12. Avenue Type B1 RHW-MIS Exit/Entrance Ramp
-13. Avenue Type C1 RHW-MIS Exit/Entrance Ramp
-14. Diverging Diamond-Avenue
-15. FlexSPUI Avenue Type A
+13. Diverging Diamond-Avenue
+14. FlexSPUI Avenue Type A
 
 #### RHW/Rail {{< deprecated >}}
 

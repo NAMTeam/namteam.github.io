@@ -7,6 +7,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/base-network-additions"
 ---
 
 {{< docstatus status="oldcontent" >}}
@@ -1148,11 +1149,6 @@ The items in this group are not in any particular or specific format.
 ##### Road
 
 * Road Turning Lanes. **Note:** Requires an additional Plugin. See [Installation Instructions](/docs/reference/installation-notes/ )for details.
-* Roundabouts. To trigger the initial Road roundabout, you must draw a Road Circle in a 2x2 tile area. There currently exists many variations with one, two, three &/or four orthogonal &/or Diagonal Roads stemming from this initial 2x2 tile area. **Note:** Requires an additional Plugin. See [Installation Instructions](/docs/reference/installation-notes/) for details.
-
-    <div class="row mx-0 g-1">
-    <div class="col text-center">{{< img-simple src="images/road_roundabout.jpg" class="img-fluid" >}}</div>
-    </div>
 
 ##### OneWayRoad
 
@@ -1517,12 +1513,49 @@ Since the release of NAM 31 in 2013, Pattern-Based Draggable options have been a
 <div class="col">{{< img-simple src="images/FAR_pattern_D2.jpg" class="img-fluid" >}}</div>
 </div>
 
+Street S-Curve
+{{< override from="images/street_s-curve_pattern.png" to="images/street_s-curve.png">}}
 
-<div class="row mx-0 g-1">
-<div class="col text-center">{{< img-simple src="images/street s-curve_footprint.jpg" class="img-fluid" >}}</div>
-</div>
+Diagonal S-Curve
+{{< override from="images/diag_s-curve_pattern.png" to="images/diag_s-curve.png">}}
 
+The following networks support diagonal s-curves using the above pattern:
+- Road
+- One Way Road (OWR-2)
+- OWR-1
+- RHW-2
+- MIS
 
+Diagonal S-Curve (Street & SAM)
+
+{{< override from="images/diag_s-curve_street_pattern.png" to="images/diag_s-curve_street.png">}}
+
+{{< alert context="info" >}}
+**Note** - The street s-curve can also be constructed using diagonal street helper pieces.
+{{< /alert >}}
+
+Avenue 5x5 90° Curve
+{{< override from="images/avenue-90-curve_pattern.png" to="images/avenue-90-curve.png">}}
+
+2x2 90° Curve
+{{< override from="images/2x2_curve_drag_pattern.png" to="images/2x2_curve_drag.png">}}
+
+The 2x2 90° curve supports all single-tile NWM overrides and SAM overrides except SAM-1.
+
+{{< alert context="warning" >}}
+**Caution** - Please note that you must take care when drawing the one way road version of the 2x2 curve to ensure the path directions are correct.  The inner stub must be drawn toward the direction of travel.  Additionally, the game's path reversing functionality does not carry through this curve.  To change the direction, drag over each portion of the curve in the proper direction. 
+{{< /alert >}}
+
+3x3 90° Curve
+
+{{< override from="images/3x3_curve_drag_pattern.png" to="images/3x3_curve_drag.png">}}
+
+The following networks support 3x3 90° curves using the above pattern:
+- Road
+- One Way Road (OWR-2)
+- OWR-1
+- RHW-2
+- MIS (L0-L4)
 #### **FAR Patterns**
 
 <div class="row mx-0 g-1">

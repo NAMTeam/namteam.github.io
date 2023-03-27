@@ -15,3 +15,43 @@
 
 - id: browse
   translation: "Sfogliare"
+
+# Reading options menu
+- id: options
+  translation: "Opzioni"
+
+- id: font-selection
+  translation: "Selettore Font"
+
+- id: sans-serif
+  translation: "Sans serif"
+
+- id: serif
+  translation: "Serif"
+
+- id: monospaced
+  translation: "Monospaced"
+
+- id: font-size
+  translation: "Dimensioni Font"
+
+- id: line-spacing
+  translation: "Interlinea"
+
+# Deprecated shortcode translation
+- id: deprecated-label
+  translation: "DEPRECATO"
+
+- id: deprecated-tooltip
+  translation: "Questo articolo viene mantenuto solo a scopo di compatibilità. Non ci saranno ulteriori sviluppi per questo articolo."
+
+# Legacy shortcode translation
+- id: legacy-label
+  translation: "LEGACY"
+
+- id: legacy-tooltip
+  translation: "Questo articolo non viene aggiornato da tempo. È probabile che lo sviluppo attivo di questa voce riprenda in futuro."
+
+# Gallery shortcode translation
+- id: gallery-new-tab
+  translation: "Aprire l'immagine in una nuova scheda"
