@@ -1,7 +1,7 @@
 ---
-title : "Reference"
-description: "This is the official home of the Network Addon Mod's documentation."
-summary: "Not sure where to start? Learn more about how the Network Addon Mod can be installed, frequently asked questions, its history and the people that made it happen."
+title : "Riferimento"
+description: "Questa è la sede ufficiale della documentazione del Network Addon Mod."
+summary: "Non sapete da dove cominciare? Scoprite come si installa il Network Addon Mod, le domande più frequenti, la sua storia e le persone che lo hanno realizzato."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -11,4 +11,4 @@ weight: 10
 
 {{< docstatus status="compatibility" >}}
 
-This section contains technical and installation information about the Network Addon Mod for SimCity 4.
+Questa sezione contiene informazioni tecniche e di installazione sul Network Addon Mod per SimCity 4.
