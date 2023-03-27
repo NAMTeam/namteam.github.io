@@ -11,46 +11,100 @@ images: []
 
 {{< docstatus status="compatibility" >}}
 
-First off, ensure that you have extracted the contents of this .zip file-- **attempting to run it within the .zip archive can cause parts of the installation to fail**. Also, make sure you have the following installed:
+## Compatibility and Installation
 
-* **Java Runtime Environment (JRE) -[Available from Adoptium/AdoptOpenJDK](https://adoptium.net/temurin/releases), or, if you are on 64-bit Windows (and have extracted the .zip contents), there is an enclosed copy of the JRE, which can be accessed directly [here](OpenJDK11U-jre_x64_windows_hotspot_11.0.8_10.msi).*
+Before attempting to run the NAM installer, ensure that you have extracted the contents of the .zip download into a folder.  Attempting to run the installer while it is still in the .zip will cause the installation to fail.
 
-**Note: in order to ensure proper installation of NAM releases using the current installer, please remove the "Network Addon Mod" folder (and if still present, "z___NAM" folder) from the Plugins directory (usually My Documents\SimCity 4\Plugins on Windows) before installing a new NAM version. The Cleanup/Cleanitol functionality is not presently designed to remove full NAM installations.**
+The minimum requirements for running the Network Addon Mod are as follows:
 
-**NEW THIS RELEASE for users seeking a "minimal install" (i.e. just the Traffic Simulator and bugfixes)**: Included in the NAM 45 download is NAMLite 1, a separate, minimal package which includes the NAM's Traffic Simulator (which has just been updated to Simulator Z 3.0), Automata Controllers, bugfixes, the option to install Euro textures, and some of the most popular lightweight features, including Diagonal Streets, Roundabouts, One-Way Road Bridge Support, and Additional Highway Interchanges for the game's base (Maxis) Highway and Ground Highway networks, with any added menu buttons being optional, non-default items. To install NAMLite 1, simply run NetworkAddonMod_Lite_Setup_Version1.bat (Windows), NetworkAddonMod_Lite_Setup_Version1.jar (macOS or as an alternate option on Windows), or NetworkAddonMod_Lite_Setup_Version1.sh (Linux). Note that NAMLite still requires Java to run, but does not require the 4GB Patch. Note that the Traffic Simulator Configuration Tool (TSCT) has been discontinued--more details can be found in the New Features/Version Notes section below.
+* A compatible retail copy of SimCity 4 Deluxe Edition OR SimCity 4 with the Rush Hour Expansion Pack
+  - **Windows/Linux (via WINE)**: Any digital retail edition **EXCEPT the EA App/Origin Retail Edition** (see [here](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass)), or any disc copy updated to at least Version 1.1.638.
+  - **macOS**: Any recent digital edition of the Aspyr port for macOS (installation on the App Store version is more difficult, and the NAM Team is limited in our capacity to provide installation help to App Store users).
+  - The now-rare non-Deluxe/non-Rush Hour copies of SimCity 4 are not supported.  Attempting to run the NAM on a non-Deluxe/non-Rush Hour copy of SimCity 4 will cause the game to immediately crash to desktop (CTD).
+* Java Runtime Environment (JRE), in order to run the installer--a version for 64-bit Windows is included in the download (OpenJDK11U-jre_x64_windows_hotspot_11.0.8_10.msi).
+  - If you are not on 64-bit Windows and need Java, [Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases), though JRE and JDK can also be acquired in proprietary/commercial (but free to download) form from Oracle at [https://www.java.com/](https://www.java.com).
+  - The Java Development Kit, or JDK, will also work, but contains extra files not needed unless you are a Java developer.
+* A system with the following specs, for each basic type of NAM installation:
+  - **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space.  (Users running this option cannot install the RealHighway (RHW) features.)
+  - **NAM with a Full 4GB Controller option**: Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space.  If on Windows, **the 4GB Patch must be applied to the game's executable**.
+  - NOTE: Installing the Full 4GB Controller option without meeting the specifications and without the 4GB Patch **will cause the game to crash-to-desktop (CTD) upon attempting to load a city**.  If you experience this crash, it either means your system does not support the Full 4GB Controller option, or there was some form of failure in the 4GB Patch process.
+* Additional Requirement on Mac: (optional for Windows/Linux): [JDatPacker by memo](https://www.sc4devotion.com/forums/index.php?action=tportal;sa=download;dl=item137)
+  - JDatPacker is a tool for consolidating folders of SimCity 4 plugins.  This can speed up the game's performance, and on macOS, this helps alleviate issues with the Aspyr port's known "number of files limit", wherein exceeding a certain number of files/folders within the game's Plugins directory can cause the game to crash.
+* Additional Requirement on on Windows/Linux (if running Full 4GB Controller/RealHighway options): 4GB Patch by NTCore (included in download, automatically installed on Windows with standard installation procedure, and also available at [NTCore](https://ntcore.com/?page_id=371)
+  - See Step 3 (under "On Windows") or [here](#a-note-about-the-4gb-patch) for more details.
+  
+To install the Network Addon Mod:
 
-**For the full release**, use NetworkAddonMod_Setup_Version45.bat (Windows), NetworkAddonMod_Setup_Version45.jar (macOS, alternate option on Windows if the 4GB Patch has already been installed), or NetworkAddonMod_Setup_Version45.sh (Linux).
+* 1) Install the Java Runtime Environment (JRE) (if already installed, skip to Step 2).
+* 2) Remove any existing NAM installations, if present (simply deleting the "a_Network Addon Mod Lite" and/or "Network Addon Mod" folder from the Documents\SimCity 4\Plugins directory is the easiest way).
+* 3) Run the NAM Installer.
+  - On Windows:
+	-  If it your first time installing the NAM (or you are installing on a new system/with a new SC4 install), use **NetworkAddonMod_Setup_Version47.bat**.  If you are upgrading from a previous version, or have manually installed the 4GB Patch already (see [here](#a-note-about-the-4gb-patch)), use **NetworkAddonMod_Setup_Version47.jar**.  (The .bat file has a routine to automate the 4GB Patch installation process, necessary to avoid CTDs if running  the Full 4GB Controller option, which is necessary to use the RealHighway (RHW) features.)
+  - On macOS:
+	- Run NetworkAddonMod_Setup_Version47.jar.
+	- **If on the App Store version**, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
+  - On Linux:
+	- Run NetworkAddonMod_Setup_Version47.jar, or, if that fails, run NetworkAddonMod_Setup_Version47.sh.
+* 4) Follow the installer's instructions, clicking on each tab on the top bar in order.
+  - a) Agree to the mod's terms on the initial "welcome" tab to proceed with the installation.
+  - b) Select the options you would like to install under the "files" tab.
+  - c) Select the install location under the "location" tab.  Unless you have set up an alternate location for your Plugins folder, or happen to be on the Mac App Store version of the game, this should be correct without needing to change it.
+  - d) Finally, move to the "install" tab.  Click the "Start installation" button to begin the installation process.  When the installation is complete, the progress screen will display a message, "All selected components installed!".
+  - e) Close the installer, using the "X" button or, on macOS, the red circular button, in the upper right corner of the window.  You're all done installing the mod.
+* 5) **Additional step for Mac users (optional on Windows/Linux)**: run JDatPacker to consolidate the mod's files.
+  - If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
+  - On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
+* 6) Load the game and enjoy the NAM!
+  - If the game crashes on your first attempt to load a city, this means you have the Full 4GB Controller installed, but either have experienced a failure in the 4GB Patch process, or have an incompatible system (not enough RAM and/or a 32-bit operating system).  Either attempt to install the 4GB Patch [manually](#a-note-about-the-4gb-patch), or choose a less intensive installation option (the Low RAM/No RHW option, or download NAM Lite instead).
+  - Note that if you've never run the NAM before, and you've picked a fuller installation option, the initial load of the game, and of the first city tile you open may be longer--often quite noticeably.  This will shorten with subsequent loads of other cities, or, if you exit and re-enter the game, subsequent re-entries will be quicker.
+  - If you do not see any icons in game, this most likely means your installation ended up in the wrong location. Either reinstall, making sure the files go into your Documents\SimCity 4\Plugins folder (true of Windows and the Steam Mac version), or, if you're on the Mac App Store version, make sure you copy the files into the .app container.
 
-## New Features for NAM 45
+More details on installation and compatibility can be found starting [here](#further-detail-on-version-compatibility)</a>
+ 
+## New Features for NAM 47
+* **Pedestrian Revolution Mod Features**:
+  - The NAM team is pleased to present the Classic Draggable Pedmalls, courtesy of **Ulisse Wolf** and **Lucario Boricua**. These come in 8 styles, 6 of which are equivalents to the Pedmall Puzzle Pieces, and introducing 2 new designs: the Retrowave Red Brick, inspired in the old brick texture used for the U-Rail in earlier NAM versions, and the Industrial Style, using the concrete surface typical of industrial lots. The initially supported features of these pedmalls include:
+    - Multidirectional draggable starter pieces using the Street network, supporting all orthogonal, diagonal, intersection and roundabout configurations, with the exception of wide radius curves.
+    - Intersection support (OXO T and 4-way) in the form of mid-block crosswalks. These support Road, Avenue, and all two-way Network Widening Mod override networks (TLA-3, AVE-2, ARD-3, NRD-4, TLA-5, RD-4, RD-6, TLA-7 and AVE-6). These draggable pedmalls are also compatible with the FLEX mid-block crosswalk pieces.
+    - Special underground paths enable residential zone development, while crossings discourage car traffic through restricted car paths.
+  - In addition, some enhancements to existing functionality have been implemented:
+    - The override code for the size 3 mid-block crosswalks for TLA-7 and AVE-6 have been overhauled, enabling these to be overridden from one side.
+* **RealHighway (RHW) Features**:
+  - **RHW-12S**: A new, 12-lane quadruple-tile RHW network (separable into two dual-tile halves, carrying 6 lanes in each direction) has been added, with the following features:
+    - Three height levels are supported: L0/Ground, L1/7.5-meter elevation, and L2/15-meter elevation.  Transitioning between these height levels is supported by the ramp-style FLEX Height Transitions (FLEX-HT), as well as the FLEX OnSlope Transitions (FLEX-OSTs), by connecting them to the RHW-12S networks.
+    - The RHW-12S features the same network crossings presently available to the other S-Type RHW networks, including crossings in all orientations for all Maxis base networks, all other RHW networks, Draggable Ground Light Rail, and Draggable Road Viaducts (L0-under-Viaduct-only), plus Orthogonal x Orthogonal (OxO)-only support for Network Widening Mod networks, Elevated RealRailway (ERRW) Viaducts, Tram-on-Street, Tram-in-Road, and Tram-in-Avenue.  Limited Hybrid Railway (HRW) support also exists.
+    - Extensive ramp interface support: supported ramps using FLEXRamps and Draggable Ramp Interfaces (when applicable) include Orthogonal Type A1 (all levels), Type B1 (all levels), Type D1 (all levels), Type E1 (all levels), Type A2 (all levels), Type B2 (L0 only), Type D2 (all levels), Type E2 (L0 only), Type A1-Inside (all levels), Type B1-Inside (all levels), Type D1-Inside (L0 only), Type E1-Inside (L0 only), the new Type A3 (L0 only) and Type D3 (L0 only), plus Diagonal Type A1 (L0 only), Type B1 (L0 only), Type D1 (L0 only), and Type E1 (L0 only).
+    - FLEX Width Transition (FLEX-WT) has been added, to support width transitions between RHW-12S and RHW-10S at all applicable height levels.
+    - FLEXFly over and undercrossings are supported with the RHW-12S (orthogonal-only, as diagonal undercrossings for FLEXFly do not presently exist for any network).
+    - Several bridges have been added (see Bridge section).
+    - Support for FlexSPUI is presently limited, and Three-Level Crossings are not yet supported.
+  - **RHW X3 Ramps**: The first two FLEX 3-lane ramps, in A3 and D3 configurations, have been provided for RHW-8S, 10S and 12S. At present, only L0 support is available.
+  - **General Improvements**
+    - Some enhancements, courtesy of **memo**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
+    - Some enhancements, courtesy of **Flann**, to elevated RHW network models have been added.
+	- Various adjacencies involving RHW x RHW crossings next to the base orth-diag curve on the smaller networks (RHW-6S and smaller) have been addressed.
+* **Bridges**:
+  - A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**:
+    - New viaduct bridges for L0 RHW-8S, L0 RHW-10S and L0-L2 RHW-12S.
+    - A pair of new Steel Arch bridges for RHW-10S and RHW-12S.
+* **Base Network Features**:
+  - A new 5x5 90° Wide Radius Curve FLEX piece has been added to the Avenue network.
+* **Miscellaneous**:
+  - A huge number of bugfixes have been done for this release, including:
+    - Various RHW situations involving "tile drops", such as the RHW-8S-to-6S FLEX Width Transitions, the RHW-8S Type D1, E1, and B2 ramps, and the RHW-10S Type D2 and E2 ramps, have received considerable stability upgrades.
+    - The orientation of the Road end-T on OWR-1 intersection has been corrected.
+    - The orientations of certain NWM intersections involving the OWR-1 network with Euro textures have been corrected.
+    - Stability improvements have been made to the Ground Light Rail crossings with various wider RHW networks.
+    - The Dual Type 230 QCXs with L1 Dual Type 230-over-RHW-8C/6C and RHW-10S/8S have been improved.
+    - Issues in which lane drop arrows appeared in the wrong places on the S-to-C FLEX Width Transitions have been corrected.
+    - The ramp textures for the RHW-10S Type D2 and E2 ramps, as well as for the RHW-8S Type A2-Wide and B2 ramps have been improved.
+    - Orientation and stability issues have been fixed with the Avenue-based AVE-6 and its Thru-T-intersections with Street, Road, and One-Way Road (both Short-T and Long-T).
+    - Orthogonal x Diagonal slip lanes involving Road and One-way Road (OWR) have been re-implemented.
+	- Several hundred path files across all areas of the NAM have been fixed by **memo** and **Tarkus**.
+	- More SAM Street crossings with the Rail network have received crossing gates.
+	- Euro wealth textures have been added to the Avenue-based AVE-6 network.
 
-* **Traffic Simulator Updates**: The NAM Traffic Simulator has been upgraded to Simulator Z 3.0, resulting in further optimizations to both the speed and accuracy of the simulation, and improved network utilization. The Low capacity version of the simulator is now the recommended version, as it provides the most optimized simulation. The Traffic Volume View Plugins have also been updated. The Traffic Simulator Configuration Tool (TSCT) has been discontinued and is no longer supported, as it was designed to work with the 2.x releases of Simulator Z, and because of the nature of the changes in the 3.0 release.
-* **Ploppable Interchanges for the RealHighway (RHW) System**: The initial QuickChange Xpress (QCX) ploppable interchanges for the RHW have been incorporated, featuring 16 Road and Avenue Diamond Interchanges, which are FLEX-based, adding to their ease-of-use and post-plop customization potential. The QCX interchanges are at the end of the RHW QuickChange menu button on the Highways Menu.
-* **Pedestrian Revolution Mod (PRM) Midblock Crosswalks**: The initial phase of the new Pedestrian Revolution Mod (PRM, or PedRev), spearheaded by developer **Lucario Boricua** has been added, featuring Midblock Crosswalk options for Roads, Avenues, and the two-way Network Widening Mod (NWM) override networks, in three sizes. These crosswalks calm traffic and allow for connections to the NAM's existing Pedestrian Mall (PedMall) features. The Midblock Crossings button can be found on the Roads Menu.
-* **NAMLite Package**: The initial version of NAMLite, a bite-sized package for users looking for a minimal install has been added to the download, with its own installer. NAMLite Version 1 features the Traffic Simulator, Automata Controllers, bugfixes, One-Way Roads, Roundabouts, Diagonal Streets, and the option to install the Diagonal Street FLEX/Helper Pieces, Avenue Roundabouts, and Additional Highway Interchanges for the Maxis (Elevated) Highway and Ground Highway networks.
-* **Hybrid Railway (HRW) Features**: L1 Diagonal support has been added, along with a number of new crossings.
-* **Left-Hand Driving (LHD) Improvements**: The Left-Hand Driving (LHD) functionality of the NAM has been dramatically overhauled and improved, fixing numerous bugs and improving reliability for users playing the game with traffic running on the left side of roads and rails. Note that some RHW ramp interfaces and FLEX transitions may need to be reclicked as a result of their LHD reimplementation.
-* **Documentation Upgrades**: The documentation has been thoroughly updated and now covers almost all NAM features to at least some extent, with the addition of feature guides for Hybrid Railway (HRW), the Pedestrian Revolution Mod, Ground Light Rail (GLR) and Tram Dual-Networking, the Elevated Road Viaducts, RealExpressway (REW), Utility Items (Network Eraser and Hole Diggers/Raisers), Underground Rail (URail), and the Canal Addon Mod (CAN-AM), alongside an updated glossary page.
-* **Euro Texture Optimization**: As a result of the large-scale file cleanup effort undertaken following the release of NAM 44 (known as "NAM 44X"), the NAM's Euro textures largely operate independently, and no longer rely upon overrides of the default US texture set. This has decreased the size of a Euro Texture installation of the NAM by about 300MB, and along with other optimizations, has dropped the size of the NAM download package by about 150MB.
-* **New Bridges**: A plethora of new bridges designed by **IDS2** have been added this release:
-  - Walnut Street (V-Shaped Girder) Bridges: Support for Road, Street, One-Way Road, SAM Sets 2, 6, 7, 8, 9, and 10, RHW-2, and RHW-4.
-  - Antheor Viaduct (Brick Arch Viaduct) Bridges: Support for RealRailway (RRW) Dual-Track Rail (DTR) and Single-Track Rail (STR).
-  - Additionally, the existing Cable-Stayed Bridge has been ported to cover Ground Light Rail (GLR).
-* **Additional RealExpressway Ramps**: New Road-to-OWR-1 splits have been added to the RealExpressway Mod, and can be found at the end of the RealExpressway Ramps button on the Roads Menu.
-* **RHW MIS Ramp and FLEX Turn Lane Additions**: L1 support for MIS 2-Lane FLEX Turn Lanes (FTLs) has been added, including a new combination upward height/width transition. Additionally, network support for the MIS 2-Lane FTLs has been improved, along with the ability to use the same draggable method used on the One-Way Roads (via transition to Road prior to an intersection) for SITAP (Signalized Intersection and Turn Arrow Project) support has been incorporated. The 3x3 90� Curves for the MIS have also been ported to L1-L4 elevations.
-* **RHW Model Improvements**: Courtesy of **Flann**, the elevated versions of the RHW-6C and RHW-8C now feature a single median barrier, matching their ground counterparts, and eliminating the previous gap between the two halves/carriageways of the highways. Additionally, the elevated versions of the 2x2 MIS Short 90� Curves have also received further optimization. New barrier and pillar textures by **Bipin** have also been incorporated to coincide with these changes.
-* **Italian Translation**: As a result of the efforts of **ulisse99**, the entirety of the NAM has been translated into Italian.
-* **Other Bugfixes**:
-  - The level crossings for Ground Light Rail (GLR) and RealRailway (RRW) have been properly color-corrected.
-  - Adjacency issues involving the RHW-8S Type D1 and Type D1-Inside ramps have been addressed.
-  - 3x3 Street circles have been stabilized.
-  - The Ground Light Rail (GLR) pathing on the ulisse Transit Stations has been fixed.
-  - The rotation of some intersections involving OWR-3 (esp. OWR-3 x AVE-2 +) has been corrected.
-  - Various issues with the Maxis Highway and Maxis Highway Override crossings with the RealHighway (RHW) system have been addressed.
-  - Fixes have been applied to the Elevated Light Rail and Monorail versions of the Cable-Stayed Bridge, the Steel Arch Rail Bridge, the High Elevated (30m) Monorail Bridge, and the L1/L2 RHW-8S and RHW-10S Viaduct Bridges.
-  - Some stop point issues causing some signals on AVE-6 intersections with Avenue to remain permanently green have been addressed.
-  - The model for the SimGoober-Style Canal Station in the Canal Addon Mod (CAN-AM) plugin has been fixed by **Tyberius06**.
-
-## Requirements and Compatibility
+## Further Detail on Version Compatibility
 
 The requirements depend on which feature set you choose to install.
 
@@ -102,7 +156,7 @@ Please note that if you are attempting to use an older, 32-bit version of Window
 
 ### Various Important Notes
 
-**Note that the NTCore 4GB Patch is REQUIRED** if you are running the Full NAM Controller ("4GB Full" options in the installer), which is required to use the RealHighway (RHW) system. If the installation procedure is begun via NetworkAddonMod_Setup_Version45.bat, as is the new recommended procedure, the 4GB Patch should be automatically applied to the game. Otherwise, the patch can be found inside the download, or downloaded directly from NTCore [here](https://ntcore.com/?page_id=371), where further instructions on use of the patch can be found. Also due to this installer change, the NAM Controller Compiler is no longer run as part of the installation process. Users will have an option to install one of two pre-built NAM Controller options, the Full "4GB" option, which has a substantial size and requires the 4GB Patch and a 64-bit operating system, or a "Low RAM/No RHW" version that does not require the 4GB Patch, and does not include the code for the RealHighway (RHW) system, the most expansive fetaure in the mod. The "Low RAM/No RHW" version should be used by those with 32-bit operating systems (i.e. Windows XP), less than 4GB RAM, and/or by those not using the RHW.
+**Note that the NTCore 4GB Patch is REQUIRED** if you are running the Full NAM Controller ("4GB Full" options in the installer), which is required to use the RealHighway (RHW) system. If the installation procedure is begun via NetworkAddonMod_Setup_Version47.bat, as is the new recommended procedure, the 4GB Patch should be automatically applied to the game. Otherwise, the patch can be found inside the download, or downloaded directly from NTCore [here](https://ntcore.com/?page_id=371), where further instructions on use of the patch can be found. Also due to this installer change, the NAM Controller Compiler is no longer run as part of the installation process. Users will have an option to install one of two pre-built NAM Controller options, the Full "4GB" option, which has a substantial size and requires the 4GB Patch and a 64-bit operating system, or a "Low RAM/No RHW" version that does not require the 4GB Patch, and does not include the code for the RealHighway (RHW) system, the most expansive fetaure in the mod. The "Low RAM/No RHW" version should be used by those with 32-bit operating systems (i.e. Windows XP), less than 4GB RAM, and/or by those not using the RHW.
 
 Users wishing to simply use the NAM's Traffic Simulator improvements should install the NAMLite package, which offers easy setup of various minimal options.
 
@@ -120,7 +174,7 @@ The new installer also no longer performs a version check. **Please note, howeve
 
 ### Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass
 
-Aside from a brief period in 2014-2015, Origin and the EA App, the digital retail platforms run by Electronic Arts (EA), have been selling copies of SimCity 4 Deluxe featuring an unpatched and unpatchable version of the game's executable file to retail customers. As of the release of NAM 45, this is still the case. Unlike the retail versions sold by GOG.com and Steam (and previously Amazon's "Thin Game Download" version), which come prepatched to Version 1.1.641, the edition sold on the Origin Store and the EA App (also used by the EA Play subscription service), features a Version 1.1.610 executable, mixed with Version 1.1.641 versions of the SimCity_1-5.dat files. By virtue of switching out the original SafeDisc copy protection for their own DRM, EA/Origin altered the checksum of the game's executable, thereby preventing EA's own EP1 Update 1 (Version 1.1.638) and BAT Nightlighting/EP1 Update 2 (Version 1.1.640) patchers from properly updating the executable. It also appears to be more difficult to apply the 4GB Patch with the EA App version, which is needed in order to run a full NAM installation.
+Aside from a brief period in 2014-2015, Origin and the EA App, the digital retail platforms run by Electronic Arts (EA), have been selling copies of SimCity 4 Deluxe featuring an unpatched and unpatchable version of the game's executable file to retail customers. As of the release of NAM 47, this is still the case. Unlike the retail versions sold by GOG.com and Steam (and previously Amazon's "Thin Game Download" version), which come prepatched to Version 1.1.641, the edition sold on the Origin Store and the EA App (also used by the EA Play subscription service), features a Version 1.1.610 executable, mixed with Version 1.1.641 versions of the SimCity_1-5.dat files. By virtue of switching out the original SafeDisc copy protection for their own DRM, EA/Origin altered the checksum of the game's executable, thereby preventing EA's own EP1 Update 1 (Version 1.1.638) and BAT Nightlighting/EP1 Update 2 (Version 1.1.640) patchers from properly updating the executable. It also appears to be more difficult to apply the 4GB Patch with the EA App version, which is needed in order to run a full NAM installation.
 
 This not only fails to meet the NAM's minimum requirements, but leaves EA App/Origin retail copies with many stability issues developers fixed in 2003, and without working nightlighting on any custom buildings. It also prevents first-party content creation tools like the Building Architect Tool (BAT) from being installed, which look for a properly-patched executable. Note that this is in spite of the curious fact that EA uses images of the NAM and other pieces of custom content to advertise SimCity 4, both on EA.com and in the EA App.
 
@@ -153,15 +207,15 @@ The NAM Team is not familiar enough with the App Store version to give reliable 
 
 ## Preparing to Install The NAM
 
-When one initially extracts the NAM package from the .zip after downloading and opens it, there will be several items present, besides the document you are now reading: several files with different extensions, named "NetworkAddonMod_Setup_Version45" and "NetworkAddonMod_Lite_Setup_Version1", all of which are part of the installation process (depending on your operating system), _4gb_patch.exe_ is the NTCore 4GB Patch, the _Controller Compiler_ folder contains the NAM Controller Compiler, and the Documentation is loose in the folder (and in the "feature-guides", "images", and "old" folders). Note that the Traffic Simulator Configuration Tool (TSCT) has been discontinued, due to the changes in the Traffic Simulator this release.
+When one initially extracts the NAM package from the .zip after downloading and opens it, there will be several items present, besides the document you are now reading: several files with different extensions, named "NetworkAddonMod_Setup_Version47" and "NetworkAddonMod_Lite_Setup_Version1", all of which are part of the installation process (depending on your operating system), _4gb_patch.exe_ is the NTCore 4GB Patch, the _Controller Compiler_ folder contains the NAM Controller Compiler, and the Documentation is loose in the folder (and in the "feature-guides", "images", and "old" folders). Note that the Traffic Simulator Configuration Tool (TSCT) has been discontinued, due to the changes in the Traffic Simulator this release.
 
 Before beginning installation, regardless of operating system, **remove your existing NAM installation**, which will be located in the "Network Addon Mod" folder (and if installed pre-2020, may also include a "z___NAM" folder) inside your main Plugins directory. The Cleanup/Cleanitol tab in the installer is not presently set up to remove a full NAM installation, and cannot be relied upon to do so for you.
 
 To begin installation, follow the directions for your operating system:
 
-* On Windows, open **NetworkAddonMod_Setup_Version45.bat** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version1.bat** for NAMLite.
-* On Mac, open **NetworkAddonMod_Setup_Version45.jar** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version1.jar** for NAMLite.
-* On Linux, open **NetworkAddonMod_Setup_Version45.sh** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version1.sh** for NAMLite.
+* On Windows, open **NetworkAddonMod_Setup_Version47.bat** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version3.bat** for NAMLite.
+* On Mac, open **NetworkAddonMod_Setup_Version47.jar** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version3.jar** for NAMLite.
+* On Linux, open **NetworkAddonMod_Setup_Version47.sh** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version3.sh** for NAMLite.
 
 **Simply dumping the files into your Plugins folder WILL NOT install the NAM--you will get no new menu buttons, and will just slow down the game. The installer MUST be run, or the [manual installation procedure](#manual-installation---advanced) must be followed.** If you are on Windows, it is recommended that you If User Access Control (UAC) is enabled on your system, Windows may ask you to approve running the file with a simple "Yes"/"No" prompt. Click "Yes" to allow the installer to run.
 
@@ -189,7 +243,7 @@ Due to changes in computer systems, and continued expansions of the NAM's main C
 
 The only thing this patch does is to switch the Large Address Aware switch, an accessible switch present in all Windows executables, from "off" to "on" for the game's executable. Patches like this are common in game modding communities, including those associated with The Elder Scrolls series (i.e. Skyrim), and Fallout, and can be used to enhance any 32-bit application's performance on systems with 64-bit operating systems and a suitable amount of RAM.
 
-The new installation starting point for Windows users-- **NetworkAddonMod_Setup_Version45.bat**--should ensure that your game is automatically patched as needed.
+The new installation starting point for Windows users-- **NetworkAddonMod_Setup_Version47.bat**--should ensure that your game is automatically patched as needed.
 
 Note that the 4GB Patch is **NOT required for users on macOS**, as that version of the game is 64-bit and can access more RAM than the Windows version (even with the 4GB Patch!) by default.
 
@@ -198,13 +252,9 @@ The default directory for where SimCity 4.exe may be located depends on how and 
 * **GOG.com**: C:\GOG Games\SimCity 4 Deluxe Edition\Apps
 * **Steam**: C:\Program Files (x86)\Steam\steamapps\common\SimCity 4 Deluxe\Apps
 * **Original Disc**: C:\Program Files (x86)\Maxis\SimCity 4 Deluxe\Apps
-* **Origin***: C:\Program Files (x86)\Maxis\SimCity 4 Deluxe\Apps
+* **Origin/EA App***: C:\Program Files (x86)\Maxis\SimCity 4 Deluxe\Apps
 
-*Note that only Origin copies acquired through Free CD Key Redemption (Version 1.1.641) are compatible with the NAM. Copies purchased through the Origin Store or accessed via Origin Access (Version 1.1.610) ARE NOT COMPATIBLE. See [here](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass) for more details.
-
-#### Running the Controller Compiler
-
-If you are an advanced user, and would like to trim down your installation of the NAM, it is still possible to run the NAM Controller Compiler (a cross-platform application) after installing the NAM. Extract/open the _"Controller Compiler"_ folder, and double-click the file _"NAMControllerCompiler.jar"_. Select the 'input' folder _"Network Addon Mod/Controller/"_ from the current "Controller Compiler" directory, and the 'output' folder `~/Documents/SimCity 4/Plugins/Network Addon Mod/` inside your plugins. For the rest, follow the instructions of the compiler.
+*Note that only Origin copies acquired through Free CD Key Redemption (Version 1.1.641) are compatible with the NAM. Copies purchased through the Origin Store, the EA App or accessed via EA Play (Version 1.1.610) ARE NOT COMPATIBLE. See [here](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass) for more details.
 
 #### Regarding "DatPacking" and File Consolidation Post-Installation
 
@@ -228,7 +278,7 @@ To that end, we encourage users to keep the installer for the current version ha
 
 Users who are unable or unwilling to install Java can perform a manual installation of the NAM, something which the new file architecture introduced in 2020 makes far more possible than the previous "Monolithic" releases.
 
-This method requires a file decompression tool capable of opening .jar files, such as [7-zip](https://www.7-zip.org) (Windows) or [Keka](https://www.keka.io/en/) (macOS). To begin, open NetworkAddonMod_Setup_Version45.jar using your file decompression tool.
+This method requires a file decompression tool capable of opening .jar files, such as [7-zip](https://www.7-zip.org) (Windows) or [Keka](https://www.keka.io/en/) (macOS). To begin, open NetworkAddonMod_Setup_Version47.jar using your file decompression tool.
 
 The NAM's contents are located in the "installation" subfolder. The current installer uses a series of character flags at the start of directory names, in order to instruct the installer how to order the options, whether they're mandatory or optional, etc.
 
@@ -282,13 +332,14 @@ Users wishing to hold onto old versions should back them up in their personal ar
 
 The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the SC4 Devotion Discord have, for whatever particular reason, been specifically included here for their special contributions during the NAM's history. Very special thanks goes towards them in the making, supplying, &/or supporting of this mod &/or its contents possible in one way shape or another:
 
-**The NAM Team and Associates (Active Members as of NAM 45)**
+**The NAM Team and Associates (Active Members as of NAM 47)**
 
 * Bipin
 * bladeberkman
 * b22rian
 * CaptCity
 * compdude787
+* DebussyMan
 * Durfsurn
 * eggman121
 * Eric Blair
@@ -374,6 +425,11 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 
 * memo
 
+**NAM Partner Program Members**
+* FoxieHikari
+* robmtl (Rob's Red Hot Spot)
+* saus tartar
+
 **Contributors & Testers**
 
 * 3ddz
@@ -431,6 +487,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 * jondor
 * jplumbley
 * Karybdis
+* kes5219
 * Khiyana
 * manchou
 * MandelSoft
@@ -493,6 +550,6 @@ All (other) members of original Simtropolis Modd Squad, especially the Modd Squa
 
 And possibly others who may not have been mentioned. If your name has been forgotten or you're not on the list, then drop us a line, as it has been difficult to keep track of anyone/everyone that may of helped somewhere along the lines.
 
-And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **18 years** thanks to you!
+And to the community itself, we would also like to thank you for your support, making mods such as this possible too. We're still at it after **19 years** thanks to you!
 
-And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did. ;-)
+And last but not least, a thanks for the Maxis individuals too, for the [paid] work that they did, 20 years ago. Here's to 20 more. ;-)
