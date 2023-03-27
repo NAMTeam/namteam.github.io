@@ -11,13 +11,14 @@ images: []
 
 The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the SC4 Devotion Discord have, for whatever particular reason, been specifically included here for their special contributions during the NAM's history. Very special thanks goes towards them in the making, supplying, &/or supporting of this mod &/or its contents possible in one way shape or another:
 
-**The NAM Team and Associates (Active Members as of NAM 45)**
+**The NAM Team and Associates (Active Members as of NAM 47)**
 
 -   Bipin
 -   bladeberkman
 -   b22rian
 -   CaptCity
 -   compdude787
+-   DebussyMan
 -   Durfsurn
 -   eggman121
 -   Eric Blair
@@ -50,7 +51,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 -   TheCouncill0r/dicko6
 -   TheMurderousCricket
 -   Tyberius06
--   ulisse
+-   Ulisse Wolf
 -   z
 
 **NAM Founders**
@@ -111,6 +112,12 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 
 -   memo
 
+**NAM Partner Program Members**
+
+-   FoxieHikari
+-   robmtl (Rob's Red Hot Spot)
+-   saus tartar
+
 **Contributors & Testers**
 
 -   3ddz
@@ -168,6 +175,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 -   jondor
 -   jplumbley
 -   Karybdis
+-	kes5219
 -   Khiyana
 -   manchou
 -   MandelSoft

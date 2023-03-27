@@ -372,7 +372,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 * TheCouncill0r/dicko6
 * TheMurderousCricket
 * Tyberius06
-* ulisse
+* Ulisse Wolf
 * z
 
 **NAM Founders**
