@@ -115,17 +115,17 @@ Note that these figures also apply to all elevated versions of each network widt
 {{< table class="table table-striped table-bordered w-auto" >}}
 | RHW Network Type | Classic | Low | Medium | High | Ultra |
 | --- | :---: | :---: | :---: | :---: | :---: |
-| RHW-2 (single-tile capacity) | 2700 | 6000 | 10000 | 15000 | 30000 |
-| RHW-3 (single-tile capacity) | 3375 | 7500 | 12500 | 18750 | 37500 |
-| MIS Ramps (single-tile capacity) | 2700 | 6000 | 10000 | 15000 | 30000 |
-| RHW-4 (dual-tile capacity) | 5400 | 12000 | 20000 | 30000 | 60000 |
-| DDRHW-4 (single-tile capacity) | 3375 | 7500 | 12500 | 18750 | 37500 |
-| RHW-6S (dual-tile capacity) | 6750 | 15000 | 25000 | 37500 | 75000 |
-| RHW-6C (triple-tile capacity) | 10125 | 22500 | 37500 | 56250 | 112500 |
-| RHW-8S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
-| RHW-8C (triple-tile capacity) | 10125 | 22500 | 37500 | 56250 | 112500 |
-| RHW-10S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
-| RHW-12S (quadruple-tile capacity) | 13500 | 30000 | 50000 | 75000 | 150000 |
+| RHW-2 (single-tile capacity) | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-3 (single-tile capacity) | 3750 | 7500 | 12500 | 18750 | 37500 |
+| MIS Ramps (single-tile capacity) | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-4 (dual-tile capacity) | 6000 | 12000 | 20000 | 30000 | 60000 |
+| DDRHW-4 (single-tile capacity) | 3750 | 7500 | 12500 | 18750 | 37500 |
+| RHW-6S (dual-tile capacity) | 7500 | 15000 | 25000 | 37500 | 75000 |
+| RHW-6C (triple-tile capacity) | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-8S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-8C (triple-tile capacity) | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-10S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-12S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
 {{< /table >}}
 
 The catalog speeds for the base RealHighway network are listed below. Note, however, that these catalog speeds are for 100% of catalog capacity, and that speeds on empty networks will exceed these figures by 30%, declining as the networks increase in volume per the Congestion vs. Speed Curve.
