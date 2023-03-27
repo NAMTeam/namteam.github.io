@@ -10,7 +10,7 @@ images: []
 
 {{< docstatus status="workinprogress" >}}
 
-The Canal Addon Mod, or CAN-AM, is a NAM feature designed in cooperation with the BSC (BATT Squad Certification) group, adding functional canals to the game.  While it is technically functional without any additional files, it is designed to work with either of the following (which are necessary for the canals to have walls):
+While CAN-AM is technically functional without any additional files, it is designed to work with either of the following (which are necessary for the canals to have walls):
 * [CAL SG Canals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=979) by **callagrafx** (recommended) OR
 * The original [SG Canals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=887) by **SimGoober**
 
