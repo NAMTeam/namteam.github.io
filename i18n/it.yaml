@@ -15,3 +15,6 @@
 
 - id: browse
   translation: "Sfogliare"
+
+- id: options
+  translation: "Opzioni"
