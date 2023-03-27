@@ -6,6 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/tech-specs/network-widening-mod"
 ---
 
 {{< feature-guide link="/docs/feature-guides/network-widening-mod" mod="Network Widening Mod feature guide" >}}

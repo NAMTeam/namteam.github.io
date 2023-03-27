@@ -16,11 +16,12 @@
 - id: browse
   translation: "Browse"
 
+# Reading options menu
 - id: options
   translation: "Options"
 
 - id: font-selection
-  translation: ""
+  translation: "Font selection"
 
 - id: sans-serif
   translation: "Sans serif"
@@ -36,3 +37,21 @@
 
 - id: line-spacing
   translation: ""
+
+# Deprecated shortcode translation
+- id: deprecated-label
+  translation: "DEPRECATED"
+
+- id: deprecated-tooltip
+  translation: "This item is kept for compatibility purposes only. No further development will occur on this item."
+
+# Legacy shortcode translation
+- id: legacy-label
+  translation: "LEGACY"
+
+- id: legacy-tooltip
+  translation: "This item has not been updated in some time. Active development on this item is likely to resume in the future."
+
+# Gallery shortcode translation
+- id: gallery-new-tab
+  translation: "Open image in new tab"

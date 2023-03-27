@@ -7,6 +7,7 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 2
 draft: false
 images: []
+url: "docs/reference/installation-notes"
 ---
 
 **Nota per gli utenti di EA App/Origin**: La versione EA App (e Origin) di SimCity 4 Deluxe, utilizzata anche dai servizi di abbonamento EA Play e Xbox Game Pass, contiene la versione 1.1.610 del gioco. Il Network Addon Mod ha un requisito minimo di versione 1.1.638, così come l'importante mod SC4Fix.dll. Gli edifici personalizzati realizzati tramite il Building Architect Tool (BAT) ufficiale di EA richiedono la versione 1.1.640 per poter mostrare l'illuminazione notturna. A causa di modifiche al checksum della versione dell'app EA, questa è bloccata in modo permanente alla versione 1.1.610 e non può essere aggiornata con la versione 1.1.638 o 1.1.640. Pertanto, non è compatibile con il Network Addon Mod. Per ulteriori dettagli, vedere [qui] (#avviso agli utenti che hanno acquistato una copia digitale dall'origine o che usano EA-Play o Xbox Game Pass).

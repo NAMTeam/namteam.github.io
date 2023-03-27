@@ -1,4 +1,12 @@
 
+{{ if eq $.Site.Language.Lang "en" -}}
 <div class="alert border border-info border-5">
-    <p class="lead fw-bold my-0">Refer to the <a href='{{ .Get "link" | default "/docs/feature-guide" }}'>{{ .Get "mod" | default "NAM feature guide" }}</a> to understand how to use these components.</p>
+    <p class="lead fw-bold my-0">Refer to the <a href='{{ .Get "link" | default "docs/feature-guide" }}'>{{ .Get "mod" | default "NAM feature guide" }}</a> to understand how to use these components.</p>
 </div>
+{{ end -}}
+
+{{ if eq $.Site.Language.Lang "it" -}}
+<div class="alert border border-info border-5">
+    <p class="lead fw-bold my-0">Refer to the <a href='{{ .Get "link" | default "docs/feature-guide" }}'>{{ .Get "mod" | default "NAM feature guide" }}</a> to understand how to use these components.</p>
+</div>
+{{ end -}}

@@ -7,6 +7,7 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 3
 draft: false
 images: []
+url: "docs/reference/in-game-basics"
 ---
 
 

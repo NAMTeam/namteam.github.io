@@ -6,6 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/hybrid-railway"
 ---
 
 The **Hybrid Railway**, or HRW is an intermediate FLEX based network that provides for both heavy and High Speed (Monorail) traffic. Specifications of the HRW include catenaries, textures that are the same as the RRW, as well as including some purpose-built textures for specific pieces.

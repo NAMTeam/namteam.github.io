@@ -6,6 +6,7 @@ date: 1970-01-01T10:09:26+00:00
 lastmod: 1970-01-01T10:09:26+00:00
 draft: false
 images: []
+url: "docs/tech-specs/understanding-rul-flags"
 ---
 
 I file RUL controllano il posizionamento degli elementi di rete nel gioco. Un esempio di elemento di rete è la strada che si trascina. I flag RUL si riferiscono a una combinazione specifica di valori esadecimali che indicano a ciascuna tessera di rete cosa fare.

@@ -7,6 +7,7 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 6
 draft: false
 images: []
+url: "docs/reference/glossary"
 ---
 
 -   **NAM**: Network Addon Mod. The Network Addon Mod is an extensive mod for SimCity 4 Deluxe/Rush Hour, which encompasses virtually all community-developed transport network content (excluding most third-party stations, cosmetic mods and Lot-based items).

@@ -78,6 +78,8 @@ Using the above example, you can see that a German language version of `index.md
 
 Please note that if you need to add a new language to the list, you will also need to edit `/config/_default/languages.toml` (pay attention to indentation!). 2 letter ISO codes are used, for a list you can [refer to this document](https://www.iban.com/country-codes). Use the lower-case versions otherwise our documentation engine freaks out.
 
+When you add content in other languages, note that you do not need to update the links to point to the language-specific version of the documentation - the documentation engine will sort this out for you.
+
 ### Convenience Functions
 
 #### Section Headings
@@ -97,6 +99,8 @@ This is extremely useful if you need to link from legacy documentation.
 ### Short codes
 
 There are a handful of Hugo shortcodes that can be used to make developing documentation easier. Take a look in `~/layouts/shortcodes` to see a full list of them.
+
+Shortcodes are written in the `{{< SHORTCODE >}}` syntax. However there may be some cases where you need to use a particular shortcode inside an automatically-generated heading. For these, you will need to use the `{{% SHORTCODE %}}` syntax.
 
 #### Alert
 
@@ -146,6 +150,9 @@ The following statuses are supported:
 * `outdated` - Documentation is outdated. Optionally you can add `version="VERSION"` to the shortcode to state what version of the NAM the documentation refers to.
 * `oldcontent` - Warns that the documentation refers to older content but is still useful for reference with the current NAM version.
 * `compatibility` - EA App/Origin compatibility warning. Refers to the current issue with the NAM not being able to run on EA App/Origin copies of SimCity 4.
+* `legacy` - States that the particular NAM component has not been worked on in some time but development will likely resume in the future.
+* `obsolete` - States that no further development will occur on this component, but it is retained for compatibility reasons.
+* `untranslated` - Documentation has not been translated into your native language yet. This will gradually disappear as more efforts are put into translation for various locales.
 
 #### Simple image
 
@@ -248,6 +255,7 @@ MARKDOWN_TABLE
 * h3ndofry
 * jflann
 * memo33
+* Tarkus
 * ulisse99
 
 ### Developers

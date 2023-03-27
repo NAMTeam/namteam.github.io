@@ -1,14 +1,15 @@
 ---
-title : "Network Widening Mod"
+title : "Street Addon Mod"
 description: "Technical specifications for the Street Addon Mod are located here. This page shows values and attributes that are useful for end users and developers alike."
 lead: "Technical specifications for the Street Addon Mod are located here. This page shows values, attributes and level of compatibility with other components of the NAM that are useful for end users and developers alike."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/tech-specs/street-addon-mod"
 ---
 
-{{< feature-guide link="/docs/feature-guides/street-addon-mod" mod="Street Addon Mod feature guide" >}}
+{{< feature-guide link="docs/feature-guides/street-addon-mod" mod="Street Addon Mod feature guide" >}}
 
 {{< docstatus status="workinprogress" >}}
 

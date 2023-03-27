@@ -7,6 +7,7 @@ lastmod: 2023-03-16T08:09:00+00:00
 draft: false
 images: []
 weight: 7
+url: "docs/reference/nam-version-history"
 ---
 
 # Agile Releases (2020 and later)

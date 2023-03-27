@@ -6,6 +6,7 @@ date: 1970-01-01T10:09:26+00:00
 lastmod: 1970-01-01T10:09:26+00:00
 draft: false
 images: []
+url: "docs/tech-specs/understanding-rul-flags"
 ---
 
 RUL files control the placement of network items in the game. An example of a network item is the road you drag out. RUL flags refer to a specific combination of hexadecimal values that tell each network tile what to do.

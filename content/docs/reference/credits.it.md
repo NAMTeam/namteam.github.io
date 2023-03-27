@@ -8,6 +8,7 @@ weight: 9
 draft: false
 toc: false
 images: []
+url: "docs/reference/credits"
 ---
 
 **Il team NAM e gli associati (membri attivi a partire dal NAM 44)**

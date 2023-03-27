@@ -7,7 +7,10 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/light-rail-tram"
 ---
+
+{{< docstatus status="legacy" >}}
 
 The NAM's feature additions to this area of the transportation system include numerous Dual-Networking options, allowing for Light Rail and Tram service to be placed in the median of, or over top of, various surface street networks, including Roads, Avenues, and Streets.
 
@@ -168,7 +171,7 @@ The Over-Avenue and Over-RD-4 options, however, exist primarily as FLEX Pieces, 
     images/elr-over-ave-int-3.jpg
 {{< /gallery >}}
 
-###  High Elevated (Light) Rail Pseudo-Network (Puzzle Piece-Based) {{< legacy >}}
+###  High Elevated (Light) Rail Pseudo-Network (Puzzle Piece-Based) {{% legacy %}} {#high-elevated-rail}
 
 In addition to support for Light Rail/Tram at the ground level, there is limited "legacy" support for High Elevated (Light) Rail (30.5-meter height, a fraction above the NAM's "Level 4" (L4, 30 meters) standard), via puzzle pieces. This system is limited, but does provide an additional height level (note that full draggable support for another height level of Elevated (Light) Rail has been discussed for a future NAM release, though which height is yet to be determined, and there is no timeline for when this addition may occur).
 

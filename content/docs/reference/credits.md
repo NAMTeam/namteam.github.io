@@ -7,6 +7,7 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 9
 draft: false
 images: []
+url: "docs/reference/credits"
 ---
 
 The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the SC4 Devotion Discord have, for whatever particular reason, been specifically included here for their special contributions during the NAM's history. Very special thanks goes towards them in the making, supplying, &/or supporting of this mod &/or its contents possible in one way shape or another:

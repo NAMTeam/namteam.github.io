@@ -6,9 +6,10 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/high-speed-rail"
 ---
 
-{{< legacy >}}
+{{< docstatus status="legacy" >}}
 
 In the early years of SC4, new technology was found by smoncrie which allowed us to use a single puzzle piece to create a starter for a new set of textures or models for the same network, there are already a few mods that take advantage of this technology, namely draggable GLR, SAM, and RHW. At the moment, there are two new model variations included in this mod, High Speed Rail (HSR, elevated) and Ground High Speed Rail (GHSR).
 
@@ -173,7 +174,7 @@ This button includes the base starter piece for the (elevated) High Speed Rail o
 * Placing under/overcrossings too close to curves will cause reversion to Monorail and other strange behavior. This is due to the wider radii of the default HSR curves.
 * HSR Pieces button TAB Loop may not rotate fully back to starter pieces. If this occurs, simply re-select the button.
 
-## Information on Support and Development Updates {{< legacy >}}
+## Information on Support and Development Updates {{% legacy %}}
 
 For technical support and information about the High Speed Rail Project in future releases, please check out the official High Speed Rail Project (HSRP) thread on the forums at [SimCity 4 Devotion](http://sc4devotion.com/forums/index.php?topic=2089.0).
 

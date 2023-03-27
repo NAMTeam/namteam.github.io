@@ -6,9 +6,10 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/tech-specs/hybrid-railway"
 ---
 
-{{< feature-guide link="/docs/feature-guides/hybrid-railway" mod="Hybrid Railway feature guide" >}}
+{{< feature-guide link="docs/feature-guides/hybrid-railway" mod="Hybrid Railway feature guide" >}}
 
 ## Capacità della rete e del pezzo FLEX
 

@@ -2,7 +2,7 @@
 
 {{ if eq $.Site.Language.Lang "en" -}}
 {{ if eq $status "outdated" -}}
-<div class="alert text-danger border border-danger border-5 d-flex" role="alert">
+<div class="alert border border-danger border-5 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">The documentation on this page is out of date.</span><br/>
     <span class="fs-6">This documentation was last updated with <strong>{{ .Get "version" | default "an old version of the NAM" }}</strong>. It is in the process of being rewritten.</span>
@@ -28,6 +28,20 @@
   <div class="w-100 text-center">
     <span class="h4 fw-bold">The documentation on this page is in progress.</span><br/>
     <span class="fs-6">The contents of this document are undergoing revision and are subject to change.</span>
+  </div>
+</div>
+{{ else if eq $status "legacy" -}}
+<div class="alert border border-success border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Legacy Content</span><br/>
+    <span class="fs-6">This component of the Network Addon Mod has not been updated in some time. Active development is likely to resume in the future.</span>
+  </div>
+</div>
+{{ else if eq $status "obsolete" -}}
+<div class="alert border border-danger border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Obsolete Content</span><br/>
+    <span class="fs-6">This component of the Network Addon Mod has been superseded by more modern content and therefore no further development will be completed. This component is kept for compatibility purposes only.</span>
   </div>
 </div>
 {{ else }}
@@ -67,6 +81,27 @@
   <div class="w-100 text-center">
     <span class="h4 fw-bold">ITALIAN: The documentation on this page is in progress.</span><br/>
     <span class="fs-6">The contents of this document are undergoing revision and are subject to change.</span>
+  </div>
+</div>
+{{ else if eq $status "legacy" -}}
+<div class="alert border border-success border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Legacy Content</span><br/>
+    <span class="fs-6">This component of the Network Addon Mod has not been updated in some time. Active development is likely to resume in the future.</span>
+  </div>
+</div>
+{{ else if eq $status "obsolete" -}}
+<div class="alert border border-danger border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Obsolete Content</span><br/>
+    <span class="fs-6">This component of the Network Addon Mod has been superseded by more modern content and therefore no further development will be completed. This component is kept for compatibility purposes only.</span>
+  </div>
+</div>
+{{ else if eq $status "untranslated" -}}
+<div class="alert border border-success border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Untranslated Content</span><br/>
+    <span class="fs-6">This documentation has not yet been translated into your language.</span>
   </div>
 </div>
 {{ else }}

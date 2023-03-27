@@ -6,6 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/street-addon-mod"
 ---
 
 These variants also support (as appropriate) many of the same features as the base Street network, including support for the NAM's Diagonal Streets Plugin and Wide-Radius and Multi-Radius Curves.

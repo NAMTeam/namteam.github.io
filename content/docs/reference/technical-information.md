@@ -7,6 +7,7 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 8
 draft: false
 images: []
+url: "docs/reference/technical-information"
 ---
 
 {{< docstatus status="outdated" >}}

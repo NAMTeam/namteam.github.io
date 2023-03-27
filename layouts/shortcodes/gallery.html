@@ -9,7 +9,7 @@
         {{ $image := $.Page.Resources.GetMatch (printf "*%s*" (trim $v "\r\n ")) -}}
         {{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
         <div class="col mx-auto text-center">
-            {{ if $clickable }}<a href="{{ $image.Permalink }}" target="_blank" class="img-clickable position-relative d-block"><span class="badge rounded-pill text-bg-primary border border-primary text-uppercase d-flex align-items-center">Open image in new tab</span>{{ end -}}
+            {{ if $clickable }}<a href="{{ $image.Permalink }}" target="_blank" class="img-clickable position-relative d-block"><span class="badge rounded-pill text-bg-primary border border-primary text-uppercase d-flex align-items-center">{{ i18n "gallery-new-tab" }}</span>{{ end -}}
             <img class="my-0 img-simple img-fluid lazyload blur-up{{ with $.Get "class" }} {{.}}{{ end }}" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
             {{ if $clickable }}</a>{{ end -}}
         </div>

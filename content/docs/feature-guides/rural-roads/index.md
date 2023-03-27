@@ -6,6 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+url: "docs/feature-guides/rural-roads"
 ---
 
 These puzzle pieces function in the same way as draggable roads - they can have development next to them, are fully pathed and support UDI missions. They simply provide an alternative appearance to "the road less travelled." Also included, pending later release integrated into the Street Addon Mod (SAM) are SAM Set 3 (dirt), Set 4 (gravel) and Set 7 (asphalt) wide radius curves. These puzzle pieces function, for each SAM set, in the same way as the wide radius curves integrated into the NAM do for the game roads.
