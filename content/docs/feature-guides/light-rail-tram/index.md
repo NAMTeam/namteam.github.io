@@ -9,7 +9,7 @@ draft: false
 images: []
 ---
 
-The **Light Rail** or **Tram** system in the NAM offers extensive to the game's Elevated Rail (or Light Rail) tool, which is designed primarily to provide urban and suburban passenger transit service, along the lines of real-life light rail, tram, and streetcar systems.  The NAM's feature additions to this area of the transportation system include numerous Dual-Networking options, allowing for Light Rail and Tram service to be placed in the median of, or over top of, various surface street networks, including Roads, Avenues, and Streets.
+The NAM's feature additions to this area of the transportation system include numerous Dual-Networking options, allowing for Light Rail and Tram service to be placed in the median of, or over top of, various surface street networks, including Roads, Avenues, and Streets.
 
 {{< gallery col-xl="2">}}
     images/tramteaser1.jpg
