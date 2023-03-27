@@ -30,7 +30,7 @@ weight: 7
     - Support for FlexSPUI is presently limited, and Three-Level Crossings are not yet supported.
   - **RHW X3 Ramps**: The first two FLEX 3-lane ramps, in A3 and D3 configurations, have been provided for RHW-8S, 10S and 12S. At present, only L0 support is available.
   - **General Improvements**
-    - Some enhancements, courtesy of **memo99**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
+    - Some enhancements, courtesy of **memo**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
     - Some enhancements, courtesy of **Flann**, to elevated RHW network models have been added.
 * **Bridges**:
   - A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**:
