@@ -18,13 +18,13 @@ images: []
 {{< /gallery >}}
 
 ## Installing the RealHighways from the NAM Installer
-A mostly complete install (missing the upper elevated heights) of the RealHighway plugin is one of the features included by default if one selects the "_Complete Standard Installation_" or "_Networks and Traffic Simulator_" options in the NAM Installer. In Custom Installation, there is a whole section dedicated to the RealHighways and related optional features.
+A  complete install of the RealHighway plugin is one of the features included by default in the NAM Installer. There is a whole section dedicated to the RealHighways and related optional features.
 
-In Custom Installation, under the "_2 Additional Network Features_" section, selecting the "_RealHighway_" box will install the mod in its entirety. Deselecting any of the other boxes under this section should only be done by advanced users who are manually compiling a NAM Controller to exclude certain RHW networks.
+Under the "_2 Additional Network Features_" section, selecting the "_RealHighway_" box will install the mod in its entirety. Deselecting any of the other boxes under this section should only be done by advanced users who are manually compiling a NAM Controller to exclude certain RHW networks.
 
 Note that the RHW **requires a 4GB_Full NAM Controller, and as such, also requires the 4GB Patch**. It is the largest component in the NAM package by a wide margin, and requires a 64-bit operating system and at least 4GB RAM to utilize.
 
-Euro textures for the RealHighways will be automatically installed if one selects one of the Euro road texture options. (Note that MandelSoft's older Euro texture options have been discontinued, as they are no longer being maintained.)
+Euro textures for the RealHighways will be automatically installed if one selects one of the Euro road texture options.
 
 ## RealHighway Base and Override Networks
 
