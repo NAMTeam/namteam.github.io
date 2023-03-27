@@ -18,3 +18,21 @@
 
 - id: options
   translation: "Opzioni"
+
+- id: font-selection
+  translation: "Font selection"
+
+- id: sans-serif
+  translation: "Sans serif"
+
+- id: serif
+  translation: "Serif"
+
+- id: monospaced
+  translation: "Monospaced"
+
+- id: font-size
+  translation: ""
+
+- id: line-spacing
+  translation: ""

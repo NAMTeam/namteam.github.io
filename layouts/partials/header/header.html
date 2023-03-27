@@ -160,10 +160,10 @@
               <button class="dropdown-item btn btn-doks-light col text-center" id="doks-line-smaller" aria-label="Reduce line spacing"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8Z"/></svg></button>
               <button class="dropdown-item btn btn-doks-light col text-center" id="doks-line-larger" aria-label="Increase line spacing"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/></svg></button>
             </div></li>              */}}
-            <li><h6 class="dropdown-header mt-0 text-uppercase">Font selection</h6></li>
-            <li><button class="dropdown-item doks-font-selector sans-serif" type="button" aria-label="Select sans-serif fonts" data-font-mode="default" data-bs-auto-close="inside">Sans serif</button></li>
-            <li><button class="dropdown-item doks-font-selector serif" type="button" aria-label="Select serif fonts" data-font-mode="serif">Serif</button></li>
-            <li><button class="dropdown-item doks-font-selector monospaced" type="button" aria-label="Select serif fonts" data-font-mode="monospace">Monospaced</button></li>
+            <li><h6 class="dropdown-header mt-0 text-uppercase">{{ i18n "font-selection" }}</h6></li>
+            <li><button class="dropdown-item doks-font-selector sans-serif" type="button" aria-label="Select sans-serif fonts" data-font-mode="default" data-bs-auto-close="inside">{{ i18n "sans-serif"}}</button></li>
+            <li><button class="dropdown-item doks-font-selector serif" type="button" aria-label="Select serif fonts" data-font-mode="serif">{{ i18n "serif" }}</button></li>
+            <li><button class="dropdown-item doks-font-selector monospaced" type="button" aria-label="Select serif fonts" data-font-mode="monospace">{{ i18n "monospaced" }}</button></li>
           </ul>
         </div>
         {{ end -}}
