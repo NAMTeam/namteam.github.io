@@ -17,12 +17,12 @@ Si noti che questa documentazione è ancora in fase di transizione e che alcuni 
 
 La versione più recente di questa documentazione è sempre disponibile all'indirizzo [https://www.sc4nam.com](https://www.sc4nam.com).
 
-**Celebrazione dei 20 anni di SimCity 4 (14 gennaio 2003 - 14 gennaio 2023)!
+**Celebrazione dei 20 anni di SimCity 4 (14 gennaio 2003 - 14 gennaio 2023)!**
 
 {{< docs >}}
 
-<h2>Disclaimer</h2>
+## Disclaimer
 Gli utenti scaricano, installano ed eseguono questa mod completamente ed esclusivamente a proprio rischio e pericolo. Electronic Arts (EA), i creatori e i singoli collaboratori non sono responsabili di eventuali errori, crash, problemi o qualsiasi altro problema che si verifichi dopo aver scaricato e applicato questo file mod al gioco. I giocatori devono inoltre aspettarsi che eventuali patch e/o pacchetti di espansione futuri e SimCityscape possano non funzionare correttamente con il gioco se si è scaricata e applicata questa mod al gioco. L'utilizzo di questo documento, delle informazioni in esso contenute e del Network Addon Mod è subordinato all'accettazione di questa clausola di esclusione della responsabilità e di tutto ciò che è contenuto in questo documento.
 
-<h2>Un grande ringraziamento</h2>
+## Un grande ringraziamento
 I ringraziamenti vanno innanzitutto agli amministratori dei siti di SC4, per aver creato e lavorato sui loro siti al fine di renderli una comunità di SimCity 4 vivace. Senza di loro, nulla di tutto questo sarebbe possibile. Un ringraziamento molto speciale va all'intera comunità di SC4 e a tutti i membri che hanno contribuito a questo Network Addon Mod nella sua forma attuale.
