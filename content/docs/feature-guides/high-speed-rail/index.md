@@ -98,8 +98,6 @@ The High Speed Rail Project supports several different types of bridges, for bot
 
 Being based on the Monorail network, HSR and GHSR do NOT support the construction of properly functioning tunnels. However, one can convert to the Subway network from HSR by using third-party lots, such as the [HSRP Subway Converters](http://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2040) by **ebina** and **3ddz**.
 
-## Network Capabilities
-
 ## Stations
 
 The NAM includes several stations for the HSR family of override networks, all of are Transit-Enabled Lots. In order to enable network passage through the network, simply drag the Monorail network through the station in the appropriate direction. All of these stations can be found under the Rails Menu.
