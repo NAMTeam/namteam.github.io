@@ -24,7 +24,7 @@ Innanzitutto, assicurarsi di aver estratto il contenuto di questo file .zip. **T
 
 **Per la versione completa**, utilizzare NetworkAddonMod_Setup_Version45.bat (Windows), NetworkAddonMod_Setup_Version45.jar (macOS, opzione alternativa su Windows se la patch da 4 GB è già stata installata) o NetworkAddonMod_Setup_Version45.sh (Linux).
 
-## Requisiti e compatibilità
+## Requisiti e compatibilità {#version-compatibility}
 
 I requisiti dipendono dal set di funzionalità che si sceglie di installare.
 
@@ -42,9 +42,9 @@ Inoltre, l'aggiunta di qualsiasi plugin al gioco avrà almeno un certo effetto s
 * B) Copie su disco per Windows di SimCity 4 Deluxe o SimCity 4 con il Rush Hour Expansion Pack, aggiornate almeno alla versione 1.1.638 (si noti che le copie su disco generalmente non funzionano su Windows 10).
 * C) Copie digitali per Windows di SimCity 4 Deluxe ottenute riscattando una chiave CD esistente (non acquistandola) tramite l'assistenza clienti Origin (versione 1.1.641).
 * D) Copie digitali per Mac di SimCity 4 Deluxe acquistate tramite Steam o App Store. (Nota: la disponibilità di supporto tecnico da parte del team NAM è limitata per gli utenti della versione Steam e _molto limitata_ per gli utenti della versione Store di macOS).
-* E) Copie su disco per Mac di SimCity 4 Deluxe, funzionanti su macOS/OS X versione 10.6 (Snow Leopard) o precedente Nota: la disponibilità di supporto tecnico da parte del team NAM è _molto limitata_ per gli utenti della versione su disco per Mac, e la capacità di eseguire opzioni di installazione complete da 4GB/RHW-inclusive è un'incognita).
+* E) Copie su disco per Mac di SimCity 4 Deluxe, funzionanti su macOS/OS X versione 10.6 (Snow Leopard) o precedente Nota: la disponibilità di supporto tecnico da parte del team NAM è _molto limitata_ per gli utenti della versione su disco per Mac, e la capacità di eseguire opzioni di installazione complete da 4GB/RHW-inclusive è un'incognita.
 
-**Il Network Addon Mod non è compatibile con le seguenti versioni del gioco
+**Il Network Addon Mod _NON_ è compatibile con le seguenti versioni del gioco:**
 
 * F) Copie su disco di SimCity 4 Deluxe o SimCity 4 con il Rush Hour Expansion Pack che non sono state patchate (versione 1.1.610 o 1.1.613).
 * G) Copie digitali di SimCity 4 Deluxe per Windows acquistate da Origin Store o dall'app EA (queste sono perma-unpatched alla versione 1.1.610).
@@ -52,25 +52,25 @@ Inoltre, l'aggiunta di qualsiasi plugin al gioco avrà almeno un certo effetto s
 * I) Copie su disco al dettaglio di SimCity 4 non Deluxe (a volte commercializzato in seguito come "SimCity 4 Classic"), senza il pacchetto di espansione Rush Hour (versione 1.0.272 o precedente).
 * J) Copie pirata o craccate di SimCity 4 Deluxe O SimCity 4 con il Rush Hour Expansion Pack.
 
-**Cosa devo fare se il NAM non supporta la mia copia del gioco?
+**Cosa devo fare se il NAM non supporta la mia copia del gioco?**
 
 Il nuovo installatore NAM (introdotto con la Release Candidate NAM 37) non esegue più un controllo della versione. Tuttavia, si raccomanda vivamente agli utenti di controllare la versione in uso, poiché le copie non aggiornate possono essere instabili. **La versione 1.1.610 e la versione 1.1.613 NON sono supportate.
 
 Nel caso F, la soluzione è semplicemente installare la patch EP1 Update 1, scaricabile da EA (SKU 1-5), SimCity 4 Devotion (SKU 1-5) o Simtropolis (solo SKU 1 e 2). Per determinare la versione SKU corretta per la propria copia di SimCity 4, individuare la directory di installazione e cercare nella sottocartella denominata _sku_data_. In alternativa, si possono semplicemente provare tutte le versioni SKU della patch, finché non ne funziona una.
 
-Per i casi G e H, consultate la [sezione su Origin](#avviso agli utenti che hanno acquistato una copia digitale da Origin o che usano un gioco per l'ita o un pass per l'Xbox) qui di seguito.
+Per i casi G e H, consultate la [sezione su Origin](#origin-ea-play-xbox-gamepass) qui di seguito.
 
 Per i casi D ed E, si noti ancora una volta che il team NAM ha poca esperienza con la versione Mac del gioco, essendo per lo più limitato alla versione Steam, e potrebbe essere molto limitato nella capacità di fornire supporto tecnico specifico per la piattaforma, anche per quanto riguarda il processo di installazione (che è più complesso nella versione App Store). Si veda la sezione relativa a macOS [qui](#mac).
 
 Per i casi G, H, I e J, si consiglia di acquistare una copia digitale di SimCity 4 Deluxe (NON da Origin).
 
-**Cosa succede se la mia copia del disco ha smesso di funzionare con Windows Vista, 7, 8, 8.1 o 10?
+**Cosa succede se la mia copia del disco ha smesso di funzionare con Windows Vista, 7, 8, 8.1 o 10?**
 
 Nel 2015, Microsoft ha deciso che secdrv.sys, il file driver utilizzato da SafeDisc e da altri sistemi di protezione della copia del disco presenti in molti giochi per PC dei primi anni 2000, costituiva una minaccia per la sicurezza. Di conseguenza, il driver non è stato incluso in Windows 10 e Microsoft ha rilasciato il Windows Update KB3086255, che disattiva secdrv.sys su Windows Vista, 7, 8 e 8.1. Nel caso delle versioni precedenti di Windows, secdrv.sys può essere riattivato quando necessario attraverso l'uso del prompt dei comandi o di un file batch.
 
 A parte il passo avanzato di firmare manualmente un driver di periferica per Windows 10, le uniche azioni possibili sono l'acquisto di una copia digitale del gioco, da un rivenditore che offra una copia del gioco con la versione 1.1.641 completamente pre-compilata (ad es. GOG o Steam), oppure rivolgersi all'assistenza clienti EA/Origin per riscattare la chiave CD e ottenere una copia digitale gratuita del gioco (a differenza delle copie acquistate tramite Origin Store, l'app EA o gli abbonamenti EA Play, le copie riscattate con la chiave CD sono completamente pre-patinate alla versione 1.1.641).
 
-Si noti che gli eseguibili craccati (ad esempio un .exe "No CD") non possono beneficiare del supporto tecnico. Il team NAM non sostiene la pirateria, ma comprende la frustrazione dovuta al blocco del sistema DRM originale del gioco da parte di Microsoft, che costringe ad acquistare una nuova copia digitale per poter continuare a giocare. Tuttavia, il motivo per cui gli eseguibili craccati non sono ammissibili è di natura più pratica, ovvero la possibilità di errori di versione (ad esempio un crack della versione 1.1.638 con file .DAT della versione 1.1.610/613, o viceversa), che possono complicare notevolmente gli sforzi del team per fornire un utile supporto tecnico agli utenti. I [Problemi di Origin] (#avviso agli utenti che hanno acquistato una copia digitale da Origin o che usano un gioco di Playa o di Xbox) hanno contribuito a mantenere il controllo della versione fino alla recente modifica del programma di installazione nel 2020.
+Si noti che gli eseguibili craccati (ad esempio un .exe "No CD") non possono beneficiare del supporto tecnico. Il team NAM non sostiene la pirateria, ma comprende la frustrazione dovuta al blocco del sistema DRM originale del gioco da parte di Microsoft, che costringe ad acquistare una nuova copia digitale per poter continuare a giocare. Tuttavia, il motivo per cui gli eseguibili craccati non sono ammissibili è di natura più pratica, ovvero la possibilità di errori di versione (ad esempio un crack della versione 1.1.638 con file .DAT della versione 1.1.610/613, o viceversa), che possono complicare notevolmente gli sforzi del team per fornire un utile supporto tecnico agli utenti. I [Problemi di Origin](#origin-ea-play-xbox-gamepass) hanno contribuito a mantenere il controllo della versione fino alla recente modifica del programma di installazione nel 2020.
 
 Si noti che se si tenta di utilizzare una versione di Windows più vecchia, a 32 bit (ad esempio Windows XP), per far funzionare il gioco su disco, questo ostacolerà notevolmente le prestazioni del gioco con la NAM completa installata; si consiglia vivamente di eseguire il gioco su un sistema operativo a 64 bit se si intende sfruttare l'intero set di funzionalità. Se si deve eseguire il gioco su un sistema operativo a 32 bit, è necessario installare il nuovo pacchetto NAMLite oppure, per un'installazione di medie dimensioni, selezionare una delle opzioni del controller NAM "LowRAM/NoRHW". (Il sistema RealHighway (RHW) è di gran lunga la parte più grande del NAM).
 
@@ -82,7 +82,7 @@ Gli utenti che desiderano utilizzare semplicemente i miglioramenti del simulator
 
 Il NAM utilizza un programma di installazione basato su Java, progettato da **daeley**, che è multipiattaforma (il che significa niente più versioni separate per Mac e supporto per Linux senza WINE). Per questo motivo, l'ambiente di runtime Java (JRE) è **RICHIESTO** per eseguire il programma di installazione di NAM. In precedenza era raccomandato per gli utenti che desideravano utilizzare lo strumento di configurazione del simulatore di traffico NAM (TSCT), che da allora è stato interrotto. Una copia a 64 bit di OpenJDK 11 per Windows è inclusa nel download (_OpenJDK11U-jre_x64_windows_hotspot_11.0.8_10.msi_). Altre distribuzioni open source di Java possono essere scaricate da [qui](https://adoptopenjdk.net/).
 
-Gli utenti che sono fondamentalmente contrari all'installazione di Java (o che non possono farlo per altri motivi) possono eseguire un'installazione manuale, con pazienza. I dettagli si trovano [qui] (#installazione-manuale---avanzata).
+Gli utenti che sono fondamentalmente contrari all'installazione di Java (o che non possono farlo per altri motivi) possono eseguire un'installazione manuale, con pazienza. I dettagli si trovano [qui](#installazione-manuale---avanzata).
 
 Con il nuovo programma di installazione, la vecchia installazione di NAM non viene più rimossa automaticamente**, quindi gli utenti devono rimuovere manualmente tutte le cartelle "a_Network Addon Mod Lite", "Network Addon Mod" e/o "z___NAM" dalla loro directory Plugins. Se si utilizza l'opzione "Pulizia" nella scheda "Configurazione", si raccomanda vivamente di selezionare l'opzione "Backup" al termine dell'operazione; "Elimina" eliminerà infatti tutti i file, rendendoli irrecuperabili. **Si consiglia di eseguire il backup di queste cartelle in una posizione diversa dalla cartella Plugins**. Attualmente, tutti i file sono installati nella cartella "Network Addon Mod" o, nel caso di un'installazione NAMLite, nella cartella "a_Network Addon Mod Lite".
 
@@ -92,7 +92,7 @@ Anche il progetto di localizzazione, aggiornamento e ricostruzione delle stazion
 
 Il nuovo programma di installazione non esegue più il controllo della versione. **Si prega di notare, tuttavia, che per gli utenti di Windows è ancora necessaria la versione 1.1.638 o superiore**, poiché le versioni 1.1.610 e 1.1.613 presentano notevoli instabilità che potrebbero avere un impatto negativo sull'uso di questa mod. Le copie acquistate su Origin Store, sull'App EA o accessibili tramite EA Play potrebbero non soddisfare questo requisito e il supporto non sarà offerto agli utenti con copie "non ufficiali" del gioco.
 
-## Avviso agli utenti che hanno acquistato una copia digitale da Origin o utilizzano EA Play o Xbox Game Pass
+## Avviso agli utenti che hanno acquistato una copia digitale da Origin o utilizzano EA Play o Xbox Game Pass {#origin-ea-play-xbox-gamepass}
 
 A parte un breve periodo nel 2014-2015, Origin e EA App, le piattaforme digitali di vendita al dettaglio gestite da Electronic Arts (EA), hanno venduto ai clienti al dettaglio copie di SimCity 4 Deluxe con una versione non patchata e non patchabile del file eseguibile del gioco. Al momento dell'uscita di NAM 45, questo è ancora il caso. A differenza delle versioni retail vendute da GOG.com e Steam (e in precedenza della versione "Thin Game Download" di Amazon), che vengono fornite con la versione 1.1.641, l'edizione venduta sull'Origin Store e sull'EA App (utilizzata anche dal servizio di abbonamento EA Play), presenta un file eseguibile della versione 1.1.610, mescolato con le versioni 1.1.641 dei file SimCity_1-5.dat. Avendo sostituito la protezione anticopia originale SafeDisc con il proprio DRM, EA/Origin ha alterato il checksum dell'eseguibile del gioco, impedendo così ai patcher EP1 Update 1 (versione 1.1.638) e BAT Nightlighting/EP1 Update 2 (versione 1.1.640) di EA di aggiornare correttamente l'eseguibile. Sembra anche che sia più difficile applicare la patch da 4 GB con la versione dell'app EA, necessaria per eseguire un'installazione NAM completa.
 
@@ -111,7 +111,7 @@ In breve:
 
 Per una valutazione più dettagliata della situazione di Origin, lo sviluppatore di NAM Tarkus ha scritto ampiamente sull'argomento nel suo blog, [SimTarkus](https://simtarkus.wordpress.com/category/origin/).
 
-## Nota per gli utenti Mac
+## Nota per gli utenti Mac {#mac}
 
 Aspyr ha rilasciato un aggiornamento al suo port di SimCity 4 Deluxe per macOS, aggiornandolo da un'applicazione a 32 bit a una a 64 bit sia su Steam che sull'App Store, consentendogli di essere compatibile con macOS Catalina (10.15) e successivi. Questo cambiamento ha però introdotto una serie di stranezze.
 
@@ -157,7 +157,7 @@ Sebbene il programma di installazione NAM, come indicato in precedenza, disponga
 
 Il nuovo programma di installazione NAM non è in grado di determinare il lato di guida predefinito dell'installazione, quindi prima dell'installazione è necessario prendere nota del lato di guida dei veicoli nel gioco. Se si è cambiato il lato di guida modificando il collegamento del gioco, invece di modificare il registro di Windows, questo è il **solo e unico caso in cui è necessario modificare la casella selezionata qui**.
 
-### Una nota sulla "patch da 4GB"
+### Una nota sulla "patch da 4GB" {#4gb-patch}
 
 A causa dei cambiamenti nei sistemi informatici e delle continue espansioni del file del controller principale del NAM, nel 2013 è stato determinato che molti sistemi più recenti, in particolare quelli con più di 4 GB di RAM e che eseguono versioni a 64 bit di Windows, necessitano di ulteriori accorgimenti. A tal fine, la NAM include una "4GB Patch", nota anche come "Large Address Aware (LAA) Patch", che consente al gioco di accedere a tutti i 4GB di RAM che un'applicazione a 32 bit può leggere, invece dei 2GB predefiniti. La patch della NAM è stata progettata da NTCore e integrata nella NAM con l'autorizzazione; gli utenti con sistemi che necessitano della patch riceveranno un prompt durante l'installazione della NAM per installarla. La patch originale può essere trovata [qui] (http://www.ntcore.com/4gb_patch.php).
 

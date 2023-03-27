@@ -17,7 +17,7 @@ url: "docs/reference/installation-notes"
 The minimum requirements for running the Network Addon Mod are as follows:
 
 * A compatible retail copy of SimCity 4 Deluxe Edition OR SimCity 4 with the Rush Hour Expansion Pack
-  - **Windows/Linux (via WINE)**: Any digital retail edition **EXCEPT the EA App/Origin Retail Edition** (see [here](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass)), or any disc copy updated to at least Version 1.1.638.
+  - **Windows/Linux (via WINE)**: Any digital retail edition **EXCEPT the EA App/Origin Retail Edition** (see [here](#origin-ea-play-xbox-gamepass)), or any disc copy updated to at least Version 1.1.638.
   - **macOS**: Any recent digital edition of the Aspyr port for macOS (installation on the App Store version is more difficult, and the NAM Team is limited in our capacity to provide installation help to App Store users).
   - The now-rare non-Deluxe/non-Rush Hour copies of SimCity 4 are not supported.  Attempting to run the NAM on a non-Deluxe/non-Rush Hour copy of SimCity 4 will cause the game to immediately crash to desktop (CTD).
 * Java Runtime Environment (JRE), in order to run the installer--a version for 64-bit Windows is included in the download (OpenJDK11U-jre_x64_windows_hotspot_11.0.8_10.msi).
@@ -30,7 +30,7 @@ The minimum requirements for running the Network Addon Mod are as follows:
 * Additional Requirement on Mac: (optional for Windows/Linux): [JDatPacker by memo](https://www.sc4devotion.com/forums/index.php?action=tportal;sa=download;dl=item137)
   - JDatPacker is a tool for consolidating folders of SimCity 4 plugins.  This can speed up the game's performance, and on macOS, this helps alleviate issues with the Aspyr port's known "number of files limit", wherein exceeding a certain number of files/folders within the game's Plugins directory can cause the game to crash.
 * Additional Requirement on on Windows/Linux (if running Full 4GB Controller/RealHighway options): 4GB Patch by NTCore (included in download, automatically installed on Windows with standard installation procedure, and also available at [NTCore](https://ntcore.com/?page_id=371)
-  - See Step 3 (under "On Windows") or [here](#a-note-about-the-4gb-patch) for more details.
+  - See Step 3 (under "On Windows") or [here](#4gb-patch) for more details.
   
 To install the Network Addon Mod:
 
@@ -38,7 +38,7 @@ To install the Network Addon Mod:
 * 2) Remove any existing NAM installations, if present (simply deleting the "a_Network Addon Mod Lite" and/or "Network Addon Mod" folder from the Documents\SimCity 4\Plugins directory is the easiest way).
 * 3) Run the NAM Installer.
   - On Windows:
-	-  If it your first time installing the NAM (or you are installing on a new system/with a new SC4 install), use **NetworkAddonMod_Setup_Version47.bat**.  If you are upgrading from a previous version, or have manually installed the 4GB Patch already (see [here](#a-note-about-the-4gb-patch)), use **NetworkAddonMod_Setup_Version47.jar**.  (The .bat file has a routine to automate the 4GB Patch installation process, necessary to avoid CTDs if running  the Full 4GB Controller option, which is necessary to use the RealHighway (RHW) features.)
+	-  If it your first time installing the NAM (or you are installing on a new system/with a new SC4 install), use **NetworkAddonMod_Setup_Version47.bat**.  If you are upgrading from a previous version, or have manually installed the 4GB Patch already (see [here](#4gb-patch)), use **NetworkAddonMod_Setup_Version47.jar**.  (The .bat file has a routine to automate the 4GB Patch installation process, necessary to avoid CTDs if running  the Full 4GB Controller option, which is necessary to use the RealHighway (RHW) features.)
   - On macOS:
 	- Run NetworkAddonMod_Setup_Version47.jar.
 	- **If on the App Store version**, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
@@ -54,13 +54,13 @@ To install the Network Addon Mod:
   - If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
   - On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
 * 6) Load the game and enjoy the NAM!
-  - If the game crashes on your first attempt to load a city, this means you have the Full 4GB Controller installed, but either have experienced a failure in the 4GB Patch process, or have an incompatible system (not enough RAM and/or a 32-bit operating system).  Either attempt to install the 4GB Patch [manually](#a-note-about-the-4gb-patch), or choose a less intensive installation option (the Low RAM/No RHW option, or download NAM Lite instead).
+  - If the game crashes on your first attempt to load a city, this means you have the Full 4GB Controller installed, but either have experienced a failure in the 4GB Patch process, or have an incompatible system (not enough RAM and/or a 32-bit operating system).  Either attempt to install the 4GB Patch [manually](#4gb-patch), or choose a less intensive installation option (the Low RAM/No RHW option, or download NAM Lite instead).
   - Note that if you've never run the NAM before, and you've picked a fuller installation option, the initial load of the game, and of the first city tile you open may be longer--often quite noticeably.  This will shorten with subsequent loads of other cities, or, if you exit and re-enter the game, subsequent re-entries will be quicker.
   - If you do not see any icons in game, this most likely means your installation ended up in the wrong location. Either reinstall, making sure the files go into your Documents\SimCity 4\Plugins folder (true of Windows and the Steam Mac version), or, if you're on the Mac App Store version, make sure you copy the files into the .app container.
 
-More details on installation and compatibility can be found starting [here](#further-detail-on-version-compatibility)</a>
+More details on installation and compatibility can be found starting [here](#version-compatibility)</a>
 
-## Further Detail on Version Compatibility
+## Further Detail on Version Compatibility {#version-compatibility}
 
 The requirements depend on which feature set you choose to install.
 
@@ -94,7 +94,7 @@ The new NAM installer (introduced with the NAM 37 Release Candidate) no longer r
 
 In Case F, the solution is simply to install the EP1 Update 1 patch, which can be downloaded from EA (SKU 1-5), SimCity 4 Devotion (SKU 1-5), or Simtropolis (SKU 1 and 2 only). To determine the correct SKU version for your copy of SimCity 4, find the installation directory, and look in the subfolder named _sku_data_. Alternatively, one can simply try all the SKU versions of the patch, until one works.
 
-For Case G and H, see the [section about Origin](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass) below.
+For Case G and H, see the [section about Origin](#origin-ea-play-xbox-gamepass) below.
 
 For Cases D and E, again note that the NAM Team has little experience with the Mac version of the game, mostly restricted to the Steam version, and may be very limited in any ability to provide platform-specific technical support, including with the installation process (which is more complex on the App Store version). See the section about macOS [here](#mac).
 
@@ -128,7 +128,7 @@ The Station Locator, Updater, and Reconstruction Project (SLURP) is also no long
 
 The new installer also no longer performs a version check. **Please note, however, that for Windows users, Version 1.1.638 and above are still required**, as Versions 1.1.610 and 1.1.613 have notable instabilities that may have a significant negative impact on the use of this mod. Copies purchased from the Origin Store, the EA App, or accessed via EA Play may still not meet this requirement, and support will not be offered to users with "unofficial" copies of the game.
 
-## Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass
+## Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass {#origin-ea-play-xbox-gamepass}
 
 Aside from a brief period in 2014-2015, Origin and the EA App, the digital retail platforms run by Electronic Arts (EA), have been selling copies of SimCity 4 Deluxe featuring an unpatched and unpatchable version of the game's executable file to retail customers. As of the release of NAM 47, this is still the case. Unlike the retail versions sold by GOG.com and Steam (and previously Amazon's "Thin Game Download" version), which come prepatched to Version 1.1.641, the edition sold on the Origin Store and the EA App (also used by the EA Play subscription service), features a Version 1.1.610 executable, mixed with Version 1.1.641 versions of the SimCity_1-5.dat files. By virtue of switching out the original SafeDisc copy protection for their own DRM, EA/Origin altered the checksum of the game's executable, thereby preventing EA's own EP1 Update 1 (Version 1.1.638) and BAT Nightlighting/EP1 Update 2 (Version 1.1.640) patchers from properly updating the executable. It also appears to be more difficult to apply the 4GB Patch with the EA App version, which is needed in order to run a full NAM installation.
 
@@ -147,7 +147,7 @@ In short:
 
 For a more detailed assessment of the Origin situation, NAM developer Tarkus has written extensively on the subject at his blog, [SimTarkus](https://simtarkus.wordpress.com/category/origin/).
 
-## Note to Mac Users
+## Note to Mac Users {#mac}
 
 Aspyr issued an update to their port of SimCity 4 Deluxe for macOS, updating it from a 32-bit app to a 64-bit one on both Steam and the App Store, allowing it to be compatible with macOS Catalina (10.15) and later. This change has introduced a number of quirks, however.
 
@@ -193,7 +193,7 @@ While the NAM Installer, as noted above, has a series of checkboxes in Custom In
 
 The new NAM Installer cannot determine default drive side of your installation, so make note of which side vehicles drive on in your game prior to installation. If you have changed your drive side by modifying the game's shortcut, instead of editing the Windows registry, then this would be the **one and only case when changing the box checked here would be needed**.
 
-### A Note About the "4GB Patch"
+### A Note About the "4GB Patch" {#4gb-patch}
 
 Due to changes in computer systems, and continued expansions of the NAM's main Controller file, in 2013, it was determined that many newer systems, particularly those with more than 4GB of RAM, and running 64-bit versions of Windows, need additional accommodation. To that end, the NAM includes a "4GB Patch", also known as a "Large Address Aware (LAA) Patch", which allows the game to access the full 4GB of RAM that a 32-bit application can read, instead of the default 2GB. The NAM's patch was designed by NTCore, and built into the NAM with permission, and users with systems that need the patch will receive a prompt during NAM installation to install it. The original patch can be found [here](http://www.ntcore.com/4gb_patch.php).
 
@@ -210,7 +210,7 @@ The default directory for where SimCity 4.exe may be located depends on how and 
 * **Original Disc**: `C:\Program Files (x86)\Maxis\SimCity 4 Deluxe\Apps`
 * **Origin***: `C:\Program Files (x86)\Maxis\SimCity 4 Deluxe\Apps`
 
-**Note that only Origin copies acquired through Free CD Key Redemption (Version 1.1.641) are compatible with the NAM. Copies purchased through the Origin Store or accessed via Origin Access (Version 1.1.610) ARE NOT COMPATIBLE. See [here](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass) for more details**.
+**Note that only Origin copies acquired through Free CD Key Redemption (Version 1.1.641) are compatible with the NAM. Copies purchased through the Origin Store or accessed via Origin Access (Version 1.1.610) ARE NOT COMPATIBLE. See [here](#origin-ea-play-xbox-gamepass) for more details**.
 
 ## Uninstalling the NAM
 
