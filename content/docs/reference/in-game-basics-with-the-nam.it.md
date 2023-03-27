@@ -1,7 +1,7 @@
 ---
-title : "In-Game Basics with the NAM"
-description: "The NAM has an incredibly exhaustive array of features -- understanding these concepts will make it much easier to use various tools in the NAM."
-lead: "While the NAM has an incredibly exhaustive array of features--to the point at which few players will avail themselves of all of them--there are a few basic concepts that underlie all of the transportation network expansions within the mod. Understanding these concepts will make the process of acclimating to the various tools included in the NAM much easier."
+title : "Nozioni di base sul gioco con il NAM"
+description: "Il NAM ha una gamma incredibilmente completa di funzioni: la comprensione di questi concetti renderà molto più facile l'uso dei vari strumenti del NAM."
+lead: "Sebbene il NAM disponga di una serie incredibilmente esaustiva di funzionalità - al punto che pochi giocatori le utilizzeranno tutte - ci sono alcuni concetti di base che sono alla base di tutte le espansioni della rete di trasporto all'interno del mod. La comprensione di questi concetti renderà molto più semplice il processo di adattamento ai vari strumenti inclusi nel NAM."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 weight: 3
@@ -10,76 +10,76 @@ images: []
 url: "docs/reference/in-game-basics"
 ---
 
-{{< docstatus status="untranslated" >}}
 
-## Basic Types of Content
 
-With respect to all the transportation network expansions within the NAM, they fall into two categories: **Draggable Items**, produced through dragging a transportation network in some fashion, and **Ploppable Items**, which are placed in a single click. Within these two categories, there are distinctions.
+## Tipi di contenuto di base
 
-### Subtypes of Draggable Items
+Le espansioni della rete di trasporto all'interno del NAM si dividono in due categorie: **Oggetti trascinabili**, prodotti trascinando in qualche modo la rete di trasporto, e **Oggetti sovrapponibili**, che vengono posizionati con un solo clic. All'interno di queste due categorie, ci sono delle distinzioni.
 
-* Simple Draggable Items, which are constructed simply by dragging the network (or combination of networks) in an immediately apparent and intuitive manner.
-* Pattern-Based Draggable Items, which are constructed by dragging out a special pattern with a given network (or combination of networks).
+### Sottotipi di elementi trascinabili
 
-### Subtypes of Ploppable Items
+* Elementi trascinabili semplici, che si costruiscono semplicemente trascinando la rete (o la combinazione di reti) in modo immediatamente evidente e intuitivo.
+* Elementi trascinabili basati su schemi, che si costruiscono trascinando uno schema speciale con una determinata rete (o combinazione di reti).
 
-* Static Puzzle Pieces (often simply called "Puzzle Pieces"), which are transportation network pieces, which do not interact with surrounding stretches of network, and remain fixed in form after placement.
-* Starter Pieces, which are very simple transportation network pieces, which are designed specifically to interact with the game's base transportation networks and override them on a case-by-case basis, changing their appearance and behavior. In the absence of the ability to add additional "true" transportation networks, Starter Pieces have allowed the NAM to emulate those additions. The products of Starter Piece transformations are referred to as _Override Networks_.
-* FLEX Pieces, which are transportation network pieces that _do_ interact with the surrounding stretches of network, and can accept overrides from various types of Draggable Items, Starter Pieces, and other FLEX Pieces, allowing a single piece to serve multiple functions, unlike a Static Puzzle Piece. FLEX Pieces, in some instances, can also act as more complex Starter Pieces, designed to serve specific purposes.
-* Disconnectors, which are more delicate versions of the game's default Bulldozer tool, primarily intended for use with the [RealHighway](/docs/feature-guides/realhighway/) plugin.
-* Hole Digger/Raiser Effects, which raise or lower the terrain by specific amounts upon placement. (These are not to be confused with the older Hole Digger/Raiser Lots.)
-* Transit-Enabled Lots (or "TE Lots"), which are technically not transportation network items, but Lots that can accept input from transportation networks, carry traffic, and serve additional transportation-related purposes. Generally, they are used for transit stations, as they allow sims to switch transit types (i.e. from riding a train to walking). Toll booths are also a common use of TE Lots.
+### Sottotipi di oggetti posizionabili
 
-## Navigating NAM Menus and Items
+* Pezzi puzzle statici (spesso chiamati semplicemente "pezzi puzzle"), che sono pezzi di rete di trasporto che non interagiscono con i tratti di rete circostanti e rimangono fissi nella forma dopo il posizionamento.
+* Pezzi Starter, che sono pezzi di rete di trasporto molto semplici, progettati specificamente per interagire con le reti di trasporto di base del gioco e sovrascriverle caso per caso, modificandone l'aspetto e il comportamento. In assenza della possibilità di aggiungere ulteriori reti di trasporto "vere", gli Starter Pieces hanno permesso al NAM di emulare tali aggiunte. I prodotti delle trasformazioni degli Starter Piece sono denominati _Reti di scavalcamento_.
+* Pezzi FLEX, che sono pezzi di rete di trasporto che interagiscono con i tratti di rete circostanti e possono accettare sostituzioni da vari tipi di Oggetti trascinabili, Pezzi Starter e altri Pezzi FLEX, consentendo a un singolo pezzo di svolgere più funzioni, a differenza di un Pezzo Puzzle statico. I pezzi FLEX, in alcuni casi, possono anche agire come pezzi iniziali più complessi, progettati per scopi specifici.
+* Disconnettori, che sono versioni più delicate dello strumento Bulldozer predefinito del gioco, destinati principalmente all'uso con il plugin [RealHighway](/docs/feature-guides/realhighway/).
+* Effetti Hole Digger/Raiser, che alzano o abbassano il terreno di quantità specifiche al momento del posizionamento. (Non vanno confusi con i vecchi lotti Hole Digger/Raiser).
+* Lotti abilitati al transito (o "Lotti TE"), che tecnicamente non sono oggetti della rete di trasporto, ma lotti che possono accettare input dalle reti di trasporto, trasportare traffico e servire per altri scopi legati al trasporto. In genere, sono utilizzati per le stazioni di transito, in quanto consentono ai sim di cambiare tipo di transito (ad esempio, passando da un treno a una passeggiata). Anche le cabine di pedaggio sono un uso comune dei Lotti TE.
 
-While Simple and Pattern-Based Draggable Items are constructed directly through dragging the game's base transportation networks, all ploppable items must be selected via the game's menu system. The positioning of a given object can be controlled by using the following keys:
+## Navigazione nei menu e nelle voci del NAM
 
-* _Home_ - rotate clockwise
-* _End_ - rotate counter-clockwise
+Mentre gli oggetti trascinabili semplici e a schema sono costruiti direttamente trascinando le reti di trasporto di base del gioco, tutti gli oggetti trascinabili devono essere selezionati tramite il sistema di menu del gioco. Il posizionamento di un determinato oggetto può essere controllato utilizzando i seguenti tasti:
 
-Note that with some items, Home/End rotation may produce a variant on the piece (i.e. a diagonal equivalent), or in some cases--particularly with the Flexible Underpasses (FLUPs)--may be the means to access entirely different pieces. These situations will be noted in the catalogue listings in the [Feature Guides](/docs/feature-guides/) included in this documentation.
+* _Home_ - ruota in senso orario
+* _Fine_ - ruota in senso antiorario
 
-All Ploppable Items except Transit-Enabled Lots--can all be combined into a set that is accessed under a single menu button, through the use of a _TAB Loop_ (known internally as a "RotationRing"). TAB Loops are named because the use of the _TAB_ key, and key combinations involving it, allow one to cycle through the various items under the selected button. Navigation through the various options under a single button is controlled using the following keys:
+Si noti che con alcuni oggetti, la rotazione di Home/End può produrre una variante del pezzo (ad esempio un equivalente diagonale), o in alcuni casi - in particolare con i sottopassaggi flessibili (FLUP) - può essere il mezzo per accedere a pezzi completamente diversi. Queste situazioni saranno segnalate negli elenchi del catalogo nelle [Guide alle caratteristiche] (/docs/feature-guides/) incluse in questa documentazione.
 
-* _TAB_ - forward through the loop
-* _Shift-TAB_ - backward through the loop
+Tutti gli Oggetti Plottabili, eccetto i Lotti Abilitati al Transito, possono essere combinati in un insieme accessibile con un unico pulsante di menu, attraverso l'uso di un _TAB Loop_ (noto internamente come "RotationRing"). I cicli TAB sono così chiamati perché l'uso del tasto _TAB_, e le combinazioni di tasti che lo prevedono, consentono di scorrere le varie voci sotto il pulsante selezionato. La navigazione tra le varie opzioni di un singolo pulsante è controllata dai seguenti tasti:
 
-For instance, if a TAB Loop contains a total of 10 Ploppable Items, it would begin with Item 1, TAB would move forward to Item 2, Item 3, and so on, while Shift-TAB would move in reverse to Item 10, Item 9, etc. Once the end of the loop is reached, it will cycle back around to Item 1 and continue from there.
+* _TAB_ - avanzamento del ciclo
+* _Shift-TAB_ - indietro nel loop
 
-Each Transit-Enabled Lot must have its own menu button, as Lot-based items cannot be placed in TAB Loops. For more information, see the [Technical Information](/docs/reference/technical-information/) documentation.
+Ad esempio, se un ciclo TAB contiene un totale di 10 elementi ploppabili, inizierà con l'elemento 1, TAB si sposterà in avanti all'elemento 2, all'elemento 3 e così via, mentre Shift-TAB si sposterà all'indietro all'elemento 10, all'elemento 9 e così via. Una volta raggiunta la fine del ciclo, si torna all'elemento 1 e si continua da lì.
 
-**Special Note to _Steam_ Users**: The Steam Overlay is set to use the key combination _Shift-TAB_ by default. Through the Steam client, you will need to either change the key combination for the overlay, or disable it altogether in order to allow backward rotation through TAB Loops. The use of TAB and Shift-TAB by SimCity 4 is hardcoded, and attempting to use Shift-TAB without changing the overlay shortcut will cause the overlay to appear, instead of allowing one to navigate a TAB Loop in reverse as intended.
+Ogni lotto abilitato al transito deve avere il proprio pulsante di menu, poiché gli elementi basati sul lotto non possono essere inseriti nei cicli TAB. Per ulteriori informazioni, consultare la documentazione [Informazioni tecniche](/docs/reference/technical-information/).
 
-## Using Static Puzzle Pieces
+**Nota speciale per gli utenti di _Steam_**: L'overlay di Steam è impostato per utilizzare la combinazione di tasti _Maiusc-TAB_ per impostazione predefinita. Attraverso il client Steam, è necessario cambiare la combinazione di tasti per l'overlay o disabilitarla del tutto per consentire la rotazione all'indietro attraverso i TAB Loop. L'uso di TAB e Shift-TAB da parte di SimCity 4 è codificato in modo rigido e il tentativo di usare Shift-TAB senza cambiare la scorciatoia per l'overlay causerà la comparsa dell'overlay, invece di consentire la navigazione di un TAB Loop al contrario come previsto.
 
-Static Puzzle Pieces, once selected, will produce a hovering preview, showing the footprint of the piece over the terrain. Simply align the footprint with the desired position, using the Home and End keys to rotate and the mouse to align, and click the left mouse button to place the piece. If the preview appears to be highlighted in red, this means that the terrain or existing transportation network/lot setup underneath will not permit the piece to be placed. Static Puzzle Pieces can generally be placed over growable RCI (Residential/Commercial/Industrial) buildings, and will destroy any that lie in the footprint.
+## Utilizzo di pezzi di puzzle statici
 
-If you are planning on using sections of draggable network in the vicinity of the Static Puzzle Piece, unless the piece happens to have connector stubs, it is generally advisable to build the draggable network first, at least up to the edge of the Static Puzzle Piece's footprint, and then place the piece itself over top.
+I pezzi statici, una volta selezionati, producono un'anteprima in bilico che mostra l'impronta del pezzo sul terreno. È sufficiente allineare l'impronta alla posizione desiderata, usando i tasti Home e End per ruotare e il mouse per allineare, e fare clic sul pulsante sinistro del mouse per posizionare il pezzo. Se l'anteprima è evidenziata in rosso, significa che il terreno o la rete di trasporto esistente o la configurazione del lotto sottostante non consentono di posizionare il pezzo. I pezzi del puzzle statico possono generalmente essere posizionati sopra gli edifici RCI (Residenziale/Commerciale/Industriale) coltivabili e distruggeranno quelli che si trovano nell'area di ingombro.
 
-Some Static Puzzle Pieces--particularly those in the RealHighway (RHW) plugin--may have Starter Piece stubs attached to them, which, while easing the process of connecting the piece to the surrounding network, does limit the placement options for the piece to mostly flat terrain.
+Se si prevede di utilizzare sezioni di rete trascinabile in prossimità del pezzo statico, a meno che il pezzo non abbia dei connettori, è generalmente consigliabile costruire prima la rete trascinabile, almeno fino al bordo dell'impronta del pezzo statico, e poi posizionare il pezzo stesso sopra di esso.
 
-Static Puzzle Pieces do not accept overrides, and in addition to not changing to match their surroundings, will block the continuation of Override Networks. The only way to change the setup is to bulldoze the Static Puzzle Piece, and replace it with something else.
+Alcuni pezzi di puzzle statici, in particolare quelli del plugin RealHighway (RHW), possono avere degli stub per i pezzi di partenza, il che, se da un lato facilita il processo di connessione del pezzo alla rete circostante, dall'altro limita le opzioni di posizionamento del pezzo a un terreno per lo più pianeggiante.
 
-## Using Starter Pieces and Override Networks
+I pezzi statici non accettano sovrascritture e, oltre a non cambiare per adattarsi all'ambiente circostante, bloccano la continuazione delle reti di sovrascrittura. L'unico modo per cambiare la configurazione è demolire il pezzo statico e sostituirlo con qualcos'altro.
 
-Starter Pieces, once selected, will produce a hovering preview, showing the footprint of the piece over the terrain. Simply align t he footprint with the desired position, using the Home and End keys to rotate and the mouse to align, and click the left mouse button to place the piece. If the preview appears to be highlighted in red, this means that the terrain or existing transportation network/lot setup underneath will not permit the piece to be placed.
+## Utilizzo di Starter Pieces e reti di override
 
-All Starter Pieces have a "Construction Tile", which is required by the game. The Construction Tile will be placed at the site of the cursor, and will self-destruct upon placement. If there is an existing stretch of network underneath the Construction Tile, a 1x1 "gap" will appear in its place after placement. Starter Pieces can generally be placed over growable RCI (Residential/Commercial/Industrial) buildings, and will destroy any that lie in the footprint--this is true of both the starter itself, and the Construction Tile.
+I pezzi iniziali, una volta selezionati, produrranno un'anteprima in bilico, mostrando l'impronta del pezzo sul terreno. È sufficiente allineare l'impronta alla posizione desiderata, usando i tasti Home e End per ruotare e il mouse per allineare, e fare clic con il pulsante sinistro del mouse per posizionare il pezzo. Se l'anteprima è evidenziata in rosso, significa che il terreno o la rete di trasporto esistente o la configurazione del lotto sottostante non consentono di posizionare il pezzo.
 
-Each Starter Piece will have a "base network" associated with it, which will be indicated on the tool-tip for the Starter Piece, shown while the piece is selected. In order to activate the override permitted by the Starter Piece, select the indicated network, and then drag the base network _through_ the Starter Piece. It should cause the base draggable network to convert to match the appearance of the Starter Piece, producing an Override Network.
+Tutti i pezzi Starter hanno una "tessera di costruzione", necessaria per il gioco. La tessera di costruzione viene posizionata nel punto in cui si trova il cursore e si autodistrugge al momento del posizionamento. Se sotto la tessera di costruzione c'è un tratto di rete esistente, al suo posto apparirà un "vuoto" di 1x1 dopo il posizionamento. I pezzi starter possono generalmente essere posizionati sopra gli edifici RCI (Residenziali/Commerciali/Industriali) in crescita, e distruggeranno quelli che si trovano nell'area di ingombro; questo vale sia per lo starter stesso che per la tessera di costruzione.
 
-## Using FLEX Pieces
+Ogni Pezzo iniziale avrà una "rete di base" associata, che sarà indicata nel tool-tip del Pezzo iniziale, visualizzato mentre il pezzo è selezionato. Per attivare l'override consentito dal pezzo iniziale, selezionare la rete indicata e trascinare la rete di base attraverso il pezzo iniziale. In questo modo, la rete trascinabile di base si convertirà in modo da corrispondere all'aspetto del pezzo iniziale, producendo una rete di esclusione.
 
-FLEX Pieces, once selected, will produce a hovering preview, showing the footprint of the piece over the terrain. Simply align the footprint with the desired position, using the Home and End keys to rotate and the mouse to align, and click the left mouse button to place the piece. If the preview appears to be highlighted in red, this means that the terrain or existing transportation network/lot setup underneath will not permit the piece to be placed.
+## Utilizzo dei pezzi FLEX
 
-All FLEX Pieces have a "Construction Tile", which is required by the game. The Construction Tile will be placed at the site of the cursor, and will self-destruct upon placement. If there is an existing stretch of network underneath the Construction Tile, a 1x1 "gap" will appear in its place after placement. FLEX Pieces can generally be placed over growable RCI (Residential/Commercial/Industrial) buildings, and will destroy any that lie in the footprint--this is true of both the starter itself, and the Construction Tile.
+I pezzi FLEX, una volta selezionati, producono un'anteprima in bilico che mostra l'impronta del pezzo sul terreno. È sufficiente allineare l'impronta alla posizione desiderata, usando i tasti Home e End per ruotare e il mouse per allineare, e fare clic con il pulsante sinistro del mouse per posizionare il pezzo. Se l'anteprima è evidenziata in rosso, significa che il terreno o la rete di trasporto esistente o la configurazione del lotto sottostante non consentono il posizionamento del pezzo.
 
-Many FLEX Pieces will accept input from Override Networks, changing their appearance and function accordingly. To transform a FLEX Piece to a new configuration, simply drag the Override Network into the appropriate part of the FLEX Piece. If the setup is supported, it should transform to fit.
+Tutti i pezzi FLEX hanno una "tessera di costruzione", necessaria per il gioco. La tessera di costruzione viene posizionata nel punto in cui si trova il cursore e si autodistrugge al momento del posizionamento. Se sotto la tessera di costruzione c'è un tratto di rete esistente, al suo posto apparirà un "vuoto" di 1x1 dopo il posizionamento. I pezzi FLEX possono generalmente essere posizionati sopra gli edifici RCI (Residenziali/Commerciali/Industriali) in crescita, e distruggeranno quelli che si trovano nell'area di ingombro: questo vale sia per lo starter stesso che per la tessera di costruzione.
 
-Some pieces of this type can also serve as Starter Pieces. For specific instances, see the [Feature Guides](/docs/feature-guides/).
+Molti pezzi FLEX accettano input dalle Reti di Override, cambiando di conseguenza il loro aspetto e la loro funzione. Per trasformare un pezzo FLEX in una nuova configurazione, è sufficiente trascinare la rete Override nella parte appropriata del pezzo FLEX. Se la configurazione è supportata, si trasformerà per adattarsi.
 
-## Using Pattern-Based Draggable Items
+Alcuni pezzi di questo tipo possono anche fungere da Starter Piece. Per casi specifici, consultare le [Guide alle funzioni] (/docs/feature-guides/).
 
-Pattern-Based Draggable Items are items built using a specific dragging pattern with one of the game's base networks. Upon completing the appropriate pattern, the item will convert over to the desired setup. Pattern-Based Draggable Items exist throughout the NAM's Plugins, with prominent examples in the Roundabout plugins, Wide-Radius Curves and Fractional Angle Networking, the transitions in the Network Widening Mod (NWM) plugin, and on/offramps in the RealHighway plugin.
+## Utilizzo di elementi trascinabili basati su modelli
 
-Many Pattern-Based Draggable Items will accept input from the default networks and/or Override Networks, changing their appearance and function accordingly. To transform a Pattern-Based Draggable Item to a new configuration, simply drag the desired network into the appropriate part of the pattern. If the setup is supported, it should transform to fit.
+Gli oggetti trascinabili basati su schemi sono oggetti costruiti utilizzando uno specifico schema di trascinamento con una delle reti di base del gioco. Una volta completato lo schema appropriato, l'oggetto si converte nella configurazione desiderata. Gli oggetti trascinabili basati su schemi sono presenti in tutti i plugin del NAM, con esempi importanti nei plugin Roundabout, Wide-Radius Curves e Fractional Angle Networking, nelle transizioni del plugin Network Widening Mod (NWM) e negli on/offramp del plugin RealHighway.
+
+Molti elementi trascinabili basati su modelli accettano input dalle reti predefinite e/o dalle reti di sovrascrittura, modificandone l'aspetto e la funzione di conseguenza. Per trasformare un elemento trascinabile basato su modello in una nuova configurazione, è sufficiente trascinare la rete desiderata nella parte appropriata del modello. Se la configurazione è supportata, si trasformerà per adattarsi.

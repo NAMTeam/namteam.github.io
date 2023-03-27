@@ -118,84 +118,84 @@ url: "docs/reference/frequently-asked-questions"
 
     <!-- For more details, see here. -->
 
-24. How do I move between the different puzzle/FLEX/starter pieces, and how do I rotate them?
+24. **How do I move between the different puzzle/FLEX/starter pieces, and how do I rotate them?**
 
     The TAB key will move forward through a given set of puzzle pieces under a single icon, and Shift-TAB will move backwards. Rotation is accomplished through the Home and End keys. On macOS, it is actually Ctrl-TAB and Ctrl-Shift-TAB (TAB and Shift-TAB will still work, but will tend to skip every other item).
 
-25. What is up with the icon with the NAM logo at the bottom of the Highways menu, and why does it do nothing when I click it?
+25. **What is up with the icon with the NAM logo at the bottom of the Highways menu, and why does it do nothing when I click it?**
 
     The NAM logo icon is a diagnostic tool, which, if hovered over, will show you which version of the NAM Controller you are currently running. This can be useful in diagnosing issues pertaining to the NAM Controller.  It is not supposed to do anything when you click it.
 
-26. Why is the game crashing after I place a puzzle piece?
+26. **Why is the game crashing after I place a puzzle piece?**
 
     This is a bug in the game itself, typically triggered by attempting to place conventional puzzle pieces in the vicinity of TE lots. If, in the process of constructing a puzzle piece, the footprint of the puzzle piece overlaps that of the TE lot, even before the puzzle piece is placed, the game generally does not understand the configuration, and will immediately crash. This is an issue within the game's executable, and as a result, it was long deemed an unsolvable issue.
 
     _However_, **simmaster07** managed to decode enough of the framework that SimCity 4 uses to load DLL files from other sources, and was able to patch this issue with his _SC4Fix.dll_ file. SC4Fix is available at [Simtropolis](http://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/).
 
-27. Why isn't it possible to add true new networks, instead of using starter pieces?
+27. **Why isn't it possible to add true new networks, instead of using starter pieces?**
 
     Adding new networks is, at this time, impossible. The base RHW network was only possible as it used an unused network stub left in the game. Although game files suggest that theoretically, there is space for three more true networks (for a total of 16), there is not enough of a stub for these final three slots for us to enable them. The starter piece paradigm allows us to very closely mimic the effects of adding true new networks, however.
 
-28. Why haven't you guys added submenus instead of using TAB loops?
+28. **Why haven't you guys added submenus instead of using TAB loops?**
 
     Adding new submenus is, at this time, impossible. SC4 mod developers have tried for many years, to no avail, though have come up with workarounds like Daeley's Advanced Menu Navigator (DAMN), which repurposes the game's News system, and Menu Management Lots (MMLs).
 
-29. Certain draggable items are not working for me, and I'm following the directions. Why isn't it working?
+29. **Certain draggable items are not working for me, and I'm following the directions. Why isn't it working?**
 
     If you're referring to starter pieces, make sure you're dragging the specified default network out the correct end of the piece. Trying to "drag" the actual starter piece itself will get you nowhere. If you're referring to a starter piece-based network extension not cooperating with a particular setup you're trying to build, it may be that the setup is not supported. If you're getting "blank" tiles upon drawing the item, this is generally a sign of improper installation and/or conflicting files being present in your Plugins.
 
-30. My RCI demand seems to have changed since I installed the NAM. What is happening?
+30. **My RCI demand seems to have changed since I installed the NAM. What is happening?**
 
     The NAM does not directly affect RCI demand. It does not modify anything other than transportation-related files. You may have installed something else recently that does modify other parts of the game, however. Because the NAM is popular and a large-scale mod, many newer players who have installed other files at the same time mistakenly presume the NAM is at fault. Additionally, if you somehow unchecked too many boxes in the installer, it is possible you somehow caused the installer to skip installation of the Traffic Simulator plugin, which would cause the game to revert to the Maxis defaults.
 
-31. I'm having difficulty using U-Drive-It (UDI) functionality on certain NAM items. Is there any way to fix this?
+31. **I'm having difficulty using U-Drive-It (UDI) functionality on certain NAM items. Is there any way to fix this?**
 
     It depends on the item--Single-Track Rails (STR) and the various Turning Lane Avenue (TLA) options in the Network Widening Mod (NWM) are perhaps the most prone to issues. UDI was a last-minute addition to SimCity 4 Deluxe/Rush Hour, and is known for having a number of quirks. There really isn't a way to fix them because of these quirks, though the TLA quirks can be mitigated by disabling "Snap To Road" and driving manually.
 
-32. I'm from North America. Why aren't the traffic signals so they're on the far side of the intersection, as they are here? Can I change this?
+32. **I'm from North America. Why aren't the traffic signals so they're on the far side of the intersection, as they are here? Can I change this?**
 
     The way the game's default traffic signals work with the stop point system on network path files, the signals have to be on the near-side in order to function. Some of the FLEX Turn Lane (FTL) options and Turn Lane Extension Pieces (TuLEPs) use trick stop points to allow for far-side signals, but there are feasible limits to this technique. Recently, however, there have been advances in signal modding, using true-3D props, which have allowed for offset props to be developed, getting around this issue. Offset props have not been released as of writing, but may potentially be made available as a third-party addition in the future.
 
-33. I'm from a country where people drive on the left. Can I switch the side of the traffic signals?
+33. **I'm from a country where people drive on the left. Can I switch the side of the traffic signals?**
 
     Yes. Check out the Signal Replacement Project, developed by NAM Team member MandelSoft. Please note that MandelSoft is no longer active in the SC4 community, and newer items may not be covered by that mod. It is not the NAM Team's responsibility to update independent cosmetic mods.
 
-34. Should I use the SC4 DatPacker or JDatPacker tools to consolidate my NAM installation into a single file?
+34. **Should I use the SC4 DatPacker or JDatPacker tools to consolidate my NAM installation into a single file?**
 
     With the Mac version, it is effectively required to consolidate the mods files using JDatPacker, due to the "number-of-files limit" issue. With the Windows version, it will speed up load times, but you'll need to ensure you remove the DatPacked files upon installing any NAM updates, or else they will interfere with the proper functionality of the update. Unless you also preserve your pre-DatPacked NAM installation, you will also be unable to use the NAM installer's ability to install the same options when updating to a new version. As such, the NAM Team generally does not recommend that Windows users DatPack their installations.
 
-35. How do I build an interchange with the RealHighway (RHW) system?
+35. **How do I build an interchange with the RealHighway (RHW) system?**
 
     Rather than the pre-fabricated, one-piece interchanges of the game's default highway system, the RealHighway system was designed with the concept of modular interchange construction in mind. More details can be found in the RHW portion of the documentation. That said, NAM 45 (September 2022) did introduce the QuickChange Xpress (QCX) system, which currently adds full diamond interchanges to the RHW's repertoire.  These can be found under the QuickChanges button on the Highways Menu.
 
-36. Why aren't my neighbor connections working on RealHighways and/or wider Roads, Avenues and One-Way Roads? How do I fix them?
+36. **Why aren't my neighbor connections working on RealHighways and/or wider Roads, Avenues and One-Way Roads? How do I fix them?**
 
     Most RealHighways (except the RHW-2 and RHW-3 networks) and some multi-tile starter-based items require the use of special "Neighbor Connector Puzzle Pieces" (NCPPs) to function. For networks that are "combined", having adjacent two-way traffic, simply drag the network to the edge of the city tile, as you normally would (ignoring the fact that the neighbor connection arrows both face the same direction), and plop the appropriate Neighbor Connection Puzzle Piece over it. You'll need to do this on both sides of the neighbor connection. For one-way/"split" networks, follow the same directions, and if there is a gap between the two directions, you'll need to place underground loop pieces next to the city edge, between the two carriageways.
 
-37. Why are my RealHighway networks remaining at two lanes and ground level after dragging the network through one of the starter pieces?
+37. **Why are my RealHighway networks remaining at two lanes and ground level after dragging the network through one of the starter pieces?**
 
     If your RealHighway starters are not working, and the network is remaining as the RealHighway-2 (RHW-2) after dragging through a starter, then this is likely a sign that you have the "LowRAM/NoRHW" version of the NAM Controller installed, which, as the name indicates, does not include any of the RUL2 code necessary for the RealHighway's starters to function. Reinstall the mod with the Full version of the Controller, and ensure that your system meets the minimum requirements for the RealHighway plugin (4GB Patch installed, 64-bit operating system, and at least 4GB RAM).
 
-38. Why can't I build diagonal intersections with some of the wider Roads, Avenues and One-Way Roads?
+38. **Why can't I build diagonal intersections with some of the wider Roads, Avenues and One-Way Roads?**
 
     As of NAM 46, diagonal 4-way ("+") intersections and crossings are now possible betwen the single-tile Network Widening Mod (NWM) networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4) with all of the game's base networks, plus Ground Light Rail (GLR), Single-Track Rail (STR), and all other single-tile NWM networks.  3-way ("T") intersections are not presently available, nor are any diagonal intersection or crossing options for the multi-tile NWM networks.
 
-39. When is the next NAM version being released?
+39. **When is the next NAM version being released?**
 
     There is no date or timeline for the next release. We honestly have no idea. This project is a very passionate hobby for many NAM Team members, but it is still just that--a hobby, something we do in our spare time, as volunteers. It's also a technically complex undertaking, where things can unexpectedly go wrong in development. It's simply not possible for us to predict when we'll be done with a release, and coming up with arbitrary release dates just leads to extremely buggy releases or postponement, disappointing everyone in the process. The one time we did it (in 2013), it did not go well. Besides, we like to surprise people.
 
-40. I'm a user from outside the North America--are there Euro road textures to make the roads look more familiar to me?
+40. **I'm a user from outside the North America--are there Euro road textures to make the roads look more familiar to me?**
 
     Yes, just select either the "EU_Right Side" or "EU_Left Side" option (depending on your drive side) under "8 Texture and Drive Side Support".
 
-41. I have ideas for new features. Does the NAM Team take requests?
+41. **I have ideas for new features. Does the NAM Team take requests?**
 
     Certainly. That said, being the transportation fiends we are, we probably want a lot of the same stuff you do, and there's a good chance it's either in development or planned.
 
-42. I'd like to contribute to the NAM. How do I do so?
+42. **I'd like to contribute to the NAM. How do I do so?**
 
     As far membership on the NAM Team or the NAM Associates testing group goes, we're always on the lookout for folks with the right skills on the forums. If you're looking to add something to the mod, show us a prototype of some sort--we'll help you figure out the best way to realize it. We don't, however, have open sign-ups for development or testing positions.
 
-43. Are you guys crazy, making this extensive mod for a 20-year-old game?!
+43. **Are you guys crazy, making this extensive mod for a 20-year-old game?!**
 
     Yes. Always have been, always will be.
