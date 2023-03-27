@@ -37,6 +37,10 @@ images: []
 
 ### Additional Notes
 
+**T-End Min**: If the given network is to end at a T-intersection, this value is the minimum number of total lanes that needs to be on the cross network. For instance, while an RD-6 (T-End Min = 3) can end at an ARD-3 (3 total thru lanes), it cannot end at a Road (2 total thru lanes). Center lanes on TLA networks do not count toward the overall figure (i.e. the TLA-5 would be considered to have 4 lanes total in this instance).
+
+**T-In Max**: If a cross network ends at the given network in a T-intersection, this value is the maximum number of lanes on the cross network heading inbound to the T-intersection (half the network, in the case of a two-way network, the full network if one-way). For instance, an AVE-2 can have an Avenue or RD-4 end at it (AVE-2 T-In Max = 2, while the Avenue and RD-4 have 4 lanes total, 2 heading inbound to the intersection), but an OWR-1 cannot (T-In Max = 1). Center lanes on TLA networks do not count toward the overall figure (i.e. the TLA-5 would be considered to have 4 lanes total in this instance).
+
 **OxO**: OxO stands for "orthogonal x orthogonal", and refers to a situation where both networks are orthogonal (in a straight line) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
 **OxD**: OxD stands for "orthogonal x diagonal", and refers to a situation where the given network is orthogonal (in a straight line) along the game's grid, and the cross network is diagonal (running at a 45° angle).
@@ -58,20 +62,85 @@ images: []
 | OWR-1 |        Yes       |       Yes      |       Yes       |      Yes      |             Yes            |      Yes      |
 | OWR-3 |        Yes       |       Yes      |       Yes       |      Yes      |             Yes            |      Yes      |
 | NRD-4 |        Yes       |       Yes      |       Yes       |      Yes      |             Yes            |      Yes      |
-| TLA-5 |        Yes       |       Yes      |       Yes       |      Yes      |             No            |      No      |
-| OWR-4 |        Yes       |       Yes      |       No       |      Yes      |             No            |      No      |
-| OWR-5 |        Yes       |       Yes      |       No       |      Yes      |             No            |      No      |
-| RD-4  |        Yes       |       Yes      |       Yes      |      Yes      |            No            |      No     |
-| RD-6  |        Yes       |       Yes      |       No       |      Yes      |             No            |      No      |
-| TLA-7 |        Yes       |       Yes      |       No      |      Yes      |            No            |      No     |
-| AVE-6 |        Yes       |       Yes (RD-based only)     |       Yes       |      No      |             No            |      No      |
+| TLA-5 |        Yes       |       Yes (Split-Tile)      |       Yes       |      Yes      |             No            |      No      |
+| OWR-4 |        Yes       |       Yes (Shared-Tile)     |       No       |      Yes      |             No            |      No      |
+| OWR-5 |        Yes       |       Yes (Split-Tile)      |       No       |      Yes      |             No            |      No      |
+| RD-4  |        Yes       |       Yes (Shared-Tile)    |       Yes      |      Yes      |            No            |      No     |
+| RD-6  |        Yes       |       Yes (Split-Tile)      |       No       |      Yes      |             No            |      No      |
+| TLA-7 |        Yes       |       Yes (Split-Tile)      |       No      |      Yes      |            No            |      No     |
+| AVE-6 |        Yes       |       Yes (Split-Tile, RD-based only)     |       No       |      No      |             No            |      No      |
+{{< /table >}}
+
+#### Orthogonal Transitions to Maxis Networks
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| NETWORK | Road | One-Way Road | Avenue | Street |
+|---------|:-----:|:-----:|:-----:|:-----:|
+| TLA-3 | Yes (Stub) | No | Yes (Direct) | No |
+| AVE-2 | Yes (Stub) | No | Yes (Direct) | No |
+| ARD-3 | Yes (Stub) | No | Yes (Direct) | No |
+| OWR-1 | No | Yes (Stub) | No | No |
+| OWR-3 | No | Yes (Stub) | No | No |
+| NRD-4 | Yes (Stub) | No | Yes (Direct) | No |
+| TLA-5 | Yes (Stub) | Yes (Direct) | Yes (Direct) | No |
+| OWR-4 | No | Yes (Direct to Dual OWR) | No | No |
+| OWR-5 | No | No | No | No |
+| RD-4  | Yes (Stub) | Yes (Direct to Dual OWR) | Yes (Direct) | No |
+| RD-6  | No | No | Yes (Direct) | No |
+| TLA-7 | No | No | Partial (Puzzle) | No |
+| AVE-6 | No | No | Partial (Puzzle) | No |
 {{< /table >}}
 
 
-#### Orthogonal Transitions
+#### Orthogonal Transitions to Other NWM Networks
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| NETWORK | TLA-3 | AVE-2 | ARD-3 | OWR-1 | OWR-3 | NRD-4 | TLA-5 | OWR-4 | OWR-5 | RD-4 | RD-6 | TLA-7 | AVE-6 |
+|---------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|
+| TLA-3 | Self | Yes (Stub) | Yes (Stub) | No | No | Yes (Stub)| Yes (Stub) | No | No| No | No | No | No |
+| AVE-2 | Yes (Stub)  | Self | Yes (Stub) | No | No | Yes (Stub)| Yes (Stub) | No | No| No | No | No | No |
+| ARD-3 | Yes (Stub) | Yes (Stub) | Self | No | No | Yes (Stub)| Yes (Stub) | No | No| No | No | No | No |
+| OWR-1 | No | No | No | Self | No | No | No | No | No | No | No | No | No |
+| OWR-3 | No | No | No | No | Self | No | No | Yes (Stub) | Partial (Puzzle) | No| No | Yes (Direct) | Yes (Direct) |
+| NRD-4 | Yes (Stub) | Yes (Stub) | Yes (Stub) | No | No | Self | Yes (Stub) | No | No | Yes (Stub) | Yes (Stub) | No | No |
+| TLA-5 | Yes (Stub) | Yes (Stub) | No | No | No | Yes (Stub) | Self | No | No | Yes (Stub) | Yes (Stub) | Limited (PP via Avenue) | Limited (PP via Avenue) |
+| OWR-4 | No | No | No | No | Yes (Stub) | No | No | Self | Yes (Stub) | No | No | No | No |
+| OWR-5 | No | No | No | No | Partial (Puzzle) | No | No | Yes (Stub) | Self | No | No | No | No |
+| RD-4  | Yes (Stub) | Yes (Stub) | Yes (Stub) | No | No | Yes (Stub) | Yes (Stub) | No | No | Self | Yes (Stub) | No | No |
+| RD-6  | No | No | No | No | Yes (Direct to Dual OWR-3) | No | Yes (Stub) | No | No | Yes (Stub) | Self | Partial (Puzzle) | Partial (Puzzle) |
+| TLA-7 | No | No | No | No| Yes (Direct to Dual OWR-3) | No | Limited (PP via Avenue) | No | No | No | Partial (Puzzle) | Self | Yes (Stub) |
+| AVE-6 | No | No | No | No | Yes (Direct to Dual OWR-3) | No | Limited (PP via Avenue) | No | No | No | Partial (Puzzle) | Yes (Stub) | Self |
+{{< /table >}}
+
+#### Orthogonal Transitions to RealHighway (RHW) Networks
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| NETWORK | RHW |
+|---------|:-----:|
+| TLA-3 | Yes (RHW-2) |
+| AVE-2 | Yes (RHW-2) |
+| ARD-3 | Yes (RHW-2/3) |
+| OWR-1 | Yes (MIS) |
+| OWR-3 | Yes (RHW-6S) |
+| NRD-4 | Yes (RHW-2) |
+| TLA-5 | Yes (Dual RHW-4) |
+| OWR-4 | Yes (RHW-8S) |
+| OWR-5 | Yes (RHW-10S) |
+| RD-4  | Yes (Dual RHW-4) |
+| RD-6  | Yes (Dual RHW-6S) |
+| TLA-7 | Yes (RHW-6C) |
+| AVE-6 | Yes (RHW-6C) |
+{{< /table >}}
 
 #### Diagonal Transitions
-
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| NETWORK | TLA-3 | AVE-2 | ARD-3 | OWR-1 | OWR-3 | NRD-4 | Road | One-Way Road |
+|---------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
+| TLA-3 | Self | Partial (Puzzle) | Partial (Puzzle) | No | No | No | Yes (Stub) | No |
+| AVE-2 | Partial (Puzzle)  | Self | Partial (Puzzle) | No | No | No | Yes (Stub)| No | 
+| ARD-3 | Partial (Puzzle)  | Partial (Puzzle) | Self | No | No | No | Yes (Stub)| No | 
+| OWR-1 | No | No | No | Self | No | No | No | Yes (Stub) |
+| OWR-3 | No | No | No | No | Self | No | No | Yes (Stub) |
+| NRD-4 | No | No | No | No | No | Self | No | No |
+| All Other Networks | No | No | No | No | No | No | No | No | No |
+{{< /table >}}
 
 #### Fractional Angle Transitions
 
@@ -83,17 +152,64 @@ Not currently supported.
 
 Not currently supported.
 
-### FLEX Turn Lane Intersection Support
 
 #### Orthogonal x Orthogonal (OxO) Intersections
 
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| Network | T-End Min | T-In Max | OxO Maxis Networks | OxO NWM | OxO GLR/Tram | OxO STR | OxO Draggable Viaducts | OxO L0 RHW | OxO L1-L4/DD RHW | OxO HSR | OxO Dual-Networking | OxO SAM | FLUPs | URail |
+|---------|-----------|----------|--------------------|---------|--------------|---------|------------------------|------------|------------------|---------|---------------------|---------|-------|-------|
+| TLA-3 | 1 | 2 | Yes | Yes | Partial(Urban/Rural Only) | Yes| Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| AVE-2 | 1 | 2 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| ARD-3 | 2 | 3 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| NRD-4 | 2 | 4| Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| OWR-1 | 1 | 1 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| OWR-3 | 3 | 3 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| TLA-5 | 2 | 4 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| RD-4 | 2 | 4 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| RD-6 | 3 | 6 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| OWR-4 | 4 | 4 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| OWR-5 | 5 | 5 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| TLA-7 | 3 | 6 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+| AVE-6 | 3 | 6 | Yes | Yes | Partial(Urban/Rural Only) | Yes | Yes | Partial (RHW-2 and MIS Only) | Yes | Yes | No | Yes | Yes | No |
+{{< /table >}}
 
+#### Diagonal (OxD, DxO, and DxD) Intersections
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| Network | Maxis Networks | NWM | GLR/Tram | STR | Draggable Viaducts | RHW | Any Other NAM Feature |
+|---------|----------------|-----|----------|-----|--------------------|-----|---------------------------|
+| TLA-3 | Partial (No T-Ints) | Partial (No T-Ints) | Partial(Urban/Rural Only) | Yes | No | No | No |
+| AVE-2 | Partial (No T-Ints) | Partial (No T-Ints) | Partial(Urban/Rural Only) | Yes | No | No | No |
+| ARD-3 | Partial (No T-Ints) | Partial (No T-Ints) | Partial(Urban/Rural Only) | Yes | No | No | No |
+| NRD-4 | Partial (No T-Ints) | Partial (No T-Ints) | Partial(Urban/Rural Only) | Yes | No | No | No |
+| OWR-1 | Partial (No T-Ints) | Partial (No T-Ints) | Partial(Urban/Rural Only) | Yes | No | No | No |
+| OWR-3 | Partial (No T-Ints) | Partial (No T-Ints) | Partial(Urban/Rural Only) | Yes | No | No | No |
+| All Other NWM Networks | No | No | No| No | No | No | No |
+{{< /table >}}
 
+### FLEX Turn Lane Intersection Support
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+| Network | Supported Transitions | Supported Direct Intersections |
+|-------|------------------------|---------------------------------|
+| TLA-3 | Yes, Transition to Type 110 | No Direct Intersections |
+| AVE-2 | Yes, Transition to Type 110 | No Direct Intersections |
+| ARD-3 | Yes, Transition to Type 110 | No Direct Intersections |
+| NRD-4 | No Support | No Direct Intersections |
+| OWR-1 | No Support | No Direct Intersections |
+| OWR-3 | No Support | No Direct Intersections |
+| TLA-5 | Yes, Transitions to Type 120 and Type 220 | No Direct Intersections |
+| RD-4 | Yes, Transition to Type 120 | No Direct Intersections |
+| RD-6 | No Support | No Direct Intersections |
+| OWR-4 | No Support | No Direct Intersections |
+| OWR-5 | No Support | No Direct Intersections |
+| TLA-7 | Yes, Transitions to Type 130 and Type 230 | No Direct Intersections |
+| AVE-6 | Yes, Transitions to Type 130 and Type 230 | No Direct Intersections |
+{{< /table >}}
 ### Bridges
 
-> Refer to [the *Bridges* section](/docs/feature-guides/realhighway-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
 
-All RHW networks, with the exception of the 6C and 8C networks, are capable of creating bridges.
+> Refer to [the *Bridges* section](/docs/feature-guides/network-widening-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
+
+All NWM networks, with the exception of the TLA-7 and AVE-6, are capable of creating bridges, though some do not presently support bridges (nor does it make sense for them to support bridges, i.e. TLA networks).
 
 {{< table class="table-bordered nam-compat-status w-auto" >}}
 | NETWORK         | Base Network     |
