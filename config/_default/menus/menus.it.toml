@@ -5,7 +5,7 @@
   url = "/docs/reference/"
 
 [[main]]
-  name = "Feature Guides"
+  name = "Guide alle funzioni"
   weight = 15
   identifier = "feature-guides"
   url = "/docs/feature-guides/"

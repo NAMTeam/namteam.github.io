@@ -21,7 +21,7 @@
   translation: "Opzioni"
 
 - id: font-selection
-  translation: "Font selection"
+  translation: "Selettore Font"
 
 - id: sans-serif
   translation: "Sans serif"
@@ -33,25 +33,25 @@
   translation: "Monospaced"
 
 - id: font-size
-  translation: ""
+  translation: "Dimensioni Font"
 
 - id: line-spacing
-  translation: ""
+  translation: "Interlinea"
 
 # Deprecated shortcode translation
 - id: deprecated-label
-  translation: "DEPRECATED"
+  translation: "DEPRECATO"
 
 - id: deprecated-tooltip
-  translation: "This item is kept for compatibility purposes only. No further development will occur on this item."
+  translation: "Questo articolo viene mantenuto solo a scopo di compatibilità. Non ci saranno ulteriori sviluppi per questo articolo."
 
 # Legacy shortcode translation
 - id: legacy-label
   translation: "LEGACY"
 
 - id: legacy-tooltip
-  translation: "This item has not been updated in some time. Active development on this item is likely to resume in the future."
+  translation: "Questo articolo non viene aggiornato da tempo. È probabile che lo sviluppo attivo di questa voce riprenda in futuro."
 
 # Gallery shortcode translation
 - id: gallery-new-tab
-  translation: "Open image in new tab"
+  translation: "Aprire l'immagine in una nuova scheda"
