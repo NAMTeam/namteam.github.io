@@ -258,4 +258,23 @@ See the [Network Widening Mod Technical Specs Section](../../tech-specs/network-
 6.	TLA-7/AVE-6 Type 130 x TLA-7/AVE-6 Type 130 (a) +-Intersection (b) T-Intersection
 
 **NWM Bridges (found under the Road, One-Way Road, and Avenue Bridges dialogs)**
-
+1. 	NRD-4 Thru Truss (Road-based)
+2. 	OWR-3 Thru Truss (One-Way Road-based)
+3.  RD-4 Blue Steel Girder (Avenue-based)
+4.  RD-4 Brown Steel Girder (Avenue-based)
+5.  RD-4 Red Steel Girder (Avenue-based)
+6.  RD-4 Steel Under Deck Arch (Avenue-based)
+7.  RD-4 Plain (Avenue-based)
+8.  RD-6 Blue Steel Girder (Avenue-based)
+9.  RD-6 Brown Steel Girder (Avenue-based)
+10.  RD-6 Red Steel Girder (Avenue-based)
+11.  RD-6 Steel Under Deck Arch (Avenue-based)
+12.  RD-6 Plain (Avenue-based)
+13.  OWR-4 Blue Steel Girder (Avenue-based)
+14.  OWR-4 Brown Steel Girder (Avenue-based)
+15.  OWR-4 Red Steel Girder (Avenue-based)
+16.  OWR-4 Steel Under Deck Arch (Avenue-based)
+17.  OWR-5 Blue Steel Girder (Avenue-based)
+18.  OWR-5 Brown Steel Girder (Avenue-based)
+19.  OWR-5 Red Steel Girder (Avenue-based)
+20.  OWR-5 Steel Under Deck Arch (Avenue-based)

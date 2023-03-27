@@ -217,7 +217,7 @@ All NWM networks, with the exception of the TLA-7 and AVE-6, are capable of crea
 | TLA-3           |   No support     |
 | AVE-2           |   No support     |
 | ARD-3        	  |   No support     |
-| OWR-1			  | One-Way Road     |
+| OWR-1			  | No support     |
 | OWR-3		      | One-Way Road     |
 | NRD-4			  |   Road		     |
 | TLA-5			  |    No support    |
