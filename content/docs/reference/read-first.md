@@ -63,7 +63,7 @@ More details on installation and compatibility can be found starting [here](#fur
  
 ## New Features for NAM 47
 * **Pedestrian Revolution Mod Features**:
-  - The NAM team is pleased to present the Classic Draggable Pedmalls, courtesy of **Ulisse Wolf** and **Lucario Boricua**. These come in 8 styles, 6 of which are equivalents to the Pedmall Puzzle Pieces, and introducing 2 new designs: the Retrowave Red Brick, inspired in the old brick texture used for the U-Rail in earlier NAM versions, and the Industrial Style, using the concrete surface typical of industrial lots. The initially supported features of these pedmalls include:
+  - The NAM Team is pleased to present the Classic Draggable Pedmalls, courtesy of **Ulisse Wolf** and **Lucario Boricua**. These come in 8 styles, 6 of which are equivalents to the Pedmall Puzzle Pieces, and introducing 2 new designs: the Retrowave Red Brick, inspired in the old brick texture used for the U-Rail in earlier NAM versions, and the Industrial Style, using the concrete surface typical of industrial lots. The initially supported features of these pedmalls include:
     - Multidirectional draggable starter pieces using the Street network, supporting all orthogonal, diagonal, intersection and roundabout configurations, with the exception of wide radius curves.
     - Intersection support (OXO T and 4-way) in the form of mid-block crosswalks. These support Road, Avenue, and all two-way Network Widening Mod override networks (TLA-3, AVE-2, ARD-3, NRD-4, TLA-5, RD-4, RD-6, TLA-7 and AVE-6). These draggable pedmalls are also compatible with the FLEX mid-block crosswalk pieces.
     - Special underground paths enable residential zone development, while crossings discourage car traffic through restricted car paths.
