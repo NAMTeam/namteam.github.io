@@ -208,7 +208,7 @@ Not currently supported.
 ### Bridges
 
 
-> Refer to [the *Bridges* section](/docs/feature-guides/network-widening-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
+> Refer to [the *Bridges* section](/docs/feature-guides/network-widening-mod/#bridges) of the Network Widening Mod feature guide for a list of bridge styles that are available.
 
 All NWM networks, with the exception of the TLA-7 and AVE-6, are capable of creating bridges, though some do not presently support bridges (nor does it make sense for them to support bridges, i.e. TLA networks).
 
@@ -291,7 +291,6 @@ Primarily contains the base single-tile networks.
         <td class="text-center"><code>0x5105</code></td>
         <td>NRD-4</td>
     </tr>
-
     <tr>
         <td class="text-center"><code>0x5106-0x510F</code></td>
         <td>Unused (proposed for elevated usage)</td>
