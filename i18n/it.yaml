@@ -16,6 +16,10 @@
 - id: browse
   translation: "Sfogliare"
 
+# last-modified
+- id: last-modified
+  translation: "Last modified on"
+
 # Reading options menu
 - id: options
   translation: "Opzioni"
