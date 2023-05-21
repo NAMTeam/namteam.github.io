@@ -7,18 +7,16 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 5
 draft: false
 images: []
-url: "docs/reference/frequently-asked-questions"
+url: "docs/getting-started/frequently-asked-questions"
 ---
 
 1. **What is the Network Addon Mod?**
-
-    The Network Addon Mod, or NAM, is a transportation mod for SimCity 4 Deluxe/Rush Hour. It includes options for improved pathfinding accuracy and performance with the game's traffic simulator, as well as a myriad of new transportation network options, and bugfixes for default content. It is basically an exhaustive community-made expansion pack.
-
-2. **What is required to run the NAM?**
-
-    You must be running a retail copy of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion, with a version number of 1.1.638 or higher. For further information, see the compatibility info on the opening page of the documentation. Any computer built since SC4's release in 2003 should have sufficient power to run the NAM, though the use of a 64-bit operating system, at least 4GB RAM, and the NTCore 4GB Patch applied to the game's executable is highly recommended, and necessary to utilize the full feature set of the mod. 
 	
-	The NAM is not compatible with original SimCity 4 (non-Deluxe/without Rush Hour), nor is it intended to run on Deluxe/Rush Hour copies with version numbers of 1.1.610 or 1.1.613, including the EA App/Origin version of the game (also used by EA Play/Xbox Game Pass).
+	If you do not know the answer to this, that means you've skipped the very important [Start Here](/docs/getting-started/start-here) page.
+
+2. **What is the difference between NAM and NAMLite?**
+	
+	NAMLite is a bite-sized package for users looking for a minimal install. Think of NAMLite as a "best hits".
 
 3. **Why is my game crashing to desktop when I load a city tile after installing this mod?**
 
