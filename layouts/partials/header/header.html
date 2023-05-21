@@ -100,25 +100,11 @@
           </button>
           <ul class="dropdown-menu dropdown-menu-lg-end me-lg-2 shadow rounded border-0" aria-labelledby="doks-socials">
             {{ range .Site.Menus.social -}}
-<<<<<<< Updated upstream
             <li>
               <a class="dropdown-item" aria-current="true" href="{{ .URL | relURL }}" class="d-flex"><span class="me-2">{{ .Pre | safeHTML }}</span>{{ .Name | safeHTML }}</a></li>
             {{ end -}}
           </ul>
         </div>
-=======
-            <li><a class="dropdown-item" aria-current="true" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }} {{ .Name | safeHTML }}</a></li>
-            {{ end -}}
-          </ul>
-        </div>
-        <!-- <ul class="nav flex-column flex-lg-row">
-          {{ range .Site.Menus.social -}}
-            <li class="nav-item">
-              <a class="nav-link social-link" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small></a>
-            </li>
-          {{ end -}}
-        </ul> -->
->>>>>>> Stashed changes
 
         {{ if .Site.Params.options.darkMode -}}
         <hr class="text-black-50 my-4 d-lg-none">
