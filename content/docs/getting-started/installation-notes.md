@@ -1,5 +1,5 @@
 ---
-title : "Installation Notes"
+title : "Installation"
 description: "Important installation notes about the Network Addon Mod for SimCity 4."
 lead: ""
 date: 2022-09-06T10:09:26+00:00
@@ -7,88 +7,98 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 2
 draft: false
 images: []
-url: "docs/reference/installation-notes"
+url: "docs/getting-started/installation"
 ---
 
 {{< docstatus status="compatibility" >}}
 
-## Installation Notes
-
-The minimum requirements for running the Network Addon Mod are as follows:
-
-* A compatible retail copy of SimCity 4 Deluxe Edition OR SimCity 4 with the Rush Hour Expansion Pack
-  - **Windows/Linux (via WINE)**: Any digital retail edition **EXCEPT the EA App/Origin Retail Edition** (see [here](#origin-ea-play-xbox-gamepass)), or any disc copy updated to at least Version 1.1.638.
-  - **macOS**: Any recent digital edition of the Aspyr port for macOS (installation on the App Store version is more difficult, and the NAM Team is limited in our capacity to provide installation help to App Store users).
-  - The now-rare non-Deluxe/non-Rush Hour copies of SimCity 4 are not supported.  Attempting to run the NAM on a non-Deluxe/non-Rush Hour copy of SimCity 4 will cause the game to immediately crash to desktop (CTD).
-* Java Runtime Environment (JRE), in order to run the installer--a version for 64-bit Windows is included in the download (OpenJDK11U-jre_x64_windows_hotspot_11.0.8_10.msi).
-  - If you are not on 64-bit Windows and need Java, [Adoptium's open-source edition is recommended](https://adoptium.net/temurin/releases), though JRE and JDK can also be acquired in proprietary/commercial (but free to download) form from Oracle at [https://www.java.com/](https://www.java.com).
-  - The Java Development Kit, or JDK, will also work, but contains extra files not needed unless you are a Java developer.
-* A system with the following specs, for each basic type of NAM installation:
-  - **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space.  (Users running this option cannot install the RealHighway (RHW) features.)
-  - **NAM with a Full 4GB Controller option**: Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space.  If on Windows, **the 4GB Patch must be applied to the game's executable**.
-  - NOTE: Installing the Full 4GB Controller option without meeting the specifications and without the 4GB Patch **will cause the game to crash-to-desktop (CTD) upon attempting to load a city**.  If you experience this crash, it either means your system does not support the Full 4GB Controller option, or there was some form of failure in the 4GB Patch process.
-* Additional Requirement on Mac: (optional for Windows/Linux): [JDatPacker by memo](https://www.sc4devotion.com/forums/index.php?action=tportal;sa=download;dl=item137)
-  - JDatPacker is a tool for consolidating folders of SimCity 4 plugins.  This can speed up the game's performance, and on macOS, this helps alleviate issues with the Aspyr port's known "number of files limit", wherein exceeding a certain number of files/folders within the game's Plugins directory can cause the game to crash.
-* Additional Requirement on on Windows/Linux (if running Full 4GB Controller/RealHighway options): 4GB Patch by NTCore (included in download, automatically installed on Windows with standard installation procedure, and also available at [NTCore](https://ntcore.com/?page_id=371)
-  - See Step 3 (under "On Windows") or [here](#4gb-patch) for more details.
+# Choose from the following...
   
-To install the Network Addon Mod:
+  <details>
 
-* 1) Install the Java Runtime Environment (JRE) (if already installed, skip to Step 2).
-* 2) Remove any existing NAM installations, if present (simply deleting the "a_Network Addon Mod Lite" and/or "Network Addon Mod" folder from the Documents\SimCity 4\Plugins directory is the easiest way).
-* 3) Run the NAM Installer.
+<summary>First Time Installation</summary>
+
+## First Time Installation
+
+* 1) Double check for Sim City 4 version compatibility [here](#version-compatibility)</a>
+
+* 2) Download and unzip the NAM Installer via the button at the top of this website.
+
+* 3) Install the pre-packaged Java Runtime Environment if not already installed. This is found under a file named "OpenJDKxxxx"
+
+* 4) Running the Installer...
   - On Windows:
-	-  If it your first time installing the NAM (or you are installing on a new system/with a new SC4 install), use **NetworkAddonMod_Setup_Version47.bat**.  If you are upgrading from a previous version, or have manually installed the 4GB Patch already (see [here](#4gb-patch)), use **NetworkAddonMod_Setup_Version47.jar**.  (The .bat file has a routine to automate the 4GB Patch installation process, necessary to avoid CTDs if running  the Full 4GB Controller option, which is necessary to use the RealHighway (RHW) features.)
+	-  Use the file **NetworkAddonMod_Setup_Version47.bat**.  This will install a 4GB Patch that allows NAM to run properly in-game.
   - On macOS:
 	- Run NetworkAddonMod_Setup_Version47.jar.
 	- **If on the App Store version**, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
   - On Linux:
 	- Run NetworkAddonMod_Setup_Version47.jar, or, if that fails, run NetworkAddonMod_Setup_Version47.sh.
-* 4) Follow the installer's instructions, clicking on each tab on the top bar in order.
-  - a) Agree to the mod's terms on the initial "welcome" tab to proceed with the installation.
+	
+* 5) Follow the installer's instructions, clicking on each tab on the top bar -- in order!
+  - a) Agree to the mod's terms on the initial "welcome" tab.
   - b) Select the options you would like to install under the "files" tab.
-  - c) Select the install location under the "location" tab.  Unless you have set up an alternate location for your Plugins folder, or happen to be on the Mac App Store version of the game, this should be correct without needing to change it.
+  - c) Select the install location under the "location" tab.  This is typically left unchanged from he default Plugins folder.
   - d) Finally, move to the "install" tab.  Click the "Start installation" button to begin the installation process.  When the installation is complete, the progress screen will display a message, "All selected components installed!".
-  - e) Close the installer, using the "X" button or, on macOS, the red circular button, in the upper right corner of the window.  You're all done installing the mod.
-* 5) **Additional step for Mac users (optional on Windows/Linux)**: run JDatPacker to consolidate the mod's files.
+  - e) Close the installer. You're all done installing.
+  
+* 5a) **Additional step for Mac users (optional on Windows/Linux)**: run JDatPacker to consolidate the mod's files.
   - If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
   - On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
+  
 * 6) Load the game and enjoy the NAM!
-  - If the game crashes on your first attempt to load a city, this means you have the Full 4GB Controller installed, but either have experienced a failure in the 4GB Patch process, or have an incompatible system (not enough RAM and/or a 32-bit operating system).  Either attempt to install the 4GB Patch [manually](#4gb-patch), or choose a less intensive installation option (the Low RAM/No RHW option, or download NAM Lite instead).
-  - Note that if you've never run the NAM before, and you've picked a fuller installation option, the initial load of the game, and of the first city tile you open may be longer--often quite noticeably.  This will shorten with subsequent loads of other cities, or, if you exit and re-enter the game, subsequent re-entries will be quicker.
-  - If you do not see any icons in game, this most likely means your installation ended up in the wrong location. Either reinstall, making sure the files go into your Documents\SimCity 4\Plugins folder (true of Windows and the Steam Mac version), or, if you're on the Mac App Store version, make sure you copy the files into the .app container.
+  
+  </details>
+  
+  <details>
 
-More details on installation and compatibility can be found starting [here](#version-compatibility)</a>
+<summary>Upgrading from a Previous Version</summary>  
 
-## Further Detail on Version Compatibility {#version-compatibility}
+## Upgrading from a Previous Version
 
-The requirements depend on which feature set you choose to install.
+* 1) Move your current NetworkAddonMod folder from your Plugins folder. Do not delete. Your Desktop is a decent place to move it for now. Note: if you have consolidated your NAM files using a tool such as SC4DatPacker or JDatPacker, move the consolidated file.
+* 2) Run the NAM Installer for the new version.
+* 3) Run SimCity4 and test. If you have any issues or wish to revert, simply delete the new "NetworkAddonMod" folder in Plugins and replace with your previously moved folder to restore original functionality. Contact us for more help, if required.
 
-* **NAMLite**: Any system which can run SimCity 4, with 40MB available disk space.
-* **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space. (Users running this option cannot install the RealHighway (RHW) features.)
-* **NAM with a Full 4GB Controller option**: Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space. If on Windows, _the 4GB Patch must be applied to the game's executable_.
+</details>
 
-**Note, however, that Windows users attempting to run the "Full/4GB" Controller options without the 4GB Patch, on a 32-bit version of Windows, and/or have less than 4GB RAM, that the game will crash to desktop (CTD) upon attempting to load a city.** Following the proper installation procedure and ensuring the contents of the download have been extracted from the .zip file will avoid this issue.
+ <details>
 
-Additionally, the addition of any plugins to the game will have at least some effect on initial load times, when first booting the game or a city. The difference may be noticeable if you are going from an unmodded game to one with a large Plugins folder (a full NAM installation will exceed 1GB), especially on lower-end systems. Having at least 8GB RAM, running the game on a solid state drive (SSD), and/or having a CPU with a high clock speed (SimCity 4 was released in 2003, before multi-core CPUs were commonplace outside of servers) all help the game's performance.
+<summary>Version Compatibility & Specs</summary>
 
-**The Network Addon Mod is compatible with the following versions of the game:**
+## Version Compatibility
 
-* A) Retail Windows digital copies of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion Pack (Version 1.1.641), from most digital retailers (i.e. GOG.com, Steam), _excluding copies from Origin, EA Play, and the EA app (which are perma-unpatched to Version 1.1.610)_.
-* B) Retail Windows disc copies of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion Pack, updated to at least Version 1.1.638 (note that disc copies generally do not run on Windows 10).
-* C) Digital Windows copies of SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641).
-* D) Retail Mac digital copies of SimCity 4 Deluxe, purchased through Steam or the App Store. (Note: technical support availability from the NAM Team is limited for Steam version users, and _very limited_ for macOS Store version users.)
-* E) Retail Mac disc copies of SimCity 4 Deluxe, running on macOS/OS X Version 10.6 (Snow Leopard) or earlier Note: technical support availability from the NAM Team _very limited_ for Mac disc version users, and the ability to run Full 4GB/RHW-inclusive installation options is an unknown.).
 
-**The Network Addon Mod is _NOT_ compatible with the following versions of the game:**
+**The Network Addon Mod is compatible with the following versions of the SimCity4 Deluxe/Rush Hour running Version 1.1.641:**
 
-* F) Retail disc copies of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion Pack that have not been patched (Version 1.1.610 or 1.1.613).
-* G) Retail Windows digital copies of SimCity 4 Deluxe purchased from the Origin Store or the EA app (these are perma-unpatched to Version 1.1.610).
-* H) Copies provided through EA Play (formerly Origin Access) or Xbox Game Pass (these are perma-unpatched to Version 1.1.610).
-* I) Retail disc copies of non-Deluxe SimCity 4 (sometimes marketed later as "SimCity 4 Classic"), without the Rush Hour Expansion Pack (Version 1.0.272 or earlier)
-* J) Pirated or cracked copies of SimCity 4 Deluxe OR SimCity 4 with the Rush Hour Expansion Pack.
+{{< table class="w-auto" >}}
+|         | GOG.com    | Steam       | Disc        | EA/Origin/Xbox Game Pass    | Mac App Store | Pirated 
+| ------- | :---:      | :------:    | :---:       | :---:                       | :---:         | :---: 
+| Windows | Yes        | Yes         | Limited¹    | No³                         | N/A           | No    
+| Mac     | N/A        | Yes         | Limited²    | N/A                         | Yes           | No    
+{{< /table >}}
 
-**What should I do if the NAM does not support my copy of the game?**
+<span class="fs-6">**¹** Must be running at *least* Version 1.1.638</span><br>
+<span class="fs-6">**²** Running on macOS/OS X Version 10.6 (Snow Leopard) or earlier</span><br>
+<span class="fs-6">**³** SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641) **is compatible**</span>
+
+**Notes**
+* 1) EA/Origin/Xbox Game Pass is not supported as these versions are unfortunately perma-locked to older versions of the game (Version 1.1.610).
+* 2) Technical support is limited for Mac Steam version users, and _very limited_ for macOS Store version users._
+
+
+## Minimum Specs
+
+  - **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space.  (Users running this option cannot install the RealHighway (RHW) features.)
+  - **NAM with a Full 4GB Controller option**: Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space.  If on Windows, **the 4GB Patch must be applied to the game's executable**.
+  
+  </details>
+
+  <details>
+
+<summary>Troubleshooting</summary>  
+
+## What should I do if the NAM does not support my copy of the game?
 
 The new NAM installer (introduced with the NAM 37 Release Candidate) no longer runs a version check. However, it is strongly recommended that users check the version they are running, as unpatched copies can be unstable. **Version 1.1.610 and Version 1.1.613 are NOT supported.**
 
@@ -109,24 +119,6 @@ Aside from the advanced step of manually signing a device driver for Windows 10,
 Note that cracked executables (i.e. a "No CD" .exe) are not eligible for tech support. The NAM Team does not support piracy, but understands the frustration with the game's original DRM system being blocked by Microsoft, forcing one to buy a new digital copy in order to continue playing. However, the reason why cracked executables are not eligible is for more practical reasons, namely the potential for version mismatches (i.e. a Version 1.1.638 crack with Version 1.1.610/613 .DAT files, or vice-versa), which can greatly complicate the team's efforts to provide useful technical support to users. The [Origin issues](#notice-to-users-who-purchased-a-digital-copy-from-origin-or-use-ea-play-or-xbox-game-pass) played a role in our keeping the version check in place, until the recent installer change in 2020.
 
 Please note that if you are attempting to use an older, 32-bit version of Windows (i.e. Windows XP) in order to still run your disc game, this will substantially hamper the performance of the game with the full NAM installed, and it is highly recommended that you run the game on a 64-bit operating system if you intend to take advantage of the full feature set. If you must run on a 32-bit OS, you will need to either install the new NAMLite package, or, for a mid-sized installation, select one of the "LowRAM/NoRHW" NAM Controller options. (The RealHighway (RHW) system is by far the largest part of the NAM.)
-
-## Various Important Notes
-
-**Note that the NTCore 4GB Patch is REQUIRED** if you are running the Full NAM Controller ("4GB Full" options in the installer), which is required to use the RealHighway (RHW) system. If the installation procedure is begun via NetworkAddonMod_Setup_Version47.bat, as is the new recommended procedure, the 4GB Patch should be automatically applied to the game. Otherwise, the patch can be found inside the download, or downloaded directly from NTCore [here](https://ntcore.com/?page_id=371), where further instructions on use of the patch can be found. Also due to this installer change, the NAM Controller Compiler is no longer run as part of the installation process. Users will have an option to install one of two pre-built NAM Controller options, the Full "4GB" option, which has a substantial size and requires the 4GB Patch and a 64-bit operating system, or a "Low RAM/No RHW" version that does not require the 4GB Patch, and does not include the code for the RealHighway (RHW) system, the most expansive fetaure in the mod. The "Low RAM/No RHW" version should be used by those with 32-bit operating systems (i.e. Windows XP), less than 4GB RAM, and/or by those not using the RHW.
-
-Users wishing to simply use the NAM's Traffic Simulator improvements should install the NAMLite package, which offers easy setup of various minimal options.
-
-The NAM uses a Java-based installer, designed by **daeley**, which is cross-platform (meaning no more separate Mac versions, and Linux support without WINE). As such, the Java Runtime Environment (JRE) is **REQUIRED** to run the NAM installer. It was previous recommended for users wishing to utilize the NAM Traffic Simulator Configuration Tool (TSCT), which has since been discontinued. A Windows 64-bit copy of OpenJDK 11 is included in the download (_OpenJDK11U-jre_x64_windows_hotspot_11.0.8_10.msi_). Other open source distributions of Java can be downloaded from [here](https://adoptopenjdk.net/).
-
-Users who fundamentally object to installing Java (or are unable to for other reasons) can perform a manual install, with patience. Details can be found [here](#manual-installation---advanced)
-
-With the new installer, the old NAM installation is **no longer removed automatically**, so users should manually remove any "a_Network Addon Mod Lite", "Network Addon Mod" and/or "z___NAM" folders from their Plugins directory. If you use the "Cleanup" option under the "Setup" tab, it is highly recommended that you select the "Backup" option upon completion, and "Delete" will in fact delete all those files, making them unrecoverable. **It is recommended that you back those folders up in a location that is not in your Plugins folder**. Presently, all files are now installed to the "Network Addon Mod" directory, or in the case of a NAMLite install, the "a_Network Addon Mod Lite" directory.
-
-The RealRailway (RRW) standard for Rail is now the **default and only option**, unless using NAMLite. One may choose to disable the RRW's more restrictive default slope settings by unselecting the "RRW Tunnel and Slope Parameters" box in the installer, or selecting the more moderate option. The original Maxis Rail specification is available in NAMLite, and may be available to larger installs via a future Legacy Plugin, downloaded separately, at a later date. Also note that a number of cosmetic-oriented NAM plugins, such as the El-Rail Alternate Implementation, the Bullet Train Mod, and some advanced texture options (largely deprecated) have been removed from the installer since NAM 37. The Alternate El-Rail and BTM will be made available separately at a later date. Please note that, much like Maxis Rail, these Plugins are effectively in "Legacy" status, and may not be actively maintained or supported by the NAM Team going forward, though you may choose to retrieve them from a past NAM installation's "z___NAM" folder. Both the original Maxis Highways (MHW) and the "Maxis Highway Override/Project Symphony" (MHO) remain available.
-
-The Station Locator, Updater, and Reconstruction Project (SLURP) is also no longer handled by the new installer. There is ongoing internal discussion about reimplementing SLURP. Users wishing to retain SLURPed stations should retrieve them from the "z___NAM\Mass Transit Lots\Station Overrides" folder in their existing NAM installation, where they will be found in the "Mass Transit Lots" subfolder. **Note that users running the 64-bit version of SimCity 4 on macOS may wish to refrain from retrieving SLURP stations**, as there have been some encoding issues with stations that cause that version of the game to CTD.
-
-The new installer also no longer performs a version check. **Please note, however, that for Windows users, Version 1.1.638 and above are still required**, as Versions 1.1.610 and 1.1.613 have notable instabilities that may have a significant negative impact on the use of this mod. Copies purchased from the Origin Store, the EA App, or accessed via EA Play may still not meet this requirement, and support will not be offered to users with "unofficial" copies of the game.
 
 ## Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass {#origin-ea-play-xbox-gamepass}
 
@@ -161,39 +153,13 @@ With the Steam version, the NAM will install into the correct location by defaul
 
 The NAM Team is not familiar enough with the App Store version to give reliable installation instructions, and we would instead refer users to the [SC4 Mac Users board at Simtropolis](https://community.simtropolis.com/forums/forum/20-sc4-mac-users/) for assistance.
 
-## Preparing to Install The NAM
-
-When one initially extracts the NAM package from the .zip after downloading and opens it, there will be several items present, besides the document you are now reading: several files with different extensions, named "NetworkAddonMod_Setup_Version47" and "NetworkAddonMod_Lite_Setup_Version1", all of which are part of the installation process (depending on your operating system), _4gb_patch.exe_ is the NTCore 4GB Patch, the _Controller Compiler_ folder contains the NAM Controller Compiler, and the Documentation is loose in the folder (and in the "feature-guides", "images", and "old" folders). Note that the Traffic Simulator Configuration Tool (TSCT) has been discontinued, due to the changes in the Traffic Simulator this release.
-
-Before beginning installation, regardless of operating system, **remove your existing NAM installation**, which will be located in the "Network Addon Mod" folder (and if installed pre-2020, may also include a "z___NAM" folder) inside your main Plugins directory. The Cleanup/Cleanitol tab in the installer is not presently set up to remove a full NAM installation, and cannot be relied upon to do so for you.
-
-To begin installation, follow the directions for your operating system:
-
-* On Windows, open **NetworkAddonMod_Setup_Version47.bat** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version3.bat** for NAMLite.
-* On Mac, open **NetworkAddonMod_Setup_Version47.jar** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version3.jar** for NAMLite.
-* On Linux, open **NetworkAddonMod_Setup_Version47.sh** for the full NAM, or **NetworkAddonMod_Lite_Setup_Version3.sh** for NAMLite.
-
-**Simply dumping the files into your Plugins folder WILL NOT install the NAM--you will get no new menu buttons, and will just slow down the game. The installer MUST be run, or the [manual installation procedure](#manual-install---advanced) must be followed.** If you are on Windows, it is recommended that you If User Access Control (UAC) is enabled on your system, Windows may ask you to approve running the file with a simple "Yes"/"No" prompt. Click "Yes" to allow the installer to run.
-
-In order to progress through the installer, simply click on each tab. Note that the license agreement must be agreed to before subsequent tabs can be accessed. The "Cleanup" tab allows one to remove some residual files from old NAM releases, and pre-NAM transit mods that might cause conflicts, and is loaded with the old Cleanitol list that shipped with NAM 36. It is **highly recommended** that you choose the "Backup" option instead of "Delete" after doing so, as "Delete" will completely wipe out the files, as the label implies. Note that it presently is not capable of removing an entire NAM installation, which should be done manually prior to installing a new release.
-
-For more details on the installation process and options, see [the installation section of the NAM documentation](#installer-options).
-
-## Upgrading from a Previous Version
-
-If you are upgrading from a previous version of the NAM, **MANUALLY MOVE YOUR OLD NAM INSTALLATION OUT FROM YOUR PLUGINS FOLDER, INTO A SAFE LOCATION (note that this has changed from previous NAM releases).**. The NAM installer can no longer detect your previous installation options by reading the existing folder structure. It is recommended that you check your existing installation, to determine which features you presently have installed.
-
-Generally speaking, the NAM Team makes every effort to ensure that new versions at least retain some form of "legacy support", such that cities built with any previous NAM version will continue to function well with the latest version.
-
-If you have consolidated your NAM files using a tool such as SC4DatPacker or JDatPacker, please read [here](#regarding-datpacking-and-file-consolidation-post-installation).
-
-### A Note About Drive Side (RHD vs. LHD)
+## A Note About Drive Side (RHD vs. LHD)
 
 While the NAM Installer, as noted above, has a series of checkboxes in Custom Installation relating to drive side, it is worth re-iterating that these boxes **only change the compatibility files installed with the NAM, and do NOT change drive side**. If you have an installation with Right-Hand Driving (RHD, vehicles driving on the right side of roads--this concept is **NOT** the same as the side one sits on when driving a vehicle) and wish to switch to Left-Hand Driving (LHD, vehicles driving on the left side of roads), this generally needs to be done either by adjusting the game's locale files, and then either editing the game's Windows registry entries, or by modifying the game's shortcut.
 
 The new NAM Installer cannot determine default drive side of your installation, so make note of which side vehicles drive on in your game prior to installation. If you have changed your drive side by modifying the game's shortcut, instead of editing the Windows registry, then this would be the **one and only case when changing the box checked here would be needed**.
 
-### A Note About the "4GB Patch" {#4gb-patch}
+## A Note About the "4GB Patch" {#4gb-patch}
 
 Due to changes in computer systems, and continued expansions of the NAM's main Controller file, in 2013, it was determined that many newer systems, particularly those with more than 4GB of RAM, and running 64-bit versions of Windows, need additional accommodation. To that end, the NAM includes a "4GB Patch", also known as a "Large Address Aware (LAA) Patch", which allows the game to access the full 4GB of RAM that a 32-bit application can read, instead of the default 2GB. The NAM's patch was designed by NTCore, and built into the NAM with permission, and users with systems that need the patch will receive a prompt during NAM installation to install it. The original patch can be found [here](http://www.ntcore.com/4gb_patch.php).
 
@@ -275,3 +241,7 @@ The NAM Team only provides support and allows distribution of the most recent NA
 Users wanting a smaller feature set, due to technical limitations, or unfamiliarity with the NAM's vast options, should instead seek to install NAMLite, or fewer options in the current NAM, potentially coupled with the "Low RAM/No RHW" option, .
 
 Users wishing to hold onto old versions should back them up in their personal archives. Note again that no technical support will be provided for this, nor may any user or site redistribute any old versions.
+
+</details>
+
+# When you're done installing, it's on to the [Basics](/docs/getting-started/in-game-basics)

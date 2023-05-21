@@ -1,18 +1,24 @@
 [[main]]
-  name = "Reference"
+  name = "Getting Started"
   weight = 10
+  identifier = "start"
+  url = "/docs/getting-started/"
+
+[[main]]
+  name = "Reference"
+  weight = 15
   identifier = "namdocs"
   url = "/docs/reference/"
 
 [[main]]
   name = "Feature Guides"
-  weight = 15
+  weight = 20
   identifier = "feature-guides"
   url = "/docs/feature-guides/"
 
 [[main]]
   name = "Download the NAM"
-  weight = 20
+  weight = 25
   identifier = "download"
   url = "/download-the-nam/"
 
