@@ -93,13 +93,18 @@
         {{ end -}}
 
         <hr class="text-black-50 my-4 d-lg-none">
-        <ul class="nav flex-column flex-lg-row">
-          {{ range .Site.Menus.social -}}
-            <li class="nav-item">
-              <a class="nav-link social-link" href="{{ .URL | relURL }}">{{ .Pre | safeHTML }}<small class="ms-2 d-lg-none">{{ .Name | safeHTML }}</small></a>
-            </li>
-          {{ end -}}
-        </ul>
+        <div class="dropdown">
+          <button class="btn btn-doks-light dropdown-toggle" id="doks-socials" data-bs-toggle="dropdown" aria-expanded="false" data-bs-display="static">
+            Support
+            <span class="dropdown-caret"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-lg-end me-lg-2 shadow rounded border-0" aria-labelledby="doks-socials">
+            {{ range .Site.Menus.social -}}
+            <li>
+              <a class="dropdown-item" aria-current="true" href="{{ .URL | relURL }}" class="d-flex"><span class="me-2">{{ .Pre | safeHTML }}</span>{{ .Name | safeHTML }}</a></li>
+            {{ end -}}
+          </ul>
+        </div>
 
         {{ if .Site.Params.options.darkMode -}}
         <hr class="text-black-50 my-4 d-lg-none">
