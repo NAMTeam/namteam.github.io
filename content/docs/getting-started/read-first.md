@@ -43,4 +43,4 @@ To avoid running into issues in-game, it's very important your computer is setup
 2. Running the NAM installer
 3. Installing the "4GB Patch".
 
-# Lets get going with the [Installation](/docs/getting-started/installation)
+# Let's get going with the [Installation](/docs/getting-started/installation)!

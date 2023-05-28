@@ -34,7 +34,7 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 * **Rural Roads (RuRP)** - Asphalt streets in the middle of nowhere? Don't think so. Add rural roads for a scenic route or mountain pass!
 
 ### _Rail Networks_
-* **High Speed Rail** - Build elevated monorails around your city's busiest areas.
+* **High Speed Rail** - Build monorails (elevated and/or ground level) around your city's busiest areas.
 * **Hybrid Rail** - A combo rail network that allows both heavy and high-speed traffic.
 * **Light Rail** - An urban/suburban network, along the lines of tram or streetcars.
 * **RealRailway** - A complete rail network replacement (with redesigned tracks!). This is the meat and potatoes, making the vanilla game drive like it's on rails!
