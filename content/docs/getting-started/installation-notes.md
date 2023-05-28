@@ -66,7 +66,7 @@ url: "docs/getting-started/installation"
 
 <summary>Version Compatibility & Specs</summary>
 
-## Version Compatibility
+### Version Compatibility
 
 
 **The Network Addon Mod is compatible with the following versions of the SimCity4 Deluxe/Rush Hour running Version 1.1.641:**
@@ -87,18 +87,19 @@ url: "docs/getting-started/installation"
 * 2) Technical support is limited for Mac Steam version users, and _very limited_ for macOS Store version users._
 
 
-## Minimum Specs
+### Minimum Specs
 
   - **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space.  (Users running this option cannot install the RealHighway (RHW) features.)
   - **NAM with a Full 4GB Controller option**: Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space.  If on Windows, **the 4GB Patch must be applied to the game's executable**.
   
-  </details>
+</details>
 
-  <details>
-
+<details>
 <summary>Troubleshooting</summary>  
 
-## What should I do if the NAM does not support my copy of the game?
+## Troubleshooting
+
+### What should I do if the NAM does not support my copy of the game?
 
 The new NAM installer (introduced with the NAM 37 Release Candidate) no longer runs a version check. However, it is strongly recommended that users check the version they are running, as unpatched copies can be unstable. **Version 1.1.610 and Version 1.1.613 are NOT supported.**
 
@@ -120,7 +121,7 @@ Note that cracked executables (i.e. a "No CD" .exe) are not eligible for tech su
 
 Please note that if you are attempting to use an older, 32-bit version of Windows (i.e. Windows XP) in order to still run your disc game, this will substantially hamper the performance of the game with the full NAM installed, and it is highly recommended that you run the game on a 64-bit operating system if you intend to take advantage of the full feature set. If you must run on a 32-bit OS, you will need to either install the new NAMLite package, or, for a mid-sized installation, select one of the "LowRAM/NoRHW" NAM Controller options. (The RealHighway (RHW) system is by far the largest part of the NAM.)
 
-## Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass {#origin-ea-play-xbox-gamepass}
+### Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass {#origin-ea-play-xbox-gamepass}
 
 Aside from a brief period in 2014-2015, Origin and the EA App, the digital retail platforms run by Electronic Arts (EA), have been selling copies of SimCity 4 Deluxe featuring an unpatched and unpatchable version of the game's executable file to retail customers. As of the release of NAM 47, this is still the case. Unlike the retail versions sold by GOG.com and Steam (and previously Amazon's "Thin Game Download" version), which come prepatched to Version 1.1.641, the edition sold on the Origin Store and the EA App (also used by the EA Play subscription service), features a Version 1.1.610 executable, mixed with Version 1.1.641 versions of the SimCity_1-5.dat files. By virtue of switching out the original SafeDisc copy protection for their own DRM, EA/Origin altered the checksum of the game's executable, thereby preventing EA's own EP1 Update 1 (Version 1.1.638) and BAT Nightlighting/EP1 Update 2 (Version 1.1.640) patchers from properly updating the executable. It also appears to be more difficult to apply the 4GB Patch with the EA App version, which is needed in order to run a full NAM installation.
 
@@ -139,7 +140,7 @@ In short:
 
 For a more detailed assessment of the Origin situation, NAM developer Tarkus has written extensively on the subject at his blog, [SimTarkus](https://simtarkus.wordpress.com/category/origin/).
 
-## Note to Mac Users {#mac}
+### Note to Mac Users {#mac}
 
 Aspyr issued an update to their port of SimCity 4 Deluxe for macOS, updating it from a 32-bit app to a 64-bit one on both Steam and the App Store, allowing it to be compatible with macOS Catalina (10.15) and later. This change has introduced a number of quirks, however.
 
@@ -153,13 +154,13 @@ With the Steam version, the NAM will install into the correct location by defaul
 
 The NAM Team is not familiar enough with the App Store version to give reliable installation instructions, and we would instead refer users to the [SC4 Mac Users board at Simtropolis](https://community.simtropolis.com/forums/forum/20-sc4-mac-users/) for assistance.
 
-## A Note About Drive Side (RHD vs. LHD)
+### A Note About Drive Side (RHD vs. LHD)
 
 While the NAM Installer, as noted above, has a series of checkboxes in Custom Installation relating to drive side, it is worth re-iterating that these boxes **only change the compatibility files installed with the NAM, and do NOT change drive side**. If you have an installation with Right-Hand Driving (RHD, vehicles driving on the right side of roads--this concept is **NOT** the same as the side one sits on when driving a vehicle) and wish to switch to Left-Hand Driving (LHD, vehicles driving on the left side of roads), this generally needs to be done either by adjusting the game's locale files, and then either editing the game's Windows registry entries, or by modifying the game's shortcut.
 
 The new NAM Installer cannot determine default drive side of your installation, so make note of which side vehicles drive on in your game prior to installation. If you have changed your drive side by modifying the game's shortcut, instead of editing the Windows registry, then this would be the **one and only case when changing the box checked here would be needed**.
 
-## A Note About the "4GB Patch" {#4gb-patch}
+### A Note About the "4GB Patch" {#4gb-patch}
 
 Due to changes in computer systems, and continued expansions of the NAM's main Controller file, in 2013, it was determined that many newer systems, particularly those with more than 4GB of RAM, and running 64-bit versions of Windows, need additional accommodation. To that end, the NAM includes a "4GB Patch", also known as a "Large Address Aware (LAA) Patch", which allows the game to access the full 4GB of RAM that a 32-bit application can read, instead of the default 2GB. The NAM's patch was designed by NTCore, and built into the NAM with permission, and users with systems that need the patch will receive a prompt during NAM installation to install it. The original patch can be found [here](http://www.ntcore.com/4gb_patch.php).
 
@@ -178,11 +179,11 @@ The default directory for where SimCity 4.exe may be located depends on how and 
 
 **Note that only Origin copies acquired through Free CD Key Redemption (Version 1.1.641) are compatible with the NAM. Copies purchased through the Origin Store or accessed via Origin Access (Version 1.1.610) ARE NOT COMPATIBLE. See [here](#origin-ea-play-xbox-gamepass) for more details**.
 
-## Uninstalling the NAM
+### Uninstalling the NAM
 
 To uninstall the files, simply bulldoze every NAM item from this download in your cities and remove the files from the Plugins folder afterwards, which will be contained in _`Plugins\Network Addon Mod`_ by default.
 
-## Changing Options After Initial Installation
+### Changing Options After Initial Installation
 
 The NAM is a very expansive mod, with a substantial number of features, which may initially prove overwhelming to those not well-versed in its workings. The NAM Team anticipates that users, particularly those new to the NAM, may want to change the feature set they have installed, as they learn more about the mod's contents and capabilities.
 
