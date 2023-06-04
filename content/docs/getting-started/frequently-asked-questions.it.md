@@ -7,20 +7,18 @@ lastmod: 2022-09-06T10:09:26+00:00
 weight: 5
 draft: false
 images: []
-url: "docs/reference/frequently-asked-questions"
+url: "docs/getting-started/frequently-asked-questions"
 ---
 
-
+{{< docstatus status="untranslated" >}}
 
 1. **Che cos'è il Network Addon Mod?**
 
-    Il Network Addon Mod, o NAM, è un mod di trasporto per SimCity 4 Deluxe/Rush Hour. Include opzioni per migliorare l'accuratezza del pathfinding e le prestazioni con il simulatore di traffico del gioco, oltre a una miriade di nuove opzioni per le reti di trasporto e a correzioni di bug per i contenuti predefiniti. Si tratta in pratica di un pacchetto di espansione completo realizzato dalla comunità.
-	
-2. **Che cosa è necessario per eseguire il NAM?**
+   	Se non conoscete la risposta a questa domanda, significa che avete saltato l'importantissima pagina [Inizia Qui](/docs/getting-started/start-here).
 
-    È necessario utilizzare una copia retail di SimCity 4 Deluxe O SimCity 4 con l'espansione Ora di punta, con un numero di versione 1.1.638 o superiore. Per ulteriori informazioni, consultare le informazioni sulla compatibilità nella pagina iniziale della documentazione. Qualsiasi computer costruito a partire dall'uscita di SC4 nel 2003 dovrebbe avere potenza sufficiente per eseguire la NAM, anche se l'uso di un sistema operativo a 64 bit, di almeno 4 GB di RAM e della patch NTCore 4GB applicata all'eseguibile del gioco è altamente raccomandato e necessario per utilizzare tutte le funzionalità della mod. 
-	
-	La NAM non è compatibile con SimCity 4 originale (non Deluxe/senza Rush Hour), né è destinata a funzionare su copie Deluxe/Rush Hour con numero di versione 1.1.610 o 1.1.613, compresa la versione EA App/Origin del gioco (utilizzata anche da EA Play/Xbox Game Pass).
+2. **Qual è la differenza tra NAM e NAMLite?**
+
+    NAMLite è un pacchetto di dimensioni ridotte per gli utenti che desiderano un'installazione minima. Considerate NAMLite come un "best hits".
 	
 3. **Perché il gioco si blocca sul desktop quando carico una città dopo aver installato questa mod?**
 
@@ -44,7 +42,7 @@ url: "docs/reference/frequently-asked-questions"
 
 7. **Che cosa comprende il NAM?**
 
-    Si veda la pagina [Content Overview](/docs/content-overview) per un breve sguardo e la sezione completa [Features](/docs/features) di questa documentazione per uno sguardo più approfondito. I contenuti dell'ultima versione si trovano nella sezione [History](/docs/history).
+    Si veda la pagina [Panoramica dei contenuti](/docs/content-overview) per un breve sguardo e la sezione completa [Features](/docs/features) di questa documentazione per uno sguardo più approfondito. I contenuti dell'ultima versione si trovano nella sezione [History](/docs/history).
 
 8. **Questa mod è stabile?**
 
@@ -180,7 +178,7 @@ url: "docs/reference/frequently-asked-questions"
 	
 38. **Perché non è possibile costruire intersezioni diagonali con alcune strade, viali e strade a senso unico più ampie?**
 
-  A partire dalla NAM 46, sono ora possibili intersezioni e incroci diagonali a 4 vie ("+") tra le reti Network Widening Mod (NWM) a singola tessera (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3 e NRD-4) e tutte le reti di base del gioco, oltre a Ground Light Rail (GLR), Single-Track Rail (STR) e tutte le altre reti NWM a singola tessera.  Le intersezioni a 3 vie ("T") non sono attualmente disponibili, così come le opzioni di intersezione o attraversamento diagonale per le reti NWM a più mattonelle.
+    A partire dalla NAM 46, sono ora possibili intersezioni e incroci diagonali a 4 vie ("+") tra le reti Network Widening Mod (NWM) a singola tessera (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3 e NRD-4) e tutte le reti di base del gioco, oltre a Ground Light Rail (GLR), Single-Track Rail (STR) e tutte le altre reti NWM a singola tessera.  Le intersezioni a 3 vie ("T") non sono attualmente disponibili, così come le opzioni di intersezione o attraversamento diagonale per le reti NWM a più mattonelle.
   
 39. **Quando verrà rilasciata la prossima versione di NAM?**
 

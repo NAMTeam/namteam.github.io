@@ -89,7 +89,8 @@
   height: 0;
 }
 
-button#doks-languages {
+button#doks-languages,
+button#doks-socials {
   margin: 0.25rem 0 0;
 
   @include media-breakpoint-up(lg) {
