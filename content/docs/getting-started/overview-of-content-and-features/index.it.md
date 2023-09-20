@@ -21,7 +21,7 @@ Oltre ai nuovi elementi che NAM vi _dà_, ci sono alcune cose importanti che _ca
 * **Vista dati** - Con tutti i nuovi elementi e le nuove funzioni di NAM, è importante tenerli tutti sotto controllo. Per questo motivo NAM presenta una versione migliorata della visualizzazione dei volumi di traffico.
 * **Nuovi strumenti** - Come già accennato in precedenza, NAM è dotato di una serie di potenti strumenti (scavatori e cancellatori) che offrono maggiori funzionalità nel gioco.  
 
-![NAM Overview](images/Overview.jpg)
+{{< img-simple src="images/Overview.jpg" >}}
 
 ## CONTENUTO
 
