@@ -21,7 +21,7 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 * **Data View** - With all the new elements and features in NAM, it's important to stay on top of them all. Therefore NAM features an improved version of the Traffic Volume View.
 * **New Tools** - As previously mentioned, NAM comes with it's own set of powerful tools (Hole Diggers and Erasers) giving you more powerful functionality in-game.  
 
-![NAM Overview](images/Overview.jpg)
+{{< img-simple src="images/Overview.jpg" >}}
 
 ## CONTENT
 

@@ -6,9 +6,10 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
+weight: 10
 ---
 <!-- markdownlint-disable MD045 -->
-![](images/20yearsSC4.jpg)
+{{< img-simple src="20yearsSC4.jpg">}}
 
 Thank you for downloading the **Network Addon Mod (NAM)** for SimCity 4 Deluxe (or SimCity 4 with Rush Hour Expansion).
 

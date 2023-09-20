@@ -9,7 +9,7 @@ images: []
 weight: 10
 ---
 <!-- markdownlint-disable MD045 -->
-![](images/20yearsSC4.jpg)
+{{< img-simple src="20yearsSC4.jpg">}}
 
 Grazie per aver scaricato il **Network Addon Mod (NAM)** per SimCity 4 Deluxe (o SimCity 4 con l'espansione Rush Hour).
 

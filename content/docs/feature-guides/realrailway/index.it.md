@@ -18,7 +18,7 @@ The **RealRailway** or **(RRW)** is the new standard for rail transport in the N
 
 The RealRailway began with "mini-curves", which were to replace the existing Maxis curves and turnouts with a more realistic minimum curve radius:
 
-![RRW minimum curve radius diagram](images/RRW-Minimum-Curve-Radius.jpg)  
+{{< img-simple src="images/RRW-Minimum-Curve-Radius.jpg" caption="RRW minimum curve radius diagram">}}
 
 Numerous other improvements followed including:
 
@@ -29,7 +29,7 @@ The founder of the project, **Swordmaster**, determined the best way to make rea
 
 The following is a snapshot from the initial 2013 RealRailway documentation which demonstrates the rationale for the shift to the RRW standard:  
 
-![RRW Development Rationale](images/RRW-Development-Rationale.jpg)  
+{{< img-simple src="images/RRW-Development-Rationale.jpg" caption="RRW Development Rationale">}}
 
 Notice how the road pieces line up with the real life road networks but the _Maxis_ Rail does not!  
 
@@ -43,7 +43,7 @@ RealRailway is a complete replacement of the rail network.  Basic double-track r
 
 An explanation of the RRW menu icons is given below.
 
-![RRW Icons](images/RealRailway-RailwayAddonMod-Icons.jpg)
+{{< img-simple src="images/RealRailway-RailwayAddonMod-Icons.jpg" caption="RRW Icons">}}
 
 ## FlexTrack
 
@@ -71,33 +71,33 @@ The patterns and resultants are shown below.
 
 At the start of the TAB loop for FLEX-Pieces there are a number of Pieces called _macro_-curves and switches. These are switches with wider geometry than previously-developed _mini_-curves which occupy a similar footprint. The curves and switches are offered as FLEX only due to the drag patterns arlready being used for the mini-curves. Macro-curves and switches are quite flexible in that drawing the rail tool through the piece placed down can make an array of different switches as shown in the table below.
 
-![RRW macro-curve switch chart](images/FlexTrack/macro-curves/macro-switch-chart.jpg)
+{{< img-simple src="images/FlexTrack/macro-curves/macro-switch-chart.jpg" caption="RRW macro-curve switch chart">}}
 
 ### Fractional Angle Railroad (FARR)
 
-![Screenshot of RealRailway FARR](images/RRW-FARR.jpg)
+{{< img-simple src="images/RRW-FARR.jpg" caption="Screenshot of RealRailway FARR">}}
 
 Fractional Angle Rail Road (**FARR**) is the angled sections of track that conform to three angles which compiment the orthogonal (0 degrees) and diagional (45 degrees). They are FARR-3 (18.43 degrees), FARR-2 (26.56 degrees) and FARR-1.5 (33.69 degrees). FARR was originally developed to use drag patterns as the means of creation, however, the majority these patterns were replaced by FLEX piece implementation with NAM 37.  FARR Flex piece usage and remaining drag patterns are documented in this section.
 
 #### FARR Flex Piece Usage
 
-![FARR Flex Piece Usage](images/flextrack/FARR/RRW-FARR-Demonstration.jpg)
+{{< img-simple src="images/flextrack/FARR/RRW-FARR-Demonstration.jpg" caption="FARR Flex Piece Usage">}}
 
 #### FARR-2 Drag Patterns
 
 FARR-2 G2 Turnout
 
-![Drag pattern FARR-2 G2 Turnout](images/FlexTrack/FARR/FA-2/G2-T-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-2/G2-T-P.jpg" caption="Drag pattern FARR-2 G2 Turnout">}}
 
 #### FARR-1.5 Drag Patterns
 
 FARR-1.5 to Diagonal
 
-![Drag pattern FARR-1.5 to diagonal](images/FlexTrack/FARR/FA-1.5/FA-1.5-D-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-1.5/FA-1.5-D-P.jpg" caption="Drag pattern FARR-1.5 to diagonal">}}
 
 FARR-1.5 J2 Turnout
 
-![Drag pattern FARR-1.5 J2 turnout](images/FlexTrack/FARR/FA-1.5/J2-T-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-1.5/J2-T-P.jpg" caption="Drag pattern FARR-1.5 J2 turnout">}}
 
 #### FARR-2 Alt
 
@@ -105,19 +105,19 @@ The FARR-2 Alt has the same angle as the normal FARR-2 but has a different base 
 
 FARR-2 Alt Straight
 
-![Drag pattern FARR-2 alt straight](images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-P.jpg" caption="Drag pattern FARR-2 alt straight">}}
 
 FARR-2 Alt to Orthogonal
 
-![Drag pattern FARR-2 alt to orthogonal](images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-O-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-O-P.jpg" caption="Drag pattern FARR-2 alt to orthogonal">}}
 
 FARR-2 Alt to Diagonal
 
-![Drag pattern FARR-2 alt to diagonal](images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-D-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-D-P.jpg" caption="Drag pattern FARR-2 alt to diagonal">}}
 
 FARR-2 Alt G2 Turnout
 
-![Drag pattern FARR-2 alt G2 turnout](images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-G2-P.jpg)
+{{< img-simple src="images/FlexTrack/FARR/FA-2-Alt/Alt-FA-2-G2-P.jpg" caption="Drag pattern FARR-2 alt G2 turnout">}}
 
 ### Turnouts
 
@@ -127,71 +127,62 @@ The turnouts and switches come in all sorts of forms and there are a range of tu
 
 #### A Class Turnouts
 
-![](images/flextrack/turnouts/A/A1-P.jpg)
-
-![](images/flextrack/turnouts/A/A1-T1-Dual-P.jpg)
-
-![](images/flextrack/turnouts/A/A1-Dual-P.jpg)
-
-![](images/flextrack/turnouts/A/A2-P.jpg)
-
-![](images/flextrack/turnouts/A/A2-Dual-P.jpg)
-
-![](images/flextrack/turnouts/A/A2-T2-P.jpg)
-
-![](images/flextrack/turnouts/A/A2-T3-P.jpg)
-
-![](images/flextrack/turnouts/A/A2-X-P.jpg)
-
-![](images/flextrack/turnouts/A/A2-D-P.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/turnouts/A/A1-P.jpg
+    images/flextrack/turnouts/A/A1-T1-Dual-P.jpg
+    images/flextrack/turnouts/A/A1-Dual-P.jpg
+    images/flextrack/turnouts/A/A2-P.jpg
+    images/flextrack/turnouts/A/A2-Dual-P.jpg
+    images/flextrack/turnouts/A/A2-T2-P.jpg
+    images/flextrack/turnouts/A/A2-T3-P.jpg
+    images/flextrack/turnouts/A/A2-X-P.jpg
+    images/flextrack/turnouts/A/A2-D-P.jpg
+{{< /gallery >}}
 
 #### B Class Turnouts
 
-![](images/flextrack/turnouts/B/B1-P.jpg)
-
-![](images/flextrack/turnouts/B/B2-R2-P.jpg)
-
-![](images/flextrack/turnouts/B/B2-R3-P.jpg)
-
-![](images/flextrack/turnouts/B/B1-D-P.jpg)
-
-![](images/flextrack/turnouts/B/B2-T2-P.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/turnouts/B/B1-P.jpg
+    images/flextrack/turnouts/B/B2-R2-P.jpg
+    images/flextrack/turnouts/B/B2-R3-P.jpg
+    images/flextrack/turnouts/B/B1-D-P.jpg
+    images/flextrack/turnouts/B/B2-T2-P.jpg
+{{< /gallery >}}
 
 #### C Class Turnouts
 
-![](images/flextrack/turnouts/C/C1-P.jpg)
-
-![](images/flextrack/turnouts/C/C2-P.jpg)
-
-![](images/flextrack/turnouts/C/C2-FA3-P.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/turnouts/C/C1-P.jpg
+    images/flextrack/turnouts/C/C2-P.jpg
+    images/flextrack/turnouts/C/C2-FA3-P.jpg
+{{< /gallery >}}
 
 #### D Class Turnouts
 
-![](images/flextrack/turnouts/D/D1-P.jpg)
-
-![](images/flextrack/turnouts/D/D2-P.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/turnouts/D/D1-P.jpg
+    images/flextrack/turnouts/D/D2-P.jpg
+{{< /gallery >}}
 
 #### E Class Turnouts
 
-![](images/flextrack/turnouts/E/E1-P.jpg)
-
-![](images/flextrack/turnouts/E/E2-P.jpg)
-
-![](images/flextrack/turnouts/F_Combination/CC-R2S-R3-P.jpg)
-
-![](images/flextrack/turnouts/F_Combination/CC-R3-R2-P.jpg)
-
-![](images/flextrack/turnouts/F_Combination/D2-CC-P.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/turnouts/E/E1-P.jpg
+    images/flextrack/turnouts/E/E2-P.jpg
+    images/flextrack/turnouts/F_Combination/CC-R2S-R3-P.jpg
+    images/flextrack/turnouts/F_Combination/CC-R3-R2-P.jpg
+    images/flextrack/turnouts/F_Combination/D2-CC-P.jpg
+{{< /gallery >}}
 
 #### FARR-2 Alt Turnouts
 
 The small complex turnouts compliments the FARR-2 Alt with turnout setups that cross DTR with both STR and DTR variants. Upgrading to DTR involves drawing through the middle points as shown by the red arrow.  
 
-![](images/flextrack/turnouts/S/ST-3-P.jpg)
-
-![](images/flextrack/turnouts/S/ST-O-P.jpg)
-
-![](images/flextrack/turnouts/S/ST-D-P.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/turnouts/S/ST-3-P.jpg
+    images/flextrack/turnouts/S/ST-O-P.jpg
+    images/flextrack/turnouts/S/ST-D-P.jpg
+{{< /gallery >}}
 
 ---;
 
@@ -203,19 +194,22 @@ Elevated RealRailway (**ERRW**) is the draggable implementation of heavy rail vi
 
 Switching between ground level (L0) RRW and ERRW is accomplished using FLEX transition pieces found in the _Draggable Elevated Railways (ERRW)_ menu.  
 
-![](images/ERRW/Draggable-Elevated-Railways-ERRW_menu.jpg)
+{{< img-simple src="images/ERRW/Draggable-Elevated-Railways-ERRW_menu.jpg">}}
 
 #### Usage Notes  
 
 The rail is not to be drawn through the transition but to the stub at each end shown in the pictures below...
 
-![](images/rrw-orth-transition-stubs.jpg)  ![](images/rrw-diag-transition-stubs.jpg)
+{{< gallery col-xl="2" col-lg="2" col-md="1" >}}
+    images/rrw-orth-transition-stubs.jpg
+    images/rrw-diag-transition-stubs.jpg
+{{< /gallery >}}
 
 White represents the adjoining stub connections while Black represents the network you want to cross.  
 
 Upon a successful draw you should see something like this...
 
-![](images/rrw-successful-draw.jpg)
+{{< img-simple src="images/rrw-successful-draw.jpg">}}
 
 This is the preview of the ERRW before placing it. Previews are in-place for the majority of the ERRW.
 
@@ -227,20 +221,20 @@ Orthogonal on-slope transitions support the following configurations:
 - L1 to L2  (_8m embankment_)
 - L0 to L1  (_7.5m embankment_)
 
-![](images/ERRW/OST-Orthogonal.jpg)
+{{< img-simple src="images/ERRW/OST-Orthogonal.jpg">}}
 
 Diagonal on-slope transitions support the following configurations:
 
 - L0 to L2 (_15.5m embankment_)
 - L0 to L1 (_7.5m embankment_)
 
-![](images/rrw-diag-transition.jpg)
+{{< img-simple src="images/rrw-diag-transition.jpg">}}
 
 #### Ramp-style Transitions  
 
 It is also possible to transition from RRW to ERRW using ramp-style transitions.
 
-![](images/ERRW/ERRW-Ramp-HT.jpg)  
+{{< img-simple src="images/ERRW/ERRW-Ramp-HT.jpg">}}
 
 ### Curves and Turnouts
 
@@ -248,18 +242,24 @@ As mentioned above the R1, R2 and R3 curves can have overrides at each level for
 
 R1 Curve  
 
-![](images/flextrack/errw/7-0.jpg)
-![](images/flextrack/errw/7-1.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/errw/7-0.jpg
+    images/flextrack/errw/7-1.jpg
+{{< /gallery >}}
 
 R2 Curve  
 
-![](images/flextrack/errw/8-0.jpg)
-![](images/flextrack/errw/8-1.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/errw/8-0.jpg
+    images/flextrack/errw/8-1.jpg
+{{< /gallery >}}
 
 R3 Curve  
 
-![](images/flextrack/errw/9-0.jpg)
-![](images/flextrack/errw/9-1.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/errw/9-0.jpg
+    images/flextrack/errw/9-1.jpg
+{{< /gallery >}}
 
 MiniCurves
 
@@ -267,28 +267,34 @@ Some Minicurves and Mini Turnouts can be override to have elevated turnouts. Onl
 
 A2 Turnout  
 
-![](images/flextrack/errw/A-0.jpg)
-![](images/flextrack/errw/A-1.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/errw/A-0.jpg
+    images/flextrack/errw/A-1.jpg
+{{< /gallery >}}
 
 B2 Turnout
 
-![](images/flextrack/errw/B-0.jpg)
-![](images/flextrack/errw/B-1.jpg)
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/errw/B-0.jpg
+    images/flextrack/errw/B-1.jpg
+{{< /gallery >}}
 
 A2 Wye Turnout  
 
-![](images/flextrack/errw/C-0.jpg)
-![](images/flextrack/errw/C-1.jpg)  
+{{< gallery col-xl="1" col-lg="1" col-md="1" >}}
+    images/flextrack/errw/C-0.jpg
+    images/flextrack/errw/C-1.jpg
+{{< /gallery >}}
 
 ### Crossings
 
 When crossing other networks a rail piece MUST! be placed on the concerning tile if you are crossing a non-rail network. This is due to the fact that rail code must be present in the network. Level crossing (LX) overridden by the ERRW are exempt however. A picture of what you should do is shown below...
 
-![](images/flextrack/errw/D.jpg)
+{{< img-simple src="images/flextrack/errw/D.jpg">}}
 
 Of course this action is not needed if the network being crossed is the Rail network itself.
 
-![](images/flextrack/errw/E.jpg)
+{{< img-simple src="images/flextrack/errw/E.jpg">}}
 
 #### Crossing Support
 
