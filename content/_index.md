@@ -7,11 +7,10 @@ lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
 ---
-
+<!-- markdownlint-disable MD045 -->
 ![](images/20yearsSC4.jpg)
 
-
-Thank you for downloading the **Network Addon Mod (NAM)** for SimCity 4 Deluxe (or SimCity 4 with Rush Hour Expansion). 
+Thank you for downloading the **Network Addon Mod (NAM)** for SimCity 4 Deluxe (or SimCity 4 with Rush Hour Expansion).
 
 The NAM is a comprehensive transportation mod, adding the equivalent of multiple expansion packs worth of new transportation content to the game. In addition to fixes to the game's traffic simulation and base network features, it adds countless new features to the existing network tools, such as new overpasses, highway on-ramps, intersections, wider roadways, pedestrian malls, draggable ground light rail, roundabouts, and turning lanes, among many other features.
 

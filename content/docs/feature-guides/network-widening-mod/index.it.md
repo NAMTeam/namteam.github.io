@@ -8,7 +8,7 @@ draft: false
 images: []
 url: "docs/feature-guides/network-widening-mod"
 ---
-
+<!-- markdownlint-disable MD001 MD051 -->
 {{< docstatus status="untranslated" >}}
 
 <div class="row mx-0 g-1">
@@ -20,7 +20,7 @@ url: "docs/feature-guides/network-widening-mod"
     <div class="col text-center">{{< img-simple src="images/nwmteaser4.jpg" class="" >}}</div>
 </div>
 
-##  Installing the NWM from the NAM Installer
+## Installing the NWM from the NAM Installer
 
 The Network Widening Mod (NWM) is installed as part of the "Network Widening Mod and Turn Lanes" option, under "2 Additional Network Features > Road, One-Way Road, and Avenue". The NAM's various turn lane options are also installed under this section. The [FLEX Turn Lanes (FTLs) and QuickTurn features](../turning-lanes#flex-turn-lanes-ftl) are designed specifically for use with the NWM. Note that the Legacy Turn Lane options (Avenue and Road) are not designed for use with the NWM.
 
@@ -56,7 +56,7 @@ There are three total TLA networks presently included in the NWM (note that the 
 
 {{< img-simple src="images/nwm-tla-networks.jpg" clickable="true" >}}
 
-####  Avenues (AVE) [Road-based]
+#### Avenues (AVE) [Road-based]
 
 The Avenues, or AVEs, are Road-based (not Avenue-based--though as of NAM 46, the AVE-6 _can_ be built by using overlapping Avenues for orthogonal stretches) override networks that include a landscaped median divider, much like the game's default 4-lane Avenue network. Unlike the TLAs, the AVEs do not allow direct access to buildings and lots on the far side of the network.
 
@@ -118,7 +118,7 @@ The Direct Connection Method is generally used to transition between an override
 
 {{< img-simple src="images/dragtrans2.jpg" clickable="true" >}}
 
-#### Puzzle Piece Method {{< legacy >}} 
+#### Puzzle Piece Method {{< legacy >}}
 
 The Puzzle Piece Method entails using the items found under the NWM Transition Puzzle Pieces button. To create a transition, simply find the desired puzzle piece from the menu, aligning the preview to where one wishes to place it, and clicking to plop the piece. Note that some of the puzzle-based transitions do not have NWM Starters on their ends, and the base network setup must be built before plopping the puzzle piece.
 
@@ -167,117 +167,123 @@ Note, however, that these catalog speeds are for 25% of catalog capacity, and th
 
 See the [Network Widening Mod Technical Specs Section](../../tech-specs/network-widening-mod).
 
-##  List of Menu Items
+## List of Menu Items
 
 **NWM Starters**
-1.	TLA-3 Orthogonal Starter / Diagonal Starter
-2.	AVE-2 Orthogonal Starter / Diagonal Starter
-3.	ARD-3 Orthogonal Starter / Diagonal Starter
-4.	NRD-4 Orthogonal Starter
-5.	OWR-1 Orthogonal Starter / Diagonal Starter
-6.	OWR-3 Orthogonal Starter / Diagonal Starter
-7.	TLA-5 Orthogonal Starter
-8.	RD-4 Orthogonal Starter
-9.	RD-6 Orthogonal Starter
-10.	OWR-4 Orthogonal Starter
-11.	OWR-5 Orthogonal Starter
-12.	TLA-7 Orthogonal Starter
-13.	AVE-6 Orthogonal Starter
 
+1. TLA-3 Orthogonal Starter / Diagonal Starter
+2. AVE-2 Orthogonal Starter / Diagonal Starter
+3. ARD-3 Orthogonal Starter / Diagonal Starter
+4. NRD-4 Orthogonal Starter
+5. OWR-1 Orthogonal Starter / Diagonal Starter
+6. OWR-3 Orthogonal Starter / Diagonal Starter
+7. TLA-5 Orthogonal Starter
+8. RD-4 Orthogonal Starter
+9. RD-6 Orthogonal Starter
+10. OWR-4 Orthogonal Starter
+11. OWR-5 Orthogonal Starter
+12. TLA-7 Orthogonal Starter
+13. AVE-6 Orthogonal Starter
 
 **NWM Multi-Radius Curve Pieces**
-1.	Road R2 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
-2.	Road R3 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
-3.	Road R4 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
-4.	Road R5 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
-5.	Dual-Tile R3 45° (Supports TLA-5, RD-6)
-6.	Dual-Tile R4 45° (Supports TLA-5, RD-6)
-7.	Dual-Tile R5 45° (Supports TLA-5, RD-6)
-8.	Shared Dual-Tile R3 45° (Supports RD-4)
-9.	Shared Dual-Tile R4 45° (Supports RD-4)
-10.	Shared Dual-Tile R5 45° (Supports RD-4)
+
+1. Road R2 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
+2. Road R3 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
+3. Road R4 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
+4. Road R5 45° (Supports TLA-3, AVE-2, ARD-3, and NRD-4)
+5. Dual-Tile R3 45° (Supports TLA-5, RD-6)
+6. Dual-Tile R4 45° (Supports TLA-5, RD-6)
+7. Dual-Tile R5 45° (Supports TLA-5, RD-6)
+8. Shared Dual-Tile R3 45° (Supports RD-4)
+9. Shared Dual-Tile R4 45° (Supports RD-4)
+10. Shared Dual-Tile R5 45° (Supports RD-4)
 
 **NWM Wide-Radius Curve Pieces**
-1.	TLA-3 S-Curve
-2.	TLA-3 45-Degree Curve
-3.	TLA-3 90-Degree Curve (Large)
-4.	TLA-3 90-Degree Curve (Small)
-5.	AVE-2 S-Curve
-6.	AVE-2 45-Degree Curve
-7.	AVE-2 90-Degree Curve (Large)
-8.	AVE-2 90-Degree Curve (Small)
-9.	ARD-3 S-Curve
-10.	ARD-3 45-Degree Curve
-11.	ARD-3 90-Degree Curve (Large)
-12.	ARD-3 90-Degree Curve (Small)
+
+1. TLA-3 S-Curve
+2. TLA-3 45-Degree Curve
+3. TLA-3 90-Degree Curve (Large)
+4. TLA-3 90-Degree Curve (Small)
+5. AVE-2 S-Curve
+6. AVE-2 45-Degree Curve
+7. AVE-2 90-Degree Curve (Large)
+8. AVE-2 90-Degree Curve (Small)
+9. ARD-3 S-Curve
+10. ARD-3 45-Degree Curve
+11. ARD-3 90-Degree Curve (Large)
+12. ARD-3 90-Degree Curve (Small)
 
 **NWM Transition Puzzle Pieces**
-1.	Road-to-TLA-3 Transition
-2.	Road-to-AVE-2 Transition
-3.	Road-to-ARD-3 Transition
-4.	Road-to-NRD-4 Transition
-5.	OWR-1-to-2 Transition
-6.	OWR-2-to-3 Transition
-7.	TLA-3-to-AVE-2 Transition
-8.	TLA-3-to-ARD-3 Transition
-9.	AVE-2-to-ARD-3 Transition
-10.	Road-to-TLA-3 Transition Diagonal
-11.	Road-to-AVE-2 Transition Diagonal
-12.	Road-to-ARD-3 Transition Diagonal
-13.	OWR-1-to-2 Diagonal Transition
-14.	OWR-2-to-3 Diagonal Transition
-15.	Road-to-AVE-2 Transition Type B*
-16.	AVE-4-to-AVE-2 Transition
-17.	TLA-3-to-ARD-3 Transition Diagonal*
-18.	TLA-3-to-AVE-2 Transition Diagonal*
-19.	AVE-2-to-ARD-3 Transition Diagonal*
-20.	RD-4 to AVE-4 Transition Type A
-21.	RD-4 to AVE-4 Transition Type B*
-22.	Rd-4 to TLA-5 Transition 
-23.	RD-4 to RD-6 Transition
-24.	RD-6 to AVE-4 Transition Type A
-25.	RD-6 to AVE-4 Transition Type B*
-26.	RD-6 to TLA-5 Transition 
-27.	TLA-5 to AVE-4 Transition 
-28.	OWR-3 to OWR-4 Transition 
-29.	OWR-3 to OWR-5 Transition*
-30.	OWR-4 to OWR-5 Transition
-31.	AVE-4 to AVE-6 Transition*
-32.	TLA-7 to AVE-6 Transition
+
+1. Road-to-TLA-3 Transition
+2. Road-to-AVE-2 Transition
+3. Road-to-ARD-3 Transition
+4. Road-to-NRD-4 Transition
+5. OWR-1-to-2 Transition
+6. OWR-2-to-3 Transition
+7. TLA-3-to-AVE-2 Transition
+8. TLA-3-to-ARD-3 Transition
+9. AVE-2-to-ARD-3 Transition
+10. Road-to-TLA-3 Transition Diagonal
+11. Road-to-AVE-2 Transition Diagonal
+12. Road-to-ARD-3 Transition Diagonal
+13. OWR-1-to-2 Diagonal Transition
+14. OWR-2-to-3 Diagonal Transition
+15. Road-to-AVE-2 Transition Type B*
+16. AVE-4-to-AVE-2 Transition
+17. TLA-3-to-ARD-3 Transition Diagonal*
+18. TLA-3-to-AVE-2 Transition Diagonal*
+19. AVE-2-to-ARD-3 Transition Diagonal*
+20. RD-4 to AVE-4 Transition Type A
+21. RD-4 to AVE-4 Transition Type B*
+22. Rd-4 to TLA-5 Transition
+23. RD-4 to RD-6 Transition
+24. RD-6 to AVE-4 Transition Type A
+25. RD-6 to AVE-4 Transition Type B*
+26. RD-6 to TLA-5 Transition
+27. TLA-5 to AVE-4 Transition
+28. OWR-3 to OWR-4 Transition
+29. OWR-3 to OWR-5 Transition*
+30. OWR-4 to OWR-5 Transition
+31. AVE-4 to AVE-6 Transition*
+32. TLA-7 to AVE-6 Transition
 
 **NWM Neighbor Connector Pieces**
-1.	TLA-5 Neighbor Connector
-2.	RD-4 Neighbor Connector
-3.	RD-6 Neighbor Connector
-4.	TLA-7 Neighbor Connector
-5.	AVE-6 Neighbor Connector
+
+1. TLA-5 Neighbor Connector
+2. RD-4 Neighbor Connector
+3. RD-6 Neighbor Connector
+4. TLA-7 Neighbor Connector
+5. AVE-6 Neighbor Connector
 
 **NWM Triple-Tile Network Turn Lane Extension Pieces (TuLEPs)**
-1.	TLA-7/AVE-6 Type 130 Transition
-2.	TLA-7/AVE-6 Type 130 TuLEP
-3.	TLA-7/AVE-6 Type 130 Blank TuLEP
-4.	TLA-7/AVE-6 Type 130 x Avenue Type 120 (a) +-Intersection (b) T-Intersection
-5.	TLA-7/AVE-6 Type 130 x Road Type 110 (a) +-Intersection (b) T-Intersection
-6.	TLA-7/AVE-6 Type 130 x TLA-7/AVE-6 Type 130 (a) +-Intersection (b) T-Intersection
+
+1. TLA-7/AVE-6 Type 130 Transition
+2. TLA-7/AVE-6 Type 130 TuLEP
+3. TLA-7/AVE-6 Type 130 Blank TuLEP
+4. TLA-7/AVE-6 Type 130 x Avenue Type 120 (a) +-Intersection (b) T-Intersection
+5. TLA-7/AVE-6 Type 130 x Road Type 110 (a) +-Intersection (b) T-Intersection
+6. TLA-7/AVE-6 Type 130 x TLA-7/AVE-6 Type 130 (a) +-Intersection (b) T-Intersection
 
 **NWM Bridges (found under the Road, One-Way Road, and Avenue Bridges dialogs)**
-1. 	NRD-4 Thru Truss (Road-based)
-2. 	OWR-3 Thru Truss (One-Way Road-based)
-3.  RD-4 Blue Steel Girder (Avenue-based)
-4.  RD-4 Brown Steel Girder (Avenue-based)
-5.  RD-4 Red Steel Girder (Avenue-based)
-6.  RD-4 Steel Under Deck Arch (Avenue-based)
-7.  RD-4 Plain (Avenue-based)
-8.  RD-6 Blue Steel Girder (Avenue-based)
-9.  RD-6 Brown Steel Girder (Avenue-based)
-10.  RD-6 Red Steel Girder (Avenue-based)
-11.  RD-6 Steel Under Deck Arch (Avenue-based)
-12.  RD-6 Plain (Avenue-based)
-13.  OWR-4 Blue Steel Girder (Avenue-based)
-14.  OWR-4 Brown Steel Girder (Avenue-based)
-15.  OWR-4 Red Steel Girder (Avenue-based)
-16.  OWR-4 Steel Under Deck Arch (Avenue-based)
-17.  OWR-5 Blue Steel Girder (Avenue-based)
-18.  OWR-5 Brown Steel Girder (Avenue-based)
-19.  OWR-5 Red Steel Girder (Avenue-based)
-20.  OWR-5 Steel Under Deck Arch (Avenue-based)
+
+1. NRD-4 Thru Truss (Road-based)
+2. OWR-3 Thru Truss (One-Way Road-based)
+3. RD-4 Blue Steel Girder (Avenue-based)
+4. RD-4 Brown Steel Girder (Avenue-based)
+5. RD-4 Red Steel Girder (Avenue-based)
+6. RD-4 Steel Under Deck Arch (Avenue-based)
+7. RD-4 Plain (Avenue-based)
+8. RD-6 Blue Steel Girder (Avenue-based)
+9. RD-6 Brown Steel Girder (Avenue-based)
+10. RD-6 Red Steel Girder (Avenue-based)
+11. RD-6 Steel Under Deck Arch (Avenue-based)
+12. RD-6 Plain (Avenue-based)
+13. OWR-4 Blue Steel Girder (Avenue-based)
+14. OWR-4 Brown Steel Girder (Avenue-based)
+15. OWR-4 Red Steel Girder (Avenue-based)
+16. OWR-4 Steel Under Deck Arch (Avenue-based)
+17. OWR-5 Blue Steel Girder (Avenue-based)
+18. OWR-5 Brown Steel Girder (Avenue-based)
+19. OWR-5 Red Steel Girder (Avenue-based)
+20. OWR-5 Steel Under Deck Arch (Avenue-based)

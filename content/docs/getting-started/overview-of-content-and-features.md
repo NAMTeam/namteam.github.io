@@ -26,14 +26,16 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 ## CONTENT
 
 ### _Roads, Streets and Highways_
-* **RealHighway (RHW)** - Most folks install NAM just for these highways, it's the main attraction! RHW adds an entire new realm of potential for creating highway networks, completely replacing the original Maxis highways, adding huge multi-lane options, overpasses, ramps, elevations... 
+
+* **RealHighway (RHW)** - Most folks install NAM just for these highways, it's the main attraction! RHW adds an entire new realm of potential for creating highway networks, completely replacing the original Maxis highways, adding huge multi-lane options, overpasses, ramps, elevations...
 * **RealExpressway  (REW)** - Just like the RHW, RealExpressway adds ramps and slip-roads to the Road network, bringing the same flexibility to your cities and towns.
 * **Network Widening Mod** - Ever needed something more than a road or avenue but not a highway? Introducing the Network Widening Mod, extending the game's base road networks by providing different widths!
 * **Pedestrian Addon Mod (PRM)** - Introduce pedestrian crossings and malls! This revolutionary new feature gets your sims out of cars and on their feet or on a bike.
-* **Street Addon Mod (SAM)** - The game shipped with only one grey street. This mod adds parking lots, gravel tracks, dirt paths, brick and cobblestone streets and a lot more. 
+* **Street Addon Mod (SAM)** - The game shipped with only one grey street. This mod adds parking lots, gravel tracks, dirt paths, brick and cobblestone streets and a lot more.
 * **Rural Roads (RuRP)** - Asphalt streets in the middle of nowhere? Don't think so. Add rural roads for a scenic route or mountain pass!
 
 ### _Rail Networks_
+
 * **High Speed Rail** - Build monorails (elevated and/or ground level) around your city's busiest areas.
 * **Hybrid Rail** - A combo rail network that allows both heavy and high-speed traffic.
 * **Light Rail** - An urban/suburban network, along the lines of tram or streetcars.
@@ -41,6 +43,7 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 * **Underground Rail** - Create subways and other below-ground rail networks for passengers and freight.
 
 ### _Infrastructure_
+
 * **Bridges & Viaducts** - Over 130 new variations of Bridges to choose from! Anything from small brick road viaducts to huge steel railway suspension bridges!
 * **Canals** - Functional canals (they act the same as buses behind the scenes) add a whole new dimension to a city. You could make Venice!
 * **Stations** - Add more variety to your railways with all new stations - supporting elevated networks, too.
@@ -48,5 +51,6 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 * **Roundabouts** - All roads lead to this. Draw or plop all-new roundabouts on roads, avenues and even highways and ease the congestion.
 
 ### _Other Content_
+
 * **Maxis Highway Override** - Enjoy the ease of pre-built, complicated junctions like the old Maxis highways had? This new feature brings that feature back, but this time supported NAM's superior RHW.
 * **Turning Lanes & Cosmetic Additions** - Use ploppable (and flexible!) pieces to add lanes with turning arrows in your roads and highways. Additionally, a separate cosmetic option allows you to drop down turning arrows on almost all roads.

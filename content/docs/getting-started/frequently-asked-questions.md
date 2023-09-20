@@ -9,14 +9,14 @@ draft: false
 images: []
 url: "docs/getting-started/frequently-asked-questions"
 ---
-
+<!-- markdownlint-disable MD029 -->
 1. **What is the Network Addon Mod?**
-	
-	If you do not know the answer to this, that means you've skipped the very important [Start Here](/docs/getting-started/start-here) page.
+
+ If you do not know the answer to this, that means you've skipped the very important [Start Here](/docs/getting-started/start-here) page.
 
 2. **What is the difference between NAM and NAMLite?**
-	
-	NAMLite is a bite-sized package for users looking for a minimal install. Think of NAMLite as a "best hits".
+
+ NAMLite is a bite-sized package for users looking for a minimal install. Think of NAMLite as a "best hits".
 
 3. **Why is my game crashing to desktop when I load a city tile after installing this mod?**
 
@@ -26,9 +26,9 @@ url: "docs/getting-started/frequently-asked-questions"
 
 4. **Does this mod work on a Mac?**
 
-    Yes. The NAM is a cross-platform mod, with a cross-platform Java installer. Being cross-platform, it will run on macOS, provided Java has been installed. The version of Java included in this package is for Windows users, so it will not work for you. Instead, go to [Adoptium](https://adoptium.net/) or [Oracle](https://www.java.com/) to download a Mac version of Java. Also, since Aspyr updated the Mac port of SimCity 4 to be a 64-bit application (and as of January 2023, has also implemented Apple Silicon support), the 4GB Patch is NOT required for Mac users. 
-	
-	One quirk to note is that NAM network items in TAB Loops will require the user to press Ctrl-TAB or Ctrl-Shift-TAB to cycle through, rather than the mere TAB or Shift-TAB on other operating systems (or the earlier Mac version), in order to access all the items available under each menu button.
+    Yes. The NAM is a cross-platform mod, with a cross-platform Java installer. Being cross-platform, it will run on macOS, provided Java has been installed. The version of Java included in this package is for Windows users, so it will not work for you. Instead, go to [Adoptium](https://adoptium.net/) or [Oracle](https://www.java.com/) to download a Mac version of Java. Also, since Aspyr updated the Mac port of SimCity 4 to be a 64-bit application (and as of January 2023, has also implemented Apple Silicon support), the 4GB Patch is NOT required for Mac users.
+
+ One quirk to note is that NAM network items in TAB Loops will require the user to press Ctrl-TAB or Ctrl-Shift-TAB to cycle through, rather than the mere TAB or Shift-TAB on other operating systems (or the earlier Mac version), in order to access all the items available under each menu button.
 
 5. **How much hard drive space will the NAM require?**
 
@@ -61,8 +61,8 @@ url: "docs/getting-started/frequently-asked-questions"
 12. **How do EA and Maxis feel about this mod? Is it legal?**
 
     The NAM is 100% legal, and Maxis was extremely supportive of our efforts. Maxis employee Frank Simon (AKA MaxisFrank) actually encouraged NAM co-founder **the7trumpets** to undertake modification of the traffic simulator, as the company could not issue a patch themselves, due to the need to still meet the published minimum technical requirements.
-	
-	EA is currently using a series of screenshots featuring the NAM on their official page for SimCity 4 (though ironically, the version for sale on that page is the EA App version, which features a Version 1.1.610 executable and is not supported by the NAM).
+
+    EA is currently using a series of screenshots featuring the NAM on their official page for SimCity 4 (though ironically, the version for sale on that page is the EA App version, which features a Version 1.1.610 executable and is not supported by the NAM).
 
 13. **What is this CAM thing? Is it related to the NAM?**
 

@@ -11,10 +11,11 @@ draft: false
 images: []
 url: "docs/getting-started/in-game-basics"
 ---
+<!-- markdownlint-disable MD025 -->
 
 # TRASCINABILE, PLOPPABILE!
 
-Proprio come molti altri elementi di Sim City 4, le numerose opzioni del NAM si utilizzano "trascinando" o "ploppando". 
+Proprio come molti altri elementi di Sim City 4, le numerose opzioni del NAM si utilizzano "trascinando" o "ploppando".
 
 _In parole povere: trascinare un'autostrada, bloccare un incrocio! Vi sembra familiare?
 
@@ -30,7 +31,7 @@ Nel menu di NAM si trovano le seguenti icone/categorie. Più avanti vedremo dove
 * **PEZZI INIZIALI** - Elemento piazzabile che **_fa_** da override, dicendo al gioco di ignorare lo strumento predefinito e di usare invece il pezzo iniziale scelto. Ad esempio, si può inserire un singolo pezzo iniziale di autostrada a 4 corsie e poi trascinarlo con lo strumento autostrada per costruire un'autostrada a 4 corsie! Facile.
 * **PEZZI FLESSIBILI (FLEX)** - Un altro elemento precostruito e plasmabile, che **_si_sopravvive**. Ad esempio, avete costruito un'autostrada ma ora volete aggiungere una strada di scorrimento o una rampa. Si può inserire una rampa in un pezzo flessibile direttamente in cima al progetto e questa si adatterà al progetto stesso. In alternativa, trascinate un pezzo e si aggiornerà. Flessibile, non trovate?
 * **STRUMENTO PER BUCHI/ALZATORI**  - Un semplice strumento che permette di scavare una buca (per i tunnel) o di sollevare il terreno (per i ponti).
-* **GOMMA PER CANCELLARE** - A differenza dello strumento standard "Bulldozer" del gioco, la Gomma di NAM consente una distruzione minima! Cancella una tessera alla volta. 
+* **GOMMA PER CANCELLARE** - A differenza dello strumento standard "Bulldozer" del gioco, la Gomma di NAM consente una distruzione minima! Cancella una tessera alla volta.
 * **LOTTI ABILITATI AL TRANSITO** - Un pezzo che accetta più di un tipo di rete. Ad esempio, una stazione di transito, che consente ai sims di passare da un treno a una passeggiata.
 
 ### USANDO IL MENU
@@ -39,6 +40,6 @@ Nel menu di NAM si trovano le seguenti icone/categorie. Più avanti vedremo dove
 
 I tasti **HOME** e **END** permettono di ruotare il pezzo sulla mappa, proprio come gli edifici.
 
-(__Attenzione agli utenti di Steam__: L'overlay di Steam è impostato per utilizzare la combinazione di tasti **Shift-TAB** per impostazione predefinita. Attraverso il client di Steam, dovrete cambiare la combinazione di tasti per l'overlay o disabilitarla del tutto per poter utilizzare il ciclo all'indietro attraverso i cicli TAB).
+(**Attenzione agli utenti di Steam**: L'overlay di Steam è impostato per utilizzare la combinazione di tasti **Shift-TAB** per impostazione predefinita. Attraverso il client di Steam, dovrete cambiare la combinazione di tasti per l'overlay o disabilitarla del tutto per poter utilizzare il ciclo all'indietro attraverso i cicli TAB).
 
 # Ora diamo un'occhiata a cosa c'è nella [Panoramica](/docs/getting-started/overview-of-content-and-features)

@@ -9,12 +9,12 @@ draft: false
 images: []
 url: "docs/getting-started/start-here"
 ---
-
+<!-- markdownlint-disable MD025 -->
 ## Cos'è il Network Addon Mod?
 
-Il Network Addon Mod, o NAM, è un mod di trasporto per SimCity 4 Deluxe/Rush Hour. 
-In particolare, NAM introduce centinaia di nuove opzioni di rete, tra cui autostrade, ferrovie, ponti, centri pedonali e molto altro ancora. 
-Inoltre, la mod migliora notevolmente il simulatore di traffico del gioco, portando un nuovo livello di precisione e prestazioni. 
+Il Network Addon Mod, o NAM, è un mod di trasporto per SimCity 4 Deluxe/Rush Hour.
+In particolare, NAM introduce centinaia di nuove opzioni di rete, tra cui autostrade, ferrovie, ponti, centri pedonali e molto altro ancora.
+Inoltre, la mod migliora notevolmente il simulatore di traffico del gioco, portando un nuovo livello di precisione e prestazioni.
 
 ## Da dove inizio?
 

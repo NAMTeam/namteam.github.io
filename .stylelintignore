@@ -1,3 +1,6 @@
 assets/scss/components/_syntax.scss
 assets/scss/vendor
+assets/scss/common
+assets/scss/layouts
+assets/scss/components
 node_modules

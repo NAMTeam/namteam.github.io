@@ -8,7 +8,7 @@ draft: false
 images: []
 url: "docs/feature-guides/realhighway-mod"
 ---
-
+<!-- markdownlint-disable MD051 -->
 {{< docstatus status="workinprogress" >}}
 {{< docstatus status="untranslated" >}}
 
@@ -20,6 +20,7 @@ url: "docs/feature-guides/realhighway-mod"
 {{< /gallery >}}
 
 ## Installing the RealHighways from the NAM Installer
+
 A  complete install of the RealHighway plugin is one of the features included by default in the NAM Installer. There is a whole section dedicated to the RealHighways and related optional features.
 
 Under the "_2 Additional Network Features_" section, selecting the "_RealHighway_" box will install the mod in its entirety. Deselecting any of the other boxes under this section should only be done by advanced users who are manually compiling a NAM Controller to exclude certain RHW networks.
@@ -57,10 +58,10 @@ The following networks are included as part of the RealHighway mod.
 | RHW-3 | 3-lane RealHighway | 1 (Two-Way) |
 | MIS Ramp | Modular Interchange System Ramp | 1 (One-Way) 2 (Two-Way) |
 | RHW-4 | 4-lane RealHighway | 1 (One-Way) 2 (Two-Way) |
-| RHW-6S | 6-lane Separable RealHighway | 1* (One-Way) 2* (Two-Way) |
+| RHW-6S | 6-lane Separable RealHighway | 1*(One-Way) 2* (Two-Way) |
 | RHW-8S | 8-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
 | RHW-10S | 10-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
-| RHW-12S | 12-lane Separable RealHighway | 2* (One-Way) 4* (Two-Way) |
+| RHW-12S | 12-lane Separable RealHighway | 2*(One-Way) 4* (Two-Way) |
 | RHW-6C | 6-lane Combined RealHighway | 3 (Two-Way) |
 | RHW-8C | 8-lane Combined RealHighway | 3 (Two-Way) |
 {{< /table >}}
@@ -217,10 +218,11 @@ At the core of the RealHighway's Modular Interchange System are the **Ramp Inter
 {{< img-simple src="images/rhw-rampinterface-anatomy.jpg" >}}
 
 There are three possible ways to construct Ramp Interfaces:
+
 * {{< menu-icon icon="images/icons/rhw-flexramps-button" caption="FLEXRamps, which are ploppable, generally slope-tolerant, and conform to match the surrounding network via overrides. These can be found under the \"FLEXRamps\" button." >}}
 * {{< menu-icon caption="Draggable Ramp Interfaces (DRI), which are Pattern-Based Draggable items, built by dragging the RealHighway network tool according to a specific pattern. Like the FLEXRamps, these will conform to match the surrounding network via overrides." >}}
-* {{< menu-icon icon="images/icons/rhw-old-ramps-button" caption="Puzzle Piece Ramp Interfaces, which are conventional static puzzle pieces, many of which have starters attached to their ends. As these are static ploppables, they will not conform to the surrounding network, and one must select the specific puzzle piece for the desired network. This option is largely considered to be deprecated/outdated, with the exception of the few more specialized setups that have yet to receive FLEXRamp or DRI treatments. These can be found under the \"Ramps\" button." >}} 
-    
+* {{< menu-icon icon="images/icons/rhw-old-ramps-button" caption="Puzzle Piece Ramp Interfaces, which are conventional static puzzle pieces, many of which have starters attached to their ends. As these are static ploppables, they will not conform to the surrounding network, and one must select the specific puzzle piece for the desired network. This option is largely considered to be deprecated/outdated, with the exception of the few more specialized setups that have yet to receive FLEXRamp or DRI treatments. These can be found under the \"Ramps\" button." >}}
+
 Note that there are some types of ramps that may only be possible through a certain construction method. FLEXRamps and DRIs are the preferred method for most ramp interfaces, and are the only option for most ramps involving elevated RealHighway networks. The puzzle piece method does presently contain a few specialized types that have not been made into FLEXRamp or DRI setups, however. A full listing of capabilities can be found [here](/docs/feature-guides/realhighway-mod/#network-and-flex-piece-capabilities), and there is also a listing of all [ploppable items (including FLEX and Puzzle Pieces)](/docs/feature-guides/realhighway-mod/#list-of-menu-items). More details on constructing each type can be found below.
 
 In order to use a ramp interface to connect a RealHighway to one's surface network, first, build the desired ramp interface. Then, from the end of the branch, simply drag the RealHighway network tool out from it, just like using a starter piece. The network will convert to match the ramp. From there, simply continue dragging in the desired pattern, adding curves and transitions as necessary, and intersect the surface street with an At-Grade Crossing. (Note that the Fractional Angle ramps, Types C and F, do not support dragging, and the appropriate Fractional Angle RealHighway (FARHW) puzzle pieces must be used instead.)
@@ -319,6 +321,7 @@ Below is a list of the modifiers:
 * **FA**: This designation indicates that the mainline is at a fractional angle rather than orthogonal. The branch angles are handled the same as if the ramp were orthogonal (i.e. an orthogonal ramp branch off an FA ramp interface would still be an A or D-type ramp of some sort).
 
 ##### Using FLEXRamps
+
 FLEXRamps are ploppable FLEX on/offramp pieces, and are perhaps the easiest to navigate option to branch ramps off one's RealHighway system. The FLEXRamp pieces may be found under the FLEXRamps button on the Highways menu. To use the FLEXRamps, simply find the desired ramp design, and plop it down. Each FLEXRamp has a default network, but will convert to match if one drags another RHW override network through it, or plops the ramp over an existing stretch of an RHW override network. The process is shown below (the process of overriding the base setup of the Draggable Ramp Interfaces is identical):
 
 {{< img-simple src="images/rhw-flexramp-override.jpg">}}
@@ -631,7 +634,6 @@ Below is a list of all the bridges presently available. Maxis Ground Highway-bas
     images/bridges/rhw4-bridges-4.jpg
 {{< /gallery >}}
 
-
 #### RHW-6S Bridges
 
 * Concrete Box Girder RHW-6S Bridge
@@ -702,7 +704,6 @@ Not possible due to terrain engine restriction. You will need to switch to 2xRHW
 ### Tunnels
 
 The base RealHighway network **does NOT support tunnels**. While certain slope settings may permit a tunnel to appear, it will be completely non-functional, due to hardcoded limitations that prevent traffic from using it. There is no known solution to this limitation at present. The only possible workaround at present is to transition to another network that does support tunnels, or to use the new FLEX/Draggable version of the [Flexible Underpasses and URoads](/docs/feature-guides/flexible-underpasses/).
-
 
 ### Neighbor Connections
 
@@ -1030,7 +1031,6 @@ The Filler Puzzle Pieces exist for ease of use in tight spaces, where overrides 
 54. Diag L4 RHW-6S Filler Pieces (A and B)
 55. DDRHW-4 Filler
 56. Diag DDRHW-4 Filler Pieces (A and B)
-
 
 ### RHW Ramp & Interchange Menu Items
 
@@ -1622,9 +1622,9 @@ These pieces allow you to manipulate the appearance of your RHW networks and tra
 #### RHW Neighbor Connectors
 
 These pieces allow you to build properly functioning Neighbor Connections with RHWs beyond the base RHW-2 (Neighbor Connectors are also not needed for RHW-3 and Double-Decker RHW-4 connections).
+
 1. RHW FLEX Neighbor Connector (FLEX-NC).
 2. RHW Invisible Loop Connector
-
 
 #### RHW Neighbor Connection Puzzle Pieces {{< deprecated >}}
 
@@ -1651,7 +1651,6 @@ These FLEX pieces allow for specialized intersections with RHW ramps.
 
 1. FlexSPUI (Single-Point Urban Interchange) Terminus
 2. FlexDDI (Diverging Diamond Interchange) Terminus
-
 
 #### RHW/Road {{< deprecated >}}
 

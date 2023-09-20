@@ -20,5 +20,4 @@ __TLDR__: We do not use cookies and we do not collect any personal data.
 
 ### Information we collect and what we use it for
 
-
 Effective Date: _6th September 2022_

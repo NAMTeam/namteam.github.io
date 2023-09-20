@@ -174,8 +174,8 @@ url: "docs/tech-specs/network-widening-mod"
 | NETWORK | TLA-3 | AVE-2 | ARD-3 | OWR-1 | OWR-3 | NRD-4 | Road | One-Way Road |
 |---------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | TLA-3 | Self | Partial (Puzzle) | Partial (Puzzle) | No | No | No | Yes (Stub) | No |
-| AVE-2 | Partial (Puzzle)  | Self | Partial (Puzzle) | No | No | No | Yes (Stub)| No | 
-| ARD-3 | Partial (Puzzle)  | Partial (Puzzle) | Self | No | No | No | Yes (Stub)| No | 
+| AVE-2 | Partial (Puzzle)  | Self | Partial (Puzzle) | No | No | No | Yes (Stub)| No |
+| ARD-3 | Partial (Puzzle)  | Partial (Puzzle) | Self | No | No | No | Yes (Stub)| No |
 | OWR-1 | No | No | No | Self | No | No | No | Yes (Stub) |
 | OWR-3 | No | No | No | No | Self | No | No | Yes (Stub) |
 | NRD-4 | No | No | No | No | No | Self | No | No |

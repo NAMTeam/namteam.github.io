@@ -15,11 +15,13 @@ url: "docs/feature-guides/base-network-additions"
 Some additional features, such as the RealHighways (RHW), Network Widening Mod (NWM), RealRailways (RRW), High Speed Rail Project (HSRP), Turn Lanes, and PedMalls are covered in the [Feature Guides](/docs/feature-guides/) section of this documentation.
 
 ### Additional Overpasses
+
 Fully functional Overpasses. The following additional Overpasses are now included with this mod.
 
 **Note:** Unless specifically mentioned otherwise, all of these Overpasses only exist for the game when following the game's square grid, & not against it.
 
-#### **Road Overpasses** 
+#### **Road Overpasses**
+
 Menu button contains the following overpasses:
 
 * Road over Road
@@ -28,7 +30,8 @@ Menu button contains the following overpasses:
 * Road over OneWayRoad
 * Road over Avenue
 
-#### **OneWayRoad Overpasses** 
+#### **OneWayRoad Overpasses**
+
 Menu button contains the following overpasses:
 
 **Note:** OneWayRoad Overpasses now contain Directional Arrows & should be placed accordingly
@@ -40,7 +43,8 @@ Menu button contains the following overpasses:
 * OneWayRoad over Avenue
 * OneWayRoad over Ground Highway [this is without ramps]
 
-#### **Avenue Overpasses** 
+#### **Avenue Overpasses**
+
 Menu button contains the following overpasses:
 
 * Avenue over Avenue
@@ -108,6 +112,7 @@ The following ramps are now included with this mod:
 **Note:** Unless mentioned otherwise; these ramps only exist for the game when following the game's square grid, & not against it.
 
 #### **Single-Sided Perpendicular Ramps**
+
 Menu button contains the following ramps:
 
 * Elevated Highway OnRamp-Road
@@ -122,6 +127,7 @@ Menu button contains the following ramps:
 * Elevated Highway OffRamp-OneWayRoad Reverse
 
 #### **Single-Sided Parallel Ramps**
+
 Menu button contains the following ramps:
 
 *All of these particular parallel ramps contain diagonal ramps*
@@ -146,7 +152,7 @@ Menu button contains the following ramps:
 
 *\*\* Note: Due to technical issues, these two Highway Exits don't function properly in some cases with the LHD plugin installed. The only way to fix this is to use the NAM Left Hand Drive Controller, installed as part of the NAM Left Hand Drive Plugin.*
 
-#### **Other Ramps** 
+#### **Other Ramps**
 
 [Currently, there is no Menu Button for this. If the conditions are right, the game will prompt you for these one(s)]
 
@@ -159,11 +165,13 @@ Each of the different **Menu Buttons** for these ramps works by using the HOME/E
 **Ramps come under the same scope as being Interchange-base Related Item(s).**
 
 ### Puzzle Pieces
+
 The following Puzzle Pieces are now included with this Mod:
 
 **Please note**: Many Puzzle Piece items now contain a Diagonal component (where applicable) & cover many possible configurations, with either the lower &/or upper portion of the Puzzle Piece.
 
 #### **Diagonal Street Helper Pieces**
+
 Menu button contains the following FLEX and Puzzle Pieces:
 
 * Construction Piece (long version) [FLEX]
@@ -174,6 +182,7 @@ Menu button contains the following FLEX and Puzzle Pieces:
 * Diagonal Street Puzzle Piece (Switch left)
 
 #### **Road Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * Road Starting/Ending Section Orthogonal/Diagonal
@@ -203,6 +212,7 @@ Menu button contains the following Puzzle Pieces:
 * Straight Road OnSlope
 
 #### **OneWayRoad Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 **Note:** OneWayRoad Puzzle Pieces now contain **Directional Arrows** (where applicable) & should be placed & linked accordingly in order to work. To view these **Directional Arrows** after an item has been built, use either query tools &/or the bulldoze tool & hover the tool over applicable OneWayRoad Puzzle Pieces (one tile at a time only). Note that not all OneWayRoad Puzzle Piece items contain these **Directional Arrows**.
@@ -234,6 +244,7 @@ Menu button contains the following Puzzle Pieces:
 * Straight OneWayRoad OnSlope
 
 #### **Avenue Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 **Note:** Avenue **Filler** Puzzle Pieces have specifically been provided for use in situations where the use of normal Avenue Puzzle Pieces may not be suitable or possible to use in a given situation. Note that some Avenue Filler Pieces contain **Directional Arrows** & should be placed accordingly in order to work.
@@ -269,7 +280,8 @@ Menu button contains the following Puzzle Pieces:
 * 'T' Avenue OnSlope
 * Straight Avenue OnSlope
 
-#### **Draggable Elevated Road Viaduct Pieces** 
+#### **Draggable Elevated Road Viaduct Pieces**
+
 Menu button contains the following Starter and FLEX Pieces:
 
 * L1 Road Viaduct Starter Piece
@@ -288,6 +300,7 @@ Menu button contains the following Starter and FLEX Pieces:
 * All-Roadway 2-Level FLEX On-Slope Transition
 
 #### **Wide Radius Road Curve Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * Road S-Curve
@@ -309,6 +322,7 @@ Menu button contains the following Puzzle Pieces:
 * Street 90-Curve (Large)
 
 #### **Ground (Heavy) Rail Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * Rail Starting/Ending Section
@@ -358,6 +372,7 @@ Menu button contains the following Puzzle Pieces:
 * Diagonal Rail OnSlope
 
 #### **Wide Radius Rail Curve Puzzle Pieces**
+
 Menu button cotains the following Puzzle Pieces:
 
 * Rail S-Curve
@@ -376,6 +391,7 @@ Menu button cotains the following Puzzle Pieces:
 * Diagonal Double Track to Double Track Switch
 
 #### **Ground Light Rail Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 This particular item has Transit Enabled Lots for them that are not included in this mod; please visit the NAM forum at SC4Devotion & look for the appropriate thread for more details.
@@ -418,6 +434,7 @@ This particular item has Transit Enabled Lots for them that are not included in 
 * Ground Light Rail straight and Loop with gap for station
 
 #### **Draggable Ground Light Rail Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * Ground Light Rail Straight with draggable Ground Light Rail Connection
@@ -430,12 +447,14 @@ Menu button contains the following Puzzle Pieces:
 * Ground Light Rail Loop with draggable Ground Light Rail Connection ~ Rural
 
 #### **Draggable Ground Light Rail Extension Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * Draggable Ground Light Rail Starter Alt-Style 1
 * Draggable Ground Light Rail Starter Alt-Style 2
 
 #### **Double-height Elevated Rail Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * High Elevated Rail Ramp Puzzle Piece
@@ -459,6 +478,7 @@ Menu button contains the following Puzzle Pieces:
 * Straight Elevated Rail OnSlope Puzzle Piece
 
 #### **Double-height Monorail Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * High Monorail Ramp Puzzle Piece
@@ -482,6 +502,7 @@ Menu button contains the following Puzzle Pieces:
 * Straight Monorail OnSlope Puzzle Piece
 
 #### **Canal Addon Mod (CAN-AM) Puzzle Pieces**
+
 Menu button contains the following Puzzle Pieces:
 
 * Straight Canal Path Puzzle Piece
@@ -564,7 +585,7 @@ Ground Light Rail (GLR) Puzzle Pieces are basically Elevated Rail tracks on grou
 
 ##### **Draggable GLR: How to use it?**
 
-Draggable GLR can be used similar like the in-game network tools. You have to place a special starter puzzle piece first that will indicate the direction of the draggable GLR. Use the in-game el-rail tool for dragging GLR tracks. **Please note:** Due to certain restrictions, the preview still shows up in the same height as the el-rail tracks. At the moment, this cannot be changed. 
+Draggable GLR can be used similar like the in-game network tools. You have to place a special starter puzzle piece first that will indicate the direction of the draggable GLR. Use the in-game el-rail tool for dragging GLR tracks. **Please note:** Due to certain restrictions, the preview still shows up in the same height as the el-rail tracks. At the moment, this cannot be changed.
 
 With draggable GLR, you have almost the same liberties as with any other draggable network. For some special cases it's still necessary to use puzzle pieces, though, such as a GLR x El-Rail intersection.The existing GLR stations need to be updated for placing them directly onto draggable GLR. A patch with updated files is available as a separate download. There's no need to bulldoze the existing GLR network or existing stations in your city, and the patch won't affect stations that have been placed already, however you might want to update your GLR setup to draggable GLR anyway, since it's more flexible and less prone to crashes. You can connect GLR puzzle pieces and draggable GLR with the starter puzzle pieces (which also serve as transition pieces) at any time.
 
@@ -585,6 +606,7 @@ The Data View Map Congestions & Data View Map Volume Traffic Overlays do not alw
 **Puzzle Pieces come under the same scope as being Interchange-base Related Item(s).**
 
 ### Dual/Double-Decker Networking
+
 The following Dual/Double-Decker Networking pieces are now included with this mod:
 
 #### **Flexible Underpass Puzzle Pieces**
@@ -909,7 +931,7 @@ Menu button contains the following Pieces:
 * Tram-in-Avenue - Diagonal-Orthogonal Transition
 * Tram-in-Avenue - Diagonal Piece double
 
-**Note:** The word "Tram" is equivalent to "Ground Light Rail" and "GLR". 
+**Note:** The word "Tram" is equivalent to "Ground Light Rail" and "GLR".
 
 #### **Ground Light Rail/Road (Tram-in-Road) Dual Networking Puzzle Pieces**
 
@@ -984,7 +1006,7 @@ Menu button contains the following Pieces:
 * Tram-in-Road Dual - Tram-in-Road diagonal center
 * Tram-in-Road Dual - Tram-in-Road diagonal outside
 
-**Note:** The word "Tram" is equivalent to "Ground Light Rail" and "GLR". 
+**Note:** The word "Tram" is equivalent to "Ground Light Rail" and "GLR".
 
 #### **Ground Light Rail/Road (Tram-on-Road) Dual Networking and various Texture Variation Puzzle Pieces**
 
@@ -1033,7 +1055,7 @@ Menu button contains the following Pieces:
 * Tram-in-Avenue - Tram Turning Circle Grass Texture with Transition to Avenue
 * Tram-in-Avenue - Tram Turning Circle Grass Texture with Straight Tram-in-Avenue
 
-**Note:** The word "Tram" is equivalent to "Ground Light Rail" and "GLR". 
+**Note:** The word "Tram" is equivalent to "Ground Light Rail" and "GLR".
 
 #### **Ground Light Rail/Street (Tram-on-Street) Dual Networking Puzzle Pieces**
 
@@ -1105,7 +1127,6 @@ With the advent of UDI for EI Rail, it should now be possible to take a UDI pass
 
 For more information regarding UDI EI Rail, please see the [Technical Notes](/docs/reference/technical-information).
 
-
 ### Additional Intersections & Junctions
 
 This section lists Intersections, Junctions, &/or Network possibility types that have been made possible &/or are included in this mod &/or have had adjustments/fixes applied to them. All of the intersections, junctions &/or network possibility types in this section are achieved in-game using the standard Network tools, where applicable. i.e. Highway Tools, Avenue Tool, Road Tool, & so on.
@@ -1165,7 +1186,7 @@ The Avenue Tool/Network has been significantly modified, is much more flexible &
 
 **Note:** Due to the complexity involved & the associated paths used for the many junctions added for the avenue network, it is strongly recommended that using any vehicles during UDI Mode not be "Snapped" to the network if attempting to travel through any of these new avenue junctions.
 
-* Diagonal one tile sideward shift. _This overcomes the previous two tile restriction._
+* Diagonal one tile sideward shift. *This overcomes the previous two tile restriction.*
 * Short Curve
 * 1 orthogonal x 2 diagonal
 * 1 orthogonal x 3 diagonal
@@ -1193,11 +1214,11 @@ The Avenue Tool/Network has been significantly modified, is much more flexible &
 
 ##### GroundHighway
 
-* Orthogonal and Diagonal One Tile Sideward shift. _This overcomes the previous two tile restriction._
+* Orthogonal and Diagonal One Tile Sideward shift. *This overcomes the previous two tile restriction.*
 
 ##### ElevatedHighway
 
-* Orthogonal and Diagonal One Tile Sideward shift. _This overcomes the previous two tile restriction._
+* Orthogonal and Diagonal One Tile Sideward shift. *This overcomes the previous two tile restriction.*
 
 ##### ElevatedRail
 
@@ -1322,8 +1343,8 @@ Items in this section involve more than one network. Items in this group follow 
 
 ##### ElevatedHighway <> OneWayRoad
 
-* Orthogonal x Orthogonal transition. _In order to join, the OneWayRoad section of network must be two tiles width._
-* Diagonal x Diagonal transition. _In order to join, the OneWayRoad section of network must be two tiles width._
+* Orthogonal x Orthogonal transition. *In order to join, the OneWayRoad section of network must be two tiles width.*
+* Diagonal x Diagonal transition. *In order to join, the OneWayRoad section of network must be two tiles width.*
 * Curve x Orthogonal
 * Curve x Diagonal
 * S-Curve x Orthogonal
@@ -1491,6 +1512,7 @@ Various new intersections between diagonal streets and other network types have 
 **Note:** for any junction or intersection involving onewayroad: the onewayroad tool must be drawn properly in the correct direction in relation to any adjoining networks. If in doubt, please experiment.
 
 ### Draggable Wide-Radius Curves and Fractional Angle Functionality
+
 Since the release of NAM 31 in 2013, Pattern-Based Draggable options have been available for Wide-Radius Curves for the Road and Street networks, as well as for the Fractional Angle functionality of the Road network.  The patterns for these features are shown below.  The pattern is shown on the left, and the result is shown on the right.
 
 <div class="row mx-0 g-1">
@@ -1520,11 +1542,12 @@ Diagonal S-Curve
 {{< override from="images/diag_s-curve_pattern.png" to="images/diag_s-curve.png">}}
 
 The following networks support diagonal s-curves using the above pattern:
-- Road
-- One Way Road (OWR-2)
-- OWR-1
-- RHW-2
-- MIS
+
+* Road
+* One Way Road (OWR-2)
+* OWR-1
+* RHW-2
+* MIS
 
 Diagonal S-Curve (Street & SAM)
 
@@ -1543,7 +1566,7 @@ Avenue 5x5 90° Curve
 The 2x2 90° curve supports all single-tile NWM overrides and SAM overrides except SAM-1.
 
 {{< alert context="warning" >}}
-**Caution** - Please note that you must take care when drawing the one way road version of the 2x2 curve to ensure the path directions are correct.  The inner stub must be drawn toward the direction of travel.  Additionally, the game's path reversing functionality does not carry through this curve.  To change the direction, drag over each portion of the curve in the proper direction. 
+**Caution** - Please note that you must take care when drawing the one way road version of the 2x2 curve to ensure the path directions are correct.  The inner stub must be drawn toward the direction of travel.  Additionally, the game's path reversing functionality does not carry through this curve.  To change the direction, drag over each portion of the curve in the proper direction.
 {{< /alert >}}
 
 3x3 90° Curve
@@ -1551,11 +1574,13 @@ The 2x2 90° curve supports all single-tile NWM overrides and SAM overrides exce
 {{< override from="images/3x3_curve_drag_pattern.png" to="images/3x3_curve_drag.png">}}
 
 The following networks support 3x3 90° curves using the above pattern:
-- Road
-- One Way Road (OWR-2)
-- OWR-1
-- RHW-2
-- MIS (L0-L4)
+
+* Road
+* One Way Road (OWR-2)
+* OWR-1
+* RHW-2
+* MIS (L0-L4)
+
 #### **FAR Patterns**
 
 <div class="row mx-0 g-1">

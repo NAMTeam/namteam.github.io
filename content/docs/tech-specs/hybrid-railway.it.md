@@ -8,7 +8,7 @@ draft: false
 images: []
 url: "docs/tech-specs/hybrid-railway"
 ---
-
+<!-- markdownlint-disable MD001 -->
 {{< feature-guide link="docs/feature-guides/hybrid-railway" mod="Hybrid Railway feature guide" >}}
 
 ## Capacità della rete e del pezzo FLEX
@@ -43,7 +43,6 @@ url: "docs/tech-specs/hybrid-railway"
 **DxO**: DxO sta per "diagonale x ortogonale" e si riferisce a una situazione in cui la rete di base è diagonale (con un angolo di 45°) e la rete trasversale è ortogonale (in linea retta) lungo la griglia di gioco.
 
 **DxD**: DxD sta per "diagonale x diagonale" e si riferisce a una situazione in cui entrambe le reti sono diagonali (con un angolo di 45°) lungo la griglia di gioco e si intersecano perpendicolarmente (con angoli di 90° in tutti gli angoli).
-
 
 ### Available Height Levels
 
@@ -410,4 +409,3 @@ Tutte le intersezioni HRW, ad eccezione degli incroci HRW x HRW, richiedono la c
 *Non è attualmente supportato.*
 
 ## Assegnazione dell'ID di rete
-

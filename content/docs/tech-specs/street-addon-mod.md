@@ -46,8 +46,6 @@ url: "docs/tech-specs/street-addon-mod"
 
 **DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
-
-
 ### Base Network Features
 
 #### Orthogonal Transitions to Maxis Networks
@@ -68,9 +66,7 @@ Not currently supported.
 
 Not currently supported.
 
-
 #### Orthogonal x Orthogonal (OxO) Intersections
-
 
 #### Diagonal (OxD, DxO, and DxD) Intersections
 
@@ -157,24 +153,24 @@ Primarily contains the base features for the SAM.
     <tr>
         <td class="text-center"><code>0x5E5ppB00</code></td>
         <td>SAM Set 11 (B)</td>
-    </tr>    
-	<tr>
+    </tr>
+ <tr>
         <td class="text-center"><code>0x5E5ppC00</code></td>
         <td>SAM Set 12 (C) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E5ppD00</code></td>
         <td>SAM Set 13 (D) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E5ppE00</code></td>
         <td>SAM Set 14 (E) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E5ppF00</code></td>
         <td>SAM Set 15 (F) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E5pp000</code></td>
         <td>SAM Set 16 (0) (does not yet exist)</td>
     </tr>
@@ -232,24 +228,24 @@ Extended/overflow SAM range, containing NWM crossings, future RHW crossings, and
     <tr>
         <td class="text-center"><code>0x5E6ppB00</code></td>
         <td>SAM Set 11 (B)</td>
-    </tr>    
-	<tr>
+    </tr>
+ <tr>
         <td class="text-center"><code>0x5E6ppC00</code></td>
         <td>SAM Set 12 (C) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E6ppD00</code></td>
         <td>SAM Set 13 (D) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E6ppE00</code></td>
         <td>SAM Set 14 (E) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E6ppF00</code></td>
         <td>SAM Set 15 (F) (does not yet exist)</td>
     </tr>
-	<tr>
+ <tr>
         <td class="text-center"><code>0x5E6pp000</code></td>
         <td>SAM Set 16 (0) (does not yet exist)</td>
     </tr>

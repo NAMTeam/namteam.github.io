@@ -13,17 +13,17 @@ url: "docs/feature-guides/automata-plugins"
 
 *Note:** The Automata Plugins are also referred as Automata Controllers, like other NAM files where only one file can be installed at a time.
 
-**IT IS IMPORTANT THAT YOU ONLY USE ONE OF THE "..._Automata_Plugin_..." FILES, & ONE ONLY. The NAM Installer should ensure this.**
+**IT IS IMPORTANT THAT YOU ONLY USE ONE OF THE "...*Automata_Plugin*..." FILES, & ONE ONLY. The NAM Installer should ensure this.**
 
-The information below explains which " _..._Automata_Plugin_..._" files contain what changes. See the notes at the end before using any file.
+The information below explains which " *...*Automata_Plugin*...*" files contain what changes. See the notes at the end before using any file.
 
-The " _..._Automata_Plugin_..._" files have a naming scheme according to the following below:
+The " *...*Automata_Plugin*...*" files have a naming scheme according to the following below:
 
-" _..._Standard_" = Default Maxis values, except: It has been slightly modified to take into account the RealHighway network's speed. It has been changed to give more of an accurate representation of the speed the vehicles are travelling at on the RealHighway network, compared to the other networks. Nothing else in this file is changed.
+" _...*Standard*" = Default Maxis values, except: It has been slightly modified to take into account the RealHighway network's speed. It has been changed to give more of an accurate representation of the speed the vehicles are travelling at on the RealHighway network, compared to the other networks. Nothing else in this file is changed.
 
-" _..._Automata24_..._" = Automata, of most kinds, is displayed for most of the 24-Hour Sim day.
+" *...*Automata24*...*" = Automata, of most kinds, is displayed for most of the 24-Hour Sim day.
 
-" _..._Radical_..._" = The following changes [increases/decreases]:
+" *...*Radical*...*" = The following changes [increases/decreases]:
 
 * Vehicle Lifespan Range: Min:50, Max:380
 * Ped Lifespan Range: Min:128, Max:255
@@ -58,8 +58,8 @@ Spawn/Recall for:
 
 ### Additional Notes
 
-The file names explain what files contain what changes & are all based on the " _..._Standard_" file above. If a file name contains two [or more] of the above names, then that means it contains those changes as detailed above.
+The file names explain what files contain what changes & are all based on the " _...*Standard*" file above. If a file name contains two [or more] of the above names, then that means it contains those changes as detailed above.
 
-You do not actually need/have to use any of the " _..._Automata_Plugin_..._" file if you do not want to. It is not really imperative to the Network Addon Mod that a " _..._Automata_Plugin_..._" file is used. If you choose not to use one of the " _..._Automata_Plugin_..._" files though, then the Automata on the RealHighway network will not be represented fairly/accurately as intended.
+You do not actually need/have to use any of the " *...*Automata_Plugin*...*" file if you do not want to. It is not really imperative to the Network Addon Mod that a " *...*Automata_Plugin*...*" file is used. If you choose not to use one of the " *...*Automata_Plugin*...*" files though, then the Automata on the RealHighway network will not be represented fairly/accurately as intended.
 
 **Automata:** Automata are basically animations; a "visual" representation. So while they represent the underlying Traffic happening [to some degree only really], they are only animations, and as such any of the changes made above do not actually change any functional aspects of networks capacities/speeds/commutes. Automata, being generated as a representation of statistical data, also may be prone to bizarre behavior that would defy real-world traffic logic. Due to the nature of how they are programmed, this is not something the NAM Team can address.
