@@ -46,7 +46,6 @@ url: "docs/tech-specs/road-viaducts"
 
 **DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
-
 ## Available Height Levels
 
 {{< table class="table-bordered table-sm nam-compat-status w-auto fs-6" >}}
@@ -176,7 +175,6 @@ url: "docs/tech-specs/road-viaducts"
 
 **Diagonal x Diagonal (DxD) Intersections**
 
-
 #### RAIL-BASED NETWORKS
 
 {{< table class="table-bordered table-sm nam-compat-status w-auto fs-6 fc-25" >}}
@@ -196,8 +194,8 @@ url: "docs/tech-specs/road-viaducts"
 
 **Diagonal x Diagonal (DxD) Intersections**
 
-
 #### DUAL NETWORKS
+
 {{< table class="table-bordered table-sm nam-compat-status w-auto fs-6 fc-25" >}}
 | NETWORK           | L1 x L0 | L1 x L1 | L1 x L2 | L1 x L3 | L1 x L4 | L2 x L0 | L2 x L1 | L2 x L2 | L2 x L3 | L2 x L4 |
 | ----------------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
@@ -221,9 +219,7 @@ _Due to the complexities of supporting dual networks, no support is provided for
 
 _Due to the complexities of supporting dual networks, no support is provided for DxD intersections._
 
-
 ### One-Way Road Draggable Viaducts
-
 
 ### Avenue Draggable Viaducts
 
@@ -235,7 +231,7 @@ The Puzzle Piece Viaducts are only kept for legacy purposes. No further developm
 
 #### One-Way Road Puzzle Piece Viaducts
 
-*Not supported - L1 OWR puzzle pieces do not exist and will not be developed.*
+_Not supported - L1 OWR puzzle pieces do not exist and will not be developed._
 
 #### Avenue Puzzle Piece Viaducts
 

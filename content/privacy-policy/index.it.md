@@ -20,5 +20,4 @@ __TLDR__: Non utilizziamo cookie e non raccogliamo dati personali.
 
 ### Le informazioni che raccogliamo e il loro utilizzo
 
-
 Effective Date: _6th September 2022_

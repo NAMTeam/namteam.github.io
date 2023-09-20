@@ -8,7 +8,7 @@ draft: false
 images: []
 url: "docs/tech-specs/hybrid-railway"
 ---
-
+<!-- markdownlint-disable MD001 -->
 {{< feature-guide link="docs/feature-guides/hybrid-railway" mod="Hybrid Railway feature guide" >}}
 
 ## Network and FLEX Piece Capabilities
@@ -43,7 +43,6 @@ url: "docs/tech-specs/hybrid-railway"
 **DxO**: DxO stands for "diagonal x orthogonal", and refers to a situation where the base network is diagonal (running at a 45° angle), and the cross network is orthogonal (in a straight line) along the game's grid.
 
 **DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
-
 
 ### Available Height Levels
 
@@ -410,4 +409,3 @@ All HRW intersections, with the exception of HRW x HRW crossings, require constr
 *Not currently supported.*
 
 ## Network ID Assignments
-

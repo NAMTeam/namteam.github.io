@@ -15,6 +15,7 @@ url: "docs/reference/technical-information"
 While it is mainly intended for persons with the skills to open the NAM's associated file(s), it contains important information about the game. Therefore the following information aims at the more technical side of things and should only be considered as an additional source of information about the mods' files &/or game. To install the mod, please refer to the [Installation Instructions](/docs/reference/installation-notes/).
 
 ## 1. Known (Game) Issue(s) &/or Bugs
+
 This section explains currently known game issues with SimCity 4's Traffic/Network system that may be relevant to this mod. This is not all inclusive, & as such other issues may currently exist that are not covered here.
 
 ### 1.1 General
@@ -79,8 +80,8 @@ For more information on the above issue, see the following thread:[Cursor + Tran
 
 The issue described above has been looked into, & currently at this time evidence seems to point to the problem existing within the games' executable itself, therefore there is nothing that can (currently) be done about this to completely & properly rid of the bug (unless Maxis decides to address the issue). The reason the issue has been mentioned here is because it has a probable significant impact on the use of this mod & those that use it.
 
-
 ## 2. Files used
+
 ### 2.1 Existing files used indirectly in association with the Network Addon Mod
 
 The Network Addon Mod currently relies on a number of the games existing files that you will already have.
@@ -155,6 +156,7 @@ The above paragraph typically does not apply to Puzzle Pieces or Overpasses that
 There exists some game limitations with which we had to work with in order to make UDI for EI Rail possible. Unfortunately, for certain aspects of UDI for a Rail-based network, the game will only recognise certain paths for the track switches (Track switches are what make it possible to go in different directions at junctions during UDI). Because of this, UDI EI Rail &/or EI Rail Path files contains a replicated set of paths; one set of paths for its own original intended network; & one set for the UDI EI Rail mode. The set of paths for UDI EI Rail mode are technically ground-rail-based pathing. Because of this, it should be possible to take a UDI passenger train &/or UDI freight train from ground rail to EI Rail using a Transit Enabled Lot (& visa-versa for EI Rail Train to ground rail). The Transit Enabled Lot would have to contain special custom path files though, in order to achieve this. This however, is currently outside the scope of this mod.  |
 
 ## 4. Network Hierarchy
+
 There exists a hierarchy in the game with the different Networks. The following is a guideline on the hierarchy of the different above ground Network types:
 
 [In order of Top of the hierarchy to the bottom of the hierarchy]
@@ -173,13 +175,15 @@ There exists a hierarchy in the game with the different Networks. The following 
 The higher up the hierarchy a network is, a higher priority is given to the network when drawing one network over another (in a parallel overlapping fashion). For this reason it is not possible to drag a network at the lower end of the hierarchy over a network that is higher up the hierarchy, & for the network to be converted to that of the lower hierarchical network. This is something defined in the games engine and it is highly doubtful that it can be changed. Apart from this though, generally this hierarchy should not cause any problems, unless you are a modder trying to mod Networks(s) &/or associated files.
 
 ## 5. Lots
+
 This mod does not contain Lots &/or Lot [Exemplar] files at all, such as those found in Buildings Lots; in any way what so ever.
 
-
 ## 6. ANT Item
+
 The ANT item that Maxis left incomplete/inactive in the game, with the technical name of "DirtRoad", was an optional plugin that has been superseeded by the Rural Highway Mod (RHW). The complete functionality of the ANT Plugin has been transferred to the RHW and is not longer supported by the NAM. For more information about the RHW, please refer to the RHW readme file.
 
 ## 7. NAM ID Conventions
+
 This section briefly covers the file conventions that the NAM typically follows for its custom content (where applicable). These conventions are guidelines only & as such some pre-existing items pre-date when these guidelines were established & may not follow the conventions. Also; some limited exceptions &/or variations may apply or (need to) exist due to functional, technical &/or internal housekeeping purposes.
 
 Most conventions are governed by or have been influenced by Maxis conventions. These conventions mostly apply to Network related files, & while it is not completely comprehensive, it does cover InstanceID conventions, Network conventions, &/or any other conventions that may be applicable or appropriate for this section at this time. These conventions encompass S3D Model files, SC4Path files, Network-Based Exemplar files, Network-Based FSH files, Network-Based EffectDir files, Network-Based Prop related files, & possibly others.
@@ -203,6 +207,7 @@ Most conventions are governed by or have been influenced by Maxis conventions. T
 | Avenue  | 4 | OneWayRoad   | 9 |               |   |
 
 ## 8. Left Hand Version Rail Networks Fix
+
 This section is an extension from the above section that deals with NAM ID Conventions. The conventions in this section however only apply to SC4Path files.
 
 This section deals with the 'Left-Hand Version Rail Networks fix' included in the Network Addon Mod.
@@ -253,6 +258,7 @@ Long version (actual specific IID ranges)
 All Rail-Related IID Ranges are covered & reversed for Left Hand Drive versions. Any Path file(s) that fall within the ranges listed above, regardless of the type of Paths it contains, will be scanned by the exe, replacement Path File(s) used & then reversed (NOTE: If a replacement Path file does not exist, the tile in question may not function). Since the exe does not actually reverse rail-based networks, it will simply use the Replacement Path file(s) as is for Left Hand Versions. If there exists car pathing in the replacement file(s) though, then the exe will only reverse the car pathing portion of the path file for Left Hand Drive versions.  |
 
 ## 9. End Notes
+
 ### A.1
 
 Commute Graph Exemplar: This has only been included in files with the " _..._10xCommute_" in its name. The only reason for this is to try and off-set the Commute Graph display so as to give a more representable idea of the commute time being experienced [against/compared to what people might usually consider/expect]. It's highly advisable that any time you change which Traffic Plugin file is used, that you give the game ample time to update everything/anything related &/or connected to the Paths/Commutes. Twelve months game time, at least, should be given. This time will vary though depending on city size, game options, &/or computer system.

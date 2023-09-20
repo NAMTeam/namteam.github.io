@@ -46,7 +46,6 @@ url: "docs/tech-specs/realhighway-mod"
 
 **DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
-
 ### Available Height Levels
 
 {{< table class="table-bordered nam-compat-status w-auto" >}}
@@ -97,7 +96,6 @@ _Note that QuickChange support requires support for A1 ramps._
 
 #### Diagonal Mainline
 
-
 #### Fractional Angle Mainline
 
 Not currently supported.
@@ -140,11 +138,9 @@ As Fractional Angle support for the RHW is entirely puzzle piece-based at presen
 
 #### Orthogonal x Orthogonal (OxO) Intersections
 
-
-
 ### Bridges
 
-> Refer to [the *Bridges* section](/docs/feature-guides/realhighway-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
+> Refer to [the _Bridges_ section](/docs/feature-guides/realhighway-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
 
 All RHW networks, with the exception of the 6C and 8C networks, are capable of creating bridges.
 

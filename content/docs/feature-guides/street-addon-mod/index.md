@@ -20,7 +20,6 @@ These variants also support (as appropriate) many of the same features as the ba
     <div class="col text-center">{{< img-simple src="images/samteaser4.jpg" class="" >}}</div>
 </div>
 
- 
 {{< docstatus status="workinprogress" >}}
 
 ## Installing the Street Addon Mod from the NAM Installer
@@ -69,7 +68,7 @@ All networks, including SAM 1, also support the default sharp 90° bend.
 
 (Older, static puzzle piece curves for some SAM sets can also be found in the Rural Roads Plugin (RuRP), and will be found under the Rural Roads button on the Roads menu.)
 
-##  Intersecting and Transitioning to Other Networks
+## Intersecting and Transitioning to Other Networks
 
 **Intersections and Transitions with Other Networks**
 
@@ -111,4 +110,4 @@ See the [Network Widening Mod Technical Specs Section](../../tech-specs/street-a
 
 ## Information on Support and Development Updates
 
-For technical support and information on new features coming to the Street Addon Mod in future releases, please check out the official SAM - Street Addon Mod thread on the forum at [SimCity 4 Devotion](http://sc4devotion.com/forums/index.php?topic=1617.0). 
+For technical support and information on new features coming to the Street Addon Mod in future releases, please check out the official SAM - Street Addon Mod thread on the forum at [SimCity 4 Devotion](http://sc4devotion.com/forums/index.php?topic=1617.0).

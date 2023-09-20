@@ -51,8 +51,6 @@ url: "docs/tech-specs/network-widening-mod"
 
 **DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
-
-
 ### Base Network Features
 
 {{< table class="table-bordered nam-compat-status table-sm" >}}
@@ -74,6 +72,7 @@ url: "docs/tech-specs/network-widening-mod"
 {{< /table >}}
 
 #### Orthogonal Transitions to Maxis Networks
+
 {{< table class="table-bordered nam-compat-status table-sm" >}}
 | NETWORK | Road | One-Way Road | Avenue | Street |
 |---------|:-----:|:-----:|:-----:|:-----:|
@@ -92,8 +91,8 @@ url: "docs/tech-specs/network-widening-mod"
 | AVE-6 | No | No | Partial (Puzzle) | No |
 {{< /table >}}
 
-
 #### Orthogonal Transitions to Other NWM Networks
+
 {{< table class="table-bordered nam-compat-status table-sm" >}}
 | NETWORK | TLA-3 | AVE-2 | ARD-3 | OWR-1 | OWR-3 | NRD-4 | TLA-5 | OWR-4 | OWR-5 | RD-4 | RD-6 | TLA-7 | AVE-6 |
 |---------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:----:|:----:|:-----:|:-----:|
@@ -113,6 +112,7 @@ url: "docs/tech-specs/network-widening-mod"
 {{< /table >}}
 
 #### Orthogonal Transitions to RealHighway (RHW) Networks
+
 {{< table class="table-bordered nam-compat-status table-sm" >}}
 | NETWORK | RHW |
 |---------|:-----:|
@@ -132,12 +132,13 @@ url: "docs/tech-specs/network-widening-mod"
 {{< /table >}}
 
 #### Diagonal Transitions
+
 {{< table class="table-bordered nam-compat-status table-sm" >}}
 | NETWORK | TLA-3 | AVE-2 | ARD-3 | OWR-1 | OWR-3 | NRD-4 | Road | One-Way Road |
 |---------|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|
 | TLA-3 | Self | Partial (Puzzle) | Partial (Puzzle) | No | No | No | Yes (Stub) | No |
-| AVE-2 | Partial (Puzzle)  | Self | Partial (Puzzle) | No | No | No | Yes (Stub)| No | 
-| ARD-3 | Partial (Puzzle)  | Partial (Puzzle) | Self | No | No | No | Yes (Stub)| No | 
+| AVE-2 | Partial (Puzzle)  | Self | Partial (Puzzle) | No | No | No | Yes (Stub)| No |
+| ARD-3 | Partial (Puzzle)  | Partial (Puzzle) | Self | No | No | No | Yes (Stub)| No |
 | OWR-1 | No | No | No | Self | No | No | No | Yes (Stub) |
 | OWR-3 | No | No | No | No | Self | No | No | Yes (Stub) |
 | NRD-4 | No | No | No | No | No | Self | No | No |
@@ -153,7 +154,6 @@ Not currently supported.
 ### Fractional Angle Support
 
 Not currently supported.
-
 
 #### Orthogonal x Orthogonal (OxO) Intersections
 
@@ -176,6 +176,7 @@ Not currently supported.
 {{< /table >}}
 
 #### Diagonal (OxD, DxO, and DxD) Intersections
+
 {{< table class="table-bordered nam-compat-status table-sm" >}}
 | Network | Maxis Networks | NWM | GLR/Tram | STR | Draggable Viaducts | RHW | Any Other NAM Feature |
 |---------|----------------|-----|----------|-----|--------------------|-----|---------------------------|
@@ -189,6 +190,7 @@ Not currently supported.
 {{< /table >}}
 
 ### FLEX Turn Lane Intersection Support
+
 {{< table class="table-bordered nam-compat-status table-sm" >}}
 | Network | Supported Transitions | Supported Direct Intersections |
 |-------|------------------------|---------------------------------|
@@ -206,8 +208,8 @@ Not currently supported.
 | TLA-7 | Yes, Transitions to Type 130 and Type 230 | No Direct Intersections |
 | AVE-6 | Yes, Transitions to Type 130 and Type 230 | No Direct Intersections |
 {{< /table >}}
-### Bridges
 
+### Bridges
 
 > Refer to [the *Bridges* section](/docs/feature-guides/network-widening-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
 
@@ -218,17 +220,17 @@ All NWM networks, with the exception of the TLA-7 and AVE-6, are capable of crea
 |-----------------|:----------------:|
 | TLA-3           |   No support     |
 | AVE-2           |   No support     |
-| ARD-3        	  |   No support     |
-| OWR-1			  | No support     |
-| OWR-3		      | One-Way Road     |
-| NRD-4			  |   Road		     |
-| TLA-5			  |    No support    |
-| OWR-4		  	  |       Avenue     |
-| OWR-5			  |       Avenue     |
-| RD-4			  |       Avenue     |
-| RD-6			  |       Avenue     |
-| TLA-7		      |   No support     |
-| AVE-6		      |   No support     |
+| ARD-3           |   No support     |
+| OWR-1           |   No support     |
+| OWR-3           |   One-Way Road   |
+| NRD-4           |   Road           |
+| TLA-5           |    No support    |
+| OWR-4           |       Avenue     |
+| OWR-5           |       Avenue     |
+| RD-4            |       Avenue     |
+| RD-6            |       Avenue     |
+| TLA-7           |   No support     |
+| AVE-6           |   No support     |
 
 {{< /table >}}
 
@@ -363,7 +365,6 @@ Primarily contains single-tile network puzzle pieces, following ranges in 0x510
 #### 0x514
 
 Primarily contains dual-tile network puzzle pieces, following ranges in 0x511
-
 
 #### 0x515
 

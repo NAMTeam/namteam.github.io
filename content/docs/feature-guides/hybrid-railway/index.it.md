@@ -17,7 +17,6 @@ In terms of functionality, the HRW handles both Heavy Rail (in orange) and Monor
 
 {{< img-simple src="images/~combined_use_HRW.jpg" class="mx-auto">}}
 
-
 The HRW is a FLEX network utilising dual-networking (Rail and Monorail) pieces meaning it can only be constructed with FLEX pieces provided in the menus. To gain full functionality, all items require placing FLEX pieces, with drawability only relevant for transitioning to the RRW.
 
 ## Menu Icons
@@ -52,7 +51,7 @@ There are 5 Radii of Multi-Radius curves that are similar to the RRW specified c
 
 {{< img-simple src="images/3-R3-Alt.jpg" caption="Radius #3 Macro Alternative Curve">}}
 
-The above curves have a wider geometry than the corresponding curves for the Real Railway. 
+The above curves have a wider geometry than the corresponding curves for the Real Railway.
 
 For reference, "alternative" notation refers to wider or bigger radii, and "short" refers to smaller radii than the standard Multi-Radius or Fractional Angle Curve.
 
@@ -74,6 +73,7 @@ There are a few switch options for the Hybrid Railway system that consist of a f
 {{< img-simple src="images/h-Compound-Curve-R1-B2.jpg" caption="B1-B2 compound switch">}}
 
 ### FA-2 Short FLEX Switch Piece
+
 The HRW also has a piece that can be made by placing down straight orthogonal segments to make a variety of switches for the Hybrid Railway. The piece is in the switches tab loop and can be used for fractional angle straight segments, bends, and switches.
 
 {{< img-simple src="images/i-FLEXswitch-FA2s.jpg" caption="FA-2 short Flex-Switch piece">}}
@@ -100,7 +100,7 @@ The STS method is very important for the construction of crosssings for the Hybr
 
 ## Crossing Support
 
-The Hybrid Railway supports a large amount of, but not all, crossings in the Network Addon Mod (NAM). Orthogonal crossing orthogonal has significant coverage in addition to other configurations. However, with the exception of HRW X HRW configurations, all crossings require the stub to stub method to complete them. 
+The Hybrid Railway supports a large amount of, but not all, crossings in the Network Addon Mod (NAM). Orthogonal crossing orthogonal has significant coverage in addition to other configurations. However, with the exception of HRW X HRW configurations, all crossings require the stub to stub method to complete them.
 
 > In the interests of keeping this document to a reasonable length, refer to [this section](/docs/tech-specs/hybrid-railway#intersection-support) of the Hybrid Railway technical document to see what crossings are supported.
 
@@ -147,7 +147,7 @@ Tutorial pictures provided by **ulisse99**
 
 ## Credits
 
-Without input from the NAM team this project would have not have been started. 
+Without input from the NAM team this project would have not have been started.
 
 Some notable members that have contributed to the Hybrid Railway project are listed below.
 

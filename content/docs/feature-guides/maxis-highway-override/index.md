@@ -104,8 +104,8 @@ the files for this plugin are found. The files contained are as follows:
 - z_EMHW_override_roundabout_interchanges.dat
 - z_highway_menu_blocker.dat
 
-
 ### Useful links
+
 - Project Symphony Development Thread over at ST and SC4D
 - The RHW Interchange Guide
 
@@ -133,11 +133,13 @@ includes the first public release of this mod.
 ### Changelog
 
 #### **Features added in NAM 35**
+
 - New MHO-specific Level Bridges are available, for both L0 and L2 networks.
 - Improved support for the NAM RealRailway (RRW) Plugin, as well as Moonlinght's Alternate
     El-Rail and Bullet Train (Shinkansen) Mods.
 
 #### **Features added in NAM 31 (initial release)**
+
 - Basic network functionality, involving models, textures and paths.
 - Orthogonal and diagonal grade-separated crossings with all Maxis networks
 - Orthogonal grade-separated crossings with all NWM networks.
@@ -145,7 +147,6 @@ includes the first public release of this mod.
 - Support for NAM overpasses, FLUPs and GLR.
 - Fractional Angled MHW (FAMHW), L0 only.
 - Basic transitions (ground-to-elevated, MHW-to-RHW and MHW-to-AVE-4)
-
 
 - Four ramp setups (A1, B1, D1, E1) for both height levels. Naming scheme from their
     respective RHW counterparts*.
@@ -177,13 +178,11 @@ the base network.
 The network has barriers all the way; it has a single centre barrier and two outer barriers, making
 them distinctive from the RHW.
 
-
 <div class="row mx-0 g-1">
 <div class="col text-center">{{< img-simple src="images/MHO_GHW_RHW.jpg" class="" >}}</div>
 </div>
 
 <p class="text-center fst-italic">Shown left to right: Project Symphony MHW and Dual RHW-4.</p>
-
 
 The L0 MHW can’t cross any network at-grade. You need to transition into another network first,
 like AVE-4 or RHW-4. This is because it’s a limited access network and slow traffic is banned here.
@@ -203,8 +202,6 @@ difference is that it only has a single centre barrier instead of a double one.
 <p class="text-center fst-italic">Shown left to right: MHO MHW (L2) and Dual RHW-4 (L2). Note the difference between the pillars
 and the barriers.</p>
 
-
-
 ### MIS Network
 
 The **MIS Ramp** , also called **MIS Network** or just **MIS** , is a network designed for interchanging
@@ -222,8 +219,8 @@ though the MIS has four elevated counterparts.
 NOTE: If you installed the NAM using the NAM Installer, the RHW should be automatically installed
 when you installed Project Symphony.
 
-
 ## Tunnels and Bridges
+
 ### Tunnels
 
 The tunnels for MHW have been repurposed and remodeled to be compatible for the newly-
@@ -232,7 +229,6 @@ designed MHWs. This requires a custom slope mod, which is also included.
 <div class="row mx-0 g-1">
 <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Tunnel.jpg" class="" >}}</div>
 </div>
-
 
 ### Bridges
 
@@ -260,7 +256,6 @@ Just like the RHW, the Maxis Highway Override has the ability to create **custom
 Since making prefabs takes a lot of work and are incredibly inflexible, and that real-life
 interchanges can be incredibly massive (exceeding the 16x16 tile maximum for puzzle pieces),
 there instead exists a set of ramp interfaces designed to complement the MIS network.
-
 
 The MHO borrows many components of the RHW’s **Modular Interchange System** , a set of
 interchange pieces which can be assembled in an infinite number of combinations to create any
@@ -295,11 +290,9 @@ networks. There are two types of height Transitions: **Ramp Transitions** , whic
 two height levels of MHW, and **OnSlope Transitions** , which are Height Transitions that have to
 be placed on slopes. These pieces are found under the **Transitions Button.**
 
-
 <div class="row mx-0 g-1">
 <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Transitions.jpg" class="" >}}</div>
 </div>
-
 
 ### Prefabs and Semi-Prefabs
 
@@ -312,13 +305,12 @@ and everything, and **Semi-Prefabs** , which only contain a part of the intercha
 ramps to be connected later on. Semi-prefabs are a little harder to build, but they are also more
 flexible than total prefabs.
 
-
 <div class="row mx-0 g-1">
 <div class="col text-center align-content-around">{{< img-simple src="images/MHO_Prefabs.jpg" class="" >}}</div>
 </div>
 
-
 ## Tips, Tricks, and Tutorials
+
 ### Starting off with Project Symphony
 
 As quoted directly from the original **SimCity 4 Deluxe User’s Manual** , “Highways are very
@@ -375,7 +367,6 @@ the highway. The branch connects with MIS. **Types D1 and E1** split the highway
 **Types A1 and D1** have a parallel branch, while Types **B1 and E1** have a branch at a 45-degree
 angle.
 
-
 ### Using Dual RHW-4 Bridges with the Maxis Highway Override
 
 Bridges made for RHW-4 can be used with the MHO. When you build a Dual RHW-4 bridge for a
@@ -405,18 +396,15 @@ issues.
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RHW4.jpg" class="" >}}</div>
 </div>
 
-
 You can also use MHO interchanges for the RHW and vice versa; they will seamlessly transit into
 each other. For example, the Roundabout Interchange made for the MHO can be made to
 interface RHW-6S:
-
 
 <div class="row mx-0 g-1">
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_RHW_Interchange.jpg" class="" >}}</div>
 </div>
 
 Additionally, the MHWs can also be drawn in conjunction with RHW to create a hybrid Multi-RHW.
-
 
 ## Interchange Construction
 
@@ -439,7 +427,7 @@ going over or under it. The offramps and onramps create a diamond-like shape wit
 road, hence the name.
 
 - Drag a stretch of **L0 MHW**. Drag out **Road** perpendicular to the RHW, starting four tiles
-    away. Do this for both sides of the highway.    
+    away. Do this for both sides of the highway.
 
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_1.jpg" class="" >}}</div>
@@ -447,7 +435,7 @@ road, hence the name.
 
 - Place the **Road over MHW Piece** (found in the **Roads Menu** ) on top of the MHW, in the
     place as shown. This is where the Road will go over the MHW.
-    
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_2.jpg" class="" >}}</div>
     </div>
@@ -455,7 +443,7 @@ road, hence the name.
 - Place the **Road-MIS Intersection** next to the Road over MHW Pieces as shown. Rotate
     these pieces accordingly. The markings may be very subtle to notice. This is where the MIS
     will cross with the Road. Do this for both sides of the interchange.
-    
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_3.jpg" class="" >}}</div>
     </div>
@@ -473,7 +461,7 @@ road, hence the name.
     This is found the **RHW Transitions Button**. This will join the Ramp Interface with the
     Road. Make sure that the Transition is the correct one, as indicated by the arrows and the
     word “ON” or “OFF” in the name of the piece. Do this for each of the quadrants.
-    
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_5.jpg" class="" >}}</div>
     </div>
@@ -486,11 +474,9 @@ road, hence the name.
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_6.jpg" class="" >}}</div>
     </div>
 
-
 <div class="row mx-0 g-1">
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Diamond_7.jpg" class="" >}}</div>
 </div>
-
 
 ### Roundabout Interchanges
 
@@ -499,17 +485,16 @@ alternative to building other types of interchanges, with the downside that it i
 capacity. Constructing both the two-level and three-level Roundabout are similar to each other.
 
 #### **Two-level and Three-level Roundabout Interchanges**
+
 - Drag one long stretch of **Ground Highway (L0)** and two small stretches of **Elevated**
     **Highway (L2)** perpendicular to the Ground Highway and two tiles away. Make sure that
     you don’t drag the elevated highway straight across; this will prevent the autoplace
     message for the MHW Stack Interchange to appear. If you do drag the elevated highway
     straight across and you get the message, simply cancel the message.
 
-    
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_1.jpg" class="" >}}</div>
     </div>
-
 
 - Select from the Prefabs Menu the **L0xL2 Three-Level Roundabout Interchange** and
     plop it directly in the middle. This is the core of the entire interchange. If you are using the
@@ -550,12 +535,10 @@ capacity. Constructing both the two-level and three-level Roundabout are similar
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_6.jpg" class="" >}}</div>
     </div>
 
-    
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_7.jpg" class="" >}}</div>
     </div>
 
-    
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_8.jpg" class="" >}}</div>
     </div>
@@ -568,11 +551,9 @@ connected to an MHW **Ground to Elevated Transition** and then transitioned back
 ground-level, or the connection can be made directly to Elevated Avenue using the **Elevated
 Avenue to Elevated Highway Transition**.
 
-
 <div class="row mx-0 g-1">
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Roundabout_9.jpg" class="" >}}</div>
 </div>
-
 
 ### T-Stack Interchanges
 
@@ -580,27 +561,22 @@ The Maxis Highway Override includes only one type of Prefab Interchange: The **T
 Interchange**. Due to a design decision regarding how to implement this type of interchange, this
 will be the only prefab interchange to be added in the NAM.
 
-
 <div class="row mx-0 g-1">
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_1.jpg" class="" >}}</div>
 </div>
-
 
 This piece is found under the **Prefabs Button**. Pressing **Home** and **End** will rotate between the
 different height combinations. Drag out the corresponding Highway network out of the stubs after
 placing.
 
-
 <div class="row mx-0 g-1">
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_2.jpg" class="" >}}</div>
 </div>
-
 
 Alternatively, the T-Stack piece can be placed on top of an already-drawn Highway network. If
 these networks are already drawn in a T, be sure that the two networks don’t connect. Doing so
 may trigger building the original MHW T-Stack Interchange. The height levels between the two
 highways don’t matter, since the proper interchange will always be assigned.
-
 
 <div class="row mx-0 g-1">
     <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Prefab_3.jpg" class="" >}}</div>
@@ -613,13 +589,13 @@ between two highways. This requires giant loops to interchange left-turning traf
 turning traffic in LHD), with the resulting shape of the interchange bearing semblance to a four-
 leaf clover, hence the name
 
-
 #### **Full Cloverleaf Interchange**
+
 - Drag your L0 MHW stretch first. Drag a small stretch of L2 MHW over it so that it crosses
        perpendicularly with the L0 MHW. The ground highway needs to be fairly long, and the
        elevated highway needs to be about 12 or 14 tiles long. This is to prevent triggering the
        autoplace window for the original MHW Stack Interchange.
-       
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_1.jpg" class="" >}}</div>
     </div>
@@ -627,7 +603,7 @@ leaf clover, hence the name
 - Plop the **Type A1 ramps** at the centre first. Keep one tile between the overpass and the
        ramp end. Eight ramps are needed in total, four for the elevated highway and four more
        for the ground highway.
-       
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_2.jpg" class="" >}}</div>
     </div>
@@ -635,31 +611,30 @@ leaf clover, hence the name
 - Plop the **Cloverleaf Ramps** to connect the ends of the ramps. This piece is found under
        the **Curves Button**. The cursor for these pieces is positioned at the end of the ramp
        pieces. This will create the turn loops. Do this for all four quadrants.
-       
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_3.jpg" class="" >}}</div>
     </div>
 
-
 - Place down a **Ground to Elevated Highway Transition** at the ends of the Elevated
     Highway. This will transition down the Elevated Highway back to the ground. Do this for
     both ends of the Interchange. Drag out a stretch of Ground Highway out from the stubs.
-       
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_4.jpg" class="" >}}</div>
     </div>
-    
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_5.jpg" class="" >}}</div>
     </div>
-       
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_6.jpg" class="" >}}</div>
     </div>
 
 - Drag a diagonal stretch of **RHW** right next to the cloverleaf ramps. This will create the
     shape of the right-turn ramps (or left-turn in LHD).
-       
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_7.jpg" class="" >}}</div>
     </div>
@@ -667,14 +642,14 @@ leaf clover, hence the name
 - Place down a **MIS Starter** at one end of the diagonal RHW. Be sure that the yellow line* is
     on the inside. Bulldoze the construction handle and connect the starter to the diagonal
     RHW using the RHW Tool.
-    
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_8.jpg" class="" >}}</div>
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_9.jpg" class="" >}}</div>
     </div>
 
 - Click outwards from the starter to convert the RHW into MIS. Demolish the orthogonal
-    starters afterwards.    
+    starters afterwards.
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_A.jpg" class="" >}}</div>
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_B.jpg" class="" >}}</div>
@@ -694,7 +669,7 @@ leaf clover, hence the name
 - Repeat steps 5 to 8 for the remaining ramps to complete the interchange. The final
     interchange, shown below, is far larger than the original Cloverleaf Interchange. However,
     the immense size actually brings the MHO Cloverleaf within reasonable real-life scaling.
-    
+
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_Clover_F.jpg" class="" >}}</div>
     </div>
@@ -704,13 +679,11 @@ textured version. In that case, keep an eye on the shoulder lanes or direction a
 When you use **Right Hand Drive (RHD)** , make the loop around the cloverleaf interchange is
 counter-clockwise. With **Left Hand Drive (LHD)** , this should be clockwise.
 
-
 #### **Half Cloverleaf Interchange**
 
 The **Half Cloverleaf** is a variant of the Full Cloverleaf that acts as a three-way junction. It is
 essentially half of a cloverleaf; only two of the loops and two of the right-turn ramps are present.
 Additionally, the interchange itself can be upgraded into a Full Cloverleaf if needed.
-
 
 - Drag one single stretch of **Ground Highway**. This will create the upper “bar” of the
     interchange.
@@ -734,7 +707,6 @@ Additionally, the interchange itself can be upgraded into a Full Cloverleaf if n
 - Place down two L0-L2 MIS Starterless Height Transitions. This will bring the overpasses to
     the ground.
 
-
 - Place down two MIS S-curves.
     <div class="row mx-0 g-1">
         <div class="col text-center align-content-around">{{< img-simple src="images/MHO_IC_HalfClo_4.jpg" class="" >}}</div>
@@ -742,7 +714,6 @@ Additionally, the interchange itself can be upgraded into a Full Cloverleaf if n
 - Place down two Type E1 Ramps. Make sure they connect with the MIS curves. Follow steps
     5 through 8 for the Full Cloverleaf to connect the Type E1 Ramps with the other highway to
     complete the rest of the interchange.
-
 
 ## Current Version Limitations
 
@@ -753,13 +724,15 @@ The following features are currently not possible in this version:
 - Prefab Diamond Interchanges or any other standard prefab Maxis Highway interchange
     (however, it is possible to build this with other existing puzzle pieces)
 
-
 ## List of Items
+
 ### Networks
+
 - L0 Maxis Highway
 - L2 Maxis Highway
 
 ### Ramp Interfaces*
+
 - L0 Ramp Type A1
 - L0 Ramp Type B1
 - L0 Ramp Type D1
@@ -770,6 +743,7 @@ The following features are currently not possible in this version:
 - L2 Ramp Type E1
 
 ### Transitions
+
 - L0-to-L2 MHW transition
 - L0-to-L2 OnSlope MHW transition
 - L0-to-L1 MIS transition*
@@ -778,8 +752,8 @@ The following features are currently not possible in this version:
 - L0-to-L2 Cloverleaf ramp*
 - Bridge Transition Piece
 
-
 ### (Semi-prefabs)*
+
 - L0xL2 Two-level roundabout interchange
 - L0xL2 Three-level roundabout interchange
 - L0xL0 T-Stack interchange
@@ -788,6 +762,7 @@ The following features are currently not possible in this version:
 - L2xL2 T-Stack interchange
 
 ### Curves
+
 - L0 MHW 45 degree smooth curve
 - L2 MHW 45 degree smooth curve
 - L0 FAMHW-to-Orthogonal curve
@@ -796,10 +771,10 @@ The following features are currently not possible in this version:
 
 _*_ **_NOTE:_** _Orthogonal only_
 
-
 ## Frequently Asked Questions
 
 ### Questions Regarding Compatibility with Pre-existing MHWs
+
 #### **Can this mod work side-by-side with the original MHWs?**
 
 No. This mod is a complete replacement. However, this is an optional NAM component, so you can
@@ -814,6 +789,7 @@ lots of modeling work and vast under-scaling. However, you will be able to build
 interchanges as a replacement with some help of the RHW.
 
 ### Questions Regarding Functionality and General Features
+
 #### **Why is the RHW installed along with the MHO?**
 
 Unlike other override mods in the past, the Maxis Highway Override is the only override mod that
@@ -842,7 +818,6 @@ components that will be realised.
 
 The only exception is the T-Interchange.
 
-
 #### **What about the original interchanges? Won’t those be changed?**
 
 No. The original interchanges are too small to work with, and therefore will not be converted.
@@ -857,6 +832,7 @@ Exemplar file (TGI: 0x6534284A, 0x084344E0, 0x0BE08C87). You only need to set th
 using **Ilive’s Reader**.
 
 ### Questions Regarding Tunnels and Bridges
+
 #### **Are there tunnels and bridges?**
 
 The current Maxis Highway bridges have generally proven very difficult to convert. Only the Level
@@ -885,10 +861,10 @@ that already works, the MHW tunnels, so that another mod can use is not good pra
 cause existing tunnels to cease functioning.
 
 ### Questions Regarding Cross-Compatibility with Other Mods
+
 #### **Can this work with RHW?**
 
 It most certainly can. It’s designed to do just that.
-
 
 #### **Can this work with other MHW mods?**
 
@@ -900,6 +876,7 @@ T21 modifications may still continue to work with MHO, but depending on how the 
 placed, they may be misaligned with the new dimensional specifications.
 
 ### Questions Regarding Textures
+
 #### **I want to change the textures. What should I look for?**
 
 First, you need to know how to mod textures. There are several tutorials about that. The
@@ -913,22 +890,25 @@ will also have effect on the elevated RHW. Keep that in mind.
 These are available and included in the NAM.
 
 ### Questions Regarding General Development
+
 #### **When it will be out?**
 
 It will be ready when it’s ready. Besides, who doesn’t like **surprises**? ;)
 
-
 ## Credits
+
 ### Sources for Documentation
+
 ### Developers
+
 - **jdenm8** (Development/Models, Documentation)
 - **GDO29Anagram** (Documentation, Testing)
 - **MandelSoft** (Development/Models)
 - **mgb204** (Development/Models/T21s)
 - **Tarkus** (Documentation Revamp)
+
 ### Testing
+
 - **Br22ian**
 - **Samerton**
 - **CasperVG**
-
-

@@ -14,222 +14,222 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 
 **The NAM Team and Associates (Active Members as of NAM 47)**
 
--   Bipin
--   bladeberkman
--   b22rian
--   CaptCity
--   compdude787
--   DebussyMan
--   Durfsurn
--   eggman121
--   Eric Blair
--   EstGuy/Cheese
--   Flann
--   Girafe
--   Haljackey
--   IDS2
--   Indiana Joe
--   Junspud
--   KaenOkami
--   Kitsune
--   Lucario Boricua
--   matias93
--   McDuell
--   memo
--   metarvo
--   mgb204
--   MushyMushy
--   Naomi57
--   noahclem
--   pierreh
--   Ramona Brie
--   ReLynx/RemRinka
--   rivit
--   Ryan B.
--   Shadow Assassin
--   Simizen
--   Tarkus
--   TheCouncill0r/dicko6
--   TheMurderousCricket
--   Tyberius06
--   Ulisse Wolf
--   z
+- Bipin
+- bladeberkman
+- b22rian
+- CaptCity
+- compdude787
+- DebussyMan
+- Durfsurn
+- eggman121
+- Eric Blair
+- EstGuy/Cheese
+- Flann
+- Girafe
+- Haljackey
+- IDS2
+- Indiana Joe
+- Junspud
+- KaenOkami
+- Kitsune
+- Lucario Boricua
+- matias93
+- McDuell
+- memo
+- metarvo
+- mgb204
+- MushyMushy
+- Naomi57
+- noahclem
+- pierreh
+- Ramona Brie
+- ReLynx/RemRinka
+- rivit
+- Ryan B.
+- Shadow Assassin
+- Simizen
+- Tarkus
+- TheCouncill0r/dicko6
+- TheMurderousCricket
+- Tyberius06
+- Ulisse Wolf
+- z
 
 **NAM Founders**
 
--   Redlotus
--   the7trumpets
--   Tropod
+- Redlotus
+- the7trumpets
+- Tropod
 
 **NAM Team Lead**
 
--   Tarkus
+- Tarkus
 
 **NAM Technology Evangelist**
 
--   Haljackey
+- Haljackey
 
 **NAM Logo**
 
--   MadSim (original design)
--   Ramona Brie (updated design)
+- MadSim (original design)
+- Ramona Brie (updated design)
 
 **NAM Documentation Website**
 
--   Flann
--   memo
--   Shadow Assassin
--   Tarkus
--   ulisse
+- Flann
+- memo
+- Shadow Assassin
+- Tarkus
+- ulisse
 
 **Tool Programmers**
 
--   cjmarshall
--   CorinaMarie
--   DarkMatter
--   daeley
--   fafalone
--   GoaSkin
--   Ilive
--   jondor
--   memo
--   null45
--   rivit
--   simrolle
--   Stefan79
--   Tropod
--   wouanagaine
+- cjmarshall
+- CorinaMarie
+- DarkMatter
+- daeley
+- fafalone
+- GoaSkin
+- Ilive
+- jondor
+- memo
+- null45
+- rivit
+- simrolle
+- Stefan79
+- Tropod
+- wouanagaine
 
 **NAM Installer**
 
--   Andreas Roth
--   daeley
--   frimi2
--   Tarkus
--   wouanagaine
--   z
+- Andreas Roth
+- daeley
+- frimi2
+- Tarkus
+- wouanagaine
+- z
 
 **NAM Controller Compiler**
 
--   memo
+- memo
 
 **NAM Partner Program Members**
 
--   FoxieHikari
--   robmtl (Rob's Red Hot Spot)
--   saus tartar
+- FoxieHikari
+- robmtl (Rob's Red Hot Spot)
+- saus tartar
 
 **Contributors & Testers**
 
--   3ddz
--   Alidonkey
--   Andreas Roth
--   andreharv
--   Andy80586
--   AngryMozart
--   Anthracite
--   APSMS
--   ardecila
--   ArkenbergeJoe
--   BigSlark
--   blahdy
--   Blue Lightning
--   brenda_xne
--   buddybud
--   CasperVg
--   choco
--   Chrisim
--   Chrno
--   Ciuu96
--   Colyn
--   CorinaMarie
--   CryinG.FreeM4n
--   daeley
--   deathtopumpkins
--   DebussyMan
--   DuskTrooper
--   dedgren
--   Dexter
--   Diggis
--   DJPTiger
--   Dragonshardz
--   Droric
--   ebina
--   elgoalio_29
--   Filasimo
--   frimi2
--   fukuda
--   Ganaram Inukshuk
--   Generalcamo
--   gizmo28
--   Glenni
--   GoaSkin
--   Ill Tonkso
--   isii94
--   J-dub
--   jdenm8
--   jeronij
--   Jiwoahn
--   jmvl
--   joelyboy911
--   Jonathan
--   jondor
--   jplumbley
--   Karybdis
--	kes5219
--   Khiyana
--   manchou
--   MandelSoft
--   Mero90
--   michi_cc
--   MIncroabl
--   moonlinght
--   morifari
--   mott
--   mtg
--   Murakumon
--   Nardo69
--   nooneatall
--   north country dude
--   paulvmontfort
--   plunderer
--   praiodan
--   Olasz
--   qurlix
--   rickmastfan67
--   riiga
--   Ripptide
--   RogerRon91
--   royal
--   Sabretooth78
--   samerton
--   Schleicher68
--   Seaman
--   Simmer2
--   sithlrd98
--   smoncrie
--   Spocky
--   squidi
--   Stefan79
--   superhands
--   swamp_ig
--   Swamper77
--   Swordmaster
--   Teirusu
--   The_Great_Chozo
--   Thorvin
--   threestooges
--   titanicbuff
--   toja
--   Tropod
--   vester
--   vil
--   vortext
--   woodb3kmaster
--   wouanagaine
--   xannepan
--   xxdita
--   Xyloxadoria
+- 3ddz
+- Alidonkey
+- Andreas Roth
+- andreharv
+- Andy80586
+- AngryMozart
+- Anthracite
+- APSMS
+- ardecila
+- ArkenbergeJoe
+- BigSlark
+- blahdy
+- Blue Lightning
+- brenda_xne
+- buddybud
+- CasperVg
+- choco
+- Chrisim
+- Chrno
+- Ciuu96
+- Colyn
+- CorinaMarie
+- CryinG.FreeM4n
+- daeley
+- deathtopumpkins
+- DebussyMan
+- DuskTrooper
+- dedgren
+- Dexter
+- Diggis
+- DJPTiger
+- Dragonshardz
+- Droric
+- ebina
+- elgoalio_29
+- Filasimo
+- frimi2
+- fukuda
+- Ganaram Inukshuk
+- Generalcamo
+- gizmo28
+- Glenni
+- GoaSkin
+- Ill Tonkso
+- isii94
+- J-dub
+- jdenm8
+- jeronij
+- Jiwoahn
+- jmvl
+- joelyboy911
+- Jonathan
+- jondor
+- jplumbley
+- Karybdis
+- kes5219
+- Khiyana
+- manchou
+- MandelSoft
+- Mero90
+- michi_cc
+- MIncroabl
+- moonlinght
+- morifari
+- mott
+- mtg
+- Murakumon
+- Nardo69
+- nooneatall
+- north country dude
+- paulvmontfort
+- plunderer
+- praiodan
+- Olasz
+- qurlix
+- rickmastfan67
+- riiga
+- Ripptide
+- RogerRon91
+- royal
+- Sabretooth78
+- samerton
+- Schleicher68
+- Seaman
+- Simmer2
+- sithlrd98
+- smoncrie
+- Spocky
+- squidi
+- Stefan79
+- superhands
+- swamp_ig
+- Swamper77
+- Swordmaster
+- Teirusu
+- The_Great_Chozo
+- Thorvin
+- threestooges
+- titanicbuff
+- toja
+- Tropod
+- vester
+- vil
+- vortext
+- woodb3kmaster
+- wouanagaine
+- xannepan
+- xxdita
+- Xyloxadoria
 
 ## Special Thanks
 

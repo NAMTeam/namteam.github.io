@@ -8,7 +8,7 @@ draft: false
 images: []
 url: "docs/feature-guides/real-railway"
 ---
-
+<!-- markdownlint-disable MD045 -->
 {{< docstatus status="workinprogress" >}}
 {{< docstatus status="untranslated" >}}
 
@@ -191,17 +191,17 @@ The small complex turnouts compliments the FARR-2 Alt with turnout setups that c
 
 ![](images/flextrack/turnouts/S/ST-O-P.jpg)
 
-![](images/flextrack/turnouts/S/ST-D-P.jpg) 
+![](images/flextrack/turnouts/S/ST-D-P.jpg)
 
----  
+---;
 
 ## Elevated RealRailway (ERRW)  
 
-Elevated RealRailway (**ERRW**) is the draggable implementation of heavy rail viaducts. ERRW is implemented at both L1 (7.5m) and L2 (15.5m). Both variants include support for some minicurves and multi radius curves. The MRCs supported are Radius (1, 2 and 3). 
+Elevated RealRailway (**ERRW**) is the draggable implementation of heavy rail viaducts. ERRW is implemented at both L1 (7.5m) and L2 (15.5m). Both variants include support for some minicurves and multi radius curves. The MRCs supported are Radius (1, 2 and 3).
 
 ### Height Transitions
 
-Switching between ground level (L0) RRW and ERRW is accomplished using FLEX transition pieces found in the *Draggable Elevated Railways (ERRW)* menu.  
+Switching between ground level (L0) RRW and ERRW is accomplished using FLEX transition pieces found in the _Draggable Elevated Railways (ERRW)_ menu.  
 
 ![](images/ERRW/Draggable-Elevated-Railways-ERRW_menu.jpg)
 
@@ -236,7 +236,6 @@ Diagonal on-slope transitions support the following configurations:
 
 ![](images/rrw-diag-transition.jpg)
 
-
 #### Ramp-style Transitions  
 
 It is also possible to transition from RRW to ERRW using ramp-style transitions.
@@ -244,7 +243,6 @@ It is also possible to transition from RRW to ERRW using ramp-style transitions.
 ![](images/ERRW/ERRW-Ramp-HT.jpg)  
 
 ### Curves and Turnouts
-
 
 As mentioned above the R1, R2 and R3 curves can have overrides at each level for making elevated smooth curves. They use the flextrack base to work so they only work with the RRW flextrack curves.
 
@@ -284,7 +282,6 @@ A2 Wye Turnout
 
 ### Crossings
 
-
 When crossing other networks a rail piece MUST! be placed on the concerning tile if you are crossing a non-rail network. This is due to the fact that rail code must be present in the network. Level crossing (LX) overridden by the ERRW are exempt however. A picture of what you should do is shown below...
 
 ![](images/flextrack/errw/D.jpg)
@@ -296,6 +293,7 @@ Of course this action is not needed if the network being crossed is the Rail net
 #### Crossing Support
 
 ##### L1
+
 {{< table class="table-bordered nam-compat-status" >}}
 |      Network     |   OxO   | OxD | DxO | DxD |
 |:----------------:|:-------:|:---:|:---:|:---:|

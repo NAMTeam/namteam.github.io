@@ -9,7 +9,7 @@ draft: false
 images: []
 url: "docs/getting-started/installation"
 ---
-
+<!-- markdownlint-disable MD025 MD051 -->
 # Scegliere tra i seguenti...
   
    <details>
@@ -25,24 +25,24 @@ url: "docs/getting-started/installation"
 * 3) Installare il Java Runtime Environment preconfezionato, se non è già installato. Si trova in un file denominato "OpenJDKxxxx".
 
 * 4) Eseguire il programma di installazione...
-  - In Windows:
-	- Utilizzare il file **NetworkAddonMod_Setup_Version47.bat**.  Questo installerà una patch da 4 GB che consente a NAM di funzionare correttamente nel gioco.
-  - Su macOS:
-	- Eseguire NetworkAddonMod_Setup_Version47.jar.
-	- **Se si utilizza la versione App Store**, il programma di installazione non può installare direttamente nella posizione Plugins utilizzata dalla versione App Store, che si trova all'interno del file .app (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Installare prima in una posizione alternativa, quindi copiare la cartella "Plugins" in quella posizione.  Si noti che il team NAM è attualmente in grado di fornire assistenza all'installazione agli utenti dell'App Store in modo molto limitato.
-  - Su Linux:
-	- Eseguire NetworkAddonMod_Setup_Version47.jar o, se non si riesce, eseguire NetworkAddonMod_Setup_Version47.sh.
-	
+  * In Windows:
+    * Utilizzare il file **NetworkAddonMod_Setup_Version47.bat**.  Questo installerà una patch da 4 GB che consente a NAM di funzionare correttamente nel gioco.
+  * Su macOS:
+    * Eseguire NetworkAddonMod_Setup_Version47.jar.
+    * **Se si utilizza la versione App Store**, il programma di installazione non può installare direttamente nella posizione Plugins utilizzata dalla versione App Store, che si trova all'interno del file .app (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Installare prima in una posizione alternativa, quindi copiare la cartella "Plugins" in quella posizione.  Si noti che il team NAM è attualmente in grado di fornire assistenza all'installazione agli utenti dell'App Store in modo molto limitato.
+  * Su Linux:
+    * Eseguire NetworkAddonMod_Setup_Version47.jar o, se non si riesce, eseguire NetworkAddonMod_Setup_Version47.sh.
+
 * 5) Seguire le istruzioni del programma di installazione, cliccando su ogni scheda della barra superiore, in ordine!
-  - a) Accettare le condizioni del mod nella scheda iniziale "welcome".
-  - b) Selezionare le opzioni che si desidera installare nella scheda "file".
-  - c) Selezionare il percorso di installazione nella scheda "location".  In genere viene lasciato invariato rispetto alla cartella Plugins predefinita.
-  - d) Infine, passare alla scheda "install".  Fare clic sul pulsante "Avvia installazione" per avviare il processo di installazione.  Al termine dell'installazione, la schermata di avanzamento mostrerà il messaggio "Tutti i componenti selezionati sono stati installati!".
-  - e) Chiudere il programma di installazione. L'installazione è terminata.
+  * a) Accettare le condizioni del mod nella scheda iniziale "welcome".
+  * b) Selezionare le opzioni che si desidera installare nella scheda "file".
+  * c) Selezionare il percorso di installazione nella scheda "location".  In genere viene lasciato invariato rispetto alla cartella Plugins predefinita.
+  * d) Infine, passare alla scheda "install".  Fare clic sul pulsante "Avvia installazione" per avviare il processo di installazione.  Al termine dell'installazione, la schermata di avanzamento mostrerà il messaggio "Tutti i componenti selezionati sono stati installati!".
+  * e) Chiudere il programma di installazione. L'installazione è terminata.
   
 * 5a) **Fase aggiuntiva per gli utenti Mac (opzionale su Windows/Linux)**: eseguire JDatPacker per consolidare i file della mod.
-  - Se si utilizza la versione App Store, eseguire JDatPacker nella directory Plugins risultante, quindi spostare i file "Network Addon Mod_###.dat" (dove "###" è un numero a tre cifre) nel contenitore.
-  - Sulla versione Steam (o se si utilizza JDatPacker su Windows), eseguire JDatPacker nella directory Documents\SimCity 4\Plugins (questa operazione consoliderà anche gli altri plugin).  Assicurarsi di rimuovere le directory originali che sono state consolidate e, se si aggiorna o si reinstalla il pacchetto NAM in qualsiasi momento, assicurarsi di eliminare i file "Network Addon Mod_###.dat" dai Plugin prima di eseguire la nuova installazione.  Si consiglia di utilizzare una nuova sottocartella (ad esempio "Plugins\Compressed Files") invece di installare nella radice della directory Plugins, per evitare conflitti tra le mod.
+  * Se si utilizza la versione App Store, eseguire JDatPacker nella directory Plugins risultante, quindi spostare i file "Network Addon Mod_###.dat" (dove "###" è un numero a tre cifre) nel contenitore.
+  * Sulla versione Steam (o se si utilizza JDatPacker su Windows), eseguire JDatPacker nella directory Documents\SimCity 4\Plugins (questa operazione consoliderà anche gli altri plugin).  Assicurarsi di rimuovere le directory originali che sono state consolidate e, se si aggiorna o si reinstalla il pacchetto NAM in qualsiasi momento, assicurarsi di eliminare i file "Network Addon Mod_###.dat" dai Plugin prima di eseguire la nuova installazione.  Si consiglia di utilizzare una nuova sottocartella (ad esempio "Plugins\Compressed Files") invece di installare nella radice della directory Plugins, per evitare conflitti tra le mod.
   
 * 6) Caricare il gioco e godersi il NAM!
 
@@ -67,25 +67,25 @@ url: "docs/getting-started/installation"
 **La Network Addon Mod è compatibile con le seguenti versioni di SimCity4 Deluxe/Rush Hour con la versione 1.1.641:**
 
 {{< table class="w-auto" >}}
-|         | GOG.com    | Steam       | Disc        | EA/Origin/Xbox Game Pass    | Mac App Store | Pirated 
-| ------- | :---:      | :------:    | :---:       | :---:                       | :---:         | :---: 
-| Windows | Si        | Si         | Limitato¹    | No³                         | N/A           | No    
-| Mac     | N/A        | Si         | Limitato²    | N/A                         | Si           | No    
+|         | GOG.com    | Steam       | Disc        | EA/Origin/Xbox Game Pass    | Mac App Store | Pirated
+| ------- | :---:      | :------:    | :---:       | :---:                       | :---:         | :---:
+| Windows | Si        | Si         | Limitato¹    | No³                         | N/A           | No
+| Mac     | N/A        | Si         | Limitato²    | N/A                         | Si           | No
 {{< /table >}}
-
 
 <span class="fs-6">**¹** Must be running at *least* Version 1.1.638</span><br>
 <span class="fs-6">**²** Running on macOS/OS X Version 10.6 (Snow Leopard) or earlier</span><br>
 <span class="fs-6">**³** SimCity 4 Deluxe ottenuto riscattando una chiave CD esistente (non acquistandola) tramite il Supporto Clienti Origin (versione 1.1.641) **è compatibile**</span>
 
 **Note**
+
 * 1) EA/Origin/Xbox Game Pass non sono supportati in quanto queste versioni sono purtroppo perma-locked alle vecchie versioni del gioco (versione 1.1.610).
-* 2) Il supporto tecnico è limitato per gli utenti della versione Steam per Mac e _molto limitato_ per gli utenti della versione Store per macOS.
+* 2) Il supporto tecnico è limitato per gli utenti della versione Steam per Mac e *molto limitato* per gli utenti della versione Store per macOS.
 
 ## Specifiche minime
 
-  - **NAM con opzione controller LowRAM/NoRHW**: Qualsiasi sistema costruito negli ultimi 15 anni, con 750 MB di spazio disponibile su disco.  (Gli utenti che utilizzano questa opzione non possono installare le funzioni RealHighway (RHW)).
-  - **NAM con opzione controller 4GB completo**: Qualsiasi sistema con sistema operativo a 64 bit, almeno 4 GB di RAM e 1,2 GB di spazio disponibile su disco.  Se si utilizza Windows, **la patch da 4 GB deve essere applicata all'eseguibile del gioco**.
+* **NAM con opzione controller LowRAM/NoRHW**: Qualsiasi sistema costruito negli ultimi 15 anni, con 750 MB di spazio disponibile su disco.  (Gli utenti che utilizzano questa opzione non possono installare le funzioni RealHighway (RHW)).
+* **NAM con opzione controller 4GB completo**: Qualsiasi sistema con sistema operativo a 64 bit, almeno 4 GB di RAM e 1,2 GB di spazio disponibile su disco.  Se si utilizza Windows, **la patch da 4 GB deve essere applicata all'eseguibile del gioco**.
   
     </details>
 
@@ -97,7 +97,7 @@ url: "docs/getting-started/installation"
 
 Il nuovo programma di installazione NAM (introdotto con la Release Candidate NAM 37) non esegue più il controllo della versione. Tuttavia, si raccomanda vivamente agli utenti di controllare la versione in uso, poiché le copie non aggiornate possono essere instabili. **La versione 1.1.610 e la versione 1.1.613 NON sono supportate.
 
-Nel caso F, la soluzione è semplicemente installare la patch EP1 Update 1, scaricabile da EA (SKU 1-5), SimCity 4 Devotion (SKU 1-5) o Simtropolis (solo SKU 1 e 2). Per determinare la versione SKU corretta per la propria copia di SimCity 4, individuare la directory di installazione e cercare nella sottocartella denominata _sku_data_. In alternativa, si possono semplicemente provare tutte le versioni SKU della patch, finché non ne funziona una.
+Nel caso F, la soluzione è semplicemente installare la patch EP1 Update 1, scaricabile da EA (SKU 1-5), SimCity 4 Devotion (SKU 1-5) o Simtropolis (solo SKU 1 e 2). Per determinare la versione SKU corretta per la propria copia di SimCity 4, individuare la directory di installazione e cercare nella sottocartella denominata *sku_data*. In alternativa, si possono semplicemente provare tutte le versioni SKU della patch, finché non ne funziona una.
 
 Per i casi G e H, consultate la [sezione su Origin](#origin-ea-play-xbox-gamepass) qui sotto.
 
@@ -125,7 +125,7 @@ Inoltre, l'app EA e il client Origin sono in grado di sbloccare le altre version
 
 Per coloro che hanno acquistato il gioco tramite EA.com, EA App o Origin Store, il team NAM consiglia di contattare l'assistenza EA/Origin per ottenere un rimborso, anche dopo la scadenza del periodo di restituzione, poiché gli utenti hanno avuto successo in questo caso. Se siete tra gli utenti che si sono ritrovati con la versione retail di EA App/Origin non patchata e non patchabile, vi consigliamo di contattare l'assistenza. Il team apprezzerebbe anche una vostra risposta, poiché desideriamo fortemente che EA fornisca ai propri clienti una copia del gioco correttamente patchata e stiamo cercando di documentare il numero di utenti interessati. Coloro che giocano tramite EA Play/Xbox Game Pass dovrebbero anche far sapere a EA Play che il gioco viene distribuito con un eseguibile obsoleto, privo di correzioni fondamentali per la stabilità.
 
-Stranamente, le copie ottenute riscattando gratuitamente una chiave CD esistente presso l'assistenza clienti di Origin (caso C) _sono_ correttamente patchate, nonostante ciò che lo stesso team di assistenza dice abitualmente a coloro che hanno acquistato copie e ricevuto copie digitali difettose della versione 1.1.610.
+Stranamente, le copie ottenute riscattando gratuitamente una chiave CD esistente presso l'assistenza clienti di Origin (caso C) *sono* correttamente patchate, nonostante ciò che lo stesso team di assistenza dice abitualmente a coloro che hanno acquistato copie e ricevuto copie digitali difettose della versione 1.1.610.
 
 In breve:
 
@@ -175,7 +175,7 @@ La directory predefinita in cui si trova SimCity 4.exe dipende da come e dove è
 
 ## Disinstallazione del NAM
 
-Per disinstallare i file, è sufficiente eliminare con un bulldozer ogni elemento NAM di questo download nelle vostre città e rimuovere successivamente i file dalla cartella Plugins, che sarà contenuta in _`Plugins\Network Addon Mod`_ per impostazione predefinita.
+Per disinstallare i file, è sufficiente eliminare con un bulldozer ogni elemento NAM di questo download nelle vostre città e rimuovere successivamente i file dalla cartella Plugins, che sarà contenuta in *`Plugins\Network Addon Mod`* per impostazione predefinita.
 
 ## Modifica delle opzioni dopo l'installazione iniziale
 

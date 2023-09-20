@@ -13,6 +13,7 @@ url: "docs/feature-guides/canals"
 {{< docstatus status="untranslated" >}}
 
 While CAN-AM is technically functional without any additional files, it is designed to work with either of the following (which are necessary for the canals to have walls):
+
 * [CAL SG Canals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=979) by **callagrafx** (recommended) OR
 * The original [SG Canals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=887) by **SimGoober**
 
@@ -72,5 +73,3 @@ Neighbor Connections with CAN-AM are possible as well.  Simply build a standard 
     images/can-am-nc-2.jpg
     images/can-am-nc-3.jpg
 {{< /gallery >}}
-
-

@@ -9,7 +9,7 @@ images: []
 url: "docs/feature-guides/underground-rail"
 ---
 
-## Menu Buttons 
+## Menu Buttons
 
 The URail system contains a total of six menu buttons.
 

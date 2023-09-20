@@ -9,73 +9,75 @@ images: []
 weight: 7
 url: "docs/reference/nam-version-history"
 ---
-
+<!-- markdownlint-disable MD025 -->
 # Agile Releases (2020 and later)
 
 ## Version 47 (27 March 2023)
+
 * **Pedestrian Revolution Mod Features**:
-  - The NAM Team is pleased to present the Classic Draggable Pedmalls, courtesy of **Ulisse Wolf** and **Lucario Boricua**. These come in 8 styles, 6 of which are equivalents to the Pedmall Puzzle Pieces, and introducing 2 new designs: the Retrowave Red Brick, inspired in the old brick texture used for the U-Rail in earlier NAM versions, and the Industrial Style, using the concrete surface typical of industrial lots. The initially supported features of these pedmalls include:
-    - Multidirectional draggable starter pieces using the Street network, supporting all orthogonal, diagonal, intersection and roundabout configurations, with the exception of wide radius curves.
-    - Intersection support (OXO T and 4-way) in the form of mid-block crosswalks. These support Road, Avenue, and all two-way Network Widening Mod override networks (TLA-3, AVE-2, ARD-3, NRD-4, TLA-5, RD-4, RD-6, TLA-7 and AVE-6). These draggable pedmalls are also compatible with the FLEX mid-block crosswalk pieces.
-    - Special underground paths enable residential zone development, while crossings discourage car traffic through restricted car paths.
-  - In addition, some enhancements to existing functionality have been implemented:
-    - The override code for the size 3 mid-block crosswalks for TLA-7 and AVE-6 have been overhauled, enabling these to be overridden from one side.
+  * The NAM Team is pleased to present the Classic Draggable Pedmalls, courtesy of **Ulisse Wolf** and **Lucario Boricua**. These come in 8 styles, 6 of which are equivalents to the Pedmall Puzzle Pieces, and introducing 2 new designs: the Retrowave Red Brick, inspired in the old brick texture used for the U-Rail in earlier NAM versions, and the Industrial Style, using the concrete surface typical of industrial lots. The initially supported features of these pedmalls include:
+    * Multidirectional draggable starter pieces using the Street network, supporting all orthogonal, diagonal, intersection and roundabout configurations, with the exception of wide radius curves.
+    * Intersection support (OXO T and 4-way) in the form of mid-block crosswalks. These support Road, Avenue, and all two-way Network Widening Mod override networks (TLA-3, AVE-2, ARD-3, NRD-4, TLA-5, RD-4, RD-6, TLA-7 and AVE-6). These draggable pedmalls are also compatible with the FLEX mid-block crosswalk pieces.
+    * Special underground paths enable residential zone development, while crossings discourage car traffic through restricted car paths.
+  * In addition, some enhancements to existing functionality have been implemented:
+    * The override code for the size 3 mid-block crosswalks for TLA-7 and AVE-6 have been overhauled, enabling these to be overridden from one side.
 * **RealHighway (RHW) Features**:
-  - **RHW-12S**: A new, 12-lane quadruple-tile RHW network (separable into two dual-tile halves, carrying 6 lanes in each direction) has been added, with the following features:
-    - Three height levels are supported: L0/Ground, L1/7.5-meter elevation, and L2/15-meter elevation.  Transitioning between these height levels is supported by the ramp-style FLEX Height Transitions (FLEX-HT), as well as the FLEX OnSlope Transitions (FLEX-OSTs), by connecting them to the RHW-12S networks.
-    - The RHW-12S features the same network crossings presently available to the other S-Type RHW networks, including crossings in all orientations for all Maxis base networks, all other RHW networks, Draggable Ground Light Rail, and Draggable Road Viaducts (L0-under-Viaduct-only), plus Orthogonal x Orthogonal (OxO)-only support for Network Widening Mod networks, Elevated RealRailway (ERRW) Viaducts, Tram-on-Street, Tram-in-Road, and Tram-in-Avenue.  Limited Hybrid Railway (HRW) support also exists.
-    - Extensive ramp interface support: supported ramps using FLEXRamps and Draggable Ramp Interfaces (when applicable) include Orthogonal Type A1 (all levels), Type B1 (all levels), Type D1 (all levels), Type E1 (all levels), Type A2 (all levels), Type B2 (L0 only), Type D2 (all levels), Type E2 (L0 only), Type A1-Inside (all levels), Type B1-Inside (all levels), Type D1-Inside (L0 only), Type E1-Inside (L0 only), the new Type A3 (L0 only) and Type D3 (L0 only), plus Diagonal Type A1 (L0 only), Type B1 (L0 only), Type D1 (L0 only), and Type E1 (L0 only).
-    - FLEX Width Transition (FLEX-WT) has been added, to support width transitions between RHW-12S and RHW-10S at all applicable height levels.
-    - FLEXFly over and undercrossings are supported with the RHW-12S (orthogonal-only, as diagonal undercrossings for FLEXFly do not presently exist for any network).
-    - Several bridges have been added (see Bridge section).
-    - Support for FlexSPUI is presently limited, and Three-Level Crossings are not yet supported.
-  - **RHW X3 Ramps**: The first two FLEX 3-lane ramps, in A3 and D3 configurations, have been provided for RHW-8S, 10S and 12S. At present, only L0 support is available.
-  - **General Improvements**
-    - Some enhancements, courtesy of **memo**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
-    - Some enhancements, courtesy of **Flann**, to elevated RHW network models have been added.
-	- Various adjacencies involving RHW x RHW crossings next to the base orth-diag curve on the smaller networks (RHW-6S and smaller) have been addressed.
+  * **RHW-12S**: A new, 12-lane quadruple-tile RHW network (separable into two dual-tile halves, carrying 6 lanes in each direction) has been added, with the following features:
+    * Three height levels are supported: L0/Ground, L1/7.5-meter elevation, and L2/15-meter elevation.  Transitioning between these height levels is supported by the ramp-style FLEX Height Transitions (FLEX-HT), as well as the FLEX OnSlope Transitions (FLEX-OSTs), by connecting them to the RHW-12S networks.
+    * The RHW-12S features the same network crossings presently available to the other S-Type RHW networks, including crossings in all orientations for all Maxis base networks, all other RHW networks, Draggable Ground Light Rail, and Draggable Road Viaducts (L0-under-Viaduct-only), plus Orthogonal x Orthogonal (OxO)-only support for Network Widening Mod networks, Elevated RealRailway (ERRW) Viaducts, Tram-on-Street, Tram-in-Road, and Tram-in-Avenue.  Limited Hybrid Railway (HRW) support also exists.
+    * Extensive ramp interface support: supported ramps using FLEXRamps and Draggable Ramp Interfaces (when applicable) include Orthogonal Type A1 (all levels), Type B1 (all levels), Type D1 (all levels), Type E1 (all levels), Type A2 (all levels), Type B2 (L0 only), Type D2 (all levels), Type E2 (L0 only), Type A1-Inside (all levels), Type B1-Inside (all levels), Type D1-Inside (L0 only), Type E1-Inside (L0 only), the new Type A3 (L0 only) and Type D3 (L0 only), plus Diagonal Type A1 (L0 only), Type B1 (L0 only), Type D1 (L0 only), and Type E1 (L0 only).
+    * FLEX Width Transition (FLEX-WT) has been added, to support width transitions between RHW-12S and RHW-10S at all applicable height levels.
+    * FLEXFly over and undercrossings are supported with the RHW-12S (orthogonal-only, as diagonal undercrossings for FLEXFly do not presently exist for any network).
+    * Several bridges have been added (see Bridge section).
+    * Support for FlexSPUI is presently limited, and Three-Level Crossings are not yet supported.
+  * **RHW X3 Ramps**: The first two FLEX 3-lane ramps, in A3 and D3 configurations, have been provided for RHW-8S, 10S and 12S. At present, only L0 support is available.
+  * **General Improvements**
+    * Some enhancements, courtesy of **memo**, have been made to facilitate FLEXFly-over-FLEXFly functionality.
+    * Some enhancements, courtesy of **Flann**, to elevated RHW network models have been added.
+    * Various adjacencies involving RHW x RHW crossings next to the base orth-diag curve on the smaller networks (RHW-6S and smaller) have been addressed.
 * **Bridges**:
-  - A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**:
-    - New viaduct bridges for L0 RHW-8S, L0 RHW-10S and L0-L2 RHW-12S.
-    - A pair of new Steel Arch bridges for RHW-10S and RHW-12S.
+  * A multitude of new bridges have been added, courtesy of **IDS2** and **Kitsune**:
+    * New viaduct bridges for L0 RHW-8S, L0 RHW-10S and L0-L2 RHW-12S.
+    * A pair of new Steel Arch bridges for RHW-10S and RHW-12S.
 * **Base Network Features**:
-  - A new 5x5 90° Wide Radius Curve FLEX piece has been added to the Avenue network.
+  * A new 5x5 90° Wide Radius Curve FLEX piece has been added to the Avenue network.
 * **Miscellaneous**:
-  - A huge number of bugfixes have been done for this release, including:
-    - Various RHW situations involving "tile drops", such as the RHW-8S-to-6S FLEX Width Transitions, the RHW-8S Type D1, E1, and B2 ramps, and the RHW-10S Type D2 and E2 ramps, have received considerable stability upgrades.
-    - The orientation of the Road end-T on OWR-1 intersection has been corrected.
-    - The orientations of certain NWM intersections involving the OWR-1 network with Euro textures have been corrected.
-    - Stability improvements have been made to the Ground Light Rail crossings with various wider RHW networks.
-    - The Dual Type 230 QCXs with L1 Dual Type 230-over-RHW-8C/6C and RHW-10S/8S have been improved.
-    - Issues in which lane drop arrows appeared in the wrong places on the S-to-C FLEX Width Transitions have been corrected.
-    - The ramp textures for the RHW-10S Type D2 and E2 ramps, as well as for the RHW-8S Type A2-Wide and B2 ramps have been improved.
-    - Orientation and stability issues have been fixed with the Avenue-based AVE-6 and its Thru-T-intersections with Street, Road, and One-Way Road (both Short-T and Long-T).
-    - Orthogonal x Diagonal slip lanes involving Road and One-way Road (OWR) have been re-implemented.
-	- Several hundred path files across all areas of the NAM have been fixed by **memo** and **Tarkus**.
-	- More SAM Street crossings with the Rail network have received crossing gates.
-	- Euro wealth textures have been added to the Avenue-based AVE-6 network.
+  * A huge number of bugfixes have been done for this release, including:
+    * Various RHW situations involving "tile drops", such as the RHW-8S-to-6S FLEX Width Transitions, the RHW-8S Type D1, E1, and B2 ramps, and the RHW-10S Type D2 and E2 ramps, have received considerable stability upgrades.
+    * The orientation of the Road end-T on OWR-1 intersection has been corrected.
+    * The orientations of certain NWM intersections involving the OWR-1 network with Euro textures have been corrected.
+    * Stability improvements have been made to the Ground Light Rail crossings with various wider RHW networks.
+    * The Dual Type 230 QCXs with L1 Dual Type 230-over-RHW-8C/6C and RHW-10S/8S have been improved.
+    * Issues in which lane drop arrows appeared in the wrong places on the S-to-C FLEX Width Transitions have been corrected.
+    * The ramp textures for the RHW-10S Type D2 and E2 ramps, as well as for the RHW-8S Type A2-Wide and B2 ramps have been improved.
+    * Orientation and stability issues have been fixed with the Avenue-based AVE-6 and its Thru-T-intersections with Street, Road, and One-Way Road (both Short-T and Long-T).
+    * Orthogonal x Diagonal slip lanes involving Road and One-way Road (OWR) have been re-implemented.
+    * Several hundred path files across all areas of the NAM have been fixed by **memo** and **Tarkus**.
+    * More SAM Street crossings with the Rail network have received crossing gates.
+    * Euro wealth textures have been added to the Avenue-based AVE-6 network.
 
 ## Version 46 (15 January 2023) (SC4 20th Anniversary)
+
 * **Network Widening Mod (NWM) Features**:
-  - Support for diagonal 4-way (+) intersections and crossings has been added for all six single-tile NWM networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4), including orthogonal X diagonal (OXD), diagonal X orthogonal (DXO) and diagonal X diagonal (DXD). These networks may cross one another, along with all base Maxis networks, Ground Light Rail (GLR), and Single-Track Rail (STR). Support for 3-way intersections, other NAM network families (i.e. RHW, SAM, etc.), and those involving multi-tile NWM networks will be added in a future phase.
-  - A preliminary version of an Avenue-based form of the 6-lane Avenue (AVE-6) network has been added, which supports full wealthing. To build an AVE-6 with the Avenue tool, overlap two orthogonal Avenues, and they will convert (diagonals are not presently supported). Most intersections supported by the existing AVE-6 are supported with this new implementation, and it is also possible to transition to the traditional Road-based AVE-6 for any functionality not yet supported.
+  * Support for diagonal 4-way (+) intersections and crossings has been added for all six single-tile NWM networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4), including orthogonal X diagonal (OXD), diagonal X orthogonal (DXO) and diagonal X diagonal (DXD). These networks may cross one another, along with all base Maxis networks, Ground Light Rail (GLR), and Single-Track Rail (STR). Support for 3-way intersections, other NAM network families (i.e. RHW, SAM, etc.), and those involving multi-tile NWM networks will be added in a future phase.
+  * A preliminary version of an Avenue-based form of the 6-lane Avenue (AVE-6) network has been added, which supports full wealthing. To build an AVE-6 with the Avenue tool, overlap two orthogonal Avenues, and they will convert (diagonals are not presently supported). Most intersections supported by the existing AVE-6 are supported with this new implementation, and it is also possible to transition to the traditional Road-based AVE-6 for any functionality not yet supported.
 * **Network Widening Mod (NWM) Features**: Over 20 new Bridges have been added, courtesy of IDS2, including the first Bridges for the OWR-4 and OWR-5 networks (which are Avenue-based Bridges, due to the side-by-side Bridge limitation). Further bridge support has been added for RD-4, RD-6, SAM-6 (Klinker Streets), SAM-11 (MGB Industial), Double-Track Rail (DTR) and Single Track Rail (STR).
 * **Hybrid Railway (HRW) Features**: L2 HRW support has been added, along with LHD improvements, and a reimplementation of the OnSlope Transitions to improve slope handling. Elevated support includes R2 elevated curves (at L1 and L2), orthogonal X orthogonal (OXO) crossings with the base road networks (Road, OWR, Avenue), the Network Widening Mod and the RealHighway, and diagonal X orthogonal (DXO) includes the base road networks and the RealHighway.
 * **Rail Slope Settings**: An improved set of Rail Slope Settings has been prepared, providing more user choice and greater usability with the smoother/more restrictive options.
 * **Base Network Features**:
-  - Courtesy of the recently-returned Shadow Assassin, the diagonal transitions between the Avenue network and the Road and RHW-2 networks have been dramatically improved, and extended versions have been added. Direct connection transitions were re-designed for a smoother look, and the new extended versions use a stub-to-stub override.
-  - In preparation for future phases of the NWM diagonal intersection expansion, the base T-intersections involving diagonal Road and/or One-Way Road have been revamped.
+  * Courtesy of the recently-returned Shadow Assassin, the diagonal transitions between the Avenue network and the Road and RHW-2 networks have been dramatically improved, and extended versions have been added. Direct connection transitions were re-designed for a smoother look, and the new extended versions use a stub-to-stub override.
+  * In preparation for future phases of the NWM diagonal intersection expansion, the base T-intersections involving diagonal Road and/or One-Way Road have been revamped.
 * **RealHighway (RHW) Features**:
-  - The long-awaited Dual Type 230 QuickChange Xpress Diamond Interchange setups are now available, which allow one to quickly build pre-fabricated interchanges between various RealHighway (RHW) networks and the triple-tile NWM networks, complete with turn lanes and all the bells and whistles.
-  - The Diagonal Ramp-Style FLEX Height Transitions now support RHW-3 and RHW-6S.
-  - The Double-Decker RHW-4 (DDRHW-4) models have been revamped, courtesy of Ulisse, coupled with some improvements to base functionality.
-  - The Type E1-Inside ramps now have elevated forms, and various incremental improvements have been made to the elevated ramp interface models.
-  - The Type A2 and B2 merging ramps have been re-designed to feature a lane drop prior to connecting with the mainline lanes.
-  - A new FLEX Width Transition piece has been added, to better facilitate transitions involving multi-tile S-type networks (especially the previously unstable RHW-8S-to-6S transitions, with their tile drop).
-  - The MIS 2-Lane FLEX Turn Lanes (including the FLEX Height Transition) can now connect smoothly to FlexSPUI and FlexDDI.
- * **FLEX Turn Lane (FTL) Streetlights**: The FLEX Turn Lane (FTL) setups (except the very limited Avenue Type 020) now support streetlights.
- * **New NAM Website**: An official Network Addon Mod website has been launched, [https://www.sc4nam.com](https://www.sc4nam.com), featuring NAM documentation and feature guides.
- * **NAM Lite**: NAM Lite has now been spun off as a standalone download.
+  * The long-awaited Dual Type 230 QuickChange Xpress Diamond Interchange setups are now available, which allow one to quickly build pre-fabricated interchanges between various RealHighway (RHW) networks and the triple-tile NWM networks, complete with turn lanes and all the bells and whistles.
+  * The Diagonal Ramp-Style FLEX Height Transitions now support RHW-3 and RHW-6S.
+  * The Double-Decker RHW-4 (DDRHW-4) models have been revamped, courtesy of Ulisse, coupled with some improvements to base functionality.
+  * The Type E1-Inside ramps now have elevated forms, and various incremental improvements have been made to the elevated ramp interface models.
+  * The Type A2 and B2 merging ramps have been re-designed to feature a lane drop prior to connecting with the mainline lanes.
+  * A new FLEX Width Transition piece has been added, to better facilitate transitions involving multi-tile S-type networks (especially the previously unstable RHW-8S-to-6S transitions, with their tile drop).
+  * The MIS 2-Lane FLEX Turn Lanes (including the FLEX Height Transition) can now connect smoothly to FlexSPUI and FlexDDI.
+* **FLEX Turn Lane (FTL) Streetlights**: The FLEX Turn Lane (FTL) setups (except the very limited Avenue Type 020) now support streetlights.
+* **New NAM Website**: An official Network Addon Mod website has been launched, [https://www.sc4nam.com](https://www.sc4nam.com), featuring NAM documentation and feature guides.
+* **NAM Lite**: NAM Lite has now been spun off as a standalone download.
 
 ## Version 45 (8 September 2022)
 
@@ -88,63 +90,62 @@ url: "docs/reference/nam-version-history"
 * **Documentation Upgrades**: The documentation has been thoroughly updated and now covers almost all NAM features to at least some extent, with the addition of feature guides for Hybrid Railway (HRW), the Pedestrian Revolution Mod, Ground Light Rail (GLR) and Tram Dual-Networking, the Elevated Road Viaducts, RealExpressway (REW), Utility Items (Network Eraser and Hole Diggers/Raisers), Underground Rail (URail), and the Canal Addon Mod (CAN-AM), alongside an updated glossary page.
 * **Euro Texture Optimization**: As a result of the large-scale file cleanup effort undertaken following the release of NAM 44 (known as "NAM 44X"), the NAM's Euro textures largely operate independently, and no longer rely upon overrides of the default US texture set. This has decreased the size of a Euro Texture installation of the NAM by about 300MB, and along with other optimizations, has dropped the size of the NAM download package by about 150MB.
 * **New Bridges**: A plethora of new bridges designed by **IDS2** have been added this release:
-  - Walnut Street (V-Shaped Girder) Bridges: Support for Road, Street, One-Way Road, SAM Sets 2, 6, 7, 8, 9, and 10, RHW-2, and RHW-4.
-  - Antheor Viaduct (Brick Arch Viaduct) Bridges: Support for RealRailway (RRW) Dual-Track Rail (DTR) and Single-Track Rail (STR).
-  - Additionally, the existing Cable-Stayed Bridge has been ported to cover Ground Light Rail (GLR).
+  * Walnut Street (V-Shaped Girder) Bridges: Support for Road, Street, One-Way Road, SAM Sets 2, 6, 7, 8, 9, and 10, RHW-2, and RHW-4.
+  * Antheor Viaduct (Brick Arch Viaduct) Bridges: Support for RealRailway (RRW) Dual-Track Rail (DTR) and Single-Track Rail (STR).
+  * Additionally, the existing Cable-Stayed Bridge has been ported to cover Ground Light Rail (GLR).
 * **Additional RealExpressway Ramps**: New Road-to-OWR-1 splits have been added to the RealExpressway Mod, and can be found at the end of the RealExpressway Ramps button on the Roads Menu.
     RHW MIS Ramp and FLEX Turn Lane Additions: L1 support for MIS 2-Lane FLEX Turn Lanes (FTLs) has been added, including a new combination upward height/width transition. Additionally, network support for the MIS 2-Lane FTLs has been improved, along with the ability to use the same draggable method used on the One-Way Roads (via transition to Road prior to an intersection) for SITAP (Signalized Intersection and Turn Arrow Project) support has been incorporated. The 3x3 90° Curves for the MIS have also been ported to L1-L4 elevations.
 * **RHW Model Improvements**: Courtesy of **Flann**, the elevated versions of the RHW-6C and RHW-8C now feature a single median barrier, matching their ground counterparts, and eliminating the previous gap between the two halves/carriageways of the highways. Additionally, the elevated versions of the 2x2 MIS Short 90° Curves have also received further optimization. New barrier and pillar textures by **Bipin** have also been incorporated to coincide with these changes.
 * **Italian Translation**: As a result of the efforts of **ulisse99**, the entirety of the NAM has been translated into Italian.
 * **Other Bugfixes**:
-  - The level crossings for Ground Light Rail (GLR) and RealRailway (RRW) have been properly color-corrected.
-  - Adjacency issues involving the RHW-8S Type D1 and Type D1-Inside ramps have been addressed.
-  - 3x3 Street circles have been stabilized and modified to use a smoother blend curve.
-  - The Ground Light Rail (GLR) pathing on the ulisse Transit Stations has been fixed.
-  - The rotation of some intersections involving OWR-3 (esp. OWR-3 x AVE-2 +) has been corrected.
-  - Various issues with the Maxis Highway and Maxis Highway Override crossings with the RealHighway (RHW) system have been addressed.
-  - Fixes have been applied to the Elevated Light Rail and Monorail versions of the Cable-Stayed Bridge, the Steel Arch Rail Bridge, the High Elevated (30m) Monorail Bridge, and the L1/L2 RHW-8S and RHW-10S Viaduct Bridges.
-  - Some stop point issues causing some signals on AVE-6 intersections with Avenue to remain permanently green have been addressed.
-  - The model for the SimGoober-Style Canal Station in the Canal Addon Mod (CAN-AM) plugin has been fixed by **Tyberius06**.
-
+  * The level crossings for Ground Light Rail (GLR) and RealRailway (RRW) have been properly color-corrected.
+  * Adjacency issues involving the RHW-8S Type D1 and Type D1-Inside ramps have been addressed.
+  * 3x3 Street circles have been stabilized and modified to use a smoother blend curve.
+  * The Ground Light Rail (GLR) pathing on the ulisse Transit Stations has been fixed.
+  * The rotation of some intersections involving OWR-3 (esp. OWR-3 x AVE-2 +) has been corrected.
+  * Various issues with the Maxis Highway and Maxis Highway Override crossings with the RealHighway (RHW) system have been addressed.
+  * Fixes have been applied to the Elevated Light Rail and Monorail versions of the Cable-Stayed Bridge, the Steel Arch Rail Bridge, the High Elevated (30m) Monorail Bridge, and the L1/L2 RHW-8S and RHW-10S Viaduct Bridges.
+  * Some stop point issues causing some signals on AVE-6 intersections with Avenue to remain permanently green have been addressed.
+  * The model for the SimGoober-Style Canal Station in the Canal Addon Mod (CAN-AM) plugin has been fixed by **Tyberius06**.
 
 ## Version 44 (22 March 2022)
 
 * **Hybrid Railway (HRW) Features**: The Hybrid Railway system now features FA-2 Alt content, new textures to blend with the RealRailway (RRW) system, improvements to catenaries, and major improvements to Left-Hand Drive [LHD] support.
 * **RealHighway (RHW) x Avenue Features**:
-  - The RealHighway (RHW) now has a FlexDDI system, allowing for FLEX-based Diverging Diamond interchanges with the Avenue network at ground level, and L1 and L2 elevations. Additionally, the FlexSPUI system now supports the L1 height level for the Type 120/Avenue configuration, along with stability improvements for all height levels. Both of these FLEX-based items can be found under a new button on the Roads menu.
-  - Additionally, the Avenue Type A1 and B1 MIS Ramp Interfaces have received draggable forms, following the same basic drag patterns as the RHW Type A1 and B1 Ramp Interfaces.
+  * The RealHighway (RHW) now has a FlexDDI system, allowing for FLEX-based Diverging Diamond interchanges with the Avenue network at ground level, and L1 and L2 elevations. Additionally, the FlexSPUI system now supports the L1 height level for the Type 120/Avenue configuration, along with stability improvements for all height levels. Both of these FLEX-based items can be found under a new button on the Roads menu.
+  * Additionally, the Avenue Type A1 and B1 MIS Ramp Interfaces have received draggable forms, following the same basic drag patterns as the RHW Type A1 and B1 Ramp Interfaces.
 * **RealHighway (RHW) Curves**: new 90° draggable Mini-Curves have been added.
-  - The new 3x3 R1 90° Curves support the ground-level RHW-2, RHW-3, RHW-4, and MIS Ramp networks.
-  - The new 4x4 R1.5 90° Curves support the ground-level RHW-2, RHW-3, RHW-4, RHW-6S, and MIS Ramp networks.
-  - The RHW-6S also now supports the 5x5 R2 90° Curve configuration.
-  - MIS Ramp network support has been added to the FLEX S-Curve, and minor aesthetic improvements have been made to the L1 and above RHW-4 FLEX S-Curves.
+  * The new 3x3 R1 90° Curves support the ground-level RHW-2, RHW-3, RHW-4, and MIS Ramp networks.
+  * The new 4x4 R1.5 90° Curves support the ground-level RHW-2, RHW-3, RHW-4, RHW-6S, and MIS Ramp networks.
+  * The RHW-6S also now supports the 5x5 R2 90° Curve configuration.
+  * MIS Ramp network support has been added to the FLEX S-Curve, and minor aesthetic improvements have been made to the L1 and above RHW-4 FLEX S-Curves.
 * **RealHighway (RHW) Transitions**:
-  - 45° Curved FLEX Height Transitions at the R3 radius have been added, covering the RHW-2 (L0-L1), RHW-4 (L0-L1, L1-L2, L2-L3, L3-L4), and MIS Ramp (L0-L1, L1-L2, L2-L3, L3-L4) networks.
-  - Diagonal FLEX OnSlope (FLEX-OST) support has been added for the RHW-3 and RHW-6S networks.
-  - Additionally, further adjacency stability has been added to the 4x4 90° Curved FLEX Height Transitions.
+  * 45° Curved FLEX Height Transitions at the R3 radius have been added, covering the RHW-2 (L0-L1), RHW-4 (L0-L1, L1-L2, L2-L3, L3-L4), and MIS Ramp (L0-L1, L1-L2, L2-L3, L3-L4) networks.
+  * Diagonal FLEX OnSlope (FLEX-OST) support has been added for the RHW-3 and RHW-6S networks.
+  * Additionally, further adjacency stability has been added to the 4x4 90° Curved FLEX Height Transitions.
 * **Bridges**: New Viaduct Bridges have been added for Avenue (L0, L1, and L2), RHW-8S and RHW-10S (L1 and L2), and RealRailway (L0, L1, L2 for double track, L0 and L1 for single track).
 * **Flexible Turn Lane (FTL) Features**:
-  - FLEX-based FTL Height Transitions have been added, including for the Type 120 Avenue (Ascending, L0-L1 and L0-L2--use the FLEX Pieces for ramp-style transitions, or drag the FTL setup into the ground end of the On-Slope Transitions to transition the turn lanes to elevation), and RealHighway MIS-2 Lane (Descending, L1-L0, with FLEX Pieces for ramp-style transitions) configurations.
-  - Limited L1 and L2 Type 120 Avenue FTL support has been added (primarily for connecting to the L1 and L2 FlexSPUI).
-  - The Type 230 configuration for the Triple-Tile Network Widening Mod (NWM) networks has received draggable support for rail-type crossings, including Rail (both Dual and Single-Track), L1 and L2 Rail Viaducts, Standard and Rural Ground Light Rail (GLR), Elevated (Light) Rail, and Monorail. The MIS 2-Lane configuration has also received support for Avenue + and T-intersections (without FTLs), and One-Way Road intersections (with SITAP--Signalization and Turn Arrow Project--support, using the appropriate FLEX intersections).
-  - Additionally, Avenues can now end at T-intersections with the Road/NWM Type 110 configuration, with turn arrows provided by the new Avenue Type 020 FTLs.
+  * FLEX-based FTL Height Transitions have been added, including for the Type 120 Avenue (Ascending, L0-L1 and L0-L2--use the FLEX Pieces for ramp-style transitions, or drag the FTL setup into the ground end of the On-Slope Transitions to transition the turn lanes to elevation), and RealHighway MIS-2 Lane (Descending, L1-L0, with FLEX Pieces for ramp-style transitions) configurations.
+  * Limited L1 and L2 Type 120 Avenue FTL support has been added (primarily for connecting to the L1 and L2 FlexSPUI).
+  * The Type 230 configuration for the Triple-Tile Network Widening Mod (NWM) networks has received draggable support for rail-type crossings, including Rail (both Dual and Single-Track), L1 and L2 Rail Viaducts, Standard and Rural Ground Light Rail (GLR), Elevated (Light) Rail, and Monorail. The MIS 2-Lane configuration has also received support for Avenue + and T-intersections (without FTLs), and One-Way Road intersections (with SITAP--Signalization and Turn Arrow Project--support, using the appropriate FLEX intersections).
+  * Additionally, Avenues can now end at T-intersections with the Road/NWM Type 110 configuration, with turn arrows provided by the new Avenue Type 020 FTLs.
 * **Streets and the Street Addon Mod (SAM)**: The draggable Diagonal S-Curves now work for SAM Sets 2 through 11.
 * **Network Widening Mod (NWM) x Street Addon Mod (SAM)**: Adjacency support for the Network Widening Mod (NWM) networks' intersections with the Street Addon Mod (SAM) sets has been vastly improved.
 * **FLEX Overpasses**: The Road, One-Way Road (OWR), and Avenue networks have now received FLEX Overpasses, which allow for prefabricated orthogonal viaduct overcrossings of 1-4 tiles to be built. The length can be selected by using Home and End to rotate the overpass. Simply drag any orthogonal network underneath the FLEX Overpasses to cross below them.
 * **RHW Disconnector/NAM Eraser**: The RHW Disconnector Tool has been rechristened the NAM Eraser, reflecting its ability to erase 1x1 network tiles of any network or network crossing combination. Additionally, it is also now available on all network menus.
 * **User Interface**:
-  - The NAM's menu buttons have been reworked, providing a cleaner image and, to improve internationalization (i18n), the English text has been removed from the icons themselves.
-  - The buttons have also been reordered, in an effort to improve the overall experience.
-  - Additionally, the old puzzle piece-based overpasses have been related to legacy status.
+  * The NAM's menu buttons have been reworked, providing a cleaner image and, to improve internationalization (i18n), the English text has been removed from the icons themselves.
+  * The buttons have also been reordered, in an effort to improve the overall experience.
+  * Additionally, the old puzzle piece-based overpasses have been related to legacy status.
 * **Left-Hand Drive Support**: Various improvements have been made across the board to LHD pathing.
 * **Morifari Victorian Stations**: The Morifari Victorian Stations for Elevated Light Rail and Rail Viaducts have been restored, with some associated bugs fixed.
 * **Other Bugfixes**:
-  - The RHW-10S will no longer flip improperly under Elevated RealRailway (ERRW) crossings.
-  - Diagonal x Diagonal (DxD) crossings involving the MIS Ramp and RHW-8C network have been improved.
-  - Pathing issues on the RHW-6C and RHW-8C FLEX Neighbor Connections have been addressed.
-  - Fixed the Euro textures on the RHW-6S Type A2 Wide ramp.
-  - The extraneous arrows on the RHW-2-to-4 and RHW-4-to-6C FLEX Width Transitions in LHD have been addressed.
-  - Drag-through issues involving the Triple-Tile-Thru x Dual-Tile-End FLEX T-intersections in the Flexible Turn Lanes (FTLs) have been fixed.
+  * The RHW-10S will no longer flip improperly under Elevated RealRailway (ERRW) crossings.
+  * Diagonal x Diagonal (DxD) crossings involving the MIS Ramp and RHW-8C network have been improved.
+  * Pathing issues on the RHW-6C and RHW-8C FLEX Neighbor Connections have been addressed.
+  * Fixed the Euro textures on the RHW-6S Type A2 Wide ramp.
+  * The extraneous arrows on the RHW-2-to-4 and RHW-4-to-6C FLEX Width Transitions in LHD have been addressed.
+  * Drag-through issues involving the Triple-Tile-Thru x Dual-Tile-End FLEX T-intersections in the Flexible Turn Lanes (FTLs) have been fixed.
 
 ## Version 43 (24 December 2021)
 
@@ -224,7 +225,7 @@ url: "docs/reference/nam-version-history"
 * The stability of the OWR-1 override of the RIRO/LILO (Right/Left In, Right/Left Out) Slip Lanes has been improved.
 * Stability improvements have been made to the Type 220 x Type 220 T-Intersection in the FLEX Turn Lane/QuickTurn system.
 * Issues with the Single-Tile Roundabouts allowing the network to drag out the incorrect side (and not out the correct side) in Left-Hand Driving (LHD) mode have been addressed.
-* + and T-intersections involving One-Way Road-based "Boulevards" (a configuration in which two One-Way Roads are separated by a one-tile median) no longer inadvertently convert into One-Way Road Roundabouts.
+  * \+ and T-intersections involving One-Way Road-based "Boulevards" (a configuration in which two One-Way Roads are separated by a one-tile median) no longer inadvertently convert into One-Way Road Roundabouts.
 * Minor file architecture improvements have been made to prevent installation errors involving the Legacy Auto Avenue Turn Lanes and Legacy Semi-Auto Road Turning Lanes, which would lead to blank intersections and approaches at Avenue x Avenue and Road x Road intersections--the #2 tech support issue in recent NAM releases.
 * A long-standing missing texture glitch with the L1-L4 RHW-4 Type E1 ramps has been corrected.
 * An adjacency glitch involving the RHW-2 connection to the One-Way Road Roundabouts when next to a Diagonal Road connection has been addressed.
@@ -397,7 +398,7 @@ url: "docs/reference/nam-version-history"
 * Some files moved from Rail Viaducts to Base Contents, to address issue with "missing tiles" reported by users who did not install the viaducts.
 * Several LHD path fixes for bridges.
 * Under/overpass on starter situations improved for RHW starters.
-* While the expanded RealHighway functionality available in the 31.x-series releases is much more stable in Version 31.2, issues still exist with the L1 and L2 Diagonal RHW-6C, 8C, 8S, and 10S, when crossing over other RealHighways. The overpass may behave as if it is prevented, or produce inexplicable results. Due to the complexity of the coding for any sort of crosslinking between two override networks (especially when one is multi-tile and diagonal), solving this issue is a veritable "needle in the haystack" situation, and will take substantial time to correct. *Support will not be provided for issues involving these overpasses.*
+* While the expanded RealHighway functionality available in the 31.x-series releases is much more stable in Version 31.2, issues still exist with the L1 and L2 Diagonal RHW-6C, 8C, 8S, and 10S, when crossing over other RealHighways. The overpass may behave as if it is prevented, or produce inexplicable results. Due to the complexity of the coding for any sort of crosslinking between two override networks (especially when one is multi-tile and diagonal), solving this issue is a veritable "needle in the haystack" situation, and will take substantial time to correct. _Support will not be provided for issues involving these overpasses._
 * Two multi-purpose transit stations by E-N of BriPizza have been added, serving the orthogonal intersections of almost all single-width networks that differ in height by 15m.
 * The NAM Ideal Transit Switches (NITS) have been introduced. The NITS provide greatly increased efficiency for all combo NAM transit stations (e.g., all stations with subway access and at least one other major network), which results in greater network usage.
 * Controller updated to version r184.
@@ -589,13 +590,13 @@ url: "docs/reference/nam-version-history"
 * Shadows fixed on ElevatedHighway Curve & several ElevatedHighway Curve x Street/Road/Rail/OneWayRoad/Avenue junctions.
 * A list of Additional Intersections & Junctions (for normal networks) has now been included & can be found in the [Contents](/docs/overview-of-content-and-features).
 * YIMBY Effects on Ped Mall Tiles & Footbridges adjusted to more balanced levels & are as follows:
-  - Type of Effect (Magnitude, Radius)
-  - Landmark Effect (70,7)
-  - Park Effect (35,7)
-  - Mayor Rating Effect (5,8)
-  - Air Pollution Reduction (-5,3)
-  - Water Pollution Reduction (0,0)
-  - Garbage Reduction (1,0)
+  * Type of Effect (Magnitude, Radius)
+  * Landmark Effect (70,7)
+  * Park Effect (35,7)
+  * Mayor Rating Effect (5,8)
+  * Air Pollution Reduction (-5,3)
+  * Water Pollution Reduction (0,0)
+  * Garbage Reduction (1,0)
 
 ## Version 18 (25 July 2005)
 
@@ -647,38 +648,38 @@ url: "docs/reference/nam-version-history"
 * A number of (other) Rail related (drawing) bugs &/or intersections addressed. Please note; that it may require bulldozing &/or (re-)drawing some sections/intersections of rail network in order for some of these addressed bugs to take effect.
 * All existing Road/OneWayRoad/Avenue Overpasses, Puzzle Pieces, Ground & Elevated Highway Ramps Preview Models have been given a facelift.
 * Following (diagonal-based) Puzzle Pieces added:
-  - Orthogonal Road over diagonal/double diagonal Rail
-  - Orthogonal Road over diagonal/double diagonal Road
-  - Orthogonal Road over diagonal/double diagonal OneWayRoad
-  - Orthogonal Road over diagonal Avenue
-  - Orthogonal Road over diagonal GroundHighway
-  - Orthogonal OneWayRoad over diagonal/double diagonal Rail
-  - Orthogonal OneWayRoad over diagonal/double diagonal Road
-  - Orthogonal OneWayRoad over diagonal/double diagonal OneWayRoad
-  - Orthogonal OneWayRoad over diagonal Avenue
-  - Orthogonal OneWayRoad over diagonal GroundHighway
-  - Orthogonal Avenue over diagonal/double diagonal Rail
-  - Orthogonal Avenue over diagonal/double diagonal Road
-  - Orthogonal Avenue over diagonal/double diagonal OneWayRoad
-  - Orthogonal Avenue over diagonal Avenue
-  - Orthogonal Avenue over diagonal GroundHighway
-  - Orthogonal Rail over diagonal/double diagonal Rail
-  - Orthogonal Rail over diagonal/double diagonal Road
-  - Orthogonal Rail over diagonal/double diagonal OneWayRoad
-  - Orthogonal Rail over diagonal Avenue
-  - Orthogonal Rail over diagonal GroundHighway
+  * Orthogonal Road over diagonal/double diagonal Rail
+  * Orthogonal Road over diagonal/double diagonal Road
+  * Orthogonal Road over diagonal/double diagonal OneWayRoad
+  * Orthogonal Road over diagonal Avenue
+  * Orthogonal Road over diagonal GroundHighway
+  * Orthogonal OneWayRoad over diagonal/double diagonal Rail
+  * Orthogonal OneWayRoad over diagonal/double diagonal Road
+  * Orthogonal OneWayRoad over diagonal/double diagonal OneWayRoad
+  * Orthogonal OneWayRoad over diagonal Avenue
+  * Orthogonal OneWayRoad over diagonal GroundHighway
+  * Orthogonal Avenue over diagonal/double diagonal Rail
+  * Orthogonal Avenue over diagonal/double diagonal Road
+  * Orthogonal Avenue over diagonal/double diagonal OneWayRoad
+  * Orthogonal Avenue over diagonal Avenue
+  * Orthogonal Avenue over diagonal GroundHighway
+  * Orthogonal Rail over diagonal/double diagonal Rail
+  * Orthogonal Rail over diagonal/double diagonal Road
+  * Orthogonal Rail over diagonal/double diagonal OneWayRoad
+  * Orthogonal Rail over diagonal Avenue
+  * Orthogonal Rail over diagonal GroundHighway
 * **Please note:** Diagonal-based Puzzle Pieces are more temperamental. Extra care should be taken when interacting with these (placement, bulldozing etc.)
 
 ## Version 14 (29 November 2004)
 
 * All Ped Mall Tiles & Footbridges now contain YIMBY Effects. Specific details of the (YIMBY) Effects are as follows:
-  - Type of Effect (Magnitude, Radius)
-  - Landmark Effect (150,7)
-  - Park Effect (150,7)
-  - Mayor Rating Effect (5,8)
-  - Air Pollution Reduction (-150,3)
-  - Water Pollution Reduction (-100,3)
-  - Garbage Reduction (-10,0)
+  * Type of Effect (Magnitude, Radius)
+  * Landmark Effect (150,7)
+  * Park Effect (150,7)
+  * Mayor Rating Effect (5,8)
+  * Air Pollution Reduction (-150,3)
+  * Water Pollution Reduction (-100,3)
+  * Garbage Reduction (-10,0)
 
 ## Version 13 (15 November 2004)
 

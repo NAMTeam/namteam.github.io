@@ -20,11 +20,11 @@ The NAM's feature additions to this area of the transportation system include nu
     images/tramteaser2.jpg
 {{< /gallery >}}
 
-##  Installing the Light Rail/Tram Features from the NAM Installer
+## Installing the Light Rail/Tram Features from the NAM Installer
 
 The various Light Rail/Tram features in the NAM are found in the NAM Installer under "2 Additional Network Features > Light Rail". The modules listed under this section are described in more detail in the Networks section below.
 
-##  Light Rail/Tram Override Networks, Pseudo-Networks, and Dual-Networking Options
+## Light Rail/Tram Override Networks, Pseudo-Networks, and Dual-Networking Options
 
 ### Overview
 
@@ -80,7 +80,7 @@ Bridges for Ground Light Rail are also possible. Drag the Elevated Light Rail to
     images/glr-bridge-3.jpg
 {{< /gallery >}}
 
-###  Tram-in-Network Dual-Networking Options
+### Tram-in-Network Dual-Networking Options
 
 The NAM includes a number of options to run Light Rail/Tram lines both within the medians of, and directly on various road-type networks. There are presently four different Tram Dual-Networking options available:
 
@@ -93,14 +93,13 @@ The NAM includes a number of options to run Light Rail/Tram lines both within th
 
 All four may be constructed via puzzle pieces, and three of the four--all but Tram-on Road (ToR)--may be at least partially constructed through semi-draggable means, by clicking over the individual tiles of the respective base road-type network (Avenue, Road, or Street) with the Elevated (Light) Rail network tool. (Note that the semi-draggable method is the only way to construct certain crossings, including RHW and Road Viaduct crossings.) Diagonal versions of the dual networks require puzzle pieces.
 
-####  Tram Dual-Networking Semi-Draggable Construction
+#### Tram Dual-Networking Semi-Draggable Construction
 
 Tram-in-Avenue
 {{< gallery col-xl="2" col-lg="2" >}}
     images/tram-in-ave-1.jpg
     images/tram-in-ave-2.jpg
 {{< /gallery >}}
-
 
 Tram-in-Road
 {{< gallery col-xl="2" col-lg="2" >}}
@@ -172,16 +171,16 @@ The Over-Avenue and Over-RD-4 options, however, exist primarily as FLEX Pieces, 
     images/elr-over-ave-int-3.jpg
 {{< /gallery >}}
 
-###  High Elevated (Light) Rail Pseudo-Network (Puzzle Piece-Based) {{% legacy %}} {#high-elevated-rail}
+### High Elevated (Light) Rail Pseudo-Network (Puzzle Piece-Based) {{% legacy %}} {#high-elevated-rail}
 
 In addition to support for Light Rail/Tram at the ground level, there is limited "legacy" support for High Elevated (Light) Rail (30.5-meter height, a fraction above the NAM's "Level 4" (L4, 30 meters) standard), via puzzle pieces. This system is limited, but does provide an additional height level (note that full draggable support for another height level of Elevated (Light) Rail has been discussed for a future NAM release, though which height is yet to be determined, and there is no timeline for when this addition may occur).
 
 {{< img-simple src="images/high-el-rail.jpg" >}}
 
-##  A Note Regarding Neighbor Connections
+## A Note Regarding Neighbor Connections
 
 Neighbor Connections are possible for all of the items listed here. Simply build the draggable, semi-draggable, or puzzle-based component at the edge of both city tiles, using the base network (Elevated Light Rail for base Ground Light Rail and High Elevated Rail, the appropriate road-type network for Tram and Elevated Rail Dual Networks).
 
-##  Known Issues
+## Known Issues
 
 There may be some issues with Fire Engine access on Tram and Elevated Light Rail Dual Networks, if a fire is on the opposite side of the tracks from the Fire Engine.

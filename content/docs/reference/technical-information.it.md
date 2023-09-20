@@ -68,7 +68,7 @@ Se per qualche motivo il bug è stato attivato, cioè un IRI è stato costruito 
 * Elementi correlati all'interscambio (IRI); possono includere sia gli originali Maxis che qualsiasi elemento personalizzato correlato all'interscambio, come cavalcavia autostradali, rampe, quadrifogli, pezzi di puzzle e altri elementi simili.
 * Cursore degli elementi correlati alla base di interscambio.
 
-##### **Punto di arresto: **
+##### **Punto di arresto:**
 
 Se il Cursore contiene un IRI e poi questo Cursore viene sorvolato e/o cliccato (e/o ripetuto) su una TEL, in alcuni casi circostanziati può causare il crash istantaneo del gioco sul desktop. Al momento è noto che questo accade solo se la rete dell'IRI sul Cursore è la stessa con cui è compatibile la TEL.
 
@@ -108,7 +108,7 @@ Il Network Addon Mod include, dipende e utilizza una serie di file che sono unic
 
 * ElTrain Cohort - 0x8BBF6D45
 
-#### **File di Exemplar **
+#### **File di Exemplar**
 
 * Traffic Simulator - 0xC9133286
 * Automata Tuning - 0x00000001
@@ -139,7 +139,7 @@ Il Network Addon Mod include, dipende e utilizza una serie di file che sono unic
 * Intersection Solutions - 0x10000001
 * Rule Overrides - 0x10000002
 
-#### **File di INI **
+#### **File di INI**
 
 * Network Parameters - 0x8A5993B9
 
@@ -150,10 +150,13 @@ Il Network Addon Mod include, dipende e utilizza una serie di file che sono unic
 Poiché il gioco ha versioni con guida a destra e a sinistra, coprire in modo efficiente ed efficace tutte le diverse possibilità di tracciatura dei pezzi del puzzle OneWayRoad rende a volte problematica la loro codifica/tracciatura. Per questo motivo alcuni pezzi di puzzle OneWayRoad, in particolare i pezzi di puzzle basati su **Intersezioni**, contengono un percorso bidirezionale per i file di percorso sia in avanti che in dietro, o per la guida a destra e a sinistra. Lo stesso vale anche per alcuni pezzi di puzzle basati su intersezioni stradali e viali. Questo è stato fatto come misura preventiva per superare qualsiasi problema di complicazione che potrebbe essere sorto con i giocatori che utilizzano gli elementi di questa mod che sono associati a, cioè OneWayRoad, pezzi di puzzle, con qualsiasi problema funzionale e / o solo generale con loro. Di conseguenza, i giocatori potrebbero notare alcune stranezze di percorso e/o automatismi e/o problemi con/quando utilizzano questi particolari elementi della mod.
 
 Il paragrafo precedente non si applica ai pezzi di puzzle o ai cavalcavia che contengono **frecce direzionali**. I pezzi di puzzle e i cavalcavia che contengono **frecce direzionali** dovrebbero funzionare correttamente come dovrebbero, in genere senza stranezze di Pathing/Automata, purché siano posizionati e collegati correttamente in base alle loro **frecce direzionali**.
+
 ### 3.2 U-Drive-It &/for EI Rail
 
 Esistono alcune limitazioni del gioco con cui abbiamo dovuto lavorare per rendere possibile l'UDI per EI Rail. Purtroppo, per alcuni aspetti dell'UDI per una rete ferroviaria, il gioco riconosce solo determinati percorsi per gli scambi di binario (gli scambi di binario sono quelli che permettono di andare in direzioni diverse agli incroci durante l'UDI). Per questo motivo, i file UDI EI Rail e/o EI Rail Path contengono una serie replicata di tracciati: una serie di tracciati per la rete originale prevista e una serie per la modalità UDI EI Rail. L'insieme di tracciati per la modalità UDI EI Rail sono tecnicamente tracciati basati su rotaie terrestri. Per questo motivo, dovrebbe essere possibile portare un treno passeggeri UDI e/o un treno merci UDI dalla ferrovia terrestre all'EI Rail utilizzando un lotto abilitato al transito (e viceversa per il treno EI Rail alla ferrovia terrestre). Per ottenere questo risultato, però, il lotto abilitato al transito dovrebbe contenere speciali file di percorso personalizzati. Questo, tuttavia, è attualmente al di fuori dello scopo di questa modifica.  
+
 ## 4. Gerarchia delle reti
+
 Nel gioco esiste una gerarchia tra le diverse reti. Di seguito è riportata una linea guida sulla gerarchia dei diversi tipi di rete in superficie:
 
 [In ordine dal vertice della gerarchia al fondo della gerarchia]
@@ -172,13 +175,15 @@ Nel gioco esiste una gerarchia tra le diverse reti. Di seguito è riportata una 
 Quanto più una rete è in alto nella gerarchia, tanto maggiore è la sua priorità quando si disegna una rete su un'altra (in modo parallelo e sovrapposto). Per questo motivo non è possibile trascinare una rete che si trova all'estremità inferiore della gerarchia su una rete che si trova più in alto nella gerarchia e convertire la rete in quella della gerarchia inferiore. Questo è un aspetto definito nel motore di gioco ed è molto improbabile che possa essere modificato. A parte questo, però, in generale questa gerarchia non dovrebbe causare alcun problema, a meno che non siate un modder che cerca di modificare le reti e/o i file associati.
 
 ## 5. Lots
+
 Questa mod non contiene affatto file di Lotti e/o di [Exemplar], come quelli che si trovano nei Lotti di edifici; in nessun modo.
 
-
 ## 6. ANT Item
+
 L'elemento ANT che Maxis ha lasciato incompleto/inattivo nel gioco, con il nome tecnico di "DirtRoad", era un plugin opzionale che è stato sostituito dal Rural Highway Mod (RHW). La funzionalità completa del plugin ANT è stata trasferita all'RHW e non è più supportata dal NAM. Per ulteriori informazioni sull'RHW, consultare il file readme dell'RHW.
 
 ## 7. Convenzioni ID NAM
+
 Questa sezione illustra brevemente le convenzioni per i file che il NAM segue tipicamente per i suoi contenuti personalizzati (ove applicabile). Queste convenzioni sono solo linee guida e pertanto alcuni elementi preesistenti risalgono a quando sono state stabilite queste linee guida e potrebbero non seguire le convenzioni. Inoltre, alcune eccezioni e/o variazioni limitate possono essere applicate o (devono) esistere per motivi funzionali, tecnici e/o di gestione interna.
 
 La maggior parte delle convenzioni è regolata o è stata influenzata dalle convenzioni Maxis. Queste convenzioni si applicano principalmente ai file relativi alla rete e, sebbene non siano completamente complete, coprono le convenzioni relative all'ID istanza, le convenzioni di rete e/o qualsiasi altra convenzione che possa essere applicabile o appropriata per questa sezione in questo momento. Queste convenzioni comprendono i file S3D Model, i file SC4Path, i file Exemplar basati sulla rete, i file FSH basati sulla rete, i file EffectDir basati sulla rete, i file Prop basati sulla rete ed eventualmente altri.
@@ -202,6 +207,7 @@ La maggior parte delle convenzioni è regolata o è stata influenzata dalle conv
 | Avenue  | 4 | OneWayRoad   | 9 |               |   |
 
 ## 8. Left Hand Version Rail Networks Fix
+
 Questa sezione è un'estensione della sezione precedente che tratta le convenzioni per gli ID NAM. Le convenzioni di questa sezione, tuttavia, si applicano solo ai file SC4Path.
 
 Questa sezione tratta la "correzione per le reti ferroviarie in versione sinistra" inclusa nel Network Addon Mod.
@@ -211,6 +217,7 @@ Versione con guida a destra contro versione con guida a sinistra; i file di perc
 Questa correzione fa uso del file INI Network del gioco che consente l'inversione manuale dei file di percorso specificamente per le versioni Left Hand attraverso l'uso di uno speciale mascheramento dell'InstanceID e la sostituzione dei file di percorso, che l'exe analizza automaticamente in fase di esecuzione. Purtroppo, i test attuali mostrano che la rete Subway rappresenta un'eccezione. Per questo motivo questi percorsi sono stati inclusi in un plugin aggiuntivo per le versioni Left-Hand. Questo Plugin aggiuntivo contiene anche altri file per le versioni Left-Hand. Questo Plugin aggiuntivo deve essere utilizzato solo per le versioni con guida a sinistra. Consultare le [Istruzioni per l'installazione](/docs/installation-notes/) per quanto riguarda l'installazione di questo file aggiuntivo del Plugin.
 
 Questa particolare correzione avrà un impatto sulle versioni con guida a sinistra. A causa dei necessari aggiustamenti apportati, questa correzione avrà successivamente un impatto sui lotti abilitati al transito, per le versioni per mancini. Di seguito viene spiegato più dettagliatamente l'impatto.
+
 ### Transit Enabled Lots
 
 I lotti abilitati al transito che non specificano un file di percorso effettivo e/o utilizzano solo semplici flag RUL nella proprietà LotConFig non dovrebbero essere interessati e non è necessario apportare alcuna modifica. Tuttavia, i lotti abilitati al transito che specificano effettivamente i file di percorso in una qualsiasi delle loro proprietà LotConFig saranno probabilmente interessati e potrebbero dover essere modificati. I lotti abilitati al transito di questo tipo hanno in genere proprietà LotConFig di tipo 0x00000007 (o in altre parole, 0x00000007 come primo valore) e hanno 16+ valori per la proprietà LotConFig, specificando i file di percorso effettivi (cioè InstanceID) nel 16+ valore. Per ovviare agli effetti negativi che questa correzione potrebbe causare, per i lotti abilitati al transito per le versioni sinistre, leggere attentamente quanto segue;
@@ -248,9 +255,10 @@ Versione lunga (gamme IID specifiche attuali)
 * 0x 5F8 **32900** --> 0x 7F8 **32900** ~ _these are actual path files found in the NAM_
 * 0x 5D **123900** --> 0x 7D **123900** ~ _in the case of a Rail-based Bridge_
 
-Tutti gli intervalli IID relativi alle rotaie sono coperti e invertiti per le versioni con guida a sinistra. Qualsiasi file di percorso che rientra negli intervalli sopra elencati, indipendentemente dal tipo di percorso contenuto, verrà analizzato dall'exe, verranno utilizzati file di percorso sostitutivi e quindi invertiti (NOTA: se non esiste un file di percorso sostitutivo, la piastrella in questione potrebbe non funzionare). Poiché l'exe non inverte effettivamente le reti ferroviarie, utilizzerà semplicemente i file di percorso sostitutivi come per le versioni per mancini. Se però nel file sostitutivo esiste un percorso di auto, l'exe invertirà solo la porzione di percorso di auto del file di percorso per le versioni con guida a sinistra. 
+Tutti gli intervalli IID relativi alle rotaie sono coperti e invertiti per le versioni con guida a sinistra. Qualsiasi file di percorso che rientra negli intervalli sopra elencati, indipendentemente dal tipo di percorso contenuto, verrà analizzato dall'exe, verranno utilizzati file di percorso sostitutivi e quindi invertiti (NOTA: se non esiste un file di percorso sostitutivo, la piastrella in questione potrebbe non funzionare). Poiché l'exe non inverte effettivamente le reti ferroviarie, utilizzerà semplicemente i file di percorso sostitutivi come per le versioni per mancini. Se però nel file sostitutivo esiste un percorso di auto, l'exe invertirà solo la porzione di percorso di auto del file di percorso per le versioni con guida a sinistra.
 
 ## 9. End Notes
+
 ### A.1
 
 Esemplare di grafico pendolare: È stato incluso solo nei file con il nome " _..._10xCommute_". L'unica ragione è quella di cercare di compensare la visualizzazione del grafico dei pendolari in modo da dare un'idea più rappresentativa del tempo di percorrenza vissuto [rispetto a quello che si considera/aspetta di solito]. È altamente consigliabile che ogni volta che si cambia il file del Plugin del Traffico, si dia al gioco tutto il tempo necessario per aggiornare tutto ciò che è correlato e/o connesso ai percorsi e ai pendolari. Si dovrebbero concedere almeno dodici mesi di tempo al gioco. Questo tempo può variare a seconda delle dimensioni della città, delle opzioni di gioco e/o del sistema informatico.
@@ -263,4 +271,4 @@ Si noti che alcuni file sono stati replicati, utilizzati e/o citati più volte d
 
 Si consiglia vivamente di non modificare il contenuto di questi file e di non modificare nessuno dei file TGI, a meno che non si sappia bene cosa si sta facendo. Poiché la modifica di uno qualsiasi di questi file potrebbe causare il mancato funzionamento dei file e/o delle correzioni/caratteristiche di Network Addon Mod e/o di altri elementi.
 
-Ultimo aggiornamento del file: Giovedì 24 aprile 2008_
+_Ultimo aggiornamento del file: Giovedì 24 aprile 2008_
