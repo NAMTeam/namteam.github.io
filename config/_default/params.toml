@@ -50,10 +50,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Copyright (c) 2008-2023 NAM Team"
+footer = "Copyright (c) 2008-2024 NAM Team"
 
 # Feed
-copyRight = "Copyright (c) 2008-2023 NAM Team"
+copyRight = "Copyright (c) 2008-2024 NAM Team"
 
 # Alert
 alert = false
@@ -76,7 +76,7 @@ lastMod = true
   lazySizes = true
   clipBoard = true
   instantPage = true
-  flexSearch = true
+  flexSearch = false
   searchSectionsShow = []
   searchSectionsIndex = []
   darkMode = true
