@@ -1,7 +1,7 @@
 {
   "name": "namdocs",
   "description": "Network Addon Mod official documentation",
-  "version": "47.0",
+  "version": "48.0",
   "engines": {
     "node": ">=16.16.0"
   },
