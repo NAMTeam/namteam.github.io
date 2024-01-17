@@ -12,6 +12,25 @@ url: "docs/reference/nam-version-history"
 <!-- markdownlint-disable MD025 -->
 # Agile Releases (2020 and later)
 
+## Version 48 (16 January 2024)
+
+* **RealRailway Features**:
+  * Draggable OxD, DxO, and DxD crossing support for L1 and L2 ERRW (DTR) over Road, Street, SAM 2-11, One-Way Road, Avenue, RHW-2, Rail, and STR has been added.
+  * Fractional Angle Starter Pieces have been added.
+* **Pedestrian Revolution Mod Features**:
+  * Seven new draggable PedMall Bridges (built with the Street network) have been added.
+  * Aesthetic improvements have been made to the midblock crosswalks, with regional variants (US version gets HAWK crossing signals, EU versions get standard traffic signal).
+* **Street Network Improvements**:
+  * Diagonal intersections have been redesigned.
+  * Some orthogonal Street intersections have received improved textures.
+  * Some aesthetic improvements have been made to streetside signage (including US and EU variations).
+* **RealHighway Features**:
+  * The Orthogonal FLEX On-Slope Height Transitions have been reimplemented, supporting tighter configurations with FLEXRamps and drag-through construction.
+  * The MIS x Road orthogonal intersections have received textural improvements.
+* **Language Support**:
+  * The NAM is now fully translated into Italian (thanks to Ulisse Wolf) and Korean (thanks to SimCitySquare).
+  * Translations have been expanded for French (thanks to hugues aroux) and Portuguese (thanks to SDA).
+
 ## Version 47 (27 March 2023)
 
 * **Pedestrian Revolution Mod Features**:

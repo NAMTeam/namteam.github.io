@@ -402,7 +402,13 @@ There are two subtypes of Height Transitions: "Ramp-Style" and "On-Slope". The f
 
 {{< img-simple src="images/rhw-ht-types.jpg" >}}
 
-The standard FLEXHeight transitions (orthogonal, diagonal, and curved) default to the base RHW-2 network (producing an elevated version of the RHW-2, either L1 or L2 out the other end). If wishing to simply use the RHW-2 network, plopping the piece down is all that is needed. (The 180-degree MIS Ramp transition is MIS-only, however, and dragging an RHW-2 into it will produce either an L0 or L1 MIS Ramp, depending on the end.) If using an On-Slope version, only drag the RHW network up to the _edge_ of the transition, **NOT through**, in order to preserve the embankment.
+
+{{< alert context="warning" >}}
+<span class="text-warning">Using FLEXHeight Transitions with RHW-2:</span>
+
+Even though most FLEXHeight transitions default to the base RHW-2 network, for technical reasons, the pieces **will not** produce an elevated RHW-2 network and it is required to use a starter or connect to an already elevated RHW-2.  For other RHW networks, connecting to the L0 side of the transition will produce the appropriate elevated network on the opposite side.
+{{< /alert >}}
+
 
 ##### Ramp-Style Usage
 
@@ -410,7 +416,12 @@ The standard FLEXHeight transitions (orthogonal, diagonal, and curved) default t
 
 ##### On-Slope Usage
 
-{{< img-simple src="images/rhw-flexheight-use-1b.jpg" >}}
+
+{{< gallery col-xl="3" col-lg="3" col-md="2" >}}
+    images/rhw-flexheight-use-onslope-1.jpg
+    images/rhw-flexheight-use-onslope-2.jpg
+    images/rhw-flexheight-use-onslope-3.jpg
+{{< /gallery >}}
 
 To override the base RHW-2 configuration of the FLEXHeight transitions, either Ramp-Style or On-Slope, simply drag the desired override network into either end, and it will convert to match. If any tiles refuse to convert, simply click over the first point where the override stops complying, and it should convert. Placing starters on both sides of the transition ensures maximum stability.
 

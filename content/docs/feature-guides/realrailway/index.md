@@ -302,15 +302,15 @@ Of course this action is not needed if the network being crossed is the Rail net
 {{< table class="table-bordered nam-compat-status" >}}
 |      Network     |   OxO   | OxD | DxO | DxD |
 |:----------------:|:-------:|:---:|:---:|:---:|
-|      Street      |   Yes   |  No |  No |  No |
-|       Road       |   Yes   |  No |  No |  No |
-|   One Way Road   |   Yes   |  No |  No |  No |
-|      Avenue      |   Yes   |  No |  No |  No |
+|      Street      |   Yes   | Yes | Yes | Yes |
+|       Road       |   Yes   | Yes | Yes | Yes |
+|   One Way Road   |   Yes   | Yes | Yes | Yes |
+|      Avenue      |   Yes   | Yes | Yes | Yes |
 |   Maxis Highway  |   Yes   |  No |  No |  No |
-| Real Railway DTR |   Yes   |  No |  No | Yes |
-| Real Railway STR |   Yes   |  No |  No | Yes |
+| Real Railway DTR |   Yes   | Yes | Yes | Yes |
+| Real Railway STR |   Yes   | Yes | Yes | Yes |
 |        MIS       |   Yes   |  No |  No |  No |
-|       RHW-2      |   Yes   |  No |  No |  No |
+|       RHW-2      |   Yes   | Yes | Yes | Yes |
 |       RHW-3      | Partial |  No |  No |  No |
 |      RHW-4S      |   Yes   |  No |  No |  No |
 |      RHW-6S      |   Yes   |  No |  No |  No |
@@ -334,7 +334,7 @@ Of course this action is not needed if the network being crossed is the Rail net
 |        TOS       | Partial |  No |  No |  No |
 |        TOR       | Partial |  No |  No |  No |
 |        TIA       | Partial |  No |  No |  No |
-|     SAM Sets     |   Yes   |  No |  No |  No |
+|     SAM Sets     |   Yes   | Yes | Yes | Yes |
 |       GHSR       |   Yes   |  No |  No |  No |
 {{< /table >}}
 
@@ -343,15 +343,15 @@ Of course this action is not needed if the network being crossed is the Rail net
 {{< table class="table-bordered nam-compat-status" >}}
 |      Network     |   OxO   | OxD | DxO | DxD |
 |:----------------:|:-------:|:---:|:---:|:---:|
-|      Street      |   Yes   |  No |  No |  No |
-|       Road       |   Yes   |  No |  No |  No |
-|   One Way Road   |   Yes   |  No |  No |  No |
-|      Avenue      |   Yes   |  No |  No |  No |
+|      Street      |   Yes   | Yes | Yes | Yes |
+|       Road       |   Yes   | Yes | Yes | Yes |
+|   One Way Road   |   Yes   | Yes | Yes | Yes |
+|      Avenue      |   Yes   | Yes | Yes | Yes |
 |   Maxis Highway  |   Yes   |  No |  No |  No |
-| Real Railway DTR |   Yes   |  No |  No | Yes |
-| Real Railway STR |   Yes   |  No |  No | Yes |
+| Real Railway DTR |   Yes   | Yes | Yes | Yes |
+| Real Railway STR |   Yes   | Yes | Yes | Yes |
 |        MIS       |   Yes   |  No |  No |  No |
-|       RHW-2      |   Yes   |  No |  No |  No |
+|       RHW-2      |   Yes   | Yes | Yes | Yes |
 |       RHW-3      | Partial |  No |  No |  No |
 |      RHW-4S      |   Yes   |  No |  No |  No |
 |      RHW-6S      |   Yes   |  No |  No |  No |
@@ -375,7 +375,7 @@ Of course this action is not needed if the network being crossed is the Rail net
 |        TOS       | Partial |  No |  No |  No |
 |        TOR       | Partial |  No |  No |  No |
 |        TIA       | Partial |  No |  No |  No |
-|     SAM Sets     |   Yes   |  No |  No |  No |
+|     SAM Sets     |   Yes   | Yes | Yes | Yes |
 |       GHSR       |   Yes   |  No |  No |  No |
 {{< /table >}}
 
