@@ -29,7 +29,7 @@ To view the site locally:
 npm run start
 ```
 
-The site will be deployed automatically to `https://localhost:1313`.
+The site will be deployed automatically to `http://localhost:1313`.
 
 
 ## Style guide
