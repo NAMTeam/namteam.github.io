@@ -15,6 +15,13 @@
     <span class="fs-6">The contents of this document may reference older, obsolete NAM content.<br/> It, however, can still be used as a reference guide.</span>
   </div>
 </div>
+{{ else if eq $status "dllmod" -}}
+<div class="alert border border-warning border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">The documentation on this page contains references to DLL Mod.</span><br/>
+    <span class="fs-6">The contents of this page refer to methods that can be obtained only by using mod DLLs and thus available only to Windows and Linux users.<br/> MAC users cannot use the advanced functions of the Mod DLLs and are therefore forced to use the traditional methods if they are available.</span>
+  </div>
+</div>
 {{ else if eq $status "compatibility" -}}
 <div class="alert border border-info border-5 d-flex mb-4" role="alert">
   <div class="w-100 text-center">
@@ -66,6 +73,13 @@
   <div class="w-100 text-center">
     <span class="h4 fw-bold">La documentazione presente in questa pagina potrebbe essere obsoleta.</span><br/>
     <span class="fs-6">Il contenuto di questo documento può fare riferimento a contenuti NAM più vecchi e obsoleti.<br/> Tuttavia, può ancora essere utilizzato come guida di riferimento.</span>
+  </div>
+</div>
+{{ else if eq $status "dllmod" -}}
+<div class="alert border border-warning border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">La documentazione di questa pagina contiene riferimenti alle DLL Mod</span><br/>
+    <span class="fs-6">I contenuti di questa pagina si riferiscono a modalità che si possono ottenere solo usando le DLL mod e quindi disponibili solo agli utenti Windows e Linux.<br/> Gli utenti MAC non possono usare le features avanzate delle DLL Mod e quindi sono obligati a usare i metodi tradizionali.</span>
   </div>
 </div>
 {{ else if eq $status "compatibility" -}}
