@@ -148,21 +148,21 @@ The catalog speeds for the base RealHighway network are listed below. Note, howe
 
 ## Constructing The RealHighway
 
-### The Disconnector: A RealHighway-Safe Bulldozer
+### The Network Eraser: A RealHighway-Safe Bulldozer
 
-Due to the vestigial remnants of the unfinished network stub, the base RealHighway network possesses an auto-connect functionality, similar to the way the Street network operates. This can make the network's behavior rather erratic when using the game's base Bulldoze tool, and may result in more being demolished than one intended, particularly when dealing with complicated interchanges constructed entirely from RealHighway components.
+The base RealHighway network has auto-connect functionality, similar to the way the Street network operates. This can make the network behave erraticly when using the Bulldozer tool, and may result in more destruction than one intended, particularly when dealing with complicated interchanges constructed entirely from RealHighway components.
 
-{{< img-simple src="images/rhw-bulldozer.jpg" >}}
+{{< override from="images/rhw-bulldozer-before.jpg" to="images/rhw-bulldozer-after.jpg">}}
 
-To combat this issue, the RealHighway plugin comes with an alternative demolition tool, known as the Disconnector, which can be found under the Disconnector button on the Highways menu.
+To combat this issue, the NAM includes an alternative demolition tool, the Network Eraser (previously known as the _RHW Disconnector_).  The Network Eraser can be found near the top of the Highways menu, as well as the the Roads, Rails, and Miscellaneous Transportation menus.
 
-{{< menu-icon icon="images/icons/rhw-disconnector-button" caption="_RHW Disconnector Button_" >}}
+{{< menu-icon icon="images/icons/rhw-network-eraser-button" caption="_Network Eraser Button_" >}}
 
-Plopping the Disconnector over a single tile of RealHighway, including starter pieces, FLEX pieces, and intersections (but not puzzle pieces) will demolish only the tile directly under the cursor.
+Plopping the Network Eraser over a single tile of RealHighway, including starter pieces, FLEX pieces, and intersections (but not puzzle pieces) will demolish only the tile directly under the cursor.
 
-{{< img-simple src="images/rhw-disconnector-use.jpg" >}}
+{{< override from="images/rhw-eraser-before.jpg" to="images/rhw-eraser-after.jpg">}}
 
-The Disconnector is also used as part of some Pattern-Based Draggable setups used by the RealHighway plugin, particularly the [Draggable Ramp Interfaces (DRIs)](#draggable-ramp-interfaces). Additionally, it can be used in many situations with non-RHW networks as well.
+The Network Eraser is also used as part of some Pattern-Based Draggable setups used by the RealHighway plugin, particularly the [Draggable Ramp Interfaces (DRIs)](#draggable-ramp-interfaces). Additionally, it can be used in many situations with non-RHW networks as well.
 
 ### Constructing Diagonals and Base Curves
 
