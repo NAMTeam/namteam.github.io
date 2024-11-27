@@ -150,7 +150,7 @@ The catalog speeds for the base RealHighway network are listed below. Note, howe
 
 ### The Network Eraser: A RealHighway-Safe Bulldozer
 
-The base RealHighway network has auto-connect functionality, similar to the way the Street network operates. This can make the network behave erraticly when using the Bulldozer tool, and may result in more destruction than one intended, particularly when dealing with complicated interchanges constructed entirely from RealHighway components.
+The base RealHighway network has auto-connect functionality, similar to the way the Street network operates. This can make the network behave erratically when using the Bulldozer tool, and may result in more destruction than one intended, particularly when dealing with complicated interchanges constructed entirely from RealHighway components.
 
 {{< override from="images/rhw-bulldozer-before.jpg" to="images/rhw-bulldozer-after.jpg">}}
 
