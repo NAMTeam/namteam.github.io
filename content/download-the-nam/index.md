@@ -13,3 +13,5 @@ images: []
 The Network Addon Mod can be downloaded at the following locations:
 
 * [SC4Evermore](https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod)
+
+{{< docstatus status="secthreat" >}}
