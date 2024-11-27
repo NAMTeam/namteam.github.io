@@ -44,6 +44,13 @@
     <span class="fs-6">This component of the Network Addon Mod has been superseded by more modern content and therefore no further development will be completed. This component is kept for compatibility purposes only.</span>
   </div>
 </div>
+{{ else if eq $status "secthreat" -}}
+<div class="alert border border-warning border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Urgent Security Alert</span><br/>
+    <span class="fs-6">The NAM Version 48 download on ModDB was compromised by a cyberattack, which also affected the version available on Simtropolis.<br/> See <a href="https://community.simtropolis.com/forums/topic/763470-important-update-regarding-network-addon-mod-48-on-moddb-potential-security-issue/">here</a> for further details and support.</span>
+  </div>
+</div>
 {{ else }}
 <div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
@@ -95,6 +102,13 @@
   <div class="w-100 text-center">
     <span class="h4 fw-bold">Contenuto obsoleto</span><br/>
     <span class="fs-6">Questo componente del Network Addon Mod è stato sostituito da contenuti più moderni e pertanto non sarà più sviluppato. Questo componente viene mantenuto solo per motivi di compatibilità.</span>
+  </div>
+</div>
+{{ else if eq $status "secthreat" -}}
+<div class="alert border border-danger border-5 d-flex" role="alert">
+  <div class="w-100 text-center">
+    <span class="h4 fw-bold">Avviso di sicurezza urgente</span><br/>
+    <span class="fs-6">Il download della versione 48 di NAM su ModDB è stato compromesso da un attacco informatico, che ha colpito anche la versione disponibile su Simtropolis.<br/> Per ulteriori dettagli e supporto, <a href="https://community.simtropolis.com/forums/topic/763470-important-update-regarding-network-addon-mod-48-on-moddb-potential-security-issue/">vedere qui</a>.</span>
   </div>
 </div>
 {{ else if eq $status "untranslated" -}}
