@@ -38,7 +38,7 @@
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "devDependencies": {
-    "@babel/cli": "^7.23",
+    "@babel/cli": "^7.24",
     "@babel/core": "^7.24",
     "@babel/preset-env": "^7.23",
     "@fullhuman/postcss-purgecss": "^5.0",
@@ -59,7 +59,7 @@
     "netlify-plugin-submit-sitemap": "^0.4.0",
     "node-fetch": "^3.3.2",
     "postcss": "^8.4",
-    "postcss-cli": "^10.0",
+    "postcss-cli": "^11.0",
     "purgecss-whitelister": "^2.4",
     "shx": "^0.3.4",
     "stylelint": "^14.14",
