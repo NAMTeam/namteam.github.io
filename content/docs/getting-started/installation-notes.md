@@ -73,18 +73,15 @@ url: "docs/getting-started/installation"
 {{< table class="w-auto" >}}
 |         | GOG.com    | Steam       | Disc        | EA/Origin/Xbox Game Pass    | Mac App Store | Pirated
 | ------- | :---:      | :------:    | :---:       | :---:                       | :---:         | :---:
-| Windows | Yes        | Yes         | Limited¹    | No³                         | N/A           | No
-| Mac     | N/A        | Yes         | Limited²    | N/A                         | Yes           | No
+| Windows | Yes        | Yes         | Limited²    | Yes<sup>4,5</sup>                      | N/A           | No
+| Mac     | N/A        | Yes¹        | Limited³    | N/A                         | Yes¹          | No
 {{< /table >}}
 
-<span class="fs-6">**¹** Must be running at *least* Version 1.1.638</span><br>
-<span class="fs-6">**²** Running on macOS/OS X Version 10.6 (Snow Leopard) or earlier</span><br>
-<span class="fs-6">**³** SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641) **is compatible**</span>
-
-**Notes**
-
-* 1) EA/Origin/Xbox Game Pass is not supported as these versions are unfortunately perma-locked to older versions of the game (Version 1.1.610).
-* 2) Technical support is limited for Mac Steam version users, and *very limited* for macOS Store version users._
+<span class="fs-6">**¹** Technical support is limited for Mac Steam version users, and *very limited* for macOS Store version users.</span><br>
+<span class="fs-6">**²** Must be running at *least* Version 1.1.638</span><br>
+<span class="fs-6">**³** Running on macOS/OS X Version 10.6 (Snow Leopard) or earlier</span><br>
+<span class="fs-6">**⁴** As of June 2023, this version **is compatible**. See [Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass](#origin-ea-play-xbox-gamepass) for further information.</span><br>
+<span class="fs-6">**⁵** SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641) **is compatible**</span><br>
 
 ### Minimum Specs
 
@@ -122,22 +119,22 @@ Please note that if you are attempting to use an older, 32-bit version of Window
 
 ### Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass {#origin-ea-play-xbox-gamepass}
 
-Aside from a brief period in 2014-2015, Origin and the EA App, the digital retail platforms run by Electronic Arts (EA), have been selling copies of SimCity 4 Deluxe featuring an unpatched and unpatchable version of the game's executable file to retail customers. As of the release of NAM 47, this is still the case. Unlike the retail versions sold by GOG.com and Steam (and previously Amazon's "Thin Game Download" version), which come prepatched to Version 1.1.641, the edition sold on the Origin Store and the EA App (also used by the EA Play subscription service), features a Version 1.1.610 executable, mixed with Version 1.1.641 versions of the SimCity_1-5.dat files. By virtue of switching out the original SafeDisc copy protection for their own DRM, EA/Origin altered the checksum of the game's executable, thereby preventing EA's own EP1 Update 1 (Version 1.1.638) and BAT Nightlighting/EP1 Update 2 (Version 1.1.640) patchers from properly updating the executable. It also appears to be more difficult to apply the 4GB Patch with the EA App version, which is needed in order to run a full NAM installation.
+From it's inception through June 2023 (aside from a brief period in 2014-2015), Origin and the EA App, the digital retail platforms run by Electronic Arts (EA), sold copies of SimCity 4 Deluxe featuring an unpatched and unpatchable version of the game's executable file to retail customers. Unlike the retail versions sold by GOG.com and Steam (and previously Amazon's "Thin Game Download" version), which come prepatched to Version 1.1.641, the edition sold on the Origin Store and the EA App (also used by the EA Play subscription service), featured a Version 1.1.610 executable, mixed with Version 1.1.641 versions of the SimCity_1-5.dat files. By virtue of switching out the original SafeDisc copy protection for their own DRM, EA/Origin altered the checksum of the game's executable, thereby preventing EA's own EP1 Update 1 (Version 1.1.638) and BAT Nightlighting/EP1 Update 2 (Version 1.1.640) patchers from properly updating the executable. It also appeared to be more difficult to apply the 4GB Patch with the EA App version, which is needed in order to run a full NAM installation.
 
-This not only fails to meet the NAM's minimum requirements, but leaves EA App/Origin retail copies with many stability issues developers fixed in 2003, and without working nightlighting on any custom buildings. It also prevents first-party content creation tools like the Building Architect Tool (BAT) from being installed, which look for a properly-patched executable. Note that this is in spite of the curious fact that EA uses images of the NAM and other pieces of custom content to advertise SimCity 4, both on EA.com and in the EA App.
+This not only failed to meet the NAM's minimum requirements, but left EA App/Origin retail copies with many stability issues Maxis developers fixed in 2003, and without working nightlighting on any custom buildings. It also prevented first-party content creation tools like the Building Architect Tool (BAT) from being installed, which look for a properly-patched executable. Note that this is in spite of the curious fact that [EA uses images of the NAM and other pieces of custom content](https://simtarkus.wordpress.com/2022/08/28/ea-uses-pictures-of-the-nam-to-promote-origin-ea-play-version-of-sc4-that-doesnt-support-the-nam/) to advertise SimCity 4, both on EA.com and in the EA App.
 
 Furthermore, the EA App and Origin client are capable of actually unpatching other versions of SimCity 4 Deluxe that a user may have installed on their system, including the Steam and GOG versions, via the "Repair" process. Even if you are not playing an EA App/Origin version of the game, be aware that the EA App and Origin client can still unpatch your game.
 
-For those who have purchased the game via EA.com, the EA App, or the Origin Store, the NAM Team recommends you contact EA/Origin Support about obtaining a refund, even after the return period has expired, as users have had success in this case. If you are among the users who are saddled with the unpatched and unpatchable EA App/Origin retail version. The team would also appreciate hearing from you, as we have a strong desire to see EA give their customers a properly-patched copy of the game, and are trying to document just how many users are affected. Those playing via EA Play/Xbox Game Pass should also let EA Play know that they are serving up an outdated executable for the game, missing key stability fixes.
+For those who have purchased the game via EA.com, the EA App, or the Origin Store, and have Version 1.1.610, the NAM Team recommends you contact EA/Origin Support about obtaining a refund, even after the return period has expired, as users have had success in this case. If you are among the users who are saddled with the unpatched and unpatchable EA App/Origin retail version.
 
 Strangely, copies obtained by redeeming an existing CD key at no cost with Origin Customer Support (Case C) *are* properly patched, despite what the same support team routinely tells those who bought copies and received defective Version 1.1.610 digital copies.
+
+For a more detailed assessment of the Origin situation, NAM developer Tarkus has written extensively on the subject at his blog, [SimTarkus](https://simtarkus.wordpress.com/category/origin/).
 
 In short:
 
 * **Free copy from EA/Origin Support for CD Key Redemption**: Properly patched executable (1.1.641)
-* **Purchased copy from EA.com, the EA App, the Origin Store, or playing via EA Play/Xbox Game Pass**: Unpatched and unpatchable executable (permanently locked to Version 1.1.610)
-
-For a more detailed assessment of the Origin situation, NAM developer Tarkus has written extensively on the subject at his blog, [SimTarkus](https://simtarkus.wordpress.com/category/origin/).
+* **Purchased copy from EA.com, the EA App, the Origin Store, or playing via EA Play/Xbox Game Pass**: Properly patched executable (1.1.641)
 
 ### Note to Mac Users {#mac}
 
