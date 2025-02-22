@@ -14,53 +14,52 @@ url: "docs/getting-started/installation"
 
 # Choose from the following...
   
-  <details>
-
-<summary>First Time Installation</summary>
-
-## First Time Installation
-
-* 1) Double check for Sim City 4 version compatibility [here](#version-compatibility)</a>
-
-* 2) Download and unzip the NAM Installer via the button at the top of this website.
-
-* 3) Install the pre-packaged Java Runtime Environment if not already installed. This is found under a file named "OpenJDKxxxx"
-
-* 4) Running the Installer...
-  * On Windows:
-    * Use the file **NetworkAddonMod_Setup_Version47.bat**.  This will install a 4GB Patch that allows NAM to run properly in-game.
-  * On macOS:
-    * Run NetworkAddonMod_Setup_Version47.jar.
-    * **If on the App Store version**, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
-  * On Linux:
-    * Run NetworkAddonMod_Setup_Version47.jar, or, if that fails, run NetworkAddonMod_Setup_Version47.sh.
-
-* 5) Follow the installer's instructions, clicking on each tab on the top bar -- in order!
-  * a) Agree to the mod's terms on the initial "welcome" tab.
-  * b) Select the options you would like to install under the "files" tab.
-  * c) Select the install location under the "location" tab.  This is typically left unchanged from he default Plugins folder.
-  * d) Finally, move to the "install" tab.  Click the "Start installation" button to begin the installation process.  When the installation is complete, the progress screen will display a message, "All selected components installed!".
-  * e) Close the installer. You're all done installing.
+{{< tabs tabTotal="2" tabRightAlign="2">}}
   
-* 5a) **Additional step for Mac users (optional on Windows/Linux)**: run JDatPacker to consolidate the mod's files.
-  * If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
-  * On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
-  
-* 6) Load the game and enjoy the NAM!
-  
-  </details>
-  
-  <details>
+  {{< tab tabName="First Time Installation" >}}
+  ## First Time Installation
 
-<summary>Upgrading from a Previous Version</summary>  
+  * 1) Double check for Sim City 4 version compatibility [here](#version-compatibility)</a>
 
-## Upgrading from a Previous Version
+  * 2) Download and unzip the NAM Installer via the button at the top of this website.
 
-* 1) Move your current NetworkAddonMod folder from your Plugins folder. Do not delete. Your Desktop is a decent place to move it for now. Note: if you have consolidated your NAM files using a tool such as SC4DatPacker or JDatPacker, move the consolidated file.
-* 2) Run the NAM Installer for the new version.
-* 3) Run SimCity4 and test. If you have any issues or wish to revert, simply delete the new "NetworkAddonMod" folder in Plugins and replace with your previously moved folder to restore original functionality. Contact us for more help, if required.
+  * 3) Install the pre-packaged Java Runtime Environment if Java is not already installed. This is found under a file named **OpenJDKxxxx**.
 
-</details>
+  * 4) Running the Installer...
+
+    * On Windows:
+      * Double click to run the **NetworkAddonMod_Setup_VersionXX.bat** file. This will automatically install the 4GB Patch that allows NAM to run properly in-game.
+    * On macOS:
+      * Run the **NetworkAddonMod_Setup_VersionXX.jar** file.
+      * **If on the App Store version**, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
+    * On Linux:
+      * Run the **NetworkAddonMod_Setup_VersionXX.jar**. If that fails, run the **NetworkAddonMod_Setup_VersionXX.sh** file.
+
+  * 5) Follow the installer's instructions, clicking on each tab on the top bar -- in order!
+    * a) Agree to the mod's terms on the initial "welcome" tab.
+    * b) Select the options you would like to install under the "files" tab.
+    * c) Select the install location under the "location" tab.  This is typically left unchanged from he default Plugins folder.
+    * d) Finally, move to the "install" tab.  Click the "Start installation" button to begin the installation process.  When the installation is complete, the progress screen will display a message, "All selected components installed!".
+    * e) Close the installer. You're all done installing.
+    
+  * 5a) **Additional step for Mac users (optional on Windows/Linux)**: run JDatPacker to consolidate the mod's files.
+    * If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
+    * On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
+    
+  * 6) Load the game and enjoy the NAM!
+  {{< /tab >}}
+
+  {{< tab tabName="Upgrading from a Previous Version" >}}
+  ## Upgrading from a Previous Version
+
+  1) Move your current NetworkAddonMod folder from your Plugins folder. Do not delete. Your Desktop is a decent place to move it for now. Note: if you have consolidated your NAM files using a tool such as SC4DatPacker or JDatPacker, move the consolidated file.
+
+  2) Run the NAM Installer for the new version.
+
+  3) Run SimCity4 and test. If you have any issues or wish to revert, simply delete the new "NetworkAddonMod" folder in Plugins and replace with your previously moved folder to restore original functionality. Contact us for more help, if required.
+  {{< /tab >}}
+
+{{< /tabs >}}
 
  <details>
 
@@ -162,7 +161,7 @@ Due to changes in computer systems, and continued expansions of the NAM's main C
 
 The only thing this patch does is to switch the Large Address Aware switch, an accessible switch present in all Windows executables, from "off" to "on" for the game's executable. Patches like this are common in game modding communities, including those associated with The Elder Scrolls series (i.e. Skyrim), and Fallout, and can be used to enhance any 32-bit application's performance on systems with 64-bit operating systems and a suitable amount of RAM.
 
-The new installation starting point for Windows users-- **NetworkAddonMod_Setup_Version47.bat**--should ensure that your game is automatically patched as needed.
+The new installation starting point for Windows users-- **NetworkAddonMod_Setup_VersionXX.bat**--should ensure that your game is automatically patched as needed.
 
 Note that the 4GB Patch is **NOT required for users on macOS**, as that version of the game is 64-bit and can access more RAM than the Windows version (even with the 4GB Patch!) by default.
 
@@ -189,7 +188,7 @@ To that end, we encourage users to keep the installer for the current version ha
 
 Users who are unable or unwilling to install Java can perform a manual installation of the NAM, something which the new file architecture introduced in 2020 makes far more possible than the previous "Monolithic" releases.
 
-This method requires a file decompression tool capable of opening .jar files, such as [7-zip](https://www.7-zip.org) (Windows) or [Keka](https://www.keka.io/en/) (macOS). To begin, open NetworkAddonMod_Setup_Version47.jar using your file decompression tool.
+This method requires a file decompression tool capable of opening .jar files, such as [7-zip](https://www.7-zip.org) (Windows) or [Keka](https://www.keka.io/en/) (macOS). To begin, open NetworkAddonMod_Setup_VersionXX.jar using your file decompression tool.
 
 The NAM's contents are located in the "installation" subfolder. The current installer uses a series of character flags at the start of directory names, in order to instruct the installer how to order the options, whether they're mandatory or optional, etc.
 
