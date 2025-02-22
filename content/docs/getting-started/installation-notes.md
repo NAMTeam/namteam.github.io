@@ -19,43 +19,42 @@ url: "docs/getting-started/installation"
   {{< tab tabName="For the first time" >}}
   ## First Time Installation
 
-  * 1) Verify your Sim City 4 version compatibility and minimum system specifications from the table [below](#version-compatibility)</a>.
+  1. Verify your Sim City 4 version compatibility and minimum system specifications from the tables [below](#version-compatibility)</a>.
 
-  * 2) Download and unzip the NAM Installer via the button at the top of this website.
+  2. [Download the NAM Installer](/download-the-nam) via the button at the top of this website and unzip the file.
 
-  * 3) Install the pre-packaged Java Runtime Environment if Java is not already installed. This is found under a file named **OpenJDKxxxx**.
+  3. Install the pre-packaged Java Runtime Environment if Java is not already installed. This is found under a file named **OpenJDKxxxx**.
 
-  * 4) Running the Installer ...
-    <details>
-      <summary>On Windows</summary>
-      Double click to run the <b>NetworkAddonMod_Setup_VersionXX.bat</b> file. This will automatically install the 4GB Patch that allows NAM to run properly in-game.
-    </details>
+  4. Running the Installer ...
+      <details>
+        <summary>On Windows</summary>
+        Double click to run the <b>NetworkAddonMod_Setup_VersionXX.bat</b> file. This will automatically install the 4GB Patch that allows NAM to run properly in-game.
+      </details>
     
-    <details>
-      <summary>On macOS</summary>
-      Run the <b>NetworkAddonMod_Setup_VersionXX.jar</b> file.
-      
-      <hr>
-      <b>If on the App Store version</b>, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
-    </details>
+      <details>
+        <summary>On macOS</summary>
+        Run the <b>NetworkAddonMod_Setup_VersionXX.jar</b> file.
+        <hr>
+        <b>If on the App Store version</b>, the installer cannot directly install into the Plugins location the App Store version utilizes, which is inside the .app file (~/Library/Containers/com.aspyr.simcity4.appstore/Data/Documents/SimCity 4). Install to an alternate location first, then copy the resultant "Plugins" folder into that location.  Note that the NAM Team is currently very limited in our ability to provide installation assistance to App Store users.
+      </details>
 
-    <details>
-      <summary>On Linux</summary>
-      Run the <b>NetworkAddonMod_Setup_VersionXX.jar</b>. If that fails, run the <b>NetworkAddonMod_Setup_VersionXX.sh</b> file.
-    </details>
+      <details>
+        <summary>On Linux</summary>
+        Run the <b>NetworkAddonMod_Setup_VersionXX.jar</b>. If that fails, run the <b>NetworkAddonMod_Setup_VersionXX.sh</b> file.
+      </details>
 
-  * 5) Follow the installer's instructions, clicking on each tab on the top bar -- in order!
-    * a) Agree to the mod's terms on the initial "welcome" tab.
-    * b) Select the options you would like to install under the "files" tab.
-    * c) Select the install location under the "location" tab.  This is typically left unchanged from he default Plugins folder.
-    * d) Finally, move to the "install" tab.  Click the "Start installation" button to begin the installation process.  When the installation is complete, the progress screen will display a message, "All selected components installed!".
-    * e) Close the installer. You're all done installing.
+  5. Follow the installer's instructions, clicking on each tab on the top bar -- in order!
+      1. Read and agree to the mod's terms on the initial "welcome" tab.
+      2. Select the options you would like to install under the "files" tab.
+      3. Select the install location under the "location" tab.  This is typically left unchanged from he default Plugins folder.
+      4. Finally, move to the "install" tab.  Click the "Start installation" button to begin the installation process.  When the installation is complete, the progress screen will display a message, "All selected components installed!".
+      5. Close the installer. You're all done installing.
     
-  * 5a) **Additional step required for Mac users (optional on Windows/Linux)**: run [JDatPacker](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/19-jdatpacker) to consolidate the mod's files.
-    * If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
-    * On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
+  6. **Additional step required for Mac users (optional on Windows/Linux)**: run [JDatPacker](https://www.sc4evermore.com/index.php/downloads/download/30-gameplay-utilities/19-jdatpacker) to consolidate the mod's files.
+      * If on the App Store version, run JDatPacker over the resultant Plugins directory, then move the "Network Addon Mod_###.dat" files (wherein "###" is a three-digit number) into the container.
+      * On the Steam version (or if optionally using JDatPacker on Windows), run JDatPacker on the Documents\SimCity 4\Plugins directory (this will also consolidate your other plugins as well).  Make sure you remove the original directories that were consolidated, and, if upgrading or reinstalling your NAM package at any point, ensure you delete any the "Network Addon Mod_###.dat" files from your Plugins before running the new installation.  It is recommended that you use a new subfolder (i.e. "Plugins\Compressed Files") instead of installing to the root of the Plugins directory, as this can help prevent mod conflicts.
     
-  * 6) Load the game and enjoy the NAM!
+  7. Load the game and enjoy the NAM!
   {{< /tab >}}
 
   {{< tab tabName="As an upgrade from a previous version" >}}
@@ -69,8 +68,6 @@ url: "docs/getting-started/installation"
   {{< /tab >}}
 
 {{< /tabs >}}
-
-
 
 ## Version Compatibility
 
@@ -86,7 +83,7 @@ url: "docs/getting-started/installation"
 <span class="fs-6">**¹** Technical support is limited for Mac Steam version users, and *very limited* for macOS Store version users.</span><br>
 <span class="fs-6">**²** Must be running at *least* Version 1.1.638</span><br>
 <span class="fs-6">**³** Running on macOS/OS X Version 10.6 (Snow Leopard) or earlier</span><br>
-<span class="fs-6">**⁴** As of June 2023, this version **is compatible**. See [Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass](#origin-ea-play-xbox-gamepass) for further information.</span><br>
+<span class="fs-6">**⁴** SimCity 4 Deluxe obtained through a purchase from one of these storefronts **is compatible**. See [Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass](/docs/getting-started/troubleshooting/#origin-ea-play-xbox-gamepass) for important historical information.</span><br>
 <span class="fs-6">**⁵** SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641) **is compatible**</span><br>
 
 ## Minimum Specs
