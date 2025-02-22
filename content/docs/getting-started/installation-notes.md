@@ -12,14 +12,14 @@ url: "docs/getting-started/installation"
 <!-- markdownlint-disable MD025 MD051 -->
 {{< docstatus status="compatibility" >}}
 
-# Choose from the following...
+## Choose from the following...
   
 {{< tabs tabTotal="2" tabRightAlign="2">}}
   
   {{< tab tabName="First Time Installation" >}}
   ## First Time Installation
 
-  * 1) Double check for Sim City 4 version compatibility [here](#version-compatibility)</a>
+  * 1) Verify your Sim City 4 version compatibility and minimum system specifications [below](#version-compatibility)</a>.
 
   * 2) Download and unzip the NAM Installer via the button at the top of this website.
 
@@ -61,11 +61,8 @@ url: "docs/getting-started/installation"
 
 {{< /tabs >}}
 
- <details>
 
-<summary>Version Compatibility & Specs</summary>
-
-### Version Compatibility
+## Version Compatibility
 
 **The Network Addon Mod is compatible with the following versions of the SimCity4 Deluxe/Rush Hour running Version 1.1.641:**
 
@@ -82,12 +79,12 @@ url: "docs/getting-started/installation"
 <span class="fs-6">**⁴** As of June 2023, this version **is compatible**. See [Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass](#origin-ea-play-xbox-gamepass) for further information.</span><br>
 <span class="fs-6">**⁵** SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641) **is compatible**</span><br>
 
-### Minimum Specs
+## Minimum Specs
 
-* **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space.  (Users running this option cannot install the RealHighway (RHW) features.)
+* **NAM with a LowRAM/NoRHW Controller option**: Any system built within the last 15 years, with 750MB available disk space.  Users running this option cannot install the RealHighway (RHW) features.
 * **NAM with a Full 4GB Controller option**: Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space.  If on Windows, **the 4GB Patch must be applied to the game's executable**.
   
-</details>
+
 
 <details>
 <summary>Troubleshooting</summary>  
