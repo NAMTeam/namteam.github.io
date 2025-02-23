@@ -25,7 +25,7 @@ url: "docs/getting-started/what-is-the-nam"
 
 * **RealHighway (RHW)** - Most folks install NAM just for these highways, it's the main attraction! RHW adds an entire new realm of potential for creating highway networks, completely replacing the original Maxis highways, adding huge multi-lane options, overpasses, ramps, elevations...
 * **RealExpressway  (REW)** - Just like the RHW, RealExpressway adds ramps and slip-roads to the Road network, bringing the same flexibility to your cities and towns.
-* **Network Widening Mod** - Ever needed something more than a road or avenue but not a highway? Introducing the Network Widening Mod, extending the game's base road networks by providing different widths!
+* **Network Widening Mod (NWM)** - Ever needed something more than a road or avenue but not a highway? Introducing the Network Widening Mod, extending the game's base road networks by providing different widths!
 * **Pedestrian Addon Mod (PRM)** - Introduce pedestrian crossings and malls! This revolutionary new feature gets your sims out of cars and on their feet or on a bike.
 * **Street Addon Mod (SAM)** - The game shipped with only one grey street. This mod adds parking lots, gravel tracks, dirt paths, brick and cobblestone streets and a lot more.
 * **Rural Roads (RuRP)** - Asphalt streets in the middle of nowhere? Don't think so. Add rural roads for a scenic route or mountain pass!

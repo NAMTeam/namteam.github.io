@@ -35,7 +35,7 @@ Within the NAM’s menu you’ll find a few different kinds of items. We’ll ge
 
 ### USING THE MENU
 
-The NAM contains many hundreds of different items you can place. To minimize the items in your menu and make things easier to find, many pieces are found grouped within **Tab Rings**. Tab Rings are shown as a single icon in the menu. Once you select one of these in the menu, use **TAB** to cycle forwards through the available pieces in this group. Use **SHIFT+TAB** to cycle back through the group. A hovering preview shows you the piece you currently have selected, and a small dialog box appears to explain what that piece is. Don’t worry if some of the descriptions don’t make sense just yet — this guide will help there.
+The NAM contains many hundreds of different items you can place. To minimize the items in your menu and make things easier to find, many pieces are found grouped within **Tab Rings**. Tab Rings are shown as a single icon in the menu. Once you select one of these in the menu, use **TAB** (**CTRL+TAB** on macOS) to cycle forwards through the available pieces in this group. Use **SHIFT+TAB** (**CTRL+SHIFT+TAB** on macOS) to cycle back through the group. A hovering preview shows you the piece you currently have selected, and a small dialog box appears to explain what that piece is. Don’t worry if some of the descriptions don’t make sense just yet — this guide will help there.
 
 Use the **HOME** and **END** keys to rotate a piece on the map, just like buildings.
 
@@ -45,6 +45,4 @@ Use the **HOME** and **END** keys to rotate a piece on the map, just like buildi
 
 # That's really all there is to memorize! 
 
-# Dive deeper into a specific feature with one of the [Feature Guides](/docs/feature-guides).
-
-# Or, consult the [FAQs](/docs/getting-started/frequently-asked-questions) if you have questions.
+# Dive deeper into a specific feature with one of the [Feature Guides](/docs/feature-guides). Or, consult the [FAQs](/docs/getting-started/frequently-asked-questions) if you have questions.
