@@ -96,9 +96,9 @@ The Network Addon Mod requires your computer have at least the following:
 | **LowRAM / NoRHW Controller** | Any system built within the last 15 years, with 750MB available disk space.  Users running this option cannot install the RealHighway (RHW) features.
 | **Full 4GB Controller**       | Any system with a 64-bit operating system, at least 4GB RAM, and 1.2GB available disk space.  If on Windows, the 4GB Patch must be applied to the game's executable.
 {{< /table >}}
-  
-## Uninstalling the NAM
 
-To uninstall the mod, simply bulldoze every NAM item from this download in your cities and remove the files from the Plugins folder afterwards. NAM content is contained in the *`Plugins\Network Addon Mod`* folder by default.
+## Troubleshooting
 
-# When you're done installing, it's on to the [Basics](/docs/getting-started/in-game-basics)
+Have an issue installing? Consult the [Troubleshooting](/docs/getting-started/troubleshooting) page first to see if your question is covered there. Otherwise drop a message in the [NAM Support Forum](https://community.simtropolis.com/forums/forum/30-nam-transit-networks/) at Simtropolis or at the Helpdesk in the SC4Evermore Discord group. 
+
+# When you're done installing, it's on to the [Basics](/docs/getting-started/in-game-basics). 

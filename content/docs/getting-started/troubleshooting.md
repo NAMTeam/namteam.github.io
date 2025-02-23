@@ -95,6 +95,10 @@ The NAM is a very expansive mod, with a substantial number of features, which ma
 
 To that end, we encourage users to keep the installer for the current version handy after initial installation. If you plan to change your particular set of options, you will need to remove your current installation. Moving it out of Plugins to a safe location is recommended, in case you want to keep your existing settings as a backup.
 
+## Uninstalling the NAM
+
+To uninstall the mod, simply bulldoze every NAM item from this download in your cities and remove the files from the Plugins folder afterwards. NAM content is contained in the *`Plugins\Network Addon Mod`* folder by default.
+
 ## Manual Installation - Advanced
 
 Users who are unable or unwilling to install Java can perform a manual installation of the NAM, something which the new file architecture introduced in 2020 makes far more possible than the previous "Monolithic" releases.
