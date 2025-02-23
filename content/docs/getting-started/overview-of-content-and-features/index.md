@@ -1,19 +1,15 @@
 ---
-title : "Overview of NAM"
-description: ""
-lead: 
+title : "What is the Network Addon Mod?"
+description: "Readme"
+lead: "The Network Addon Mod, or NAM, is a comprehensive transportation mod for SimCity 4 Deluxe/Rush Hour. Most notably, NAM introduces hundreds of new network options, ranging from highways, railways, bridges, pedestrian malls and a <b>lot</b> more. The mod also greatly improves the game’s traffic simulator, bringing a whole new level of accuracy and performance."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
-weight: 4
+weight: 1
 draft: false
 images: []
-url: "docs/getting-started/overview-of-content-and-features"
+url: "docs/getting-started/what-is-the-nam"
 ---
-
-Before we get too deep into the weeds, let's do a brief overview of everything that NAM includes.
-
-Alongside the new elements NAM _gives_ you, there's some important things it _changes_ to the game. Meaning some new:
-
+<!-- markdownlint-disable MD025 -->
 ## FEATURES
 
 * **NAM Traffic Simulator** - From more realistic subway costs to smarter Sims, NAM features it's own traffic simulator that improves efficiency, usage, pathfinding and realism across all networks. This feature is a **huge** improvement to the vanilla game.
@@ -54,3 +50,9 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 
 * **Maxis Highway Override** - Enjoy the ease of pre-built, complicated junctions like the old Maxis highways had? This new feature brings that feature back, but this time supported NAM's superior RHW.
 * **Turning Lanes & Cosmetic Additions** - Use ploppable (and flexible!) pieces to add lanes with turning arrows in your roads and highways. Additionally, a separate cosmetic option allows you to drop down turning arrows on almost all roads.
+
+## So, wait, _is_ there a steep learning curve?
+
+Here's the simple answer: yes and no. An untold amount of hours have gone into creating NAM, and many more in trying to make it as intuitive as possible. It cannot be ignored, however, that Sim City 4 is now a more than 20-year old game and balancing its hard code whilst providing the player with more realistic networks _does_ mean there's a learning curve. Fortunately, there's only a few basic principles tying everything together which can be found on the Basics page.
+
+# Sound exciting? Get going with the [Installation](/docs/getting-started/installation)!
