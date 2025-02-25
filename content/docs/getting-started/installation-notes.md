@@ -21,7 +21,7 @@ url: "docs/getting-started/installation"
 
   1. Verify your Sim City 4 version compatibility and minimum system specifications from the tables [below](#version-compatibility)</a>.
 
-  2. [Download the NAM Installer](/download-the-nam) via the button at the top of this website and unzip the file.
+  2. [Download the NAM Installer](/download-the-nam) and unzip the file.
 
   3. Install the pre-packaged Java Runtime Environment if Java is not already installed. This is found under a file named **OpenJDKxxxx**.
 
