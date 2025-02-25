@@ -62,6 +62,14 @@ At the very bottom of the Highways menu in the game you will find the NAM icon. 
 
 Yes. This has changed since the release of NAM 37 in July 2020. The NAM's contents are by default installed to the My Documents\SimCity 4\Plugins\Network Addon Mod directory (on Windows, and similar directories on other OSes). NAM 31 through NAM 36 also utilized a "z___NAM" folder in that same Plugins directory, which should also be removed.
 
+### What happened to the Traffic Simulation Configuration Tool (TSCT)?
+
+As of NAM 45, the TSCT is discontinued and no longer available in NAM releases. With NAM 45, the NAM Traffic Simulator has been upgraded to Simulator Z 3.0, resulting in further optimizations to both the speed and accuracy of the simulation, and improved network utilization.  The improved pathfinding in the new traffic simulator makes it much more responsive to user actions in building a city. To significantly bump up sim willingness to use transit, simply add more transit stations and/or more transit lines.
+
+The extremely thorough testing done on Simulator Z 3.0 determined that many properties of the simulator are more sensitive than previously expected, and that many of the modifications previously allowed in the TSCT actually can significantly degrade the performance of the traffic simulation, to levels we found unacceptable.  More details about this can be found in the [Traffic Simulator Feature Guide](/docs/feature-guides/the-nam-traffic-simulator/).
+
+As such, use of the TSCT is no longer endorsed by the NAM Team, and we cannot provide technical support to users who have modified the "unsafe" properties in the Traffic Simulator via the TSCT or other means. 
+
 ### How do EA and Maxis feel about this mod? Is it legal?
 
 The NAM is 100% legal, and Maxis was extremely supportive of our efforts. Maxis employee Frank Simon (AKA MaxisFrank) actually encouraged NAM co-founder **the7trumpets** to undertake modification of the traffic simulator, as the company could not issue a patch themselves, due to the need to still meet the published minimum technical requirements.
