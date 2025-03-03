@@ -10,7 +10,58 @@ weight: 7
 url: "docs/reference/nam-version-history"
 ---
 <!-- markdownlint-disable MD025 -->
-# Agile Releases (2020 and later)
+# Transitional Releases (2024 through 2025)''
+
+## Version 49 (2 March 2025)
+
+* **Bridge Additions and Improvements**:								
+	* Red Truss Arch, Yellow Steel Girder, Green Truss, and Blue Supsension Bridges by IDS2 have been added for Road, Street, One-Way Road, AVE-2, ARD-3, NRD-4, OWR-3, RHW-2, RHW-3, RHW-4, and SAM Sets 2 and 6-11 (68 bridges total).
+	* Viaduct Bridges by Kitsune added at L3-L4 for MIS, RHW-4, and RHW-6S, and L0-L2 for Dual RHW-4 and RHW-6S (12 bridges total).
+	* Plain Bridges by eggman121 have been added for Hybrid Railway (HRW) at L0-L2 (3 bridges total).
+	* Ponte di Piacenza RRW Bridge by Ulisse Wolf added.
+	* Yes, that's 84 bridges.
+	* Every bridge has had its ceiling height updated (L0/Ground Level=-0.000001, L1=-7.5, L2=-15, L3=-22.5, L4=-30) to allow for a lower ferry clearance and for the elevated bridges to 
+	behave as . . . elevated bridges. As result the ferry clearance is now 270.1m / +20.1m. At this time its unknown how to get the in the game message to reflect this value, 
+	therefore it will incorrectly state the bridge is not suitable for ferries even though it is.
+	* For models where property bridge obstruction = false, they have had the property removed after it was discovered the game is incorrectly treating it as bridge obstruction.
+	* Night textures fixed for RRW/Rail bridges, including the Iron Girder, Steel Arch, and Green Garabit Viaduct.
+	* A pathing issue with the RHW-10S Cable-Stayed Bridge has been fixed.
+	* Bridge Controller file has been renamed from "NetworkAddonMod_Bridges_Plugin_Controller.dat" to "NetworkAddonMod_Bridge_Controller.dat".							
+* **Mass Transit Authority (MTA) Station Update**:
+	* Improvements across the board to Station Transit-Enabling (TE) properties.
+	* Added SW77 El-Rail-over-Road station.
+	* Added the Mattb325 Victorian Diagonal L1 Viaduct E-RRW and separate HRW versions.
+	* Changes to the TE modding on the L2 Diagonal Rail stations, so they are now fully functional with E-RRW, you can just drag through the network on the lot. (They are also still functional with the puzzle pieces).
+	* DN/MN prop options added.
+	* LHD path remapping has been updated for GLR LOTting paths.						
+* **Street Network and SAM Improvements**:							
+	* Street and SAM network paths have undergone a comprehensive set of improvements.
+	* A texture issue has been fixed with the SAM-7 x Avenue OxO intersections.
+	* SAM texture file architecture has been redesigned to ease future additions and maintenance.
+	* Shadow remapping and LHD pathing has been improved on Elevated Rail and Monorail crossings over SAM.
+	* SAM x RRW crosslinks have been improved.						
+* **RealHighway Improvements**:	
+	* 3-Level Crossings adjacent to 45° FLEXFly setups are now functional.
+	* The diagonal overhanging models for the RHW-3, RHW-4, and MIS have been redesigned to minimize terrain clipping issues (wherein the terrain would poke through the highway).
+	* Major improvements have been made to the Type 21 exemplars on elevated RHW networks, especially those involving placement of support pillars.
+	* Diagonal interactions between the RHW-2 and single-tile Maxis networks have been improved, particularly transitions and OxD T-intersections with Street, Road, and One-Way Road.
+	* Stability improvements have been made to the L1 and L2 RHW-3 Type A1 ramps.
+	* Numerous tooltip texts have been updated to properly indicate current network support.
+* **Roundabout Improvements**:
+	* Thanks to Lucario Boricua, the NAM's roundabouts have received a comprehensive set of pathing fixes, designed to improve capacity and Pedestrian functionality.
+* **Other Various Improvements**:
+	* The NWM's NRD-4 network now has a Diagonal Starter.
+	* Various previously-unsupported T-intersections involving Avenues and One-Way Roads have been added.
+	* Missing texture for Double Orthogonal Street x Diagonal Avenue intersection has been added.
+	* NWM DxD intersections now have improved models with smoother corners and terrain handling.  There is also now a non-default option to alter the Road and One-Way Road DxD intersections
+	to use similar overhanging models (the "Wide Corner Road and One-Way Road DxD Intersections" option, found under "2 Additional Network Features > Road, One-Way Road, and Avenue").
+	* Raiser/Digger icons have been revised.
+	* A new icon has been added at the bottom of the Highways Menu (right near the NAM Controller Marker) to show which capacity level of the NAM Traffic Simulator one has installed.
+	* Issues with the Draggable Fractional Angle Road streetlight placement has been addressed.
+	* Replaced `EU_Common_Sign_Props.dat` with a version from rivit, which rescales the props to be a bit smaller.
+	* Semi-Auto Turn Lane textures have been updated to fix wealth-related issues reported by Dead_End.
+	* Duplicate Rural FTL textures in the US folder have been removed.
+	* The Maxis Highway Override (MHO) Diagonal Bridge Enabler (DBE) support files have been added.
 
 ## Version 48 (16 January 2024)
 
@@ -30,6 +81,8 @@ url: "docs/reference/nam-version-history"
 * **Language Support**:
   * The NAM is now fully translated into Italian (thanks to Ulisse Wolf) and Korean (thanks to SimCitySquare).
   * Translations have been expanded for French (thanks to hugues aroux) and Portuguese (thanks to SDA).
+
+# Agile Releases (2020 through 2023)''
 
 ## Version 47 (27 March 2023)
 
