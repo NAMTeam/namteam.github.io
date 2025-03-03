@@ -12,14 +12,13 @@ url: "docs/reference/credits"
 
 The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the SC4 Devotion Discord have, for whatever particular reason, been specifically included here for their special contributions during the NAM's history. Very special thanks goes towards them in the making, supplying, &/or supporting of this mod &/or its contents possible in one way shape or another:
 
-**The NAM Team and Associates (Active Members as of NAM 47)**
+**The NAM Team and Associates (Active Members as of NAM 49)**
 
-- Bipin
-- bladeberkman
+- Abigail
 - b22rian
 - CaptCity
-- compdude787
 - DebussyMan
+- dragonsteincole
 - Durfsurn
 - eggman121
 - Eric Blair
@@ -27,10 +26,11 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - Flann
 - Girafe
 - Haljackey
+- hugues aroux
 - IDS2
 - Indiana Joe
-- Junspud
-- KaenOkami
+- KaenOkami/Amaterasu
+- Kel9509
 - Kitsune
 - Lucario Boricua
 - matias93
@@ -39,35 +39,27 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - metarvo
 - mgb204
 - MushyMushy
-- Naomi57
-- noahclem
+- nos. 17
+- null45
 - pierreh
 - Ramona Brie
 - ReLynx/RemRinka
 - rivit
 - Ryan B.
+- saus tartar
 - Shadow Assassin
 - Simizen
+- smf_16
 - Tarkus
-- TheCouncill0r/dicko6
-- TheMurderousCricket
 - Tyberius06
 - Ulisse Wolf
-- z
+
 
 **NAM Founders**
 
 - Redlotus
 - the7trumpets
 - Tropod
-
-**NAM Team Lead**
-
-- Tarkus
-
-**NAM Technology Evangelist**
-
-- Haljackey
 
 **NAM Logo**
 
@@ -89,6 +81,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - DarkMatter
 - daeley
 - fafalone
+- Flann
 - GoaSkin
 - Ilive
 - jondor
@@ -105,6 +98,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - Andreas Roth
 - daeley
 - frimi2
+- memo
 - Tarkus
 - wouanagaine
 - z
@@ -132,6 +126,8 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - ardecila
 - ArkenbergeJoe
 - BigSlark
+- Bipin
+- bladeberkman
 - blahdy
 - Blue Lightning
 - brenda_xne
@@ -142,6 +138,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - Chrno
 - Ciuu96
 - Colyn
+- compdude787
 - CorinaMarie
 - CryinG.FreeM4n
 - daeley
@@ -175,6 +172,7 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - Jonathan
 - jondor
 - jplumbley
+- Junspud
 - Karybdis
 - kes5219
 - Khiyana
@@ -188,7 +186,9 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - mott
 - mtg
 - Murakumon
+- Naomi57
 - Nardo69
+- noahclem
 - nooneatall
 - north country dude
 - paulvmontfort
@@ -217,6 +217,8 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - Swordmaster
 - Teirusu
 - The_Great_Chozo
+- TheCouncill0r/dicko6
+- TheMurderousCricket
 - Thorvin
 - threestooges
 - titanicbuff
@@ -230,10 +232,11 @@ The following named members of Simtropolis, SC4 Devotion, SimCityPlaza, and the 
 - xannepan
 - xxdita
 - Xyloxadoria
+- z
 
 ## Special Thanks
 
-Webmaster & administration staff at Simtropolis, SC4Devotion, ModDB, and SimCityPlaza.
+Webmaster & administration staff at Simtropolis, SC4Evermore, ModDB, and SimCityPlaza.
 
 All (other) members of original Simtropolis Modd Squad, especially the Modd Squad founders.
 
