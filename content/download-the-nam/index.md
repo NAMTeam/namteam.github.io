@@ -18,14 +18,14 @@ Yes. There is the full **NAM** which includes all bugfixes, features, and new ne
 
 If you're a brand new user, the sheer amount of content in the NAM can be overwhelming, so it could be a good idea to start out with NAM Lite to get a feel for how things work. Similarly if you are a user who prefers to play Simcity 4 as vanilla as possible, NAM Lite may also be a great option for you.
 
-The Network Addon Mod can be downloaded at the following locations:
+The Network Addon Mod {{< param docsversion >}} can be downloaded at the following locations:
 
 * [SC4Evermore](https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod)
 * [GitHub](https://github.com/NAMTeam/Network-Addon-Mod/releases)
 * [Simtropolis (currently redirecting to SC4Evermore)](https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/)
 
 
-NAM Lite can be downloaded at the same sites:
+NAM Lite {{< param docsversionlite >}} can be downloaded at the same sites:
 * [SC4Evermore](https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/40-nam-lite)
 * [GitHub](https://github.com/NAMTeam/Network-Addon-Mod/releases)
 * [Simtropolis (currently redirecting to SC4Evermore)](https://community.simtropolis.com/files/file/35417-network-addon-mod-lite-nam-lite-cross-platform/)

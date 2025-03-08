@@ -10,6 +10,10 @@ images: []
 url: "docs/getting-started/troubleshooting"
 ---
 <!-- markdownlint-disable MD029 -->
+## Why is my game crashing when I try to load a city?
+
+If you're on Windows (or Linux) and the game crashes on your first attempt to load a city, this means you have the Full 4GB Controller installed, but either have experienced a failure in the 4GB Patch installation process, or have an incompatible system (not enough RAM and/or a 32-bit operating system). Either attempt to reinstall the 4GB Patch, or choose a less intensive installation option (the Low RAM/No RHW option, or download NAM Lite instead). If you have repeated issues with this, we recommend installing NAM Lite and forgoing installing the full version of the NAM until the future release of NAM Version 50, which will remove the 4GB Patch requirement, even when using the RHW. [There is no release date or timeline for release of NAM 50](/docs/getting-started/frequently-asked-questions/#release-date).
+
 ## What should I do if the NAM does not support my copy of the game?
 
 The new NAM installer (introduced with the NAM 37 Release Candidate) no longer runs a version check. However, it is strongly recommended that users check the version they are running, as unpatched copies can be unstable. **Version 1.1.610 and Version 1.1.613 are NOT supported.**

@@ -10,6 +10,12 @@ weight: 7
 url: "docs/reference/nam-lite-version-history"
 ---
 <!-- markdownlint-disable MD025 -->
+## Version 4 (2 March 2025)
+
+* The issue with the Custom Interchanges button not allowing one to access more than just a single interchange type has been addressed (thanks to /u/Fart_Bard on /r/simcity4 for the report).
+* NAM Lite's file architecture has been better harmonized with that of the full edition of the NAM.
+* Fixes lingering issue (since NAM Lite 3) with the Avenue Roundabouts button and adds the Roundabout path fixes that were also incorporated into NAM 49. Patched with Version 4 Revision 1.
+
 ## Version 3 (27 March 2023)
 
 * The Maxis RUL2 code has been restored.

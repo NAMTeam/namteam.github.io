@@ -36,7 +36,7 @@ It depends on the options you install.  Expect about about 1.2GB for a full NAM 
 
 ### Will this mod impact game performance?
 
-Adding any Plugins to the game will impact performance to at least some extent--more for the game to load.  With modern hardware (as of 2023), the most prominent impacts is will be with the initial load of the game, and when loading a city tile for the first time after that initial load. This can be a noticeable difference, particularly if you've installed the full NAM after running completely "vanilla" (without plugins).
+Adding any Plugins to the game will impact performance to at least some extent -- more for the game to load.  With modern hardware (as of 2023), the most prominent impacts is will be with the initial load of the game and when loading a city tile for the first time after that initial load. This can be a noticeable difference, particularly if you've installed the full NAM after running completely "vanilla" (without plugins). The loading time will shorten with subsequent loads of other cities in the same play session. If you exit and re-enter the game, subsequent re-entries will also be quicker. Installing Null 45's [Startup Performance Optimization DLL for SimCity 4](https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/) has been shown to make a dramatic difference in reducing load times.
 
 ### What all is included in the NAM?
 
@@ -98,11 +98,11 @@ Acronyms are omnipresent in the SC4 content world, and they serve a valuable pur
 
 ### Why are none of the icons showing up after I've installed the NAM?
 
-You may not have installed the NAM correctly. See the [Installation Instructions](/docs/getting-started/installation) page.
+You may not have installed the NAM correctly, or your installation ended up in the wrong location. See the [Installation Instructions](/docs/getting-started/installation#install) page to reinstall, making sure the files go into your `Documents\SimCity 4\Plugins folder` (true of Windows and the Steam Mac version), or, if you're on the Mac App Store version, make sure you copy the files into the `.app` container.
 
 ### Why am I seeing duplicate icons?
 
-You may have two copies of a given NAM plugin installed. You'll need to find and remove the duplicate copy which could be from an earlier NAM or NAM component plugin release. This may interfere with your NAM installation in other ways.
+You likely have two copies of a given NAM release installed simultaneously. We recommend you find and remove both copies in your Plugins folder, and reinstall the latest version again.
 
 ### Why am I getting a red arrow/gray cursor when I click one of the new icons in game?
 
@@ -190,7 +190,7 @@ If your RealHighway starters are not working, and the network is remaining as th
 
 As of NAM 46, diagonal 4-way ("+") intersections and crossings are now possible between the single-tile Network Widening Mod (NWM) networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4) with all of the game's base networks, plus Ground Light Rail (GLR), Single-Track Rail (STR), and all other single-tile NWM networks.  3-way ("T") intersections are not presently available, nor are any diagonal intersection or crossing options for the multi-tile NWM networks.
 
-### When is the next NAM version being released?
+### When is the next NAM version being released? {#release-date}
 
 There is no date or timeline for the next release. We honestly have no idea. This project is a very passionate hobby for many NAM Team members, but it is still just that -- a hobby, something we do in our spare time, as volunteers. It's also a very technically complex undertaking, where things can unexpectedly go wrong in development. It's simply not possible for us to predict when we'll be done with a release, and coming up with arbitrary release dates just leads to extremely buggy releases or postponement, disappointing everyone in the process. The one time we did it (in 2013), it did not go well. Besides, we like to surprise people.
 
