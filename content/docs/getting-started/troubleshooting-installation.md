@@ -1,5 +1,5 @@
 ---
-title : "Troubleshooting"
+title : "Troubleshooting (NAM Installation)"
 description: "Troubleshooting for installing the Network Addon Mod."
 lead: "If you are having issues installing the Network Addon Mod, the information contained here may help."
 date: 2025-02-22T21:51:00+00:00
@@ -7,13 +7,9 @@ lastmod: 2025-02-22T21:51:00+00:00
 weight: 6
 draft: false
 images: []
-url: "docs/getting-started/troubleshooting"
+url: "docs/getting-started/troubleshooting-installation"
 ---
 <!-- markdownlint-disable MD029 -->
-## Why is my game crashing when I try to load a city?
-
-If you're on Windows (or Linux) and the game crashes on your first attempt to load a city, this means you have the Full 4GB Controller installed, but either have experienced a failure in the 4GB Patch installation process, or have an incompatible system (not enough RAM and/or a 32-bit operating system). Either attempt to reinstall the 4GB Patch, or choose a less intensive installation option (the Low RAM/No RHW option, or download NAM Lite instead). If you have repeated issues with this, we recommend installing NAM Lite and forgoing installing the full version of the NAM until the future release of NAM Version 50, which will remove the 4GB Patch requirement, even when using the RHW. [There is no release date or timeline for release of NAM 50](/docs/getting-started/frequently-asked-questions/#release-date).
-
 ## What should I do if the NAM does not support my copy of the game?
 
 The new NAM installer (introduced with the NAM 37 Release Candidate) no longer runs a version check. However, it is strongly recommended that users check the version they are running, as unpatched copies can be unstable. **Version 1.1.610 and Version 1.1.613 are NOT supported.**
@@ -82,9 +78,9 @@ Due to changes in computer systems, and continued expansions of the NAM's main C
 
 The only thing this patch does is to switch the Large Address Aware switch, an accessible switch present in all Windows executables, from "off" to "on" for the game's executable. Patches like this are common in game modding communities, including those associated with The Elder Scrolls series (i.e. Skyrim), and Fallout, and can be used to enhance any 32-bit application's performance on systems with 64-bit operating systems and a suitable amount of RAM.
 
-The new installation starting point for Windows users -- **NetworkAddonMod_Setup_VersionXX.bat** -- should ensure that your game is automatically patched as needed.
-
 Note that the 4GB Patch is **NOT required for users on macOS**, as that version of the game is 64-bit and can access more RAM than the Windows version (even with the 4GB Patch!) by default.
+
+The 4GB patch is also not required if you opt for the "LowRam/NoRHW" Controller options, but they completely omit almost all the code required for the NAM's RealHighway (RHW) Plugin to function.
 
 The default directory for where SimCity 4.exe may be located depends on how and where you purchased your copy of the game.
 
@@ -102,6 +98,12 @@ To that end, we encourage users to keep the installer for the current version ha
 ## Uninstalling the NAM
 
 To uninstall the mod, simply bulldoze every NAM item from this download in your cities and remove the files from the Plugins folder afterwards. NAM content is contained in the *`Plugins\Network Addon Mod`* folder by default.
+
+## Information for Users on Lower-End Systems (32-Bit Windows/<4GB RAM)
+
+Users attempting to run the NAM as installed by default with the full NAM Controller, on systems with 32-bit Windows and/or less than 4GB RAM, will not be able to make use of the required 4GB Patch, and will encounter Crash-to-Desktop (CTD) errors with that default Controller. The only solution to this is to either install NAMLite, or select one of the "Low RAM/No RHW" options in the installer. Note that the "Low RAM/No RHW" options do not include ANY code for the RealHighway (RHW) plugin, so attempting to build RHW systems will result in everything reverting to the base RHW-2 network. The single biggest contributor to the Controller's size is the RealHighway (RHW) plugin, so not having it installed helps keep things under control on lower-end systems. Note that the NAM Controller is one of the most critical files in the entire mod; without a NAM Controller, **none of the NAM's menu buttons will function, instead resulting in a "red arrow" when clicked.**
+
+Users wishing to run just the NAM's Traffic Simulator improvements should install NAMLite.
 
 ## Manual Installation - Advanced
 
@@ -142,17 +144,3 @@ The other ones to watch out for are in Water Transport, where the Canal Addon Mo
 Those three non-default options are !Legacy Auto Avenue Turn Lanes (these are the old auto-turn lanes that appear on Avenue x Avenue intersections--largely considered "deprecated" now, as they can interfere with some newer functionality), !Legacy Semi-Auto Road Turn Lanes (the "semi-auto" replacement for the old auto-turn lanes on Road x Road intersections, which now appear by clicking over Road x Road + and T-intersections with the One-Way Road tool, also somewhat "deprecated" now), and !One-Way Road Arrow Plugins. These Arrow Plugins are mostly just a matter of taste, and, despite the folder naming, actually supposed to be mutually exclusive. "Elimination" gets rid of the arrows entirely, "Reduction" hides some of them (and actually impacts the base functionality of the OWR network to some degree), while "Single Arrows" replaces the default double arrows with just a single arrow (which looks nicer on the NWM networks).
 
 The rest of 2 Additional Network Features is pretty self-explanatory, though micromanagement of these options is not recommended, since it is possible to produce a broken installation this way. RealRailway is the only/default option for Rail now, it's best to go all or nothing on RealHighways (RHW) and the Road, One-Way Road, and Avenue folder's "Additional Widths and Turn Lanes" option (which contains the Network Widening Mod and FLEX Turn Lanes). And if something says "Legacy" but it's not prefixed with "!", it's probably safest to install it, as it pertains to being able to keep certain older, deprecated content working, if you've built it with previous versions.
-
-## Information for Users on Lower-End Systems (32-Bit Windows/<4GB RAM)
-
-Users attempting to run the NAM as installed by default with the full NAM Controller, on systems with 32-bit Windows and/or less than 4GB RAM, will not be able to make use of the required 4GB Patch, and will encounter Crash-to-Desktop (CTD) errors with that default Controller. The only solution to this is to either install NAMLite, or select one of the "Low RAM/No RHW" options in the installer. Note that the "Low RAM/No RHW" options do not include ANY code for the RealHighway (RHW) plugin, so attempting to build RHW systems will result in everything reverting to the base RHW-2 network. The single biggest contributor to the Controller's size is the RealHighway (RHW) plugin, so not having it installed helps keep things under control on lower-end systems. Note that the NAM Controller is one of the most critical files in the entire mod; without a NAM Controller, **none of the NAM's menu buttons will function, instead resulting in a "red arrow" when clicked.**
-
-Users wishing to run just the NAM's Traffic Simulator improvements should install NAMLite.
-
-## Distribution and Old Versions
-
-The NAM Team only provides support and allows distribution of the most recent NAM version. With the exception of older non-English language versions (which are supported by their respective sites, not the NAM Team), no technical support will be provided to users of prior versions of the NAM, nor will any past versions of the NAM be made available for download, by request or otherwise. The team does not keep an official archive of past releases, and does not have the resources to answer questions regarding them. Each release includes improvements across the board to features new and old, is designed to be as compatible with cities built with previous versions as is humanly possible, and is also intended to improve the end user experience. Old releases are inherently inferior, and not "simpler" or "easier" to use.
-
-Users wanting a smaller feature set, due to technical limitations, or unfamiliarity with the NAM's vast options, should instead seek to install NAMLite, or fewer options in the current NAM, potentially coupled with the "Low RAM/No RHW" option, .
-
-Users wishing to hold onto old versions should back them up in their personal archives. Note again that no technical support will be provided for this, nor may any user or site redistribute any old versions.

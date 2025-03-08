@@ -16,13 +16,14 @@ Take a peek at the [Overview](/docs/getting-started/what-is-the-nam/) page.
 
 ### What is the difference between NAM and NAMLite?
 
-NAMLite is a bite-sized package for users looking for a minimal install. Think of NAMLite as a "best hits".
+NAMLite is a bite-sized package for users looking for a minimal install. Think of NAMLite as a collection of the NAM's "best hits".
 
-### Why is my game crashing to desktop when I load a city tile after installing this mod?
+### What all is included in the NAM?
 
-The crash to desktop (CTD) issues upon city load are the product of having a full NAM Controller installed, but without the NTCore 4GB Patch being properly installed. The .bat file recommended for Windows users to use to begin NAM installation should patch your game automatically, but Windows permissions issues can complicate this (running the .bat file as an administrator can help), and the presence of these sorts of CTDs are an indication that the process did not properly complete.
+Check out the [Content Overview](/docs/getting-started/what-is-the-nam/) page for a brief look, and the full [Features](/docs/feature-guides) section of this documentation for a more in-depth look. The contents of the latest version can be found in the [History](/docs/reference/nam-version-history/) section.
 
-The 4GB Patch is a small patch, usable on any 32-bit executable file (not just SimCity 4) that allows the application to access 4GB RAM instead of a mere 2GB, and has historically been used in many modding communities associated with older games. This can also happen if your system is running a 32-bit version of Windows (i.e. if you're still running Windows XP), and/or you have less than 4GB RAM. Both of these situations effectively render the improvements of the 4GB Patch (and the compatibility it provides with the Full version of the NAM Controller) moot. Note that the "LowRam/NoRHW" Controller options do not require the 4GB Patch, but they completely omit almost all the code required for the NAM's RealHighway (RHW) Plugin to function.
+### What is the 4GB Patch?
+The 4GB Patch is a small patch, usable on any 32-bit executable file (not just SimCity 4) that allows the application to access 4GB RAM instead of a mere 2GB, and has historically been used in many modding communities associated with older games. The application will only use at most 2GB of RAM, even if you have far more available. This can also happen if your system is running a 32-bit version of Windows (i.e. if you're still running Windows XP), and/or you have less than 4GB RAM. For more information, refer to [A Note About the "4GB Patch"](/docs/getting-started/troubleshooting-installation#4gb-patch).
 
 ### Does this mod work on a Mac?
 
@@ -38,10 +39,6 @@ It depends on the options you install.  Expect about about 1.2GB for a full NAM 
 
 Adding any Plugins to the game will impact performance to at least some extent -- more for the game to load.  With modern hardware (as of 2023), the most prominent impacts is will be with the initial load of the game and when loading a city tile for the first time after that initial load. This can be a noticeable difference, particularly if you've installed the full NAM after running completely "vanilla" (without plugins). The loading time will shorten with subsequent loads of other cities in the same play session. If you exit and re-enter the game, subsequent re-entries will also be quicker. Installing Null 45's [Startup Performance Optimization DLL for SimCity 4](https://community.simtropolis.com/files/file/36244-startup-performance-optimization-dll-for-simcity-4/) has been shown to make a dramatic difference in reducing load times.
 
-### What all is included in the NAM?
-
-Check out the [Content Overview](/docs/getting-started/what-is-the-nam/) page for a brief look, and the full [Features](/docs/feature-guides) section of this documentation for a more in-depth look. The contents of the latest version can be found in the [History](/docs/reference/nam-version-history/) section.
-
 ### Is this mod stable?
 
 The NAM has been around since shortly after the game released in 2003, and is the most widely-used mod for SimCity 4 Deluxe/Rush Hour. While there are always things in the NAM that are being improved, it has such wide acceptance because it is generally considered to be a stable addition to the game. If you encounter issues while using the mod, the NAM Team would like to know, as we want to ensure users of this mod have an enjoyable experience.
@@ -54,7 +51,7 @@ The consensus of most SC4 players is that it is not. The NAM restores the traffi
 
 The NAM includes modifications to the Network Rule ("RUL") files (which handle network placement) and the Traffic Simulator Exemplar. It is not compatible with any other mod that modifies these files. Aside from earlier versions of the NAM, there are very few of these files out there. Things like stations (e.g. for Ground Light Rail/Tram, High Speed Rail, etc.) and cosmetic mods (e.g. Euro textures, different streetlights, etc.) are compatible with the NAM. Older cosmetic mods not maintained by the team, however, may not have full coverage of all relevant NAM items.
 
-### How can I know what version of the NAM I have installed?
+### How can I know what version of the NAM I currently have installed?
 
 At the very bottom of the Highways menu in the game you will find the NAM icon. Hover over this icon to show information about your current NAM installation.
 
@@ -88,33 +85,9 @@ Yes, there are some tutorials included in this documentation. There are also qui
 
 **The NAM requires zero dependencies**. Since the NAM struck down its long-standing prohibition on including lots back in 2013, basic stations for some of the NAM's additional rail-type network options are even part of the package now. If you are encountering the infamous "brown boxes" anywhere, they are the product of having a non-NAM mod or plugin installed, without all its dependencies.
 
-### Why is the game crashing to desktop immediately upon loading after installing this mod?
-
-The only reason the NAM could cause an immediate crash to desktop (CTD) would be if you're running the original version of SimCity 4 (not Deluxe/Rush Hour), or if your game is improperly configured for your hardware (in which case it will crash similarly without the NAM). If you are running Deluxe/Rush Hour, you may want to check any other plugins you may have installed.
-
 ### What's with all the acronyms? Is there a list of what they all mean?
 
 Acronyms are omnipresent in the SC4 content world, and they serve a valuable purpose as shorthand. They can seem a bit arcane at first, however. The [Glossary](/docs/reference/glossary) in this documentation contains all the pertinent NAM-related ones you may encounter.
-
-### Why are none of the icons showing up after I've installed the NAM?
-
-You may not have installed the NAM correctly, or your installation ended up in the wrong location. See the [Installation Instructions](/docs/getting-started/installation#install) page to reinstall, making sure the files go into your `Documents\SimCity 4\Plugins folder` (true of Windows and the Steam Mac version), or, if you're on the Mac App Store version, make sure you copy the files into the `.app` container.
-
-### Why am I seeing duplicate icons?
-
-You likely have two copies of a given NAM release installed simultaneously. We recommend you find and remove both copies in your Plugins folder, and reinstall the latest version again.
-
-### Why am I getting a red arrow/gray cursor when I click one of the new icons in game?
-
-In most situations, this is an indication that you have the Controller file from an outdated NAM release, or an incompatible RUL-bound transit mod installed. You'll need to remove the offending files. The one exception is with the little icon with the NAM logo at the bottom of the Highways menu -- this button is not meant to be pressed, but rather, hovered over to show version information. If the version information here says anything other than "{{< param docsversion >}}", that's a definite sign there's an outdated/incompatible file lurking about your Plugins folder.
-
-### After installing the NAM, why are the tiles leading up to my intersections suddenly orange or red in the Congestion Data View?
-
-The NAM's traffic simulator plugin, with its default settings, amplifies the effect of the _Intersection and Turn Capacity Effect_ property, affecting network tiles that are within a 2-tile radius of an intersection (or transition). This better simulates the effects of queues at intersections, especially signalized ones.
-
-### Why are the cars disappearing in game?
-
-The "cars", or "automata", are not really there in the traffic simulation -- they're simply a visual effect that has a casual correlation to actual traffic data in the game. Being visual effects, they can eat up processing power, and in order to keep the game from becoming overloaded, the game's engine puts a finite limit on how many vehicular automata can show up at one time. Over that limit, and they disappear. Certain Automata Plugin options can allow more automata to stay on the screen at one time, though keeping the cars on the road all the time is simply an impossibility, due to the way the game is programmed. SimCity 4 is a statistics-based simulator, not an agent-based simulator (as SimCity (2013) and Cities: Skylines are).
 
 ### What are the differences between "puzzle pieces", "FLEX pieces", "starter pieces", and TE lots"?
 
@@ -136,12 +109,6 @@ The TAB key will move forward through a given set of puzzle pieces under a singl
 
 The NAM logo icon is a diagnostic tool, which, if hovered over, will show you which version of the NAM Controller you are currently running. This can be useful in diagnosing issues pertaining to the NAM Controller.  It is not supposed to do anything when you click it.
 
-### Why is the game crashing after I place a puzzle piece?
-
-This is a bug in the game itself, typically triggered by attempting to place conventional puzzle pieces in the vicinity of TE lots. If, in the process of constructing a puzzle piece, the footprint of the puzzle piece overlaps that of the TE lot, even before the puzzle piece is placed, the game generally does not understand the configuration, and will immediately crash. This is an issue within the game's executable, and as a result, it was long deemed an unsolvable issue.
-
-_However_, **simmaster07** managed to decode enough of the framework that SimCity 4 uses to load DLL files from other sources, and was able to patch this issue with his _SC4Fix.dll_ file. SC4Fix is available at [Simtropolis](http://community.simtropolis.com/files/file/30883-sc4fix-third-party-patches-for-sc4/).
-
 ### Why isn't it possible to add true new networks, instead of using starter pieces?
 
 Adding new networks is, at this time, impossible. The base RHW network was only possible as it used an existing unused network stub left in the game. Although game files suggest that theoretically, there is space for three more true networks (for a total of 16), there is not enough of a stub for these final three slots for us to enable them. However, the starter piece paradigm allows us to very closely mimic the effects of adding true new networks.
@@ -150,21 +117,13 @@ Adding new networks is, at this time, impossible. The base RHW network was only 
 
 Adding new submenus is, at this time, impossible. SC4 mod developers have tried for many years, to no avail, though have come up with workarounds like Daeley's Advanced Menu Navigator (DAMN), which repurposes the game's News system, and Menu Management Lots (MMLs).
 
-### Certain draggable items are not working for me, and I'm following the directions. Why isn't it working?
-
-If you're referring to starter pieces, make sure you're dragging the specified default network out the correct end of the piece. Trying to "drag" the actual starter piece itself will get you nowhere. If you're referring to a starter piece-based network extension not cooperating with a particular setup you're trying to build, it may be that the setup is not supported. If you're getting "blank" tiles upon drawing the item, this is generally a sign of improper installation and/or conflicting files being present in your Plugins.
-
-### My RCI demand seems to have changed since I installed the NAM. What is happening?
-
-The NAM does not directly affect RCI demand. It does not modify anything other than transportation-related files. You may have installed something else recently that does modify other parts of the game, however. Because the NAM is popular and a large-scale mod, many newer players who have installed other files at the same time mistakenly presume the NAM is at fault. Additionally, if you somehow unchecked too many boxes in the installer, it is possible you somehow caused the installer to skip installation of the Traffic Simulator plugin, which would cause the game to revert to the Maxis defaults.
-
-### I'm having difficulty using U-Drive-It (UDI) functionality on certain NAM items. Is there any way to fix this?
-
-It depends on the item -- Single-Track Rails (STR) and the various Turning Lane Avenue (TLA) options in the Network Widening Mod (NWM) are perhaps the most prone to issues. UDI was a last-minute addition to SimCity 4 Deluxe/Rush Hour, and is known for having a number of quirks. There really isn't a way to fix them because of these quirks, though the TLA quirks can be mitigated by disabling "Snap To Road" and driving manually.
-
 ### I'm from North America. Why aren't the traffic signals on the far side of the intersection, as they are here? Can I change this?
 
 With the way the game's default traffic signals work with the stop point system on network path files, the signals have to be on the near-side in order to function. Some of the FLEX Turn Lane (FTL) options and Turn Lane Extension Pieces (TuLEPs) use trick stop points to allow for far-side signals, but there are feasible limits to this technique. Recently, however, there have been advances in signal modding, using true-3D props, which have allowed for offset props to be developed, getting around this issue. Offset props have not been released as of writing, but may potentially be made available as a third-party addition in the future.
+
+### I'm a user from outside the North America -- are there Euro road textures to make the roads look more familiar to me?
+
+Yes, just select either the "EU_Right Side" or "EU_Left Side" option (depending on your drive side) under "8 Texture and Drive Side Support".
 
 ### I'm from a country where people drive on the left. Can I switch the side of the traffic signals?
 
@@ -178,25 +137,17 @@ With the Mac version, it is effectively required to consolidate the mods files u
 
 Rather than the pre-fabricated, one-piece interchanges of the game's default highway system, the RealHighway system was designed with the concept of modular interchange construction in mind. More details can be found in the RHW portion of the documentation. That said, NAM 45 (September 2022) did introduce the QuickChange Xpress (QCX) system, which currently adds full diamond interchanges to the RHW's repertoire.  These can be found under the QuickChanges button on the Highways Menu.
 
-### Why aren't my neighbor connections working on RealHighways and/or wider Roads, Avenues and One-Way Roads? How do I fix them?
-
-Most RealHighways (except the RHW-2 and RHW-3 networks) and some multi-tile starter-based items require the use of special "Neighbor Connector Puzzle Pieces" (NCPPs) to function. For networks that are "combined", having adjacent two-way traffic, simply drag the network to the edge of the city tile, as you normally would (ignoring the fact that the neighbor connection arrows both face the same direction), and plop the appropriate Neighbor Connection Puzzle Piece over it. You'll need to do this on both sides of the neighbor connection. For one-way/"split" networks, follow the same directions, and if there is a gap between the two directions, you'll need to place underground loop pieces next to the city edge, between the two carriageways.
-
-### Why are my RealHighway networks remaining at two lanes and ground level after dragging the network through one of the starter pieces?
-
-If your RealHighway starters are not working, and the network is remaining as the RealHighway-2 (RHW-2) after dragging through a starter, then this is likely a sign that you have the "LowRAM/NoRHW" version of the NAM Controller installed, which, as the name indicates, does not include any of the RUL2 code necessary for the RealHighway's starters to function. Reinstall the mod with the Full version of the Controller, and ensure that your system meets the minimum requirements for the RealHighway plugin (4GB Patch installed, 64-bit operating system, and at least 4GB RAM).
-
-### Why can't I build diagonal intersections with some of the wider Roads, Avenues and One-Way Roads?
-
-As of NAM 46, diagonal 4-way ("+") intersections and crossings are now possible between the single-tile Network Widening Mod (NWM) networks (TLA-3, AVE-2, ARD-3, OWR-1, OWR-3, and NRD-4) with all of the game's base networks, plus Ground Light Rail (GLR), Single-Track Rail (STR), and all other single-tile NWM networks.  3-way ("T") intersections are not presently available, nor are any diagonal intersection or crossing options for the multi-tile NWM networks.
-
 ### When is the next NAM version being released? {#release-date}
 
 There is no date or timeline for the next release. We honestly have no idea. This project is a very passionate hobby for many NAM Team members, but it is still just that -- a hobby, something we do in our spare time, as volunteers. It's also a very technically complex undertaking, where things can unexpectedly go wrong in development. It's simply not possible for us to predict when we'll be done with a release, and coming up with arbitrary release dates just leads to extremely buggy releases or postponement, disappointing everyone in the process. The one time we did it (in 2013), it did not go well. Besides, we like to surprise people.
 
-### I'm a user from outside the North America -- are there Euro road textures to make the roads look more familiar to me?
+### I want to use an older version of the NAM? Where can I download previous versions? {#old-versions}
 
-Yes, just select either the "EU_Right Side" or "EU_Left Side" option (depending on your drive side) under "8 Texture and Drive Side Support".
+The NAM Team only provides support and allows distribution of the most recent NAM version. With the exception of older non-English language versions (which are supported by their respective sites, not the NAM Team), no technical support will be provided to users of prior versions of the NAM, nor will any past versions of the NAM be made available for download, by request or otherwise. The team does not keep an official archive of past releases, and does not have the resources to answer questions regarding them. Each release includes improvements across the board to features new and old, is designed to be as compatible with cities built with previous versions as is humanly possible, and is also intended to improve the end user experience. Old releases are inherently inferior, and not "simpler" or "easier" to use.
+
+Users wanting a smaller feature set, due to technical limitations, or unfamiliarity with the NAM's vast options, should instead seek to install NAMLite, or fewer options in the current NAM, potentially coupled with the "Low RAM/No RHW" option, .
+
+Users wishing to hold onto old versions should back them up in their personal archives. Note again that no technical support will be provided for this, nor may any user or site redistribute any old versions.
 
 ### I have ideas for new features. Does the NAM Team take requests?
 

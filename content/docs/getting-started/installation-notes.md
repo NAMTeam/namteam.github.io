@@ -81,7 +81,7 @@ The Network Addon Mod is compatible with the following versions of the SimCity4 
 <span class="fs-6">**¹** Technical support is limited for Mac Steam version users, and *very limited* for macOS Store version users.</span><br>
 <span class="fs-6">**²** Must be running at *least* Version 1.1.638</span><br>
 <span class="fs-6">**³** Running on macOS/OS X Version 10.6 (Snow Leopard) or earlier</span><br>
-<span class="fs-6">**⁴** SimCity 4 Deluxe obtained through a purchase from one of these storefronts **is compatible**. See [Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass](/docs/getting-started/troubleshooting/#origin-ea-play-xbox-gamepass) for important historical information.</span><br>
+<span class="fs-6">**⁴** SimCity 4 Deluxe obtained through a purchase from one of these storefronts **is compatible**. See [Notice to Users Who Purchased a Digital Copy from Origin, or Use EA Play or Xbox Game Pass](/docs/getting-started/troubleshooting-installation/#origin-ea-play-xbox-gamepass) for important historical information.</span><br>
 <span class="fs-6">**⁵** SimCity 4 Deluxe obtained by redeeming an existing CD key (not purchasing) through Origin Customer Support (Version 1.1.641) **is compatible**</span><br>
 
 <hr>
@@ -99,6 +99,10 @@ The Network Addon Mod requires your computer have at least the following:
 
 ## Troubleshooting
 
-Have an issue installing? Consult the [Troubleshooting](/docs/getting-started/troubleshooting) page or the [Frequently Asked Questions](/docs/getting-started/frequently-asked-questions) page first to see if your question is covered there. Otherwise drop a message in the [NAM Support Forum](https://community.simtropolis.com/forums/forum/30-nam-transit-networks/) at Simtropolis or at the Helpdesk in the SC4Evermore Discord group. 
+Consult one of our troubleshooting pages first to see if your question is covered there.
+* Have an issue installing? Consult the [Troubleshooting (NAM Installation)](/docs/getting-started/troubleshooting-installation) page.
+* Run into an issue during gameplay? Consult the [Troubleshooting (Gameplay)](/docs/getting-started/troubleshooting-gameplay) page.
+* Have a general question? Consult the [Frequently Asked Questions](/docs/getting-started/frequently-asked-questions) page.
+* Otherwise drop us a message in the one of the Support areas linked in the top navigation bar. 
 
 # When you're done installing, it's on to the [Basics](/docs/getting-started/in-game-basics). 

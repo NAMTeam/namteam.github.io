@@ -12,7 +12,7 @@ images: []
 url: "docs/getting-started/in-game-basics"
 ---
 <!-- markdownlint-disable MD025 -->
-# DRAGGABLE, PLOPPABLE!
+## DRAGGABLE, PLOPPABLE!
 
 Just like many other elements of Sim City 4, the many options in the NAM are either "draggable" or "ploppable". Draggable items work just like the default networks: click, and drag to build them. Ploppable items work just like buildings in the menu: click to place them.
 
