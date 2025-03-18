@@ -7,7 +7,8 @@ titleAddition = "Official Documentation"
 description = "Official Network Addon documentation"
 
 ## Documentation
-docsVersion = "47"
+docsVersion = "49"
+docsVersionLite = "4"
 
 ## Twitter Cards
 

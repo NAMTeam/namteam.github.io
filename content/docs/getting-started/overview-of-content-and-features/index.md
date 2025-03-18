@@ -1,19 +1,15 @@
 ---
-title : "Overview of NAM"
-description: ""
-lead: 
+title : "What is the Network Addon Mod?"
+description: "Readme"
+lead: "The Network Addon Mod, or NAM, is a comprehensive transportation mod for SimCity 4 Deluxe/Rush Hour. Most notably, NAM introduces hundreds of new network options, ranging from highways, railways, bridges, pedestrian malls and a <b>lot</b> more. The mod also greatly improves the game’s traffic simulator, bringing a whole new level of accuracy and performance."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
-weight: 4
+weight: 1
 draft: false
 images: []
-url: "docs/getting-started/overview-of-content-and-features"
+url: "docs/getting-started/what-is-the-nam"
 ---
-
-Before we get too deep into the weeds, let's do a brief overview of everything that NAM includes.
-
-Alongside the new elements NAM _gives_ you, there's some important things it _changes_ to the game. Meaning some new:
-
+<!-- markdownlint-disable MD025 -->
 ## FEATURES
 
 * **NAM Traffic Simulator** - From more realistic subway costs to smarter Sims, NAM features it's own traffic simulator that improves efficiency, usage, pathfinding and realism across all networks. This feature is a **huge** improvement to the vanilla game.
@@ -29,7 +25,7 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 
 * **RealHighway (RHW)** - Most folks install NAM just for these highways, it's the main attraction! RHW adds an entire new realm of potential for creating highway networks, completely replacing the original Maxis highways, adding huge multi-lane options, overpasses, ramps, elevations...
 * **RealExpressway  (REW)** - Just like the RHW, RealExpressway adds ramps and slip-roads to the Road network, bringing the same flexibility to your cities and towns.
-* **Network Widening Mod** - Ever needed something more than a road or avenue but not a highway? Introducing the Network Widening Mod, extending the game's base road networks by providing different widths!
+* **Network Widening Mod (NWM)** - Ever needed something more than a road or avenue but not a highway? Introducing the Network Widening Mod, extending the game's base road networks by providing different widths!
 * **Pedestrian Addon Mod (PRM)** - Introduce pedestrian crossings and malls! This revolutionary new feature gets your sims out of cars and on their feet or on a bike.
 * **Street Addon Mod (SAM)** - The game shipped with only one grey street. This mod adds parking lots, gravel tracks, dirt paths, brick and cobblestone streets and a lot more.
 * **Rural Roads (RuRP)** - Asphalt streets in the middle of nowhere? Don't think so. Add rural roads for a scenic route or mountain pass!
@@ -54,3 +50,9 @@ Alongside the new elements NAM _gives_ you, there's some important things it _ch
 
 * **Maxis Highway Override** - Enjoy the ease of pre-built, complicated junctions like the old Maxis highways had? This new feature brings that feature back, but this time supported NAM's superior RHW.
 * **Turning Lanes & Cosmetic Additions** - Use ploppable (and flexible!) pieces to add lanes with turning arrows in your roads and highways. Additionally, a separate cosmetic option allows you to drop down turning arrows on almost all roads.
+
+## So, wait, _is_ there a steep learning curve?
+
+Here's the simple answer: yes and no. An untold amount of hours have gone into creating NAM, and many more in trying to make it as intuitive as possible. It cannot be ignored, however, that Sim City 4 is now a more than 20-year old game and balancing its hard code whilst providing the player with more realistic networks _does_ mean there's a learning curve. Fortunately, there's only a few basic principles tying everything together which can be found on the Basics page.
+
+# Sound exciting? Get going with the [Installation](/docs/getting-started/installation)!
