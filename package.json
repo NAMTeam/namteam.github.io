@@ -8,6 +8,7 @@
   "browserslist": [
     "defaults"
   ],
+  "type": "module",
   "repository": "https://github.com/NAMTeam/namteam.github.io",
   "license": "MIT",
   "publishConfig": {
