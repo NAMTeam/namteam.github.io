@@ -1,9 +1,9 @@
 ---
 title : "High Speed Rail"
 description: "The High Speed Rail Project (HSRP) adds two new “model variation” overrides to the Monorail network."
-lead: "The High Speed Rail Project (HSRP) adds two new “model variation” overrides to the Monorail network."
+lead: "The High Speed Rail Project (HSRP) adds two new “model variation” overrides to the Monorail network: HSR (Elevated High Speed Rail) and GHSR (Ground High Speed Rail)"
 date: 2022-09-06T10:09:26+00:00
-lastmod: 2022-09-06T10:09:26+00:00
+lastmod: 2025-04-26T10:09:26+00:00
 draft: false
 images: []
 url: "docs/feature-guides/high-speed-rail"
@@ -11,9 +11,9 @@ url: "docs/feature-guides/high-speed-rail"
 
 {{< docstatus status="legacy" >}}
 
-In the early years of SC4, new technology was found by smoncrie which allowed us to use a single puzzle piece to create a starter for a new set of textures or models for the same network, there are already a few mods that take advantage of this technology, namely draggable GLR, SAM, and RHW. At the moment, there are two new model variations included in this mod, High Speed Rail (HSR, elevated) and Ground High Speed Rail (GHSR).
+## Overview
 
-The original HSRP replaced Monorail. At the time this was the best way of implementation, and was created by 3ddz, founded by Murakamon, on the 24th of February 2006. Since then there has only been one release, HSRP Beta 1. This mod uses the original models from that release for HSR, and a lowered version for GHSR. No other modifications were made to the models.
+In the early years of SC4, new technology was found by **smoncrie** which allowed the use a single puzzle piece to create a starter for a new set of textures or models for the same network. The original version of the HSRP replaces the Monorail network and was created by 3ddz and founded by Murakamon on the 24th of February 2006. Since then, there has only been one formal release, HSRP Beta 1, in 2009. This update uses the original models from the original release for HSR, and a lowered version for GHSR. No other modifications were made to the models.
 
 _NOTE: The High Speed Rail Project, in its current form, is no longer in active development. Its planned successor, Real High Speed Rail (RHSR) system is currently in development._
 
@@ -22,7 +22,7 @@ _NOTE: The High Speed Rail Project, in its current form, is no longer in active 
     images/HSRP_02.jpg
 {{< /gallery >}}
 
-## Installing the High Speed Rail Project from the NAM Installer
+## Installing the High Speed Rail Project
 
 To install the High Speed Rail Project via Custom Installation, under the _2 Additional Network Features_ section, under _Monorail_, select the "High Speed Rail Project" option. This box is automatically selected by default.
 
@@ -68,7 +68,7 @@ The capacity and speed of both the Elevated and Ground High Speed Rail override 
 
 ## A Note Regarding Automata
 
-As the High Speed Rail Project's override networks are Monorail-based, Monorail automata will appear on HSR tracks by default. If one wishes to change the appearance of the HSR trains, are several third-party HSRP automata skins available (which probably look nice on your Monorail tracks as well). One such set is the [VDK Train Mods Vol 7](http://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2975) package by NAM Team member **vester**.
+As the High Speed Rail Project's override networks are Monorail-based, Monorail automata will appear on HSR tracks by default. If one wishes to change the appearance of the HSR trains, are several third-party HSRP automata skins available (which probably look nice on your Monorail tracks as well). One such set is the [VDK Train Mods Vol 7 and Vol 15](https://www.sc4evermore.com/index.php/downloads/download/41-automata-mods/309-sc4d-lex-legacy-bsc-vdk-train-mods-vol07-and-vol15-high-speed-rail-trains) package by NAM Team member **vester**.
 
 ## Bridges
 
@@ -96,7 +96,7 @@ The High Speed Rail Project supports several different types of bridges, for bot
 
 ## Tunnels
 
-Being based on the Monorail network, HSR and GHSR do NOT support the construction of properly functioning tunnels. However, one can convert to the Subway network from HSR by using third-party lots, such as the [HSRP Subway Converters](http://sc4devotion.com/csxlex/lex_filedesc.php?lotGET=2040) by **ebina** and **3ddz**.
+Being based on the Monorail network, HSR and GHSR do NOT support the construction of properly functioning tunnels. However, one can convert to the Subway network from HSR by using third-party lots, such as the [Hybrid Railway (HRW) Subway Converter](https://www.sc4evermore.com/index.php/downloads/download/19-transportation/95-ulisse-wolf-hybrid-railway-hrw-subway-converter) by NAM team members Ulisse Wolf and MGB204.
 
 ## Stations
 
