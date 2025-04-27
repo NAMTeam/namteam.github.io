@@ -10,12 +10,12 @@ weight: 7
 url: "docs/reference/nam-version-history"
 ---
 <!-- markdownlint-disable MD025 -->
-# Transitional Releases (2024 through 2025)''
+# Transitional Releases (2024 through 2025)
 
 ## Version 49 (2 March 2025)
 
 * **Bridge Additions and Improvements**:								
-	* Red Truss Arch, Yellow Steel Girder, Green Truss, and Blue Supsension Bridges by IDS2 have been added for Road, Street, One-Way Road, AVE-2, ARD-3, NRD-4, OWR-3, RHW-2, RHW-3, RHW-4, and SAM Sets 2 and 6-11 (68 bridges total).
+	* Red Truss Arch, Yellow Steel Girder, Green Truss, and Blue Suspension Bridges by IDS2 have been added for Road, Street, One-Way Road, AVE-2, ARD-3, NRD-4, OWR-3, RHW-2, RHW-3, RHW-4, and SAM Sets 2 and 6-11 (68 bridges total).
 	* Viaduct Bridges by Kitsune added at L3-L4 for MIS, RHW-4, and RHW-6S, and L0-L2 for Dual RHW-4 and RHW-6S (12 bridges total).
 	* Plain Bridges by eggman121 have been added for Hybrid Railway (HRW) at L0-L2 (3 bridges total).
 	* Ponte di Piacenza RRW Bridge by Ulisse Wolf added.
@@ -82,7 +82,7 @@ url: "docs/reference/nam-version-history"
   * The NAM is now fully translated into Italian (thanks to Ulisse Wolf) and Korean (thanks to SimCitySquare).
   * Translations have been expanded for French (thanks to hugues aroux) and Portuguese (thanks to SDA).
 
-# Agile Releases (2020 through 2023)''
+# Agile Releases (2020 through 2023)
 
 ## Version 47 (27 March 2023)
 
@@ -259,7 +259,7 @@ url: "docs/reference/nam-version-history"
 * The Canal Addon Mod (CAN-AM) now has improved automata generation, as well as improvements to station functionality.
 * The RRW Slope and Tunnel Parameters section now has three options: Maxis Default (which now changes the tunnel models to match the RRW), Moderate (the new default), and Strict (the only option previously).
 * Various stability issues with the ERRW Viaduct crossings with RHW networks have been addressed.
-* A shell script has been added to the installation package, to improve the user experience on Linux (thanks to **Durfsurn**.
+* A shell script has been added to the installation package, to improve the user experience on Linux (thanks to **Durfsurn**).
 * Various LHD path fixes for the RRW and Avenue Roundabouts have been incorporated.
 * The draggable form of the RHW-8S Type D2 Wide ramp has been stabilized.
 * An option to remove "legacy" RHW menu buttons from the Highways menu has been added, along with general Highways menu improvements. The "Compact" RHW-6C-to-4 Transition Puzzle Piece has been disabled from the Legacy Width Transitions menu, due to conflict with other items.
@@ -310,7 +310,7 @@ url: "docs/reference/nam-version-history"
 * A FLEX On-Slope transition (FLEX-OST) has been added for the Hybrid Railway (HRW) FLEX-based dual-network.
 * FLEX On-Slope Transitions (FLEX-OSTs) for the RealHighway (RHW) plugin have been fixed, and now function as intended.
 * Support for 90° R1 "Mini-Curves" (3x3 footprint) has been added for the Road network.
-* Diagonal crossover paths and DIPs (Distilled Intersection Paths) have been added to the diagonals for the Wider RHW networks (courtesy of **McDuell** and Triple-Tile NWM networks (courtesy of **Ganaram Inukshuk**), improving capacity and functionality of the diagonal RHW-8S, RHW-10S, RHW-6C, RHW-8C, TLA-7, and AVE-6 networks.
+* Diagonal crossover paths and DIPs (Distilled Intersection Paths) have been added to the diagonals for the Wider RHW networks (courtesy of **McDuell**) and Triple-Tile NWM networks (courtesy of **Ganaram Inukshuk**), improving capacity and functionality of the diagonal RHW-8S, RHW-10S, RHW-6C, RHW-8C, TLA-7, and AVE-6 networks.
 * Various improvements have been made to the NWM TLA-7/AVE-6-to-Dual-OWR-3 draggable transition, including the addition of proper Distilled Intersection Paths (DIPs) to mitigate capacity issues, along with fixing broken LHD pathing
 * The RULs for the LHD version of the FLEX Turn Lanes (FTL) Type 130 x Type 110 intersections have been improved, to eliminate previous texture and path flipping errors.
 
