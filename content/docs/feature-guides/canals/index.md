@@ -1,7 +1,7 @@
 ---
-title : "Canals"
-description: "The Canal Addon Mod, or CAN-AM, is a NAM feature designed in cooperation with the BSC (BATT Squad Certification) group, adding functional canals to the game."
-lead: "The Canal Addon Mod, or CAN-AM, is a NAM feature designed in cooperation with the BSC (BATT Squad Certification) group, adding functional canals to the game."
+title : "Canals (CAN-AM)"
+description: "The Canal Addon Mod, or CAN-AM, is a feature designed in cooperation with the BSC to add functional canals to the game capable of transporting passengers and freight."
+lead: "The Canal Addon Mod, or CAN-AM, is a feature designed in cooperation with the BSC to add functional canals to the game capable of transporting passengers and freight."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -11,12 +11,8 @@ url: "docs/feature-guides/canals"
 
 {{< docstatus status="workinprogress" >}}
 
-While CAN-AM is technically functional without any additional files, it is designed to work with either of the following (which are necessary for the canals to have walls):
-
-* [CAL SG Canals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=979) by **callagrafx** (recommended) OR
-* The original [SG Canals](https://www.sc4devotion.com/csxlex/lex_filedesc.php?lotGET=887) by **SimGoober**
-
-The NAM CAN-AM files do include a single passenger station for use with CAN-AM.  Additional passenger stations and even freight stations are available on the [LEX at SC4 Devotion](https://www.sc4devotion.com/csxlex).  Note that these separate download stations may have dependency lists.
+While CAN-AM is technically functional without any additional files, it is designed to work with either the **CAL SG Canals** by **callagrafx** (recommended),  or the original **SG Canals** by **SimGoober**.
+Both of these are available in the [SC4D LEX Legacy - BSC Canals Collection](https://www.sc4evermore.com/index.php/downloads/download/14-park/277-sc4d-lex-legacy-bsc-canals-collection). This package also includes additional passenger and freight stations, as NAM CAN-AM only includes a single passenger station.
 
 ## Building CAN-AM Canals
 

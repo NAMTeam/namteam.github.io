@@ -1,7 +1,7 @@
 ---
-title : "Real Railway (RRW)"
-description: ""
-lead: ""
+title : "RealRailway (RRW)"
+description: "The RealRailway (RRW) is a reimagination of the rail network with the goal of aligning railways more closely with real-world transportation design standards."
+lead: "The RealRailway (RRW) is a reimagination of the rail network with the goal of aligning railways more closely with real-world transportation design standards."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -13,7 +13,7 @@ url: "docs/feature-guides/real-railway"
 
 ## Development History  
 
-The **RealRailway** or **(RRW)** is the new standard for rail transport in the NAM. RealRailway supersedes **Maxis Rail** and **Railway Addon Mod (RAM)**. RRW is the only standard of rail receiving continual updates by the NAM Team since 2013 **(NAM 32)**. Many enhancements, such as FlexTrack, Fractional Angled Rails (FARR), and the draggable Elevated RealRailway (ERRW) are products exclusive to the RealRailway.
+The **RealRailway** or **(RRW)** is the new standard for rail transport in the NAM. RealRailway supersedes **Maxis Rail** and **Railway Addon Mod (RAM)**. RRW is the only standard of rail receiving continual updates by the NAM Team since 2013 NAM 32. Many enhancements, such as FlexTrack, Fractional Angled Rails (FARR), and the draggable Elevated RealRailway (ERRW) are products exclusive to the RealRailway.
 
 The RealRailway began with "mini-curves", which were to replace the existing Maxis curves and turnouts with a more realistic minimum curve radius:
 

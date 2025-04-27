@@ -1,7 +1,7 @@
 ---
-title : "Flexible Underpasses"
+title : "Flexible Underpasses (FLUPs)"
 description: ""
-lead: "The Flexible Underpasses (FLUPs) offer custom underpass and tunnel functionality, primarily for the game's Car-based networks, consisting of Entrance/Exit Portals, and methods of connecting them underground. Using FLUPs, it is possible to build underground tunnel routes that curve. There are two methods of constructing FLUPs: the new method involving Subway-based draggable override networks and FLEX pieces (introduced in NAM 39), and the older puzzle piece-based method."
+lead: "The Flexible Underpasses (FLUPs) offer custom underpass and tunnel functionality, primarily for the game's car-based networks, consisting of Entrance/Exit Portals, and methods of connecting them underground. Using FLUPs, it is possible to build underground tunnel routes that curve. There are two methods of constructing FLUPs: the new method involving Subway-based draggable override networks and FLEX pieces (introduced in NAM 39), and the older puzzle piece-based method."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -15,7 +15,7 @@ The newest method for building Flexible Underpasses (FLUPs) involves the use of 
 
 The menu button used to access the Subway-based FLUPs content is located under the Highways menu, and it contains the items listed below:
 
-{{< img-simple src="images/rhw-flups-icon.png" >}}
+{{< menu-icon icon="images/rhw-flups-icon.png" caption="_FLUPS Menu Button_" >}}
 
 #### RHW Flex-FLUPs Button
 

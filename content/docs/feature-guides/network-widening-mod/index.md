@@ -1,5 +1,5 @@
 ---
-title : "Network Widening Mod"
+title : "Network Widening Mod (NWM)"
 description: ""
 lead: "The Network Widening Mod adds 13 new override networks, which extend the game's base Road and One-Way Road networks by providing different width variants, many with higher capacities. This includes 6 single-tile, 5 dual-tile, and 2 triple-tile override networks. Among these networks are the Turning Lane Avenues (TLA), which feature a center turn lane/flush median, multi-lane variants of the Road network, and four additional widths of the One-Way Road (OWR) network. It also includes some degree of diagonal functionality for all networks, transitions to connect NWM networks to Maxis networks or other NAM override networks, a series of Wide-Radius Curve pieces for three of the single-tile networks, and neighbor connector puzzle pieces for selected networks."
 date: 2022-09-06T10:09:26+00:00
@@ -9,14 +9,12 @@ images: []
 url: "docs/feature-guides/network-widening-mod"
 ---
 <!-- markdownlint-disable MD001 MD051 -->
-<div class="row mx-0 g-1">
-    <div class="col text-center">{{< img-simple src="images/nwmteaser1.jpg" class="" >}}</div>
-    <div class="col text-center">{{< img-simple src="images/nwmteaser2.jpg" class="" >}}</div>
-</div>
-<div class="row mx-0 g-1">
-    <div class="col text-center">{{< img-simple src="images/nwmteaser3.jpg" class="" >}}</div>
-    <div class="col text-center">{{< img-simple src="images/nwmteaser4.jpg" class="" >}}</div>
-</div>
+{{< gallery col-xl="4" col-lg="4" col-md="2" >}}
+    images/nwmteaser1.jpg
+    images/nwmteaser2.jpg
+    images/nwmteaser3.jpg
+    images/nwmteaser4.jpg
+{{< /gallery >}}
 
 ## Installing the NWM from the NAM Installer
 

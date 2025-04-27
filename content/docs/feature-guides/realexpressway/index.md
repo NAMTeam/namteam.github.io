@@ -1,15 +1,13 @@
 ---
-title : "RealExpressway Mod"
+title : "RealExpressway (REW)"
 description: "The RealExpressway (REW) system expands upon the Maxis One-Way Road network, adding Ramp Interfaces and enhancing the Network Widening Mod's OWR components."
-lead: ""
+lead: "The RealExpressway (REW) system adds a series of Ramp Interfaces (both FLEX Piece-based and draggable) to the base One-Way Road (OWR) network and the additional OWR widths of Network Widening Mod (NWM). As such, it requires that the Network Widening Mod be installed. The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway/freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighways), or various novel intersection configurations."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
 url: "docs/feature-guides/realexpressway-mod"
 ---
-
-The RealExpressway (REW) system adds a series of Ramp Interfaces (both FLEX Piece-based and draggable) to the base One-Way Road (OWR) network and the additional OWR widths of Network Widening Mod (NWM). As such, it requires that the Network Widening Mod be installed as part of one's NAM installation. The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway/freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighways), or various novel intersection configurations.
 
 ## Building REW Ramp Interfaces
 
@@ -35,7 +33,7 @@ The Draggable Ramp Interfaces (DRIs) behave differently, and are not bidirection
 
 The build methods are shown below:
 
-{{< gallery col-xl="2" col-lg="2" col-md="1" caption="_A1 Orthogonal Ramp_" >}}
+{{< gallery col-xl="3" col-lg="3" col-md="1" caption="_A1 Orthogonal Ramp_" >}}
     images/rew-draggable-a1-orth-1.jpg
     images/rew-draggable-a1-orth-2.jpg
     images/rew-draggable-a1-orth-3.jpg
@@ -46,7 +44,7 @@ The build methods are shown below:
     images/rew-draggable-b1-orth-2.jpg
 {{< /gallery >}}
 
-{{< gallery col-xl="2" col-lg="2" col-md="1" caption="_A1 Diagonal Ramp_" >}}
+{{< gallery col-xl="3" col-lg="3" col-md="1" caption="_A1 Diagonal Ramp_" >}}
     images/rew-draggable-a1-diag-1.jpg
     images/rew-draggable-a1-diag-2.jpg
     images/rew-draggable-a1-diag-3.jpg
