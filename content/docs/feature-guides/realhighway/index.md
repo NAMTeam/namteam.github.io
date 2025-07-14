@@ -423,10 +423,6 @@ Even though most FLEXHeight transitions default to the base RHW-2 network, for t
     images/rhw-flexheight-use-onslope-3.jpg
 {{< /gallery >}}
 
-To override the base RHW-2 configuration of the FLEXHeight transitions, either Ramp-Style or On-Slope, simply drag the desired override network into either end, and it will convert to match. If any tiles refuse to convert, simply click over the first point where the override stops complying, and it should convert. Placing starters on both sides of the transition ensures maximum stability.
-
-{{< img-simple src="images/rhw-flexheight-use-2.jpg" >}}
-
 If using a multi-tile network, simply place multiple FLEXHeight transitions adjacent to one another, and drag each tile of the multi-tile network into the ends of the transition.
 
 {{< img-simple src="images/rhw-flexheight-use-3.jpg" >}}
