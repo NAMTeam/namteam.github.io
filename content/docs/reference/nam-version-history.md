@@ -10,7 +10,7 @@ weight: 7
 url: "docs/reference/nam-version-history"
 ---
 <!-- markdownlint-disable MD025 -->
-# Transitional Releases (2024 through 2025)''
+# Transitional Releases (2024 through 2025)
 
 ## Version 49 (2 March 2025)
 
