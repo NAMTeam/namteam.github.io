@@ -10,7 +10,7 @@ weight: 7
 url: "docs/reference/nam-version-history"
 ---
 <!-- markdownlint-disable MD025 -->
-# Transitional Releases (2024 through 2025)''
+# Transitional Releases (2024 through 2025)
 
 ## Version 49 (2 March 2025)
 
@@ -81,6 +81,7 @@ url: "docs/reference/nam-version-history"
 * **Language Support**:
   * The NAM is now fully translated into Italian (thanks to Ulisse Wolf) and Korean (thanks to SimCitySquare).
   * Translations have been expanded for French (thanks to hugues aroux) and Portuguese (thanks to SDA).
+* **Note: The NAM Version 48 download on ModDB was compromised by a cyberattack between 4 October 2024 and 26 November 2024.  Simtropolis was not directly hosting the NAM at this time, and was instead redirecting to the ModDB file between these dates.  See <a href="https://community.simtropolis.com/forums/topic/763470-important-update-regarding-network-addon-mod-48-on-moddb-potential-security-issue/">here</a> for further details.  The NAM Team ended its partnership with ModDB on 27 November 2024, and the Simtropolis download link was redirected to SC4Evermore the same day.
 
 # Agile Releases (2020 through 2023)''
 
@@ -147,6 +148,7 @@ url: "docs/reference/nam-version-history"
   * The Type A2 and B2 merging ramps have been re-designed to feature a lane drop prior to connecting with the mainline lanes.
   * A new FLEX Width Transition piece has been added, to better facilitate transitions involving multi-tile S-type networks (especially the previously unstable RHW-8S-to-6S transitions, with their tile drop).
   * The MIS 2-Lane FLEX Turn Lanes (including the FLEX Height Transition) can now connect smoothly to FlexSPUI and FlexDDI.
+  * The overrides that automatically produce L1 RHW-2 and L2 RHW-2 on the base versions of the FLEX Height Transitions (FLEX-HTs) and FLEX OnSlope Transitions (FLEX-OSTs) have been removed, to vastly improve stability with RHW override networks.  Building these transitions for use with L1/L2 RHW-2 now requires the use of a starter on the elevated end.
 * **FLEX Turn Lane (FTL) Streetlights**: The FLEX Turn Lane (FTL) setups (except the very limited Avenue Type 020) now support streetlights.
 * **New NAM Website**: An official Network Addon Mod website has been launched, [https://www.sc4nam.com](https://www.sc4nam.com), featuring NAM documentation and feature guides.
 * **NAM Lite**: NAM Lite has now been spun off as a standalone download.
