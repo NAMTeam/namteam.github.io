@@ -1,7 +1,7 @@
 ---
 title : "Automata Plugins"
 description: "NAM Automata Plugins"
-lead: Automata are animations of cars, trains, trucks, boats, etc which travel over transit networks.
+lead: Automata are animations of cars, trains, trucks, boats, etc. which travel over transit networks.
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -10,7 +10,7 @@ url: "docs/feature-guides/automata-plugins"
 ---
 
 ## Overview
-SimCity 4 is not an "agent-based" game where each object you see on a road represents one "item" in the simulation. Automata are only a visual approximation of what is happening in the underlying traffic simulation and  maintain only a loose correlation to the actual statistical measures of the simulation. As such, any of the changes made to the Automata settings do not actually change any functional aspects of a network's capacity, speed, or commute attributes. Automata, being generated as a representation of statistical data, also may be prone to bizarre behavior that would defy real-world traffic logic. Due to the nature of how they are programmed, this is not something the NAM Team can address.
+SimCity 4 is not an "agent-based" game where each object you see on a road represents one "item" in the simulation. SimCity 4's automata are only a visual approximation of what is happening in the underlying traffic simulation, and maintain only a loose correlation to the actual statistical measures of the simulation. As such, any of the changes made to the Automata settings do not actually change any functional aspects of a network's capacity, speed, or commute attributes. As a representation of statistical data, automata may be prone to bizarre behavior that would defy real-world traffic logic. Due to the nature of how they are programmed, this is not something the NAM Team can address.
 
 The Automata Plugins are also referred as **Automata Controllers**, in the sense that they control how the automata is shown in-game.
 
@@ -20,7 +20,7 @@ The Network Addon Mod provides a variety Automata Controllers to choose from, an
 
 * **Radical** - Increases the speed of automata travel and the maximum amount of automata able to be visible at a given time.
 
-There are two additional options that may be stacked on the base options for additional customization:
+There are three additional options which modify the base options for additional customization:
 
 * **24-hour** - Varies the volume of automata present depending on the time of day. This option creates a low volume of traffic at night, a high volume of traffic during the morning and evening rush hours, and a medium volume of traffic in the middle of the day.
 
@@ -28,7 +28,7 @@ There are two additional options that may be stacked on the base options for add
 
 * **LB** - Increases the duration of the traffic signal cycles and increases the appearance of pedestrians, but otherwise functions like the 24-hour radical persistent variant. This option is not available for NAM Lite.
 
-The additional options may be combined with one base option to produce your desired configuration. As an example, *"Standard"*, and *"Standard 24-Hour"*, and *"Standard Persistent 24-Hour"* are all valid configurations.
+The three additional options may be combined with one base option to produce your desired configuration. As an example, *"Standard"*, and *"Standard 24-Hour"*, and *"Standard Persistent 24-Hour"* are all valid configurations.
 
 ### Standard vs Radical Option Details
 The following parameters have been tweaked with the **Radical** option compared to the Maxis default **Standard** option. For more information on the details of each property, refer to the [Automata Tuning Exemplars list](https://wiki.sc4devotion.com/index.php?title=Exemplar_properties#Automata_Tuning_Exemplar) in the SC4D Wiki.
@@ -59,4 +59,4 @@ The following parameters have been tweaked with the **Radical** option compared 
 | Spawn/Recall: Highway           | 40%/30%, 40%/30% | 85%/60%, 10%/30% |
 
 ### Additional Notes
-An automata controller is not technically a required component of the Network Addon Mod, as if one is not present, the Maxis default values will be used (equivalent to the *Standard* automata controller option). If you choose not to use one an automata controller, however, then the Automata on the RealHighway network will not be represented accurately as intended. If you do use an automata controller, the **only one controller may be installed at a time**.
+An automata controller is not technically a required component of the Network Addon Mod, as if one is not present, the Maxis default values will be used. However, if do not use any automata controller, then the Automata on the RealHighway network will not be represented accurately as intended. If you do use an automata controller, **only one controller may be installed at a time**.
