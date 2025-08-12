@@ -1,7 +1,7 @@
 ---
-title : "RealHighway Mod"
-description: "The RealHighway (RHW) system is a series of new highway networks added by the NAM, based on the reactivated stub of an unfinished transportation network (originally intended as a \"DirtRoad\" network) that Maxis left in the game."
-lead: "The RealHighway (RHW) system is a series of new highway networks added by the NAM, based on the reactivated stub of an unfinished transportation network (originally intended as a \"DirtRoad\" network) that Maxis left in the game. It is a variable width, variable height system with extensive modular interchange construction capabilities."
+title : "RealHighway (RHW)"
+description: "The RealHighway (RHW) system is a series of new highway networks added by the NAM, based on an unfinished transportation network (known internally as \"DirtRoad\") that Maxis left in the game."
+lead: "The RealHighway (RHW) system is a series of new highway networks added by the NAM, based on an unfinished transportation network (known internally as \"DirtRoad\") that Maxis left in the game. It is a variable width, variable height system with extensive modular interchange construction capabilities."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -18,7 +18,7 @@ url: "docs/feature-guides/realhighway-mod"
     images/rhwteaser4.jpg
 {{< /gallery >}}
 
-## Installing the RealHighways from the NAM Installer
+## Installing the RealHighway Mod
 
 A  complete install of the RealHighway plugin is one of the features included by default in the NAM Installer. There is a whole section dedicated to the RealHighways and related optional features.
 
@@ -28,23 +28,28 @@ Note that the RHW **requires a 4GB_Full NAM Controller, and as such, also requir
 
 Euro textures for the RealHighways will be automatically installed if one selects one of the Euro road texture options.
 
+## RealHighway vs Maxis Highway
+
+There are some key differences in terms of how the RHW system operates compared with the default Maxis highways:
+
+* Rather than one width and two height levels, RHW networks come in a variety of shapes and sizes, ranging from 2-lane rural highways to 10-lane freeways. All networks in the system can be built at either three or five different height levels. There is also some support for Double-Decker Highways.
+
+* The RHW allows for an extremely high level of user customization and creativity for those who want precise control over constructing interchanges. While the Maxis Highway system includes all-in-one, prefabricated interchanges and overpasses that can be plopped or automatically constructed, most RHW interchanges must be built manually using a series of interchangeable, modular pieces. As such, the RHW is more complicated to use with a higher learning curve, but offers a much greater degree of control. However, recent NAM releases have included features making the RHW system more accessible by migrating toward "FLEX" pieces that can be used by multiple networks, and the introduction of the [QuickChange](/docs/feature-guides/realhighway-mod/#QCX) system which contains some basic pre-built interchanges.
+
+* As evidenced by the "real" part of the name, the RHW also brings some semblance of real-world scaling to SC4 highways, based on current transportation design standards. As such, transitions and interchanges are larger, sometimes considerably, when compared to the compressed scale of the Maxis Highways.
+
 ## RealHighway Base and Override Networks
 
-The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the ANT - the Additional Network Tool; or the DirtRoad network), and adds a true base network, the 2-lane RealHighway (RHW-2), along with 36 override networks based upon it. With the exception of the Modular Interchange System (MIS) Ramp override network, the nomenclature used for RealHighway networks distinguishes the networks by the total number of lanes it would require to facilitate two-way traffic with the network. For instance, while each individual tile of the 4-lane RealHighway (RHW-4) may only carry 2 lanes going in one direction, full bidirectional traffic with the network would require 2 stretches of the network traveling in opposite directions, thereby resulting in a total of 4 lanes.
+The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the Additional Network Tool "ANT", or the "DirtRoad" network), and turns it into the RHW's true base network, the 2-lane RealHighway (RHW-2), along with 36 override networks.
+With the exception of the Modular Interchange System (MIS) Ramp override network, the nomenclature used for RealHighway networks distinguishes each networks by the total number of lanes to facilitate two-way traffic with the network. For instance:
+* RHW-2 contains two lanes, one in each direction.
+* RHW-4 has four lanes, two in each direction. While each individual tile of RHW-4 may only carry two lanes going in one direction, full bidirectional traffic with RHW-4 requires two stretches of the network traveling in opposite directions, resulting in a total of four lanes.
 
-With some of the wider networks, the letters "S" or "C" may be added after the lane count designation (i.e. RHW-8S or RHW-6C). The "S" is an indication for "separable", meaning that the lanes carrying travel in the opposite direction may be separated by any distance. The "C" stands for "combined", and the center tile of the "C" override carries the median separating the two directions of traffic, thereby making it inseparable. While the smaller networks do not have "S" or "C" suffixes, the RHW-2 and RHW-3 may be thought of as small C-type networks, and the MIS Ramp and RHW-4 as S-type networks.
+With some of the wider networks, the letters "S" or "C" may be added after the lane count designation (i.e. RHW-8S or RHW-6C).
+* "S" is an indication for "separable", meaning that the lanes carrying travel in the opposite direction may be separated by any distance.
+* "C" stands for "combined", meaning the center tile of the "C" networks carries the median separating the two directions of traffic, thereby making it inseparable. 
 
 It is also possible to make _ad hoc_ asymmetrical networks as well. For instance, one could create a 5-lane highway by using the RHW-4 on one side, and an RHW-6S on the other. The C-type networks, while not separable, also support this sort of functionality, and a dedicated starter exists for an "RHW-7C", which uses parts of the RHW-8C and RHW-6C for construction.
-
-There are also multiple elevation levels for the RealHighway override networks as well, and a simple shorthand system of denoting each level. Ground-level networks, by virtue of having no elevation above the terrain, are deemed to be "Level 0", or **L0**. The RealHighway levels increment by 7.5 meters (7.5m) each level. Level 1 (**L1**) is at 7.5 meters, Level 2 (**L2**) at 15 meters, Level 3 (**L3**) at 22.5 meters, and Level 4 (**L4**) at 30 meters. All RealHighway widths have **L1** and **L2** elevation at their disposal, and the MIS Ramp, RHW-4, and RHW-6S all have the ability to reach **L3** and **L4**. Double-decker (DD) setups also exist (presently, only in a configuration with 4 total lanes, the DDRHW-4), and the upper deck of the DDRHW is at **L2**, while the lower deck is at **L1**.
-
-The base draggable network can be found under the RHW-2 button.
-
-{{< menu-icon icon="images/icons/rhw-network-button.jpg" caption="_RHW-2 Network Button_" >}}
-
-The Starter Pieces can be found under the RHW Starters button.
-
-{{< menu-icon icon="images/icons/rhw-starters-button.jpg" caption="_RHW Starters Button_" >}}
 
 ### RealHighway Network Widths
 
@@ -53,9 +58,9 @@ The following networks are included as part of the RealHighway mod.
 {{< table class="table table-striped table-bordered w-auto" >}}
 | Network | Full Name | Tile Width |
 | --- | --- | --- |
+| MIS Ramp | Modular Interchange System Ramp | 1 (One-Way) 2 (Two-Way) |
 | RHW-2 | 2-lane RealHighway | 1 (Two-Way) |
 | RHW-3 | 3-lane RealHighway | 1 (Two-Way) |
-| MIS Ramp | Modular Interchange System Ramp | 1 (One-Way) 2 (Two-Way) |
 | RHW-4 | 4-lane RealHighway | 1 (One-Way) 2 (Two-Way) |
 | RHW-6S | 6-lane Separable RealHighway | 1*(One-Way) 2* (Two-Way) |
 | RHW-8S | 8-lane Separable RealHighway | 2 (One-Way) 4 (Two-Way) |
@@ -65,7 +70,7 @@ The following networks are included as part of the RealHighway mod.
 | RHW-8C | 8-lane Combined RealHighway | 3 (Two-Way) |
 {{< /table >}}
 
-\* Note that the **RHW-6S** and **RHW-12S** networks have partial tile overhang. This means that the shoulder will overlap part of the adjacent tile.  This is much more noticeable on the RHW-6S than on the RHW-12S.
+\* The **RHW-6S** and **RHW-12S** networks have partial tile overhang. The network itself only occupies one tile, but the shoulder will visually overlap part of the adjacent tile.
 
 {{< gallery >}}
     images/base-and-override-networks/misramp.jpg
@@ -82,17 +87,35 @@ The following networks are included as part of the RealHighway mod.
     images/base-and-override-networks/rhw12s.jpg
 {{< /gallery >}}
 
-All widths of the RealHighway have access to **L1** and **L2** elevations, which are produced with separate starters. The **MIS**, **RHW-4**, and **RHW-6S** also have access to **L3** and **L4** elevations (only installed by selecting the appropriate options in the Custom Installation section of the NAM Installer), and as previously mentioned, the RHW-4 also has a double-decker form, the **DDRHW-4** (decks at **L1** and **L2**).
+### RealHighway Network Heights
+There are multiple elevation levels for the RealHighway override networks as well. These heights are in increments of 7.5 meters and have a simple shorthand system of denoting each level:
+* Level 0 (**L0**) networks are ground-level networks and have no elevation above the terrain
+* Level 1 (**L1**) networks are at 7.5 meters
+* Level 2 (**L2**) networks are at 15 meters
+* Level 3 (**L3**) networks are at 22.5 meters
+* Level 4 (**L4**) networks are at 30 meters
+
+All RealHighway widths have **L0**, **L1**, and **L2** elevations at their disposal, each produced with a separate starter.
+**MIS**, **RHW-4**, and **RHW-6S** also have the ability to reach **L3** and **L4** elevations.
+Double-decker (DD) setups also exist (presently, only in a configuration with 4 total lanes, the DDRHW-4). The upper deck of the DDRHW is at **L2**, while the lower deck is at **L1**.
 
 {{< img-simple src="images/rhw-elevations.jpg" >}}
 
 ### Starter Pieces
 
-All of these override networks can either be constructed by first placing a Starter Piece, then dragging the appropriate default network through the starter, at which point the draggable network should convert to match the starter. This process is shown below.
+The base draggable network can be found under the RHW-2 button.
+
+{{< menu-icon icon="images/icons/rhw-network-button.jpg" caption="_RHW-2 Network Button_" >}}
+
+The Starter Pieces can be found under the RHW Starters button.
+
+{{< menu-icon icon="images/icons/rhw-starters-button.jpg" caption="_RHW Starters Button_" >}}
+
+All of the RHW networks can be constructed by first placing a Starter Piece, then dragging the RHW-2 network through the starter, causing the dragged RHW-2 to convert to match the starter. This process is shown below.
 
 {{< img-simple src="images/rhw4-starter-steps.jpg" >}}
 
-In the case of multi-tile override networks, they are still based off default single-tile networks, mainly due to limitations with the game's default dual-tile networks, and lack of triple-tile networks. Simply use the same process for each tile in the starter to complete the network.
+Multi-tile override networks work similarly. Place a Starter Piece, and drag RHW-2 through each tile of the starter piece.
 
 {{< img-simple src="images/rhw6c-starter-steps.jpg" >}}
 
@@ -102,33 +125,35 @@ Additionally, RHW Starter Pieces can be crossed by other RHW networks, allowing 
 
 ### Zone Access Restrictions
 
-The RealHighway family of networks is considered to be Highway-type by the game, and as such, this limits its ability to provide direct access to zones and buildings, as one would expect from a highway. This limitation is especially true of Residential (R) zones, which cannot be built at all along RHW networks, and attempting to have any zone type use RealHighway network frontage for access is not recommended. It is instead recommended that one downgrade to a non-highway network, such as the Road, One-Way Road, or one of the [Network Widening Mod](/docs/features/network-widening-mod/) override networks if zone access is required.
+The RealHighway family of networks is considered to be Highway-type by the game which limits its ability to provide direct access to zones and buildings, as one would expect from a highway.
+This limitation is especially true of Residential zones, which cannot be built at all along RHW networks, and attempting to have any zone type use RealHighway network frontage for access is not recommended.
+Instead, it's recommended to downgrade to a non-highway network, such as the Road, One-Way Road, or one of the [Network Widening Mod](/docs/feature-guides/network-widening-mod/) override networks if zone access is required.
 
 ## Capacities and Speeds
 
-The capacity of each network depends on the [Traffic Plugin](/docs/feature-guides/traffic-sim/) one has installed. Capacity is generally calculated on a per tile basis by the game, as the game cannot read the number of lanes.
-
-All RHW networks are also highway-type networks, meaning that they do not allow full access to RCI Zones. The capacities for the five standard capacity levels of the NAM Traffic Plugin are listed below. Please note that these capacities listed are for the _full width_ of the network, rather than the per-tile capacity.
-
-Note that networks with crossover paths (i.e. the **RHW-6C**, **RHW-8S**, **RHW-8C**, **RHW-10S**, and **RHW-12S**), and those that use a special workaround (the **RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why the **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**.
-
-Note that these figures also apply to all elevated versions of each network width - this means that the **L0** **RHW-4** will have the same capacity as its **L1**, **L2**, **L3**, and **L4** counterparts.
+The capacity of each network depends on the [Traffic Plugin](/docs/feature-guides/the-nam-traffic-simulator) one has installed.
+Capacity is generally calculated on a per tile basis by the game, as the game cannot read the number of lanes.
+The capacities for the five standard capacity levels of the NAM Traffic Plugin are listed below. 
 
 {{< table class="table table-striped table-bordered w-auto" >}}
-| RHW Network Type | Classic | Low | Medium | High | Ultra |
-| --- | :---: | :---: | :---: | :---: | :---: |
-| RHW-2 (single-tile capacity) | 3000 | 6000 | 10000 | 15000 | 30000 |
-| RHW-3 (single-tile capacity) | 3750 | 7500 | 12500 | 18750 | 37500 |
-| MIS Ramps (single-tile capacity) | 3000 | 6000 | 10000 | 15000 | 30000 |
-| RHW-4 (dual-tile capacity) | 6000 | 12000 | 20000 | 30000 | 60000 |
-| DDRHW-4 (single-tile capacity) | 3750 | 7500 | 12500 | 18750 | 37500 |
-| RHW-6S (dual-tile capacity) | 7500 | 15000 | 25000 | 37500 | 75000 |
-| RHW-6C (triple-tile capacity) | 11250 | 22500 | 37500 | 56250 | 112500 |
-| RHW-8S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
-| RHW-8C (triple-tile capacity) | 11250 | 22500 | 37500 | 56250 | 112500 |
-| RHW-10S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
-| RHW-12S (quadruple-tile capacity) | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW Network Type<sup>1,3</sup>                | Classic | Low | Medium | High | Ultra |
+| ---                                           | :---: | :---: | :---: | :---: | :---: |
+| MIS Ramps (single-tile capacity)              | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-2 (single-tile capacity)                  | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-3 (single-tile capacity)<sup>2</sup>      | 3750 | 7500 | 12500 | 18750 | 37500 |
+| RHW-4 (dual-tile capacity)                    | 6000 | 12000 | 20000 | 30000 | 60000 |
+| DDRHW-4 (single-tile capacity)<sup>2</sup>    | 3750 | 7500 | 12500 | 18750 | 37500 |
+| RHW-6S (dual-tile capacity)<sup>2</sup>       | 7500 | 15000 | 25000 | 37500 | 75000 |
+| RHW-6C (triple-tile capacity)<sup>2</sup>     | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-8S (quadruple-tile capacity)<sup>2</sup>  | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-8C (triple-tile capacity)<sup>2</sup>     | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-10S (quadruple-tile capacity)<sup>2</sup> | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-12S (quadruple-tile capacity)<sup>2</sup> | 15000 | 30000 | 50000 | 75000 | 150000 |
 {{< /table >}}
+
+<span class="fs-6">**<sup>1</sup>** The capacities listed are for the _full width_ of the network, rather than the per-tile capacity.</span><br>
+<span class="fs-6">**<sup>2</sup>** Networks with crossover paths (**RHW-6C**, **RHW-8S**, **RHW-8C**, **RHW-10S**, and **RHW-12S**) and networks which use a special workaround (**RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why the **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**. This is a game limitation that currently cannot be overcome.</span><br>
+<span class="fs-6">**<sup>3</sup>** These figures also apply to all elevated versions of each network width - this means that the **L0** **RHW-4** will have the same capacity as its **L1**, **L2**, **L3**, and **L4** counterparts.</span><br>
 
 The catalog speeds for the base RealHighway network are listed below. Note, however, that these catalog speeds are for 100% of catalog capacity, and that speeds on empty networks will exceed these figures by 30%, declining as the networks increase in volume per the Congestion vs. Speed Curve.
 
@@ -136,14 +161,13 @@ The catalog speeds for the base RealHighway network are listed below. Note, howe
 | Vehicle Type | Speed |
 | --- | :---: |
 | Car | 150 |
-| Bus* | 150 |
+| Bus | 150 |
 | Freight Truck | 130 |
-| Pedestrian** | 10 |
+| Pedestrian<sup>1</sup> | 10 |
 {{< /table >}}
 
-\* If one customizes the NAM Traffic Simulator using the Traffic Simulator Configuration Tool (TSCT), and selects the "_Highway Bus Lanes_" option, Bus speed on RealHighways will be boosted to 160.
+<span class="fs-6">**<sup>1</sup>** Pedestrians are only permitted on the L0 RHW-2 network.</span><br>
 
-\*\* Pedestrians are only allowed on the **L0** RHW-2 newtork.
 
 ## Constructing The RealHighway
 
@@ -173,7 +197,7 @@ For the wider RHW networks (the RHW-8S, RHW-10S, RHW-12S, RHW-6C, and RHW-8C), t
 
 The default sharp 90-degree bends are only available with the RHW-2 and MIS Ramp networks (at all height levels), for the sake of realism. The MIS Ramp's version also overrides one "buffer tile" on either side of the bend itself, to produce a smoother result (one should take care not to impose upon these buffer tiles when building, as attempting to cram an intersection where they should go will simply destabilize the MIS Ramp override).
 
-If one desires a smoother transition between orthogonal and diagonal, [Wide-Radius Curves and Multi-Radius Curves](/docs/feature-guides/realhighway-mod/#constructing-diagonals-and-base-curves) provide a solution. [Fractional Angle RealHighways (FARHW)](/docs/feature-guides/realhighway-mod/#fractional-angle-realhighways-farhw) are also available.
+If one desires a smoother transition between orthogonal and diagonal, [Wide-Radius Curves and Multi-Radius Curves](/docs/feature-guides/realhighway-mod/#wide-radius-curves-wrcs-and-multi-radius-curves-mrcs) provide a solution. [Fractional Angle RealHighways (FARHW)](/docs/feature-guides/realhighway-mod/#fractional-angle-realhighways-farhw) are also available.
 
 ### Connecting RealHighways via Intersections, Crossings and Interchanges
 
@@ -187,7 +211,7 @@ For grade-separated crossings, where networks at different height levels--for in
 
 For additional information about what network crossings are supported with the other components of the Network Addon Mod, refer to the [Compatibility With Other Networks](/docs/feature-guides/realhighway-mod/#network-and-flex-piece-capabilities) section of this document.
 
-#### QuickChange Xpress: Full Interchanges in a Click
+#### QuickChange Xpress: Full Interchanges in a Click {#QCX}
 
 With the release of NAM 45 in mid-2022, the RealHighway has support for full ploppable interchanges, known as QuickChange Xpress (QCX). At present, only Diamond Interchanges involving the Road, Avenue, and 6-lane Avenue (AVE-6, from the Network Widening Mod) networks (with appropriate turn lanes applied on the surface networks and the on/offramps) exist. Four different RHW width configurations are supported (RHW-6S/RHW-4 Adjacent, RHW-6S/RHW-4 With Median, RHW-8C/6C, and RHW-10S/8S), and the option to have the RHW go over or under the surface street (in an L0/L1 configuration).
 

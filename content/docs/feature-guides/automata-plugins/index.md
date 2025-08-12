@@ -1,7 +1,7 @@
 ---
 title : "Automata Plugins"
 description: "NAM Automata Plugins"
-lead: 
+lead: Automata are animations of cars, trains, trucks, boats, etc. which travel over transit networks.
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -9,57 +9,54 @@ images: []
 url: "docs/feature-guides/automata-plugins"
 ---
 
-{{< docstatus status="oldcontent" >}}
+## Overview
+SimCity 4 is not an "agent-based" game where each object you see on a road represents one "item" in the simulation. SimCity 4's automata are only a visual approximation of what is happening in the underlying traffic simulation, and maintain only a loose correlation to the actual statistical measures of the simulation. As such, any of the changes made to the Automata settings do not actually change any functional aspects of a network's capacity, speed, or commute attributes. As a representation of statistical data, automata may be prone to bizarre behavior that would defy real-world traffic logic. Due to the nature of how they are programmed, this is not something the NAM Team can address.
 
-*Note:** The Automata Plugins are also referred as Automata Controllers, like other NAM files where only one file can be installed at a time.
+The Automata Plugins are also referred as **Automata Controllers**, in the sense that they control how the automata is shown in-game.
 
-**IT IS IMPORTANT THAT YOU ONLY USE ONE OF THE "...*Automata_Plugin*..." FILES, & ONE ONLY. The NAM Installer should ensure this.**
+## Automata Options
+The Network Addon Mod provides a variety Automata Controllers to choose from, and each of them made from a combination of options which affect automata in a slightly different way. The two base options are:
+* **Standard** - Maintains the default Maxis values for the quantity of automata and speed they visually travel over a network. The only exception is for the [RealHighway](/docs/feature-guides/realhighway-mod) network, which has had its speed increased to give more of an accurate representation of the speed the vehicles traveling at on a highway network.
 
-The information below explains which " *...*Automata_Plugin*...*" files contain what changes. See the notes at the end before using any file.
+* **Radical** - Increases the speed of automata travel and the maximum amount of automata able to be visible at a given time.
 
-The " *...*Automata_Plugin*...*" files have a naming scheme according to the following below:
+There are three additional options which modify the base options for additional customization:
 
-" _...*Standard*" = Default Maxis values, except: It has been slightly modified to take into account the RealHighway network's speed. It has been changed to give more of an accurate representation of the speed the vehicles are travelling at on the RealHighway network, compared to the other networks. Nothing else in this file is changed.
+* **24-hour** - Varies the volume of automata present depending on the time of day. This option creates a low volume of traffic at night, a high volume of traffic during the morning and evening rush hours, and a medium volume of traffic in the middle of the day.
 
-" *...*Automata24*...*" = Automata, of most kinds, is displayed for most of the 24-Hour Sim day.
+* **Persistent** - Automata is visible for a longer period of time before it disappears.
 
-" *...*Radical*...*" = The following changes [increases/decreases]:
+* **LB** - Increases the duration of the traffic signal cycles and increases the appearance of pedestrians, but otherwise functions like the 24-hour radical persistent variant. This option is not available for NAM Lite.
 
-* Vehicle Lifespan Range: Min:50, Max:380
-* Ped Lifespan Range: Min:128, Max:255
-* Sim Prop Anim range: Min:25, Max:150
-* Max Peds per second [per tile]:100
-* Max Vehicles per second [per tile]:250
-* Max Peds [at any one time]:2500
-* Max Vehicles [at any one time]:5000
-* Max Aircraft [at any one time]:35
-* Max Watercraft [at any one time]:100
-* Sims per Train Car:100
-* Sims per Bus:80
-* Commute Train Length: Min:5, Max:15
-* Freight Train Length: Min:9, Max:25
-* Maximum level of Freight Trucks Cut-off [Industrial City Jobs]:500,000
-* Curve speed multiplier:0.7 [of normal speed]
-* Population Occupant Trip Radius [in tiles]:10
-* Moving Van Frequency [new residence]:2
-* Hill/Slope speed multiplier [% of normal speed when going up/down a hill]: 0.20
-* Simulation Speed multiplier-For Cheetah Speed only [this only applies if you use "Variable Speed Automata" in the Games Options]:8
+The three additional options may be combined with one base option to produce your desired configuration. As an example, *"Standard"*, and *"Standard 24-Hour"*, and *"Standard Persistent 24-Hour"* are all valid configurations.
 
-Spawn/Recall for:
+### Standard vs Radical Option Details
+The following parameters have been tweaked with the **Radical** option compared to the Maxis default **Standard** option. For more information on the details of each property, refer to the [Automata Tuning Exemplars list](https://wiki.sc4devotion.com/index.php?title=Exemplar_properties#Automata_Tuning_Exemplar) in the SC4D Wiki.
 
-* Streets: 40%/30%,10%/40%
-* Roads: 50%/30%,10%/40%
-* Avenues: 60%/30%,10%/40%
-* Highways: 85%/60%,10%/30%
-
---Add Information about Persistent options here--
-
-**Note:** Spawn/Recall is the percent chance/capacity at which more automata are added/removed for/from a tile. First set of numbers represents the percent chance at the specified capacity at which automata will be added; the second set is the percent chance at the specified capacity at which automata will be removed.
+| Property                        | Standard     | Radical      |
+|---------------------------------|--------------|--------------|
+| Sims Per Train Car              | 40           | 100          |
+| Curve Speed Multiplier          | 0.5          | 0.7          |
+| Max Vehicles Per Second         | 10           | 250          |
+| Max Vehicles                    | 250          | 5000         |
+| Vehicle Lifespan Range          | 10, 20       | 50, 124      |
+| Max Peds Per Second             | 4            | 100          |
+| Max Peds                        | 512          | 2500         |
+| Max Aircraft                    | 20           | 35           |
+| Ped Lifespan Range              | 2, 4         | 128, 0       |
+| Max Watercraft                  | 20           | 100          |
+| Occupant Trip Population Radius | 3            | 10           |
+| Sim Prop Animation Range        | 3, 10        | 25, 150      |
+| Simulation Speed Multiplier     | 1, 2, 4, 0.5 | 1, 2, 8, 0.5 |
+| Commute Train Length            | 3, 8         | 5, 15        |
+| Travelers Per Bus               | 50           | 80           |
+| Moving Van Frequency            | 1            | 2            |
+| Grade Speed Multiplier          | 0.3          | 0.2          |
+| Freight Train Length            | 9, 15        | 9, 25        |
+| Spawn/Recall: Streets           | 40%/30%, 40%/30% | 40%/30%, 10%/40% |
+| Spawn/Recall: Roads             | 40%/30%, 40%/30% | 50%/30%, 10%/40% |
+| Spawn/Recall: Avenues           | 40%/30%, 40%/30% | 60%/30%, 10%/40% |
+| Spawn/Recall: Highway           | 40%/30%, 40%/30% | 85%/60%, 10%/30% |
 
 ### Additional Notes
-
-The file names explain what files contain what changes & are all based on the " _...*Standard*" file above. If a file name contains two [or more] of the above names, then that means it contains those changes as detailed above.
-
-You do not actually need/have to use any of the " *...*Automata_Plugin*...*" file if you do not want to. It is not really imperative to the Network Addon Mod that a " *...*Automata_Plugin*...*" file is used. If you choose not to use one of the " *...*Automata_Plugin*...*" files though, then the Automata on the RealHighway network will not be represented fairly/accurately as intended.
-
-**Automata:** Automata are basically animations; a "visual" representation. So while they represent the underlying Traffic happening [to some degree only really], they are only animations, and as such any of the changes made above do not actually change any functional aspects of networks capacities/speeds/commutes. Automata, being generated as a representation of statistical data, also may be prone to bizarre behavior that would defy real-world traffic logic. Due to the nature of how they are programmed, this is not something the NAM Team can address.
+An automata controller is not technically a required component of the Network Addon Mod, as if one is not present, the Maxis default values will be used. However, if do not use any automata controller, then the Automata on the RealHighway network will not be represented accurately as intended. If you do use an automata controller, **only one controller may be installed at a time**.
