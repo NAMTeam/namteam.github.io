@@ -9,40 +9,6 @@ images: []
 url: "docs/feature-guides/network-addon-mod-utilities"
 ---
 
-## Network Eraser
-
-The Network Eraser is a special tool, which allows one to erase a single cell/tile (1x1) of any network or FLEX Piece. As it does not affect the surrounding sections of network, the Network Eraser is safer to use and less destructive when one needs to remove or rebuild a section of network than the game's Bulldozer tool, especially when complex setups are involved. It can be found near the top of the Roads, Highways, Rails, and Misc. Transit menus.
-
-To use the Network Eraser, simply select it from the menu, hover it over the stretch of network you wish to erase, and then click it to erase.
-
-{{< gallery col-xl="2" col-lg="1" col-md="1">}}
-    images/network-eraser-1.jpg
-    images/network-eraser-2.jpg
-    images/network-eraser-3.jpg
-{{< /gallery >}}
-
-The Network Eraser can work on any draggable intersection combination between two different networks:
-
-{{< gallery col-xl="2" col-lg="1" col-md="1">}}
-    images/network-eraser-4.jpg
-    images/network-eraser-5.jpg
-{{< /gallery >}}
-
-It can also work on FLEX Pieces, such as this RealHighway (RHW) FLEXRamp:
-
-{{< gallery col-xl="2" col-lg="1" col-md="1">}}
-    images/network-eraser-6.jpg
-    images/network-eraser-7.jpg
-{{< /gallery >}}
-
-It does not, however, work on old-style puzzle pieces or Maxis Highway interchanges (notice how attempting to hover over the interchange puts the Network Eraser one tile to the side):
-
-{{< gallery col-xl="1" col-lg="1" col-md="1">}}
-    images/network-eraser-8.jpg
-{{< /gallery >}}
-
-Note also that some very specialized draggable network items, such as the RealHighway Inside Ramps, utilize the Eraser as part of the process of building the appropriate network pattern.
-
 ## Hole Diggers and Raisers
 
 The Hole Diggers and Raisers in the NAM allow one to raise or lower a single cell/tile (1x1) of terrain to a precise elevation level, allowing for finer control of terraforming. This can be particularly useful when dealing with elevated networks (and especially with On-Slope Transitions), and building tunnels and bridgges. Like the Network Eraser, the Hole Diggers and Raisers are available under the Roads, Highways, Rails, and Misc. Transit menus:
