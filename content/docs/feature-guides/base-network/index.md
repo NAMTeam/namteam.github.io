@@ -1,10 +1,10 @@
 ---
 title : "Base Network Additions"
 url: "/docs/feature-guides/base-network"
-description: "This file is a general outline to the contents that the Network Addon Mod has, and is intended for anyone and everyone to read."
-lead: "This file is a general outline to the contents that the Network Addon Mod has, and is intended for anyone and everyone to read. "
+description: "The NAM includes many additions and feature expansions to the game's default networks which are described here."
+lead: "The NAM includes many additions and feature expansions to the game's default networks which are described here."
 date: 2022-09-06T10:09:26+00:00
-lastmod: 2022-09-06T10:09:26+00:00
+lastmod: 
 draft: false
 images: []
 url: "docs/feature-guides/base-network-additions"
@@ -16,63 +16,7 @@ Some additional features, such as the RealHighways (RHW), Network Widening Mod (
 
 ### Additional Overpasses
 
-Fully functional Overpasses. The following additional Overpasses are now included with this mod.
-
-**Note:** Unless specifically mentioned otherwise, all of these Overpasses only exist for the game when following the game's square grid, & not against it.
-
-#### **Road Overpasses**
-
-Menu button contains the following overpasses:
-
-* Road over Road
-* Road over Rail
-* Road over Street
-* Road over OneWayRoad
-* Road over Avenue
-
-#### **OneWayRoad Overpasses**
-
-Menu button contains the following overpasses:
-
-**Note:** OneWayRoad Overpasses now contain Directional Arrows & should be placed accordingly
-
-* OneWayRoad over OneWayRoad
-* OneWayRoad over Rail
-* OneWayRoad over Street
-* OneWayRoad over Road
-* OneWayRoad over Avenue
-* OneWayRoad over Ground Highway [this is without ramps]
-
-#### **Avenue Overpasses**
-
-Menu button contains the following overpasses:
-
-* Avenue over Avenue
-* Avenue over Rail
-* Avenue over Street
-* Avenue over Road
-* Avenue over OneWayRoad
-
-**Other additional overpasses**
-
-[Currently, there is no Menu Button for these. If the conditions are right, the game will build these ones automatically when using the applicable network tools to draw them]
-
-* Elevated Rail over Elevated Highway
-* Elevated Rail over Monorail
-* Monorail over Elevated Highway
-* Ground Rail over Ground Highway
-* Orthogonal Elevated Highway (Raised) over Diagonal Elevated Highway (Flat)
-* Orthogonal Ground Highway (Raised) over Diagonal Ground Highway (Flat)
-
-More overpasses may [or may not] be added with future updates.
-
-To build these Overpasses etc, either select them from the Menu or just simply drag one network type over the other. If you don't see a particular Overpass in the Menu, then use the Network tools to create them. For Example: build a stretch of Monorail track; then using the Elevated Rail Network tool, drag a long-enough stretch of Elevated Rail over the Monorail Network [like: '+'] and the Elevated Rail over Monorail overpass will build automatically if the conditions are right.
-
-With some of the Overpasses, especially where OneWayRoads are involved, it may be a little difficult sometimes to actually be able to build the overpass. So some patience, trial & error may be needed.
-
-Each of the different **Menu Buttons** for these overpasses works by using the HOME/END and TAB key(s) on your keyboard. HOME/END rotates the overpasses on the cursor [where possible], and TAB (&/or SHIFT+TAB) cycles through the different overpasses that belongs to that menu button. When you TAB from one overpass to another, the type of overpass is displayed in the TEXT on the cursor itself [where possible].
-
-**Overpasses come under the same scope as being Interchange-base Related Item(s).**
+Many fully functional overpasses are included to allow Road, One-Way Road, and Avenues to cross over a variety of networks at different heights. Refer to the [Road Viaducts Feature Guide](/docs/feature-guides/road-viaducts) for instructions on how to use and construct them. Detailed compatibility tables are maintained in the [Road Viaducts Technical Data](/docs/tech-specs/road-viaducts) page.
 
 ### Additional Interchanges
 
