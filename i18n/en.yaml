@@ -47,7 +47,7 @@
   translation: "DEPRECATED"
 
 - id: deprecated-tooltip
-  translation: "This item is kept for compatibility purposes only. No further development will occur on this item."
+  translation: "This item is kept for compatibility purposes only. No further development will occur."
 
 # Legacy shortcode translation
 - id: legacy-label

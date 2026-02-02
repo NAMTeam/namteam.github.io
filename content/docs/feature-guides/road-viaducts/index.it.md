@@ -22,8 +22,6 @@ For information on the Rail equivalent, see the [RealRailway Feature Guide](/doc
 
 ## Installing the Elevated Road Viaducts
 
-{{< img-simple src="images/roadviaducts-installer.jpg" >}}
-
 By default, all the boxes for the Elevated Road Viaducts are checked. The main **Elevated Viaducts** box installs the Draggable Elevated Road Viaducts. The **Legacy Road Viaduct Puzzle Piece Menu Access** box allows one to install the menu buttons to access the puzzle piece form of the Elevated Road Viaducts--note that unchecking this box will not cause existing puzzle-based Road Viaducts in one's cities to disappear; it simply removes the menu buttons, leaving less to navigate on the Roads menu. Finally, the **Viaduct Additions** box installs the Alternate Viaduct Additions, some aesthetic alternate styles of Road (and Street) Viaducts, with very limited OxO-only overcrossing capabilities.
 
 ## FLEX Overpass Functionality

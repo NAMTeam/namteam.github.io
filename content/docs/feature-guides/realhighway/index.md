@@ -171,22 +171,6 @@ The catalog speeds for the base RealHighway network are listed below. Note, howe
 
 ## Constructing The RealHighway
 
-### The Network Eraser: A RealHighway-Safe Bulldozer
-
-The base RealHighway network has auto-connect functionality, similar to the way the Street network operates. This can make the network behave erratically when using the Bulldozer tool, and may result in more destruction than one intended, particularly when dealing with complicated interchanges constructed entirely from RealHighway components.
-
-{{< override from="images/rhw-bulldozer-before.jpg" to="images/rhw-bulldozer-after.jpg">}}
-
-To combat this issue, the NAM includes an alternative demolition tool, the Network Eraser (previously known as the _RHW Disconnector_).  The Network Eraser can be found near the top of the Highways menu, as well as the the Roads, Rails, and Miscellaneous Transportation menus.
-
-{{< menu-icon icon="images/icons/rhw-network-eraser-button" caption="_Network Eraser Button_" >}}
-
-Plopping the Network Eraser over a single tile of RealHighway, including starter pieces, FLEX pieces, and intersections (but not puzzle pieces) will demolish only the tile directly under the cursor.
-
-{{< override from="images/rhw-eraser-before.jpg" to="images/rhw-eraser-after.jpg">}}
-
-The Network Eraser is also used as part of some Pattern-Based Draggable setups used by the RealHighway plugin, particularly the [Draggable Ramp Interfaces (DRIs)](#draggable-ramp-interfaces). Additionally, it can be used in many situations with non-RHW networks as well.
-
 ### Constructing Diagonals and Base Curves
 
 With the networks that are single-tile (RHW-2, RHW-3), or have self-contained single-tile halves (MIS, RHW-4, RHW-6S), one can simply drag the network out as would be normally expected in order to produce the curves to go diagonal with the network. Aside from the **L0** RHW-2, however, the shared-tile "double diagonal" setup cannot be built, and pairs of MIS, RHW-4, and/or RHW-6S carriageways must be separated, out into a split-tile setup.
@@ -374,7 +358,7 @@ Below is a list of the default networks for each FLEXRamp:
 
 With the wider RHW networks (provided they are supported by the particular FLEXRamp type--see the piece description in game), for most situations, simply align the ramp interface with the shoulder tile for standard ramps, and with the median tile for the inside ramps. If trying to build an RHW-8S Type D2 or E2 setup, however, one should instead align it with the median tile. (Note also that the elevated versions of the RHW-6S do not support Type A1 setups, and the elevated versions of the RHW-8S do not support Type A1 setups, due to the overhang on the RHW-6S network.)
 
-##### Building Draggable Ramp Interfaces (DRIs)
+##### Building Draggable Ramp Interfaces (DRIs) {#dri}
 
 Draggable Ramp Interfaces, or DRIs, are ramp interfaces that are constructed as Pattern-Based Draggables, using the RealHighway network. With the exception of a very few specialized setups, virtually every RHW ramp interface setup can be built through draggable means, and at present, there are some ramps that are only possible as DRIs. Each ramp interface type supported by the system has a special drag pattern, which, when constructed, will subsequently convert into the appropriate on/offramp.
 
