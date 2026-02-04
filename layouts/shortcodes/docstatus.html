@@ -1,21 +1,21 @@
 {{ $status := .Get "status" -}}
 
 {{ if eq $status "outdated" -}}
-<div class="alert border border-danger border-5 d-flex" role="alert">
+<div class="alert border border-danger border-4 alert-danger rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">{{ i18n "docstatus-outdated-title" }}</span><br/>
+    <span class="h4">{{ i18n "docstatus-outdated-title" }}</span><br/>
     <span class="fs-6">{{ i18n "docstatus-outdated-text-1" }} <strong>{{ .Get "version" | default (i18n "docstatus-outdated-default-version") }}</strong>. {{ i18n "docstatus-outdated-text-2" }}</span>
   </div>
 </div>
 {{ else if eq $status "oldcontent" -}}
-<div class="alert border border-warning border-5 d-flex" role="alert">
+<div class="alert border border-warning border-4 alert-warning rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">{{ i18n "docstatus-oldcontent-title" }}</span><br/>
+    <span class="h4">{{ i18n "docstatus-oldcontent-title" }}</span><br/>
     <span class="fs-6">{{ i18n "docstatus-oldcontent-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "compatibility" -}}
-<div class="alert border border-info border-5 d-flex mb-4" role="alert">
+<div class="alert border border-info border-4 alert-info rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold text-info">{{ i18n "docstatus-compatibility-title" }}</span><br/>
     <p class="fs-6 text-info">{{ i18n "docstatus-compatibility-text" }}</p>
@@ -23,42 +23,42 @@
   </div>
 </div>
 {{ else if eq $status "workinprogress" -}}
-<div class="alert border border-warning border-5 d-flex" role="alert">
+<div class="alert border border-warning border-4 alert-warning rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">{{ i18n "docstatus-workinprogress-title" }}</span><br/>
     <span class="fs-6">{{ i18n "docstatus-workinprogress-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "legacy" -}}
-<div class="alert border border-success border-5 d-flex" role="alert">
+<div class="alert border border-success border-4 alert-success rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">{{ i18n "docstatus-legacy-title" }}</span><br/>
     <span class="fs-6">{{ i18n "docstatus-legacy-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "obsolete" -}}
-<div class="alert border border-danger border-5 d-flex" role="alert">
+<div class="alert border border-danger border-4 alert-danger rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">{{ i18n "docstatus-obsolete-title" }}</span><br/>
     <span class="fs-6">{{ i18n "docstatus-obsolete-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "secthreat" -}}
-<div class="alert border border-warning border-5 d-flex" role="alert">
+<div class="alert border border-warning border-4 alert-warning rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">Urgent Security Alert</span><br/>
     <span class="fs-6">The NAM Version 48 download on ModDB was compromised by a cyberattack, which also affected the version available on Simtropolis.<br/> See <a href="https://community.simtropolis.com/forums/topic/763470-important-update-regarding-network-addon-mod-48-on-moddb-potential-security-issue/">here</a> for further details and support.</span>
   </div>
 </div>
 {{ else if eq $status "untranslated" -}}
-<div class="alert border border-success border-5 d-flex" role="alert">
+<div class="alert border border-success border-4 alert-success rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">{{ i18n "docstatus-untranslated-title" }}</span><br/>
     <span class="fs-6">{{ i18n "docstatus-untranslated-text" }}</span>
   </div>
 </div>
 {{ else }}
-<div class="alert border border-warning border-5 d-flex" role="alert">
+<div class="alert border border-warning border-4 alert-warning rounded-4 d-flex" role="alert">
   <div class="w-100 text-center">
     <span class="h4 fw-bold">{{ i18n "docstatus-notwritten-title" }}</span>
   </div>
