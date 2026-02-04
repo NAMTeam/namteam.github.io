@@ -8,11 +8,13 @@ if (mode !== null) {
 
       localStorage.setItem('theme', 'dark');
       document.documentElement.setAttribute('data-dark-mode', '');
+      document.documentElement.setAttribute('data-bs-theme', 'dark');
 
     } else {
 
       localStorage.setItem('theme', 'light');
       document.documentElement.removeAttribute('data-dark-mode');
+      document.documentElement.setAttribute('data-bs-theme', 'light');
 
     }
 
@@ -22,6 +24,7 @@ if (mode !== null) {
 
     document.documentElement.toggleAttribute('data-dark-mode');
     localStorage.setItem('theme', document.documentElement.hasAttribute('data-dark-mode') ? 'dark' : 'light');
+    document.documentElement.hasAttribute('data-dark-mode') ? document.documentElement.setAttribute('data-bs-theme', 'dark') : document.documentElement.setAttribute('data-bs-theme', 'light');
 
   });
 
