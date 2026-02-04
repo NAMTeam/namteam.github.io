@@ -89,3 +89,28 @@
 - id: compat-table-na-desc
   translation: "This feature is not applicable."
 
+
+# Intersection abbreviation translations
+- id: oxo-key
+  translation: "OxO"
+
+- id: oxo-desc
+  translation: "Stands for 'Orthogonal x Orthogonal', and refers to a situation where both networks are orthogonal (in a straight line) along the game's grid, intersecting perpendicularly (at a 90° angle)"
+
+- id: oxd-key
+  translation: "OxD"
+
+- id: oxd-desc
+  translation: "Stands for 'Orthogonal x Diagonal', and refers to a situation where the base network is orthogonal (in a straight line) along the game's grid, and the cross network is diagonal (running at a 45° angle)."
+
+- id: dxo-key
+  translation: "DxO"
+
+- id: dxo-desc
+  translation: "Stands for 'Diagonal x Orthogonal', and refers to a situation where the base network is diagonal (running at a 45° angle), and the cross network is orthogonal (in a straight line) along the game's grid."
+
+- id: dxd-key
+  translation: "DxD"
+
+- id: dxd-desc
+  translation: "Stands for 'Diagonal x Diagonal', and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at a 90° angle)."
