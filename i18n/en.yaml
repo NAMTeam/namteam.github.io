@@ -61,6 +61,62 @@
   translation: "Open image in new tab"
 
 
+# Docstatus shortcode translations
+- id: docstatus-outdated-title
+  translation: "The documentation on this page is out of date."
+
+- id: docstatus-outdated-text-1
+  translation: "This documentation was last updated with"
+
+- id: docstatus-outdated-default-version
+  translation: "an old version of the NAM"
+
+- id: docstatus-outdated-text-2
+  translation: "It is in the process of being rewritten."
+
+- id: docstatus-oldcontent-title
+  translation: "The documentation on this page may be out of date."
+
+- id: docstatus-oldcontent-text
+  translation: "The contents of this document may reference older, obsolete NAM content. However, it can still be used as a reference guide."
+
+- id: docstatus-compatibility-title
+  translation: "Compatibility Notice - EA App and Origin Copies of SimCity 4 Deluxe NOW COMPATIBLE with the Network Addon Mod"
+
+- id: docstatus-compatibility-text
+  translation: "Digital copies of SimCity 4 Deluxe purchased via EA.com, the EA App, or the Origin Store have been patched to Version 1.1.641 as of 1 June 2023, and are now fully compatible with the Network Addon Mod. The same is true if playing the game via an EA Play or Xbox Game Pass subscription."
+
+- id: docstatus-compatibility-button-text
+  translation: "Read more"
+
+- id: docstatus-workinprogress-title
+  translation: "The documentation on this page is in progress."
+
+- id: docstatus-workinprogress-text
+  translation: "The contents of this document are undergoing revision and are subject to change."
+
+- id: docstatus-legacy-title
+  translation: "This documentation covers legacy content."
+
+- id: docstatus-legacy-text
+  translation: "This component of the Network Addon Mod has not been updated in some time. Active development is likely to resume in the future."
+
+- id: docstatus-obsolete-title
+  translation: "Obsolete Content"
+
+- id: docstatus-obsolete-text
+  translation: "This component of the Network Addon Mod has been superseded by more modern content and therefore no further development will be completed. This component is kept for compatibility purposes only."
+
+- id: docstatus-untranslated-title
+  translation: "Untranslated Content"
+
+- id: docstatus-untranslated-text
+  translation: "This documentation has not yet been translated into your language."
+
+- id: docstatus-notwritten-title
+  translation: "The documentation on this page has not yet been written."
+
+
 # Compatibility table shortcode translation
 - id: compat-table-yes-key
   translation: "Yes"

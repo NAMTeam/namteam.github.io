@@ -61,6 +61,61 @@
   translation: "Aprire l'immagine in una nuova scheda"
 
 
+# Docstatus shortcode translations
+- id: docstatus-outdated-title
+  translation: "La documentazione di questa pagina non è aggiornata."
+
+- id: docstatus-outdated-text-1
+  translation: "Questa documentazione è stata aggiornata l'ultima volta con"
+
+- id: docstatus-outdated-default-version
+  translation: "una vecchia versione del NAM"
+
+- id: docstatus-outdated-text-2
+  translation: "È in fase di riscrittura."
+
+- id: docstatus-oldcontent-title
+  translation: "La documentazione di questa pagina potrebbe non essere obsoleta."
+
+- id: docstatus-oldcontent-text
+  translation: "Il contenuto di questo documento può fare riferimento a contenuti NAM più vecchi e obsoleti. Tuttavia, può ancora essere utilizzato come guida di riferimento."
+
+- id: docstatus-compatibility-title
+  translation: "Avviso di compatibilità - Copie EA App e Origin di SimCity 4 Deluxe ORA COMPATIBILI con il Network Addon Mod"
+
+- id: docstatus-compatibility-text
+  translation: "Le copie digitali di SimCity 4 Deluxe acquistate tramite EA.com, l'App EA o l'Origin Store presentano un eseguibile non patchato che è inferiore ai requisiti minimi per questa mod. Lo stesso vale se si gioca con un abbonamento EA Play o Xbox Game Pass."
+
+- id: docstatus-compatibility-button-text
+  translation: "Per saperne di più"
+
+- id: docstatus-workinprogress-title
+  translation: "La documentazione di questa pagina è in corso di elaborazione."
+
+- id: docstatus-workinprogress-text
+  translation: "I contenuti di questo documento sono in fase di revisione e sono soggetti a modifiche."
+
+- id: docstatus-legacy-title
+  translation: "Questa documentazione copre contenuti legacy."
+
+- id: docstatus-legacy-text
+  translation: "Questo componente del Network Addon Mod non viene aggiornato da tempo. È probabile che lo sviluppo attivo riprenda in futuro."
+
+- id: docstatus-obsolete-title
+  translation: "Contenuto obsoleto"
+
+- id: docstatus-obsolete-text
+  translation: "Questo componente del Network Addon Mod è stato sostituito da contenuti più moderni e pertanto non sarà più sviluppato. Questo componente viene mantenuto solo per motivi di compatibilità."
+
+- id: docstatus-untranslated-title
+  translation: "Contenuto non tradotto."
+
+- id: docstatus-untranslated-text
+  translation: "Questa documentazione non è ancora stata tradotta nella vostra lingua."
+
+- id: docstatus-notwritten-title
+  translation: "La documentazione di questa pagina non è ancora stata scritta."
+
 # Compatibility table shortcode translation
 - id: compat-table-yes-key
   translation: "SI"

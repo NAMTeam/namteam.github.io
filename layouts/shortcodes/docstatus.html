@@ -1,47 +1,46 @@
 {{ $status := .Get "status" -}}
 
-{{ if eq $.Site.Language.Lang "en" -}}
 {{ if eq $status "outdated" -}}
 <div class="alert border border-danger border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">The documentation on this page is out of date.</span><br/>
-    <span class="fs-6">This documentation was last updated with <strong>{{ .Get "version" | default "an old version of the NAM" }}</strong>. It is in the process of being rewritten.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-outdated-title" }}</span><br/>
+    <span class="fs-6">{{ i18n "docstatus-outdated-text-1" }} <strong>{{ .Get "version" | default (i18n "docstatus-outdated-default-version") }}</strong>. {{ i18n "docstatus-outdated-text-2" }}</span>
   </div>
 </div>
 {{ else if eq $status "oldcontent" -}}
 <div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">The documentation on this page may be out of date.</span><br/>
-    <span class="fs-6">The contents of this document may reference older, obsolete NAM content.<br/> It, however, can still be used as a reference guide.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-oldcontent-title" }}</span><br/>
+    <span class="fs-6">{{ i18n "docstatus-oldcontent-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "compatibility" -}}
 <div class="alert border border-info border-5 d-flex mb-4" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold text-info">Compatibility Notice - EA App and Origin Copies of SimCity 4 Deluxe NOW COMPATIBLE with the Network Addon Mod</span><br/>
-    <p class="fs-6 text-info">Digital copies of SimCity 4 Deluxe purchased via EA.com, the EA App, or the Origin Store have been patched to Version 1.1.641 as of 1 June 2023, and are now fully compatible with the Network Addon Mod. The same is true if playing the game via an EA Play or Xbox Game Pass subscription. </p>
-    <a href="/docs/reference/read-first/#origin-ea-play-xbox-gamepass" role="button" class="btn btn-info btn-lg text-decoration-none">Read more</a>
+    <span class="h4 fw-bold text-info">{{ i18n "docstatus-compatibility-title" }}</span><br/>
+    <p class="fs-6 text-info">{{ i18n "docstatus-compatibility-text" }}</p>
+    <a href="/docs/reference/read-first/#origin-ea-play-xbox-gamepass" role="button" class="btn btn-info btn-lg text-decoration-none">{{ i18n "docstatus-compatibility-button-text" }}</a>
   </div>
 </div>
 {{ else if eq $status "workinprogress" -}}
 <div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">The documentation on this page is in progress.</span><br/>
-    <span class="fs-6">The contents of this document are undergoing revision and are subject to change.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-workinprogress-title" }}</span><br/>
+    <span class="fs-6">{{ i18n "docstatus-workinprogress-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "legacy" -}}
 <div class="alert border border-success border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">Legacy Content</span><br/>
-    <span class="fs-6">This component of the Network Addon Mod has not been updated in some time. Active development is likely to resume in the future.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-legacy-title" }}</span><br/>
+    <span class="fs-6">{{ i18n "docstatus-legacy-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "obsolete" -}}
 <div class="alert border border-danger border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">Obsolete Content</span><br/>
-    <span class="fs-6">This component of the Network Addon Mod has been superseded by more modern content and therefore no further development will be completed. This component is kept for compatibility purposes only.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-obsolete-title" }}</span><br/>
+    <span class="fs-6">{{ i18n "docstatus-obsolete-text" }}</span>
   </div>
 </div>
 {{ else if eq $status "secthreat" -}}
@@ -51,78 +50,17 @@
     <span class="fs-6">The NAM Version 48 download on ModDB was compromised by a cyberattack, which also affected the version available on Simtropolis.<br/> See <a href="https://community.simtropolis.com/forums/topic/763470-important-update-regarding-network-addon-mod-48-on-moddb-potential-security-issue/">here</a> for further details and support.</span>
   </div>
 </div>
-{{ else }}
-<div class="alert border border-warning border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">The documentation on this page has not yet been written.</span>
-  </div>
-</div>
-{{ end -}}
-{{ end -}}
-
-{{ if eq $.Site.Language.Lang "it" -}}
-{{ if eq $status "outdated" -}}
-<div class="alert text-danger border border-danger border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">La documentazione di questa pagina non è aggiornata.</span><br/>
-    <span class="fs-6">Questa documentazione è stata aggiornata l'ultima volta con <strong>{{ .Get "version" | default "una vecchia versione del NAM" }}</strong>. È in fase di riscrittura.</span>
-  </div>
-</div>
-{{ else if eq $status "oldcontent" -}}
-<div class="alert border border-warning border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">La documentazione presente in questa pagina potrebbe essere obsoleta.</span><br/>
-    <span class="fs-6">Il contenuto di questo documento può fare riferimento a contenuti NAM più vecchi e obsoleti.<br/> Tuttavia, può ancora essere utilizzato come guida di riferimento.</span>
-  </div>
-</div>
-{{ else if eq $status "compatibility" -}}
-<div class="alert border border-info border-5 d-flex mb-4" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold text-info">Avviso di compatibilità - Copie EA App e Origin di SimCity 4 Deluxe</span><br/>
-    <p class="fs-6 text-info">Le copie digitali di SimCity 4 Deluxe acquistate tramite EA.com, l'App EA o l'Origin Store presentano un eseguibile non patchato che è inferiore ai requisiti minimi per questa mod. Lo stesso vale se si gioca con un abbonamento EA Play o Xbox Game Pass. </p>
-    <a href="/it/docs/reference/read-first/#origin-ea-play-xbox-gamepass" role="button" class="btn btn-info btn-lg text-decoration-none">Per saperne di più</a>
-  </div>
-</div>
-{{ else if eq $status "workinprogress" -}}
-<div class="alert border border-warning border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">La documentazione di questa pagina è in corso di elaborazione.</span><br/>
-    <span class="fs-6">I contenuti di questo documento sono in fase di revisione e sono soggetti a modifiche.</span>
-  </div>
-</div>
-{{ else if eq $status "legacy" -}}
-<div class="alert border border-success border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">Contenuto legacy</span><br/>
-    <span class="fs-6">Questo componente del Network Addon Mod non viene aggiornato da tempo. È probabile che lo sviluppo attivo riprenda in futuro.</span>
-  </div>
-</div>
-{{ else if eq $status "obsolete" -}}
-<div class="alert border border-danger border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">Contenuto obsoleto</span><br/>
-    <span class="fs-6">Questo componente del Network Addon Mod è stato sostituito da contenuti più moderni e pertanto non sarà più sviluppato. Questo componente viene mantenuto solo per motivi di compatibilità.</span>
-  </div>
-</div>
-{{ else if eq $status "secthreat" -}}
-<div class="alert border border-danger border-5 d-flex" role="alert">
-  <div class="w-100 text-center">
-    <span class="h4 fw-bold">Avviso di sicurezza urgente</span><br/>
-    <span class="fs-6">Il download della versione 48 di NAM su ModDB è stato compromesso da un attacco informatico, che ha colpito anche la versione disponibile su Simtropolis.<br/> Per ulteriori dettagli e supporto, <a href="https://community.simtropolis.com/forums/topic/763470-important-update-regarding-network-addon-mod-48-on-moddb-potential-security-issue/">vedere qui</a>.</span>
-  </div>
-</div>
 {{ else if eq $status "untranslated" -}}
 <div class="alert border border-success border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">Contenuto non tradotto</span><br/>
-    <span class="fs-6">Questa documentazione non è ancora stata tradotta nella vostra lingua.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-untranslated-title" }}</span><br/>
+    <span class="fs-6">{{ i18n "docstatus-untranslated-text" }}</span>
   </div>
 </div>
 {{ else }}
 <div class="alert border border-warning border-5 d-flex" role="alert">
   <div class="w-100 text-center">
-    <span class="h4 fw-bold">La documentazione di questa pagina non è ancora stata scritta.</span>
+    <span class="h4 fw-bold">{{ i18n "docstatus-notwritten-title" }}</span>
   </div>
 </div>
-{{ end -}}
 {{ end -}}
