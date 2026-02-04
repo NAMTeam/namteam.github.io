@@ -13,28 +13,9 @@ url: "docs/tech-specs/network-widening-mod"
 
 {{< docstatus status="workinprogress" >}}
 
-## Network and FLEX Piece Capabilities
+## Key
 
-### Key
-
-<table class="table-bordered nam-compat-status processed">
-<tr>
-    <td data-compat="yes"> Yes </td>
-    <td>This particular feature can be constructed, with minimal (if any) limitations.</td>
-</tr>
-<tr>
-    <td data-compat="partial"> Partial Support </td>
-    <td>This particular feature can be constructed, but not in all instances. Details will be given as to what is/is not possible. Partial support may be for intentional design reasons (such as realism or general unfeasibility), or simply because the feature has not been fully developed.</td>
-</tr>
-<tr>
-    <td data-compat="limited"> Limited Support </td>
-    <td>This particular feature can be constructed, but only in extremely limited circumstances. Instances that are possible may be listed, insofar as it is possible. Use at your own risk.</td>
-</tr>
-<tr>
-    <td data-compat="no"> No Support </td>
-    <td>This particular feature cannot be constructed. This restriction could be for intentional design reasons (such as realism, general unfeasibility, or game limitations), or simply because it has not yet been developed.</td>
-</tr>
-</table>
+{{< compatibility-key >}}
 
 ### Additional Notes
 
@@ -42,13 +23,7 @@ url: "docs/tech-specs/network-widening-mod"
 
 **T-In Max**: If a cross network ends at the given network in a T-intersection, this value is the maximum number of lanes on the cross network heading inbound to the T-intersection (half the network, in the case of a two-way network, the full network if one-way). For instance, an AVE-2 can have an Avenue or RD-4 end at it (AVE-2 T-In Max = 2, while the Avenue and RD-4 have 4 lanes total, 2 heading inbound to the intersection), but an OWR-1 cannot (T-In Max = 1). Center lanes on TLA networks do not count toward the overall figure (i.e. the TLA-5 would be considered to have 4 lanes total in this instance).
 
-**OxO**: OxO stands for "orthogonal x orthogonal", and refers to a situation where both networks are orthogonal (in a straight line) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
-
-**OxD**: OxD stands for "orthogonal x diagonal", and refers to a situation where the given network is orthogonal (in a straight line) along the game's grid, and the cross network is diagonal (running at a 45° angle).
-
-**DxO**: DxO stands for "diagonal x orthogonal", and refers to a situation where the base network is diagonal (running at a 45° angle), and the cross network is orthogonal (in a straight line) along the game's grid.
-
-**DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
+## Network and FLEX Piece Capabilities
 
 ### Base Network Features
 

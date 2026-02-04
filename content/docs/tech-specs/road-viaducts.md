@@ -13,21 +13,13 @@ url: "docs/tech-specs/road-viaducts"
 
 {{< docstatus status="workinprogress" >}}
 
-## Network and FLEX Piece Capabilities
-
-### Key
+## Key
 
 {{< compatibility-key >}}
 
-### Additional Notes
+## Network and FLEX Piece Capabilities
 
-**OxO**: OxO stands for "orthogonal x orthogonal", and refers to a situation where both networks are orthogonal (in a straight line) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
-**OxD**: OxD stands for "orthogonal x diagonal", and refers to a situation where the given network is orthogonal (in a straight line) along the game's grid, and the cross network is diagonal (running at a 45° angle).
-
-**DxO**: DxO stands for "diagonal x orthogonal", and refers to a situation where the base network is diagonal (running at a 45° angle), and the cross network is orthogonal (in a straight line) along the game's grid.
-
-**DxD**: DxD stands for "diagonal x diagonal", and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at 90° angles at all corners).
 
 ## Available Height Levels
 
