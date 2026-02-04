@@ -59,3 +59,58 @@
 # Gallery shortcode translation
 - id: gallery-new-tab
   translation: "Aprire l'immagine in una nuova scheda"
+
+
+# Compatibility table shortcode translation
+- id: compat-table-yes-key
+  translation: "SI"
+
+- id: compat-table-yes-desc
+  translation: "Questa particolare caratteristica può essere costruita, con limitazioni minime (se non addirittura nulle)."
+
+- id: compat-table-partial-key
+  translation: "Supporto parziale"
+
+- id: compat-table-partial-desc
+  translation: "Questa particolare caratteristica può essere costruita, ma non in tutti i casi. Verranno forniti dettagli su ciò che è/non è possibile. Il supporto parziale può essere dovuto a ragioni di progettazione intenzionali (come il realismo o la non fattibilità generale), o semplicemente perché la caratteristica non è stata completamente sviluppata."
+
+- id: compat-table-limited-key
+  translation: "Supporto limitato"
+
+- id: compat-table-limited-desc
+  translation: "Questa particolare caratteristica può essere costruita, ma solo in circostanze estremamente limitate. I casi possibili possono essere elencati, nella misura in cui è possibile. L'uso è a proprio rischio e pericolo."
+
+- id: compat-table-no-key
+  translation: "NO"
+
+- id: compat-table-no-desc
+  translation: "Questa particolare caratteristica non può essere costruita. Questa restrizione può essere dovuta a ragioni di progettazione intenzionali (come il realismo, la non fattibilità generale o le limitazioni del gioco) o semplicemente perché non è ancora stata sviluppata."
+
+- id: compat-table-na-desc
+  translation: "Questa caratteristica non è applicabile."
+
+
+# Intersection abbreviation translations
+- id: oxo-key
+  translation: "OxO"
+
+- id: oxo-desc
+  translation: "Sta per 'Ortogonale x Ortogonale', e si riferisce a una situazione in cui entrambe le reti sono ortogonali (in linea retta) lungo la griglia di gioco, intersecandosi perpendicolarmente (con un angolo di 90°)."
+
+- id: oxd-key
+  translation: "OxD"
+
+- id: oxd-desc
+  translation: "Sta per 'Ortogonale x Diagonale' e si riferisce a una situazione in cui la rete data è ortogonale (in linea retta) lungo la griglia di gioco e la rete trasversale è diagonale (con un angolo di 45°)."
+
+- id: dxo-key
+  translation: "DxO"
+
+- id: dxo-desc
+  translation: "Sta per 'Diagonale x Ortogonale' e si riferisce a una situazione in cui la rete di base è diagonale (con un angolo di 45°) e la rete trasversale è ortogonale (in linea retta) lungo la griglia di gioco."
+
+- id: dxd-key
+  translation: "DxD"
+
+- id: dxd-desc
+  translation: "Sta per 'Diagonale x Diagonale' e si riferisce a una situazione in cui entrambe le reti sono diagonali (con un angolo di 45°) lungo la griglia di gioco e si intersecano perpendicolarmente (con un angolo di 90°)."
