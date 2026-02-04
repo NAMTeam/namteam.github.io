@@ -59,3 +59,33 @@
 # Gallery shortcode translation
 - id: gallery-new-tab
   translation: "Open image in new tab"
+
+
+# Compatibility table shortcode translation
+- id: compat-table-yes-key
+  translation: "Yes"
+
+- id: compat-table-yes-desc
+  translation: "This feature can be constructed, with minimal (if any) limitations."
+
+- id: compat-table-partial-key
+  translation: "Partial Support"
+
+- id: compat-table-partial-desc
+  translation: "This feature can be constructed, but not in all instances. Details will be given as to what is/is not possible. Partial support could be due to intentional design reasons (including realism or general infeasibility), or simply because the feature has not been fully developed."
+
+- id: compat-table-limited-key
+  translation: "Limited Support"
+
+- id: compat-table-limited-desc
+  translation: "This feature can be constructed, but only in extremely limited circumstances. Instances that are possible may be listed, insofar as it is possible. Use at your own risk."
+
+- id: compat-table-no-key
+  translation: "No"
+
+- id: compat-table-no-desc
+  translation: "This feature cannot be constructed. This restriction could be due to intentional design reasons (including realism, general infeasibility, or game limitations), or simply because it has not yet been developed."
+
+- id: compat-table-na-desc
+  translation: "This feature is not applicable."
+
