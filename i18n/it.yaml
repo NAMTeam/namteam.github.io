@@ -56,6 +56,21 @@
 - id: legacy-tooltip
   translation: "Questo articolo non viene aggiornato da tempo. È probabile che lo sviluppo attivo di questa voce riprenda in futuro."
 
+
+# Feature Guide shortcode translations
+- id: feature-guide-opening
+  translation: "Consultare la"
+
+- id: feature-guide-link-suffix
+  translation: "Guida Alle Funzioni"
+
+- id: feature-guide-link-default
+  translation: "Guida Alle Funzioni NAM"
+
+- id: feature-guide-closing
+  translation: "per capire come utilizzare questi componenti"
+
+
 # Gallery shortcode translation
 - id: gallery-new-tab
   translation: "Aprire l'immagine in una nuova scheda"

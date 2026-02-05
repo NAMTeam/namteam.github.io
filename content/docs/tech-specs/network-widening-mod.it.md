@@ -9,7 +9,7 @@ images: []
 url: "docs/tech-specs/network-widening-mod"
 ---
 
-{{< feature-guide link="/docs/feature-guides/network-widening-mod" mod="Network Widening Mod feature guide" >}}
+{{< feature-guide link="/docs/feature-guides/network-widening-mod" >}}
 
 {{< docstatus status="workinprogress" >}}
 {{< docstatus status="untranslated" >}}

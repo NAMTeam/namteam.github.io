@@ -9,7 +9,7 @@ images: []
 url: "docs/tech-specs/hybrid-railway"
 ---
 <!-- markdownlint-disable MD001 -->
-{{< feature-guide link="docs/feature-guides/hybrid-railway" mod="Hybrid Railway feature guide" >}}
+{{< feature-guide link="/docs/feature-guides/hybrid-railway" >}}
 
 ## Chiave
 

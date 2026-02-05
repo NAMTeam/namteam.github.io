@@ -9,7 +9,7 @@ images: []
 url: "docs/tech-specs/street-addon-mod"
 ---
 
-{{< feature-guide link="docs/feature-guides/street-addon-mod" mod="Street Addon Mod feature guide" >}}
+{{< feature-guide link="/docs/feature-guides/street-addon-mod" >}}
 
 {{< docstatus status="workinprogress" >}}
 

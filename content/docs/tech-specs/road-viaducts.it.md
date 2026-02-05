@@ -9,7 +9,7 @@ images: []
 url: "docs/tech-specs/road-viaducts"
 ---
 
-{{< feature-guide link="/docs/feature-guides/road-viaducts" mod="Road Viaducts feature guide" >}}
+{{< feature-guide link="/docs/feature-guides/road-viaducts" >}}
 
 {{< docstatus status="workinprogress" >}}
 {{< docstatus status="untranslated" >}}

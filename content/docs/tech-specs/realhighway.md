@@ -9,7 +9,7 @@ images: []
 url: "docs/tech-specs/realhighway-mod"
 ---
 
-{{< feature-guide link="/docs/feature-guides/realhighway-mod" mod="RealHighway Mod feature guide" >}}
+{{< feature-guide link="/docs/feature-guides/realhighway-mod" >}}
 
 {{< docstatus status="workinprogress" >}}
 
