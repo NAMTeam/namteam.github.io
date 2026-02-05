@@ -1,0 +1,101 @@
+{{- $images := split (trim $.InnerDeindent "\n\r") "\n" -}}
+{{- $carouselId := printf "carousel-%d" (now.UnixMilli) -}}
+
+<div id="{{ $carouselId }}" class="carousel slide mb-4">
+  <div class="carousel-indicators">
+    {{ range $k, $v := $images }}
+    <button type="button" data-bs-target="#{{ $carouselId }}" data-bs-slide-to="{{ $k }}" {{ if eq $k 0 }}class="active" aria-current="true"{{ end }} aria-label="Slide {{ add $k 1 }}"></button>
+    {{ end }}
+  </div>
+  
+  <div class="carousel-inner">
+    {{ range $k, $v := $images }}
+    {{- $parts := split $v "|" -}}
+    {{- $imagePath := trim (index $parts 0) "\r\n " -}}
+    {{- $caption := "" -}}
+    {{- if gt (len $parts) 1 -}}
+      {{- $caption = trim (index $parts 1) "\r\n " -}}
+    {{- end -}}
+    {{ $image := $.Page.Resources.GetMatch (printf "*%s*" $imagePath) -}}
+    {{ $lqip := $image.Resize $.Site.Params.lqipWidth -}}
+    <div class="carousel-item{{ if eq $k 0 }} active{{ end }}">
+      <div class="d-flex justify-content-center align-items-center" style="min-height: 400px;">
+        <img class="lazyload blur-up" style="max-width: 100%; max-height: 600px; height: auto; width: auto;" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" alt="Slide {{ add $k 1 }}">
+      </div>
+      <span class="badge bg-light text-dark position-absolute carousel-number carousel-number-position">{{ add $k 1 }}</span>
+      {{- if $caption -}}
+      <div class="carousel-caption d-block">
+        <p class="mb-0 text-light bg-white bg-opacity-25 d-inline-block px-2 py-1 rounded">{{ $caption }}</p>
+      </div>
+      {{- end -}}
+    </div>
+    {{ end }}
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#{{ $carouselId }}" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">{{ i18n "carousel-previous" }}</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#{{ $carouselId }}" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">{{ i18n "carousel-next" }}</span>
+  </button>
+</div>
+
+{{- with .Get "caption" | markdownify }}
+<div class="text-center mb-4">
+  {{ . }}
+</div>
+{{- end }}
+
+{{- if not (.Page.Scratch.Get "carousel-css") -}}
+
+<style>
+.carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--bs-light);
+  background-color: transparent;
+}
+
+.carousel-indicators .active {
+  width: 14px;
+  height: 14px;
+  border: 0px;
+  background-color: var(--bs-light);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1) brightness(0.5);
+  width: 2rem;
+  height: 2rem;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  opacity: 0.8;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 1;
+}
+
+.carousel-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  z-index: 10;
+}
+
+.carousel-number-position {
+  top: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+</style>
+
+{{- .Page.Scratch.Set "carousel-css" true -}}
+{{- end -}}

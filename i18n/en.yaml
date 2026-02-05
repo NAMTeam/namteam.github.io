@@ -42,6 +42,15 @@
 - id: line-spacing
   translation: ""
 
+
+# Carousel shortcode translations
+- id: carousel-next
+  translation: "Next"
+
+- id: carousel-previous
+  translation: "Previous"
+
+
 # Deprecated shortcode translation
 - id: deprecated-label
   translation: "DEPRECATED"

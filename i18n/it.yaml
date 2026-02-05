@@ -42,6 +42,15 @@
 - id: line-spacing
   translation: "Interlinea"
 
+
+# Carousel shortcode translations
+- id: carousel-next
+  translation: "Successivo"
+
+- id: carousel-previous
+  translation: "Precedente"
+
+
 # Deprecated shortcode translation
 - id: deprecated-label
   translation: "DEPRECATO"

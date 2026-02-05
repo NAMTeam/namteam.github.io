@@ -125,6 +125,17 @@ This is an example multi-line alert.
 <span class="text-success">You can even add custom HTML to the alert.</span>
 {{< /alert >}}
 ```
+#### Carousel
+A carousel is a slideshow for cycling through a series of images. List the images you would like to include inside the carousel element. Each picture will automatically be sequentially numbered. To add a caption to an image, follow the image path with a pipe (`|`) and then the caption text:
+``` hugo
+{{< carousel >}}
+    images/image-1.jpg
+    images/image-2.jpg | Caption for image 2
+    images/image-3.jpg
+    images/image-4.jpg | Caption for image 4
+{{< /carousel >}}
+```
+
 
 #### Details
 Shortcode:
