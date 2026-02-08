@@ -1,6 +1,5 @@
 .alert {
-  font-family: $font-family-monospace;
-  font-size: $font-size-sm;
+  font-size: $font-size-base;
 }
 
 .alert-icon {
@@ -61,73 +60,73 @@
 */
 
 .alert-secondary {
-  color: #41464b;
-  background-color: #e2e3e5;
-  border-color: #d3d6d8;
+  color: var(--bs-secondary-text);
+  background-color: var(--bs-secondary-bg-subtle);
+  border-color: var(--bs-secondary-border-subtle);
 }
 
 .alert-secondary .alert-link {
-  color: #34383c;
+  color: var(--bs-secondary-text);
 }
 
 .alert-success {
-  color: #0f5132;
-  background-color: #d1e7dd;
-  border-color: #badbcc;
+  color: var(--bs-success-text);
+  background-color: var(--bs-success-bg-subtle);
+  border-color: var(--bs-success-border-subtle);
 }
 
 .alert-success .alert-link {
-  color: #0c4128;
+  color: var(--bs-success-text);
 }
 
 .alert-info {
-  color: #055160;
-  background-color: #cff4fc;
-  border-color: #b6effb;
+  color: var(--bs-info-text);
+  background-color: var(--bs-info-bg-subtle);
+  border-color: var(--bs-info-border-subtle);
 }
 
 .alert-info .alert-link {
-  color: #04414d;
+  color: var(--bs-info-text);
 }
 
 .alert-warning {
-  color: #664d03;
-  background-color: #fff3cd;
-  border-color: #ffecb5;
+  color: var(--bs-warning-text);
+  background-color: var(--bs-warning-bg-subtle);
+  border-color: var(--bs-warning-border-subtle);
 }
 
 .alert-warning .alert-link {
-  color: #523e02;
+  color: var(--bs-warning-text);
 }
 
 .alert-danger {
-  color: #842029;
-  background-color: #f8d7da;
-  border-color: #f5c2c7;
+  color: var(--bs-danger-text);
+  background-color: var(--bs-danger-bg-subtle);
+  border-color: var(--bs-danger-border-subtle);
 }
 
 .alert-danger .alert-link {
-  color: #6a1a21;
+  color: var(--bs-danger-text);
 }
 
 .alert-light {
-  color: #636464;
-  background-color: #fefefe;
-  border-color: #fdfdfe;
+  color: var(--bs-light-text);
+  background-color: var(--bs-light-bg-subtle);
+  border-color: var(--bs-light-border-subtle);
 }
 
 .alert-light .alert-link {
-  color: #4f5050;
+  color: var(--bs-light-text);
 }
 
 .alert-dark {
-  color: #141619;
-  background-color: #d3d3d4;
-  border-color: #bcbebf;
+  color: var(--bs-dark-text);
+  background-color: var(--bs-dark-bg-subtle);
+  border-color: var(--bs-dark-border-subtle);
 }
 
 .alert-dark .alert-link {
-  color: #101214;
+  color: var(--bs-dark-text);
 }
 
 .alert .alert-link:hover,

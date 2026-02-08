@@ -42,6 +42,15 @@
 - id: line-spacing
   translation: "Interlinea"
 
+
+# Carousel shortcode translations
+- id: carousel-next
+  translation: "Successivo"
+
+- id: carousel-previous
+  translation: "Precedente"
+
+
 # Deprecated shortcode translation
 - id: deprecated-label
   translation: "DEPRECATO"
@@ -56,6 +65,131 @@
 - id: legacy-tooltip
   translation: "Questo articolo non viene aggiornato da tempo. È probabile che lo sviluppo attivo di questa voce riprenda in futuro."
 
+
+# Feature Guide shortcode translations
+- id: feature-guide-opening
+  translation: "Consultare la"
+
+- id: feature-guide-link-suffix
+  translation: "Guida Alle Funzioni"
+
+- id: feature-guide-link-default
+  translation: "Guida Alle Funzioni NAM"
+
+- id: feature-guide-closing
+  translation: "per capire come utilizzare questi componenti"
+
+
 # Gallery shortcode translation
 - id: gallery-new-tab
   translation: "Aprire l'immagine in una nuova scheda"
+
+
+# Docstatus shortcode translations
+- id: docstatus-outdated-title
+  translation: "La documentazione di questa pagina non è aggiornata."
+
+- id: docstatus-outdated-text-1
+  translation: "Questa documentazione è stata aggiornata l'ultima volta con"
+
+- id: docstatus-outdated-default-version
+  translation: "una vecchia versione del NAM"
+
+- id: docstatus-outdated-text-2
+  translation: "È in fase di riscrittura."
+
+- id: docstatus-oldcontent-title
+  translation: "La documentazione di questa pagina potrebbe non essere obsoleta."
+
+- id: docstatus-oldcontent-text
+  translation: "Il contenuto di questo documento può fare riferimento a contenuti NAM più vecchi e obsoleti. Tuttavia, può ancora essere utilizzato come guida di riferimento."
+
+- id: docstatus-compatibility-title
+  translation: "Avviso di compatibilità - Copie EA App e Origin di SimCity 4 Deluxe ORA COMPATIBILI con il Network Addon Mod"
+
+- id: docstatus-compatibility-text
+  translation: "Le copie digitali di SimCity 4 Deluxe acquistate tramite EA.com, l'App EA o l'Origin Store presentano un eseguibile non patchato che è inferiore ai requisiti minimi per questa mod. Lo stesso vale se si gioca con un abbonamento EA Play o Xbox Game Pass."
+
+- id: docstatus-compatibility-button-text
+  translation: "Per saperne di più"
+
+- id: docstatus-workinprogress-title
+  translation: "La documentazione di questa pagina è in corso di elaborazione."
+
+- id: docstatus-workinprogress-text
+  translation: "I contenuti di questo documento sono in fase di revisione e sono soggetti a modifiche."
+
+- id: docstatus-legacy-title
+  translation: "Questa documentazione copre contenuti legacy."
+
+- id: docstatus-legacy-text
+  translation: "Questo componente del Network Addon Mod non viene aggiornato da tempo. È probabile che lo sviluppo attivo riprenda in futuro."
+
+- id: docstatus-obsolete-title
+  translation: "Contenuto obsoleto"
+
+- id: docstatus-obsolete-text
+  translation: "Questo componente del Network Addon Mod è stato sostituito da contenuti più moderni e pertanto non sarà più sviluppato. Questo componente viene mantenuto solo per motivi di compatibilità."
+
+- id: docstatus-untranslated-title
+  translation: "Contenuto non tradotto."
+
+- id: docstatus-untranslated-text
+  translation: "Questa documentazione non è ancora stata tradotta nella vostra lingua."
+
+- id: docstatus-notwritten-title
+  translation: "La documentazione di questa pagina non è ancora stata scritta."
+
+# Compatibility table shortcode translation
+- id: compat-table-yes-key
+  translation: "SI"
+
+- id: compat-table-yes-desc
+  translation: "Questa particolare caratteristica può essere costruita, con limitazioni minime (se non addirittura nulle)."
+
+- id: compat-table-partial-key
+  translation: "Supporto parziale"
+
+- id: compat-table-partial-desc
+  translation: "Questa particolare caratteristica può essere costruita, ma non in tutti i casi. Verranno forniti dettagli su ciò che è/non è possibile. Il supporto parziale può essere dovuto a ragioni di progettazione intenzionali (come il realismo o la non fattibilità generale), o semplicemente perché la caratteristica non è stata completamente sviluppata."
+
+- id: compat-table-limited-key
+  translation: "Supporto limitato"
+
+- id: compat-table-limited-desc
+  translation: "Questa particolare caratteristica può essere costruita, ma solo in circostanze estremamente limitate. I casi possibili possono essere elencati, nella misura in cui è possibile. L'uso è a proprio rischio e pericolo."
+
+- id: compat-table-no-key
+  translation: "NO"
+
+- id: compat-table-no-desc
+  translation: "Questa particolare caratteristica non può essere costruita. Questa restrizione può essere dovuta a ragioni di progettazione intenzionali (come il realismo, la non fattibilità generale o le limitazioni del gioco) o semplicemente perché non è ancora stata sviluppata."
+
+- id: compat-table-na-desc
+  translation: "Questa caratteristica non è applicabile."
+
+
+# Intersection abbreviation translations
+- id: oxo-key
+  translation: "OxO"
+
+- id: oxo-desc
+  translation: "Sta per 'Ortogonale x Ortogonale', e si riferisce a una situazione in cui entrambe le reti sono ortogonali (in linea retta) lungo la griglia di gioco, intersecandosi perpendicolarmente (con un angolo di 90°)."
+
+- id: oxd-key
+  translation: "OxD"
+
+- id: oxd-desc
+  translation: "Sta per 'Ortogonale x Diagonale' e si riferisce a una situazione in cui la rete data è ortogonale (in linea retta) lungo la griglia di gioco e la rete trasversale è diagonale (con un angolo di 45°)."
+
+- id: dxo-key
+  translation: "DxO"
+
+- id: dxo-desc
+  translation: "Sta per 'Diagonale x Ortogonale' e si riferisce a una situazione in cui la rete di base è diagonale (con un angolo di 45°) e la rete trasversale è ortogonale (in linea retta) lungo la griglia di gioco."
+
+- id: dxd-key
+  translation: "DxD"
+
+- id: dxd-desc
+  translation: "Sta per 'Diagonale x Diagonale' e si riferisce a una situazione in cui entrambe le reti sono diagonali (con un angolo di 45°) lungo la griglia di gioco e si intersecano perpendicolarmente (con un angolo di 90°)."

@@ -1,12 +1,13 @@
+{{ $link := .Get "link" | default "docs/feature-guide" -}}
+{{ $page := site.GetPage $link -}}
+{{ $title := "" -}}
 
-{{ if eq $.Site.Language.Lang "en" -}}
-<div class="alert border border-info border-5">
-    <p class="lead fw-bold my-0">Refer to the <a href='{{ .Get "link" | default "docs/feature-guide" }}'>{{ .Get "mod" | default "NAM feature guide" }}</a> to understand how to use these components.</p>
-</div>
+{{ if $page -}}
+  {{ $title = printf "%s %s" $page.Title (i18n "feature-guide-suffix") -}}
+{{ else -}}
+  {{ $title = .Get "mod" | default (i18n "feature-guide-default") -}}
 {{ end -}}
 
-{{ if eq $.Site.Language.Lang "it" -}}
-<div class="alert border border-info border-5">
-    <p class="lead fw-bold my-0">Per capire come utilizzare questi componenti, consultare la  <a href='{{ .Get "link" | default "docs/feature-guide" }}'>{{ .Get "mod" | default "Guida alle funzioni NAM"  }}</a></p>
+<div class="alert border border-4 border-primary-subtle rounded-4 alert-primary-subtle" role="alert">
+    <p class="lead fw-bold my-0">{{ i18n "feature-guide-opening" }} <a href='{{ $link }}'>{{ $title }} {{ i18n "feature-guide-link-suffix" }}</a> {{ i18n "feature-guide-closing" }}.</p>
 </div>
-{{ end -}}

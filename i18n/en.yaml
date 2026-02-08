@@ -42,6 +42,15 @@
 - id: line-spacing
   translation: ""
 
+
+# Carousel shortcode translations
+- id: carousel-next
+  translation: "Next"
+
+- id: carousel-previous
+  translation: "Previous"
+
+
 # Deprecated shortcode translation
 - id: deprecated-label
   translation: "DEPRECATED"
@@ -56,6 +65,132 @@
 - id: legacy-tooltip
   translation: "This item has not been updated in some time. Active development on this item is likely to resume in the future."
 
+
+# Feature Guide shortcode translations
+- id: feature-guide-opening
+  translation: "Refer to the"
+
+- id: feature-guide-link-suffix
+  translation: "Feature Guide"
+
+- id: feature-guide-link-default
+  translation: "NAM Feature Guide"
+
+- id: feature-guide-closing
+  translation: "to understand how to use these components"
+
+
 # Gallery shortcode translation
 - id: gallery-new-tab
   translation: "Open image in new tab"
+
+
+# Docstatus shortcode translations
+- id: docstatus-outdated-title
+  translation: "The documentation on this page is out of date."
+
+- id: docstatus-outdated-text-1
+  translation: "This documentation was last updated with"
+
+- id: docstatus-outdated-default-version
+  translation: "an old version of the NAM"
+
+- id: docstatus-outdated-text-2
+  translation: "It is in the process of being rewritten."
+
+- id: docstatus-oldcontent-title
+  translation: "The documentation on this page may be out of date."
+
+- id: docstatus-oldcontent-text
+  translation: "The contents of this document may reference older, obsolete NAM content. However, it can still be used as a reference guide."
+
+- id: docstatus-compatibility-title
+  translation: "Compatibility Notice - EA App and Origin Copies of SimCity 4 Deluxe NOW COMPATIBLE with the Network Addon Mod"
+
+- id: docstatus-compatibility-text
+  translation: "Digital copies of SimCity 4 Deluxe purchased via EA.com, the EA App, or the Origin Store have been patched to Version 1.1.641 as of 1 June 2023, and are now fully compatible with the Network Addon Mod. The same is true if playing the game via an EA Play or Xbox Game Pass subscription."
+
+- id: docstatus-compatibility-button-text
+  translation: "Read more"
+
+- id: docstatus-workinprogress-title
+  translation: "The documentation on this page is in progress."
+
+- id: docstatus-workinprogress-text
+  translation: "The contents of this document are undergoing revision and are subject to change."
+
+- id: docstatus-legacy-title
+  translation: "This documentation covers legacy content."
+
+- id: docstatus-legacy-text
+  translation: "This component of the Network Addon Mod has not been updated in some time. Active development is likely to resume in the future."
+
+- id: docstatus-obsolete-title
+  translation: "Obsolete Content"
+
+- id: docstatus-obsolete-text
+  translation: "This component of the Network Addon Mod has been superseded by more modern content and therefore no further development will be completed. This component is kept for compatibility purposes only."
+
+- id: docstatus-untranslated-title
+  translation: "Untranslated Content"
+
+- id: docstatus-untranslated-text
+  translation: "This documentation has not yet been translated into your language."
+
+- id: docstatus-notwritten-title
+  translation: "The documentation on this page has not yet been written."
+
+
+# Compatibility table shortcode translation
+- id: compat-table-yes-key
+  translation: "Yes"
+
+- id: compat-table-yes-desc
+  translation: "This feature can be constructed, with minimal (if any) limitations."
+
+- id: compat-table-partial-key
+  translation: "Partial Support"
+
+- id: compat-table-partial-desc
+  translation: "This feature can be constructed, but not in all instances. Details will be given as to what is/is not possible. Partial support could be due to intentional design reasons (including realism or general infeasibility), or simply because the feature has not been fully developed."
+
+- id: compat-table-limited-key
+  translation: "Limited Support"
+
+- id: compat-table-limited-desc
+  translation: "This feature can be constructed, but only in extremely limited circumstances. Instances that are possible may be listed, insofar as it is possible. Use at your own risk."
+
+- id: compat-table-no-key
+  translation: "No"
+
+- id: compat-table-no-desc
+  translation: "This feature cannot be constructed. This restriction could be due to intentional design reasons (including realism, general infeasibility, or game limitations), or simply because it has not yet been developed."
+
+- id: compat-table-na-desc
+  translation: "This feature is not applicable."
+
+
+# Intersection abbreviation translations
+- id: oxo-key
+  translation: "OxO"
+
+- id: oxo-desc
+  translation: "Stands for 'Orthogonal x Orthogonal', and refers to a situation where both networks are orthogonal (in a straight line) along the game's grid, intersecting perpendicularly (at a 90° angle)"
+
+- id: oxd-key
+  translation: "OxD"
+
+- id: oxd-desc
+  translation: "Stands for 'Orthogonal x Diagonal', and refers to a situation where the base network is orthogonal (in a straight line) along the game's grid, and the cross network is diagonal (running at a 45° angle)."
+
+- id: dxo-key
+  translation: "DxO"
+
+- id: dxo-desc
+  translation: "Stands for 'Diagonal x Orthogonal', and refers to a situation where the base network is diagonal (running at a 45° angle), and the cross network is orthogonal (in a straight line) along the game's grid."
+
+- id: dxd-key
+  translation: "DxD"
+
+- id: dxd-desc
+  translation: "Stands for 'Diagonal x Diagonal', and refers to a situation where both networks are diagonal (running at a 45° angle) along the game's grid, intersecting perpendicularly (at a 90° angle)."

@@ -78,6 +78,8 @@ Using the above example, you can see that a German language version of `index.md
 
 Please note that if you need to add a new language to the list, you will also need to edit `/config/_default/languages.toml` (pay attention to indentation!). 2 letter ISO codes are used, for a list you can [refer to this document](https://www.iban.com/country-codes). Use the lower-case versions otherwise our documentation engine freaks out.
 
+Lastly, create a copy of `/i18n/en.yaml` and name it with the newly added country code. This file contains the translations used by shortcodes throughout the site.
+
 When you add content in other languages, note that you do not need to update the links to point to the language-specific version of the documentation - the documentation engine will sort this out for you.
 
 ### Convenience Functions
@@ -126,24 +128,33 @@ This is an example multi-line alert.
 {{< /alert >}}
 ```
 
-#### Details
-Shortcode:
+#### Carousel
+A carousel is a slideshow for cycling through a series of images. List the images you would like to include inside the carousel element. Each picture will automatically be sequentially numbered. To add a caption to an image, follow the image path with a pipe (`|`) and then the caption text:
+``` hugo
+{{< carousel >}}
+    images/image-1.jpg
+    images/image-2.jpg | Caption for image 2
+    images/image-3.jpg
+    images/image-4.jpg | Caption for image 4
+{{< /carousel >}}
 ```
-{{< details <summary> [state] >}}
-<content>
+
+#### Details
+This shortcode is simply a wrapper for the HTML [details element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details). Specify the summary text and optionally choose whether to have the element open by default instead of closed.
+
+```
+{{< details "Summary text" >}}
+Content goes here. This will be hidden until the user clicks to expand.
+{{< /details >}}
+
+{{< details "Summary text" "open" >}}
+This content will be visible by default because state is set to "open".
 {{< /details >}}
 ```
 
 #### Document Status
 
-This is a variation of the Alert shortcode however it has different statuses depending on what's required.
-
-Shortcode:
-```
-{{< docstatus status="STATUS" >}}
-```
-
-The following statuses are supported:
+This is a variation of the Alert shortcode with certain predefined statuses. The following statuses are supported:
 
 * (blank) - Defaults to "not yet written"
 * `workinprogress` - Documentation is in progress and subject to change.
@@ -153,6 +164,10 @@ The following statuses are supported:
 * `legacy` - States that the particular NAM component has not been worked on in some time but development will likely resume in the future.
 * `obsolete` - States that no further development will occur on this component, but it is retained for compatibility reasons.
 * `untranslated` - Documentation has not been translated into your native language yet. This will gradually disappear as more efforts are put into translation for various locales.
+
+```
+{{< docstatus status="STATUS" >}}
+```
 
 #### Simple image
 

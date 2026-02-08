@@ -1,9 +1,24 @@
-{{- $icon := .Get "icon" | default nil -}}
-{{- $image := .Page.Resources.GetMatch (printf "*%s*" $icon ) -}}
-<div class="d-flex mb-3">
-    {{- with $icon }}
-    {{- $lqip := $image.Resize $.Site.Params.lqipWidth -}}
-    <div class="flex-shrink-0 flex-fill pe-3"><img class="lazyload blur-up{{ with $.Get "class" }} {{.}}{{ end }}" src="{{ $lqip.Permalink }}" data-src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}" {{ with $.Get "caption" }}alt="{{.}}"{{ end }}></div>
-    {{- end }}
-    <div class="flex-grow-1 w-100 flex-fill d-flex align-items-center"><div>{{ .Get "caption" | default nil | markdownify }}</div></div>
+{{- $icon := .Get "icon" -}}
+ <!-- Argument name of 'Caption' kept for backward compatibility. Really this is more of a 'Title'. -->
+{{- $caption := .Get "caption" -}}
+{{- $description := .Get "description" -}}
+{{- $image := .Page.Resources.GetMatch (printf "*%s*" $icon) -}}
+{{- $lqip := $image.Resize $.Site.Params.lqipWidth -}}
+
+<div class="d-flex align-items-center mb-4 p-3 border rounded bg-light">
+  <div class="flex-shrink-0 me-3">
+    <img class="lazyload blur-up" 
+         src="{{ $lqip.Permalink }}" 
+         data-src="{{ $image.Permalink }}" 
+         width="{{ $image.Width }}" 
+         height="{{ $image.Height }}" 
+         alt="{{ $caption }}"
+         style="max-width: 64px; height: auto;">
+  </div>
+  <div class="flex-grow-1">
+    <h5 class="h5 mb-0 mt-0">{{ $caption | markdownify }}</h5>
+    {{- if $description -}}
+    <p class="mb-0 text-muted small">{{ $description | markdownify }}</p>
+    {{- end -}}
+  </div>
 </div>

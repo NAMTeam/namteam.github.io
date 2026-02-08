@@ -9,40 +9,13 @@ images: []
 url: "docs/tech-specs/hybrid-railway"
 ---
 <!-- markdownlint-disable MD001 -->
-{{< feature-guide link="docs/feature-guides/hybrid-railway" mod="Hybrid Railway feature guide" >}}
+{{< feature-guide link="/docs/feature-guides/hybrid-railway" >}}
+
+## Chiave
+
+{{< compatibility-key >}}
 
 ## Capacità della rete e del pezzo FLEX
-
-### Chiave
-
-<table class="table-bordered nam-compat-status processed">
-<tr>
-    <td data-compat="yes"> SI </td>
-    <td>Questa particolare caratteristica può essere costruita, con limitazioni minime (se non addirittura nulle).</td>
-</tr>
-<tr>
-    <td data-compat="partial"> Supporto parziale </td>
-    <td>Questa particolare caratteristica può essere costruita, ma non in tutti i casi. Verranno forniti dettagli su ciò che è/non è possibile. Il supporto parziale può essere dovuto a ragioni di progettazione intenzionali (come il realismo o la non fattibilità generale), o semplicemente perché la caratteristica non è stata completamente sviluppata.</td>
-</tr>
-<tr>
-    <td data-compat="limited"> Supporto limitato </td>
-    <td>Questa particolare caratteristica può essere costruita, ma solo in circostanze estremamente limitate. I casi possibili possono essere elencati, nella misura in cui è possibile. L'uso è a proprio rischio e pericolo.</td>
-</tr>
-<tr>
-    <td data-compat="no"> Nessun supporto </td>
-    <td>Questa particolare caratteristica non può essere costruita. Questa restrizione può essere dovuta a ragioni di progettazione intenzionali (come il realismo, la non fattibilità generale o le limitazioni del gioco) o semplicemente perché non è ancora stata sviluppata.</td>
-</tr>
-</table>
-
-### Additional Notes
-
-**OxO**: OxO sta per "ortogonale x ortogonale" e si riferisce a una situazione in cui entrambe le reti sono ortogonali (in linea retta) lungo la griglia di gioco, intersecandosi perpendicolarmente (con angoli di 90° in tutti gli angoli).
-
-**OxD**: OxD sta per "ortogonale x diagonale" e si riferisce a una situazione in cui la rete data è ortogonale (in linea retta) lungo la griglia di gioco e la rete trasversale è diagonale (con un angolo di 45°).
-
-**DxO**: DxO sta per "diagonale x ortogonale" e si riferisce a una situazione in cui la rete di base è diagonale (con un angolo di 45°) e la rete trasversale è ortogonale (in linea retta) lungo la griglia di gioco.
-
-**DxD**: DxD sta per "diagonale x diagonale" e si riferisce a una situazione in cui entrambe le reti sono diagonali (con un angolo di 45°) lungo la griglia di gioco e si intersecano perpendicolarmente (con angoli di 90° in tutti gli angoli).
 
 ### Available Height Levels
 
