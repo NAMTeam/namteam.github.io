@@ -15,8 +15,8 @@
 }
 
 .alert-doks {
-  background: $beige;
-  color: $black;
+  background: var(--bs-tertiary-bg);
+  color: var(--bs-body-color);
 }
 
 /*
@@ -31,12 +31,12 @@
 */
 
 .alert-white {
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: var(--bs-body-bg);
 }
 
 .alert-primary {
-  color: $white;
-  background-color: $primary;
+  color: var(--bs-white);
+  background-color: var(--bs-primary);
 }
 
 .alert a {
@@ -157,7 +157,7 @@
 }
 
 .alert code {
-  background: darken($beige, 5%);
-  color: $black;
+  background: var(--bs-tertiary-bg);
+  color: var(--bs-body-color);
   padding: 0.25rem 0.5rem;
 }
