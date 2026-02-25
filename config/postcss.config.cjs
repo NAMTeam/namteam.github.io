@@ -1,15 +1,28 @@
 const autoprefixer = require('autoprefixer');
 const purgeImport = require('@fullhuman/postcss-purgecss');
-const purgeCssPlugin = purgeImport.purgeCSSPlugin || purgeImport.default || purgeImport;
+const purgeCssPlugin =
+  purgeImport.purgeCSSPlugin || purgeImport.default || purgeImport;
 const whitelister = require('purgecss-whitelister');
 
 module.exports = {
   plugins: [
     autoprefixer(),
     purgeCssPlugin({
-      content: [
-        './layouts/**/*.html',
-        './content/**/*.md',
+      content: ['./layouts/**/*.html', './content/**/*.md'],
+      dynamicAttributes: [
+        'aria-expanded',
+        'data-bs-popper',
+        'data-bs-target',
+        'data-bs-theme',
+        'data-dark-mode',
+        'data-global-alert',
+        'data-pane', // tabs.js
+        'data-popper-placement',
+        'data-sizes',
+        'data-toggle-tab', // tabs.js
+        'id',
+        'size',
+        'type',
       ],
       safelist: [
         'lazyloaded',
@@ -48,4 +61,4 @@ module.exports = {
       ],
     }),
   ],
-}
+};
