@@ -497,15 +497,14 @@ With the wider RHW networks (provided they are supported by the particular FLEXR
 
 ##### Building Draggable Ramp Interfaces (DRIs) {#dri}
 
-Draggable Ramp Interfaces, or DRIs, are ramp interfaces that are constructed as pattern-based draggables using the RealHighway network.
+Draggable Ramp Interfaces, or DRIs, are ramp interfaces that are constructed as draggable patterns using the RealHighway network.
 With the exception of a very few specialized setups, virtually every RHW ramp interface setup can be built through draggable means, and at present, there are some ramps that are only possible as DRIs.
 Each ramp interface type supported by the system has a special drag pattern, which when constructed, will automatically convert into the appropriate on/offramp.
 
-The process for overriding a FLEXRamp to have another RHW network as a mainline is identical to that of the FLEXRamps, as shown above. Elevated ramp interfaces can be constructed by dragging the appropriate elevated RHW network (L1-L4) or double-decker RHW through the DRI, which, provided the particular setup is supported by that network, will elevate the ramp. Many setups for narrower networks can be transformed into corresponding versions for wider networks by using the same method. This conversion is most reliable if the overriding network is dragged into the top end of the mainline.
-
-
-
-The table below shows all of the basic drag patterns for the DRIs:
+The process for overriding a FLEXRamp to have another RHW network as a mainline is identical to that of the FLEXRamps, as shown above.
+Elevated ramp interfaces can be constructed by dragging the appropriate elevated RHW network (L1-L4) or double-decker RHW through the DRI, which, provided the particular setup is supported by that network, will elevate the ramp.
+Many setups for narrower networks can be transformed into corresponding versions for wider networks by using the same method.
+This conversion is most reliable if the overriding network is dragged into the top end of the mainline.
 
 {{< img-simple src="images/Dri-table.png" alt="DRI Drag Patterns" clickable="yes" >}}
 
@@ -527,7 +526,8 @@ Most (but not all) of the Puzzle Piece Ramp Interfaces have starters attached on
 
 ##### QuickChange: A Shortcut to Quicker Interchanges
 
-In addition to the ramp interfaces, a series of "shortcuts" exist, in the form of the FLEX-based QuickChange (QC) pieces. The QuickChanges include a base ramp interface (Type A1 by default) with a height transition already attached, and provide quadrants for standard diamond and parclo (partial-cloverleaf) interchanges. To build a QuickChange setup, simply place the desired setup, and as needed, drag an override network through the mainline portion (or plop it over an existing override network), after which point it will change to match.
+In addition to the ramp interfaces, a series FLEX-based QuickChange (QC) pieces which include a base ramp interface (Type A1 by default) with a height transition already attached, which provide quadrants for standard diamond and parclo (partial-cloverleaf) interchanges.
+To build a QuickChange setup, simply the desired setup, and drag an override network through the mainline portion (or plop it over an existing override network).
 
 The QuickChange pieces may be found under the QuickChange button on the Highways menu.
 
@@ -539,9 +539,23 @@ QuickChange still operates with the RealHighway's modular design philosophy in m
 
 ##### Tutorial: Simple Diamond Interchange with QuickChange
 
-To build a diamond interchange with the QuickChanges, in which the L1 RHW-4 crosses over a Road, first begin with the L1 RHW-4 Starter Pieces, and drag out with the RealHighway network tool to continue the overrides. Then, drag the Road underneath. Following that, place four QuickChange L1 RHW Partial Diamond pieces encircling the Road. The L1 RHW-2 base mainline of the QuickChanges should covert to match the L1 RHW-4 (if L1 RHW-2 lingers, simply click around the vicinity of the unconverted sections with the RealHighway network tool to get them to cooperate). After this, use the RealHighway network tool to drag between the height transitions, right through the Road. This will form the intersections between the ramps and the Road, thereby completing the interchange.
+QuickChange pieces can be used to quickly create a diamond interchange.
+Start by drawing 2 adjacent L1 RHW-4 over a stretch of L0 Road.
+Place four QuickChange L1 RHW Partial Diamond pieces encircling the Road.
+If the RHW-4 destabilizes, place additional starters and/or click around the interchange with the RHW tool to fix any issues.
+Finish the interchange by using the RealHighway network tool to between the height transitions, right over the Road.
 
-{{< img-simple src="images/qc-diamond.jpg" >}}
+{{< carousel >}}
+    images/quickchange/rhw-qc-simple-diamond-1.jpg | Use L1 RHW (any type) over Road
+    images/quickchange/rhw-qc-simple-diamond-2.jpg | Use the QC Partial Diamond L1 over L0
+    images/quickchange/rhw-qc-simple-diamond-3.jpg | Repeat 4x
+    images/quickchange/rhw-qc-simple-diamond-4.jpg | Finish with the RealHighway network tool
+    images/quickchange/rhw-qc-simple-diamond-5.jpg
+{{< /carousel >}}
+
+{{< alert context="info" >}}
+While this example uses RHW-4, the magic of the QuickChange pieces is that they can automatically override to accommodate **any** RHW network!
+{{< /alert >}}
 
 This process can easily be adapted to other RHW networks, other surface street options (such as Avenues or Network Widening Mod networks), and to variants where the RHW is at ground level, and the surface street crosses over using one of the [Draggable Elevated Road Viaducts](/docs/features/road-viaducts/).
 
