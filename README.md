@@ -104,15 +104,31 @@ There are a handful of Hugo shortcodes that can be used to make developing docum
 
 Shortcodes are written in the `{{< SHORTCODE >}}` syntax. However there may be some cases where you need to use a particular shortcode inside an automatically-generated heading. For these, you will need to use the `{{% SHORTCODE %}}` syntax.
 
+Some shortcodes take arguments which can be used to customize their content or appearance.
+Depending on how the shortcode is set up, arguments may either be relative (specified one after each other, in order), or named.
+Named arguments are useful for clarity, or if you only wish to specify some arguments to the shortcode, not all.
+In a single shortcode, you cannot mix and match relative and named arguments.
+
+``` c#
+// relative arguments
+{{< shortcode "value1" "value2" "value3">}}
+
+// named arguments
+{{< shortcode arg1="value1" arg2="value2" arg3="value3">}}
+{{< shortcode arg1="value1" arg3="value3">}}
+
+// invalid
+{{< shortcode "value1" arg3="value3">}}
+```
+
 #### Alert
 
 Shortcode: 
 ```
 {{< alert context="CONTEXT" text="This is an example alert." >}}
 ```
-The above shortcode uses a simple string to create the alert. 
-
-The following contexts are supported:
+The above shortcode uses a simple string to create the alert.
+These alerts are styled off of the [Bootstrap Alerts](https://getbootstrap.com/docs/5.3/components/alerts/), and the following contexts are supported:
 * primary
 * info
 * success
