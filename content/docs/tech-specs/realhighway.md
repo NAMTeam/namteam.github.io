@@ -67,9 +67,11 @@ The catalog speeds for the base RealHighway network are listed below. These spee
 | RHW-4   | Yes | Yes | Yes | Yes | Yes | Yes |
 | RHW-6S  | Yes | Yes | Yes | Yes | Yes | No  |
 | RHW-6C  | Yes | Yes | Yes | No  | No  | No  |
+| RHW-7C  | Yes | Yes | Yes | No  | No  | No  |
 | RHW-8S  | Yes | Yes | Yes | No  | No  | No  |
 | RHW-8C  | Yes | Yes | Yes | No  | No  | No  |
 | RHW-10S | Yes | Yes | Yes | No  | No  | No  |
+| RHW-12S | Yes | Yes | Yes | No  | No  | No  |
 {{< /table >}}
 
 ### Base Network Features
@@ -112,13 +114,79 @@ Not currently supported.
 
 ### FLEXHeight Transitions
 
+The availability of these transitions generally mirrors the available heights for each network.
+
 #### Orthogonal Ramp-Style Transitions
 
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-2    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-3    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-4    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-6S   | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-6C   | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-8S   | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-8C   | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-10S  | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-12S  | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
+
 #### Orthogonal On-Slope Transitions
+
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-2    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-3    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-4    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6S   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6C   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-8S   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-8C   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-10S  | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-12S  | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
 
 #### Diagonal Ramp-Style Transitions
 
-#### Orthogonal On-Slope Transitions
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-2    | Yes     | Yes     | No      | No      | No      | No      | No      |
+| RHW-3    | Yes     | No      | No      | No      | No      | No      | No      |
+| RHW-4    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-6S   | Yes     | No      | No      | No      | No      | No      | No      |
+| RHW-6C   | No      | No      | No      | No      | No      | No      | No      |
+| RHW-8S   | No      | No      | No      | No      | No      | No      | No      |
+| RHW-8C   | No      | No      | No      | No      | No      | No      | No      |
+| RHW-10S  | No      | No      | No      | No      | No      | No      | No      |
+| RHW-12S  | No      | No      | No      | No      | No      | No      | No      |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
+
+#### Diagonal On-Slope Transitions
+
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-2    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-3    | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-4    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6S   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6C   | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-8S   | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-8C   | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-10S  | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-12S  | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
 
 ### FLEXWidth Transitions
 
@@ -144,7 +212,7 @@ This compatibility also applies to all applicable levels of each RHW network, no
 
 {{< table class="table-bordered nam-compat-status w-auto" >}}
 | Width   | 90° R0 | 90° R1 | 90° R2              | 90° R3 | 90° R4 | 90° R5 | 45° R0 | 45° R1 | 45° R2 | 45° R3              | 45° R4              | 45° R5              | Lane Shift          | Basketweave |
-| ------- | ------ | ------ | ------------------- | ------ | ------ | ------ | ------ | ------ | ------ | ------------------- | ------------------- | ------------------- | ------------------- | ----------- |
+| ------: | :----: | :----: | :-----------------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----------------: | :-----------------: | :-----------------: | :-----------------: | :---------: |
 | MIS     | No     | Yes    | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
 | RHW-2   | Yes    | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
 | RHW-3   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |

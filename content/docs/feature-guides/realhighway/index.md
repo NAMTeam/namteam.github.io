@@ -559,56 +559,81 @@ While this example uses RHW-4, the magic of the QuickChange pieces is that they 
 
 This process can easily be adapted to other RHW networks, other surface street options (such as Avenues or Network Widening Mod networks), and to variants where the RHW is at ground level, and the surface street crosses over using one of the [Draggable Elevated Road Viaducts](/docs/features/road-viaducts/).
 
-#### Transitioning to Other Networks
+### Transitions
 
-There are three types of transitions that exist in the RealHighway plugin: Height Transitions, Width Transitions, and Other Network Transitions. The first two cover cases between two RealHighway networks, while the latter covers transitions to non-RealHighway networks, i.e. Maxis and Network Widening Mod (NWM) networks.
+There are three types of transitions that exist in the RealHighway plugin: **Height Transitions**, **Width Transitions**, and **Network Transitions**.
+Height and width transitions are used to transition between different RealHighway networks, while the Network transitions cover transitions to non-RealHighway networks, i.e. Maxis and Network Widening Mod (NWM) networks.
 
-There are two methods of constructing Height Transitions, both of which involve ploppable items: the FLEX-based FLEXHeight system (found under the "FLEXHeight" button), and the conventional puzzle piece approach (found under the "Height Transitions" button, now a "legacy/deprecated" item). The FLEXHeight system is the more full-featured of the two, and vastly exceeds the capabilities of the older puzzle piece form.
+#### Height transitions
 
-{{< menu-icon icon="images/icons/rhw-flexheight-button.jpg" caption="_RHW FLEXHeight Button_" >}}
+There are two methods of constructing Height Transitions, both of which involve ploppable items: the FLEX-based FLEXHeight (FLEX-HT) system, and the conventional puzzle piece approach.
+The FLEXHeight system is the more full-featured of the two, and vastly exceeds the capabilities of the older puzzle piece form, which is now considered depreciated and is not installed by default.
 
-{{< menu-icon icon="images/icons/rhw-old-height-button.jpg" caption=`_RHW Height Transition Puzzle Pieces Button (**Only** installed if ["Legacy Height Transitions"](#installation) option is selected.)_` >}}
+{{< menu-icon icon="images/icons/rhw-flexheight-button.jpg" caption="RHW FLEXHeight Button" >}}
 
-There are two subtypes of Height Transitions: "Ramp-Style" and "On-Slope". The former is designed for use on (relatively) level ground, and uses a multi-tile rise to get the RealHighway up to the desired height, and presently exists in an orthogonal version, a (limited) diagonal version, and a (limited) curved version. The latter is for use on an embankment, and exists in an orthogonal version, and a (limited) diagonal form. In order to ensure proper placement on the OnSlope transitions, use of the NAM's [Hole Diggers and Raisers](/docs/feature-guides/base-network/) is recommended.
+{{< menu-icon icon="images/icons/rhw-old-height-button.jpg" caption=`RHW Height Transition Puzzle Pieces {{< deprecated >}}` >}}
 
-{{< img-simple src="images/rhw-ht-types.jpg" >}}
+{{< img-simple src="images/flexheight/rhw-flexheight-1.jpg" >}}
 
+The FLEXHeight family consists of a variety of pieces:
+1. 1-Level FLEXHeight Transition (includes diagonal variant)
+1. 2-Level FLEXHeight Transition (includes diagonal variant)
+1. L0 → L1 On-Slope Transition (includes diagonal variant)
+1. L0 → L2 On-Slope Transition (includes diagonal variant)
+1. 1-Level FLEXHeight 90° Curved Transition
+1. 1-Level MIS 180° Loop Transition
+1. L0 → L1 Multi Radius Curve (R3) Transition
+1. L1 → L0 Multi Radius Curve (R3) Transition
+
+There are two subtypes of Height Transitions: **Ramp-Style** and **On-Slope**.
+The Ramp-Style transitions are designed for use on (relatively) level ground, and uses a multi-tile rise transition RealHighway from one height to another.
+They primarily exist in orthogonal versions, with some limited diagonal and curved variations.
+The On-Slope transitions are for use on an embankment, where the RealHighway transitions to a new height but remains at the same elevation.
+These also exists primarily in orthogonal versions, with some limited diagonal variations.
+
+{{< img-simple src="images/flexheight/rhw-flexheight-types.jpg" >}}
 
 {{< alert context="warning" >}}
-<span class="text-warning">Using FLEXHeight Transitions with RHW-2:</span>
-
-Even though most FLEXHeight transitions default to the base RHW-2 network, for technical reasons, the pieces **will not** produce an elevated RHW-2 network and it is required to use a starter or connect to an already elevated RHW-2.  For other RHW networks, connecting to the L0 side of the transition will produce the appropriate elevated network on the opposite side.
+Even though most FLEXHeight transitions default to the base RHW-2 network, for technical reasons, the pieces **will not** produce an elevated RHW-2 network and it is required to use a starter or connect to an already elevated RHW-2. 
+For other RHW networks, connecting to the L0 side of the transition will produce the appropriate elevated network on the opposite side.
 {{< /alert >}}
 
+To use the Ramp-Style transitions, first place the desired piece, either a one level or two level transition.
+Place any RealHighway starter before the transition, and drag through with the 
 
-##### Ramp-Style Usage
-
-{{< img-simple src="images/rhw-flexheight-use-1a.jpg" >}}
-
-##### On-Slope Usage
-
-
-{{< gallery col-xl="3" col-lg="3" col-md="2" >}}
-    images/rhw-flexheight-use-onslope-1.jpg
-    images/rhw-flexheight-use-onslope-2.jpg
-    images/rhw-flexheight-use-onslope-3.jpg
-{{< /gallery >}}
-
-If using a multi-tile network, simply place multiple FLEXHeight transitions adjacent to one another, and drag each tile of the multi-tile network into the ends of the transition.
-
-{{< img-simple src="images/rhw-flexheight-use-3.jpg" >}}
+{{< carousel >}}
+    images/flexheight/rhw-flexheight-ramp-1.jpg | Ramp-Style height transition
+    images/flexheight/rhw-flexheight-ramp-2.jpg
+    images/flexheight/rhw-flexheight-ramp-3.jpg
+    images/flexheight/rhw-flexheight-ramp-4.jpg
+{{< /carousel >}}
 
 On the orthogonal and diagonal transitions, is also possible to transition between two different elevations (i.e. L1 and L2 instead of L0 and L1), simply by plugging the appropriate overrides into the ends.
 
-{{< img-simple src="images/rhw-l1-l2-transition.jpg" >}}
+{{< img-simple src="images/flexheight/rhw-flexheight-l1-l2.jpg" >}}
 
 Additionally, 3-Level and 4-Level Ramp-Style transitions can be built by overlapping the ends of multiple FLEXHeight 1-Level or 2-Level pieces. Note that this can only be done with networks that support the L3 and L4 elevation (the RHW-4, MIS Ramp, and RHW-6S).
 
-{{< img-simple src="images/rhw-l0-l3-transition.jpg" >}}
+{{< img-simple src="images/flexheight/rhw-flexheight-l0-l3.jpg" >}}
 
-The Width Transitions include the new FLEXWidth transition (FLEX-WT) system, as well as the older "legacy/deprecated" puzzle piece-based Width Transitions.
+To use the On-Slope transition, you first need the terrain set to the proper height, with a one tile slope between the L0 and the elevated portion.
+The NAM's [Hole Diggers and Raisers](/docs/feature-guides/hole-diggers-and-raisers/) are highly recommended to achieve the precise elevations required for the transitions.
+Start by placing the transition piece with the L0 side of the transition flat on the elevated ground and the L1 or L2 side hovering in the air.
+Finish by dragging RealHighway through the transition to override it to the desired network.
+
+{{< carousel >}}
+    images/flexheight/rhw-flexheight-onslope-1.jpg | On-Slope height transition
+    images/flexheight/rhw-flexheight-onslope-2.jpg
+    images/flexheight/rhw-flexheight-onslope-3.jpg
+{{< /carousel >}}
+
+To create height transitions for multi-tile networks, place multiple FLEXHeight transitions adjacent to one another, and drag each tile of the multi-tile network into the ends of the transition.
+
+{{< img-simple src="images/flexheight/rhw-flexheight-multiwidth.jpg" >}}
 
 ##### FLEXWidth Transitions (FLEX-WT)
+
+The Width Transitions include the new FLEXWidth transition (FLEX-WT) system, as well as the older "legacy/deprecated" puzzle piece-based Width Transitions.
 
 With the FLEXWidth transitions, these work similarly to the FLEXHeight transitions. Simply drag the appropriate networks into each end of the transition, which will, as appropriate, convert it to match.
 
