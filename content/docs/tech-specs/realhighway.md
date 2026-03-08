@@ -190,18 +190,67 @@ The availability of these transitions generally mirrors the available heights fo
 
 ### FLEXWidth Transitions
 
+The availability of these transitions mirrors the available heights for each network, with the exception of RHW-2 → RHW-4 and RHW-3 → RHW-4 which are L0 (ground-level) only.
+All networks involved in the transition must be at the same height level.
+
 #### Orthogonal Transitions
 
-_Note: S-to-C Transitions support asymmetrical combos, so additional possibilities exist beyond what is strictly indicated on this table, with the only limitation being that each network have the same number of lanes or differ by only one per side-- i.e. RHW-6S (3 lanes per side) can transition to RHW-4 (2 lanes per side), RHW-6C (3 lanes per side), and RHW-8C (4 lanes per side)._
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | MIS   | RHW-2 | RHW-3 | RHW-4 | RHW-6S | RHW-6C | RHW-8S | RHW-8C | RHW-10S | RHW-12S |
+|---------| :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :-----: | :-----: |
+| MIS     | ---   | No    | No    | Yes   | No     | No     | No     | No     | No      | No      |
+| RHW-2   | No    | ---   | Yes   | No    | No     | No     | No     | No     | No      | No      |
+| RHW-3   | No    | Yes   | ---   | Yes   | No     | No     | No     | No     | No      | No      |
+| RHW-4   | Yes   | No    | Yes   | ---   | Yes    | Yes    | No     | No     | No      | No      |
+| RHW-6S  | No    | No    | No    | Yes   | ---    | Yes    | Yes    | Yes    | No      | No      |
+| RHW-6C  | No    | No    | No    | Yes   | Yes    | ---    | Yes    | Yes    | No      | No      |
+| RHW-8S  | No    | No    | No    | No    | Yes    | Yes    | ---    | Yes    | Yes     | No      |
+| RHW-8C  | No    | No    | No    | No    | Yes    | Yes    | Yes    | ---    | Yes     | No      |
+| RHW-10S | No    | No    | No    | No    | No     | No     | Yes    | Yes    | ---     | Yes     |
+| RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | Yes     | ---     |
+{{< /table >}}
+
+S-to-C Transitions support asymmetrical combos, so additional possibilities exist beyond what is strictly indicated on this table.
+The only limitation is that each network has the same number of lanes or differ by only one lane per side.
+For example, RHW-6S (3 lanes per side) can transition to RHW-4 (2 lanes per side), RHW-6C (3 lanes per side), and RHW-8C (4 lanes per side).
 
 #### Diagonal Transitions
 
 Not currently supported.
 
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | MIS   | RHW-2 | RHW-3 | RHW-4 | RHW-6S | RHW-6C | RHW-8S | RHW-8C | RHW-10S | RHW-12S |
+|---------| :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :-----: | :-----: |
+| MIS     | ---   | No    | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-2   | No    | ---   | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-3   | No    | No    | ---   | No    | No     | No     | No     | No     | No      | No      |
+| RHW-4   | No    | No    | No    | ---   | No     | No     | No     | No     | No      | No      |
+| RHW-6S  | No    | No    | No    | No    | ---    | No     | No     | No     | No      | No      |
+| RHW-6C  | No    | No    | No    | No    | No     | ---    | No     | No     | No      | No      |
+| RHW-8S  | No    | No    | No    | No    | No     | No     | ---    | No     | No      | No      |
+| RHW-8C  | No    | No    | No    | No    | No     | No     | No     | ---    | No      | No      |
+| RHW-10S | No    | No    | No    | No    | No     | No     | No     | No     | ---     | No      |
+| RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | No      | ---     |
+{{< /table >}}
+
 #### Fractional Angle Transitions
 
 Not currently supported.
 
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | MIS   | RHW-2 | RHW-3 | RHW-4 | RHW-6S | RHW-6C | RHW-8S | RHW-8C | RHW-10S | RHW-12S |
+|---------| :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :-----: | :-----: |
+| MIS     | ---   | No    | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-2   | No    | ---   | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-3   | No    | No    | ---   | No    | No     | No     | No     | No     | No      | No      |
+| RHW-4   | No    | No    | No    | ---   | No     | No     | No     | No     | No      | No      |
+| RHW-6S  | No    | No    | No    | No    | ---    | No     | No     | No     | No      | No      |
+| RHW-6C  | No    | No    | No    | No    | No     | ---    | No     | No     | No      | No      |
+| RHW-8S  | No    | No    | No    | No    | No     | No     | ---    | No     | No      | No      |
+| RHW-8C  | No    | No    | No    | No    | No     | No     | No     | ---    | No      | No      |
+| RHW-10S | No    | No    | No    | No    | No     | No     | No     | No     | ---     | No      |
+| RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | No      | ---     |
+{{< /table >}}
 ### FLEXFly Crossings
 
 ### FLEXSPUI Crossings

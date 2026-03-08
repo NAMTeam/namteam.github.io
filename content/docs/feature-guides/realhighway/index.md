@@ -559,12 +559,7 @@ While this example uses RHW-4, the magic of the QuickChange pieces is that they 
 
 This process can easily be adapted to other RHW networks, other surface street options (such as Avenues or Network Widening Mod networks), and to variants where the RHW is at ground level, and the surface street crosses over using one of the [Draggable Elevated Road Viaducts](/docs/features/road-viaducts/).
 
-### Transitions
-
-There are three types of transitions that exist in the RealHighway plugin: **Height Transitions**, **Width Transitions**, and **Network Transitions**.
-Height and width transitions are used to transition between different RealHighway networks, while the Network transitions cover transitions to non-RealHighway networks, i.e. Maxis and Network Widening Mod (NWM) networks.
-
-#### Height transitions
+### Height Transitions
 
 There are two methods of constructing Height Transitions, both of which involve ploppable items: the FLEX-based FLEXHeight (FLEX-HT) system, and the conventional puzzle piece approach.
 The FLEXHeight system is the more full-featured of the two, and vastly exceeds the capabilities of the older puzzle piece form, which is now considered depreciated and is not installed by default.
@@ -631,21 +626,29 @@ To create height transitions for multi-tile networks, place multiple FLEXHeight 
 
 {{< img-simple src="images/flexheight/rhw-flexheight-multiwidth.jpg" >}}
 
-##### FLEXWidth Transitions (FLEX-WT)
+### Width Transitions
 
-The Width Transitions include the new FLEXWidth transition (FLEX-WT) system, as well as the older "legacy/deprecated" puzzle piece-based Width Transitions.
+The Width Transitions include the new FLEXWidth transition (FLEX-WT) system, as well as the older deprecated puzzle piece-based Width Transitions.
+The FLEXWidth transitions work very similarly to the FLEXHeight transitions - place the transition and drag the appropriate networks into each end of the transition, which will convert the transition to match the appropriate networks.
 
-With the FLEXWidth transitions, these work similarly to the FLEXHeight transitions. Simply drag the appropriate networks into each end of the transition, which will, as appropriate, convert it to match.
+{{< carousel >}}
+    images/flexwidth/rhw-flexwidth-1.jpg
+    images/flexwidth/rhw-flexwidth-2.jpg
+    images/flexwidth/rhw-flexwidth-3.jpg
+    images/flexwidth/rhw-flexwidth-4.jpg
+    images/flexwidth/rhw-flexwidth-5.jpg
+    images/flexwidth/rhw-flexwidth-6.jpg
+{{< /carousel >}}
 
-{{< img-simple src="images/rhw-flexwt-use.jpg" >}}
-
-For the large "S-to-C" transitions, due to the design of the FLEX piece, asymmetrical setups are possible. All networks involved in the transition must be at the same height level, and with the exception of the RHW-2-to-4 and RHW-3-to-4 transitions, which are L0/ground-level only, all height levels are available for FLEXWidth transitions.
+For the large "S-to-C" transitions, due to the design of the FLEX piece, asymmetrical setups are possible.
+All networks involved in the transition must be at the same height level, and with the exception of the RHW-2-to-4 and RHW-3-to-4 transitions, which are L0/ground-level only, all height levels are available for FLEXWidth transitions.
 
 {{< img-simple src="images/rhw-flexwt-asymmetry.jpg" >}}
 
 ##### Puzzle Piece Width Transitions {{< deprecated >}}
 
-With the legacy puzzle piece-based Width Transitions, simply find the desired puzzle piece by using TAB/Shift-TAB to cycle through the options, and place it. Most Width Transitions already have starters on the ends--note, however, that this fact significantly limits the slope tolerance of these transitions.
+With the legacy puzzle piece-based Width Transitions, find the desired puzzle piece by using <kbd>Tab</kbd>/<kbd>Shift</kbd>+<kbd>Tab</kbd> to cycle through the options, and place it.
+Most Width Transitions already have starters on the ends; note, however, that this fact significantly limits the slope tolerance of these transitions.
 
 {{< img-simple src="images/rhw-wt-use.jpg" >}}
 
