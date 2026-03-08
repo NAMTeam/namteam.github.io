@@ -251,6 +251,26 @@ Not currently supported.
 | RHW-10S | No    | No    | No    | No    | No     | No     | No     | No     | ---     | No      |
 | RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | No      | ---     |
 {{< /table >}}
+
+### Network Transitions
+
+Support for these transitions is fairly limited and are only supported through draggable methods.
+
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | Street | Road  | ARD-3 | NRD-4 | RD-4  | RD-6  | Avenue | AVE-2  | TLA-5  | AVE-6  | TLA-7  | OWR    | OWR-1  | OWR-3  | OWR-4  | OWR-5  | 
+|---------| :---:  | :---: | :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| MIS     | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | Yes    | Yes    | No     | No     | No     |
+| RHW-2   | Yes    | Yes   | No    | No    | No    | No    | No     | Yes    | No     | No     | No     | No     | No     | No     | No     | No     |
+| RHW-3   | No     | No    | Yes   | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | No     |
+| RHW-4   | No     | No    | No    | No    | Yes   | No    | Yes    | No     | Yes    | No     | No     | Yes    | No     | No     | No     | No     |
+| RHW-6S  | No     | No    | No    | No    | No    | Yes   | No     | No     | No     | No     | No     | No     | No     | Yes    | No     | No     |
+| RHW-6C  | No     | No    | No    | No    | No    | No    | No     | No     | No     | Yes    | Yes    | No     | No     | No     | No     | No     |
+| RHW-8S  | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | Yes    | No     |
+| RHW-8C  | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | No     |
+| RHW-10S | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | Yes    |
+| RHW-12S | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | No     |
+{{< /table >}}
+
 ### FLEXFly Crossings
 
 ### FLEXSPUI Crossings

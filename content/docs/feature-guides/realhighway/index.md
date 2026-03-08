@@ -652,9 +652,10 @@ Most Width Transitions already have starters on the ends; note, however, that th
 
 {{< img-simple src="images/rhw-wt-use.jpg" >}}
 
-##### Transitions to Non-RHW Networks
+### Network Transitions
 
-Transitions to non-RealHighway networks are accomplished simply by dragging the RealHighway and non-RealHighway network to meet. If the setup is supported, the transition will override to match the involved networks.
+Network transitions cover transitions to non-RealHighway networks including the Maxis and Network Widening Mod (NWM) networks.
+These transitions are created by dragging the RealHighway and non-RealHighway network together to meet. If the setup is supported, the transition will override to match the involved networks.
 
 {{< img-simple src="images/rhw-non-rhw-transition.jpg" >}}
 
