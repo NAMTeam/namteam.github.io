@@ -140,14 +140,27 @@ A carousel is a slideshow for cycling through a series of images. List the image
 ```
 
 #### Details
-This shortcode is simply a wrapper for the HTML [details element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details). Specify the summary text and optionally choose whether to have the element open by default instead of closed.
+This shortcode is simply a wrapper for the HTML [details element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details).
+Specify the summary text.
+Optionally choose whether to show a badge (currently `deprecated` and `legacy` are supported), and whether to have the element open by default instead of closed.
 
 ```
 {{< details "Summary text" >}}
 Content goes here. This will be hidden until the user clicks to expand.
 {{< /details >}}
 
-{{< details "Summary text" "open" >}}
+{{< details "Summary text" "deprecated" >}}
+Content goes here. This will be hidden until the user clicks to expand.
+{{< /details >}}
+
+{{< details summary="Summary text" badge="deprecated" >}}
+Content goes here. This will be hidden until the user clicks to expand.
+{{< /details >}}
+```
+
+To specify the state without a badge, you must use named arguments:
+```
+{{< details summary="Summary text" state="open" >}}
 This content will be visible by default because state is set to "open".
 {{< /details >}}
 ```
