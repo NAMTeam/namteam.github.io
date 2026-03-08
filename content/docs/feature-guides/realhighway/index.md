@@ -1091,9 +1091,9 @@ This button activates the base draggable RealHighway network tool, which default
 
 #### RHW Starters
 
-{{< menu-icon icon="images/icons/rhw-starters-button.jpg" caption="_Starter Pieces (located under the Highways Menu)_" >}}
+{{< details "The Starter Pieces allow one to widen and/or elevate their RealHighways, by dragging the base RealHighway network tool through them, causing them to convert to match." >}}
 
-The Starter Pieces allow one to widen and/or elevate their RealHighways, by dragging the base RealHighway network tool through them, causing them to convert to match.
+{{< menu-icon icon="images/icons/rhw-starters-button.jpg" caption="_Starter Pieces (located under the Highways Menu)_" >}}
 
 1. L0 RHW-4 Starter
 2. L0 MIS Starter
@@ -1134,12 +1134,15 @@ The Starter Pieces allow one to widen and/or elevate their RealHighways, by drag
 37. L4 MIS Starter
 38. L4 RHW-6S Starter
 39. DDRHW-4 Starter
+{{< /details >}}
 
 #### RHW Fillers
 
+{{< details "The Filler Puzzle Pieces exist for ease of use in tight spaces, where overrides break down and the use of a starter is not feasible." >}}
+
 {{< menu-icon icon="images/icons/rhw-fillers-button.jpg" caption="_Filler Puzzle Pieces (located under the Highways Menu)_" >}}
 
-The Filler Puzzle Pieces exist for ease of use in tight spaces, where overrides break down and the use of a starter is not feasible. Note that the RHW-8S, 10S, 6C, and 8C do not have diagonal fillers.
+Note that the RHW-8S, 10S, 6C, and 8C do not have diagonal fillers.
 
 1. L0 RHW-4 Filler Piece
 2. L0 Diag RHW-4 Filler Pieces (A and B)
@@ -1198,13 +1201,17 @@ The Filler Puzzle Pieces exist for ease of use in tight spaces, where overrides 
 55. DDRHW-4 Filler
 56. Diag DDRHW-4 Filler Pieces (A and B)
 
+{{< /details >}}
+
 ### RHW Ramp & Interchange Menu Items
 
 #### QuickChange Xpress Pieces
 
+{{< details "The QuickChange Xpress button offers pre-constructed full and partial interchanges, in FLEX format." >}}
+
 {{< menu-icon icon="images/icons/rhw-qc-button.jpg" caption="_QuickChange Pieces (located under the Highways Menu)_" >}}
 
-The QuickChange Xpress button offers pre-constructed full interchanges, in FLEX format. For more details, see the [QuickChange portion of this document](/docs/feature-guides/realhighway-mod/#quickchange-xpress-full-interchanges-in-a-click).
+For more details, see the [QuickChange portion of this document](/docs/feature-guides/realhighway-mod/#quickchange-xpress-full-interchanges-in-a-click).
 
 1. QuickChange L0 Dual Type 110 (Road)/L1 RHW
 2. QuickChange L1 Dual Type 110 (Road)/L0 RHW
@@ -1212,23 +1219,21 @@ The QuickChange Xpress button offers pre-constructed full interchanges, in FLEX 
 4. QuickChange L1 Dual Type 120 (Avenue)/L0 RHW
 5. QuickChange L0 Dual Type 230 (AVE-6)/L1 RHW
 6. QuickChange L1 Dual Type 230 (AVE-6)/L0 RHW
+7. QuickChange L0/L1 Diamond
+8. QuickChange L1/L0 Diamond
+9. QuickChange L0/L1 Parclo-Inner
+10. QuickChange L1/L0 Parclo-Inner
 
-#### QuickChange Pieces
-
-{{< menu-icon icon="images/icons/rhw-qc-button.jpg" caption="_QuickChange Pieces (located under the Highways Menu)_" >}}
-
-The QuickChange Pieces offer pre-constructed quadrants of full interchanges, in FLEX format. For more details, see the [QuickChange portion of this document](/docs/feature-guides/realhighway-mod/#quickchange-xpress-full-interchanges-in-a-click).
-
-1. QuickChange L0/L1 Diamond
-2. QuickChange L1/L0 Diamond
-3. QuickChange L0/L1 Parclo-Inner
-4. QuickChange L1/L0 Parclo-Inner
+{{< /details >}}
 
 #### RHW FLEXRamps
 
+{{< details "The FLEXRamps offer an easy way to have on/offramps branch off one's RealHighways. " >}}
+
 {{< menu-icon icon="images/icons/rhw-flexramps-button.jpg" caption="_FLEXRamps (located under the Highways Menu)_" >}}
 
-The FLEXRamps offer an easy way to have on/offramps branch off one's RealHighways. Being FLEX pieces, a single piece can work for multiple networks. For more details, see the [FLEXRamps portion of this document](/docs/feature-guides/realhighway-mod/#flexramps). To access diagonal versions (available for A1, B1, D1, and E1 ramps), simply rotate the piece with Home/End until the piece rotates appropriately.
+Being FLEX pieces, a single piece can work for multiple networks. For more details, see the [FLEXRamps portion of this document](/docs/feature-guides/realhighway-mod/#flexramps).
+To access diagonal versions (available for A1, B1, D1, and E1 ramps), simply rotate the piece with Home/End until the piece rotates appropriately.
 
 1. Type A1 FLEXRamp
 2. Type B1 FLEXRamp
@@ -1248,11 +1253,17 @@ The FLEXRamps offer an easy way to have on/offramps branch off one's RealHighway
 16. Type A3 FLEXRamp
 17. Type D3 FLEXRamp
 
+{{< /details >}}
+
 #### RHW Old Puzzle Piece Ramps {{< deprecated >}}
+
+{{< details "These puzzle pieces allow you to connect your RHW system through grade-separated interchanges to your surface street (Road, Avenue, One-Way Road) system, or to connect with other RHWs." >}}
 
 {{< menu-icon icon="images/icons/rhw-old-ramps-button.jpg" caption="_Puzzle Piece Ramp Interfaces and Specialized Crossings (located under the Highways Menu)_" >}}
 
-These puzzle pieces allow you to connect your RHW system through grade-separated interchanges to your surface street (Road, Avenue, One-Way Road) system, or to connect with other RHWs. Types A, B, D and E are located under this button, while Type C and F are located under the Fractional Angle RHW button. The Volleyball Specialized Crossing Pieces are also located here, in the non-deprecated section at the beginning of the TAB Ring. Note that aside from a few specialized setups, the pieces under this button are largely deprecated, and the use of FLEXRamps or DRIs will offer better functionality.
+Types A, B, D and E are located under this button, while Type C and F are located under the Fractional Angle RHW button.
+The Volleyball Specialized Crossing Pieces are also located here, in the non-deprecated section at the beginning of the TAB Ring.
+Note that aside from a few specialized setups, the pieces under this button are largely deprecated, and the use of FLEXRamps or DRIs will offer better functionality.
 
 1. RHW-3 Type A1/Type B1 Dual
 2. RHW-6C Type D1 Dual Shift
@@ -1315,13 +1326,17 @@ These puzzle pieces allow you to connect your RHW system through grade-separated
 59. RHW-10S Type E1 {{< deprecated >}}
 60. DDRHW-4 Type A1 {{< deprecated >}}
 
+{{< /details >}}
+
 ### RHW Transition Menu Items
 
 #### RHW FLEXHeight Transitions
 
+{{< details "These FLEX pieces allow you to transition to a different elevation with your RealHighway networks." >}}
+
 {{< menu-icon icon="images/icons/rhw-flexheight-button.jpg" caption="_FLEXHeight Transitions (located under the Highways Menu)_" >}}
 
-These FLEX pieces allow you to transition to a different elevation with your RealHighway networks. The "1-Level" and "2-Level" setups can be used with any network, while the 180° MIS Curve will only work with the L0 and L1 MIS.
+The "1-Level" and "2-Level" setups can be used with any network, while the 180° MIS Curve will only work with the L0 and L1 MIS.
 
 1. FlexHeight 1-Level Orthogonal
 2. FlexHeight 1-Level Diagonal
@@ -1335,9 +1350,11 @@ These FLEX pieces allow you to transition to a different elevation with your Rea
 10. FlexHeight 1-Level R3 45-Degree Transition (Orthogonal Lower/Diagonal Higher)
 11. FlexHeight 1-Level R3 45-Degree Transition (Orthogonal Higher/Diagonal Lower)
 
+{{< /details >}}
+
 #### RHW FLEXWidth Transitions
 
-These FLEX pieces allow you to transition to a different width with your RealHighway networks (presently Orthogonal-only).
+{{< details "These FLEX pieces allow you to transition to a different width with your RealHighway networks (presently Orthogonal-only)." >}}
 
 1. FLEXWidth Transition for Same Network Type (S-to-S or C-to-C)
 2. FLEXWidth Transition for Same Network Type/Tile Drop
@@ -1346,7 +1363,11 @@ These FLEX pieces allow you to transition to a different width with your RealHig
 5. FLEXWidth Transition for RHW-2/3-to-4 (and Dual RHW-4 to DDRHW-4) Asymmetrical
 6. FLEXWidth Transition for RHW-2/3-to-4 (and Dual RHW-4 to DDRHW-4) Symmetrical/Wishbone
 
+{{< /details >}}
+
 #### RHW Old Height Transition Puzzle Pieces {{< deprecated >}}
+
+{{< details "These older puzzle pieces allow for transitions between two different height levels of RHW networks." >}}
 
 {{< menu-icon icon="images/icons/rhw-old-height-button.jpg" caption="_Height Transition Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1392,7 +1413,11 @@ These older puzzle pieces allow for transitions between two different height lev
 38. MIS L2-to-L3 Starterless
 39. MIS Ground-to-Mid-Elevated L3 Starterless
 
+{{< /details >}}
+
 #### RHW Width Transitions {{< deprecated >}}
+
+{{< details "These puzzle pieces allow for transitions between two different widths of RHW networks." >}}
 
 {{< menu-icon icon="images/icons/rhw-width-transition-button.jpg" caption="_Width Transition Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1429,13 +1454,15 @@ These puzzle pieces allow for transitions between two different widths of RHW ne
 29. L2 RHW4-to-MIS Transition
 30. DDRHW-4-to-Dual-RHW-4 (L1/L2) Connector
 
+{{< /details >}}
+
 ### RHW Curves & FLEXFly Menu Items
 
 #### FLEXFly
 
-{{< menu-icon icon="images/icons/rhw-flexfly-button.jpg" caption="_FLEXFly Pieces (located under the Highways Menu)_" >}}
+{{< details "These FLEX pieces allow for construction of flyover ramps." >}}
 
-These FLEX pieces allow for construction of flyover ramps.
+{{< menu-icon icon="images/icons/rhw-flexfly-button.jpg" caption="_FLEXFly Pieces (located under the Highways Menu)_" >}}
 
 1. FLEXFly MIS L0 90-Degree (Type A1)
 2. FLEXFly MIS L0 90-Degree (Type A2)
@@ -1462,11 +1489,13 @@ These FLEX pieces allow for construction of flyover ramps.
 23. FLEXFly RHW-4 L2 45-Degree (Type B1)
 24. FLEXFly RHW-4 L2 45-Degree (Type B2)
 
+{{< /details >}}
+
 #### RHW Curves
 
-{{< menu-icon icon="images/icons/rhw-curves-button.jpg" caption="_RHW Curve Pieces (located under the Highways Menu)_" >}}
+{{< details "These pieces allow you to build smoother curves." >}}
 
-These pieces allow you to build smoother curves.
+{{< menu-icon icon="images/icons/rhw-curves-button.jpg" caption="_RHW Curve Pieces (located under the Highways Menu)_" >}}
 
 1. FLEX-MRC R2 45
 2. FLEX-MRC R2 90
@@ -1503,13 +1532,15 @@ These pieces allow you to build smoother curves.
 33. RHW-10 Outer Curve
 34. RHW-10 Inner Curve
 
+{{< /details >}}
+
 ### Fractional Angle RHW Menu Items
 
 #### FARHW Puzzle Pieces {{< legacy >}}
 
-{{< menu-icon icon="images/icons/rhw-farhw-button.jpg" caption="_Fractional Angle RHW (FARHW) Pieces (located under the Highways Menu)_" >}}
+{{< details "These pieces allow one to build RHW networks at fractional angles (18.4°/71.6°) in puzzle piece form." >}}
 
-These pieces allow one to build RHW networks at fractional angles (18.4°/71.6°) in puzzle piece form.
+{{< menu-icon icon="images/icons/rhw-farhw-button.jpg" caption="_Fractional Angle RHW (FARHW) Pieces (located under the Highways Menu)_" >}}
 
 1. FARHW-2 Straight
 2. FARHW-2 Short Curve
@@ -1543,11 +1574,13 @@ These pieces allow one to build RHW networks at fractional angles (18.4°/71.6°
 30. FAMIS Long Curve small outer
 31. FAMIS Long Curve small inner
 
+{{< /details >}}
+
 #### FARHW Ramp Puzzle Pieces {{< legacy >}}
 
-{{< menu-icon icon="images/icons/rhw-fa-ramps-button.jpg" caption="_Fractional Angle RHW (FARHW) Pieces (located under the Highways Menu)_" >}}
+{{< details "These pieces allow one to build the Type C and Type F ramp interfaces, in puzzle piece form." >}}
 
-These pieces allow one to build the Type C and Type F ramp interfaces, in puzzle piece form.
+{{< menu-icon icon="images/icons/rhw-fa-ramps-button.jpg" caption="_Fractional Angle RHW (FARHW) Pieces (located under the Highways Menu)_" >}}
 
 1. RHW-2 Type C1
 2. RHW-2 Type C1 Dual
@@ -1576,11 +1609,13 @@ These pieces allow one to build the Type C and Type F ramp interfaces, in puzzle
 25. MIS/FAMIS Ramp Type C1 - out
 26. Avenue Type C1 RHW-MIS Exit/Entrance Ramp
 
+{{< /details >}}
+
 #### FARHW Intersection Puzzle Pieces {{< legacy >}}
 
-{{< menu-icon icon="images/icons/rhw-fa-int-button.jpg" caption="_Fractional Angle RHW (FARHW) Intersections and Transitions (located under the Highways Menu)_" >}}
+{{< details "These pieces allow one to build width transitions and intersections involving Fractional Angle RealHighways (FARHWs), in puzzle piece form." >}}
 
-These pieces allow one to build width transitions and intersections involving Fractional Angle RealHighways (FARHWs), in puzzle piece form.
+{{< menu-icon icon="images/icons/rhw-fa-int-button.jpg" caption="_Fractional Angle RHW (FARHW) Intersections and Transitions (located under the Highways Menu)_" >}}
 
 1. FA MIS-to-RHW-4 Trans A
 2. FA MIS-to-RHW-4 Trans B
@@ -1593,11 +1628,15 @@ These pieces allow one to build width transitions and intersections involving Fr
 9. Fractional Angle Diamond 44A Halves
 10. Fractional Angle Diamond M2A Full
 
+{{< /details >}}
+
 ### Cosmetic Piece Menu Items
 
 These pieces allow you to manipulate the appearance of your RHW networks and transitions with fine control.
 
 #### 1 Tile Cosmetic Pieces
+
+{{< details "Ploppable cosmetic pieces for 1 tile width networks" >}}
 
 {{< menu-icon icon="images/icons/rhw-1tile-cp-button.jpg" caption="_1-Tile Cosmetic Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1659,7 +1698,11 @@ These pieces allow you to manipulate the appearance of your RHW networks and tra
 56. RHW-4 CP ROP Type A1
 57. RHW-4 CP ROP Type B1
 
+{{< /details >}}
+
 #### 2 Tile Cosmetic Pieces
+
+{{< details "Ploppable cosmetic pieces for two tile width networks" >}}
 
 {{< menu-icon icon="images/icons/rhw-2tile-cp-button.jpg" caption="_2-Tile Cosmetic Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1736,7 +1779,11 @@ These pieces allow you to manipulate the appearance of your RHW networks and tra
 71. RHW-10S CP SD1 UM
 72. RHW-10S CP SD1 LRA OUT
 
+{{< /details >}}
+
 #### 3 Tile Cosmetic Pieces
+
+{{< details "Ploppable cosmetic pieces for three tile width networks" >}}
 
 {{< menu-icon icon="images/icons/rhw-3tile-cp-button.jpg" caption="_3-Tile Cosmetic Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1767,7 +1814,11 @@ These pieces allow you to manipulate the appearance of your RHW networks and tra
 25. RHW-8C CP DS1 UM
 26. RHW-8C CP DS1 EA OUT
 
+{{< /details >}}
+
 #### Cosmetic Transition Pieces
+
+{{< details "Ploppable cosmetic pieces to transition between network widths" >}}
 
 {{< menu-icon icon="images/icons/rhw-cp-transition-button.jpg" caption="_Cosmetic Transition Puzzle Pieces (located under the Highways Menu)_" >}}
 
@@ -1783,42 +1834,35 @@ These pieces allow you to manipulate the appearance of your RHW networks and tra
 10. RHW-6C-to-RHW-8C Transition BM1
 11. RHW-3 CP Transition BM1
 
+{{< /details >}}
+
 ### RHW Utility Menu Items
 
 #### RHW Neighbor Connectors
 
-These pieces allow you to build properly functioning Neighbor Connections with RHWs beyond the base RHW-2 (Neighbor Connectors are also not needed for RHW-3 and Double-Decker RHW-4 connections).
+{{< details "These pieces allow you to build properly functioning Neighbor Connections with RHWs beyond the base RHW-2 (Neighbor Connectors are also not needed for RHW-3 and Double-Decker RHW-4 connections)." >}}
+
+{{< menu-icon icon="images/icons/rhw-nc-button.jpg" caption="_RHW Neighbor Connectors (located under the Highways Menu)_" >}}
 
 1. RHW FLEX Neighbor Connector (FLEX-NC).
 2. RHW Invisible Loop Connector
 
-#### RHW Neighbor Connection Puzzle Pieces {{< deprecated >}}
-
-{{< menu-icon icon="images/icons/rhw-nc-button.jpg" caption="_RHW Neighbor Connectors (located under the Highways Menu)_" >}}
-
-1. RHW Invisible Loop Connector
-2. RHW-4 Neighbor Connector
-3. MIS Neighbor Connector
-4. RHW-6S Neighbor Connector
-5. ERHW-4 Neighbor Connector
-6. RHW-8S Neighbor Connector
-7. RHW-10 Neighbor Connector
-8. EMIS Neighbor Connector
-9. RHW-6C Neighbor Connector
-10. RHW-8C Neighbor Connector
-11. ERHW-6S Neighbor Connector
-12. ERHW-6C Neighbor Connector
+{{< /details >}}
 
 ### RHW Cross-Network Menu Items
 
 #### Specialized RHW x Surface Intersections
 
-These FLEX pieces allow for specialized intersections with RHW ramps.
+{{< details "These FLEX pieces allow for specialized intersections with RHW ramps." >}}
 
 1. FlexSPUI (Single-Point Urban Interchange) Terminus
 2. FlexDDI (Diverging Diamond Interchange) Terminus
 
+{{< /details >}}
+
 #### RHW/Road {{< deprecated >}}
+
+{{< details "These puzzle pieces extend the NAM Elevated Road Puzzle Pieces to allow you to cross RHW networks." >}}
 
 {{< menu-icon icon="images/icons/rhw-rd-button.jpg" caption="_Road/RHW Puzzle Pieces and FLUPs (located under the Roads Menu)_" >}}
 
@@ -1845,7 +1889,11 @@ These puzzle pieces extend the NAM Elevated Road Puzzle Pieces to allow you to c
 19. FLUPs Underpass-Under RHW-6S/RHW-8S/RHW-10
 20. FLUPs RHW-2 Ramp
 
+{{< /details >}}
+
 #### RHW/One-Way Road {{< deprecated >}}
+
+{{< details "These puzzle pieces extend the NAM Elevated One-Way Road Puzzle Pieces to allow you to cross RHW networks." >}}
 
 {{< menu-icon icon="images/icons/rhw-owr-button.jpg" caption="_One-Way Road (OWR)/RHW Puzzle Pieces (located under the Roads Menu)_" >}}
 
@@ -1863,7 +1911,11 @@ These puzzle pieces extend the NAM Elevated One-Way Road Puzzle Pieces to allow 
 10. Elevated OWR/EMIS +-Intersection
 11. Elevated OWR/EMIS T-Intersection
 
+{{< /details >}}
+
 #### RHW/Avenue {{< deprecated >}}
+
+{{< details "These puzzle pieces extend the NAM Elevated Avenue Puzzle Pieces to allow you to cross RHW networks." >}}
 
 {{< menu-icon icon="images/icons/rhw-owr-button.jpg" caption="_Avenue/RHW Puzzle Pieces and FlexSPUI (located under the Roads Menu)_" >}}
 
@@ -1884,7 +1936,11 @@ These puzzle pieces extend the NAM Elevated Avenue Puzzle Pieces to allow you to
 13. Diverging Diamond-Avenue
 14. FlexSPUI Avenue Type A
 
+{{< /details >}}
+
 #### RHW/Rail {{< deprecated >}}
+
+{{< details "These puzzle pieces extend the old pre-RealRailway NAM Rail Viaduct set to allow one to cross RHW networks." >}}
 
 {{< menu-icon icon="images/icons/rhw-rail-button.jpg" caption="_Heavy Rail/RHW Puzzle Pieces (located under the Rails Menu)_" >}}
 
@@ -1900,27 +1956,23 @@ These puzzle pieces extend the old pre-RealRailway NAM Rail Viaduct set to allow
 8. Rail-over-RHW-10S Orthogonal/Orthogonal
 9. Rail-over-RHW-3 Orthogonal/Orthogonal
 
+{{< /details >}}
+
 ## Region Transport View
 
-The NAM includes the popular RHW Regional Transport Map Mod by **jondor** as an optional feature, which can be selected **via this option in the NAM Installer**. This mod utilizes a workaround to display RHWs on the Regional Transport Map. It also contains an updated and expanded map legend to reflect the new network colors as well as the addition of Monorail as a separate color from El-Rail/GLR. **This mod is NOT compatible with any other Regional Transport Map mods.**
+The NAM includes the popular RHW Regional Transport Map mod by jondor as an optional feature, which is included by default.
+This feature contains an updated and expanded map legend with the addition of the RealHighway network, as well as the addition of Monorail as a separate color from El-Rail/GLR. **This mod is NOT compatible with any other Regional Transport Map mods.**
 
-There is one requirement for the mod to function correctly: **You MUST activate at least one dataview in game before saving for the game to render the map correctly.** It does not appear that this issue can be fixed.
+{{< alert context="success" >}}
+After installation, each city tile must be opened and saved (after opening any dataview) in order to update the region map.
+If you do not open any of the dataviews before saving the game, the map will be rendered incorrectly resulting in all car traffic networks showing up as the highway color.
+{{< /alert >}}
 
-After installation, each city tile must be opened and saved (after opening any dataview) in order to update the region map. Similarly when uninstalling the mod, each city tile must be resaved to update the region map.
-
-### Frequently Asked Questions
-
-**Q: Why are highways black instead of red?**<br>
-**A:** Because of the way this workaround functions, the red color would show up as a halo around diagonal roads, bridges and certain puzzle pieces. The black color does as well, but is less noticeable.
-
-**Q: Why do the diagonals look weird?**<br>
-**A:** Again, because of the way this workaround functions, the diagonal roads, avenues and streets show up intermingled with the highway color. This is not possible to fix but the map colors were chosen to make it less noticable than other color combinations.
-
-**Q: Why are all my roads black?**<br>
-**A:** If you do not open any of the dataviews before saving the game, the map will be rendered incorrectly resulting in all car traffic networks showing up as the highway color.
-
-**Q: Will you make a version with my favorite colors?**<br>
-**A:** Sorry, but no. Anyone who can use iLive's Reader can easily change the colors to their liking.
+This mod utilizes a workaround to display RHWs on the regional transport map.
+Because of the way this workaround functions, the red color of the Maxis Highways would show up as a halo around diagonal roads, bridges and certain puzzle pieces.
+The black color does as well, but is less noticeable.
+It is possible that some diagonal networks look wierd in the transit map - because of the way this workaround functions, the diagonal roads, avenues and streets show up intermingled with the highway color.
+This is not possible to fix but the map colors were chosen to make it less noticable than other color combinations.
 
 ## Other Known Issues
 
