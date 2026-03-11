@@ -712,7 +712,9 @@ Note that with the exception of the FARHW Ramp Interfaces, none of the other FAR
 
 ### Cosmetic Pieces
 
-The Cosmetic Pieces are a set of puzzle pieces that are designed to allow one to exercise finer control of the look of their RealHighways, particularly with lane markings, such as auxiliary lane and HOV lane markings. Due to their sheer number (166 total at present), the Cosmetic Pieces are divided under four separate buttons, one for each tile width possibility (1-tile, 2-tile, and 3-tile), and one for cosmetic transitions. All four buttons can be found under the Highways menu.
+The Cosmetic Pieces are a set of puzzle pieces that are designed for precise control of the look of RealHighways, particularly with lane markings, including auxiliary lane and HOV lane markings.
+Due to the sheer number pieces (166 total at present), the Cosmetic Pieces are divided under four separate buttons, one for each network width (1-tile, 2-tile, and 3-tile), and one for cosmetic transitions.
+All four buttons can be found under the Highways menu.
 
 {{< menu-icon icon="images/icons/rhw-1tile-cp-button.jpg" caption="_RHW 1-Tile Cosmetic Pieces Button_" >}}
 
@@ -724,7 +726,8 @@ The Cosmetic Pieces are a set of puzzle pieces that are designed to allow one to
 
 {{< img-simple src="images/rhw-cosmetic-sample.jpg" >}}
 
-To use the Cosmetic Pieces, simply find the desired piece and place it. Please note that as puzzle pieces, the Cosmetic Pieces cannot accept or pass along overrides, albeit they can be placed over starter pieces in many situations.
+To use the Cosmetic Pieces, find the desired piece and place it.
+Please note that as puzzle pieces, the Cosmetic Pieces cannot accept or pass along overrides, albeit they can be placed over starter pieces in many situations.
 
 ### Bridges
 
