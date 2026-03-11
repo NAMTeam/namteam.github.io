@@ -330,7 +330,7 @@ All RHW networks, with the exception of the 6C and 8C networks, are capable of c
 
 ### Tunnels
 
-Due to the nature of the DirtRoad network, tunnels were never implemented and as such, are impossible to use in the game. However, there is currently some work being done on emulating tunnel functionality by using other networks with the FLEXFLUPs project.
+Tunnels are not supported for any RealHighway type. Refer to the [RHW Tunnels](/docs/feature-guides/realhighway-mod/#tunnels) section which describes some potential workarounds.
 
 ## Network ID Assignments
 

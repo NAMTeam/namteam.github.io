@@ -870,7 +870,9 @@ Not possible due to terrain engine restriction. You will need to switch to 2xRHW
 
 ### Tunnels
 
-The base RealHighway network **does NOT support tunnels**. While certain slope settings may permit a tunnel to appear, it will be completely non-functional, due to hardcoded limitations that prevent traffic from using it. There is no known solution to this limitation at present. The only possible workaround at present is to transition to another network that does support tunnels, or to use the new FLEX/Draggable version of the [Flexible Underpasses and URoads](/docs/feature-guides/flexible-underpasses/).
+The base RealHighway network **does NOT support tunnels**. While certain slope settings may permit a tunnel to appear, it will be completely non-functional, due to hardcoded limitations that prevent traffic from using it.
+There is no known solution to this limitation at present.
+The only current workaround is to transition to another network that does support tunnels, or to use the new FLEX/Draggable version of the [Flexible Underpasses and URoads](/docs/feature-guides/flexible-underpasses/).
 
 ### Neighbor Connections
 
