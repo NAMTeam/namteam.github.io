@@ -686,13 +686,17 @@ Note that FLEXFly pieces can only support a single crossing network at any given
 
 ### Fractional Angle RealHighways (FARHW)
 
-**Note that the current iteration of FARHW is considered "legacy" in the current NAM development paradigm as it is currently only usable via puzzle pieces. This will change in future releases.**
+{{< alert context="warning" >}}
+Note that the current iteration of FARHW is considered "legacy" in the current NAM development paradigm as it is currently only usable via puzzle pieces. This will change in future releases.
+{{< /alert >}}
 
-One can also further their "grid-busting" efforts with the RealHighway system with the use of the Fractional Angle RealHighway (FARHW) Puzzle Pieces. The FARHW pieces allow one to build RealHighways at angles other than orthogonal and diagonal--currently, only 18.4°/71.6° (or "FA-3", as it is known in Fractional Angle Network nomenclature).
+One can also further their "grid-busting" efforts with the RealHighway system with the use of the Fractional Angle RealHighway (FARHW) Puzzle Pieces.
+The FARHW pieces allow one to build RealHighways at angles other than orthogonal and diagonal.
+Currently, only 18.4°/71.6° (or "FA-3") is supported for RHW networks.
 
 {{< img-simple src="images/rhw-farhw-sample.jpg" >}}
 
-The FARHW pieces exist under three different buttons--the main FARHW pieces button, which contains the base fractional angle network pieces, and curves to connect to orthogonal and diagonal networks, the FARHW Ramp Interfaces button, which contain ramp interfaces involving FARHW connections (including the Type C1, C2, F1, F2, and C3 ramps), and the FARHW Intersections and Transitions button, which contains intersection pieces with FARHW approaches, as well as width transitions between different FARHW widths.
+The FARHW pieces exist under three different buttons: the main FARHW pieces button, which contains the base fractional angle network pieces and curves to connect to orthogonal and diagonal networks, the FARHW Ramp Interfaces button, which contain ramp interfaces involving FARHW connections (including the Type C1, C2, F1, F2, and C3 ramps), and the FARHW Intersections and Transitions button, which contains intersection pieces with FARHW approaches as well as width transitions between different FARHW widths.
 
 {{< menu-icon icon="images/icons/rhw-farhw-button.jpg" caption="_FARHW Button_" >}}
 
@@ -700,11 +704,11 @@ The FARHW pieces exist under three different buttons--the main FARHW pieces butt
 
 {{< menu-icon icon="images/icons/rhw-fa-int-button.jpg" caption="_FARHW Intersections and Transitions Button_" >}}
 
-In building stretches of FARHW, make sure that the line colors (or shoulder widths, if dealing with Euro textures) line up properly.
+When building stretches of FARHW, make sure that the line colors (or shoulder widths, if dealing with Euro textures) line up properly.
 
 {{< img-simple src="images/rhw-farhw-use.jpg" >}}
 
-Note that, with the exception of the FARHW Ramp Interfaces, none of the other FARHW pieces have starters on their ends, much like the Wide-Radius Curves, so one must be sure to place the orthogonal or diagonal ends of curves over an existing stretch of network.
+Note that with the exception of the FARHW Ramp Interfaces, none of the other FARHW pieces have starters on their ends, so one must be sure to place the orthogonal or diagonal ends of curves over an existing stretch of network.
 
 ### Cosmetic Pieces
 

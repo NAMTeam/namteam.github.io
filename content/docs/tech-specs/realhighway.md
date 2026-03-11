@@ -298,7 +298,8 @@ This compatibility also applies to all applicable levels of each RHW network, no
 
 ### Fractional Angle Support
 
-As Fractional Angle support for the RHW is entirely puzzle piece-based at present, see the listings in the Menu Items section, under the FARHW, FARHW Ramp Interfaces, and FARHW Intersections and Transitions buttons.
+{{< legacy >}} 
+Fractional Angle support for the RHW is entirely puzzle piece-based at present, see [Fractional Angle Menu Items lists](http://localhost:1313/docs/feature-guides/realhighway-mod/#fractional-angle-rhw-menu-items) for a listing of supported features.
 
 ### FLEX Turn Lane Intersection Support
 
