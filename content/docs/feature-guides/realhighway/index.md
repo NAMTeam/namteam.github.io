@@ -18,6 +18,40 @@ url: "docs/feature-guides/realhighway-mod"
     images/rhwteaser4.jpg
 {{< /gallery >}}
 
+## Overview
+
+The RHW and its interchange system is a highly modular system designed for the construction of (mostly) realistically-scaled interchanges, hence the name RealHighway.
+The game's default highway system and its interchanges are quite drastically under-scaled, in some cases by as much as 50%, when compared to the game's designers' intended dimensions (consider that Maxis' intended scale is 1 SC4 tile = 16 meters = 50 feet).
+There are some key differences in terms of how the RHW system operates compared with the default Maxis highways:
+
+<table class="table">
+    <tr>
+        <th>Multiple heights and widths</th>
+        <th>Complex Interchanges</th>
+        <th>Real world scaling</th>
+    </tr>
+    <tr>
+        <td>RealHighway networks come in a wide variety of <a href="/docs/feature-guides/realhighway-mod/#network-widths">shapes and sizes</a>, from 2-lane rural highways to 12-lane freeways. All networks in the system can be built at 3 to 5 <a href="/docs/feature-guides/realhighway-mod/#network-heights">different height levels</a>, including a double-decker style.</td>
+        <td>RealHighway allows for a high level of customization and creativity for those who want precise control over constructing interchanges. Recent NAM releases have included features making the RHW system more accessible by migrating toward "FLEX" pieces that can be used by multiple networks, and new <a href="/docs/feature-guides/realhighway-mod/#QCX">QuickChange Interchanges</a> bring a more Maxis-like pre built interchanges.</td>
+        <td>The scale of the RealHighway networks are based on current transportation design standards. Transitions and interchanges are larger, sometimes considerably, when compared to the compressed scale of Maxis Highways. Interfacing the RHW with Maxis Highways has very limited support.</td>
+    </tr>
+</table>
+
+## Development History
+
+The name "Rural Highway Project" dates back to the project's origins back in 2005, with the discovery of the only unfinished network stub left in the game.
+Formerly known as the Additional Network Tool "ANT", this network is now sometimes referred to as the "DirtRoad" network under the hood.
+While the project started out primarily for use in rural areas, by 2007 plans were begun to extend the "rural" features of the mod even further into a multi-purpose network designed for building realistically-scaled highways and interchanges in urban and suburban settings.
+As the scope of the project changed, the name of the project has also shifted from "Rural Highway" to "RealHighway".
+This name was chosen because it has historical precedence having been suggested by project founder qurlix back in 2006, it retains the same acronym of "RHW", and finally, it removes the "rural-only" stigma.
+
+Multi-height elevated networks, introduced in NAM 31, had a dramatic impact on the variety of interchanges that could be created.
+The QuickChange system added in NAM 32 simplifies the construction of some basic intersection types greatly, almost to the level of ease of Maxis pre-fabs, without sacrificing the flexibility of the RHW system.
+
+Also beginning with NAM 31, the development team has been pushing the vast majority of new feature development away from standard "static" puzzle pieces toward FLEX items.
+With the release of NAM 33, at least 90% of all ramp interfaces now exist in a FLEX form allowing for single pieces to function for many different RHW networks, vastly reducing the number of pieces to navigate in the process.
+Height transitions have also been converted to a FLEX format, reducing the number of required pieces from 100 to 4, and width transitions and wide-radius curves are on the docket for future FLEX treatment.  
+
 ## Installation
 
 A complete install of the RealHighway plugin is included by default in the NAM Installer.
@@ -28,16 +62,6 @@ Removing any optional components in this section should only be done by advanced
 The RHW **requires a 4GB_Full NAM Controller, and as such, also requires the 4GB Patch**. It is the largest component in the NAM package by a wide margin, and requires a 64-bit operating system and at least 4GB RAM to utilize.
 
 Euro textures for the RealHighways will be automatically installed if one selects one of the Euro road texture options.
-
-## RealHighway vs Maxis Highway
-
-There are some key differences in terms of how the RHW system operates compared with the default Maxis highways:
-
-* Rather than a single width and two height levels, RHW networks come in a wide variety of shapes and sizes, ranging from 2-lane rural highways to 10-lane freeways. All networks in the system can be built at either three or five different height levels. There is also some support for Double-Decker Highways.
-
-* The RHW allows for an extremely high level of user customization and creativity for those who want precise control over constructing interchanges. While the Maxis Highway system includes all-in-one, prefabricated interchanges and overpasses that can be plopped or automatically constructed, most RHW interchanges must be built manually using a series of interchangeable, modular pieces. As such, the RHW is more complicated to use with a higher learning curve, but offers a much greater degree of control. However, recent NAM releases have included features making the RHW system more accessible by migrating toward "FLEX" pieces that can be used by multiple networks, and new [QuickChange Interchanges](/docs/feature-guides/realhighway-mod/#QCX) bring a more Maxis-like pre built interchanges.
-
-* As evidenced by the "real" part of the name, the RHW also brings some semblance of real-world scaling to SC4 highways, based on current transportation design standards. As such, transitions and interchanges are larger, sometimes considerably, when compared to the compressed scale of the Maxis Highways.
 
 ## RealHighway Basics
 
@@ -659,7 +683,7 @@ These transitions are created by dragging the RealHighway and non-RealHighway ne
 
 {{< img-simple src="images/rhw-non-rhw-transition.jpg" >}}
 
-A full list of supported transition setups can be found [here](/docs/feature-guides/realhighway-mod/#network-and-flex-piece-capabilities), and a listing of items under the transition-related menu buttons can be found [here](/docs/feature-guides/realhighway-mod/#rhw-transition-menu-items).
+A full list of supported transition setups can be found [here](/docs/tech-specs/realhighway-mod), and a listing of items under the transition-related menu buttons can be found [here](/docs/feature-guides/realhighway-mod/#rhw-transition-menu-items).
 
 ### Advanced Curves and FLEXFly
 
@@ -1020,6 +1044,8 @@ Currently, the only crossing networks supported by the MIS-2 FTLs are Roads (wit
 {{< menu-icon icon="images/icons/rhw-network-button.jpg" caption="_RHW-2 Network Button (located under the Highways Menu)_" >}}
 
 This button activates the base draggable RealHighway network tool, which defaults to the RHW-2 network. The use of Starter and various FLEX pieces can initiate overrides, transforming the RHW-2 into other networks.
+
+{{< /details >}}
 
 {{< details "RHW Starters" >}}
 
