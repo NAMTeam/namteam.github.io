@@ -307,25 +307,22 @@ Fractional Angle support for the RHW is entirely puzzle piece-based at present, 
 
 ### Bridges
 
-> Refer to [the _Bridges_ section](/docs/feature-guides/realhighway-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
-
-All RHW networks, with the exception of the 6C and 8C networks, are capable of creating bridges.
-
 {{< table class="table-bordered nam-compat-status w-auto" >}}
-| NETWORK         | Base Network     |
-|-----------------|:----------------:|
-| RHW-2           |       RHW-2      |
-| RHW-3           |       RHW-2      |
-| MIS Ramp        |       RHW-2      |
-| RHW-4 (single)  |       RHW-2      |
-| RHW-4 (dual)    |       GHWY       |
-| RHW-6S (single) |       RHW-2      |
-| RHW-6S (dual)   |       GHWY       |
-| RHW-8S          |       GHWY       |
-| RHW-10S         |       GHWY       |
-| RHW-6C          |    No support    |
-| RHW-8C          |    No support    |
-| DD RHW-4        |       RHW-2      |
+|                 | Supported | Base Tool             |
+|-----------------| :------:  | :-------------------: |
+| MIS             | Yes       | RHW-2                 |
+| RHW-2           | Yes       | RHW-2                 |
+| RHW-3           | Yes       | RHW-2                 |
+| RHW-4 (single)  | Yes       | RHW-2                 |
+| RHW-4 (dual)    | Yes       | Maxis Ground Highway  |
+| RHW-6S (single) | Yes       | RHW-2                 |
+| RHW-6S (dual)   | Yes       | Maxis Ground Highway  |
+| RHW-6C          | No        | ---                   |
+| RHW-8S          | Yes       | Maxis Ground Highway  |
+| RHW-8C          | No        | ---                   |
+| RHW-10S         | Yes       | Maxis Ground Highway  |
+| RHW-12S         | Yes       | Maxis Ground Highway  |
+| DD-RHW-4        | Yes       | RHW-2                 |
 {{< /table >}}
 
 ### Tunnels

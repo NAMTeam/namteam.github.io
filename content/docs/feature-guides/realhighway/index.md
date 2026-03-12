@@ -731,142 +731,61 @@ Please note that as puzzle pieces, the Cosmetic Pieces cannot accept or pass alo
 
 ### Bridges
 
-The NAM does include bridges for various RealHighway networks. However, it is worth noting that there are some special caveats, due to a hardcoded restriction in the game's terrain engine, which prevents bridges from being built without at least a one-tile separation between them:
+The NAM includes bridges for various RealHighway networks.
+However, a hardcoded restriction in the game's terrain engine prevents bridges from being built without at least a one-tile separation between them, meaning some extra considerations must be taken to properly construct bridges:
 
-* Bridges involving the wider S-type networks (RHW-8S and RHW-10S) must be built with the _**Maxis Ground Highway**_ tool instead of the RealHighway tool.
-* Bridges involving the wider C-type networks (RHW-6C and RHW-8C) are **not possible**.
-* There are bridges available for adjacent RHW-4 and RHW-6S situations, also built with the Maxis Ground Highway tool.
-* Bridges for RealHighway networks with separate carriageways (i.e. the MIS Ramps, RHW-4, RHW-6S, RHW-8S, RHW-10S, and DDRHW-4) will have their traffic flow determined by the way in which the base network is dragged. Take note of the preview models to ensure you have built the bridge in the correct direction.
+* Bridges for RealHighway networks with separate carriageways (MIS Ramps, RHW-4, RHW-6S, RHW-8S, RHW-10S, and DDRHW-4) will have their traffic flow determined by the way in which the base network is dragged. Take note of the preview models to ensure you have built the bridge in the correct direction. These bridges use the **RealHighway** tool as expected.
+* Bridges involving the multi tile S-type networks (RHW-8S, RHW-10S, RHW-12S) must be built with the **Maxis Ground Highway** tool instead of the RealHighway tool.
+* Bridges for adjacent RHW-4 and RHW-6S networks are also built with the **Maxis Ground Highway** tool.
+* Bridges involving the triple tile C-type networks (RHW-6C and RHW-8C) are **not possible**.
 
 For the bridges that use the Maxis Highway as a base, there are overrides in place to seamlessly connect with the otherwise RealHighway-based networks. In order to create this smooth transition, ensure that only the end stub of the Maxis Highway network is showing at each end of the bridge. Then, simply drag each tile of the RealHighway override network into the Maxis Highway stubs. They will convert to match the RealHighway. This process is shown below.
 
 {{< img-simple src="images/rhw-mhw-bridge-guide.jpg" >}}
 
-Below is a list of all the bridges presently available. Maxis Ground Highway-based bridges will be marked with a bracketed note. (Click images for full resolution.)
+{{< alert context="info" >}}
+Currently the Viaduct style bridges are the only types that support network heights other than L0.
+{{< /alert >}}
 
-#### RHW-2 Bridges
+The following bridges are supported with the RealHighway tool:
 
-* Small Steel Arch RHW-2 Bridge
-* Plain RHW-2 Bridge
-* Concrete Girder RHW-2 Bridge
-* V-Shaped Steel Girder RHW-2 Bridge
-* L0 RHW-2 Viaduct Bridge
-* L1 RHW-2 Viaduct Bridge
-* L2 RHW-2 Viaduct Bridge
+{{< table class="table-bordered nam-compat-status align-middle w-auto" >}}
+| Bridge Type             | Preview                                                                   | MIS   | RHW-2 | RHW-3 | RHW-4  | RHW-6S | DDRHW-4 |
+| ----------------------- | :------------------------------------------------------------------------ | :---: | :---: | :---: | :----: | :----: | :-----: |
+| Viaduct                 | <img src="images/bridges/rhw-bridge-single-viaduct.jpg">      | Yes   | Yes   | Yes   | Yes    | Yes    | Yes     | 
+| Red Deck Under Truss    | <img src="images/bridges/rhw-bridge-single-red-deck-under-truss.jpg" >    | No    | Yes   | Yes   | Yes    | No     | No      |
+| Small Steel Arch        | <img src="images/bridges/rhw-bridge-single-small-steel-arch.jpg" >        | No    | Yes   | No    | Yes    | No     | No      | 
+| Plain                   | <img src="images/bridges/rhw-bridge-single-plain.jpg" >                   | No    | Yes   | No    | Yes    | No     | No      | 
+| Concrete Girder         | <img src="images/bridges/rhw-bridge-single-concrete-girder.jpg" >         | No    | Yes   | No    | No     | No     | No      | 
+| Steel Girder            | <img src="images/bridges/rhw-bridge-single-steel-girder.jpg" >            | No    | No    | No    | Yes    | No     | No      | 
+| Concrete Box Girder     | <img src="images/bridges/rhw-bridge-single-concrete-box-grider.jpg" >     | No    | No    | No    | Yes    | Yes    | No      | 
+| V-Shaped Steel Girder   | <img src="images/bridges/rhw-bridge-single-v-shaped-steel-grider.jpg" >   | No    | Yes   | No    | Yes    | No     | No      | 
+| Yellow Steel Box Girder | <img src="images/bridges/rhw-bridge-single-yellow-steel-box-girder.jpg" > | No    | Yes   | Yes   | Yes    | No     | No      | 
+| Green Over Deck Truss   | <img src="images/bridges/rhw-bridge-single-green-over-deck-truss.jpg" >   | No    | Yes   | Yes   | Yes    | No     | No      | 
+| Blue Suspension         | <img src="images/bridges/rhw-bridge-single-blue-suspension.jpg" >         | No    | Yes   | Yes   | Yes    | No     | No      | 
+{{< /table >}}
 
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/rhw2-bridges-1.jpg
-    images/bridges/rhw2-viaduct-bridges.jpg
-{{< /gallery >}}
+The following bridges are supported from the Ground Highway tool:
 
-#### RHW-3 Bridges
+{{< table class="table-bordered nam-compat-status align-middle w-auto" >}}
+| Bridge Type                 | Preview                                                                      | RHW-4 | RHW-6S | RHW-8S | RHW-10S | RHW-12S |
+| --------------------------- | :--------------------------------------------------------------------------- | :---: | :----: | :----: | :-----: | :-----: |
+| Viaduct                     | <img src="images/bridges/rhw-bridge-double-viaduct.jpg">                     | Yes   | Yes    | Yes    | Yes     | Yes     |
+| Cable Stayed                | <img src="images/bridges/rhw-bridge-double-cable-stayed.jpg">                | No    | No     | No     | Yes     | No      |
+| Maxis Highway Override      | <img src="images/bridges/rhw-bridge-double-maxis-hwy-override.jpg">          | Yes   | No     | No     | No      | No      |
+| Plain Compact Suspension    | <img src="images/bridges/rhw-bridge-double-compact-suspension.jpg">          | Yes   | No     | No     | No      | No      |
+| Undertruss                  | <img src="images/bridges/rhw-bridge-double-undertruss.jpg">                  | No    | No     | Yes    | No      | No      |
+| Large Concrete Arch         | <img src="images/bridges/rhw-bridge-double-large-concrete-arch.jpg">         | No    | No     | No     | Yes     | No      |
+| Large Steel Arch            | <img src="images/bridges/rhw-bridge-double-large-steel-arch.jpg">            | Yes   | No     | No     | No      | No      |
+| Compact Cable Stayed        | <img src="images/bridges/rhw-bridge-double-compact-cable-stayed.jpg">        | No    | Yes    | No     | No      | No      |
+| Compact Steel Arch          | <img src="images/bridges/rhw-bridge-double-compact-steel-arch.jpg">          | No    | Yes    | No     | No      | No      |
+| Steel Girder                | <img src="images/bridges/rhw-bridge-double-steel-girder.jpg">                | Yes   | No     | No     | No      | No      |
+| Dual Steel Girder           | <img src="images/bridges/rhw-bridge-double-dual-steel-grider.jpg">           | Yes   | No     | No     | No      | No      |
+| Compact Regular             | <img src="images/bridges/rhw-bridge-double-compact-regular.jpg">             | No    | Yes    | No     | No      | No      |
+| Compact Concrete Box Girder | <img src="images/bridges/rhw-bridge-double-compact-concrete-box-girder.jpg"> | No    | Yes    | No     | No      | No      |
+| Red Steel Arch              | <img src="images/bridges/rhw-bridge-double-red-steel-arch.jpg">              | No    | No     | No     | Yes     | Yes     |
+{{< /table >}}
 
-* L0 RHW-3 Viaduct Bridge
-* L1 RHW-3 Viaduct Bridge
-* L2 RHW-3 Viaduct Bridge
-
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/rhw3-viaduct-bridges.jpg
-{{< /gallery >}}
-
-#### MIS Ramp Bridges
-
-* L0 MIS Viaduct Bridge
-* L1 MIS Viaduct Bridge
-* L2 MIS Viaduct Bridge
-
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/mis-viaduct-bridges.jpg
-{{< /gallery >}}
-
-#### RHW-4 Bridges
-
-* Small Steel Arch RHW-4 Bridge
-* Plain RHW-4 Bridge
-* Steel Girder RHW-4 Bridge
-* Concrete Box Girder RHW-4 Bridge
-* V-Shaped Steel Girder RHW-4 Bridge
-* Dual Steel Girder RHW-4 Bridge (1) [Maxis Ground Highway-based]
-* Dual Steel Girder RHW-4 Bridge (2) [Maxis Ground Highway-based]
-* Plain Compact Suspension RHW-4 Bridge [Maxis Ground Highway-based]
-* Large Steel Arch Compact RHW-4 Bridge [Maxis Ground Highway-based]
-* L0 RHW-4 Viaduct Bridge
-* L1 RHW-4 Viaduct Bridge
-* L2 RHW-4 Viaduct Bridge
-
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/rhw4-bridges-1.jpg
-    images/bridges/rhw4-bridges-2.jpg
-    images/bridges/rhw4-bridges-3.jpg
-    images/bridges/rhw4-bridges-4.jpg
-{{< /gallery >}}
-
-#### RHW-6S Bridges
-
-* Concrete Box Girder RHW-6S Bridge
-* Compact Concrete Box Girder RHW-6S Bridge [Maxis Ground Highway-based]
-* Compact Regular RHW-6S Bridge [Maxis Ground Highway-based]
-* Compact Cable-Stayed RHW-6S Bridge [Maxis Ground Highway-based]
-* Compact Steel Arch RHW-6S Bridge [Maxis Ground Highway-based]
-* L0 RHW-6S Viaduct Bridge
-* L1 RHW-6S Viaduct Bridge
-* L2 RHW-6S Viaduct Bridge
-
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/rhw6s-bridges-1.jpg
-    images/bridges/rhw6s-bridges-2.jpg
-    images/bridges/rhw6s-bridges-3.jpg
-    images/bridges/rhw6s-viaduct-bridges.jpg
-{{< /gallery >}}
-
-#### RHW-8S Bridges
-
-* Undertruss RHW-8S Bridge [Maxis Ground Highway-based]
-* L0 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
-* L1 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
-* L2 RHW-8S Viaduct Bridge [Maxis Ground Highway-based]
-
-{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/rhw8s-bridges-1.jpg
-    images/bridges/rhw8s-viaduct-bridges.jpg
-{{< /gallery >}}
-
-#### RHW-10S Bridges
-
-* Large Concrete Arch RHW-10S Bridge [Maxis Ground Highway-based]
-* Cable Stayed RHW-10S Bridge [Maxis Ground Highway-based]
-* Steel Arch RHW-10S Bridge [Maxis Ground Highway-based]
-* L0 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
-* L1 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
-* L2 RHW-10S Viaduct Bridge [Maxis Ground Highway-based]
-
-{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/rhw10s-bridges-1.jpg
-    images/bridges/rhw10s-viaduct-bridges.jpg
-{{< /gallery >}}
-
-#### RHW-12S Bridges
-
-* Steel Arch RHW-12S Bridge [Maxis Ground Highway-based]
-* L0 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
-* L1 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
-* L2 RHW-12S Viaduct Bridge [Maxis Ground Highway-based]
-
-#### DDRHW-4 Bridges
-
-* Plain DDRHW-4 Bridge
-
-{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
-    images/bridges/ddrhw4-bridges-1.jpg
-{{< /gallery >}}
-
-#### RHW-6C Bridges
-
-Not possible due to terrain engine restriction. You will need to switch to 2xRHW-6S before crossing rivers, use one of the 6C-to-6S transition pieces.
-
-#### RHW-8C Bridges
-
-Not possible due to terrain engine restriction. You will need to switch to 2xRHW-8S before crossing rivers, use one of the 8C-to-8S transition pieces.
 
 ### Tunnels
 
