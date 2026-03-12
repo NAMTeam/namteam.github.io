@@ -65,22 +65,26 @@ Euro textures for the RealHighways will be automatically installed if one select
 
 ## RealHighway Basics
 
-The RealHighway system avails itself of the only unfinished network stub left in the game (formerly known as the Additional Network Tool "ANT", now known as the "DirtRoad" network), and turns it into the RHW's base network, the 2-lane RealHighway (RHW-2), along with 36 override networks.
+The RealHighway's base network is the 2-lane RealHighway, called RHW-2.
+However, through clever use of overrides, more than 36 additional networks are possible, all based off of RHW-2.
+
 The nomenclature used for RealHighway networks distinguishes each network by the total number of lanes to facilitate two-way traffic with the network. For instance:
 * RHW-2 contains two lanes, one in each direction.
-* RHW-4 has four lanes, two in each direction. Despite an individual tile of RHW-4 carrying two lanes in one direction, full bidirectional traffic with RHW-4 requires two stretches of the network traveling in opposite directions, resulting in a total of four lanes.
+* RHW-4 has four lanes, two in each direction. One individual tile of RHW-4 carries two lanes in one direction; however, full bidirectional traffic with RHW-4 requires two stretches of the network traveling in opposite directions, resulting in a total of four lanes.
 
-With some of the wider networks, the letters "S" or "C" may be added after the lane count designation (i.e. RHW-8S or RHW-6C).
-* "S" is an indication for "separable", meaning that the lanes carrying travel in the opposite direction may be separated by any distance.
-* "C" stands for "combined", meaning the center tile of the "C" networks carries the median separating the two directions of traffic, thereby making it inseparable.
+Some of the wider RHW networks may have letters "S" or "C" added after the lane count designation (i.e. RHW-8S or RHW-6C).
+* "**S**" stands for "separable", meaning that the lanes carrying travel in the opposite direction may be separated by any number of tiles.
+* "**C**" stands for "combined", meaning the center tile of the "C" networks carries the contains separating the two directions of traffic, making the two directions inseparable.
 
-It is also possible to make _ad hoc_ asymmetrical networks as well. For instance, one could create a 5-lane highway by using the RHW-4 on one side, and an RHW-6S on the other. The C-type networks, while not separable, also support this sort of functionality, and a dedicated starter exists for an "RHW-7C", which uses parts of the RHW-8C and RHW-6C for construction.
+It is possible to make *ad hoc* asymmetrical networks as well. For instance, one could create a 5-lane highway by using the RHW-4 (two lines) on one side, and an RHW-6S (three-lanes) on the other.
+The C-type networks, while not separable, also support this sort of functionality, and a dedicated starter exists for an "RHW-7C", which uses parts of the RHW-8C (four lanes) and RHW-6C (three lanes) for construction.
 
-The main exception to this naming scheme is the Modular Interchange System (MIS) Ramp override network, one lane RHW typically used for highway on and off ramps
+The main exception to this naming scheme is the Modular Interchange System (MIS) Ramp override network, which is single lane RHW typically used for highway on and off ramps.
 
 ### Network Widths
 
-The following networks are included as part of the RealHighway mod.
+The following networks are included as part of the RealHighway mod:
+
 {{< table class="table table-striped table-bordered w-auto align-items-center" >}}
 | Network | Full Name | Tile Width |
 | --- | --- | --- |
@@ -108,8 +112,6 @@ The following networks are included as part of the RealHighway mod.
     images/base-and-override-networks/rhw8s.jpg
     images/base-and-override-networks/rhw8c.jpg
     images/base-and-override-networks/rhw10s.jpg
-{{< /gallery >}}
-{{< gallery >}}
     images/base-and-override-networks/rhw12s.jpg
 {{< /gallery >}}
 
@@ -1039,7 +1041,7 @@ Currently, the only crossing networks supported by the MIS-2 FTLs are Roads (wit
 
 ### RHW Network Menu Items
 
-#### RHW-2 Base Network
+{{< details "Base Network" >}}
 
 {{< menu-icon icon="images/icons/rhw-network-button.jpg" caption="_RHW-2 Network Button (located under the Highways Menu)_" >}}
 
