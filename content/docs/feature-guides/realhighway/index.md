@@ -828,8 +828,8 @@ These two special neighbor connection pieces, the **RHW FLEX Neighbor Connector*
 Start by building a neighbor connection through the normal draggable means with the RHW network you wish to use.
 
 {{< carousel >}}
-    images/rhw-nc-1.jpg
-    images/rhw-nc-2.jpg
+    images/nc/rhw-nc-1.jpg
+    images/nc/rhw-nc-2.jpg
 {{< /carousel >}}
 
 {{< alert context="info" >}}
@@ -844,12 +844,12 @@ The connector pieces are invisible when placed, but will show a subtle 'ghost mo
 For "Combined" ("C-type") networks, such as the RHW-6C and 8C, place the FLEX-NC piece over each tile. No Invisible Loop Connectors are required.
 
 {{< carousel >}}
-    images/rhw-nc-3.png | Use the FLEX-NC piece
-    images/rhw-nc-4.png | Use the FLEX-NC piece
-    images/rhw-nc-5.png | Use the Invisible Loop Connector
-    images/rhw-nc-6.png | NC pieces shown when queried
-    images/rhw-nc-7.jpg | Use the FLEX-NC piece 3x
-    images/rhw-nc-8.jpg | Paths drape over the edge of the city
+    images/nc/rhw-nc-3.png | Use the FLEX-NC piece
+    images/nc/rhw-nc-4.png | Use the FLEX-NC piece
+    images/nc/rhw-nc-5.png | Use the Invisible Loop Connector
+    images/nc/rhw-nc-6.png | NC pieces shown when queried
+    images/nc/rhw-nc-7.jpg | Use the FLEX-NC piece 3x
+    images/nc/rhw-nc-8.jpg | Paths drape over the edge of the city
 {{< /carousel >}}
 
 {{< alert context="warning" >}}
