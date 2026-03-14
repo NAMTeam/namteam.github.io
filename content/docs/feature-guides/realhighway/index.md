@@ -939,11 +939,20 @@ The RHW includes a special puzzle piece allowing for the construction of a DDI w
 
 #### Volleyball Interchange
 
-The Volleyball Interchange, also commonly known as a Three-Level Diamond, or Split-Level Diamond, is a three-level interchange, in which all turning motions are handled by at-grade intersections on a separate height level from through traffic.
+The Volleyball Interchange, also commonly known as a Three-Level Diamond or Split-Level Diamond, is a three-level interchange, in which all turning motions are handled by at-grade intersections on a separate height level from through traffic.
 
-Under the old Puzzle Piece Ramp Interfaces button on the Highways menu, one can find a series of "Specialized Crossing Pieces" (SCPs) to handle Volleyball Interchange intersections. To use them, simply place them down, and place starter pieces between each intersection to connect them.
+{{< img-simple src="images/volleyball/rhw-volleyball.jpg" caption="Volleyball interchange" >}}
 
-{{< img-simple src="images/rhw-volleyball.jpg" >}}
+The old Puzzle Piece Ramp Interfaces button in the Highways menu contains 5 variations of the Volleyball Interchange intersections, two of which include traffic signals.
+To use them, place the intersections, then place starter pieces between each intersection to connect them.
+
+{{< gallery  col-xl="5" col-lg="3" col-md="3">}}
+    images/volleyball/rhw-volleyball-a1.jpg
+    images/volleyball/rhw-volleyball-a2.jpg
+    images/volleyball/rhw-volleyball-a2a.jpg
+    images/volleyball/rhw-volleyball-a2b.jpg
+    images/volleyball/rhw-volleyball-a2c.jpg
+{{< /gallery >}}
 
 #### Three-Level Crossings
 
