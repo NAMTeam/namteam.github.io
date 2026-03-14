@@ -486,11 +486,7 @@ In order to connect to another RealHighway, follow the same process, but instead
 
 {{< img-simple src="images/rhw-ramp-to-ramp.jpg" >}}
 
-
-
-
-
-##### Using FLEXRamps
+#### Using FLEXRamps
 
 FLEXRamps are ploppable FLEX on/offramp pieces, and are perhaps the easiest to navigate option to branch ramps off one's RealHighway system. The FLEXRamp pieces may be found under the FLEXRamps button on the Highways menu. To use the FLEXRamps, simply find the desired ramp design, and plop it down. Each FLEXRamp has a default network, but will convert to match if one drags another RHW override network through it, or plops the ramp over an existing stretch of an RHW override network. The process is shown below (the process of overriding the base setup of the Draggable Ramp Interfaces is identical):
 
@@ -521,7 +517,7 @@ Below is a list of the default networks for each FLEXRamp:
 
 With the wider RHW networks (provided they are supported by the particular FLEXRamp type--see the piece description in game), for most situations, simply align the ramp interface with the shoulder tile for standard ramps, and with the median tile for the inside ramps. If trying to build an RHW-8S Type D2 or E2 setup, however, one should instead align it with the median tile. (Note also that the elevated versions of the RHW-6S do not support Type A1 setups, and the elevated versions of the RHW-8S do not support Type A1 setups, due to the overhang on the RHW-6S network.)
 
-##### Building Draggable Ramp Interfaces (DRIs) {#dri}
+#### Building Draggable Ramp Interfaces (DRIs) {#dri}
 
 Draggable Ramp Interfaces, or DRIs, are ramp interfaces that are constructed as draggable patterns using the RealHighway network.
 With the exception of a very few specialized setups, virtually every RHW ramp interface setup can be built through draggable means, and at present, there are some ramps that are only possible as DRIs.
@@ -544,7 +540,7 @@ Since the drag patterns involve the creation of intersections, the point where t
 DRIs are otherwise slope-tolerant.
 {{< /alert >}}
 
-##### Older Puzzle Piece Ramp Interfaces {{< deprecated >}}
+#### Older Puzzle Piece Ramp Interfaces {{< deprecated >}}
 
 A set of Puzzle Piece Ramp Interfaces also exists. While it was the original method for constructing ramp interfaces, it has largely become a deprecated method, aside from the few setups not covered otherwise, due to the demands it places on the menu system. The Puzzle Piece Ramp Interfaces exist under two buttons, the Puzzle Piece Ramp Interfaces button, and the Fractional Angle Ramp Interfaces button (which contains all the Type C and Type F ramps). One must find the precise puzzle piece needed for the particular setup on the desired network, and place it. As static puzzle pieces, these ramp interfaces cannot carry overrides.
 
