@@ -1067,7 +1067,7 @@ Currently, the only crossing networks supported by the MIS-2 FTLs are Roads (wit
 
 ## List of Menu Items
 
-### RHW Network Menu Items
+#### RHW Network Menu Items
 
 {{< details "Base Network" >}}
 
@@ -1190,7 +1190,7 @@ Note that the RHW-8S, 10S, 6C, and 8C do not have diagonal fillers.
 
 {{< /details >}}
 
-### RHW Ramp & Interchange Menu Items
+#### RHW Ramp & Interchange Menu Items
 
 {{< details "QuickChange" >}}
 
@@ -1312,7 +1312,7 @@ Note that aside from a few specialized setups, the pieces under this button are 
 
 {{< /details >}}
 
-### RHW Transition Menu Items
+#### RHW Transition Menu Items
 
 {{< details "FLEXHeight Transitions" >}}
 
@@ -1439,7 +1439,7 @@ The transition allowing the DDRHW-4 to connect to the L1 and L2 RHW-4 is located
 
 {{< /details >}}
 
-### RHW Curves & FLEXFly Menu Items
+#### RHW Curves & FLEXFly Menu Items
 
 {{< details "FLEXFly" >}}
 
@@ -1517,7 +1517,7 @@ These pieces allow you to build smoother curves.
 
 {{< /details >}}
 
-### Fractional Angle RHW Menu Items
+#### Fractional Angle RHW Menu Items
 
 {{< details "FARHW Puzzle Pieces" "legacy" >}}
 
@@ -1613,7 +1613,7 @@ These pieces allow one to build width transitions and intersections involving Fr
 
 {{< /details >}}
 
-### Cosmetic Piece Menu Items
+#### Cosmetic Piece Menu Items
 
 These pieces allow you to manipulate the appearance of your RHW networks and transitions with fine control.
 
@@ -1819,7 +1819,7 @@ Ploppable cosmetic pieces to transition between network widths.
 
 {{< /details >}}
 
-### RHW Utility Menu Items
+#### RHW Utility Menu Items
 
 {{< details "RHW Neighbor Connectors" >}}
 
@@ -1832,7 +1832,7 @@ These pieces allow you to build properly functioning Neighbor Connections with R
 
 {{< /details >}}
 
-### RHW Cross-Network Menu Items
+#### RHW Cross-Network Menu Items
 
 {{< details "Specialized RHW x Surface Intersections" >}}
 
