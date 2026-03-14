@@ -6,7 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
-url: "docs/feature-guides/realhighway-mod"
+url: "docs/feature-guides/realhighway"
 ---
 <!-- markdownlint-disable MD051 -->
 {{< docstatus status="workinprogress" >}}
@@ -31,8 +31,8 @@ There are some key differences in terms of how the RHW system operates compared 
         <th>Real world scaling</th>
     </tr>
     <tr>
-        <td>RealHighway networks come in a wide variety of <a href="/docs/feature-guides/realhighway-mod/#network-widths">shapes and sizes</a>, from 2-lane rural highways to 12-lane freeways. All networks in the system can be built at 3 to 5 <a href="/docs/feature-guides/realhighway-mod/#network-heights">different height levels</a>, including a double-decker style.</td>
-        <td>RealHighway allows for a high level of customization and creativity for those who want precise control over constructing interchanges. Recent NAM releases have included features making the RHW system more accessible by migrating toward "FLEX" pieces that can be used by multiple networks, and new <a href="/docs/feature-guides/realhighway-mod/#QCX">QuickChange Interchanges</a> bring a more Maxis-like pre built interchanges.</td>
+        <td>RealHighway networks come in a wide variety of <a href="/docs/feature-guides/realhighway/#network-widths">shapes and sizes</a>, from 2-lane rural highways to 12-lane freeways. All networks in the system can be built at 3 to 5 <a href="/docs/feature-guides/realhighway/#network-heights">different height levels</a>, including a double-decker style.</td>
+        <td>RealHighway allows for a high level of customization and creativity for those who want precise control over constructing interchanges. Recent NAM releases have included features making the RHW system more accessible by migrating toward "FLEX" pieces that can be used by multiple networks, and new <a href="/docs/feature-guides/realhighway/#QCX">QuickChange Interchanges</a> bring a more Maxis-like pre built interchanges.</td>
         <td>The scale of the RealHighway networks are based on current transportation design standards. Transitions and interchanges are larger, sometimes considerably, when compared to the compressed scale of Maxis Highways. Interfacing the RHW with Maxis Highways has very limited support.</td>
     </tr>
 </table>
@@ -169,8 +169,8 @@ With the exception of L0 RHW-2, double diagonal setups are not supported.
 {{< img-simple src="images/curves/rhw-multitile-diagonals.jpg" >}}
 
 The default draggable curves for the RealHighway networks are not exactly the smoothest or most realistic.
-The FLEX-based and draggable [Multi-Radius Curves (MRCs)](/docs/feature-guides/realhighway-mod/#mrcs) and the Puzzle Piece-based [Wide-Radius Curves (WRCs)]((/docs/feature-guides/realhighway-mod/#wrcs)) provide smoother curves with wider radii than the defaults.
-[Fractional Angle RealHighways (FARHW)](/docs/feature-guides/realhighway-mod/#fractional-angle-realhighways-farhw) are also available for even gentler curves. 
+The FLEX-based and draggable [Multi-Radius Curves (MRCs)](/docs/feature-guides/realhighway/#mrcs) and the Puzzle Piece-based [Wide-Radius Curves (WRCs)]((/docs/feature-guides/realhighway/#wrcs)) provide smoother curves with wider radii than the defaults.
+[Fractional Angle RealHighways (FARHW)](/docs/feature-guides/realhighway/#fractional-angle-realhighways-farhw) are also available for even gentler curves. 
 
 The default sharp 90-degree bends are only available with the RHW-2 and MIS Ramp networks (at all height levels), for the sake of realism.
 The MIS Ramp's version also overrides one "buffer tile" on either side of the bend itself, to produce a smoother curve automatically.
@@ -185,12 +185,12 @@ The Multi-Radius Curves are a series of wider-radius curves that are constructed
 There are five radii total included in the MRC system, R1, R2, R3, R4, and R5, as well as an S-Curve and a Basketweave setup.
 The higher the number, the wider the radius.
 As with all RHW FLEX items, the default network when plopping is RHW-2, but these will support overrides up to RHW-6S width.
-Refer to the [RHW Compatibility Guide](/docs/tech-specs/realhighway-mod/) for the full detail on what is supported.
+Refer to the [RHW Compatibility Guide](/docs/tech-specs/realhighway/) for the full detail on what is supported.
 
 {{< img-simple src="images/curves/rhw-mrc-radii.jpg" >}}
 
 The Multi-Radius Curves do not support the creation of intersections or crossings at any point in the curve, and attempting to build one will destabilize the curve.
-The [FLEXFly system](/docs/feature-guides/realhighway-mod/#using-the-flexfly-flexible-flyover-system) does allow for an equivalent functionality, however.
+The [FLEXFly system](/docs/feature-guides/realhighway/#using-the-flexfly-flexible-flyover-system) does allow for an equivalent functionality, however.
 
 #### R1 Curves
 
@@ -285,7 +285,7 @@ For grade-separated crossings, where networks at different height levels--for in
 
 {{< img-simple src="images/rhw-elcrossing.jpg" >}}
 
-For additional information about what network crossings are supported with the other components of the Network Addon Mod, refer to the [RHW Compatibility Guide](/docs/tech-specs/realhighway-mod/).
+For additional information about what network crossings are supported with the other components of the Network Addon Mod, refer to the [RHW Compatibility Guide](/docs/tech-specs/realhighway/).
 
 ### QuickChange Interchanges {#QCX}
 
@@ -681,7 +681,7 @@ These transitions are created by dragging the RealHighway and non-RealHighway ne
 
 {{< img-simple src="images/rhw-non-rhw-transition.jpg" >}}
 
-A full list of supported transition setups can be found [here](/docs/tech-specs/realhighway-mod), and a listing of items under the transition-related menu buttons can be found [here](/docs/feature-guides/realhighway-mod/#rhw-transition-menu-items).
+A full list of supported transition setups can be found [here](/docs/tech-specs/realhighway), and a listing of items under the transition-related menu buttons can be found [here](/docs/feature-guides/realhighway/#rhw-transition-menu-items).
 
 ### Advanced Curves and FLEXFly
 
@@ -865,7 +865,7 @@ With the addition of the FLEX Neighbor Connectors in NAM 42, all elevated networ
 
 ### Specialized Crossings and Interchanges
 
-The RealHighway system includes the ability to recreate three oft-requested interchange designs: the [Single-Point Urban Interchange (SPUI)](/docs/feature-guides/realhighway-mod/#single-point-urban-interchange-spui), the [Diverging Diamond Interchange (DDI)](/docs/feature-guides/realhighway-mod/#diverging-diamond-interchange-ddi), and the [Volleyball Interchange](/docs/feature-guides/realhighway-mod/#volleyball-interchange).
+The RealHighway system includes the ability to recreate three oft-requested interchange designs: the [Single-Point Urban Interchange (SPUI)](/docs/feature-guides/realhighway/#single-point-urban-interchange-spui), the [Diverging Diamond Interchange (DDI)](/docs/feature-guides/realhighway/#diverging-diamond-interchange-ddi), and the [Volleyball Interchange](/docs/feature-guides/realhighway/#volleyball-interchange).
 These are "advanced" features of the plugin, and it is recommended that you are already comfortable with the RealHighways, the NAM Elevated Viaducts and the either the FLEX Turn Lanes (FTL) or Turn Lane Extension Pieces (TuLEPs) before trying to build SPUIs or DDIs.
 
 The SPUI and DDI setups can be found under the RHW/Avenue Interface button on the Roads menu, while the Volleyball pieces can be found under the old puzzle-based Ramps button on the Highways menu.
@@ -946,7 +946,7 @@ At this point, you may finish this interchange any way you want -- the steps bel
 Place one FLEXWidth transitions on each end of the DDI.
 Ensure the correct FLEXWidth transitions are used, with the **lane drop** versions on entrances and the **lane add** versions on exits.
 In the gap between the DDI and starter, place a starter piece to override the starter to transition between RHW-4 and MIS.
-Use the RealHighway with a [DRI pattern](/docs/feature-guides/realhighway-mod/#dri) to create an A1 Outside Wide ramp.
+Use the RealHighway with a [DRI pattern](/docs/feature-guides/realhighway/#dri) to create an A1 Outside Wide ramp.
 Repeat this four times to complete the interchange
 
 {{< carousel >}}
@@ -1197,7 +1197,7 @@ Note that the RHW-8S, 10S, 6C, and 8C do not have diagonal fillers.
 {{< menu-icon icon="images/icons/rhw-qc-button.jpg" caption="_QuickChange Pieces (located under the Highways Menu)_" >}}
 
 The QuickChange Xpress button offers pre-constructed full and partial interchanges, in FLEX format.
-For more details, see the [QuickChange portion of this document](/docs/feature-guides/realhighway-mod/#quickchange-xpress-full-interchanges-in-a-click).
+For more details, see the [QuickChange portion of this document](/docs/feature-guides/realhighway/#quickchange-xpress-full-interchanges-in-a-click).
 
 1. QuickChange L0 Dual Type 110 (Road)/L1 RHW
 2. QuickChange L1 Dual Type 110 (Road)/L0 RHW
@@ -1217,7 +1217,7 @@ For more details, see the [QuickChange portion of this document](/docs/feature-g
 {{< menu-icon icon="images/icons/rhw-flexramps-button.jpg" caption="_FLEXRamps (located under the Highways Menu)_" >}}
 
 The FLEXRamps offer an easy way to have on/offramps branch off one's RealHighways.
-Being FLEX pieces, a single piece can work for multiple networks. For more details, see the [FLEXRamps portion of this document](/docs/feature-guides/realhighway-mod/#flexramps).
+Being FLEX pieces, a single piece can work for multiple networks. For more details, see the [FLEXRamps portion of this document](/docs/feature-guides/realhighway/#flexramps).
 To access diagonal versions (available for A1, B1, D1, and E1 ramps), simply rotate the piece with Home/End until the piece rotates appropriately.
 
 1. Type A1 FLEXRamp

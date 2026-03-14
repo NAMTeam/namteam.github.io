@@ -6,10 +6,10 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
-url: "docs/tech-specs/realhighway-mod"
+url: "docs/tech-specs/realhighway"
 ---
 
-{{< feature-guide link="/docs/feature-guides/realhighway-mod" >}}
+{{< feature-guide link="/docs/feature-guides/realhighway" >}}
 
 {{< docstatus status="workinprogress" >}}
 
@@ -299,7 +299,7 @@ This compatibility also applies to all applicable levels of each RHW network, no
 ### Fractional Angle Support
 
 {{< legacy >}} 
-Fractional Angle support for the RHW is entirely puzzle piece-based at present, see [Fractional Angle Menu Items lists](http://localhost:1313/docs/feature-guides/realhighway-mod/#fractional-angle-rhw-menu-items) for a listing of supported features.
+Fractional Angle support for the RHW is entirely puzzle piece-based at present, see [Fractional Angle Menu Items lists](http://localhost:1313/docs/feature-guides/realhighway/#fractional-angle-rhw-menu-items) for a listing of supported features.
 
 ### FLEX Turn Lane Intersection Support
 
@@ -327,7 +327,7 @@ Fractional Angle support for the RHW is entirely puzzle piece-based at present, 
 
 ### Tunnels
 
-Tunnels are not supported for any RealHighway type. Refer to the [RHW Tunnels](/docs/feature-guides/realhighway-mod/#tunnels) section which describes some potential workarounds.
+Tunnels are not supported for any RealHighway type. Refer to the [RHW Tunnels](/docs/feature-guides/realhighway/#tunnels) section which describes some potential workarounds.
 
 ## Network ID Assignments
 

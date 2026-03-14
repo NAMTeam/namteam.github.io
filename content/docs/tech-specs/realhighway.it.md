@@ -6,10 +6,10 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
-url: "docs/tech-specs/realhighway-mod"
+url: "docs/tech-specs/realhighway"
 ---
 
-{{< feature-guide link="/docs/feature-guides/realhighway-mod" >}}
+{{< feature-guide link="/docs/feature-guides/realhighway" >}}
 
 {{< docstatus status="workinprogress" >}}
 {{< docstatus status="untranslated" >}}
@@ -114,7 +114,7 @@ As Fractional Angle support for the RHW is entirely puzzle piece-based at presen
 
 ### Bridges
 
-> Refer to [the _Bridges_ section](/docs/feature-guides/realhighway-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
+> Refer to [the _Bridges_ section](/docs/feature-guides/realhighway/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
 
 All RHW networks, with the exception of the 6C and 8C networks, are capable of creating bridges.
 

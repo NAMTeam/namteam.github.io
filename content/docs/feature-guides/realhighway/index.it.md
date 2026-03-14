@@ -6,7 +6,7 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
-url: "docs/feature-guides/realhighway-mod"
+url: "docs/feature-guides/realhighway"
 ---
 <!-- markdownlint-disable MD051 -->
 {{< docstatus status="workinprogress" >}}
