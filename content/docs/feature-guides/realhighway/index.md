@@ -916,21 +916,49 @@ The interchange may be completed by using the FLEX-HT Transition for Avenue Type
 To build a ground level SPUI, follow the same process, except the orientation of the FLEX-HT transitions should be reversed.
 The same FLEXRamp pieces may be used, and elevated RealHighway is dragged over the intersection.
 
-You can simply drag a ground-level RHW underneath the Elevated FlexSPUI, much as you dragged the Elevated RHW over the Ground FlexSPUI:
+#### Diverging Diamond Interchange (DDI) {#ddi}
 
-{{< img-simple src="images/flexspui11.jpg" >}}
+The [Diverging Diamond Interchange](https://wikipedia.org/wiki/Diverging_diamond_interchange) (DDI), sometimes also called "Crossing Diamond", is an interchange that has traffic cross onto the "wrong" side of the road, which allows left turn movements flow more smoothly and traffic onto (and sometimes off) the freeway to go unsignalized, with only the through movements on the surface street requiring signalization.
 
-In order to connect the Avenue end, you will need to use the Avenue Type A On-Slope TuLEP. The NAM's [Hole Digger and Raiser](/docs/feature-guides/base-network/#raiser-digger) feature is highly recommended in order to get the embankment to the proper elevation.
+The construction process of a DDI is equivalent to the SPUI, with the only difference being the network in the center of the intersection OneWay Road instead of Avenue.
+You may follow the FlexSPUI tutorial above, or use the DDI tutorial below.
+This DDI tutorial is for a ground level DDI with a RealHighway overpass, and uses some alternative construction techniques.
 
-For a video demonstration of FlexSPUI construction, please see Tarkus' YouTube videos on [Ground FlexSPUI](http://www.youtube.com/watch?v=Yd9MumOT9Po) and [Elevated FlexSPUI](http://www.youtube.com/watch?v=3UGIFwgkHWY).
+Begin by placing two DDI pieces, and connect the center in both directions with OneWay Road.
+Starting two tiles from the OWR, use the [Hole Diggers and Raisers](/docs/feature-guides/hole-diggers-and-raisers/) to elevate the terrain.
+Use the Road tool to create a small area of elevated terrain, and repeat for the other side.
+Place four FLEXOnSlope transition pieces on the edge of the slope.
+Then, place four starter pieces to override the OnSlope transitions.
+For maximum stability, place them in the inside gap between the OWR and slope, though they do not *necessarily* need to be placed in this location.
+Continue by dragging RealHighway over the OnSlope transitions, elevated starters, and OWR.
+If you are using a slope mod, be sure to drag far enough to reach flat ground again.
 
-#### Diverging Diamond Interchange (DDI)
+{{< carousel >}}
+    images/flexddi/rhw-ddi-1.jpg | Place DDI pieces and connect with OWR
+    images/flexddi/rhw-ddi-2.jpg | Raise terrain
+    images/flexddi/rhw-ddi-3.jpg | Create a small plateau
+    images/flexddi/rhw-ddi-4.jpg | Repeat on the other side
+    images/flexddi/rhw-ddi-5.jpg | Place FLEXOnSlope transitions
+    images/flexddi/rhw-ddi-6.jpg | Place elevated starter pieces
+    images/flexddi/rhw-ddi-7.jpg | Drag RealHighway
+{{< /carousel >}}
 
-The Diverging Diamond Interchange (DDI), sometimes also called "Crossing Diamond", is an interchange that originated in France, but has recently caught on with North American highway engineers, through the work of American traffic engineer Gilbert Chlewicki. The Missouri Department of Transportation (MODOT) opened the first in the United States in Springfield on June 21, 2009. Since then, many more have opened up across the world. The DDI involves having traffic cross onto the "wrong" side of the road, which allows left turn movements flow more smoothly and traffic onto (and sometimes off) the freeway to go unsignalized, with only the through movements on the surface street requiring signalization.
+{{< alert context="success" >}}
+At this point, you may finish this interchange any way you want -- the steps below describe only one of many possibilities.
+{{< /alert >}}
 
-The RHW includes a special puzzle piece allowing for the construction of a DDI with an Avenue, which, like the FlexSPUI, is found under the RHW x Avenue button on the Roads menu. To build a DDI, place the special DDI intersection pieces on either side of your RHW, and connect Avenues into the appropriate ends of the pieces. Use One-Way Roads and/or the draggable or puzzle piece-based [Elevated One-Way Road Viaducts](../road-viaducts/) (for an elevated DDI) to build the "wrong side" traffic sections between the DDI intersection pieces. The connections to the RHW end are made via RHW-4.
+Place one FLEXWidth transitions on each end of the DDI.
+Ensure the correct FLEXWidth transitions are used, with the **lane drop** versions on entrances and the **lane add** versions on exits.
+In the gap between the DDI and starter, place a starter piece to override the starter to transition between RHW-4 and MIS.
+Use the RealHighway with a [DRI pattern](/docs/feature-guides/realhighway-mod/#dri) to create an A1 Outside Wide ramp.
+Repeat this four times to complete the interchange
 
-{{< img-simple src="images/rhwddi.jpg" >}}
+{{< carousel >}}
+    images/flexddi/rhw-ddi-8.jpg | Place four FLEXWidth transitions
+    images/flexddi/rhw-ddi-9.jpg | Place four starters to override the width transitions
+    images/flexddi/rhw-ddi-10.gif | Use a DRI to create the ramps.
+    images/flexddi/rhw-ddi-11.jpg | 🎉
+{{< /carousel >}}
 
 #### Volleyball Interchange
 
