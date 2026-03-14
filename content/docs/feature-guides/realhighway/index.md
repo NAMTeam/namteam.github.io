@@ -867,9 +867,10 @@ Run the traffic simulation for some time in both cities for the game to recogniz
 
 With the addition of the FLEX Neighbor Connectors in NAM 42, all elevated networks are now supported.
 
-### Specialised Network Crossings and Interchanges
+### Specialized Crossings and Interchanges
 
-The RealHighway system includes the ability to recreate three oft-requested interchange designs: the Single-Point Urban Interchange (SPUI), the Diverging Diamond Interchange (DDI), and the Volleyball Interchange. These are "advanced" features of the plugin, and it is recommended that you are already comfortable with the RealHighways, the NAM Elevated Viaducts and the either the FLEX Turn Lanes (FTL) or Turn Lane Extension Pieces (TuLEPs) before trying to build SPUIs or DDIs.
+The RealHighway system includes the ability to recreate three oft-requested interchange designs: the [Single-Point Urban Interchange (SPUI)](/docs/feature-guides/realhighway-mod/#single-point-urban-interchange-spui), the [Diverging Diamond Interchange (DDI)](/docs/feature-guides/realhighway-mod/#diverging-diamond-interchange-ddi), and the [Volleyball Interchange](/docs/feature-guides/realhighway-mod/#volleyball-interchange).
+These are "advanced" features of the plugin, and it is recommended that you are already comfortable with the RealHighways, the NAM Elevated Viaducts and the either the FLEX Turn Lanes (FTL) or Turn Lane Extension Pieces (TuLEPs) before trying to build SPUIs or DDIs.
 
 The SPUI and DDI setups can be found under the RHW/Avenue Interface button on the Roads menu, while the Volleyball pieces can be found under the old puzzle-based Ramps button on the Highways menu.
 
@@ -877,49 +878,43 @@ The SPUI and DDI setups can be found under the RHW/Avenue Interface button on th
 
 {{< menu-icon icon="images/icons/rhw-old-ramps-button.jpg" caption="_RHW Puzzle Piece Ramps Button (contains Volleyball pieces)_" >}}
 
-#### Single-Point Urban Interchange (SPUI)
+#### Single-Point Urban Interchange (SPUI) {#spui}
 
-The RealHighway system includes the ability to recreate three oft-requested interchange designs: the Single-Point Urban Interchange (SPUI), the Diverging Diamond Interchange (DDI), and the Volleyball Interchange. These are "advanced" features of the plugin, and it is recommended that you are already comfortable with the RealHighways, the NAM Elevated Viaducts and the either the FLEX Turn Lanes (FTL) or Turn Lane Extension Pieces (TuLEPs) before trying to build SPUIs or DDIs.
+A [Single-Point Urban Interchange](https://wikipedia.org/wiki/Single-point_urban_interchange) combines the two intersections of a diamond interchange into one single intersection over or under the free-flowing road.
 
-The SPUI and DDI setups can be found under the RHW/Avenue Interface button on the Roads menu, while the Volleyball pieces can be found under the old puzzle-based Ramps button on the Highways menu.
+These interchanges may either be ground level with elevated RealHighway running over them, or may be elevated over ground level RealHighway.
 
-_NOTE: FlexSPUI was upgraded and redesigned for NAM 37, to provide proper support for newer RHW networks. The screenshots here show the previous version of FlexSPUI, which has a slightly different footprint, but the underlying construction process is identical._
+To build a SPUI, start by placing the the FlexSPUI pieces.
+Each piece is one half of the SPUI, and they may be placed adjacent to each other or separated by a number of tiles.
+If they are separated, drag avenue between the two sections to connect the center.
 
-In order to build a SPUI, place the FlexSPUI piece--it looks like half of a SPUI.
+{{< carousel >}}
+    images/flexspui/rhw-flexspui-1.jpg
+    images/flexspui/rhw-flexspui-2.jpg | Second half may be adjacent or separated.
+    images/flexspui/rhw-flexspui-3.jpg | Use the Avenue tool to fill any separation (if applicable)
+{{< /carousel >}}
 
-{{< img-simple src="images/flexspui1.jpg" >}}
+To build an elevated SPUI, place four FLEX-HT transitions of your desired height (L1 or L2) next to each ramp.
+Place RHW-4 starters adjacent to each height transition to override them, and use the RealHighway tool to drag from each starter to the interchange.
+When the first ramp has been completed, you'll notice the SPUI interchange has changed height automatically.
+Complete the other ramps in the same manner by dragging with the RealHighway Tool.
+Place four FLEXRamp pieces at each end of the ramp -- this example uses Type A2 to drop one lane for the exit (RHW-6S before the exit, to RHW-4 under the interchange, back to RHW-6S after the entrance).
+Follow by dragging RealHighway under the interchange.
+The interchange may be completed by using the FLEX-HT Transition for Avenue Type 120 piece, available from the Roads menu.
 
-To complete the basic intersection, you'll need to plop another half of a SPUI. This half can be plopped next to the first one:
+{{< carousel >}}
+    images/flexspui/rhw-flexspui-4.jpg | Place four FLEX-HT transitions
+    images/flexspui/rhw-flexspui-5.jpg | Override FLEX-HT transitions to RHW-4, drag into interchange
+    images/flexspui/rhw-flexspui-6.jpg | Interchange adjusts height automatically
+    images/flexspui/rhw-flexspui-7.jpg | Finish connecting the ramps
+    images/flexspui/rhw-flexspui-8.jpg | Place entrance/exit ramps
+    images/flexspui/rhw-flexspui-9.jpg | Drag RHW underneath
+    images/flexspui/rhw-flexspui-10.jpg | Finish with Avenue height transitions
+    images/flexspui/rhw-flexspui-11.jpg | 🎉
+{{< /carousel >}}
 
-{{< img-simple src="images/flexspui2.jpg" >}}
-
-Or you can put a small gap between them and fill it in with an Avenue:
-
-{{< img-simple src="images/flexspui3.jpg" >}}
-
-{{< img-simple src="images/flexspui4.jpg" >}}
-
-In either case, make sure to bulldoze the "construction site handles" on the piece. The ramp connections on the sides allow RHW-4 to be dragged out from them:
-
-{{< img-simple src="images/flexspui5.jpg" >}}
-
-You can simply drag an elevated RHW over top of the FlexSPUI, like so:
-
-{{< img-simple src="images/flexspui6.jpg" >}}
-
-In order to connect the Avenue end, use the either the Avenue Type 110 FLEX Turn Lanes or Turn Lane Extension Pieces:
-
-{{< img-simple src="images/flexspui7.jpg" >}}
-
-It is also possible to elevate the FlexSPUI. Simply place an L2 connection (such as a transition) next to the ramp connection on the SPUI (_NOTE: L1 did not exist when FlexSPUI was created_). Most of one half of it will become elevated--simply click on the non-elevated part with the RHW network tool and it will raise up:
-
-{{< img-simple src="images/flexspui8.jpg" >}}
-
-{{< img-simple src="images/flexspui9.jpg" >}}
-
-The overrides are most stable on the "incoming" part of the ramp connection ("outgoing" in Left-Hand Drive)--this shows the rest of the SPUI becoming elevated:
-
-{{< img-simple src="images/flexspui10.jpg" >}}
+To build a ground level SPUI, follow the same process, except the orientation of the FLEX-HT transitions should be reversed.
+The same FLEXRamp pieces may be used, and elevated RealHighway is dragged over the intersection.
 
 You can simply drag a ground-level RHW underneath the Elevated FlexSPUI, much as you dragged the Elevated RHW over the Ground FlexSPUI:
 
