@@ -920,13 +920,13 @@ To use them, place the intersections, then place starter pieces between each int
     images/volleyball/rhw-volleyball-a2c.jpg
 {{< /gallery >}}
 
-#### Three-Level Crossings
+#### Three-Level Crossings {#tlc}
 
 In certain situations, using special Three-Level Crossing helper pieces (located under the RHW 3-Level Crossings button), it is possible to have three different RHW elevations cross one another on a single tile, which can be useful in constructing more complex interchanges, such as compact T-Interchanges and Stack Interchanges. To use the Three-Level Crossings, connect two different height levels of diagonal network, and the desired width of mainline at a third height level. It is recommended to use the 2-Tile version for the RHW-4 and RHW-6S, the 3-Tile version for the RHW-6C and RHW-8C, and the 4-Tile version for the RHW-8S and RHW-10S.
 
 Note that any FLEXFly or curve pieces must be _at least 1 tile away_ from a Three-Level Crossing FLEX Piece, as at present, the adjacency stability does not exist, nor does FLEXFly-over-FLEXFly functionality.
 
-{{< gallery  col-xl="2" col-lg="1" col-md="1">}}
+{{< carousel >}}
 images/tlc/rhw-tlc-1.jpg
 images/tlc/rhw-tlc-2.jpg
 images/tlc/rhw-tlc-3.jpg
@@ -935,65 +935,107 @@ images/tlc/rhw-tlc-5.jpg
 images/tlc/rhw-tlc-6.jpg
 images/tlc/rhw-tlc-7.jpg
 images/tlc/rhw-tlc-8.jpg
-{{< /gallery >}}
+{{< /carousel >}}
 
 The "Stackasaurus Rex" Interchange, built by NAM Team developer Lucario Boricua, is an example of what is possible with the Three-Level Crossings.
 
 {{< img-simple src="images/lucarioboricua-stackasaurus-rex.jpg" >}}
 
-#### RHW FLEX Turn Lanes (FTLs)
+#### RHW FLEX Turn Lanes (FTLs) {#ftl}
 
-The RHW has its own set of (rapidly-expanding) FLEX Turn Lane (FTL) options available. Supported types include the RHW-2 (L0 only), RHW-4 Rural (L0 only), and MIS Ramps (L0 and L1). Support for [SITAP-style signalized intersections](/docs/feature-guides/turning-lanes/#sitap) is also available in at least some instances.
+The RHW has its own set of FLEX Turn Lane (FTL) options available. Supported types include the RHW-2 (L0 only), RHW-4 Rural (L0 only), and MIS Ramps (L0 and L1).
+Support for [SITAP-style signalized intersections](/docs/feature-guides/turning-lanes/#sitap) is also available in at least some instances.
 
-To build the RHW-2 FTLs, begin with the transition, and drag RHW-2 out from it. The override of the turn lane will carry until you reach an intersection with another network.
+{{< alert context="info">}}
+The support for RHW fLEX Turn Lanes is fairly limited.
+Consult the [compatibility tables](/docs/tech-specs/realhighway/#flex-turn-lane-intersection-support) for detailed information on which intersections are supported.
+{{< /alert >}}
 
-{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
-images/ftl/rhw-ftl-rhw2-1.jpg
-images/ftl/rhw-ftl-rhw2-2.jpg
-images/ftl/rhw-ftl-rhw2-3.jpg
-images/ftl/rhw-ftl-rhw2-4.jpg
-{{< /gallery >}}
+##### RHW-2 FTLs
 
-The override does not continue on the other side of the intersection, if a +-intersection is made, so one must place another transition and build the same setup on the other side.
+To build the RHW-2 FTLs, begin with the transition, and drag RHW-2 out from it.
+The override of the turn lane will carry until you reach an intersection with another network.
+To make a +-intersection, repeat this process on the other side.
 
-{{< img-simple src="images/ftl/rhw-ftl-rhw2-5.jpg" >}}
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw2+-1.jpg | Use FTL starter
+    images/ftl/rhw-ftl-rhw2+-2.jpg | Drag RHW-2
+    images/ftl/rhw-ftl-rhw2+-3.jpg | Use FTL starter on other side, then drag RHW-2
+    images/ftl/rhw-ftl-rhw2+-4.jpg | 🎉
+{{< /carousel >}}
 
-It is possible to signalize intersections with Roads and other RHW-2s, via two methods: the first involves transitioning to Road immediately before the intersection (as is the case with the draggable signalized One-Way Road intersections in SITAP).
+It is possible to signalize intersections with Roads and other RHW-2s, via two different methods.
+The first involves transitioning to Road immediately before the intersection.
+Use the bulldozer or [Network Eraser](/docs/feature-guides/network-eraser/) to remove one tile at the center of the intersection.
+Use the Road tool to draw road in both directions across the intersection.
 
-{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
-images/ftl/rhw-ftl-rhw2-6.jpg
-images/ftl/rhw-ftl-rhw2-7.jpg
-images/ftl/rhw-ftl-rhw2-8.jpg
-{{< /gallery >}}
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw2+-5.jpg | Remove center tile
+    images/ftl/rhw-ftl-rhw2+-6.jpg | Draw road
+    images/ftl/rhw-ftl-rhw2+-7.jpg | Draw road
+    images/ftl/rhw-ftl-rhw2+-8.jpg | 🎉
+{{< /carousel >}}
 
-The second involves using one of the RHW FLEX SITAP intersections in the back half of the RHW FLEX Turn Lanes TAB Loop, placing it, and then reconnecting all the networks.
+The second method involves using one of the RHW FLEX SITAP intersections in the back half of the RHW FLEX Turn Lanes Tab Loop.
+Start with the unsignalized intersection, locate the appropriate piece for the intersection, and place it.
 
-{{< img-simple src="images/ftl/rhw-ftl-rhw2-9.jpg" >}}
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw2+-7a.jpg | Use the signalized intersection piece
+    images/ftl/rhw-ftl-rhw2+-8.jpg | 🎉
+{{< /carousel >}}
 
 In the case of T-intersections, in which the RHW-2 is the thru network, use the T-Median transition on the opposite side.
 
-{{< img-simple src="images/ftl/rhw-ftl-rhw2-10.jpg" >}}
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw2t-1.jpg | Use FTL starter
+    images/ftl/rhw-ftl-rhw2t-2.jpg | Use FTL median starter
+    images/ftl/rhw-ftl-rhw2t-3.jpg | 🎉
+{{< /carousel >}}
 
-Currently, the only crossing networks supported by the RHW-2 FTLs are Streets, Roads (with and without SITAP), and other RHW-2s (both with and without FTLs, and with and without SITAP).
+To add a traffic signal, locate the appropriate piece for the intersection from the back half of the RHW FLEX Turn Lanes Tab Loop, and place it.
 
-To build rural-style RHW-4 FTLs, use the same transition as the RHW-2 FTLs, but override it with the RHW-4 network to convert it.
+{{< img-simple src="images/ftl/rhw-ftl-rhw2t-4.jpg" >}}
 
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
-images/ftl/rhw-ftl-rhw4-1.jpg
-images/ftl/rhw-ftl-rhw4-2.jpg
-images/ftl/rhw-ftl-rhw4-3.jpg
-images/ftl/rhw-ftl-rhw4-4.jpg
-{{< /gallery >}}
+To add turn lanes onto the incoming road, remove a small length of the incoming road and replace with the FTL starter.
+Drag RealHighway through the intersection, and finish with the appropriate Signalized T-intersection piece.
 
-Situations in which the RHW-4 FTLs are adjacent (or separated only by a single tile median) are possible. (Note that the Rural RHW-4 FTLs are presently the least-developed of the set, and may have instabilities, particularly involving more exotic T-intersections.)
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw2t-5.jpg | Use FTL starter
+    images/ftl/rhw-ftl-rhw2t-6.jpg | Drag RHW up to intersection
+    images/ftl/rhw-ftl-rhw2t-7.jpg | Drag RHW across intersection
+    images/ftl/rhw-ftl-rhw2t-8.jpg | Place signalized intersection piece
+    images/ftl/rhw-ftl-rhw2t-9.jpg | 🎉
+{{< /carousel >}}
 
-{{< img-simple src="images/ftl/rhw-ftl-rhw4-5.jpg" >}}
+##### RHW-4 FTLs
 
-Currently, the only crossing networks supported by the Rural RHW-4 FTLs are Streets (+ and limited T), Roads (with and without SITAP, + and limited T), and RHW-2 (without FTLs, and with or without SITAP, + and limited T).
+{{< alert context="warning">}}
+The Rural RHW-4 FTLs are presently the least-developed of the set, and may have instabilities, particularly involving more exotic T-intersections.
+RHW-4 FTLs are supported when the RHW-4 is adjacent or separated by a single tile.
+{{< /alert >}}
+
+To build rural-style RHW-4 FTLs, start with the same transition as the RHW-2 FTLs, but use the RHW-4 starter to override it.
+Drag RealHighway through the intersection.
+Repeat this process from the other direction to complete the unsignalized intersection
+
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw4-1.jpg | Use the FTL starter, with an adjacent RHW-4 starter
+    images/ftl/rhw-ftl-rhw4-2.jpg | Drag RealHighway
+    images/ftl/rhw-ftl-rhw4-3.jpg | Repeat from the other direction
+{{< /carousel >}}
+
+Signalized intersections are also possible, again using the appropriate signalized intersection piece.
+
+{{< carousel >}}
+    images/ftl/rhw-ftl-rhw4-4.jpg | Place two signalized intersection pieces
+    images/ftl/rhw-ftl-rhw4-5.jpg | 🎉
+{{< /carousel >}}
+
+##### MIS FTLs
 
 The MIS FTLs, known in their 2-lane form as "MIS-2", currently come in two flavors: one that favors right turns, and the other that favors left turns. Each produces a different end result at a Road +-intersection (with SITAP support).
 
-{{< gallery  col-xl="2" col-lg="1" col-md="1" >}}
+{{< gallery col-xl="3" col-lg="3" col-md="3" >}}
 images/ftl/rhw-ftl-mis-1.jpg
 images/ftl/rhw-ftl-mis-2.jpg
 images/ftl/rhw-ftl-mis-3.jpg
@@ -1001,7 +1043,7 @@ images/ftl/rhw-ftl-mis-3.jpg
 
 It is also possible to hook an RHW-4 into an MIS FTL, in which case the RHW-4 seamlessly transitions into an MIS-2 FTL.
 
-{{< gallery col-xl="2" col-lg="1" col-md="1" >}}
+{{< gallery col-xl="2" col-lg="2" col-md="2" >}}
 images/ftl/rhw-ftl-mis-4.jpg
 images/ftl/rhw-ftl-mis-5.jpg
 {{< /gallery >}}
@@ -1009,8 +1051,6 @@ images/ftl/rhw-ftl-mis-5.jpg
 Additionally, combination FLEX Height/Turn Lane transitions exist, allowing more flexibility when adding turn lanes to ramps in interchanges.
 
 {{< img-simple src="images/ftl/rhw-ftl-mis-6.jpg" >}}
-
-Currently, the only crossing networks supported by the MIS-2 FTLs are Roads (with and without SITAP, + and T), One-Way Roads (with SITAP, + and T), Avenues (with and without SITAP, + and T), Type 110 Road/NWM FTLs (with and without SITAP, +-only), Type 120 Avenue/NWM FTLs (with and without SITAP, +-only), Type 130 NWM FTLs (with and without SITAP, +-only), L1 Road (with and without SITAP, + and T), L1 Avenue (without SITAP, +-only), and two intersection types currently only used by the QuickChange Xpress interchanges: Dual Type 110 Road/NWM FTLs, and Dual Type 120 Avenue/NWM FTLs.
 
 ## List of Menu Items
 

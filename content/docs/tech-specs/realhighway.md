@@ -303,7 +303,37 @@ Fractional Angle support for the RHW is entirely puzzle piece-based at present, 
 
 ### FLEX Turn Lane Intersection Support
 
-#### Orthogonal x Orthogonal (OxO) Intersections
+#### Orthogonal x Orthogonal (OxO)
+
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | Details |
+| ------- | :-----: |
+| MIS     | Partial: Roads (with and without SITAP, + and T), One-Way Roads (with SITAP, + and T), Avenues (with and without SITAP, + and T), Type 110 Road/NWM FTLs (with and without SITAP, +-only), Type 120 Avenue/NWM FTLs (with and without SITAP, +-only), Type 130 NWM FTLs (with and without SITAP, +-only), L1 Road (with and without SITAP, + and T), L1 Avenue (without SITAP, +-only), and two intersection types currently only used by the QuickChange Xpress interchanges: Dual Type 110 Road/NWM FTLs, and Dual Type 120 Avenue/NWM FTLs are supported. |
+| RHW-2   | Partial: Streets, Roads (with and without SITAP), and other RHW-2s (both with and without FTLs, and with and without SITAP) are supported. |
+| RHW-3   | No |
+| RHW-4   | Partial: Streets (+ and limited T), Roads (with and without SITAP, + and limited T), and RHW-2 (without FTLs, and with or without SITAP, + and limited T) are supported. |
+| RHW-6S  | No |
+| RHW-6C  | No |
+| RHW-8S  | No |
+| RHW-8C  | No |
+| RHW-10S | No |
+| RHW-12S | No |
+{{< /table >}}
+
+<span class="fs-6">**<sup>1</sup>** +-intersections are supported, T-intersections are limited.</span><br>
+
+#### Orthogonal x Diagonal (OxD)
+
+Not supported.
+
+#### Diagonal x Orthogonal (DxO)
+
+Not supported.
+
+#### Diagonal x Diagonal (DxD)
+
+Not supported.
+
 
 ### Bridges
 
