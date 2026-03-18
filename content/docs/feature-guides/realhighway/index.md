@@ -169,7 +169,7 @@ With the exception of L0 RHW-2, double diagonal setups are not supported.
 {{< img-simple src="images/curves/rhw-multitile-diagonals.jpg" >}}
 
 The default draggable curves for the RealHighway networks are not exactly the smoothest or most realistic.
-The FLEX-based and draggable [Multi-Radius Curves (MRCs)](/docs/feature-guides/realhighway/#mrcs) and the Puzzle Piece-based [Wide-Radius Curves (WRCs)]((/docs/feature-guides/realhighway/#wrcs)) provide smoother curves with wider radii than the defaults.
+The FLEX-based and draggable [Multi-Radius Curves (MRCs)](/docs/feature-guides/realhighway/#mrcs) and the Puzzle Piece-based [Wide-Radius Curves (WRCs)](/docs/feature-guides/realhighway/#wrcs) provide smoother curves with wider radii than the defaults.
 [Fractional Angle RealHighways (FARHW)](/docs/feature-guides/realhighway/#fractional-angle-realhighways-farhw) are also available for even gentler curves. 
 
 The default sharp 90-degree bends are only available with the RHW-2 and MIS Ramp networks (at all height levels), for the sake of realism.
