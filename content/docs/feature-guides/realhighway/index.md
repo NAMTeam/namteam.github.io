@@ -224,7 +224,7 @@ Use the RHW tool and click once in the area of the missing "bite" to fill it in.
 #### R2 Curves
 
 R2 45° curves may be constructed either via draggable means or FLEX pieces.
-For the draggable R2 setup, drag the default curve as usual, and then build a 90° bend on the inside of the curve by dragging one tile away from the curve on the inside, then one tile back towards the curve.
+For the draggable R2 setup, drag the default R0 curve, and then build a 90° bend on the inside of the curve by dragging one tile away from the curve on the inside, then one tile back towards the curve.
 
 {{< carousel >}}
     images/curves/rhw-mrc-r2-1.jpg | Regular diagonal
@@ -254,15 +254,14 @@ Other radius curves do not support this feature.
 #### R3 Curves
 
 The R3 45° radii may be constructed either via draggable means or FLEX pieces.
-For the draggable setup, begin with a standard (*not R2*) diagonal.
-From the orthogonal portion, drag one tile in the direction of the diagonal stretch, then one tile back into the diagonal stretch.
-If the curve does not automatically override, extend the diagonal portion a little further.
+For the draggable setup, begin with an R2 curve.
+Drag three tiles across the diagonal, parallel to the orthogonal stretch.
+You may drag in either direction (in reference to the screenshot below, left-to-right or right-to-left).
 
 {{< carousel >}}
-    images/curves/rhw-mrc-r3-1.jpg | Regular diagonal
-    images/curves/rhw-mrc-r3-2.jpg | Drag one tile
-    images/curves/rhw-mrc-r3-3.jpg | Drag one tile
-    images/curves/rhw-mrc-r3-4.jpg
+    images/curves/rhw-mrc-r3-1.jpg | Begin with an R2 curve
+    images/curves/rhw-mrc-r3-2.jpg | Drag parallel to the ortho stretch
+    images/curves/rhw-mrc-r3-3.jpg
 {{< /carousel >}}
 
 The R3 FLEX pieces are constructed the same way as the R2 FLEX piece.
