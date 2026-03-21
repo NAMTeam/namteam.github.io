@@ -9,7 +9,6 @@ images: []
 url: "docs/feature-guides/realhighway"
 ---
 <!-- markdownlint-disable MD051 -->
-{{< docstatus status="workinprogress" >}}
 
 {{< gallery col-xl="4" col-lg="4" col-md="2">}}
     images/rhw-teaser-1.jpg
