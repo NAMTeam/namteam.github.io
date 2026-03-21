@@ -277,16 +277,18 @@ Support for these transitions is fairly limited and are only supported through d
 
 ### Wide-Radius / Multi-Radius Curves
 
-This compatibility also applies to all applicable levels of each RHW network, not just L0.
+Items with full compatibility have both FLEX and draggable construction methods implemented.
+Exceptions are noted with partial compatibility.
+These ratings apply to all applicable levels of each RHW network, not just L0.
 
 {{< table class="table-bordered nam-compat-status w-auto" >}}
 | Width   | 90° R0 | 90° R1 | 90° R2              | 90° R3 | 90° R4 | 90° R5 | 45° R0 | 45° R1 | 45° R2 | 45° R3              | 45° R4              | 45° R5              | Lane Shift          | Basketweave |
 | ------: | :----: | :----: | :-----------------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----------------: | :-----------------: | :-----------------: | :-----------------: | :---------: |
-| MIS     | No     | Yes    | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
-| RHW-2   | Yes    | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
-| RHW-3   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
-| RHW-4   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Yes         |
-| RHW-6S  | No     | No     | No                  | No     | No     | No     | Yes    | Yes    | Yes    | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| MIS     | No     | Yes    | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-2   | Yes    | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-3   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-4   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Yes         |
+| RHW-6S  | No     | No     | No                  | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
 | RHW-6C  | No     | No     | No                  | No     | No     | No     | No     | No     | No     | No                  | No                  | No                  | Partial<sup>2</sup> | No          |
 | RHW-8S  | No     | No     | No                  | No     | No     | No     | No     | No     | No     | Partial<sup>2</sup> | No                  | No                  | No                  | No          |
 | RHW-8C  | No     | No     | No                  | No     | No     | No     | No     | No     | No     | No                  | No                  | No                  | Partial<sup>2</sup> | No          |

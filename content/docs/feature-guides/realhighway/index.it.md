@@ -253,9 +253,25 @@ Other radius curves do not support this feature.
 
 {{< img-simple src="images/curves/rhw-mrc-r2-overlap.jpg" >}}
 
-#### R3, R5, R5 Curves
+#### R3 Curves
 
-The R3, R4, and R5 radii only exist as FLEX pieces, and are constructed the same way as the R2 FLEX piece.
+The R3 45° radii may be constructed either via draggable means or FLEX pieces.
+For the draggable setup, begin with a standard (*not R2*) diagonal.
+From the orthogonal portion, drag one tile in the direction of the diagonal stretch, then one tile back into the diagonal stretch.
+If the curve does not automatically override, extend the diagonal portion a little further.
+
+{{< carousel >}}
+    images/curves/rhw-mrc-r3-1.jpg | Regular diagonal
+    images/curves/rhw-mrc-r3-2.jpg | Drag one tile
+    images/curves/rhw-mrc-r3-3.jpg | Drag one tile
+    images/curves/rhw-mrc-r3-4.jpg
+{{< /carousel >}}
+
+The R3 FLEX pieces are constructed the same way as the R2 FLEX piece.
+
+#### R4, R5 Curves
+
+The R4 and R5 radii only exist as FLEX pieces, and are constructed the same way as the R2 FLEX piece.
 
 ### Wide-Radius Curves (WRCs) {#wrcs}
 
