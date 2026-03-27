@@ -550,9 +550,12 @@ The drag patterns listed above are applicable for exit ramps in a right-hand tra
 The corresponding entrance (or exit) is constructed by using the mirror image of these patterns.
 {{< /alert >}}
 
+Drag patterns for a number of MIS ramps are also supported.
+
+{{< img-simple src="images/ramps/rhw-ramp-dri-mis.jpg" alt="MIS DRI Drag Patterns" clickable="yes" >}}
+
 {{< alert context="warning" >}}
-Since the drag patterns involve the creation of intersections, the point where the actual mainline/branch split occurs will result in flat terrain, but the rest of a DRI is not limited in this regard.
-DRIs are otherwise slope-tolerant.
+Since the drag patterns involve the creation of intersections, any tile that has an intersection will result in flat terrain. The other tiles of a DRI are generally slope tolerant.
 {{< /alert >}}
 
 #### Older Puzzle Piece Ramp Interfaces {{< deprecated >}}
