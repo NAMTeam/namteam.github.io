@@ -131,7 +131,7 @@ Instead, it's recommended to downgrade to a non-highway network, such as the Roa
 
 ## Capacities and Speeds
 
-The capacity of each network depends on the [Traffic Plugin](/docs/feature-guides/the-nam-traffic-simulator) one has installed.
+The capacity of each network depends on the [Traffic Plugin](/docs/feature-guides/traffic-simulator) one has installed.
 Capacity is generally calculated on a per tile basis by the game, as the game cannot read the number of lanes.
 The capacities for the five standard capacity levels of the NAM Traffic Plugin are listed below. 
 
