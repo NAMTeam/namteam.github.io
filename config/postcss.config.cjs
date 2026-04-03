@@ -57,6 +57,7 @@ module.exports = {
           './node_modules/bootstrap/scss/_dropdown.scss',
           './node_modules/bootstrap/scss/_grid.scss',
           './node_modules/katex/dist/katex.css',
+          './node_modules/bootstrap-icons/font/bootstrap-icons.css',
         ]),
       ],
     }),
