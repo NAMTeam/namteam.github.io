@@ -26,7 +26,7 @@ The Network Addon Mod is available in two flavors.
     <tr>
         <td>NAM Version {{< param docsversion >}} can be downloaded from:
             <ul>
-                <li><a href="sc4pac:///package?pkg=nam%3Anetwork-addon-mod&channel=https%3A%2F%2Fmemo33.github.io%2Fsc4pac%2Fchannel%2F">sc4pac → <code>nam:network-addon-mod</code></a></li>
+                <li><a href="https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/">sc4pac</a> → <a href="sc4pac:///package?pkg=nam%3Anetwork-addon-mod&channel=https%3A%2F%2Fmemo33.github.io%2Fsc4pac%2Fchannel%2F"><code>nam:network-addon-mod</code></a></li>
                 <li><a href="https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/2-network-addon-mod">SC4Evermore</a></li>
                 <li><a href="https://github.com/NAMTeam/Network-Addon-Mod/releases">Github</a></li>
                 <li><a href="https://community.simtropolis.com/files/file/26793-network-addon-mod-nam-cross-platform/">Simtropolis</a></li>
@@ -34,7 +34,7 @@ The Network Addon Mod is available in two flavors.
         </td>
         <td>NAM Lite Version {{< param docsversionlite >}} can be downloaded from:
             <ul>
-                <li><a href="sc4pac:///package?pkg=nam%3Anetwork-addon-mod-lite&channel=https%3A%2F%2Fmemo33.github.io%2Fsc4pac%2Fchannel%2F">sc4pac → <code>nam:network-addon-mod-lite</code></a></li>
+                <li><a href="https://community.simtropolis.com/files/file/36700-sc4pac-mod-manager/">sc4pac</a> → <a href="sc4pac:///package?pkg=nam%3Anetwork-addon-mod-lite&channel=https%3A%2F%2Fmemo33.github.io%2Fsc4pac%2Fchannel%2F"><code>nam:network-addon-mod-lite</code></a></li>
                 <li><a href="https://www.sc4evermore.com/index.php/downloads/download/6-network-addon-mod-nam/40-nam-lite">SC4Evermore</a></li>
                 <li><a href="https://github.com/NAMTeam/Network-Addon-Mod/releases">Github</a></li>
                 <li><a href="(https://community.simtropolis.com/files/file/35417-network-addon-mod-lite-nam-lite-cross-platform/">Simtropolis</a></li>
