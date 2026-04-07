@@ -1,7 +1,7 @@
 ---
 title : "Automata Plugins"
 description: "NAM Automata Plugins"
-lead: Automata are animations of cars, trains, trucks, boats, etc. which travel over transit networks.
+lead: Automata are animations of cars, trains, trucks, boats, pedestrians, etc., which travel over transit networks.
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -16,21 +16,37 @@ The Automata Plugins are also referred as **Automata Controllers**, in the sense
 
 ## Automata Options
 The Network Addon Mod provides a variety Automata Controllers to choose from, and each of them made from a combination of options which affect automata in a slightly different way. The two base options are:
-* **Standard** - Maintains the default Maxis values for the quantity of automata and speed they visually travel over a network. The only exception is for the [RealHighway](/docs/feature-guides/realhighway-mod) network, which has had its speed increased to give more of an accurate representation of the speed the vehicles traveling at on a highway network.
 
-* **Radical** - Increases the speed of automata travel and the maximum amount of automata able to be visible at a given time.
+<table>
+    <tr>
+        <td style="text-align:center;width:50%;"><h5 style="margin-bottom:0px;">Standard</h5></td>
+        <td style="text-align:center;width:50%;"><h5 style="margin-bottom:0px;">Radical</h5></td>
+    </tr>
+    <tr>
+        <td>Maintains the default Maxis values for the quantity of automata and speed they visually travel over a network. The only exception is for the <a href="/docs/feature-guides/realhighway-mod">RealHighway</a> network, which has had its speed increased to give more of an accurate representation of the speed the vehicles traveling at on a highway network.</td>
+        <td>Increases the speed of automata travel and the maximum amount of automata able to be visible at a given time.</td>
+    <tr>
+</table>
 
 There are three additional options which modify the base options for additional customization:
 
-* **24-hour** - Varies the volume of automata present depending on the time of day. This option creates a low volume of traffic at night, a high volume of traffic during the morning and evening rush hours, and a medium volume of traffic in the middle of the day.
+<table>
+    <tr>
+        <td style="text-align:center;width:33%;"><h5 style="margin-bottom:0px;">24-hour</h5></td>
+        <td style="text-align:center;width:33%;"><h5 style="margin-bottom:0px;">Persistent</h5></td>
+        <td style="text-align:center;width:33%;"><h5 style="margin-bottom:0px;">LB</h5></td>
+    </tr>
+    <tr>
+        <td>Varies the volume of automata present depending on the time of day. This option creates a low volume of traffic at night, a high volume of traffic during the morning and evening rush hours, and a medium volume of traffic in the middle of the day.</td>
+        <td>Automata is visible for a longer period of time before it disappears.</td>
+        <td>Increases the duration of the traffic signal cycles and increases the appearance of pedestrians, but otherwise functions like the <i>Radical 24-hour Persistent</i> variant. This option is not available for NAM Lite.</td>
+    <tr>
+</table>
 
-* **Persistent** - Automata is visible for a longer period of time before it disappears.
+One of the base options and one or more of the additional options may be combined to produce your desired configuration.
+As an example, *Standard*, and *Standard 24-Hour*, and *Standard 24-Hour Persistent* are all valid configurations.
 
-* **LB** - Increases the duration of the traffic signal cycles and increases the appearance of pedestrians, but otherwise functions like the 24-hour radical persistent variant. This option is not available for NAM Lite.
-
-The three additional options may be combined with one base option to produce your desired configuration. As an example, *"Standard"*, and *"Standard 24-Hour"*, and *"Standard Persistent 24-Hour"* are all valid configurations.
-
-### Standard vs Radical Option Details
+### Standard vs Radical Details
 The following parameters have been tweaked with the **Radical** option compared to the Maxis default **Standard** option. For more information on the details of each property, refer to the [Automata Tuning Exemplars list](https://wiki.sc4devotion.com/index.php?title=Exemplar_properties#Automata_Tuning_Exemplar) in the SC4D Wiki.
 
 | Property                        | Standard     | Radical      |
