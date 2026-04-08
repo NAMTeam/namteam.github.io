@@ -10,7 +10,7 @@ images: []
 
 The Network Addon Mod is available in two flavors.
 
-<table>
+<table class="table table-lg">
     <tr>
         <td style="text-align:center;width:50%;"><h3 style="margin-bottom:0px;">Network Addon Mod {{< param docsversion >}}</h3></td>
         <td style="text-align:center;width:50%;"><h3 style="margin-bottom:0px;">Network Addon Mod Lite {{< param docsversionlite >}}</h3></td>

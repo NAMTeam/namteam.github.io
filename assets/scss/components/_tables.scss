@@ -3,6 +3,12 @@ table {
 
   margin: 0 0 2rem;
 
+  &.table-lg {
+    > :not(caption)>*>* {
+      padding: 1rem;
+    }
+  }
+
   &.nam-compat-status {
 
     tbody {
@@ -17,11 +23,12 @@ table {
       }
     }
 
-    th:first-child, td:first-child { 
+    th:first-child,
+    td:first-child {
       font-weight: bold;
       border-right: 2px solid var(--bs-table-border-color);
     }
-    
+
     th {
       white-space: nowrap;
     }
