@@ -49,147 +49,37 @@ Old versions are ineligible for technical support and are not offered for downlo
 {{< /alert >}}
 
 ## Feature Comparison
-<i class="bi bi-check-circle-fill"></i> = Full Support, <i class="bi bi-check-circle"></i> = Limited Support, <i class="bi bi-x-lg"></i> = No Support
+<i class="bi bi-check-circle-fill"></i> = Full Support, <i class="bi bi-check-circle"></i> = Partial Support, <i class="bi bi-x-lg"></i> = No Support
 
-<table>
-    <tr>
-        <td>Feature</td>
-        <td>Full NAM</td>
-        <td>NAM Lite</td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/traffic-simulator">The NAM Traffic Simulator</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/automata-plugins">Automata Plugins</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/bridges">Bridges</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/canals">Canals</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/cosmetic-additions">Cosmetic Enhancements</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/data-view-plugins">Data View Plugins</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/base-network-additions">Diagonal Streets</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-    </tr>
-    <tr>
-        <td>Flex Overpasses</td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/feature-guides/flexible-underpasses/">Flex Underpasses</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/base">High Speed Rail</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/hole-diggers-and-raisers">Hole Diggers & Raisers</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/hybrid-railway">Hybrid Railway</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/light-rail-tram">Light Rail / Tram</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/base-network-additions">Maxis Highway Interchanges</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/maxis-highway-override">Maxis Highway Override</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/network-eraser">Network Eraser</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/network-widening-mod">Network Widening Mod</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/pedestrian-revolution-mod">Pedestrian Revolution Mod</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/realexpressway-mod">RealExpressway</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/realhighway-mod">RealHighway</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/real-railway">RealRailway</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/road-viaducts">Road Viaducts</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/roundabouts">Roundabouts</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/stations">Stations</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/street-addon-mod">Street Addon Mod</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/turning-lanes">Turning Lanes</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-    <tr>
-        <td><a href="/docs/feature-guides/underground-rail">Underground Rail</a></td>
-        <td><i class="bi bi-check-circle-fill"></i></td>
-        <td><i class="bi bi-x-lg"></i></td>
-    </tr>
-</table>
+{{< table class="table table-striped" >}}
+| Feature                                                                     | Full NAM                                | NAM Lite                                |
+| --------------------------------------------------------------------------- | :-------------------------------------: | :-------------------------------------: |
+| [The NAM Traffic Simulator](/docs/feature-guides/traffic-simulator)         | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle-fill"></i> |
+| [Automata Plugins](/docs/feature-guides/automata-plugins)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle-fill"></i> |
+| [Bridges](/docs/feature-guides/bridges)                                     | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Canals](/docs/feature-guides/canals)                                       | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Cosmetic Enhancements](/docs/feature-guides/cosmetic-additions)            | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle"></i>      |
+| [Data View Plugins](/docs/feature-guides/data-view-plugins)                 | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Diagonal Streets](/docs/feature-guides/base-network-additions)             | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle-fill"></i> |
+| Flex Overpasses                                                             | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle"></i>      |
+| [Flex Underpasses](/feature-guides/flexible-underpasses/)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [High Speed Rail](/docs/feature-guides/base)                                | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Hole Diggers & Raisers](/docs/feature-guides/hole-diggers-and-raisers)     | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle-fill"></i> |
+| [Hybrid Railway](/docs/feature-guides/hybrid-railway)                       | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Light Rail / Tram](/docs/feature-guides/light-rail-tram)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Maxis Highway Interchanges](/docs/feature-guides/base-network-additions)   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle-fill"></i> |
+| [Maxis Highway Override](/docs/feature-guides/maxis-highway-override)       | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Network Eraser](/docs/feature-guides/network-eraser)                       | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Network Widening Mod](/docs/feature-guides/network-widening-mod)           | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Pedestrian Revolution Mod](/docs/feature-guides/pedestrian-revolution-mod) | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [RealExpressway](/docs/feature-guides/realexpressway-mod)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [RealHighway](/docs/feature-guides/realhighway-mod)                         | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [RealRailway](/docs/feature-guides/real-railway)                            | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Road Viaducts](/docs/feature-guides/road-viaducts)                         | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Roundabouts](/docs/feature-guides/roundabouts)                             | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-check-circle-fill"></i> |
+| [Stations](/docs/feature-guides/stations)                                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Street Addon Mod](/docs/feature-guides/street-addon-mod)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Turning Lanes](/docs/feature-guides/turning-lanes)                         | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [Underground Rail](/docs/feature-guides/underground-rail)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+
+{{< /table >}}
