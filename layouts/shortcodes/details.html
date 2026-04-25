@@ -1,4 +1,13 @@
-<details{{ with .Get 1 }} {{ . | safeHTML }}{{ end -}}>
-  <summary>{{ with .Get 0 -}}{{ . | safeHTML }}{{ else -}}{{ errorf "No summary provided"}}{{ end -}}</summary>
+{{ $summary := or (.Get "summary") (.Get 0) -}}
+<!-- "deprecated", "legacy", or empty. Optionally show a badge after the summary. -->
+{{ $badge := or (.Get "badge") (.Get 1) -}}
+<!-- "open", or empty. Set to "open" to automatically expand the details section. Default is closed. -->
+{{ $state := or (.Get "state") (.Get 2) -}}
+
+<details{{ if eq $state "open" }} open{{ end }}>
+  <summary>{{ with $summary -}}{{ . | safeHTML }}{{ else -}}{{ errorf "No summary provided"}}{{ end -}}
+  {{- if eq $badge "deprecated" }} <span class="badge rounded-pill text-bg-danger" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="{{ i18n "deprecated-tooltip" }}" role="button">{{ i18n "deprecated-label" }}</span>
+  {{- else if eq $badge "legacy" }} <span class="badge rounded-pill text-bg-warning" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="{{ i18n "legacy-tooltip" }}" role="button">{{ i18n "legacy-label" }}</span>
+  {{- end -}}</summary>
   {{ with .Inner -}}{{ . | markdownify}}{{ else -}}{{ errorf "No details provided"}}{{ end -}}
 </details>

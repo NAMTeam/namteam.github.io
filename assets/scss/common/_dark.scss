@@ -583,3 +583,8 @@ $navbar-dark-active-color:          $link-color-dark;
   background: $body-overlay-dark;
   border: 1px solid $body-overlay-dark;
 }
+
+[data-dark-mode] .img-invert-dark {
+  // Invert black → white, but keep the red unchanged
+  filter: invert(1) hue-rotate(180deg) saturate(500%);
+}

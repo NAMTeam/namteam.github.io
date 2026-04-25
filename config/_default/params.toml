@@ -51,10 +51,10 @@ defaultImage = "default-image.png" # put in `./assets/images/`
 fillImage = "1270x740 Center" # normalize image size
 
 # Footer
-footer = "Copyright (c) 2008-2024 NAM Team"
+footer = "Copyright © 2008-2026 NAM Team"
 
 # Feed
-copyRight = "Copyright (c) 2008-2024 NAM Team"
+copyRight = "Copyright © 2008-2026 NAM Team"
 
 # Alert
 alert = false

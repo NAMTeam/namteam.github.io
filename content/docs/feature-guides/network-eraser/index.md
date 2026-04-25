@@ -49,6 +49,6 @@ The base RealHighway network has auto-connect functionality, similar to the way 
 
 {{< override from="images/rhw-bulldozer-before.jpg" to="images/rhw-bulldozer-after.jpg">}}
 
-To combat this issue, use the Network Eraser instead. The Network Eraser is also used as part of some Pattern-Based Draggable setups used by the RealHighway, particularly the [Draggable Ramp Interfaces (DRIs)](/docs/feature-guides/realhighway-mod#DRI). Additionally, it can be used in many situations with non-RHW networks as well.
+To combat this issue, use the Network Eraser instead. The Network Eraser is also used as part of some Pattern-Based Draggable setups used by the RealHighway, particularly the [Draggable Ramp Interfaces (DRIs)](/docs/feature-guides/realhighway#DRI). Additionally, it can be used in many situations with non-RHW networks as well.
 
 {{< override from="images/rhw-eraser-before.jpg" to="images/rhw-eraser-after.jpg">}}
