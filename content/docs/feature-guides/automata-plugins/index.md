@@ -16,7 +16,7 @@ The Automata Plugins are also referred as **Automata Controllers**, in the sense
 
 ## Automata Options
 The Network Addon Mod provides a variety Automata Controllers to choose from, and each of them made from a combination of options which affect automata in a slightly different way. The two base options are:
-* **Standard** - Maintains the default Maxis values for the quantity of automata and speed they visually travel over a network. The only exception is for the [RealHighway](/docs/feature-guides/realhighway-mod) network, which has had its speed increased to give more of an accurate representation of the speed the vehicles traveling at on a highway network.
+* **Standard** - Maintains the default Maxis values for the quantity of automata and speed they visually travel over a network. The only exception is for the [RealHighway](/docs/feature-guides/realhighway) network, which has had its speed increased to give more of an accurate representation of the speed the vehicles traveling at on a highway network.
 
 * **Radical** - Increases the speed of automata travel and the maximum amount of automata able to be visible at a given time.
 

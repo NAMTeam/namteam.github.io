@@ -6,16 +6,53 @@ date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
-url: "docs/tech-specs/realhighway-mod"
+url: "docs/tech-specs/realhighway"
 ---
 
-{{< feature-guide link="/docs/feature-guides/realhighway-mod" >}}
+{{< feature-guide link="/docs/feature-guides/realhighway" >}}
 
 {{< docstatus status="workinprogress" >}}
 
 ## Key
 
 {{< compatibility-key >}}
+
+## Capacities and Speeds
+
+The capacity of each network depends on the [Traffic Plugin](/docs/feature-guides/the-nam-traffic-simulator) one has installed. Capacity is generally calculated on a per tile basis by the game, as the game cannot read the number of lanes.
+
+{{< table class="table table-striped table-bordered w-auto" >}}
+| RHW Network Type<sup>1,2</sup>                | Classic | Low | Medium | High | Ultra |
+| ---                                           | :---: | :---: | :---: | :---: | :---: |
+| MIS Ramps (single-tile capacity)              | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-2 (single-tile capacity)                  | 3000 | 6000 | 10000 | 15000 | 30000 |
+| RHW-3 (single-tile capacity)<sup>3</sup>      | 3750 | 7500 | 12500 | 18750 | 37500 |
+| RHW-4 (dual-tile capacity)                    | 6000 | 12000 | 20000 | 30000 | 60000 |
+| DDRHW-4 (single-tile capacity)<sup>3</sup>    | 3750 | 7500 | 12500 | 18750 | 37500 |
+| RHW-6S (dual-tile capacity)<sup>3</sup>       | 7500 | 15000 | 25000 | 37500 | 75000 |
+| RHW-6C (triple-tile capacity)<sup>3</sup>     | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-8S (quadruple-tile capacity)<sup>3</sup>  | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-8C (triple-tile capacity)<sup>3</sup>     | 11250 | 22500 | 37500 | 56250 | 112500 |
+| RHW-10S (quadruple-tile capacity)<sup>3</sup> | 15000 | 30000 | 50000 | 75000 | 150000 |
+| RHW-12S (quadruple-tile capacity)<sup>3</sup> | 15000 | 30000 | 50000 | 75000 | 150000 |
+{{< /table >}}
+
+<span class="fs-6">**<sup>1</sup>** The capacities listed are for the _full width_ of the network, rather than the per-tile capacity.</span><br>
+<span class="fs-6">**<sup>2</sup>** These figures also apply to all elevated versions of each network width. This means that the **L0 RHW-4** has have the same capacity as its **L1**, **L2**, **L3**, and **L4** counterparts.</span><br>
+<span class="fs-6">**<sup>3</sup>** Networks with crossover paths (**RHW-6C**, **RHW-8S**, **RHW-8C**, **RHW-10S**, and **RHW-12S**), and those that use a special workaround (**RHW-3**, **DDRHW-4**, and **RHW-6S**) have a 25% boost on capacity over the normal per-tile figure for the base RHW network. This boost can only be applied once, which is why **DDRHW-4**, despite having one more lane than the **RHW-3**, has the same capacity. A similar situation exists with the **RHW-6C** and **RHW-8C**, and the **RHW-8S** and **RHW-10S**.</span><br>
+
+The catalog speeds for the base RealHighway network are listed below. These speeds apply when the network is at 100% capacity; speeds on empty networks will exceed these figures by 30%, declining as the networks increase in volume per the Congestion vs. Speed Curve.
+
+{{< table class="table table-striped table-responsive table-bordered w-auto" >}}
+| Vehicle Type | Speed |
+| --- | :---: |
+| Car | 150 |
+| Bus | 150 |
+| Freight Truck | 130 |
+| Pedestrian<sup>1</sup> | 10 |
+{{< /table >}}
+
+<span class="fs-6">**<sup>1</sup>** Pedestrians are only permitted on the L0 RHW-2 network.</span><br>
 
 ## Network and FLEX Piece Capabilities
 
@@ -30,9 +67,11 @@ url: "docs/tech-specs/realhighway-mod"
 | RHW-4   | Yes | Yes | Yes | Yes | Yes | Yes |
 | RHW-6S  | Yes | Yes | Yes | Yes | Yes | No  |
 | RHW-6C  | Yes | Yes | Yes | No  | No  | No  |
+| RHW-7C  | Yes | Yes | Yes | No  | No  | No  |
 | RHW-8S  | Yes | Yes | Yes | No  | No  | No  |
 | RHW-8C  | Yes | Yes | Yes | No  | No  | No  |
 | RHW-10S | Yes | Yes | Yes | No  | No  | No  |
+| RHW-12S | Yes | Yes | Yes | No  | No  | No  |
 {{< /table >}}
 
 ### Base Network Features
@@ -75,27 +114,162 @@ Not currently supported.
 
 ### FLEXHeight Transitions
 
+The availability of these transitions generally mirrors the available heights for each network.
+
 #### Orthogonal Ramp-Style Transitions
 
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-2    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-3    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-4    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-6S   | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-6C   | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-8S   | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-8C   | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-10S  | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| RHW-12S  | Yes     | Yes     | No      | No      | Yes     | No      | No      |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
+
 #### Orthogonal On-Slope Transitions
+
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-2    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-3    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-4    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6S   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6C   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-8S   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-8C   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-10S  | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-12S  | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
 
 #### Diagonal Ramp-Style Transitions
 
-#### Orthogonal On-Slope Transitions
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-2    | Yes     | Yes     | No      | No      | No      | No      | No      |
+| RHW-3    | Yes     | No      | No      | No      | No      | No      | No      |
+| RHW-4    | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     | Yes     |
+| RHW-6S   | Yes     | No      | No      | No      | No      | No      | No      |
+| RHW-6C   | No      | No      | No      | No      | No      | No      | No      |
+| RHW-8S   | No      | No      | No      | No      | No      | No      | No      |
+| RHW-8C   | No      | No      | No      | No      | No      | No      | No      |
+| RHW-10S  | No      | No      | No      | No      | No      | No      | No      |
+| RHW-12S  | No      | No      | No      | No      | No      | No      | No      |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
+
+#### Diagonal On-Slope Transitions
+
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width    | L0 ⇄ L1 | L1 ⇄ L2 | L2 ⇄ L3 | L3 ⇄ L4 | L0 ⇄ L2 | L1 ⇄ L3 | L2 ⇄ L4 |
+| -------- | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: | :-----: |
+| MIS      | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-2    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-3    | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-4    | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6S   | Yes     | ---     | ---     | ---     | Yes     | ---     | ---     |
+| RHW-6C   | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-8S   | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-8C   | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-10S  | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| RHW-12S  | No      | ---     | ---     | ---     | No      | ---     | ---     |
+| DD-RHW-4 | ---     | ---     | ---     | ---     | ---     | ---     | ---     |
+{{< /table >}}
 
 ### FLEXWidth Transitions
 
+The availability of these transitions mirrors the available heights for each network, with the exception of RHW-2 → RHW-4 and RHW-3 → RHW-4 which are L0 (ground-level) only.
+All networks involved in the transition must be at the same height level.
+
 #### Orthogonal Transitions
 
-_Note: S-to-C Transitions support asymmetrical combos, so additional possibilities exist beyond what is strictly indicated on this table, with the only limitation being that each network have the same number of lanes or differ by only one per side-- i.e. RHW-6S (3 lanes per side) can transition to RHW-4 (2 lanes per side), RHW-6C (3 lanes per side), and RHW-8C (4 lanes per side)._
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | MIS   | RHW-2 | RHW-3 | RHW-4 | RHW-6S | RHW-6C | RHW-8S | RHW-8C | RHW-10S | RHW-12S |
+|---------| :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :-----: | :-----: |
+| MIS     | ---   | No    | No    | Yes   | No     | No     | No     | No     | No      | No      |
+| RHW-2   | No    | ---   | Yes   | No    | No     | No     | No     | No     | No      | No      |
+| RHW-3   | No    | Yes   | ---   | Yes   | No     | No     | No     | No     | No      | No      |
+| RHW-4   | Yes   | No    | Yes   | ---   | Yes    | Yes    | No     | No     | No      | No      |
+| RHW-6S  | No    | No    | No    | Yes   | ---    | Yes    | Yes    | Yes    | No      | No      |
+| RHW-6C  | No    | No    | No    | Yes   | Yes    | ---    | Yes    | Yes    | No      | No      |
+| RHW-8S  | No    | No    | No    | No    | Yes    | Yes    | ---    | Yes    | Yes     | No      |
+| RHW-8C  | No    | No    | No    | No    | Yes    | Yes    | Yes    | ---    | Yes     | No      |
+| RHW-10S | No    | No    | No    | No    | No     | No     | Yes    | Yes    | ---     | Yes     |
+| RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | Yes     | ---     |
+{{< /table >}}
+
+S-to-C Transitions support asymmetrical combos, so additional possibilities exist beyond what is strictly indicated on this table.
+The only limitation is that each network has the same number of lanes or differ by only one lane per side.
+For example, RHW-6S (3 lanes per side) can transition to RHW-4 (2 lanes per side), RHW-6C (3 lanes per side), and RHW-8C (4 lanes per side).
 
 #### Diagonal Transitions
 
 Not currently supported.
 
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | MIS   | RHW-2 | RHW-3 | RHW-4 | RHW-6S | RHW-6C | RHW-8S | RHW-8C | RHW-10S | RHW-12S |
+|---------| :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :-----: | :-----: |
+| MIS     | ---   | No    | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-2   | No    | ---   | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-3   | No    | No    | ---   | No    | No     | No     | No     | No     | No      | No      |
+| RHW-4   | No    | No    | No    | ---   | No     | No     | No     | No     | No      | No      |
+| RHW-6S  | No    | No    | No    | No    | ---    | No     | No     | No     | No      | No      |
+| RHW-6C  | No    | No    | No    | No    | No     | ---    | No     | No     | No      | No      |
+| RHW-8S  | No    | No    | No    | No    | No     | No     | ---    | No     | No      | No      |
+| RHW-8C  | No    | No    | No    | No    | No     | No     | No     | ---    | No      | No      |
+| RHW-10S | No    | No    | No    | No    | No     | No     | No     | No     | ---     | No      |
+| RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | No      | ---     |
+{{< /table >}}
+
 #### Fractional Angle Transitions
 
 Not currently supported.
+
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | MIS   | RHW-2 | RHW-3 | RHW-4 | RHW-6S | RHW-6C | RHW-8S | RHW-8C | RHW-10S | RHW-12S |
+|---------| :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :-----: | :-----: |
+| MIS     | ---   | No    | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-2   | No    | ---   | No    | No    | No     | No     | No     | No     | No      | No      |
+| RHW-3   | No    | No    | ---   | No    | No     | No     | No     | No     | No      | No      |
+| RHW-4   | No    | No    | No    | ---   | No     | No     | No     | No     | No      | No      |
+| RHW-6S  | No    | No    | No    | No    | ---    | No     | No     | No     | No      | No      |
+| RHW-6C  | No    | No    | No    | No    | No     | ---    | No     | No     | No      | No      |
+| RHW-8S  | No    | No    | No    | No    | No     | No     | ---    | No     | No      | No      |
+| RHW-8C  | No    | No    | No    | No    | No     | No     | No     | ---    | No      | No      |
+| RHW-10S | No    | No    | No    | No    | No     | No     | No     | No     | ---     | No      |
+| RHW-12S | No    | No    | No    | No    | No     | No     | No     | No     | No      | ---     |
+{{< /table >}}
+
+### Network Transitions
+
+Support for these transitions is fairly limited and are only supported through draggable methods.
+
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | Street | Road  | ARD-3 | NRD-4 | RD-4  | RD-6  | Avenue | AVE-2  | TLA-5  | AVE-6  | TLA-7  | OWR    | OWR-1  | OWR-3  | OWR-4  | OWR-5  | 
+|---------| :---:  | :---: | :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
+| MIS     | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | Yes    | Yes    | No     | No     | No     |
+| RHW-2   | Yes    | Yes   | No    | No    | No    | No    | No     | Yes    | No     | No     | No     | No     | No     | No     | No     | No     |
+| RHW-3   | No     | No    | Yes   | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | No     |
+| RHW-4   | No     | No    | No    | No    | Yes   | No    | Yes    | No     | Yes    | No     | No     | Yes    | No     | No     | No     | No     |
+| RHW-6S  | No     | No    | No    | No    | No    | Yes   | No     | No     | No     | No     | No     | No     | No     | Yes    | No     | No     |
+| RHW-6C  | No     | No    | No    | No    | No    | No    | No     | No     | No     | Yes    | Yes    | No     | No     | No     | No     | No     |
+| RHW-8S  | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | Yes    | No     |
+| RHW-8C  | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | No     |
+| RHW-10S | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | Yes    |
+| RHW-12S | No     | No    | No    | No    | No    | No    | No     | No     | No     | No     | No     | No     | No     | No     | No     | No     |
+{{< /table >}}
 
 ### FLEXFly Crossings
 
@@ -103,40 +277,89 @@ Not currently supported.
 
 ### Wide-Radius / Multi-Radius Curves
 
+Items with full compatibility have both FLEX and draggable construction methods implemented.
+Exceptions are noted with partial compatibility.
+These ratings apply to all applicable levels of each RHW network, not just L0.
+
+{{< table class="table-bordered nam-compat-status w-auto" >}}
+| Width   | 90° R0 | 90° R1 | 90° R2              | 90° R3 | 90° R4 | 90° R5 | 45° R0 | 45° R1 | 45° R2 | 45° R3              | 45° R4              | 45° R5              | Lane Shift          | Basketweave |
+| ------: | :----: | :----: | :-----------------: | :----: | :----: | :----: | :----: | :----: | :----: | :-----------------: | :-----------------: | :-----------------: | :-----------------: | :---------: |
+| MIS     | No     | Yes    | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-2   | Yes    | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-3   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-4   | No     | No     | Partial<sup>1</sup> | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | Yes         |
+| RHW-6S  | No     | No     | No                  | No     | No     | No     | Yes    | Yes    | Yes    | Yes                 | Partial<sup>1</sup> | Partial<sup>1</sup> | Partial<sup>1</sup> | No          |
+| RHW-6C  | No     | No     | No                  | No     | No     | No     | No     | No     | No     | No                  | No                  | No                  | Partial<sup>2</sup> | No          |
+| RHW-8S  | No     | No     | No                  | No     | No     | No     | No     | No     | No     | Partial<sup>2</sup> | No                  | No                  | No                  | No          |
+| RHW-8C  | No     | No     | No                  | No     | No     | No     | No     | No     | No     | No                  | No                  | No                  | Partial<sup>2</sup> | No          |
+| RHW-10S | No     | No     | No                  | No     | No     | No     | No     | No     | No     | Partial<sup>2</sup> | No                  | No                  | No                  | No          |
+{{< /table >}}
+
+<span class="fs-6">**<sup>1</sup>** With FLEX or puzzle pieces only, draggable patterns are not supported.</span><br>
+<span class="fs-6">**<sup>2</sup>** With puzzle pieces pieces only, FLEX and draggable patterns are not supported.</span><br>
+
 ### Fractional Angle Support
 
-As Fractional Angle support for the RHW is entirely puzzle piece-based at present, see the listings in the Menu Items section, under the FARHW, FARHW Ramp Interfaces, and FARHW Intersections and Transitions buttons.
+{{< legacy >}} 
+Fractional Angle support for the RHW is entirely puzzle piece-based at present, see [Fractional Angle Menu Items lists](http://localhost:1313/docs/feature-guides/realhighway/#fractional-angle-rhw-menu-items) for a listing of supported features.
 
 ### FLEX Turn Lane Intersection Support
 
-#### Orthogonal x Orthogonal (OxO) Intersections
+#### Orthogonal x Orthogonal (OxO)
+
+{{< table class="table-bordered nam-compat-status table-sm" >}}
+|         | Details |
+| ------- | :-----: |
+| MIS     | Partial: Roads (with and without SITAP, + and T), One-Way Roads (with SITAP, + and T), Avenues (with and without SITAP, + and T), Type 110 Road/NWM FTLs (with and without SITAP, +-only), Type 120 Avenue/NWM FTLs (with and without SITAP, +-only), Type 130 NWM FTLs (with and without SITAP, +-only), L1 Road (with and without SITAP, + and T), L1 Avenue (without SITAP, +-only), and two intersection types currently only used by the QuickChange Xpress interchanges: Dual Type 110 Road/NWM FTLs, and Dual Type 120 Avenue/NWM FTLs are supported. |
+| RHW-2   | Partial: Streets, Roads (with and without SITAP), and other RHW-2s (both with and without FTLs, and with and without SITAP) are supported. |
+| RHW-3   | No |
+| RHW-4   | Partial: Streets (+ and limited T), Roads (with and without SITAP, + and limited T), and RHW-2 (without FTLs, and with or without SITAP, + and limited T) are supported. |
+| RHW-6S  | No |
+| RHW-6C  | No |
+| RHW-8S  | No |
+| RHW-8C  | No |
+| RHW-10S | No |
+| RHW-12S | No |
+{{< /table >}}
+
+<span class="fs-6">**<sup>1</sup>** +-intersections are supported, T-intersections are limited.</span><br>
+
+#### Orthogonal x Diagonal (OxD)
+
+Not supported.
+
+#### Diagonal x Orthogonal (DxO)
+
+Not supported.
+
+#### Diagonal x Diagonal (DxD)
+
+Not supported.
+
 
 ### Bridges
 
-> Refer to [the _Bridges_ section](/docs/feature-guides/realhighway-mod/#bridges) of the RealHighway Mod feature guide for a list of bridge styles that are available.
-
-All RHW networks, with the exception of the 6C and 8C networks, are capable of creating bridges.
-
 {{< table class="table-bordered nam-compat-status w-auto" >}}
-| NETWORK         | Base Network     |
-|-----------------|:----------------:|
-| RHW-2           |       RHW-2      |
-| RHW-3           |       RHW-2      |
-| MIS Ramp        |       RHW-2      |
-| RHW-4 (single)  |       RHW-2      |
-| RHW-4 (dual)    |       GHWY       |
-| RHW-6S (single) |       RHW-2      |
-| RHW-6S (dual)   |       GHWY       |
-| RHW-8S          |       GHWY       |
-| RHW-10S         |       GHWY       |
-| RHW-6C          |    No support    |
-| RHW-8C          |    No support    |
-| DD RHW-4        |       RHW-2      |
+|                 | Supported | Base Tool             |
+|-----------------| :------:  | :-------------------: |
+| MIS             | Yes       | RHW-2                 |
+| RHW-2           | Yes       | RHW-2                 |
+| RHW-3           | Yes       | RHW-2                 |
+| RHW-4 (single)  | Yes       | RHW-2                 |
+| RHW-4 (dual)    | Yes       | Maxis Ground Highway  |
+| RHW-6S (single) | Yes       | RHW-2                 |
+| RHW-6S (dual)   | Yes       | Maxis Ground Highway  |
+| RHW-6C          | No        | ---                   |
+| RHW-8S          | Yes       | Maxis Ground Highway  |
+| RHW-8C          | No        | ---                   |
+| RHW-10S         | Yes       | Maxis Ground Highway  |
+| RHW-12S         | Yes       | Maxis Ground Highway  |
+| DD-RHW-4        | Yes       | RHW-2                 |
 {{< /table >}}
 
 ### Tunnels
 
-Due to the nature of the DirtRoad network, tunnels were never implemented and as such, are impossible to use in the game. However, there is currently some work being done on emulating tunnel functionality by using other networks with the FLEXFLUPs project.
+Tunnels are not supported for any RealHighway type. Refer to the [RHW Tunnels](/docs/feature-guides/realhighway/#tunnels) section which describes some potential workarounds.
 
 ## Network ID Assignments
 
