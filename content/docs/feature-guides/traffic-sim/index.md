@@ -1,13 +1,12 @@
 ---
 title : "The NAM Traffic Simulator"
-url: "/docs/feature-guides/traffic-sim"
+url: "/docs/feature-guides/traffic-simulator"
 description: "The NAM Traffic Simulator is a traffic simulator that is derived from the original Maxis traffic simulator, but is also built upon the knowledge gained from all previous NAM traffic simulators, including work by the7trumpets, Tropod, jplumbley, mott, and z."
 lead: "The NAM Traffic Simulator is a traffic simulator that is derived from the original Maxis traffic simulator, but is also built upon the knowledge gained from all previous NAM traffic simulators, including work by the7trumpets, Tropod, jplumbley, mott, and z. The NAM Traffic Simulator was originally incorporated into the NAM as Simulator Z, as at that time there were a number of different traffic simulators available in the NAM. Internally, this traffic simulator is still known as Simulator Z, and the latest version is Simulator Z v3.0. This is the first release of the NAM Traffic Simulator in over ten years that includes new functionality, and the significance of this new functionality is the greatest since the release of Simulator Z v2.1 in December, 2009, which established the value of the pathfinding heuristic that is still in use today."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
 images: []
-url: "docs/feature-guides/the-nam-traffic-simulator"
 ---
 <!-- markdownlint-disable MD001 -->
 ### Areas of Work

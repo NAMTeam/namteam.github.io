@@ -36,6 +36,7 @@
     "precheck": "npm version",
     "check": "exec-bin node_modules/.bin/hugo/hugo version",
     "copy:katex-fonts": "shx cp ./node_modules/katex/dist/fonts/* ./static/fonts/",
+    "copy:bootstrap-icons-fonts": "shx cp ./node_modules/bootstrap-icons/font/fonts/* ./static/fonts/",
     "postinstall": "hugo-installer --version otherDependencies.hugo --extended --destination node_modules/.bin/hugo",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
@@ -69,5 +70,8 @@
   },
   "otherDependencies": {
     "hugo": "0.125.6"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.13.1"
   }
 }
