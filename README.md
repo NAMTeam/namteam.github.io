@@ -104,15 +104,31 @@ There are a handful of Hugo shortcodes that can be used to make developing docum
 
 Shortcodes are written in the `{{< SHORTCODE >}}` syntax. However there may be some cases where you need to use a particular shortcode inside an automatically-generated heading. For these, you will need to use the `{{% SHORTCODE %}}` syntax.
 
+Some shortcodes take arguments which can be used to customize their content or appearance.
+Depending on how the shortcode is set up, arguments may either be relative (specified one after each other, in order), or named.
+Named arguments are useful for clarity, or if you only wish to specify some arguments to the shortcode, not all.
+In a single shortcode, you cannot mix and match relative and named arguments.
+
+``` c#
+// relative arguments
+{{< shortcode "value1" "value2" "value3">}}
+
+// named arguments
+{{< shortcode arg1="value1" arg2="value2" arg3="value3">}}
+{{< shortcode arg1="value1" arg3="value3">}}
+
+// invalid
+{{< shortcode "value1" arg3="value3">}}
+```
+
 #### Alert
 
 Shortcode: 
 ```
 {{< alert context="CONTEXT" text="This is an example alert." >}}
 ```
-The above shortcode uses a simple string to create the alert. 
-
-The following contexts are supported:
+The above shortcode uses a simple string to create the alert.
+These alerts are styled off of the [Bootstrap Alerts](https://getbootstrap.com/docs/5.3/components/alerts/), and the following contexts are supported:
 * primary
 * info
 * success
@@ -140,14 +156,27 @@ A carousel is a slideshow for cycling through a series of images. List the image
 ```
 
 #### Details
-This shortcode is simply a wrapper for the HTML [details element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details). Specify the summary text and optionally choose whether to have the element open by default instead of closed.
+This shortcode is simply a wrapper for the HTML [details element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/details).
+Specify the summary text.
+Optionally choose whether to show a badge (currently `deprecated` and `legacy` are supported), and whether to have the element open by default instead of closed.
 
 ```
 {{< details "Summary text" >}}
 Content goes here. This will be hidden until the user clicks to expand.
 {{< /details >}}
 
-{{< details "Summary text" "open" >}}
+{{< details "Summary text" "deprecated" >}}
+Content goes here. This will be hidden until the user clicks to expand.
+{{< /details >}}
+
+{{< details summary="Summary text" badge="deprecated" >}}
+Content goes here. This will be hidden until the user clicks to expand.
+{{< /details >}}
+```
+
+To specify the state without a badge, you must use named arguments:
+```
+{{< details summary="Summary text" state="open" >}}
 This content will be visible by default because state is set to "open".
 {{< /details >}}
 ```
@@ -270,6 +299,7 @@ MARKDOWN_TABLE
 * h3ndofry
 * jflann
 * memo33
+* nos.17
 * Tarkus
 * ulisse99
 

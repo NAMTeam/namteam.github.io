@@ -37,7 +37,7 @@ url: "docs/reference/credits"
 - metarvo
 - mgb204
 - MushyMushy
-- nos. 17
+- nos.17
 - null45
 - pierreh
 - Ramona Brie
@@ -68,6 +68,7 @@ url: "docs/reference/credits"
 
 - Flann
 - memo
+- nos.17
 - Shadow Assassin
 - Tarkus
 - ulisse

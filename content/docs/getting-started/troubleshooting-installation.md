@@ -68,9 +68,16 @@ The NAM Team is not familiar enough with the App Store version to give reliable 
 
 ## A Note About Drive Side (RHD vs. LHD)
 
-While the NAM Installer, as noted above, has a series of checkboxes in Custom Installation relating to drive side, it is worth re-iterating that these boxes **only change the compatibility files installed with the NAM, and do NOT change drive side**. If you have an installation with Right-Hand Driving (RHD, vehicles driving on the right side of roads--this concept is **NOT** the same as the side one sits on when driving a vehicle) and wish to switch to Left-Hand Driving (LHD, vehicles driving on the left side of roads), this generally needs to be done either by adjusting the game's locale files, and then either editing the game's Windows registry entries, or by modifying the game's shortcut.
+The concept of drive side refers to the side vehicles drive on, *not* the side one sits on when driving a vehicle.
+Right-Hand Driving (RHD) refers to traffic driving on the right side of road, as is done in North and South America, Continental Europe and most of the Africa and Asia.
+Left-Hand Driving (LHD) refers to traffic driving on the left side of the road, as is done in the UK, Japan, Australia, India, and other countries.
 
-The new NAM Installer cannot determine default drive side of your installation, so make note of which side vehicles drive on in your game prior to installation. If you have changed your drive side by modifying the game's shortcut, instead of editing the Windows registry, then this would be the **one and only case when changing the box checked here would be needed**.
+While the NAM Installer has a series of checkboxes in Custom Installation relating to drive side, it is important to note that these options **only change the compatibility files installed with the NAM, and do NOT change drive side in-game**.
+If you wish to switch between LHD and RHD, this generally needs to be done either by adjusting the game's locale files, and then either editing the game's Windows registry entries, or by modifying the game's shortcut.
+A tutorial for how to complete this process can be found [at Simtropolis](https://community.simtropolis.com/omnibus/simcity-4/reference/alter-the-driving-side-lhd-rhd-rhd-lhd-of-sc4nam-r289/).
+
+The NAM Installer cannot determine default drive side of your installation, so make note of which side vehicles drive on in your game prior to installation.
+If you have changed your drive side by modifying the game's shortcut, instead of editing the Windows registry, then this would be the one and only case when changing the box checked here would be needed.
 
 ## A Note About the "4GB Patch" {#4gb-patch}
 
