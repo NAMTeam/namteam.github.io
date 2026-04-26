@@ -33,38 +33,74 @@ The letter/number types translate as follows:
         <tr>
             <td><img class="img-invert-dark" src="images/ramps/TypeA1.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/TypeB1.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeC1.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/TypeD1.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/TypeE1.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeF1.png" /></td>
         </tr>
         <tr>
             <td>Type A1</td>
             <td>Type B1</td>
+            <td>Type C1<br><sup><i>Not available</i></sup></td>
             <td>Type D1</td>
             <td>Type E1</td>
+            <td>Type F1<br><sup><i>Not available</i></sup></td>
         </tr>
         <tr>
             <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with an orthogonal branch. No lanes peel off the mainline.</td>
             <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with a diagonal branch. No lanes peel off the mainline.</td>
+            <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with a fractional angle (18.4°) branch. No lanes peel off the mainline.</td>
             <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with an orthogonal branch. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.</td>
             <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with a diagonal branch. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.</td>
+            <td class="fs-6">A single-lane (OWR-1) branch off the mainline, splitting at a fractional angle (18.4°) from the mainline. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.</td>
         </tr>
         <tr>
             <td><img class="img-invert-dark" src="images/ramps/TypeA2.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/TypeB2.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeC2.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/TypeD2.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/TypeE2.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeF2.png" /></td>
         </tr>
         <tr>
             <td>Type A2</td>
             <td>Type B2</td>
+            <td>Type C2<br><sup><i>Not available</i></sup></td>
             <td>Type D2</td>
             <td>Type E2</td>
+            <td>Type F2<br><sup><i>Not available</i></sup></td>
         </tr>
         <tr>
             <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with an orthogonal branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.</td>
             <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with a diagonal branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.</td>
+            <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with a fractional angle (18.4°) branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.</td>
             <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with an orthogonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.</td>
             <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with a diagonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+            <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with a fractional angle (18.4°) branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+        </tr>
+        <tr>
+            <td><img class="img-invert-dark" src="images/ramps/TypeA3.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeB3.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeC3.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeD3.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeE3.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeF3.png" /></td>
+        </tr>
+        <tr>
+            <td>Type A3<br><sup><i>Not available</i></sup></td>
+            <td>Type B3<br><sup><i>Not available</i></sup></td>
+            <td>Type C3<br><sup><i>Not available</i></sup></td>
+            <td>Type D3<br><sup><i>Not available</i></sup></td>
+            <td>Type E3<br><sup><i>Not available</i></sup></td>
+            <td>Type F3<br><sup><i>Not available</i></sup></td>
+        </tr>
+        <tr>
+            <td class="fs-6">A triple-lane (OWR-3) branch off the mainline, with an orthogonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+            <td class="fs-6">A a triple-lane (OWR-3) branch off the mainline, with a diagonal branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+            <td class="fs-6">A triple-lane (OWR-3) branch off the mainline, with a fractional angle (18.4°) branch. Two of the three lanes on the branch is from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+            <td class="fs-6">A triple-lane (OWR-3) branch off the mainline, with an orthogonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom.</td>
+            <td class="fs-6">A triple-lane (OWR-3) branch off the mainline, with a diagonal branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom.</td>
+            <td class="fs-6">A triple-lane (OWR-3) branch off the mainline, with a fractional angle (18.4°) branch. All three lanes on the branch are from the mainline, and the mainline has three fewer lanes at the bottom.</td>
         </tr>
     </table>
 </div>
