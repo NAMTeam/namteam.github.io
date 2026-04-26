@@ -11,6 +11,14 @@ url: "docs/feature-guides/realexpressway"
 
 {{< docstatus status="untranslated" >}}
 
+## Overview
+The Real Expressway Mod uses the work of the OWR variants of the Network Widening Mod to make a condensed version of the ramps featured in the [RealHighway Mod](/docs/feature-guides/realhighway).
+It is not intended to be a replacement for or a simplified version of the RHW. Rather, it provides RHW-like functionality (and some other fun things) to the OWR system.
+The REW ramps can be used to recreate urban and suburban surface arterials that have expressway and freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighway), or various novel intersection configurations.
+
+REW aims to provide a "halfway point" between a fully access-controlled highways and a surface streets.
+Since it is based off the One-Way Road network (and its NWM variants), it has a lower capacity and speed than the RHW, but is on the higher side when compared to surface streets.
+
 ## Constructing RealExpressways
 
 ### Ramp Interface Basics
