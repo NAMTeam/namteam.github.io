@@ -1,7 +1,7 @@
 ---
 title : "RealExpressway (REW)"
 description: "The RealExpressway (REW) system expands upon the Maxis One-Way Road network, adding Ramp Interfaces and enhancing the Network Widening Mod's OWR components."
-lead: "The RealExpressway (REW) system adds a series of Ramp Interfaces (both FLEX Piece-based and draggable) to the base One-Way Road (OWR) network and the additional OWR widths of Network Widening Mod (NWM). As such, it requires that the Network Widening Mod be installed. The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway/freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighways), or various novel intersection configurations."
+lead: "The RealExpressway (REW) system adds a series of Ramp Interfaces to the both the base One-Way Road (OWR) network and the OWR widths of Network Widening Mod (NWM). The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway and freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighway), or various novel intersection configurations."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -115,49 +115,81 @@ Ramps may have an additional modifier on their name to further describe unique c
     </table>
 </div>
 
+Note that the case of REW, separate Outside and Inside ramps are not needed (unlike the RHW's ramp system) because OWR can be drawn and overridden in either direction.
+
 ### Building Ramp Interfaces
 
-There are two methods of building REW Ramp Interfaces: using the FLEX Pieces (found under the RealExpressway One-Way Road FLEXRamps button on the Roads Menu), or through draggable means (only available for certain ramps).
+There are two methods of building REW Ramp Interfaces: using the FLEX Pieces (), or through draggable means (only available for certain ramps).
+1. **FLEXRamps** - These are ploppable, generally slope-tolerant, and conform to match the surrounding network via overrides. These can be found under the found under the RealExpressway One-Way Road FLEXRamps button on the Roads Menu.
+{{< menu-icon icon="images/icons/rew-flex-ramps.jpg" caption="_REW One-Way Road FLEXRamps Button_" >}}
+2. **Draggable Ramp Interfaces (DRIs)** - These are pattern-based draggable items, built by dragging the OWR network tool according to a specific pattern. Like the FLEXRamps, these will conform to match the surrounding network via overrides. These are only available in limited circumstances.
 
-The FLEX Pieces are the simpler way to build REW ramps. First, under the REW Ramp Interfaces button, cycle through TAB or Shift-TAB (Ctrl-TAB or Ctrl-Shift-TAB on Mac) to the desired ramp interface, and place it. Then, drag the One-Way Road tool through the mainline, and finally, through the ramp--which, in this case, will convert to the 1-Lane One-Way Road network (OWR-1) from the Network Widening Mod (NWM). In the case of the Road splitter ramps (new to NAM 45), use the Road network out the top of the ramp instead.
+{{< alert context="warning" >}}
+All types of ramps are not able to be constructed through all methods. Some may be possible to construct through both three methods, while some are only possible with one of the methods.
+When available, DRIs are the preferred method for most ramp interfaces.
+However, the majority of ramps are currently only available as FLEXRamps and are not possible with DRI setups.
+A full listing of capabilities can be found in the [REW Compatibility Guide](/docs/tech-specs/realexpressway)
+{{< /alert >}}
 
-{{< gallery col-xl="2" col-lg="2" col-md="1" >}}
+#### Using FLEXRamps
+
+In order to use a ramp interface to connect a branch to an One Way Road, first place the desired ramp interface.
+Then drag OWR through the mainline and the branch to extend the ramp, just like using a starter piece.
+The network will convert to match the ramp.
+
+{{< carousel >}}
     images/rew-flex-1.jpg
-    images/rew-flex-2.jpg
-    images/rew-flex-3.jpg
-    images/rew-flex-4.jpg
-    images/rew-flex-5.jpg
-{{< /gallery >}}
+    images/rew-flex-2.jpg | Place starter piece
+    images/rew-flex-3.jpg | Drag OWR through the mainline
+    images/rew-flex-4.jpg | Drag OWR through the branch
+    images/rew-flex-5.jpg | 🎉
+{{< /carousel >}}
 
-As the REW FLEXRamps use special network flags to counteract the game's hardcoded "Tidal Flow" system of determining the direction of a One-Way Road, they are effectively bidirectionally-pathed at all times (as shown in the image below, in which the DrawPaths cheat from SimCity 4 Extra Cheats.dll has been turned on). The directionality is irrelevant. Note, however, that this means that REW FLEXRamps CANNOT be placed directly over an existing stretch of One-Way Road (or an NWM OWR). One must use the Bulldozer or the NAM's Network Eraser to make a place for the FLEXRamp to be plopped.
+{{< alert context="info" >}}
+In the case of the Road splitter ramps, use the Road network out the top of the ramp instead.
+{{< /alert >}}
+
+{{< alert context="info" >}}
+Unlike FLEXRamps of other network types, REW FLEXRamps *cannot* be placed directly over an existing stretch of OWR. You must use the Bulldozer or the NAM's [Network Eraser](/docs/feature-guides/network-eraser) to make a place for the FLEXRamp to be plopped.
+
+The REW FLEXRamps use special network flags to counteract the game's hardcoded "Tidal Flow" system of determining the direction of a One-Way Road, meaning they are effectively bidirectionally-pathed at all times.
+This can be seen with the `DrawPaths` cheat enabled - note the green "X's" over the ramp portion of the piece - and allows the ramp to be functional regardless of the direction OWR is dragged through it.
 
 {{< img-simple src="images/rew-flex-drawpaths.jpg" >}}
 
-The Draggable Ramp Interfaces (DRIs) behave differently, and are not bidirectionally-pathed, instead aligning with the Tidal Flow system. Note that in both cases, separate Outside and Inside ramps are not needed, unlike the RHW's ramp system.
+The Draggable Ramp Interfaces (DRIs) behave differently, and are not bidirectionally-pathed.
+These instead fully align with the Tidal Flow system.
 
 {{< img-simple src="images/rew-draggable-drawpaths.jpg" >}}
+{{< /alert >}}
+
+#### Building Draggable Ramp Interfaces (DRIs)
+
+Draggable Ramp Interfaces, or DRIs, are ramp interfaces that are constructed as draggable patterns using the One-Way Road network.
+With the exception of a very few specialized setups, currently only a few REW ramp interface setup can be built through draggable means.
+Each ramp interface type supported by the system has a special drag pattern, which when constructed, will automatically convert into the appropriate on/offramp.
 
 The build methods are shown below:
 
-{{< gallery col-xl="3" col-lg="3" col-md="1" caption="_A1 Orthogonal Ramp_" >}}
+A1 Orthogonal Ramp
+{{< carousel caption="_A1 Orthogonal Ramp_" >}}
     images/rew-draggable-a1-orth-1.jpg
     images/rew-draggable-a1-orth-2.jpg
     images/rew-draggable-a1-orth-3.jpg
-{{< /gallery >}}
+{{< /carousel >}}
 
-{{< gallery col-xl="2" col-lg="2" col-md="1" caption="_B1 Orthogonal Ramp_" >}}
+{{< carousel caption="_B1 Orthogonal Ramp_" >}}
     images/rew-draggable-b1-orth-1.jpg
     images/rew-draggable-b1-orth-2.jpg
-{{< /gallery >}}
+{{< /carousel >}}
 
-{{< gallery col-xl="3" col-lg="3" col-md="1" caption="_A1 Diagonal Ramp_" >}}
+{{< carousel caption="_A1 Diagonal Ramp_" >}}
     images/rew-draggable-a1-diag-1.jpg
     images/rew-draggable-a1-diag-2.jpg
     images/rew-draggable-a1-diag-3.jpg
-{{< /gallery >}}
+{{< /carousel >}}
 
-{{< gallery col-xl="2" col-lg="2" col-md="1" caption="_B1 Diagonal Ramp_" >}}
+{{< carousel caption="_B1 Diagonal Ramp_" >}}
     images/rew-draggable-b1-diag-1.jpg
     images/rew-draggable-b1-diag-2.jpg
-{{< /gallery >}}
-
+{{< /carousel >}}
