@@ -1,7 +1,7 @@
 ---
 title : "RealExpressway (REW)"
 description: "The RealExpressway (REW) system expands upon the Maxis One-Way Road network, adding Ramp Interfaces and enhancing the Network Widening Mod's OWR components."
-lead: "The RealExpressway (REW) system adds a series of Ramp Interfaces to the both the base One-Way Road (OWR) network and the OWR widths of Network Widening Mod (NWM). The REW's ramps can be used to recreate urban and suburban surface arterials that have expressway and freeway-like features, Texas-style frontage roads supporting RCI development/access (especially in combination with RealHighway), or various novel intersection configurations."
+lead: "The RealExpressway (REW) system expands upon the Maxis One-Way Road network, adding Ramp Interfaces and enhancing the Network Widening Mod's OWR components."
 date: 2022-09-06T10:09:26+00:00
 lastmod: 2022-09-06T10:09:26+00:00
 draft: false
@@ -10,6 +10,13 @@ url: "docs/feature-guides/realexpressway"
 ---
 
 {{< docstatus status="untranslated" >}}
+
+{{< gallery col-xl="4" col-lg="4" col-md="2">}}
+    images/rew-teaser-1.jpg
+    images/rew-teaser-2.jpg
+    images/rew-teaser-3.jpg
+    images/rew-teaser-4.jpg
+{{< /gallery >}}
 
 ## Overview
 The Real Expressway Mod uses the work of the OWR variants of the Network Widening Mod to make a condensed version of the ramps featured in the [RealHighway Mod](/docs/feature-guides/realhighway).
