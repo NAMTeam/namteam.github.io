@@ -72,7 +72,7 @@ Old versions are ineligible for technical support and are not offered for downlo
 | [Network Eraser](/docs/feature-guides/network-eraser)                       | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
 | [Network Widening Mod](/docs/feature-guides/network-widening-mod)           | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
 | [Pedestrian Revolution Mod](/docs/feature-guides/pedestrian-revolution-mod) | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
-| [RealExpressway](/docs/feature-guides/realexpressway-mod)                   | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
+| [RealExpressway](/docs/feature-guides/realexpressway)                       | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
 | [RealHighway](/docs/feature-guides/realhighway-mod)                         | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
 | [RealRailway](/docs/feature-guides/real-railway)                            | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
 | [Road Viaducts](/docs/feature-guides/road-viaducts)                         | <i class="bi bi-check-circle-fill"></i> | <i class="bi bi-x-lg"></i>              |
