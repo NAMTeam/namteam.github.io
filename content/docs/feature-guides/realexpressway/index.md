@@ -161,6 +161,3 @@ The build methods are shown below:
     images/rew-draggable-b1-diag-2.jpg
 {{< /gallery >}}
 
-The current set of FLEXRamps available for the REW (22 in total) is shown below:
-
-{{< img-simple src="images/rew-ramps.jpg" >}}
