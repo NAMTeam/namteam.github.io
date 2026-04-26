@@ -114,7 +114,7 @@ Ramps may have an additional modifier on their name to further describe unique c
             <td><img class="img-invert-dark" src="images/ramps/modifier-inside.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/modifier-wide.png" /></td>
             <td><img class="img-invert-dark" src="images/ramps/modifier-wye.png" /></td>
-            <td><img class="img-invert-dark" src="" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-shift.png" /></td>
         </tr>
         <tr>
             <td>Outside</td>
