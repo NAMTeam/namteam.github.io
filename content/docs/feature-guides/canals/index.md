@@ -11,6 +11,10 @@ url: "docs/feature-guides/canals"
 
 {{< docstatus status="legacy" >}}
 
+{{< gallery col-xl="4" col-lg="4" col-md="2">}}
+    images/can-am-teaser-1.gif
+{{< /gallery >}}
+
 ## Overview
 
 The CAN-AM is designed to work with either the **CAL SG Canals** by callagrafx (recommended) or the original **SG Canals** by SimGoober.
