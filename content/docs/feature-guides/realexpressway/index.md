@@ -9,7 +9,113 @@ images: []
 url: "docs/feature-guides/realexpressway-mod"
 ---
 
-## Building REW Ramp Interfaces
+## Constructing RealExpressways
+
+### Ramp Interface Basics
+
+At the core of the RealExpressway are the **Ramp Interfaces**, which allow exit and entrance ramps to branch from or merge into the through lanes, or "mainline", of a stretch of highway.
+
+{{< img-simple src="images/ramps/ramp-interface-anatomy.jpg" >}}
+
+Ramp Interfaces come in a wide variety of shapes and sizes, so to properly identify each ramp, there are two, sometimes three or even four parts to the name.
+These indicate the mainline width, the branch angle and width, as well as whether any of the branch lanes were "exit only" or "acceleration" lanes - lanes added to or subtracted from the mainline.
+Some more specialized ramp interfaces may append a fourth part, containing other information about the nature and location of the branch in relation to the mainline.
+
+The mainline portion will always indicate the width of the "top" portion of the ramp interface, where the mainline is guaranteed to be at its widest.
+In the case of FLEXRamps, since they are often shared by multiple networks which override a base version, the mainline network is usually excluded from the in-game description.
+
+For the "type" designation, the number indicates the number of lanes included in the branch, while the letter indicates the branch angle and indicates whether the branch has any lanes that peel off (on exit) or join (on entrance) the mainline.
+The letter/number types translate as follows:
+
+<!-- Note, this is in HTML due to an issue with how specific tables are rendered -->
+<div class="table-responsive">
+    <table class="w-auto table-bordered">
+        <tr>
+            <td><img class="img-invert-dark" src="images/ramps/TypeA1.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeB1.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeD1.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeE1.png" /></td>
+        </tr>
+        <tr>
+            <td>Type A1</td>
+            <td>Type B1</td>
+            <td>Type D1</td>
+            <td>Type E1</td>
+        </tr>
+        <tr>
+            <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with an orthogonal branch. No lanes peel off the mainline.</td>
+            <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with a diagonal branch. No lanes peel off the mainline.</td>
+            <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with an orthogonal branch. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.</td>
+            <td class="fs-6">A single-lane (OWR-1) branch off the mainline, with a diagonal branch. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.</td>
+        </tr>
+        <tr>
+            <td><img class="img-invert-dark" src="images/ramps/TypeA2.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeB2.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeD2.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeE2.png" /></td>
+        </tr>
+        <tr>
+            <td>Type A2</td>
+            <td>Type B2</td>
+            <td>Type D2</td>
+            <td>Type E2</td>
+        </tr>
+        <tr>
+            <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with an orthogonal branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.</td>
+            <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with a diagonal branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.</td>
+            <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with an orthogonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+            <td class="fs-6">A dual-lane (OWR-2) branch off the mainline, with a diagonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.</td>
+        </tr>
+    </table>
+</div>
+
+Ramps may have an additional modifier on their name to further describe unique characteristics about the ramp:
+
+<div class="table-responsive">
+    <table class="w-auto table-bordered">
+        <tr>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-outside.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-inside.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-wide.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-wye.png" /></td>
+            <td><img class="img-invert-dark" src="" /></td>
+        </tr>
+        <tr>
+            <td>Outside</td>
+            <td>Inside</td>
+            <td>Wide</td>
+            <td>Wye</td>
+            <td>Shift</td>
+        </tr>
+        <tr>
+            <td class="fs-6">The standard ramp where the branch is on the outside (right side in countries with right-hand traffic, left side in those with left-hand traffic).</td>
+            <td class="fs-6">The ramp branch is on the inside (left exit/entrance in countries with right-hand traffic, right exit/entrance for those with left-hand traffic), rather than the expected outside.</td>
+            <td class="fs-6">The ramp branch has a larger separation than the standard version of that type. Most commonly applied to A1 and A2 ramps.</td>
+            <td class="fs-6">Both the branch and the mainline diverge from the path of the mainline at the top in a symmetrical fashion, forming a wishbone or Y-shape. Typically the mainline is the same width as the branch.</td>
+            <td class="fs-6">The mainline undergoes curvature in the midst of the ramp. This occurs when the mainline shifts from an S-type network to a C-type network.</td>
+        </tr>
+        <tr>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-dual.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-folded.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/modifier-diagonal.png" /></td>
+            <td><img class="img-invert-dark" src="images/ramps/TypeC2.png" /></td>
+        </tr>
+        <tr>
+            <td>Dual</td>
+            <td>Folded</td>
+            <td>Diagonal</td>
+            <td>FA</td>
+        </tr>
+        <tr>
+            <td class="fs-6">There are two ramp branches on the ramp interface. This is most commonly seen with the bidirectional networks (RHW-2, RHW-3, and Double-Decker RHWs), or in conjunction with Shift.</td>
+            <td class="fs-6">There are two ramp branches that curve off at 90-degree angles, in opposite directions. There is only one Folded ramp interface, the RHW-2 D1 Folded.</td>
+            <td class="fs-6">The mainline is diagonal rather than orthogonal. The branch angles are handled the same as if the ramp were orthogonal (i.e. an orthogonal ramp branch off a diagonal ramp interface would still be an A or D-type ramp of some sort).</td>
+            <td class="fs-6">The mainline is at a fractional angle rather than orthogonal. The branch angles are handled the same as if the ramp were orthogonal (i.e. an orthogonal ramp branch off an FA ramp interface would still be an A or D-type ramp of some sort).</td>
+        </tr>
+    </table>
+</div>
+
+### Building Ramp Interfaces
 
 There are two methods of building REW Ramp Interfaces: using the FLEX Pieces (found under the RealExpressway One-Way Road FLEXRamps button on the Roads Menu), or through draggable means (only available for certain ramps).
 
@@ -54,59 +160,6 @@ The build methods are shown below:
     images/rew-draggable-b1-diag-1.jpg
     images/rew-draggable-b1-diag-2.jpg
 {{< /gallery >}}
-
-The nomenclature for REW ramps is essentially the same as for the RHW.
-
-<!-- Note, this is in HTML due to an issue with how specific tables are rendered -->
-
-<div class="table-responsive">
-    <table class="bg-white w-auto table-bordered">
-        <tr>
-            <td class="bg-white"><img src="images/ramps/TypeA1.png" /></td>
-            <td class="bg-white"><img src="images/ramps/TypeB1.png" /></td>
-            <td class="bg-white"><img src="images/ramps/TypeD1.png" /></td>
-            <td class="bg-white"><img src="images/ramps/TypeE1.png" /></td>
-        </tr>
-        <tr>
-            <td>Type A1</td>
-            <td>Type B1</td>
-            <td>Type D1</td>
-            <td>Type E1</td>
-        </tr>
-        <tr>
-            <td class="bg-white"><img src="images/ramps/TypeA2.png" /></td>
-            <td class="bg-white"><img src="images/ramps/TypeB2.png" /></td>
-            <td class="bg-white"><img src="images/ramps/TypeD2.png" /></td>
-            <td class="bg-white"><img src="images/ramps/TypeE2.png" /></td>
-        </tr>
-        <tr>
-            <td>Type A2</td>
-            <td>Type B2</td>
-            <td>Type D2</td>
-            <td>Type E2</td>
-        </tr>
-    </table>
-</div>
-
-* A1: Indicates a single-lane (OWR-1) branch off the mainline, with an orthogonal branch. No lanes peel off the mainline.
-* B1: Indicates a single-lane (OWR-1) branch off the mainline, with a diagonal branch. No lanes peel off the mainline.
-* D1: Indicates a single-lane (OWR-1) branch off the mainline, with an orthogonal branch. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.
-* E1: Indicates a single-lane (OWR-1) branch off the mainline, with a diagonal branch. The branch is formed from one lane of the mainline, and the mainline has one fewer lane at the bottom.
-* A2: Indicates a dual-lane (OWR-2) branch off the mainline, with an orthogonal branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.
-* B2: Indicates a dual-lane (OWR-2) branch off the mainline, with a diagonal branch. One of the two lanes on the branch is from the mainline, and the mainline has one fewer lane at the bottom.
-* D2: Indicates a dual-lane (OWR-2) branch off the mainline, with an orthogonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
-* E2: Indicates a dual-lane (OWR-2) branch off the mainline, with a diagonal branch. Both lanes on the branch are from the mainline, and the mainline has two fewer lanes at the bottom.
-
-Below is a list of the modifiers:
-
-* **Inside:** This designation is seen on ramps from one-way RHW networks, and indicates that the ramp branch is on the inside (left exit/entrance in countries with right-hand traffic, right exit/entrance for those with left-hand traffic), rather than the expected outside.
-* **Wide:** This designation indicates that the ramp branch has a larger separation than the standard version of that type, and is most commonly applied to A1 and A2 ramps.
-* **Wye:** This designation indicates that both the branch and the mainline (often when the mainline is of the same width as the branch) both diverge from the path of the mainline at the top in a symmetrical fashion, forming a wishbone or Y-shape.
-* **Shift:** This is an indication that the mainline undergoes curvature in the midst of the ramp. This occurs when the mainline shifts tile widths.
-* **Dual:** This is an indication that there are two ramp branches on the ramp interface. This is most commonly seen with the bidirectional networks, or in conjunction with Shift.
-* **Folded:** This is an indication that there are two ramp branches that curve off at 90-degree angles, in opposite directions. There is only one Folded ramp interface in the REW, the Road D1 Folded Wye.
-* **Diagonal:** This designation indicates that the mainline is diagonal rather than orthogonal. The branch angles are handled the same as if the ramp were orthogonal (i.e. an orthogonal ramp branch off a diagonal ramp interface would still be an A or D-type ramp of some sort).
-* **FA:** This designation indicates that the mainline is at a fractional angle rather than orthogonal. The branch angles are handled the same as if the ramp were orthogonal (i.e. an orthogonal ramp branch off an FA ramp interface would still be an A or D-type ramp of some sort).
 
 The current set of FLEXRamps available for the REW (22 in total) is shown below:
 
