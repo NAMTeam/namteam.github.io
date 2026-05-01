@@ -150,7 +150,7 @@ Old versions are ineligible for technical support and are not offered for downlo
         <td><i class="bi bi-x-lg"></i></td>
     </tr>
     <tr>
-        <td><a href="/docs/feature-guides/realexpressway-mod">RealExpressway</a></td>
+        <td><a href="/docs/feature-guides/realexpressway">RealExpressway</a></td>
         <td><i class="bi bi-check-circle-fill"></i></td>
         <td><i class="bi bi-x-lg"></i></td>
     </tr>
