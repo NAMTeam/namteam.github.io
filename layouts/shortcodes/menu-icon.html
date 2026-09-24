@@ -1,9 +1,21 @@
-{{- $icon := .Get "icon" -}}
- <!-- Argument name of 'Caption' kept for backward compatibility. Really this is more of a 'Title'. -->
-{{- $caption := .Get "caption" -}}
-{{- $description := .Get "description" -}}
-{{- $image := .Page.Resources.GetMatch (printf "*%s*" $icon) -}}
+{{- $iconKey := .Get 0 -}}
+{{- $showDescription := eq (.Get 1) "true" -}}
+
+{{- $namIcons := index site.Data "nam-icons" -}}
+{{- $entry := index $namIcons $iconKey -}}
+
+<!-- Hugo's Crop only supports fixed anchors (no arbitrary x-offset), so getting frame 3-of-4 takes two crops: first right-anchored crop keeps the last 2 frames, then left-anchored crop of that keeps the third -->
+{{- $sprite := resources.Get (printf "images/icons/%s.png" $entry.Icon) -}}
+{{- if not $sprite -}}
+  {{- errorf "menu-icon: could not resolve instance %q on page %q (not in assets/images/icons)" $iconKey .Page.File.Filename -}}
+{{- end -}}
+{{- $image := ($sprite.Crop (printf "%dx%d Right" 88 44)).Crop (printf "%dx%d Left" 44 44) -}}
 {{- $lqip := $image.Resize $.Site.Params.lqipWidth -}}
+
+{{- $locale := index $namIcons site.Language.Lang -}}
+{{- $enLocale := index $namIcons "en" -}}
+{{- $caption := index $locale $entry.Name | default (index $enLocale $entry.Name) | default $entry.Name -}}
+{{- $description := index $locale $entry.Description | default (index $enLocale $entry.Description) -}}
 
 <div class="d-flex align-items-center mb-4 p-3 border rounded bg-light">
   <div class="flex-shrink-0 me-3">
@@ -17,8 +29,8 @@
   </div>
   <div class="flex-grow-1">
     <h5 class="h5 mb-0 mt-0">{{ $caption | markdownify }}</h5>
-    {{- if $description -}}
-    <p class="mb-0 text-muted small">{{ $description | markdownify }}</p>
+    {{- if and $description $showDescription -}}
+    <div class="mb-0 text-muted small">{{ $description | markdownify }}</div>
     {{- end -}}
   </div>
 </div>

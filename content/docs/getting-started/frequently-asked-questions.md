@@ -58,6 +58,8 @@ The NAM includes modifications to the Network Rule ("RUL") files (which handle n
 
 At the very bottom of the Highways menu in the game you will find the NAM icon. Hover over this icon to show information about your current NAM installation.
 
+{{< menu-icon "NAM_Controller_VersionMarker" >}}
+
 ### Do I need to remove previous versions of the NAM and its related plugins?
 
 Yes. This has changed since the release of NAM 37 in July 2020. The NAM's contents are by default installed to the My Documents\SimCity 4\Plugins\Network Addon Mod directory (on Windows, and similar directories on other OSes). NAM 31 through NAM 36 also utilized a "z___NAM" folder in that same Plugins directory, which should also be removed.

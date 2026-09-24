@@ -17,7 +17,7 @@ The newest method for building Flexible Underpasses (FLUPs) involves the use of 
 
 The menu button used to access the Subway-based FLUPs content is located under the Highways menu, and it contains the items listed below:
 
-{{< img-simple src="images/rhw-flups-icon.png" >}}
+{{< menu-icon "RHW_FLUPs_Portals_Crossings" >}}
 
 #### RHW Flex-FLUPs Button
 

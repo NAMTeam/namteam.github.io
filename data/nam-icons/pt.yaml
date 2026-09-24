@@ -1,0 +1,152 @@
+2026960b-0a554ae0-2c2272f2: Estação de Monotrilho por Maxis
+2026960b-0a554ae0-2c2272f8: |-
+  Conecte as linhas do seu metrô e ferrovia elevada.
+
+  Tamanho do Lote: 3x1
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+
+  Criado por Maxis
+2026960b-0a554ae0-8bf1e5cd: Grande Estação Ferroviária por Maxis
+2026960b-123007bb-6a47fffd: Simulador de Trânsito - Capacidade Alta
+2026960b-0a554ae0-2c2272f6: |-
+  Melhora a eficácia das paradas de transito adjacentes em áreas residenciais.
+
+  Tamanho do Lote: 3x3
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade do Estacionamento: #d:4aa60ebc#
+  Empregos: 3
+
+  Criado por Maxis
+2026960b-0a554ae0-2c2272f7: |-
+  Gera uma renda, mas gera atrasos no trânsito.
+
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua:: #d:C8ED2D84#
+  Capacidade de Tráfego: #d:4aa60ebc#
+
+  Criado por Maxis
+2026960b-0a554ae0-0c42676f: |-
+  Transporta carros através das aguas de forma mais barata que construir uma ponte
+
+  Tamanho do Lote: 3x5
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição:  #m:099AFACD#
+  Consumo Elétrico:  #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+  Empregos: 18
+
+  Limitado a 16 terminais por cidade
+
+  Criado por Maxis
+2026960b-0a554ae0-587b406e: |-
+  Passageiros só podem embarcar/desembarcar em trens nas estações
+
+  Tamanho do Lote: 2x3 ( estação adjacente/proximidade)
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico:  #d:27812854#
+  Consumo de Agua:  #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+  Empregos: 12
+
+  Criado por Maxis
+2026960b-0a554ae0-4bbcea84: |-
+  Passageiros só podem embarcar/desembarcar nas estações
+
+  Tamanho do Lote: 3x1
+  Custo Mensal:  #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+  Empregos: 14
+
+  Criado por Maxis
+2026960b-0a554ae0-f158074b: |-
+  Sims só podem embarcar em ônibus nas Paradas de Ônibus
+
+  Tamanho do Lote: 1x1 (acostamento)
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+  Empregos: 3
+
+  Criado por Maxis
+2026960b-123007bb-6a47fffb: Simulador de Trânsito - Capacidade Baixa
+2026960b-0a554ae0-2c2272f5: |-
+  Sims só podem embarcar em barcas no Terminal de Barcas.
+
+  Tamanho do Lote: 2x5
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+  Empregos: 11
+
+  Limitado a 16 terminais por cidade
+  Criado por Maxis
+2026960b-0a554ae0-2c2272f1: Pédagio por Maxis
+2026960b-123007bb-6a47fffc: Simulador de Trânsito - Capacidade Média
+2026960b-123007bb-6a47fffe: Simulador de Trânsito - Capacidade Ultra
+2026960b-0a554ae0-4a5ea68e: |-
+  Move materiais industriais rapidamente
+
+  Tamanho do Lote: 3x2 (estação adjacente/proximidade)
+  Custo Mensal:  #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua:  #d:C8ED2D84#
+  Capacidade de Carga: #d:4aa60ebc#  Tons
+  Empregos: 17
+
+  Criado por Maxis
+2026960b-123007bb-6a47fffa: Simulador de Trânsito - Capacidade Clássica
+2026960b-0a554ae0-15becd76: |-
+  Linhas de Metrô só podem ser embarcadas/desembarcadas nas estações 
+
+  Tamanho do Lote: 1x1 (acostamento)
+  Custo Mensal: #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua: #d:C8ED2D84#
+  Capacidade de Passageiros: #d:4aa60ebc#
+  Empregos: 5
+
+  Criado por Maxis
+2026960b-0a554ae0-6bf1e5da: |-
+  Provê um aumento na demanda comercial e residencial
+
+  Tamanho do lote: 10x6
+  Custo mensal: #m:EA54D286#
+  Custo de demolição: #m:099AFACD#
+  Consumo de energia: #d:27812854#
+  Consumo de água: #d:C8ED2D84#
+  Capacidade de passageiros: #d:4aa60ebc#
+  Empregos: 53
+
+  Criado por Maxis
+2026960b-0a554ae0-ca5ea68d: |-
+  Acelera materiais para fabricas e produtos para os mercados.
+
+  Tamanho do Lote: 11x5
+  Custo Mensal:  #m:EA54D286#
+  Custo de Demolição: #m:099AFACD#
+  Consumo Elétrico: #d:27812854#
+  Consumo de Agua:  #d:C8ED2D84#
+  Capacidade de Carga: #d:4aa60ebc#  Tons
+  Empregos: 75
+
+  Criado por Maxis

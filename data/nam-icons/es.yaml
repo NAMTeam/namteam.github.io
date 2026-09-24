@@ -1,0 +1,782 @@
+2026960b-6a231eaa-60184f10: Viaducto AVE-4 elevado L1 (7,5m)
+2026960b-6a231eaa-c0209f01: Puente compacto de arcos de acero para RHW-6S
+2026960b-6a231eaa-33030000: Puente sencillo para Autopista de 2 vías (RHW-2)
+2026960b-0a554ae0-e29aa50c: Número de celdas de Ferrocarril
+2026960b-b505d529-dd15902a: Estación multipropósito L2 con estacionamiento de BriPizza
+2026960b-0a554ae0-0f40d1df: Estación para tren ligero elevado, diagonal
+2026960b-6a231eaa-30081f00: Puente de concreto adoquinado
+2026960b-6a386d26-ee6badb3: Estación intermodal de ferrocarril
+2026960b-2a592fd1-55387290: Constructor de terraplén de 30 metros (L4), rotar para Constructor de trinchera
+2026960b-6a231eaa-b0239f10: Viaducto RHW-3 elevado L1 (7,5m)
+2026960b-2a592fd1-5790500f: |-
+  Curva Multi-radio (MRC). Radio 2, 90°.
+
+  Curva por defecto: L0 RHW-2.
+
+  Esta curva puede ser usada con las redes MIS (L0-L2), RHW-4 (L0-L2). No admite RHW-6S.
+
+  TOLERANTE A PENDIENTES.
+
+  NO PERMITE CRUZAR SOBRE O BAJO OTRAS REDES.
+2026960b-6a231eaa-30071f00: Puente de armazón de acero asfaltado
+2026960b-0a554ae0-e29aa48f: Capacidad en Reserva
+2026960b-0a554ae0-2c2272f2: Estación de monorriel de Maxis
+2026960b-2a592fd1-5c535105: Plaza Peatonal - Césped
+2026960b-6a386d26-8dca0342: Estación para tren ligero elevado, bus y metro
+2026960b-123006aa-6a477000: |-
+  Para construir pasos a desnivel para carretera.
+
+  El botón contiene varios pasos sobre y bajo nivel para carretera.
+
+  Las piezas se giran usando las teclas Inicio y Fin; las teclas Tab y Shift+Tab (o Ctrl+Tab y Ctrl+Shift+Tab en macOS) cambian la pieza a usar. Cuando el cursor esté en verde, se puede colocar haciendo clic
+2026960b-6a231eaa-0000a091: Puente arqueado para Avenida
+2026960b-6a231eaa-0000a072: Puente ferroviario plano elevado L2
+2026960b-2a592fd1-55387330: Constructor de trinchera de 12 metros, rotar para Constructor de terraplén
+2026960b-6a231eaa-a0153f00: Puente de vigas de acero en V
+2026960b-6a231eaa-10380f01: Puente ferroviario de arco de armazón de acero de vía única
+2026960b-6a231eaa-b0029f00: Puente sencillo para RHW-2
+2026960b-0a554ae0-e29aa505: "Celdas ocupadas por estaciones de Tren Ligero en #city#"
+2026960b-6a231eaa-6033af00: |-
+  Puente de vigas de acero rojo para Carretera Unidireccional de 5 vías (OWR-5)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-0a554ae0-2c2272f8: |-
+  Permite conectar redes de Metro y Tren Ligero elevado.
+  Compatible con altura L2 (15 metros sobre el suelo)
+
+  Tamaño del terreno: 3x1
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+
+  Creada por Maxis
+2026960b-123007bb-6a47aa8a: |-
+  ferrocarril subsuperficial
+
+  Miscellaneous Puzzle Pieces
+2026960b-0a554ae0-e29aa507: Número de celdas de Tren Ligero
+2026960b-6a231eaa-54510000: Puente sencillo para Avenida de 4 vías (AVE-4)
+2026960b-6a231eaa-c0309f10: Viaducto RHW-10S elevado L1 (7,5m)
+2026960b-2a592fd1-55387220: Constructor de terraplén de 10 metros, rotar para Constructor de trinchera
+2026960b-6a231eaa-10230f00: Puente ferroviario de armazón superior de acero RRW-2 (dos vías)
+2026960b-6a231eaa-0000a14b: Puente para Monorriel AIT
+2026960b-0a554ae0-8bf1e5cd: Gran Estación de Ferrocarriles de Maxis
+2026960b-6a231eaa-0000a182: Puente de doble cubierta para DDRHW-4
+2026960b-6a231eaa-c0299f00: Viaducto RHW-10S a nivel
+2026960b-6a231eaa-b0119f00: Viaducto RHW-2 a nivel
+2026960b-2a592fd1-55387230: Constructor de terraplén de 12 metros, rotar para Constructor de trinchera
+2026960b-6a231eaa-30131f00: Puente de armazón de acero para calle
+2026960b-6a231eaa-b0149f20: Viaducto RHW-4S elevado L2 (15m)
+2026960b-6a231eaa-10180f00: Puente de vigas de placas RRW-1 (una vía)
+2026960b-6a231eaa-30541f01: Puente de suspensión mediano
+2026960b-0a554ae0-e29aa491: Uso promedio de paradas de Bus
+2026960b-2a592fd1-553873e0: Constructor de trinchera de 5 metros, rotar para Constructor de terraplén
+2026960b-2a592fd1-55387250: Constructor de terraplén de 15 metros (L2), rotar para Constructor de trinchera
+2026960b-6a231eaa-b0069f00: Puente de armazón de acero para RHW-4
+2026960b-cbe084cb-84cb0017: Puente de armazón voladizo
+2026960b-6a231eaa-60294f00: Puente de vigas de acero rojo para Carretera de 6 vías (RD-6)
+2026960b-6a231eaa-30091f00: Puente de ladrillos a nivel
+2026960b-0a554ae0-e29aa516: "Terminales de Ferry de Pasajeros en #city#"
+2026960b-2a592fd1-553f20d0: Sendero de Montaña - cruce en X
+2026960b-6a386d26-4fe9c49c: Estación de tren ligero elevado Morgan-Lake
+2026960b-6a231eaa-30021f00: Puente de ladrillos en espiga
+2026960b-6a231eaa-00192f00: |-
+  Tower Bridge JENXOLD.
+
+  El Puente de la Torre es un puente combinado de báscula y suspensión en Londres, Inglaterra, atravezando el río Támesis. Es el más cercano a la Torre de Londres, de la cual recibe su nombre.
+2026960b-123006aa-6a476005: |-
+  Piezas para construir paseos peatonales
+
+  El botón incluye varias piezas para construir paseos y pasarelas peatonales.
+
+  Las piezas se giran usando las teclas Inicio y Fin; las teclas Tab y Shift+Tab (o Ctrl+Tab y Ctrl+Shift+Tab en macOS) cambian la pieza a usar.
+
+  Nota: Los lotes residenciales necesitan una conexión vehicular en su fachada, las piezas de paseo peatonal no las reemplazan.
+2026960b-0a554ae0-e29aa51d: Uso máximo de Metro (por celda)
+2026960b-0a554ae0-e29aa51c: Uso máximo de Carreteras
+2026960b-0a554ae0-e29aa503: Uso promedio del Metro
+2026960b-e1d4dad0-867789e9: Conector de metro a ferrocarril subsuperficial (bajo cruce T de carretera)
+2026960b-0a554ae0-e29aa501: Uso promedio de estaciones de Metro
+2026960b-6a231eaa-10190f20: Puente ferroviario de armazón inferior Warren, elevado L2 (15m)
+2026960b-2a592fd1-553873c0: Constructor de trinchera de 1 metro, rotar para Constructor de terraplén
+2026960b-6a231eaa-0000a14c: Puente de pilar Y para Monorriel
+2026960b-6a231eaa-0024af20: Viaducto de carretera (RD-2) elevado L2 (15m)
+2026960b-6a231eaa-10360f01: Puente ferroviario de arco de armazón de acero de doble vía
+2026960b-6a231eaa-b0109f20: Viaducto MIS elevado L2 (15m)
+2026960b-6a231eaa-0000a152: Puente atirantado para Tren de Alta Velocidad elevado
+2026960b-0a554ae0-e29aa518: Envíos de carga a Puertos marítimos/fluviales
+2026960b-0a554ae0-e29aa51b: Número de celdas de RHW
+2026960b-6a231eaa-00122f00: Puente Krummbach para Carretera
+2026960b-cbe084cb-84cb0016: Puente de arcos de piedra
+2026960b-2a592fd1-553f20b0: Sendero de Montaña - curva en 90°
+2026960b-6a231eaa-60314f01: Puente de arco de acero bajo cubierta para Carretera de 6 vías (RD-6)
+2026960b-68e67411-cf9aa78e: Estación arcada multipropósito L2 de BriPizza
+2026960b-6a231eaa-00132f00: Puente Kwanyoni por CSX
+2026960b-6a231eaa-b0059f00: Puente de armazón de hormigón para RHW-2
+2026960b-6a231eaa-a013af10: |-
+  Puente para Carretera Unidireccional de 2 vías (OWR-2) elevada L1
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-2a592fd1-5413c700: Pieza estática Avenida x Tren Ligero diagonal
+2026960b-6a231eaa-10090f01: Puente ferroviario de arcos de metal
+2026960b-6a386d26-ce871165: Estación ortogonal para tren de alta velocidad
+2026960b-6a231eaa-1010f001: Puente ferroviario de arcos de acero Garabit
+2026960b-123007bb-6a475024: Borra-redes
+2026960b-6a231eaa-60154f00: |-
+  Puente Alejandro III.
+
+  Es un puente de arco sobre el Sena, conectando los Campos Elíseos con el sector de Les Invalides (y la Torre Eiffel). Es considerado el más ornado y extravagante de los puentes parisinos, con exhuberantes lámparas, querubines, nínfas y corceles alados de estilo Art Nouveau a cada extremo, reflejando el estilo del Grand Palais, ubicado a su ribera derecha. Se construyó entre 1896 y 1900 y recibe su nombre del zar ruso Alejandro III, que firmó la alianza Franco-Rusa de 1892. Su hijo, Nicolás II, puso la primera piedra del puente en octubre de 1896.
+2026960b-2a592fd1-5c533105: Plaza Peatonal - Empedrado
+2026960b-2a592fd1-553872c0: Constructor de terraplén de 1 metro, rotar para Constructor de trinchera
+2026960b-2a592fd1-55387310: Constructor de trinchera de 8 metros, rotar para Constructor de terraplén
+2026960b-6a386d26-7e69d5f9: Estación intermodal para ferrocarril híbrido (HRW)
+2026960b-6a231eaa-10300f11: Viaducto ferroviario elevado L1 (7,5m) RRW-1 (una vía)
+2026960b-bc77e8b2-ad19faf7: Elevated Road Bus Stop and Subway Station
+2026960b-6a231eaa-0000a14a: Puente para Tren de Alta Velocidad elevado
+2026960b-6a231eaa-30061f00: Puente cubierto para calle
+2026960b-2a592fd1-5c536105: Plaza Peatonal - Arenisca
+2026960b-2a592fd1-55387340: Constructor de trinchera de 14 metros, rotar para Constructor de terraplén
+2026960b-cbe084cb-84cb0014: Puente de suspensión mediano
+2026960b-6a386d26-f812cc73: Estación moderna para tren ligero elevado de doble altura
+2026960b-123007bb-6a477000: Pasos sobre nivel para carretera
+2026960b-6a231eaa-0000a154: Puente Putrajuya para Monorriel
+2026960b-2a592fd1-55387ff0: |-
+  Pieza de Construcción para Calles diagonales. Hacer clic para ubicar.
+  La pieza que ocupa la celda lateral desaparecerá automáticamente.
+2026960b-6a386d26-3e15613b: Estación victoriana sobresaliente para ERRW
+2026960b-6a231eaa-30251f00: Puente peatonal de arcos de ladrillo - cubierta de adoquines
+2026960b-2a592fd1-55387200: Constructor de terraplén de 7,5 metros (L1), rotar
+  para Constructor de trinchera
+2026960b-bb671ece-02cdadb9: |-
+  Estación que ofrece servicio a cualquier combinación de redes L0 y L2 de ancho sencillo, además de servicio de buses y estación de metro.
+
+
+
+  Tamaño del lote: 1x1, con andenes sobresalientes en ambas direcciones.
+
+  Mantenimiento mensual: #m:EA54D286#
+
+  Capacidad de pasajeros: #d:4aa60ebc#
+
+  Creada por E-N (BriPizza)
+2026960b-cbe084cb-84cb0010: Puente a nivel
+2026960b-2a592fd1-55387260: Constructor de terraplén de 15,5 metros, rotar para Constructor de trinchera
+2026960b-6a231eaa-33020000: Puente de arcos pequeños de acero para Autopista RHW-4
+2026960b-6a231eaa-0000a151: Puente de concreto para Tren de Alta Velocidad elevado
+2026960b-6a231eaa-c0319f20: Viaducto RHW-10S elevado L2 (15m)
+2026960b-2a592fd1-553872a0: Constructor de terraplén de 10 centímetros, rotar para Constructor de trinchera
+2026960b-6a231eaa-0000a149: Puente para Tren de Alta Velocidad a nivel
+2026960b-123007bb-6a47aa0f: |-
+  ferrocarril subsuperficial
+
+  Rail Tunnel under Roads Dual Networking Puzzle Pieces
+2026960b-6a231eaa-30051f00: Puente cubierto Trolca con camino de tierra
+2026960b-6a231eaa-c0179f01: Puente de arcos grandes de acero para RHW-4
+2026960b-6a231eaa-60274f01: Puente de arco de acero bajo cubierta para Carretera de 4 vías (RD-4)
+2026960b-6a231eaa-10290f01: Viaducto ferroviario a nivel RRW-1 (una vía)
+2026960b-123006aa-6a476a00: |-
+  Para construir rotondas de avenida, intersecciones Y de avenida y otras.
+
+  El botón contiene varias piezas y piezas FLEX para intersecciones de avenida.
+
+  Las piezas se giran usando las teclas Inicio y Fin; las teclas Tab y Shift+Tab (o Ctrl+Tab y Ctrl+Shift+Tab en macOS) cambian la pieza a usar. Cuando el cursor esté en verde, se puede colocar haciendo clic
+2026960b-2a592fd1-78488600: |-
+  ¡Por favor, reinstala el NAM!
+
+  Necesitas la versión de conducción a la derecha del controlador del NAM para hacer funcionar esta pieza.
+2026960b-6a231eaa-10080f00: Puente ferroviario de torres de metal
+2026960b-6a231eaa-10270f00: Puente ferroviario de arcos de piedra RRW-2 (dos vías)
+2026960b-6a231eaa-10130f00: Puente ferroviario de torres de acero Garabit
+2026960b-6a231eaa-10240f01: Puente ferroviario Royal Albert Saltash RRW-1 (una vía)
+2026960b-0a554ae0-e29aa499: Uso promedio de Avenidas
+2026960b-6a231eaa-30261f00: Puente peatonal de arcos de ladrillo - cubierta de ladrillo ondulado
+2026960b-6a231eaa-c0289f20: Viaducto RHW-8S elevado L2 (15m)
+2026960b-6a231eaa-30041f00: Puente cubierto con ripio
+2026960b-123007bb-6a47fffd: Simulador de tráfico - Capacidad Alta
+2026960b-56cfe115-62466373: Estación Norikae de BriPizza
+2026960b-5852e9b4-9b0a7d41: Estación multipropósito L2 y L4 de BriPizza
+2026960b-6a231eaa-0000a153: Puente para Monorriel L4
+2026960b-0a554ae0-e29aa514: Número de celdas de Autopista a nivel
+2026960b-6a386d26-c6daeaa7: Estación ortogonal victoriana para ERRW
+2026960b-6a231eaa-60224f00: Puente de vigas de acero azules para Avenida
+2026960b-123006aa-6a475024: |-
+  Esta herramienta borra secciones de 1x1 de redes de transporte, ya sean piezas FLEX, partidores, cruces u otras secciones trazadas de redes, sin afectar la construcción circundante.
+
+  Remueve: partidores, piezas FLEX, cruces e intersecciones, redes trazadas de base.
+
+  Es requisito para construir rampas RHW internas trazadas
+2026960b-0a554ae0-2c2272f6: |-
+  Mejora la efectividad de la infraestructura de transporte público en áreas residenciales.
+
+  Tamaño del terreno: 3x3
+  Mantenimiento mensual_ #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Estacionamientos disponibles: #d:4aa60ebc#
+  Puestos de trabajo: 3
+
+  Creado por Maxis
+2026960b-0a554ae0-e29aa520: Tren Ligero (GLR)
+2026960b-ce4d06f2-16004754: |-
+  Estación que ofrece servicio a cualquier combinación de redes L0 y L2 de ancho sencillo, además de servicio de buses y estación de metro.
+
+  Tamaño del lote: 1x1, con andenes sobresalientes en ambas direcciones.
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Creada por E-N (BriPizza)
+2026960b-6a231eaa-0000a131: Puente Warren de armazón bajo cubierta para Tren Ligero
+2026960b-6a231eaa-10140f00: Puente ferroviario de armazón Howe RRW-2 (dos vías)
+2026960b-ad9444e6-ad9444e6: Estación de bulevar Ninja
+2026960b-2a592fd1-5413b700: Pieza estática Avenida x Tren Ligero
+2026960b-e1d4dad0-867789e8: Conector de metro a ferrocarril subsuperficial (bajo cruce T de carretera)
+2026960b-6a386d26-774e73cb: Lote opuesto para ERRW
+2026960b-123007bb-6a47aa13: |-
+  ferrocarril subsuperficial
+
+  Tramway Intersection Pieces
+2026960b-6a386d26-774e73ce: Bus Rapid Transit (other side)
+2026960b-6a231eaa-c0339f01: Puente de arcos de acero rojo para Autopista RHW-12S
+2026960b-2a592fd1-78488500: |-
+  ¡Por favor, reinstala el NAM!
+
+  Necesitas la versión de conducción a la derecha del controlador del NAM para hacer funcionar esta pieza.
+2026960b-0a554ae0-6be87272: RealHighway (RHW)
+2026960b-0a554ae0-2c2272f7: |-
+  Genera ingresos por los vehículos que pasen, pero causa congestión.
+
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de tráfico: #d:4aa60ebc#
+
+  Creada por Maxis
+2026960b-6a231eaa-00182f00: |-
+  Pont Saint Michel JENXPARIS.
+
+  El Puente San Miguel conecta a la Plaza San Miguel -en el banco izquierdo del río Sena- con la Isla de la Ciudad. Recibe su nombre de la cercana Capilla de San Miguel y se ubica cerca de la Sagrada Capilla y el Palacio de Justicia. El actual puente de 62 metros de largo data de 1857.
+2026960b-0a554ae0-e29aa509: Transiciones de Metro a Tren Ligero Transitions
+2026960b-2a592fd1-553873a0: Constructor de trinchera de 10 centímetros, rotar para Constructor de terraplén
+2026960b-6a231eaa-c0419f10: Viaducto RHW-12S elevado L1 (7,5m)
+2026960b-6a231eaa-0000a155: Puente atirantado para Tren de Alta Velocidad a nivel
+2026960b-2a592fd1-553872e0: Constructor de terraplén de 5 metros, rotar para Constructor de trinchera
+2026960b-6a231eaa-30271f00: Puente peatonal de arcos de ladrillo - cubierta de arenisca
+2026960b-123007bb-6a47ce00: Transiciones de altura para Ferrocarril Híbrido (HRW)
+2026960b-123006aa-6a475330: |-
+  Para construir transiciones de altura FLEX de RealHighway
+
+  El botón contiene piezas para transicionar alturas entre redes RHW. Las piezas aparecen inicialmente como RHW-2, y al conectarse con otra red se convierten a ésta.
+
+  Las piezas se giran usando las teclas Inicio y Fin; las teclas Tab y Shift+Tab (o Ctrl+Tab y Ctrl+Shift+Tab en macOS) cambian la pieza a usar. Cuando el cursor esté en verde, se puede colocar haciendo clic.
+2026960b-6a231eaa-60284f00: Puente de vigas de acero marrón para Carretera de 6 vías (RD-6)
+2026960b-0a554ae0-e29aa50e: Celdas congestionadas de Ferrocarril
+2026960b-6a231eaa-60214f00: Puente de vigas de acero rojas para Avenida
+2026960b-6a231eaa-30231f00: Puente peatonal de arcos de ladrillo - cubierta Clásica
+2026960b-2a592fd1-55387300: Constructor de trinchera de 7,5 metros (L1), rotar
+  para Constructor de terraplén
+2026960b-2a592fd1-55387210: Constructor de terraplén de 8 metros, rotar para Constructor de trinchera
+2026960b-6a386d26-11a105f9: Estación moderna de tren ligero
+2026960b-6a231eaa-b0289f00: Viaducto RHW-6S a nivel (L0 / 0m)
+2026960b-6a231eaa-b0139f00: Viaducto RHW-4 a nivel
+2026960b-e1d4dad0-867789e7: Conector de metro a ferrocarril subsuperficial (bajo carretera recta)
+2026960b-2a592fd1-7a403300: |-
+  ¡Por favor, reinstala el NAM!
+
+  Necesitas la versión de conducción a la derecha del controlador del NAM para hacer funcionar esta pieza.
+2026960b-6a231eaa-60104f00: Puente sencillo para Avenida de 4 vías (AVE-4)
+2026960b-6a231eaa-0022af00: Viaducto de carretera (RD-2) a nivel
+2026960b-0a554ae0-e29aa511: "Número de celdas de Monorriel "
+2026960b-6a231eaa-b0099f00: Viaducto MIS a nivel
+2026960b-6a231eaa-10120f01: Puente ferroviario Garabit de arcos de acero
+2026960b-6a231eaa-30241f00: Puente peatonal de arcos de ladrillo - cubierta de Baldosas
+2026960b-6a231eaa-0000a12f: Puente de armazón sobre cubierta para Tren Ligero
+2026960b-6a231eaa-a012af00: |-
+  Puente para Carretera Unidireccional de 2 vías (OWR-2) a nivel
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-2a592fd1-5426e000: |-
+  Rotonda de Avenida 4x4
+
+  Se puede demoler el centro de rotonda BLS BSC y reemplazar por otro. Se debe mantener para usar un paso bajo nivel FLUP bajo la rotonda; la dirección de este paso está indicada por las líneas de la vista previa, y es paralela al muro de la fuente.
+2026960b-6a231eaa-10310f01: Viaducto ferroviario a nivel RRW-2 (dos vías)
+2026960b-2a592fd1-5c534105: Plaza Peatonal - Ladrillo Ondulado
+2026960b-6a231eaa-0000a14d: Puente de armazón Bailey para Tren de Alta Velocidad elevado
+2026960b-6a231eaa-6037af00: |-
+  Puente de vigas de acero rojo para Carretera Unidireccional de 4 vías (OWR-4)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-6a231eaa-30011f00: Puente a nivel para calle
+2026960b-6a231eaa-20126f20: Puente Tsing Ma de Hong Kong
+2026960b-d4c21cfc-774e73ce: |-
+  Put this in the overhanging column of the bus rapid transit station.
+
+  Tamaño del lote: 1x1
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+2026960b-0a554ae0-e29aa504: Celdas de Metro congestionadas
+2026960b-6a231eaa-10200f20: Puente ferroviario plano elevado L2 (15m)
+2026960b-0a554ae0-e29aa493: Uso promedio de Calles
+2026960b-cbe084cb-84cb0015: Puente de arcos de acero pequeños
+2026960b-2a592fd1-5f491505: |-
+  Curva de 90° para Avenida
+  (pieza FLEX, tamaño 5x5)
+2026960b-6a231eaa-00112f00: Puente para Carretera por Dusktrooper
+2026960b-0a554ae0-e29aa517: "Puertos marítimos/fluviales en #city#"
+2026960b-0a554ae0-e29aa492: Número de celdas de Calle x2
+2026960b-6a231eaa-80037f40: Puente de doble altura para tren ligero elevado
+2026960b-2a592fd1-55387380: Constructor de trinchera de 24 metros, rotar para Constructor de terraplén
+2026960b-6a231eaa-0000a071: Puente ferroviario Warren de armazón bajo cubierta elevado L2
+2026960b-2a592fd1-55387360: Constructor de trinchera de 15,5 metros, rotar para Constructor de terraplén
+2026960b-e1d4dad0-867789e1: Conector de metro a ferrocarril subsuperficial (bajo
+  paseo peatonal de adoquines)
+2026960b-6a231eaa-10210f21: Puente ferroviario de armazón superior, elevado L2 (15m)
+2026960b-0a554ae0-0c42676f: |-
+  Permite a los vehículos cruzar las aguas, cuesta menos que construir un puente.
+
+  Tamaño del terreno: 3x5 (ubicar al borde de aguas profundas)
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 18
+
+  Máximo 16 terminales de ferry por ciudad.
+
+  Creado por Maxis
+2026960b-0a554ae0-587b406e: |-
+  Solo se puede acceder a la red ferroviaria en sus estaciones
+
+  Tamaño del terreno: 2x3 (ubicar adyacente a las vías)
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 12
+
+  Creada por Maxis
+2026960b-2a592fd1-54193700: Pieza estática de Avenida en talud
+2026960b-6a231eaa-c0125f00: Puente de suspensión Akashi-Kaikyo
+2026960b-6a231eaa-b0019f01: Puente de arco de acero pequeño para RHW-2
+2026960b-6a231eaa-b0219f10: Viaducto RHW-2 elevado L1 (7,5m)
+2026960b-6a231eaa-6013af00: Puente de vigas de hierro para Carretera de 4 vías (RD-4)
+2026960b-6a386d26-342e8170: Estación diagonal victoriana para ERRW
+2026960b-6a231eaa-b0049f00: Puente sencillo para RHW-4
+2026960b-2a592fd1-55387240: Constructor de terraplén de 14 metros, rotar para Constructor de trinchera
+2026960b-2a592fd1-54300000: Transición de altura larga para Avenida (L0-L2)
+2026960b-6a231eaa-b0079f00: Puente de viga cajón para RHW-4
+2026960b-2a592fd1-542b9540: |-
+  Curva de 45° para Avenida
+  (pieza estática)
+2026960b-2a592fd1-55387280: Constructor de terraplén de 24 metros, rotar para Constructor de trinchera
+2026960b-6a231eaa-10320f11: Viaducto ferroviario elevado L1 (7,5m) RRW-2 (dos vías)
+2026960b-6a231eaa-b0309f20: Viaducto RHW-6S elevado L2 (15m)
+2026960b-cbe084cb-84cb0011: Puente arqueado
+2026960b-2a592fd1-7a403100: |-
+  ¡Por favor, reinstala el NAM!
+
+  Necesitas la versión de conducción a la derecha del controlador del NAM para hacer funcionar esta pieza.
+2026960b-123007bb-6a47aa10: |-
+  ferrocarril subsuperficial
+
+  Rail Tunnel under Ped Malls Dual Networking Puzzle Pieces
+2026960b-2a592fd1-553873b0: Constructor de trinchera de 50 centímetros, rotar para Constructor de terraplén
+2026960b-6a231eaa-0000a14f: Puente de armazón en caja para Tren de Alta Velocidad a nivel
+2026960b-6a386d26-774e7d85: Estación transversal elevada para tren de alta velocidad
+2026960b-cbe084cb-84cb0013: Puente cubierto de madera
+2026960b-ad9819d0-ad9819d0: Paradero de bulevar Ninja
+2026960b-6a231eaa-8009bf00: Puente sencillo para tren ligero
+2026960b-0a554ae0-e29aa494: Uso máximo de Calles
+2026960b-6a231eaa-30121f00: |-
+  Pont Neuf JENXPARIS.
+
+  El Puente Nuevo es, a pesar de su nombre, el más antiguo de los puentes en pie que cruzan el río Sena en París, Francia. Su nombre, que lo distinguiera de aun más antiguos puentes cubiertos de casas a ambos lados, es una reliquia.
+2026960b-6a231eaa-00172f00: |-
+  Pont Royal JENXPARIS.
+
+  El Puente Real es uno de los puentes sobre el Sena en París. Es el tercero más antiguo de los aún en pie, luego del Pont Neuf y el Pont Marie.
+2026960b-6a231eaa-c0239f00: Puente de armazón de acero para RHW-4
+2026960b-0a554ae0-0eed6de3: Estación diagonal para ERRW
+2026960b-6a231eaa-8c1e87fc: Puente a nivel para Autopista MHO
+2026960b-2a592fd1-542b9550: |-
+  Curva de 45° para Avenida
+  (pieza FLEX)
+2026960b-2a592fd1-55387350: Constructor de trinchera de 15 metros (L2), rotar para Constructor de terraplén
+2026960b-2a592fd1-5c532105: Plaza Peatonal - Baldosa
+2026960b-6a231eaa-c0149f01: Puente de armazón inferior para RHW-8
+2026960b-2a592fd1-57729000: |-
+  Transición de altura de 1 nivel en bucle de 180° para MIS
+
+  Parcialmente FLEX, permite trazar redes desde sus extremos para conectar.
+2026960b-0a554ae0-e29aa496: Uso promedio de Carreteras
+2026960b-2a592fd1-542be000: |-
+  Curva de 90° para Avenida
+  (pieza estática)
+2026960b-2a592fd1-55262500: Cruce estático de Paseo Peatonal bajo Autopista Elevada (L2)
+2026960b-2a592fd1-54589520: Cruce Avenida x Calle con mediana
+2026960b-6a231eaa-30031f00: Puente cubierto PEG con camino de tierra
+2026960b-0a554ae0-e29aa506: Uso promedio de estaciones de Tren Ligero
+2026960b-6a231eaa-10280f00: Puente ferroviario memorial Frank Werspuckle de
+  armazón de hierro RRW-2 (dos vías)
+2026960b-6a231eaa-6034af00: |-
+  Puente de vigas de acero azul para Carretera Unidireccional de 5 vías (OWR-5)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-0a554ae0-e29aa513: Número de celdas de Autopista elevada (L2)
+2026960b-6a231eaa-00162f00: |-
+  Pont Neuf JENXPARIS.
+
+  El Puente Nuevo es, a pesar de su nombre, el más antiguo de los puentes en pie que cruzan el río Sena en París, Francia. Su nombre, que lo distinguiera de aun más antiguos puentes cubiertos de casas a ambos lados, es una reliquia.
+2026960b-6a231eaa-58500000: Puente para Tren Ligero
+2026960b-6a386d26-774e73cd: Lote opuesto para tren de alta velocidad
+2026960b-6a231eaa-b0339f00: Puente de vigas de acero en V para Autopista RHW-2
+2026960b-0a554ae0-4bbcea84: |-
+  Estación de Tren Ligero, elevada 15 metros sobre el suelo.
+
+  Tamaño del terreno: 3x1
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 14
+
+  Creada por Maxis
+2026960b-6a231eaa-b0229f00: Viaducto RHW-3 a nivel
+2026960b-6a231eaa-6036af00: |-
+  Puente de vigas de acero marrón para Carretera Unidireccional de 4 vías (OWR-4)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-370fa588-ca68aab4: Estación multipropósito L2 de BriPizza
+2026960b-0a554ae0-0eed6e23: Estación ortogonal para ERRW
+2026960b-6a231eaa-b0249f20: Viaducto RHW-3 elevado L2 (15m)
+2026960b-6a231eaa-80067f21: Puente colgante para tren ligero elevado
+2026960b-6a231eaa-10370f00: Viaducto ferroviario de acero de vía única
+2026960b-6a231eaa-b0349f00: Puente de vigas de acero en V para Autopista RHW-4
+2026960b-6a231eaa-8010b200: |-
+  Pont Notre Dame JENXPARIS.
+
+  El Puente de Nuestra Señora de París cruza el río Sena, conectando el Muelle de Gesvres en la rivera derecha, con el Muelle de la Corse en la Isla de la Ciudad. El puente es conocido como el "más antiguo" de París, en el sentido de que, en su ubicación, ha existido un puente desde los inicios de la ciudad; no obstante, el puente más antiguo todavía en pie en París es el Puente Nuevo.
+2026960b-6a231eaa-30281f00: Puente peatonal de arcos de ladrillo - cubierta de ladrillo
+2026960b-2a592fd1-532cf700: ERRW sobre carretera, recto, sin pilares
+2026960b-6a231eaa-60244f00: Puente de vigas de acero marrón para Carretera de 4 vías (RD-4)
+2026960b-e1d4dad0-867789e6: Conector de metro a ferrocarril subsuperficial (bajo paseo peatonal de césped)
+2026960b-2a592fd1-54600800: Transición de Avenida diagonal a diagonal intermedia (FAAVE-4) (3x4)
+2026960b-6a231eaa-00202f00: Puente Sant'Angelo, Roma
+2026960b-e1d4dad0-867789e5: Conector de metro a ferrocarril subsuperficial (bajo
+  paseo peatonal de arenisca)
+2026960b-6a231eaa-10150f00: Puente ferroviario mecano militar
+2026960b-6a231eaa-30191f00: Puente de vigas de acero en V para Calle SAM-8
+2026960b-6a231eaa-10060f00: Puente ferroviario rural
+2026960b-2a592fd1-553f20c0: Sendero de Montaña - cruce en T
+2026960b-0a554ae0-e29aa508: Uso promedio de Tren Ligero
+2026960b-6a231eaa-c0249f00: Puente doble de armazón de acero para RHW-4
+2026960b-a82ca30f-00152f00: Puente cubierto de madera para Carretera
+2026960b-0a554ae0-e29aa498: Número de celdas de Avenida x2
+2026960b-123007bb-6a475330: Transiciones de altura flexibles de RealHighway (FLEX-HT)
+2026960b-cbe084cb-84cb0012: Puente de armazón Warren bajo cubierta
+2026960b-2a592fd1-55387390: Constructor de trinchera de 30 metros (L4), rotar para Constructor de terraplén
+2026960b-6a231eaa-c0429f20: Viaducto RHW-12S elevado L2 (15m)
+2026960b-0a554ae0-f158074b: |-
+  Los Sims solo pueden tomar buses en las paradas y estaciones autorizadas
+
+  Tamaño del terreno: 1x1 (lateral a la vía)
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 3
+
+  Creada por Maxis
+2026960b-663992bb-99b94165: |-
+  Estación que ofrece servicio a cualquier combinación de redes L0 y L2 de ancho sencillo, además de servicio de buses y estación de metro.
+
+  Tamaño del lote: 1x1, con andenes sobresaliente en ambas direcciones.
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Creada por E-N (BriPizza)
+2026960b-2a592fd1-5c538105: Plaza Peatonal - Industrial
+2026960b-2a592fd1-553f20a0: Sendero de Montaña - recto
+2026960b-0a554ae0-e29aa495: Número de celdas de Carretera x2
+2026960b-6a231eaa-30181f00: Puente de vigas de acero en V para Calle SAM-7
+2026960b-123007bb-6a47ffff: Controlador del Network Addon Mod
+2026960b-6a231eaa-6039af01: |-
+  Puente de arco de acero bajo cubierta para Carretera Unidireccional de 4 vías (OWR-4)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-0a554ae0-e29aa497: Celdas congestionadas de Carretera
+2026960b-6a231eaa-c0279f00: Viaducto RHW-8S a nivel
+2026960b-6a231eaa-30151f00: Puente de vigas de acero en V para Calle
+2026960b-123007bb-6a476200: Plazas Peatonales Trazables
+2026960b-6a231eaa-00142f00: Puente antiguo de Carretera
+2026960b-6a231eaa-b0299f10: Viaducto RHW-6S elevado L1 (7,5m)
+2026960b-6a231eaa-a014af20: |-
+  Puente para Carretera Unidireccional de 2 vías (OWR-2) elevada L2
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-6a231eaa-b0089f00: Puente de viga cajón para RHW-6S
+2026960b-2a592fd1-5c531905: Transición recta FLEX entre tipos de Plaza Peatonal
+2026960b-2a592fd1-5c531105: Plaza Peatonal - Clásica
+2026960b-6a231eaa-60304f00: Puente de vigas de acero azul para Carretera de 6 vías (RD-6)
+2026960b-123007bb-6a47fffb: Simulador de tráfico - Capacidad Baja
+2026960b-6a231eaa-10110f00: Puente ferroviario Garabit de torres de acero
+2026960b-6a231eaa-10340f01: Viaducto ferroviario de Antheor de arcos de ladrillo (doble vía)
+2026960b-e1d4dad0-867789e4: Conector de metro a ferrocarril subsuperficial (bajo
+  paseo peatonal de ladrillos)
+2026960b-123006b0-6a47b400: Pasos bajo nivel flexibles (FLUPs)
+2026960b-a92a02ea-55000001: Puente para Calle a nivel
+2026960b-6a231eaa-c0159f01: Puente de arcos de concreto grandes para RHW-10
+2026960b-6a231eaa-c0409f00: Viaducto RHW-12S a nivel
+2026960b-6a231eaa-0000a157: Puente de suspensión para HSR
+2026960b-2a592fd1-5332d700: ERRW sobre calle, recto, sin pilares
+2026960b-2a592fd1-54600500: Avenida en diagonal intermedia (FAAVE-4) - Sección recta (3x3)
+2026960b-0a554ae0-e29aa50a: "Celdas ocupadas por estaciones de Ferrocarril en #city#"
+2026960b-0a554ae0-e29aa51a: "Aeropuertos en #city#"
+2026960b-6a231eaa-6032af00: |-
+  Puente de vigas de acero marrón para Carretera Unidireccional de 5 vías (OWR-5)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-0a554ae0-e29aa49a: Uso máximo de Avenidas
+2026960b-2a592fd1-553872d0: Constructor de terraplén de 2 metros, rotar para Constructor de trinchera
+2026960b-2a592fd1-54260800: Pieza estática Viaducto de Avenida - transición ortogonal a diagonal
+2026960b-2a3858e4-0000001a: RealHighway (RHW)
+2026960b-6a231eaa-60124f00: Puente arqueado para avenida
+2026960b-6a386d26-774e7d36: Estación sobresaliente para tren ligero elevado sobre carretera
+2026960b-6a231eaa-0021af00: Puente Warren de armazón de acero para NRD-4
+2026960b-6a231eaa-59500000: |-
+  Puente sencillo para Carretera Unidireccional
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-6a231eaa-30161f00: Puente de vigas de acero en V para Calle SAM-2
+2026960b-6a231eaa-0000a156: Puente atirantado para Monorriel
+2026960b-6a231eaa-30211f00: Puente de vigas de acero en V para Calle SAM-10
+2026960b-6a231eaa-80057f20: Puente de armazón inferior para tren ligero elevado
+2026960b-0a554ae0-e29aa50b: Uso promedio de estación de Ferrocarril
+2026960b-6a386d26-774e7d84: Estación sobresaliente para monorriel
+2026960b-2a592fd1-55387320: Constructor de trinchera de 10 metros, rotar para Constructor de terraplén
+2026960b-e1d4dad0-867789e2: Conector de metro a ferrocarril subsuperficial (bajo paseo peatonal normal)
+2026960b-2a592fd1-5131600f: Transición carretera a AVE-2 (tipo B)
+2026960b-2a592fd1-54300e00: Pieza estática de Avenida diagonal en talud
+2026960b-6a231eaa-b0189f10: Viaducto MIS elevado L1 (7,5m)
+2026960b-0a554ae0-e29aa515: "Terminales de Ferry Vehicular en #city#"
+2026960b-6a231eaa-6035af01: |-
+  Puente de arco de acero bajo cubierta para Carretera Unidireccional de 5 vías (OWR-5)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-6a231eaa-6014af00: Puente de vigas de hierro para Carretera de 6 vías (RD-6)
+2026960b-6a231eaa-10350f00: Viaducto ferroviario de acero de doble vía
+2026960b-6a231eaa-0000a070: Puente ferroviario de armazón sobre cubierta elevado L2
+2026960b-0a554ae0-e29aa500: "Celdas ocupadas por estaciones de Metro en #city#"
+2026960b-2a592fd1-54600000: Avenida en diagonal intermedia (FAAVE-4) - Curva corta de 18,4° (3x5)
+2026960b-6a231eaa-10170f00: Puente ferroviario de armazón Howe RRW-1 (una vía)
+2026960b-2a592fd1-5c537105: Plaza Peatonal - Retro
+2026960b-123007bb-6a47aa11: |-
+  ferrocarril subsuperficial
+
+  Maxis Roadway Intersection Pieces
+2026960b-0a554ae0-2c2272f5: |-
+  Solo se puede abordar los ferries en sus terminales.
+
+  Tamaño del terreno: 2x5 (ubicar al borde de aguas profundas)
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 11
+
+  Máximo 16 terminales de ferry por ciudad.
+  Creado por Maxis
+2026960b-0a554ae0-2c2272f1: Plaza de peaje de Maxis
+2026960b-6a231eaa-30221f00: Puente de vigas de acero en V para Calle SAM-11
+2026960b-6a231eaa-0000a14e: Puente de armazón Warren envolvente para Tren de Alta Velocidad a nivel
+2026960b-6a231eaa-30171f00: Puente de vigas de acero en V para Calle SAM-6
+2026960b-6a231eaa-b0259f10: Viaducto RHW-4 elevado L1 (7,5m)
+2026960b-0a554ae0-e29aa502: Número de celdas de Metro
+2026960b-6a231eaa-10220f01: Puente ferroviario de ladrillos de Göltzschtal
+2026960b-6a231eaa-b0129f20: Viaducto RHW-2 elevado L2 (15m)
+2026960b-6a231eaa-60194f20: Viaducto AVE-4 elevado L2 (15m)
+2026960b-0a554ae0-e29aa490: "Paradas de Bus en #city#"
+2026960b-6a231eaa-10250f00: Puente ferroviario de vigas de acero RRW-1 (una vía)
+2026960b-d4c21cfc-774e73cb: |-
+  Colocar en la columna opuesta de la "Estación sobresaliente para ERRW" luego de construir la red que pasa por debajo.
+
+  Tamaño: 1x1, sobresaliente
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+2026960b-6a231eaa-60204f00: Puente de vigas de acero marrones para Avenida
+2026960b-0a554ae0-0daf919f: Estación moderna para monorriel y tren de alta velocidad elevado
+2026960b-6a231eaa-a011af00: |-
+  Puente de armazón envolvente de acero para Carretera Unidireccional de 3 vías (OWR-3)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-6a231eaa-0000a130: Puente para Tren Ligero elevado L4
+2026960b-123007bb-6a476a00: Intersecciones de avenida
+2026960b-6a231eaa-80047c20: Puente de concreto para tren ligero elevado
+2026960b-123007bb-6a47fffc: Simulador de tráfico - Capacidad Mediana
+2026960b-6a231eaa-0000a150: Puente de concreto para Tren de Alta Velocidad a nivel
+2026960b-18890467-794a9373: |-
+  Estación que ofrece servicio a cualquier red L2, además de servicio de buses y estación de metro.
+
+  Tamaño del lote: 3x1, con andenes sobresalientes.
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Creada por E-N (BriPizza)
+2026960b-6a231eaa-8008bf01: Puente de armazón sobre cubierta para tren ligero
+2026960b-6a231eaa-0023af10: Viaducto de carretera (RD-2) elevado L1 (7,5m)
+2026960b-123007bb-6a47fffe: Simulador de tráfico - Capacidad Ultra
+2026960b-0a554ae0-e29aa519: "Plazas de peaje en #city#"
+2026960b-6a231eaa-60174f00: Viaducto AVE-4 a nivel (L0 / 0m)
+2026960b-0a554ae0-4a5ea68e: |-
+  Permite exportar productos industriales rápidamente
+
+  Tamaño del terreno: 3x2 (lateral a la vía, ubicar al borde de aguas profundas)
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de carga: #d:4aa60ebc#  Tons
+  Puestos de trabajo: 17
+
+  Creado por Maxis
+2026960b-2a592fd1-54260130: Pieza estática Viaducto de Avenida (sin pilar)
+2026960b-2a592fd1-54500000: Salida de autovía - ortogonal
+2026960b-123007bb-6a47aa12: |-
+  ferrocarril subsuperficial
+
+  Railway Intersection Pieces
+2026960b-0a554ae0-e29aa51e: Uso máximo de Ferrocarril
+2026960b-6a231eaa-50500000: Puente sencillo para Carretera de 2 vías (RD-2)
+2026960b-6a231eaa-6038af00: |-
+  Puente de vigas de acero azul para Carretera Unidireccional de 4 vías (OWR-4)
+
+  Construir en la dirección deseada para el tránsito.
+2026960b-672e4698-cd99daeb: |-
+  Estación que ofrece servicio a cualquier red L2, salvo carreteras elevadas, además de parada de buses y estación de metro.
+
+  Tamaño del lote: 3x1, con andenes sobresalientes.
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Creada por E-N (BriPizza)
+2026960b-2a592fd1-553872b0: Constructor de terraplén de 50 centímetros, rotar para Constructor de trinchera
+2026960b-123006aa-6a476525: |-
+  Para construir calles diagonales en intersecciones o terreno irregular.
+
+  El botón contiene varias piezas y piezas asistentes para calles.
+
+  Las piezas se giran usando las teclas Inicio y Fin; las teclas Tab y Shift+Tab (o Ctrl+Tab y Ctrl+Shift+Tab en macOS) cambian la pieza a usar. Cuando el cursor esté en verde, se puede colocar haciendo clic
+2026960b-6a231eaa-c0259f00: Puente compacto regular para RHW-6S
+2026960b-6a231eaa-c0139f00: Puente colgante compacto sencillo para RHW-4
+2026960b-a03f51b7-93fe758c: |-
+  Estación que ofrece servico a cualquier red L2, además de parada de buses y estación de metro.
+
+  Tamaño del lote: 3x1, con andenes sobresalientes.
+  Mantenimiento mensual: #m:EA54D286#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Creada por E-N (BriPizza)
+2026960b-2a592fd1-553873d0: Constructor de trinchera de 2 metros, rotar para Constructor de terraplén
+2026960b-6a231eaa-33010000: Puente sencillo para Autopista RHW-4
+2026960b-2a592fd1-55387270: Constructor de terraplén de 22,5 metros (L3), rotar
+  para Constructor de trinchera
+2026960b-6a386d26-774e73ca: Lote opuesto para monorriel
+2026960b-dd911476-495c5f63: Estación multipropósito L0 y L2 de BriPizza
+2026960b-0a554ae0-e29aa510: Uso promedio de estaciones de Monorriel
+2026960b-123007bb-6a476525: Piezas asistentes para calles diagonales
+2026960b-6a231eaa-c0279f10: Viaducto RHW-8S elevado L1 (7,5m)
+2026960b-6a231eaa-c0169f01: Puente colgante para RHW-10
+2026960b-6a231eaa-8002bf00: Puente Warren de armazón inferior para tren ligero
+2026960b-6a231eaa-c0199f01: Puente colgante compacto para RHW-6S
+2026960b-2a592fd1-554b7700: Pasarela peatonal sobre talud (estática)
+2026960b-6a231eaa-c0329f01: Puente de arcos de acero rojo para Autopista RHW-10S
+2026960b-123007bb-6a47fffa: Simulador de tráfico - Capacidad Clásica
+2026960b-6a231eaa-10390f01: Viaducto ferroviario de Antheor de arcos de ladrillo (vía única)
+2026960b-2a592fd1-54192700: Pieza estática cruce T de Avenida en talud
+2026960b-6a231eaa-b0159f10: Puente RHW de doble cubierta
+2026960b-e1d4dad0-867789e3: Conector de metro a ferrocarril subsuperficial (bajo
+  paseo peatonal de baldosas)
+2026960b-2a3858e4-0000001b: |-
+  Cost to Build: #m:49cac341# per segment
+
+  Mantenimiento mensual: #m:8a94eee0#. 
+
+  This tool can be used to create a modular highway network in a variety of widths.  By default, it produces a 2-lane network (RHW-2), and with the aid of starter pieces can create highways up to 12 lanes, as well as interchange ramps with the Modular Interchange System (MIS)
+2026960b-0a554ae0-e29aa50d: Uso promedio de Ferrocarril
+2026960b-0a554ae0-15becd76: |-
+  Solo se puede acceder a la red de Metro a través de sus estaciones
+
+  Tamaño del terreno: 1x1 (lateral a la vía)
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 5
+
+  Creada por Maxis
+2026960b-6a231eaa-30291f00: Puente peatonal de arcos de ladrillo - cubierta industrial
+2026960b-e1d4dad0-867789e0: Conector de metro a ferrocarril subsuperficial (bajo carretera recta)
+2026960b-6a231eaa-c0269f00: Puente compacto de armazón de concreto para RHW-6S
+2026960b-6a231eaa-60114f00: Viaducto de Millau
+2026960b-6a386d26-774e73cc: Lote opuesto para tren ligero elevado
+2026960b-6a231eaa-60254f00: Puente de vigas de acero rojo para Carretera de 4 vías (RD-4)
+2026960b-0a554ae0-6bf1e5da: |-
+  Impulsa la demanda comercial y residencial
+
+  Tamaño del terreno: 10x6
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de pasajeros: #d:4aa60ebc#
+  Puestos de trabajo: 53
+
+  Creada por Maxis
+2026960b-2a592fd1-55387370: Constructor de trinchera de 22,5 metros (L3), rotar
+  para Constructor de terraplén
+2026960b-6a231eaa-10070f00: Puente ferroviario moderno
+2026960b-123006aa-6a47ce00: |-
+  Para construir secciones elevadas y transiciones de altura del ferrocarril híbrido (HRW). El ferrocarril híbrido permite el tráfico de trenes normales y de alta velocidad (monorriel).
+
+  Se construye usando secciones HRW a nivel de suelo y luego conectándolos al lado elevado de las transiciones de altura, o a otras secciones ya elevadas.
+
+  Las piezas se giran usando las teclas Inicio y Fin; las teclas Tab y Shift+Tab (o Ctrl+Tab y Ctrl+Shift+Tab en macOS) cambian la pieza a usar. Cuando el cursor esté en verde, se puede colocar haciendo clic.
+2026960b-123007bb-6a476005: Piezas de paseo peatonal
+2026960b-6a231eaa-30101f00: Puente de concreto para calle
+2026960b-6a231eaa-00252f00: Puente ferroviario de armazón de acero en V
+2026960b-6a231eaa-60264f00: Puente de vigas de acero azul para Carretera de 4 vías (RD-4)
+2026960b-6a231eaa-60234f01: Puente de arcos de acero bajo cubierta para Avenida
+2026960b-0a554ae0-ca5ea68d: |-
+  Permite mover productos industriales entre las redes vial y ferroviaria.
+  Acelera el movimiento de productos industriales entre fábricas y mercados finales.
+
+  Tamaño del terreno: 11x5
+  Mantenimiento mensual: #m:EA54D286#
+  Costo de demoler: #m:099AFACD#
+  Consumo eléctrico: #d:27812854#
+  Consumo de agua: #d:C8ED2D84#
+  Capacidad de carga: #d:4aa60ebc#  Tons
+  Puestos de trabajo: 75
+
+  Creada por Maxis
+2026960b-6a231eaa-30201f00: Puente de vigas de acero en V para Calle SAM-9
+2026960b-0a554ae0-0eed6ddf: Estación para tren ligero elevado, diagonal
+2026960b-0a554ae0-e29aa50f: "Celdas ocupadas por estaciones de Monorriel en #city#"
+2026960b-6a231eaa-10160f00: Puente ferroviario de caballetes de madera RRW-1 (una vía)
+2026960b-2a592fd1-57906005: |-
+  Curva Multi-radio (MRC). Radio 3, 45°.
+
+  Curva por defecto: L0 RHW-2.
+
+  Esta curva puede ser usada con las redes MIS (L0), RHW-4 (L0) y RHW-6S (L0).
+
+  TOLERANTE A PENDIENTES.
+
+  NO PERMITE CRUZAR SOBRE O BAJO OTRAS REDES.
+2026960b-0a554ae0-e29aa512: Uso promedio del Monorriel
+2026960b-6a231eaa-10330f21: Viaducto ferroviario elevado L2 (15m) RRW-2 (dos vías)
+2026960b-6a231eaa-30111f00: Puente rural para calle

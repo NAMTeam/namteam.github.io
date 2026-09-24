@@ -172,7 +172,8 @@ Note that the case of REW, separate Outside and Inside ramps are not needed (unl
 
 There are two methods of building REW Ramp Interfaces: using the FLEX Pieces (), or through draggable means (only available for certain ramps).
 1. **FLEXRamps** - These are ploppable, generally slope-tolerant, and conform to match the surrounding network via overrides. These can be found under the found under the RealExpressway One-Way Road FLEXRamps button on the Roads Menu.
-{{< menu-icon icon="images/icons/rew-flex-ramps.jpg" caption="_REW One-Way Road FLEXRamps Button_" >}}
+{{< menu-icon "REW Flex Overpass" >}}
+
 2. **Draggable Ramp Interfaces (DRIs)** - These are pattern-based draggable items, built by dragging the OWR network tool according to a specific pattern. Like the FLEXRamps, these will conform to match the surrounding network via overrides. These are only available in limited circumstances.
 
 {{< alert context="warning" >}}

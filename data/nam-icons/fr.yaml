@@ -1,0 +1,739 @@
+2026960b-6a231eaa-60184f10: Viaduc, AVE-4 L1/7.5m
+2026960b-6a231eaa-c0209f01: Pont à haubans compacte, RHW-6S
+2026960b-6a231eaa-33030000: Pont simple RHW-2
+2026960b-123007bb-6a477005: Viaduc de Route de 7,5 m
+2026960b-123007bb-6a479005: Viaduc pour avenue - 7,5 m
+2026960b-123007bb-6a475f30: Bretelles d'accès pour autoroutes (RHW) à angles fractionnaires.
+2026960b-6a231eaa-30081f00: Pont en béton et pavé
+2026960b-123007bb-6a47ac10: Aiguillages et bretelles ferroviaires (RRW) - FLEX
+2026960b-6a231eaa-b0239f10: Viaduc simple, RHW-3 L1/7.5m
+2026960b-123006aa-6a478b00: |-
+  L'outil contient plusieurs pièces FLEX (modifiables) accès, sortie et transitions de Voie Rapide - Sens unique à 2 ou 3 voies (OWR-2|3). Ortho et diagonales.
+  Faites glisser l'outil de réseau approprié pour convertir la rampe de base.
+2026960b-6a231eaa-30071f00: Pont à poutrelles d'acier, Asphalte
+2026960b-123007bb-52001020: Échangeurs en trèfle
+2026960b-123006aa-6a476200: |-
+  L'outil contient les pièces-initiales de divers styles (8).
+  Passez l'outil Rue à travers la pièce-initiale et tracé la longueur souhaitée.
+2026960b-123006aa-6a477000: L'outil contient plusieurs passages supérieurs pour Route.
+2026960b-123006aa-6a477b30: L'outil contient les pièces de courbes à rayon large
+  pour les réseaux NWM à un seul carreau.
+2026960b-6a231eaa-0000a091: Pont surélevé d'avenue
+2026960b-6a231eaa-0000a072: Pont ferroviaire à tablier supérieur (15.5m)
+2026960b-123007bb-6a47991a: Intersections Spéciales -  autoroutes et autres réseaux
+2026960b-123007bb-52001000: Bretelles parallèles
+2026960b-6a231eaa-a0153f00: Pont en acier à piles en V
+2026960b-123006aa-6a478900: Pour l'utilisation des pièces courbes des voies
+  rapides. Utilisez la touche Home/End (début/fin) pour faire pivoter la pièce
+  FLEX et utilisez [tab] | [maj+tab] ([Ctrl-tab] | [Ctrl-maj-tab] sur macOS)
+  pour faire défiler les différents types de droites et de courbes REW.
+2026960b-6a231eaa-10380f01: Viaduc en acier, RRW-1
+2026960b-6a231eaa-b0029f00: Pont simple RHW-2
+2026960b-123007bb-6a47bd00: Tram (GLR) Étirable - Styles additionnels
+2026960b-123006aa-6a476700: L'outil contient les Pièces-Initiales des rues additionnelles (SAM)
+2026960b-123007bb-6a47508c: Connecteur d'autoroute (RHW), Pièce-Puzzle de liaison de voisinage - OBSOLÈTE
+2026960b-123006aa-6a473143: Cet outil contient des éléments pour les autoroutes de sol et surélevées.
+2026960b-6a231eaa-6033af00: Pont à poutrelles en acier rouge, OWR-5
+2026960b-123007bb-6a475400: |-
+  Habillage de voie d'autoroute
+  Pièces-Puzzles 1 carreau
+2026960b-123007bb-6a47aa8a: Voies ferrées souterraines, intersections
+2026960b-6a231eaa-54510000: Pont simple d'avenue
+2026960b-6a231eaa-c0309f10: Viaduc RHW-10S L1/7.5m
+2026960b-6a231eaa-10230f00: Pont ferroviaire à treillis de fer, RRW-2
+2026960b-6a231eaa-0000a14b: Pont AIT de Monorail
+2026960b-123007bb-6a475350: Transitions Symphony
+2026960b-0a554ae0-6a47ad00: Voies ferrées FLEX FARR - Courbes
+2026960b-6a231eaa-0000a182: Pont DDRHW-4
+2026960b-6a231eaa-c0299f00: "Viaduc RHW-10S L0/0m "
+2026960b-6a231eaa-b0119f00: Viaduc simple, RHW-2 L0/0m
+2026960b-123006aa-6a4751f0: L'outil contient des éléments sur-chargeables de
+  bretelles FLEX. Faites glisser l'outil du réseau approprié pour convertir la
+  pièce de base.
+2026960b-6a231eaa-30131f00: Pont à poutrelles métalliques
+2026960b-6a231ea4-0bf0384d: Pour moi, la chaussée est une chose merveilleuse -
+  la surface dure et lisse, la chaleur extrême d'un jour d'été. si les
+  autoroutes par défaut ne sont plus adaptées pour supporter le trafic, vous
+  pourriez envisager les autoroutes réalistes <a
+  href="#link_id#game.tool_plop_network(network_tool_types.DIRT_ROAD)">RHW</a>
+  comme alternative.
+2026960b-0a554ae0-6a478900: Outil de réseau Voies Rapides
+2026960b-6a231eaa-b0149f20: Viaduc simple, RHW-4S L2/15m
+2026960b-123006aa-6a47ca00: |-
+  Segments de voies ferrées hybrides en ligne droite (ortho et diagonale). 
+  Le chemin de fer hybride supporte à la fois le trafic ferroviaire normal et le trafic ferroviaire à grande vitesse (monorail).
+2026960b-6a231eaa-10180f00: Pont à poutrelles, STR
+2026960b-123007bb-6a474000: Voie ferrée unique (STR)
+2026960b-6a231eaa-b0069f00: Pont à poutrelles en acier, RHW-4
+2026960b-123007bb-6a477800: Passage supérieur Route/Autoroute et Pièces-Puzzles de liaison
+2026960b-cbe084cb-84cb0017: Pont en treillis cantilever
+2026960b-6a231eaa-60294f00: Pont à poutrelles en acier rouge, RD-6
+2026960b-6a231eaa-30091f00: Pont de briques, pavage briques
+2026960b-123007bb-6a477bf0: Mod Routes Élargies (NWM) - Connecteurs de voisinage
+2026960b-123006aa-6a47a005: |-
+  L'outil fournit diverses pièces, rampes, courbes, segments ainsi que des franchissements sur divers réseaux.
+  Orthogonal et diagonal.
+2026960b-6a231eaa-30021f00: Pont de briques en chevrons (herringbone)
+2026960b-123007bb-6a478800: Pont et liaisons Route sens unique et autoroute
+2026960b-6a231eaa-00192f00: Tower Bridge. Ce pont basculant et suspendu situé à
+  Londres, en Angleterre, sur la Tamise. Il est situé à proximité de la Tour de
+  Londres, d'où son nom. Par JENXOLD.
+2026960b-123006aa-6a476005: |-
+  L'outil contient plusieurs pièces différentes pour construire des voies piétonnes et des passerelles.
+
+  NOTE : Ces voies piétonnes ne doivent pas être utilisées directement devant les zones résidentielles (voir flèche de zone).
+2026960b-123006aa-6a477e00: L'outil propose des pièces de transitions sur
+  versant, sans des styles alternatifs. Pour des franchissements courts et de
+  réseaux orthogonaux. Pas de support diagonal.
+2026960b-123007bb-6a479200: Viaduc pour avenue - 15 m
+2026960b-123007bb-6a47bc60: Tram sur Rue
+2026960b-123006aa-6a477800: |-
+  L'outil contient des pièces de liaison entre les réseaux routiers surélevés et les réseaux d'autoroutes (RHW), y compris les viaducs et les intersections.
+  OBSOLÈTES
+2026960b-123006aa-6a47510a: L'outil contient des pièces de bretelles de type D
+  (voie parallèle de sortie uniquement) pour la construction d'échangeurs
+  d'autoroutes (RHW).
+2026960b-123007bb-6a479900: Avenue/RHW franchissement et liaisons
+2026960b-6a231eaa-10190f20: Pont ferroviaire à treillis Warren L2
+2026960b-6a231eaa-0000a14c: Pont Monorail à pile en Y
+2026960b-6a231eaa-0024af20: Viaduc RD-2 L2/15m
+2026960b-6a231eaa-10360f01: Pont à piles et tablier en treillis, RRW-2
+2026960b-6a231eaa-b0109f20: Viaduc simple, MIS L2/15m
+2026960b-6a231eaa-0000a152: Pont à haubans pour TGV (GHSR)
+2026960b-123007bb-6a47a130: Viaduc férroviaire étirable (ERRW)
+2026960b-123007bb-6a475600: Passages souterrains modulables (FLUPs) pour
+  autoroutes (RHW), routes souterraines étirables (URoads), et croisements en
+  dénivelés
+2026960b-ea5524eb-cbe09c9b: RHW
+2026960b-123006aa-6a47bc60: L'outil propose divers segments (Pièces-Puzzles) de
+  Tram sur Rue (voies partagées). Ortho et diagonales, Croisement et liaisons
+  avec les autres réseaux, boucles.
+2026960b-123007bb-6a475220: Virages d'autoroutes à multiples rayons.
+2026960b-6a231eaa-00122f00: Pont de Krummbach
+2026960b-cbe084cb-84cb0016: Pont en arche de pierre
+2026960b-6a231eaa-60314f01: Pont à arches en acier plein cintre, RD-6
+2026960b-6a231eaa-00132f00: Pont Kwanyoni, par CSX
+2026960b-6a231eaa-b0059f00: Pont à poutre en béton, RHW-2
+2026960b-123006aa-6a475600: |-
+  Contient des voies d'accès, entrées et sorties, pour autoroutes (RHW), routes et routes à sens unique, pour les passages inférieurs FLEX (FLUP) basés sur le métro, les Pièces-Initiales URoad (souterrain) et les passages supérieurs FLEX pour divers réseaux.
+
+  Construisez d'abord les accès, remplacez-les par le réseau RHW approprié (si vous le souhaitez), placez les Pièces-Initiales URoad, et faites glisser l'outil métro à travers la pièce-initiale et connectez les tunnels. 
+
+  Placez les pièces de franchissement au-dessus du tracé souterrain chaque fois qu'un réseau de surface se croise, afin de permettre au trafic souterrain de passer.
+2026960b-123006aa-6a477b00: |-
+  L'outil contient les Pièces-Initiales pour créer :
+  Avenues à voies médianes 3, 5 et 7 voies (TLA-3 | 5 | 7).
+  Avenues à 2 et 6 voies (AVE-2 | 6).
+  Routes à 3 voies asymétriques (ARD-3)
+  Routes à 4 et 6 voies (RD-4 | 6).
+  Routes à sens unique à 1, 3, 4 et 5 voies (OWR-1 | 3 | 4 | 5).
+2026960b-123006aa-6a475300: |-
+  L'outil contient des pièces permettant d'assurer la transition entre des réseaux RHW de largeurs différentes. (Pièces-Puzzles statiques).
+
+  Ces éléments sont OBSOLÈTES et il est recommandé d'utiliser les transitions de largeur FLEX (FLEX-WT) à la place.
+2026960b-6a231eaa-a013af10: Viaduc OWR-2 L1/7.5m
+2026960b-2a592fd1-5413c700: Avenue X Tram diagonal (GLR) - Pièce-Puzzle
+2026960b-6a231eaa-10090f01: Pont ferroviaire métallique en arches
+2026960b-123007bb-6a478000: Pont routier à sens unique
+2026960b-6a231eaa-1010f001: Viaduc de Garabit, vert
+2026960b-123006aa-6a47e100: Échangeurs ...
+2026960b-123007bb-6a475024: Gomme de segment de réseau
+2026960b-6a231eaa-60154f00: "Le Pont Alexandre III, pont en arc sur la Seine,
+  reliant le 7e et le 8e arr. de Paris. Pont le plus orné et le plus extravagant
+  de la ville : lampes Art Nouveau exubérantes, chérubins, nymphes et chevaux
+  ailés à chaque extrémité. Construit entre 1896 et 1900. Il porte le nom du
+  tsar Alexandre III, qui avait conclu l'alliance franco-russe en 1892. Son fils
+  Nicolas II posa la première pierre en octobre 1896."
+2026960b-123007bb-6a475b00: Autoroutes, pièces FLEXFly
+2026960b-123006aa-6a475050: L'outil contient des pièces de remplissage pour
+  construire des autoroutes (RHW) par petits morceaux, dans des situations
+  instables.
+2026960b-0a554ae0-6a47ac00: Rails courbes (RRW) - pièces FLEX
+2026960b-123007bb-6a47a800: Viaduc ferroviaire/Autoroutes, ponts et Pièces-puzzles
+2026960b-123006aa-6a47aa10: |-
+  Outil permettant de placer les voies souterraines avec des rues piétonnes en surplomb. + double réseau de surface.
+  Pièces-Puzzles.
+2026960b-123006aa-6a475118: |-
+  Construction de bretelles d'accès d'autoroutes (RHW) qui ne sont pas encore couvertes par les systèmes de bretelles FLEX ou étirables ; ainsi que des éléments pour la construction d'intersections pour les échangeurs Diamant-3-niveaux.
+
+  Les éléments de bretelles, Pièces-Puzzles dépréciées, suivent les pièces de Diamant-3-niveaux. Il est recommandé d'utiliser les bretelles FLEX ou les bretelles d'accès étirables (DRIs) plutôt que les Pièces-Puzzles dépréciées.
+2026960b-123006aa-6a475366: L'outil contient les éléments de virages à courbes
+  douces et chaussées à angles fractionnaires pour les autoroutes de sol et
+  surélevées.
+2026960b-6a231eaa-10300f11: Viaduc ferroviaire (2) type L1 STR
+2026960b-6a231eaa-0000a14a: Pont surélevé pour TGV (HSR)
+2026960b-123006aa-6a47c000: |-
+  Pièce-Initiale du réseau Grande Vitesse (HSR project).
+  Contient aussi des segments en surplomb des réseaux de bases.
+2026960b-123007bb-6a478900: Voies Rapides FLEX, segments et courbes.
+2026960b-6a231eaa-30061f00: Pont couvert
+2026960b-123006aa-6a479005: Cet outil contient des Pièces-Puzzles, rampes,
+  virages, pour viaduc de 7,5 m. Franchissement de divers réseaux.
+2026960b-cbe084cb-84cb0014: Pont suspendu moyen
+2026960b-123007bb-6a477000: Ponts Routiers
+2026960b-123007bb-6a47cd00: Chemin de fer hybride (Rail ordinaire - Grande Vitesse) - Aiguillages
+2026960b-6a231eaa-0000a154: Pont de Putrajuya pour Monorail
+2026960b-123007bb-6a477c00: Ronds-points 1 carreau
+2026960b-123007bb-6a477b30: Mod Routes Élargies (NWM) - Courbes
+2026960b-123006aa-6a47b03a: |-
+  L'outil contient des segments (droite et courbe) de Tram surélevée en surplomb et croisement de routes, rues et avenues ainsi qu'en surplomb de voies piétonnes.
+  Pièces-Puzzles.
+2026960b-123007bb-6a477700: Route rurale (Pièces-Puzzles)
+2026960b-123007bb-6a475f71: Bretelles d'accès type F pour autoroutes (RHW)
+2026960b-cbe084cb-84cb0010: Pont de plain-pied
+2026960b-6a231eaa-33020000: Pont en arches d'acier, RHW-4
+2026960b-6a231eaa-0000a151: Pont surélevé en béton pour TGV (HSR)
+2026960b-6a231eaa-c0319f20: Viaduc RHW-10S L2/15m
+2026960b-123007bb-6a476905: Outil d'excavation et d'élévation de terrain
+2026960b-6a231eaa-0000a149: Pont ferroviaire pour TGV (GHSR)
+2026960b-123007bb-6a47aa0f: Voies ferrées souterraines et Routes.
+2026960b-6a231eaa-30051f00: Pont couvert, terre battue Trolca
+2026960b-123007bb-6a477f30: Passages supérieurs FLEX
+2026960b-6a231eaa-c0179f01: Grande arche en acier, RHW-4
+2026960b-6a231eaa-60274f01: Pont à arches en acier plein cintre, RD-4
+2026960b-6a231eaa-10290f01: Viaduc ferroviaire (2) type L0 STR
+2026960b-123006aa-6a476a00: L'outil contient des Pièces-Puzzles pour avenues,
+  ronds-points, franchissement en Y, et autres intersections Tram, ...
+2026960b-123006aa-6a479900: |-
+  L'outil fournit des Pièces-Puzzles de liaisons d'avenues surélevées avec les autoroutes (RHW). Inclus des ponts et intersections.
+  OBSOLÈTES
+2026960b-6a231eaa-10080f00: Pont ferroviaire à pylônes métalliques
+2026960b-0a554ae0-6a47ac10: Rails courbes (RRW) - pièces FLEX
+2026960b-123007bb-6a47b3ff: Tram (GLR) - Pièces-Initiales étirables
+2026960b-6a231eaa-10270f00: Pont en arche de pierre, RRW-2
+2026960b-123007bb-6a470460: Voies médianes et intersections FLEX (FTLs)
+2026960b-6a231eaa-10130f00: Viaduc de Garabit, à pylônes vert
+2026960b-6a231eaa-10240f01: Royal Albert bridge, Saltash (Angleterre), STR
+2026960b-123007bb-6a47a358: Rails courbes et aiguillages
+2026960b-123006aa-6a47b10f: Pièces-Puzzles pour établir un réseau de Tramway.
+  Ortho et diagonale, boucle, courbe, carrefour, jonction, variantes de sol et
+  croisement avec les réseaux routiers standards.
+2026960b-6a231eaa-c0289f20: Viaduc RHW-8S L2/15m
+2026960b-123007bb-6a470600: Voies médianes et intersections de triple-carreaux (NWM)
+2026960b-123007bb-6a475af3: Éléments FLEXFly pour autoroutes (hérités et obsolètes).
+2026960b-6a231eaa-30041f00: Pont couvert, gravier
+2026960b-123007bb-6a47fffd: Simulateur de trafic - Capacité Élevée
+2026960b-123007bb-6a47c700: Monorail - Grandes Courbes
+2026960b-123006aa-6a47cd00: L'outil contient divers aiguillages, droit, en courbe, croisement.
+2026960b-ea5524eb-8be87282: RHW
+2026960b-123007bb-52002000: Échangeurs en T
+2026960b-123007bb-6a475104: Bretelles Type B d'autoroutes (RHW)
+2026960b-123007bb-6a47c900: Monorail - Haute Élévation
+2026960b-6a231eaa-0000a153: Pont surélevé pour Monorail (30m)
+2026960b-123006aa-6a47991a: |-
+  Outil permettant la pose d'une pièce FLEX de réseaux de surfaces (Avenues, Routes élargies, ...) se connectant ou croisant une autoroute.
+  Contient :
+  FlexSPUI - échangeur urbain à point unique.
+  FlexDDI - échangeur diamant-divergent.
+2026960b-123007bb-6a477b00: Mod Routes Élargies (NWM) - Pièces-Initiales
+2026960b-6a231eaa-60224f00: Pont à poutrelles en acier bleu, AVE
+2026960b-123006aa-6a475024: |-
+  Utilisez cette gomme pour effacer un segment de réseau de 1x1 sans affecter les segments voisins.
+
+  Supprime : Pièces-Initiales, FLEX, intersections,  et les segments de réseaux étirables.
+
+  Nécessaire pour les bretelles intérieures étirables.
+
+  Placez la gomme sur le carreau souhaitée et redessinez si nécessaire.
+2026960b-123007bb-6a475050: Autoroutes (RHW), Pièces de Remplissage
+2026960b-6a231eaa-0000a131: Pont à treillis Warren pour Tram (GLR)
+2026960b-6a231eaa-10140f00: Pont ferroviaire en treillis Howe
+2026960b-123006aa-6a47aa8a: |-
+  L'outil permet de placer des croisements (X) de voies ferrées sous des segments de routes ou de voies piétonnes.
+  Pièces-Puzzles.
+2026960b-123006aa-6a475af6: Guides FLEX pour la construction d'échangeurs en diamant-3-niveaux (RHW).
+2026960b-2a592fd1-5413b700: Avenue X Tram (GLR) - Pièce-Puzzle
+2026960b-123007bb-52001010: Passages supérieurs et ponts autoroutier
+2026960b-123006aa-6a475440: |-
+  Pièces d'habillage : des marquages au sol, fléchages, pour chaussée d'autoroute de 2 carreaux de large :
+  RHW-8S | RHW-10S et RHW-6S
+  NOTE : ne pas confondre avec les pièces TuLEPs.
+2026960b-123007bb-6a47aa13: Voies ferrées souterraines et Tram (GLR)
+2026960b-6a231eaa-c0339f01: Pont en arc rouge, tablier bas, RHW-12S
+2026960b-0a554ae0-6be87272: Autoroutes (RHW)
+2026960b-123007bb-6a475410: Habillage de Transitions d'autoroutes
+2026960b-6a231eaa-00182f00: Pont Saint Michel. Ce pont de 1857, d'une longueur
+  de 62m, relie la place Saint-Michel, sur la rive gauche de la Seine, à l'île
+  de la Cité. Il doit son nom à la chapelle Saint-Michel à proximité. Il est
+  proche de la Sainte Chapelle et du Palais de Justice. Par JENXPARIS.
+2026960b-123006aa-6a47bba0: |-
+  L'outil fournit plusieurs pièces-puzzles de Tram sur route et sur avenue (en double réseau) en texture tout goudron.
+  Plus voie de Tram sur herbe pour route (ortho) et avenue (ortho et diagonales).
+2026960b-6a231eaa-c0419f10: "Viaduc RHW-12S L1/7.5m "
+2026960b-123006aa-6a47e010: L'outil contient des bretelles perpendiculaires surélevées.
+2026960b-6a231eaa-0000a155: Pont à haubans pour TGV (GHSR)
+2026960b-123007bb-6a47b900: "Tram archi-surélevé ! "
+2026960b-123007bb-6a47ba00: Tram sur Route
+2026960b-123007bb-6a47dc00: Autoroute de sol -  Pièces-puzzles
+2026960b-123007bb-6a47ce00: Chemin de fer Hybride (Rail ordinaire - Grande
+  Vitesse) - Transitions vers viaduc.
+2026960b-123006aa-6a478000: "Permet de créer des ponts à sens unique, hauteur 15
+  m, pour passages sur divers réseaux : avenue, route, rue, rail ..."
+2026960b-123006aa-6a475330: L'outil contient des pièces (FLEX) permettant
+  d'effectuer des transitions entre des voies autoroutières de différentes
+  hauteurs.  Les pièces commencent par des transitions RHW-2, et le fait de
+  glisser l'outil réseau RHW dans ces pièces les convertira pour qu'elles
+  s'adaptent.
+2026960b-123007bb-6a475300: Pièces de transitions de largeurs (Pièces-Puzzles OBSOLÈTES)
+2026960b-6a231eaa-60284f00: Pont à poutrelles en acier brun, RD-6
+2026960b-123006aa-6a475900: L'outil contient des Pièces-Initiales et des
+  transitions FLEX pour diverses configurations de voies médianes (FTLs).
+2026960b-123006aa-6a477bf0: |-
+  L'outil permet la construction de connecteurs de voisinage pour les chaussées (NWM) de type :
+  TLA-5 | RD-4 | RD-6 | TLA-7 | AVE-6
+2026960b-6a231eaa-60214f00: Pont à poutrelles en acier rouge, AVE
+2026960b-123006aa-6a47e050: L'outil propose des bretelles parallèles d'autoroute de sol et surlélevé.
+2026960b-6a231eaa-b0289f00: Viaduc simple, RHW-6S L0/0m
+2026960b-123006aa-6a477f00: |-
+  Pièces-Initiales et des Rampes FLEX pour construire des viaducs routiers.
+  Pour route, sens unique et avenue, de 7,5 et 15 m.
+  Orthogonal et diagonal.
+2026960b-6a231eaa-b0139f00: Viaduc simple, RHW-4S L0/0m
+2026960b-123006aa-6a47ba00: L'outil propose divers segments (pièces-puzzles) de
+  tram sur route en double réseau. Ortho et diagonales. Croisements et liaisons
+  avec les réseaux de bases, boucles et transition avec le Tram surélevé.
+2026960b-123006aa-6a475410: |-
+  Pièces d'habillages de transitions pour différentes largeurs de chaussées.
+  NOTE : ne pas confondre avec les pièces TuLEPs.
+2026960b-123006aa-6a475220: L'outil contient des pièces à diverses courbures
+  pour le réseau autoroutier (RHW).
+2026960b-6a231eaa-60104f00: Pont simple d'avenue
+2026960b-6a231eaa-0022af00: Viaduc RD-2 L0/0m
+2026960b-6a231eaa-b0099f00: Viaduc simple, MIS L0/0m
+2026960b-6a231eaa-10120f01: Viaduc de Garabit, rouge
+2026960b-6a231eaa-0000a12f: Pont en treillis pour Tram (GLR)
+2026960b-6a231eaa-a012af00: Viaduc OWR-2 L0/0m
+2026960b-2a592fd1-5426e000: |-
+  Rond-point d'avenue 4x4
+  Vous pouvez raser le remplissage BLS-BSC et en placer un autre. Conservez-le si vous souhaitez créer un passage souterrain FLUPs sous le rond-point. Sa direction est indiquée par les lignes de prévisualisation rouges. Parallèle au mur de la fontaine.
+2026960b-6a231eaa-10310f01: Viaduc ferroviaire (2) type L0 DTR
+2026960b-6a231eaa-0000a14d: Pont à treillis Bailey, pour TGV (HSR)
+2026960b-6a231eaa-6037af00: Pont à poutrelles en acier rouge, OWR-4
+2026960b-6a231eaa-30011f00: Pont de rue, surélevé
+2026960b-6a231eaa-20126f20: Pont Tsing Ma, Hong Kong
+2026960b-123007bb-6a4704a0: Intersections préfabriquées (Configurations FLEX)
+2026960b-123007bb-6a47a368: Rails à angles fractionnaires (FARR)
+2026960b-123007bb-6a47b060: Tram surélevé - Route 4 voies et avenue
+2026960b-123006aa-6a47dc00: L'outil contient de segments d'autoroutes.
+2026960b-123006aa-6a476100: Une collection d'éléments FLEX de Passages Piétons.
+  Utilisez-les seuls aux points de passages souhaités ou dans le cadre de rues
+  piétonnes.
+2026960b-6a231eaa-10200f20: Pont ferroviaire L2
+2026960b-123006aa-6a47c701: L'outil contient les segments (Picèes-Puzzles) de courbes et S.
+2026960b-cbe084cb-84cb0015: Pont métallique à arches de plein cintre
+2026960b-2a592fd1-5f491505: Avenue courbe à 90° 5x5
+2026960b-6a231eaa-00112f00: Pont routier, par Dusktrooper
+2026960b-123006aa-6a475000: |-
+  L'outil contient les Pièces-Initiales pour construire des réseaux RHW de différentes largeurs et hauteurs, jusqu'à 12 voies (RHW-12S) et pour certains réseaux, jusqu'à 30 mètres de haut (L4).
+
+  Faites glisser l'outil de réseau Autoroute (RHW-2) à travers la Pièce-Initiale pour construire la chaussée.
+2026960b-6a231eaa-80037f40: Pont de métro/Tram aérien surélevé
+2026960b-6a231eaa-0000a071: Pont ferroviaire à treillis Warren (15.5m)
+2026960b-123006aa-6a470460: |-
+  Cet outil contient les Pièces-Initiales pour construire des voies médianes et intersections FLEX pour les diverses Routes.
+  Glissez l'outil de route adapté à travers la Pièce-Initiale correspondante pour construire la chaussée.
+2026960b-6a231eaa-10210f21: Pont ferroviaire à treillis L2
+2026960b-123006aa-6a477b50: |-
+  Pièces-Puzzles de transitions entres les différentes largeurs de Routes Élargies (NWM).
+  Notez que la plupart des transitions impliquant des chaussées à un ou deux carreaux peuvent se faire en utilisant l'outil étirable d'un des réseaux (route, avenue, ...) par connexion directe !
+2026960b-123006aa-52002000: L'outil contient les éléments pour construire des
+  échangeurs en T pour les autoroutes de sol et surélevées.
+2026960b-123007bb-6a475000: Autoroutes (RHW), Pièces-Initiales
+2026960b-123006aa-6a475471: |-
+  L'outil contient des pièces d'habillage : des marquages au sol, fléchages, pour chaussée d'autoroute de 3 carreaux de large :
+  RHW-6C | RHW-8C
+  NOTE : ne pas confondre avec les pièces TuLEPs.
+2026960b-2a592fd1-54193700: Avenue sur versant - Pièce-Puzzle
+2026960b-123006aa-6a47ac10: |-
+  L'outil contient de multiples aiguillages, bretelles, divisions Y, courbes, croisements ... voie double et unique (DTR | STR) ortho et diagonale.
+  Pièces FLEX.
+2026960b-0a554ae0-6a477900: Courbes de réseaux de surface
+2026960b-6a231eaa-c0125f00: Pont suspendu d'Akashi-Kaikyo
+2026960b-6a231eaa-b0019f01: Pont acier à arche de plein cintre, RHW-2
+2026960b-123007bb-6a475f20: Autoroutes à angles fractionnaires (FA)
+2026960b-6a231eaa-b0219f10: Viaduc simple, RHW-2 L1/7.5m
+2026960b-6a231eaa-6013af00: Pont à poutres de fer, RD4
+2026960b-123007bb-6a475900: Voies médianes et intersections pour autoroutes (FTLs)
+2026960b-123006aa-6a475700: Cet outil contient des éléments d'échangeurs (RHW)
+  modulables.  Faites glisser l'outil de réseau approprié pour convertir la
+  bretelle de base et combinez-les pour créer facilement un échangeur complet.
+2026960b-6a231eaa-b0049f00: Pont simple RHW-4
+2026960b-123007bb-6a4704e0: Voies médianes et intersections (Anciennes pièces TuLEPs)
+2026960b-2a592fd1-54300000: Avenue vers avenue surélevée - Longue rampe
+2026960b-123006aa-6a47a130: L'outil propose les pièces initiales FLEX sur
+  versant ainsi que les rampes de niveau 1 et 2 pour construire des viaducs
+  ferroviaires étirables (RRW).
+2026960b-6a231eaa-b0079f00: Pont en poutre-caisson en béton, RHW-4S
+2026960b-2a592fd1-542b9540: Avenue courbe à 45°
+2026960b-6a231eaa-10320f11: Viaduc ferroviaire (2) type L1 DTR
+2026960b-123006aa-6a478005: L'outil contient des Pièces-Puzzles, rampes,
+  virages, pour viaduc de 15 m. Franchissement de divers réseaux.
+2026960b-6a231eaa-b0309f20: Viaduc simple, RHW-6S L2/15m
+2026960b-cbe084cb-84cb0011: Pont surélevé
+2026960b-123006a0-6a47b400: |-
+  L'outil permet de poser des rampes et segments de circulation de Tram souterrains.
+  Utilisez la touche [Home|End] (début|fin) pour faire pivoter la pièce et utilisez la touche [tab] pour faire défiler les différents segments.
+  Construisez d'abord le réseau de surface, puis placez ces pièces dessus.
+2026960b-123007bb-6a47aa10: Voies ferrées souterraines et Rues piétonnes.
+2026960b-6a231eaa-0000a14f: Pont à caissons pour TGV (GHSR)
+2026960b-123006aa-6a477900: "Outil contenant des pièces FLEX à rayons de
+  courbure multiples (MRC) pour les réseaux de surface : routes, sens unique,
+  avenues et routes élargies (NWM)."
+2026960b-cbe084cb-84cb0013: Pont couvert en bois
+2026960b-6a231eaa-8009bf00: Pont simple pour Tram (GLR)
+2026960b-123007bb-6a477500: Courbes variables pour Route, Sens-unique, Avenue et Rue
+2026960b-123007bb-6a470100: Canal Addon Mod (CAN-AM)
+2026960b-6a231eaa-30121f00: Pont Neuf. Ce pont est, malgré son nom, le plus
+  ancien pont en pierre  existant sur la Seine à Paris. Ce nom, donné pour le
+  distinguer des ponts plus anciens qui étaient bordés de maisons de part et
+  d'autre, lui est resté. Par JENXPARIS.
+2026960b-6a231eaa-00172f00: Pont Royal. Pont traversant la Seine à Paris, il est
+  le troisième plus ancien pont de la ville, après le Pont Neuf et le Pont
+  Marie. Par JENXPARIS.
+2026960b-123007bb-6a47c200: Voie à Grande Vitesse de sol (GHSR)
+2026960b-123007bb-6a47b049: Tram surélevé - Intersections du réseau élargi (NWM)
+2026960b-6a231eaa-c0239f00: Pont à poutrelles métalliques, RHW-4
+2026960b-6a231eaa-8c1e87fc: Pont simple de plain-pied Maxis
+2026960b-123007bb-6a477b50: Mod Routes Élargies (NWM) - Transitions
+2026960b-123007bb-6a47e100: Échangeurs sur mesures
+2026960b-0a554ae0-09bc22f3: El Train Control
+2026960b-2a592fd1-542b9550: Avenue courbe à 45° (FLEX)
+2026960b-6a231eaa-c0149f01: Pont à treillis, RHW-8
+2026960b-2a592fd1-542be000: Avenue courbe à 90°
+2026960b-123007bb-6a47b03a: Tram surélevé - Double réseaux
+2026960b-123007bb-6a475f00: Intersections et transitions à angles fractionnaires pour autoroutes (FA-RHW)
+2026960b-123006aa-6a477200: L'outil contient diverses Pièces-Puzzles de viaducs
+  de route d'une hauteur de 15 m.
+2026960b-123006aa-6a479200: L'outil contient des Pièces-Puzzles, rampes,
+  virages, pour viaduc de 15 m. Franchissement de divers réseaux.
+2026960b-123007bb-6a475471: |-
+  Habillage de voie d'autoroute
+  Pièces-Puzzles 3 carreaux
+2026960b-2a592fd1-54589520: "Avenue X Rue, avec terre-plein "
+2026960b-6a231eaa-30031f00: Pont couvert, terre battue PEG
+2026960b-123006aa-6a475500: |-
+  L'outil contient des pièces diagonales de viaduc autoroutier en surplomb d'autoroutes. Lorsque ce n'est pas possible sur chaussées étirables.
+  OBSOLÈTES
+2026960b-6a231eaa-00342f01: Pont ferroviaire à treillis L2
+2026960b-123007bb-6a476100: Passages Piétons FLEX (Pedestrian Revolution Mod)
+2026960b-123007bb-6a47bba0: Tram sur route et avenue - Styles additionnelles
+2026960b-123006aa-6a4704a0: L'outil contient des configurations d'intersections
+  préfabriquées FLEX (dynamiques) avec voies médianes.
+2026960b-6a231eaa-10280f00: Pont commémoratif Frank Werspuckle, à poutrelles d'acier, RRW-2
+2026960b-6a231eaa-6034af00: Pont à poutrelles en acier bleu, OWR-5
+2026960b-123007bb-6a477f00: Viaducs routiers étirables
+2026960b-123007bb-6a475109: Bretelles Type E d'autoroutes (RHW)
+2026960b-6a231eaa-00162f00: Pont Neuf. Ce pont est, malgré son nom, le plus
+  ancien pont en pierre  existant sur la Seine à Paris. Ce nom, donné pour le
+  distinguer des ponts plus anciens qui étaient bordés de maisons de part et
+  d'autre, lui est resté. Par JENXPARIS.
+2026960b-6a231eaa-58500000: Pont GLR
+2026960b-123006aa-6a473141: L'outil contient des éléments préfabriqués pour les
+  autoroutes de sol et surélevées.
+2026960b-6a231eaa-b0339f00: Pont en acier à piles en V, RHW-2
+2026960b-6a231eaa-b0229f00: Viaduc simple, RHW-3 L0/0m
+2026960b-123006aa-6a475f00: |-
+  L'outil contient les éléments pour construire des segments d'intersections FARHW interfacés avec les chaussées d'autoroute de sol, et des éléments de transitions FARHW pour passer d'une largeur à une autre.
+
+  NOTE : La plupart des intersections nécessitent l'utilisation de pièces TuLEPs.
+2026960b-6a231eaa-6036af00: Pont à poutrelles en acier brun, OWR-4
+2026960b-123006aa-6a47ad00: |-
+  Cet outil contient divers segments de voie ortho et diagonales vers FARR 1,5 | 2 | 3 et 6.
+  Pièces FLEX.
+2026960b-6a231eaa-b0249f20: Viaduc simple, RHW-3 L2/15m
+2026960b-6a231eaa-80067f21: Pont à haubans de métro/Tram aérien
+2026960b-6a231eaa-10370f00: Viaduc à piles et tablier en treillis, RRW-1
+2026960b-6a231eaa-b0349f00: Pont en acier à piles en V, RHW-4
+2026960b-6a231eaa-8010b200: Pont Notre-Dame. Pont Parisien reliant le quai de
+  Gesvres sur la Rive Droite au quai de la Corse sur l'Île de la Cité. Le pont
+  est connu pour être le "plus ancien" de Paris ou plutôt être à l'emplacement
+  d'une succession de ponts et cela en remontant à l'Antiquité. Par JENXPARIS.
+2026960b-123007bb-6a47b10f: Tram (GLR)
+2026960b-123007bb-6a475366: Virages à courbes douces pour autoroutes Symphony
+2026960b-6a231eaa-60244f00: Pont à poutrelles en acier brun, RD-4
+2026960b-123006aa-6a477c00: L'outil propose des ronds-points (3 branches) d'un seul carreau.
+2026960b-123007bb-6a47e010: Autoroute surélevée - Rampes
+2026960b-2a592fd1-54600800: Avenue diagonale vers angle fractionnaire (3x4)
+2026960b-6a231eaa-00202f00: Pont Sant Angelo, Rome
+2026960b-123006aa-6a475104: L'outil contient des pièces d'interface de bretelles
+  de type B (voie en biseau) pour la construction d'échangeurs d'autoroutes
+  (RHW).
+2026960b-6a231eaa-10150f00: Pont couvert en béton, zone de guerre
+2026960b-6a231eaa-30191f00: Pont en acier à piles en V (SAM-8)
+2026960b-6a231eaa-10060f00: Vieux pont ferroviaire en arc
+2026960b-123006aa-6a474000: |-
+  Utilisez ces éléments pour construire des Rails à voie unique (STR)
+  Le premier élément est une Pièces-Initiales.
+2026960b-123007bb-6a475500: |-
+  Viaduc d'autoroutes sur diagonales d'autoroutes
+  Pièces-Puzzles - OBSOLÈTES
+2026960b-123006aa-6a475f71: L'outil contient des éléments de bretelles de type F
+  (voie de sortie à angle fractionnaire) pour la construction d'échangeurs
+  d'autoroutes (RHW).
+2026960b-6a231eaa-c0249f00: Pont métallique double, RHW-4
+2026960b-a82ca30f-00152f00: Pont couvert en bois
+2026960b-123006aa-6a47b3ff: L'outil propose les pièces-initiales ortho et
+  diagonale (+ version rurale), Rampe depuis réseau Tram surélevé, boucle.
+2026960b-123007bb-6a475330: Transitions de hauteurs d'autoroutes (FLEX-HT)
+2026960b-cbe084cb-84cb0012: Pont en treillis Warren
+2026960b-6a231eaa-c0429f20: "Viaduc RHW-12S L2/15m "
+2026960b-123006aa-6a47a368: |-
+  L'outil contient des Pièces-Puzzles d'aiguillages, segments, transitions ortho-fract ... de voies ferrées fractionnaires.
+  Utilisez [tab] ([shift][tab]) pour faire défiler les éléments et [home], [end] pour tourner les pièces.
+2026960b-123007bb-6a477900: Courbes FLEX pour réseaux de surface
+2026960b-123007bb-6a475f70: Bretelles d'accès type C pour autoroutes (RHW)
+2026960b-123006aa-6a47ac00: L'outil contient les pièces courbes à grand rayon
+  (R3, R4 et R5), peuvent être converties (FLEX) en voie unique (STR) ou
+  élevées.
+2026960b-6a231eaa-30181f00: Pont en acier à piles en V (SAM-7)
+2026960b-123007bb-6a47ffff: Network Addon Mod - Version Controlleur
+2026960b-6a231eaa-6039af01: Pont à arches en acier plein cintre, OWR-4
+2026960b-6a231eaa-c0279f00: "Viaduc RHW-8S L0/0m "
+2026960b-6a231eaa-30151f00: Pont en acier à piles en V
+2026960b-123007bb-6a476200: Voies piétonnes étirables
+2026960b-123006aa-6a477f30: |-
+  Permet la construction de passages supérieurs de routes, sens uniques et d'avenues FLEX de différentes longueurs.
+  Faire glisser les réseaux sous la section centrale du pont pour construire le franchissement.  La plupart des réseaux et les réseaux doubles basés sur FLEX sont pris en charge.
+2026960b-6a231eaa-00142f00: Vieux pont en arc
+2026960b-123006aa-6a475350: L'outil contient des composants de transitions entre
+  les différents réseaux et de hauteurs variables pour les autoroutes de sol et
+  surélevées.
+2026960b-123007bb-6a475090: Connecteurs de Voisinage FLEX pour autoroute (FLEX-NC)
+2026960b-6a231eaa-b0299f10: Viaduc simple, RHW-6S L1/7.5m
+2026960b-6a231eaa-a014af20: Viaduc OWR-2 L2/15m
+2026960b-6a231eaa-b0089f00: Pont en poutre-caisson en béton, RHW-6S
+2026960b-123007bb-6a478005: Viaducs de route à sens unique - 15 m
+2026960b-6a231eaa-60304f00: Pont à poutrelles en acier bleu, RD-6
+2026960b-123007bb-6a47fffb: Simulateur de trafic - Capacité Limitée
+2026960b-6a231eaa-10110f00: Viaduc de Garabit, à pylônes rouge
+2026960b-123007bb-6a475312: Transitions de hauteurs pour autoroutes, Pièces-Puzzles - OBSOLÈTES
+2026960b-6a231eaa-10340f01: Viaduc d'Antheor (Nice) en arc de brique, RRW-2
+2026960b-123006b0-6a47b400: Tram souterrains - FLUPs
+2026960b-0a554ae0-6a478b00: Bretelles FLEX - Réseau Voies Rapides
+2026960b-123006aa-6a475f30: "L'outil contient les éléments permettant de
+  construire différentes bretelles d'accès (FARHW) type : C1 | F1 | C2 | F2 et
+  C3"
+2026960b-a92a02ea-55000001: Pont simple de rue
+2026960b-123006aa-6a47c200: Pièce-initiale du réseau Grande Vitesse ainsi que
+  les segments de franchissement des réseaux de bases, une rampe vers le réseau
+  surélevé, S, ...
+2026960b-123007bb-6a47c000: Voie à grande vitesse (HSR) - Surélevé
+2026960b-6a231eaa-c0159f01: Grand pont en arc de béton, RHW-10
+2026960b-6a231eaa-c0409f00: "Viaduc RHW-12S L0/0m "
+2026960b-6a231eaa-0000a157: Pont à suspension pour TGV (HSR)
+2026960b-123007bb-6a473141: Échangeurs préfabriqués Symphony
+2026960b-123006aa-6a477600: L'outil contient diverses Pièces-Puzzles pour
+  réseaux à angles fractionnaires (FAR3), segments droits, courbes et
+  intersections.
+2026960b-123007bb-6a476700: Rues additionnelles - Street Addon Mod (SAM)
+2026960b-123006aa-6a475109: L'outil contient des pièces de bretelles de type E
+  (voie oblique de sortie uniquement) pour la construction d'échangeurs
+  d'autoroutes (RHW).
+2026960b-2a592fd1-54600500: Avenue à angle fractionnaire (FAAVE-4) - Segment droit (3x3)
+2026960b-123006aa-52001020: Cet outil contient les éléments pour construire des
+  échangeurs en trèfle, pour autoroutes de sol et surélevées.
+2026960b-123006aa-6a477700: |-
+  L'outil propose des Pièces-Puzzles droites, diagonales, FAR, courbes et intersections ; avec textures : route, SAM asphalte, terre et graviers.
+
+  Utilisez la touche [tab] - ou [maj]+[tab] - pour sélectionner l'une des pièces.
+  Puis orientez la pièce avec les touches [Home] et [End] - ([début] [fin]).
+2026960b-6a231eaa-6032af00: Pont à poutrelles en acier brun, OWR-5
+2026960b-123006aa-6a47aa0f: |-
+  Outil permettant de placer les voies souterraines, sous divers segments de route. Droite, courbe, carrefours, ortho et diagonale, rampe d'accès et double réseau.
+  Pièces-Puzzles.
+2026960b-123007bb-6a475100: Bretelles d'autoroutes - OBSOLÈTE (Pièces-Puzzle statiques)
+2026960b-123007bb-6a475af6: Échangeur d'autoroute en Diamant-3-niveaux
+2026960b-123006aa-6a47a900: |-
+  Utilisez [tab] ([maj][tab]) pour faire défiler les éléments, ainsi que les touches [home] et [end] pour la rotation des pièces.
+  Pièces-Puzzles.
+2026960b-2a592fd1-54260800: Avenue sur terrain vierge - transition droite à diagonale
+2026960b-2a3858e4-0000001a: Autoroutes RHW
+2026960b-6a231eaa-60124f00: Pont surélevé d'avenue
+2026960b-123007bb-6a475700: Échangeurs d'autoroutes préfabriqués
+2026960b-123006aa-6a477500: L'outil contient des segments Pièces-Puzzles de courbes (S, 90°, grand rayon)
+2026960b-123006aa-6a475b00: "L'outil contient des éléments du Système des Pièces de Surcharge FLEXFly. "
+2026960b-6a231eaa-0021af00: Pont en treillis Warren NRD-4
+2026960b-6a231eaa-59500000: Pont simple pour route à sens-unique
+2026960b-6a231eaa-30161f00: Pont en acier à piles en V (SAM-2)
+2026960b-6a231eaa-0000a156: Pont à haubans pour Monorail
+2026960b-6a231eaa-30211f00: Pont en acier à piles en V (SAM-10)
+2026960b-6a231eaa-80057f20: Pont en treillis de métro/Tram aérien
+2026960b-123007bb-6a477e00: Viaduc routier - Styles alternatifs
+2026960b-123007bb-6a47cb00: Chemin de fer hybride (Rail ordinaire - Grande Vitesse) - Courbes
+2026960b-123007bb-6a4751f0: Bretelles d'accès FLEX (RHW)
+2026960b-2a592fd1-54300e00: Avenue en diagonale, sur versant - Pièce-Puzzle
+2026960b-6a231eaa-b0189f10: Viaduc simple, MIS L1/7.5m
+2026960b-6a231eaa-6035af01: Pont à arches en acier plein cintre, OWR-5
+2026960b-6a231eaa-6014af00: Pont à poutres de fer, RD6
+2026960b-6a231eaa-10350f00: Viaduc en acier, RRW-2
+2026960b-123007bb-6a475118: Bretelles d'accès spéciales et échangeurs
+  Diamant-3-niveaux (Pièces-Puzzles statiques) - OBSOLÈTES
+2026960b-6a231eaa-0000a070: Pont ferroviaire à treillis (15.5m)
+2026960b-2a592fd1-54600000: Avenue à angle fractionnaire (FAAVE-4) - 18.4° courbe courte (3x5)
+2026960b-6a231eaa-10170f00: Pont ferroviaire en treillis Howe, STR
+2026960b-123007bb-6a477200: Viaduc de Route de 15 m
+2026960b-123007bb-6a47aa11: Voies ferrées souterraines et Réseau routier Maxis.
+2026960b-123006aa-6a475f20: L'outil contient des pièces droites et courbes pour
+  construire des autoroutes à angles fractionnaires (FARHWs).
+2026960b-6a231eaa-30221f00: Pont en acier à piles en V (SAM-11)
+2026960b-6a231eaa-0000a14e: Pont Grande Vitesse en treillis Warren (GHSR)
+2026960b-6a231eaa-30171f00: Pont en acier à piles en V (SAM-6)
+2026960b-123006aa-6a47b900: "L'outil fournit divers segments de Tram
+  archi-surélevés (30m) de franchissement des réseaux de bases (Maxis) surélevés
+  ou non, plus une rampe : surélevés vers archi-surélevés."
+2026960b-6a231eaa-b0259f10: Viaduc simple, RHW-4S L1/7.5m
+2026960b-6a231eaa-10220f01: Viaduc du Göltzsch
+2026960b-6a231eaa-b0129f20: Viaduc simple, RHW-2 L2/15m
+2026960b-6a231eaa-60194f20: Viaduc, AVE-4 L2/15m
+2026960b-123007bb-6a473143: Bretelles d'accès Symphony
+2026960b-6a231eaa-10250f00: Pont à poutrelles d'acier, RRW-1
+2026960b-6a231eaa-60204f00: Pont à poutrelles en acier brun, AVE
+2026960b-123006aa-6a477005: L'outil contient diverses Pièces-Puzzles de viaducs
+  de route d'une hauteur de 7,5 m.
+2026960b-123006aa-6a47a358: |-
+  L'outil propose diverses Pièces-Puzzles de courbes, S, aiguillages et déviations de voies. Orthogonales et diagonales.
+  Utilisez [tab] ([maj][tab]) pour faire défiler les éléments, ainsi que les touches [home] et [end] pour la rotation des pièces.
+2026960b-6a231eaa-a011af00: Pont à treillis, OWR-3
+2026960b-6a231eaa-0000a130: Pont ferroviaire à tablier supérieur (30m)
+2026960b-123007bb-6a476a00: Ronds-Points et Intersections d'avenue
+2026960b-123006aa-6a475400: |-
+  Pièces d'habillage : des marquages au sol, fléchages, pour chaussée d'autoroute d'un carreau de large :
+  RHW-2, RHW-3 et RHW-4
+  NOTE : ne pas confondre avec les pièces TuLEPs.
+2026960b-6a231eaa-80047c20: Pont en béton de métro/Tram aérien
+2026960b-123006aa-6a47b060: Cet outil contient des Pièces-Puzzles de segments de
+  Tram en surplomb de 4-voies et d'avenues + Rampe Tram (GLR) vers Tram
+  surélevé.
+2026960b-123007bb-6a47fffc: Simulateur de trafic - Capacité Moyenne
+2026960b-6a231eaa-0000a150: Pont en béton pour TGV (GHSR)
+2026960b-6a231eaa-8008bf01: Pont en treillis à tablier bas pour Tram (GLR)
+2026960b-6a231eaa-0023af10: Viaduc RD-2 L1/7.5m
+2026960b-123007bb-6a47fffe: Simulateur de trafic - Capacité Ultra
+2026960b-123006aa-6a475af3: Pour la construction de systèmes par surcharge
+  étirable FLEXFly, hérités ou obsolètes.
+2026960b-6a231eaa-60174f00: Viaduc, AVE-4 L0/0m
+2026960b-2a592fd1-54260130: Avenue sur terrain vierge (sans pilier)
+2026960b-2a592fd1-54500000: Autoroutes (Maxis), bretelles perpendiculaires
+2026960b-123007bb-6a479000: Pont d'avenues
+2026960b-123007bb-6a477600: Chaussées à angles fractionnaires (Route, Sens-unique et Avenue)
+2026960b-123006aa-6a475f70: L'outil contient des éléments de bretelles de type C
+  (nouvelle voie à angle fractionnaire) pour la construction d'échangeurs
+  d'autoroutes (RHW).
+2026960b-123006aa-6a476905: Placez l'outil sur le terrain. À chaque clic il
+  soulèvera ou abaissera (rotation [Home] [End]) ce dernier selon la
+  hauteur/profondeur [tab] choisie, fournissant une zone plane pour tout type de
+  réseau. Ce système est également compatible avec tous les Mods de pentes.
+2026960b-123007bb-6a47aa12: Voies ferrées souterraines et Voies ferrées.
+2026960b-123006aa-6a47508c: |-
+  Cet outil contient les Pièces-Puzzles pour établir les connexions de voisinage pour les autoroutes (RHW).
+  Ces éléments sont OBSOLÈTES et il est recommandé d'utiliser les connecteurs de voisinage FLEX.
+2026960b-123006aa-6a47aa12: |-
+  Outil permettant de placer des voies souterraines sous divers segments de rails.
+  Pièces-Puzzles
+2026960b-6a231eaa-50500000: Pont simple de route
+2026960b-6a231eaa-6038af00: Pont à poutrelles en acier bleu, OWR-4
+2026960b-123006aa-6a476525: |-
+  Permet de tracer des rues diagonales, sur pente et en intersections.
+
+  L'outil contient plusieurs longueurs de rue et des Pièces-Puzzles.
+2026960b-6a231eaa-c0259f00: Pont compacte simple, RHW-6S
+2026960b-6a231eaa-c0139f00: Pont suspendu compact, RHW4
+2026960b-123006aa-6a47b049: "Pièces-Puzzles de segments de Tram surélevée
+  croisant les réseaux routiers élargis : AVE-2 | TLA-3 | ARD-3 | NRD-4 | RD-6
+  ..."
+2026960b-6a231eaa-33010000: Pont simple RHW-4
+2026960b-123006aa-6a470100: "Le Canal Addon Mod vous permet de construire des canaux fonctionnels. "
+2026960b-123006aa-6a479000: L'outil propose un pont d'avenue en franchissement
+  de divers réseaux. Orthogonal - 15 m.
+2026960b-123007bb-6a476525: Rues diagonales
+2026960b-6a231eaa-c0279f10: Viaduc RHW-8S L1/7.5m
+2026960b-123006aa-6a47b42a: Pièces-Puzzles de segments de Tram sur avenues en
+  double réseau. Ortho et diagonales. Croisement et liaisons avec les réseaux de
+  bases, de sol et surélevés, boucles.
+2026960b-6a231eaa-c0169f01: Pont à haubans, RHW-10
+2026960b-6a231eaa-8002bf00: Pont à treillis Warren, GLR
+2026960b-6a231eaa-c0199f01: Pont à haubans compacte, RHW-6S
+2026960b-123006aa-6a470600: |-
+  Construction de voies médianes et intersections de triple-carreaux, pour le Mod de Routes Élargies (NWM).
+  L'outil propose les Pièces-Puzzles pour les chaussées à 7 voies (TLA-7) et à 6 voies (AVE-6).
+  Pièces TuLEPs.
+2026960b-123006aa-6a47aa11: |-
+  Outil permettant de placer des voies souterraines sous divers segments de routes, sens uniques, rues, avenues et autoroutes Maxis.
+  Pièces-Puzzles.
+2026960b-6a231eaa-c0329f01: Pont en arc rouge, tablier bas, RHW-10S
+2026960b-123006aa-52001010: L'outil permet de construire des passages supérieurs
+  et ponts orthogonaux pour autoroutes de sol et surélevées.
+2026960b-123007bb-6a47ac00: Rails courbes (RRW) - pièces FLEX
+2026960b-123006aa-6a475312: |-
+  L'outil contient des pièces de transitions de différentes hauteurs ;  transitions de niveaux, transitions sur versant et transitions DDRHW ; pour autoroutes RHW.
+
+  Les fonctionnalités de ce bouton ont été dupliquées avec les transitions de hauteurs FLEX et, par conséquent, cet outil est OBSOLÈTE.
+2026960b-123007bb-6a475336: Transitions de largeurs d'autoroutes (FLEX-WT)
+2026960b-123007bb-6a47fffa: Simulateur de Trafic - Capacité Classique
+2026960b-6a231eaa-10390f01: Viaduc d'Antheor (Nice) en arc de brique, RRW-1
+2026960b-123007bb-6a475440: |-
+  Habillage de voie d'autoroute
+  Pièces-Puzzles 2 carreaux
+2026960b-2a592fd1-54192700: Intersection en T, Avenue sur versant - Pièce-Puzzle
+2026960b-123007bb-6a47e050: Autoroute et Autoroutes surélevés
+2026960b-123006aa-6a47a800: L'outil contient des pièces de franchissement entre
+  les Pièces-Puzzles de viaduc ferroviaire surélevé NAM et les réseaux RHW, y
+  compris les ponts et les intersections.
+2026960b-123006aa-6a47bd00: L'outil contient les pièces-initiales dans 2 styles additionnels.
+2026960b-6a231eaa-b0159f10: Pont double tablier, RHW
+2026960b-2a3858e4-0000001b: |-
+  Coût de construction :  #m:49cac341# par segment
+
+  Coût mensuel : #m:8a94eee0#. 
+
+  Cet outil permet de créer un réseau autoroutier dans différentes largeurs.  Par défaut, il produit un réseau à 2 voies (RHW-2), et avec l'aide des Pièces-Initiales, il peut créer des autoroutes jusqu'à 12 voies, ainsi que des bretelles avec le système d'échangeurs (MIS).
+2026960b-123007bb-6a47ad00: Voies ferroviaires (RRW) à angles fractionnaires (FA) - FLEX
+2026960b-123006aa-6a4704e0: L'outil contient les anciennes Pièces-Puzzles
+  (TuLEPs) pour établir des voies médianes et intersections de différentes
+  chaussées et configurations.
+2026960b-6a231eaa-30291f00: Viaduc d'Antheor (Nice) en arc de brique, RRW-2
+2026960b-123006aa-6a475090: |-
+  L'outil contient des éléments pour construire des Connexions de Voisinage.
+
+  NOTE : Toutes les  LIAISONS DE VOISINAGE D'AUTOROUTES (sauf RHW-2) doivent utiliser CES CONNECTEURS DE VOISINAGE pour garantir le bon fonctionnement des liaisons, faute de quoi seuls les camions de marchandises utiliseront l'autoroute (RHW).
+2026960b-123006aa-6a47c900: Pièces-puzzles de segments en surplomb des réseaux
+  de bases (Maxis). + rampe de 15 à 30 m
+2026960b-123007bb-6a47a005: Viaduc ferroviaire - Pièces-Puzzles
+2026960b-123007bb-6a47a900: Rails courbes à grand rayon, S, aiguillages
+2026960b-6a231eaa-c0269f00: Pont en poutre-caisson de béton compacte, RHW-6
+2026960b-6a231eaa-60114f00: Viaduc de Millau
+2026960b-123006aa-6a47aa13: |-
+  Outil permettant de placer des voies souterraines sous divers segments de Tram (unique ; partagée en rue, en route ou avenue).
+  Pièces-Puzzles.
+2026960b-123007bb-6a47ca00: Chemin de fer hybride (Rail ordinaire - Grande Vitesse) - Droites
+2026960b-6a231eaa-60254f00: Pont à poutrelles en acier rouge, RD-4
+2026960b-6a231eaa-10070f00: Pont ferroviaire couvert moderne
+2026960b-123006aa-6a475336: L'outil contient des pièces (FLEX) permettant
+  d'assurer la transition entre des chaussées RHW de largeurs différentes.  Le
+  fait de faire glisser l'outil réseau RHW dans ces pièces les convertira pour
+  qu'elles s'adaptent.
+2026960b-123006aa-6a47cb00: |-
+  L'outil contient des segments de voies ferrées hybrides en courbes à grands rayons et S. 
+  Le chemin de fer hybride supporte à la fois le trafic ferroviaire normal et le trafic ferroviaire à grande vitesse (monorail).
+2026960b-123006aa-52001000: L'outil permet de construire des bretelles
+  parallèles pour les autoroutes de sol ou surélevées.
+2026960b-123006aa-6a47ce00: |-
+  Segments de transitions de hauteur et des sections surélevées des chemins de fer hybrides.
+  Le chemin de fer hybride supporte à la fois le trafic ferroviaire normal et le trafic ferroviaire à grande vitesse (monorail).
+  Utilisez des tronçons de chemin de fer hybride au niveau du sol et reliez les à l'extrémité surélevée des transitions (ou à d'autres tronçons déjà surélevés) pour les surélever.
+2026960b-123007bb-6a476005: Voies piétonnes (par carreau)
+2026960b-6a231eaa-30101f00: Pont de béton
+2026960b-6a231eaa-00252f00: Pont en acier à piles en V
+2026960b-123007bb-6a478b00: Bretelles d'accès pour Voies Rapides - Sens unique 2|3 voies (REW)
+2026960b-6a231eaa-60264f00: Pont à poutrelles en acier bleu, RD-4
+2026960b-123006aa-6a478800: |-
+  L'outil contient des Pièces-Puzzles de ponts et de liaisons de routes à sens uniques, surélevées, vers autoroutes (RHW).
+  OBSOLÈTES
+2026960b-6a231eaa-60234f01: Pont à arches en acier plein cintre, AVE
+2026960b-123007bb-6a47510a: Bretelles Type D d'autoroutes (RHW)
+2026960b-6a231eaa-30201f00: Pont en acier à piles en V (SAM-9)
+2026960b-6a231eaa-10160f00: Pont ferroviaire à tréteaux en bois, STR
+2026960b-123007bb-6a47b42a: Tram sur Avenue (GLR)
+2026960b-6a231eaa-10330f21: Viaduc ferroviaire (2) type L2 DTR
+2026960b-123006bf-6a476700: Rue additionnelle (SAM)
+2026960b-6a231eaa-30111f00: Vieux pont en arc

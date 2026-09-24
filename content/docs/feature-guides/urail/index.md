@@ -15,33 +15,19 @@ The URail system contains a total of six menu buttons.
 
 ### On the Rails Menu
 
-<table class="table table-striped table-bordered w-auto">
-    <tr>
-        <td rowspan="5" valign="middle" class="px-3">{{< menu-icon icon="images/urail-menu-buttons-rail.jpg" >}}</td>
-        <td><b>Underground Rail, Rail Tunnel under Roads Dual Networking Pieces</b><br/>This button contains the base URail portal, as well as all of the various parallel Road-over-URail Dual Network items.</td>
-    </tr>
-    <tr>
-        <td><b>Underground Rail, Rail Tunnel under PedMalls Dual Networking Pieces</b><br/>This button contains all of the various parallel PedMall-over-URail Dual Network items.</td>
-    </tr>
-    <tr>
-        <td><b>Underground Rail Maxis Roadway Intersection Pieces</b><br/>This button contains perpendicular crossings over URail for all of the base Road and Highway-type transportation networks in the game (Road, Street, One-Way Road, Avenue, Ground Highway, and Elevated Highway)</td>
-    </tr>
-    <tr>
-        <td><b>Underground Rail Maxis Railway Intersection Pieces</b><br/>This button contains perpendicular crossings over URail for all of the base Rail and Mass Transit-type transportation networks in the game (Rail, Elevated Light Rail, and Monorail), as well as under the NAM's Single-Track Rail (STR) override network and Rail Viaducts.</td>
-    </tr>
-    <tr>
-        <td><b>Underground Rail Maxis Miscellaneous Puzzle Pieces</b><br/>This button contains miscellaneous URail items, including URail 4-way Rail Intersections (basically, FURLs from the ESURE, or Express Subways and Underground Rail Extensions), often under various other networks and intersections in a Dual Network format.</td>
-    </tr>
-</table>
+{{< menu-icon "SubRail" "true" >}}
+
+{{< menu-icon "URailxPedMall Button" "true" >}}
+
+{{< menu-icon "URailxMaxis Roadways Button" "true" >}}
+
+{{< menu-icon "URailxRailways Button" "true" >}}
+
+{{< menu-icon "URail Misc Button" "true" >}}
 
 ### On the Misc. Transit Menu
 
-<table class="table table-striped table-bordered w-auto">
-    <tr>
-        <td rowspan="1" valign="middle" class="px-3">{{< menu-icon icon="images/urail-menu-buttons-misc.jpg" >}}</td>
-        <td><b>Underground Rail Maxis Tramway Intersection Pieces</b><br/>This button contains perpendicular crossings over URail for Ground Light Rail (GLR)/Tram, as well as Tram-on-Street (TOS) and Tram-in-Avenue (TIA). (Tram-in Road (TIR) and Tram-on-Road (TOR) are not presently supported.)</td>
-    </tr>
-</table>
+{{< menu-icon "URailxTramways Button" "true" >}}
 
 Note that there presently is no crosslinkage to support crossings under (or Dual-Networking with) any RealHighway (RHW), Network Widening Mod (NWM), or Street Addon Mod (SAM) networks, or with Road Viaducts.
 

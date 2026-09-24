@@ -1,0 +1,590 @@
+NAM_Controller_VersionMarker:
+  File: NetworkAddonMod_a_Controller_Marker
+  Icon: 856ddbac-6a386d26-6a47ffff
+  Name: 2026960b-123007bb-6a47ffff
+  Description: 2026960b-123006aa-6a47ffff
+TRAINS_Lightrail Engine_112C0000:
+  File: NetworkAddonMod_BaseContent
+  Icon: 856ddbac-6a386d26-09bc22f1
+  Name: 2026960b-0a554ae0-1aba49ec
+  Description: 2026960b-0a554ae0-1bba49ec
+NAM Eraser:
+  File: NetworkAddonMod_Eraser
+  Icon: 856ddbac-6a386d26-6a475024
+  Name: 2026960b-123007bb-6a475024
+  Description: 2026960b-123006aa-6a475024
+LightRailxAvenue_DualNetworking:
+  File: NetworkAddonMod_ElevatedLightRailxAvenue_Plugin
+  Icon: 856ddbac-6a386d26-6a47b060
+  Name: 2026960b-123007bb-6a47b060
+  Description: 2026960b-123006aa-6a47b060
+LightRailxRoad_DualNetworking:
+  File: NetworkAddonMod_ElevatedLightRailxRoad_Plugin
+  Icon: 856ddbac-6a386d26-6a47b03a
+  Name: 2026960b-123007bb-6a47b03a
+  Description: 2026960b-123006aa-6a47b03a
+High_Elevated_Rail:
+  File: NetworkAddonMod_High_ElRail_Plugin
+  Icon: 856ddbac-6a386d26-6a47b900
+  Name: 2026960b-123007bb-6a47b900
+  Description: 2026960b-123006aa-6a47b900
+Monorail_PuzzlePieces:
+  File: NetworkAddonMod_High_Monorail_Plugin
+  Icon: 856ddbac-6a386d26-6a47c900
+  Name: 2026960b-123007bb-6a47c900
+  Description: 2026960b-123006aa-6a47c900
+Monorail smooth curve puzzle piece:
+  File: NetworkAddonMod_WideRadiusCurves_Monorail_Plugin
+  Icon: 856ddbac-6a386d26-6a47c700
+  Name: 2026960b-123007bb-6a47c700
+  Description: 2026960b-123006aa-6a47c701
+Draggable Ped Mall:
+  File: NAMSC4_Classic_DragPedmalls_Core
+  Icon: 856ddbac-6a386d26-6a476200
+  Name: 2026960b-123007bb-6a476200
+  Description: 2026960b-123006aa-6a476200
+PedMallTiles:
+  File: NetworkAddonMod_PedMalls
+  Icon: 856ddbac-6a386d26-6a476000
+  Name: 2026960b-123007bb-6a476005
+  Description: 2026960b-123006aa-6a476005
+Road_Overpasses:
+  File: NetworkAddonMod_Legacy_RoadViaductPuzzlePieceButtons
+  Icon: 856ddbac-6a386d26-6a477000
+  Name: 2026960b-123007bb-6a477000
+  Description: 2026960b-123006aa-6a477000
+Road_PuzzlePieces:
+  File: NetworkAddonMod_Legacy_RoadViaductPuzzlePieceButtons
+  Icon: 856ddbac-6a386d26-6a477005
+  Name: 2026960b-123007bb-6a477005
+  Description: 2026960b-123006aa-6a477005
+OneWayRoad_Overpasses:
+  File: NetworkAddonMod_Legacy_RoadViaductPuzzlePieceButtons
+  Icon: 856ddbac-6a386d26-6a478000
+  Name: 2026960b-123007bb-6a478000
+  Description: 2026960b-123006aa-6a478000
+OneWayRoad_PuzzlePieces:
+  File: NetworkAddonMod_Legacy_RoadViaductPuzzlePieceButtons
+  Icon: 856ddbac-6a386d26-6a478005
+  Name: 2026960b-123007bb-6a478005
+  Description: 2026960b-123006aa-6a478005
+Avenue_Overpasses:
+  File: NetworkAddonMod_Legacy_RoadViaductPuzzlePieceButtons
+  Icon: 856ddbac-6a386d26-6a479000
+  Name: 2026960b-123007bb-6a479000
+  Description: 2026960b-123006aa-6a479000
+Avenue_PuzzlePieces:
+  File: NetworkAddonMod_Legacy_RoadViaductPuzzlePieceButtons
+  Icon: 856ddbac-6a386d26-6a479005
+  Name: 2026960b-123007bb-6a479005
+  Description: 2026960b-123006aa-6a479005
+Road Viaduct Starter Pieces:
+  File: NetworkAddonMod_RoadViaducts_Draggable
+  Icon: 856ddbac-6a386d26-6a477f00
+  Name: 2026960b-123007bb-6a477f00
+  Description: 2026960b-123006aa-6a477f00
+Road FLEX Overpasses:
+  File: NetworkAddonMod_RoadViaducts_FLEX_Overpasses
+  Icon: 856ddbac-6a386d26-6a477f30
+  Name: 2026960b-123007bb-6a477f30
+  Description: 2026960b-123006aa-6a477f30
+Alternative Viaducts:
+  File: Z_Viaduct_Icon_Previews
+  Icon: 856ddbac-6a386d26-6a477e00
+  Name: 2026960b-123007bb-6a477e00
+  Description: 2026960b-123006aa-6a477e00
+RR_PuzzlePieces:
+  File: NetworkAddonMod_Rural_Roads_Plugin
+  Icon: 856ddbac-6a386d26-6a477700
+  Name: 2026960b-123007bb-6a477700
+  Description: 2026960b-123006aa-6a477700
+FAR_PuzzlePieces:
+  File: NetworkAddonMod_FractionallyAngled_Roads_Legacy
+  Icon: 856ddbac-6a386d26-6a477600
+  Name: 2026960b-123007bb-6a477600
+  Description: 2026960b-123006aa-6a477600
+Avenue_Roundabouts:
+  File: NetworkAddonMod_Roundabouts_Avenues_Plugin
+  Icon: 856ddbac-6a386d26-6a476a00
+  Name: 2026960b-123006bb-6a476a00
+  Description: 2026960b-123006aa-6a476a00
+FLEXible Roundabouts:
+  File: NetworkAddonMod_Roundabouts_SingleTile_Plugin
+  Icon: 856ddbac-6a386d26-6a477c00
+  Name: 2026960b-123007bb-6a477c00
+  Description: 2026960b-123006aa-6a477c00
+Wide_Radius_Curve_Road_PuzzlePieces:
+  File: NetworkAddonMod_WideRadiusCurves_Roads_Plugin
+  Icon: 856ddbac-6a386d26-6a477500
+  Name: 2026960b-123007bb-6a477500
+  Description: 2026960b-123006aa-6a477500
+Road NWM MRC Flex Pieces:
+  File: NetworkAddonMod_WideRadius_FractionalAngle
+  Icon: 856ddbac-6a386d26-6a477900
+  Name: 2026960b-123007bb-6a477900
+  Description: 2026960b-123006aa-6a477900
+RHW_FLUPs_Portals_Crossings:
+  File: NetworkAddonMod_FlexibleUnderpasses_SubwayDraggable
+  Icon: 856ddbac-6a386d26-6a475600
+  Name: 2026960b-123007bb-6a475600
+  Description: 2026960b-123006aa-6a475600
+FLUPs_Ramps:
+  File: NetworkAddonMod_FLUPs_Plugin
+  Icon: 856ddbac-6a386d26-6a477a00
+  Name: 2026960b-123007bb-6a477a00
+  Description: 2026960b-123006aa-6a477a00
+FLUPs under road:
+  File: NetworkAddonMod_FLUPs_Plugin
+  Icon: 856ddbac-6a386d26-6a477a10
+  Name: 2026960b-123007bb-6a477a10
+  Description: 2026960b-123006aa-6a477a10
+Tram_Underpasses:
+  File: NetworkAddonMod_FLUPs_Plugin
+  Icon: 856ddbac-6a386d26-6a47b400
+  Name: 2026960b-123006b0-6a47b400
+  Description: 2026960b-123006a0-6a47b400
+FLUPs under other surfaces:
+  File: NetworkAddonMod_FLUPs_Plugin
+  Icon: 856ddbac-6a386d26-6a477a30
+  Name: 2026960b-123007bb-6a477a30
+  Description: 2026960b-123006aa-6a477a30
+FLUPs under rail:
+  File: NetworkAddonMod_FLUPs_Plugin
+  Icon: 856ddbac-6a386d26-6a477a20
+  Name: 2026960b-123007bb-6a477a20
+  Description: 2026960b-123006aa-6a477a20
+JENX Hole Digger and Raiser Lots:
+  File: jenx_raiser_digger_puzzle_pieces_MultiMenu
+  Icon: 856ddbac-6a386d26-6a476905
+  Name: 2026960b-123007bb-6a476905
+  Description: 2026960b-123006aa-6a476905
+CAS CAN-AM Basic Dock:
+  File: PLOP_1x1_CAS CAN-AM Basic Dock CAL
+  Icon: 856ddbac-6a386d26-9afc2275
+  Name: 2026960b-6a386d26-9afc2275
+  Description: 2026960b-58f95d2a-9afc2275
+CAN-AM:
+  File: NetworkAddonMod_CanAM_Plugin
+  Icon: 856ddbac-6a386d26-ca1a1000
+  Name: 2026960b-123007bb-6a470100
+  Description: 2026960b-123006aa-6a470100
+GLR diagonal Dentei:
+  File: GLR diagonal Dentei station_b597d62a.SC4Lot
+  Icon: 856ddbac-6a386d26-b597d62a
+  Name: 2026960b-6a386d26-b597d62a
+  Description: 2026960b-ad368f9c-b597d62a
+GLR orthogonal Dentei:
+  File: GLR orthogonal Dentei station_b597d5b9.SC4Lot
+  Icon: 856ddbac-6a386d26-b597d5b9
+  Name: 2026960b-6a386d26-b597d5b9
+  Description: 2026960b-ad368f9c-b597d5b9
+Draggable GroundLightRail Extension:
+  File: NetworkAddonMod_GroundLightRailDrag_Extension
+  Icon: 856ddbac-6a386d26-6a47bd00
+  Name: 2026960b-123007bb-6a47bd00
+  Description: 2026960b-123006aa-6a47bd00
+Draggable GroundLightRail:
+  File: NetworkAddonMod_GroundLightRailDrag_Plugin
+  Icon: 856ddbac-6a386d26-6a47b3ff
+  Name: 2026960b-123007bb-6a47b3ff
+  Description: 2026960b-123006aa-6a47b3ff
+GroundLightRail:
+  File: NetworkAddonMod_GroundLightRail_Plugin
+  Icon: 856ddbac-6a386d26-6a47b10f
+  Name: 2026960b-123007bb-6a47b10f
+  Description: 2026960b-123006aa-6a47b10f
+GroundLightRail / Avenue - Dual:
+  File: NetworkAddonMod_GroundLightRailxAvenue_Plugin
+  Icon: 856ddbac-6a386d26-6a47b42a
+  Name: 2026960b-123007bb-6a47b42a
+  Description: 2026960b-123006aa-6a47b42a
+GroundLightRail / Road - Dual:
+  File: NetworkAddonMod_GroundLightRailxRoad_Plugin
+  Icon: 856ddbac-6a386d26-6a47ba00
+  Name: 2026960b-123007bb-6a47ba00
+  Description: 2026960b-123006aa-6a47ba00
+GroundLightRail / Street - Dual:
+  File: NetworkAddonMod_GroundLightRailxStreet_Plugin
+  Icon: 856ddbac-6a386d26-6a47bc60
+  Name: 2026960b-123007bb-6a47bc60
+  Description: 2026960b-123006aa-6a47bc60
+TramAvenue-Dentei_diagonal:
+  File: TramAve 2x3 diagonal Dentei station_1541eca0.SC4Lot
+  Icon: 856ddbac-6a386d26-1541eca0
+  Name: 2026960b-6a386d26-1541eca0
+  Description: 2026960b-ad368f9c-1541eca0
+TramAve 2x2 Dentei station:
+  File: TramAve 2x2 orthogonal Dentei station_9545f6eb.SC4Lot
+  Icon: 856ddbac-6a386d26-9545f6eb
+  Name: 2026960b-6a386d26-9545f6eb
+  Description: 2026960b-4d9722d5-9545f6eb
+SFBT_TramStreetStop:
+  File: SFBT_TramStreet_Stop
+  Icon: 856ddbac-6a386d26-f81f2616
+  Name: 2026960b-6a386d26-f81f2616
+  Description: 2026960b-4d9722d5-f81f2616
+TramRoad 1x1 stop:
+  File: TramRoad1x1stop_d67e1351.SC4Lot
+  Icon: 856ddbac-6a386d26-d67e1351
+  Name: 2026960b-6a386d26-d67e1351
+  Description: 2026960b-4d9722d5-d67e1351
+TramRoad 1x2 stop:
+  File: TramRoad1x2stop_d67e1686.SC4Lot
+  Icon: 856ddbac-6a386d26-d67e1686
+  Name: 2026960b-6a386d26-d67e1686
+  Description: 2026960b-4d9722d5-d67e1686
+TramRoad 1x3 stop:
+  File: TramRoad1x3stop_d67e18c7.SC4Lot
+  Icon: 856ddbac-6a386d26-d67e18c7
+  Name: 2026960b-6a386d26-d67e18c7
+  Description: 2026960b-4d9722d5-d67e18c7
+URailxTramways Button:
+  File: NetworkAddonMod_GroundLightRailxURail_Interface_Plugin
+  Icon: 856ddbac-6a386d26-6a47aa13
+  Name: 2026960b-123007bb-6a47aa13
+  Description: 2026960b-123006aa-6a47aa13
+High Speed Rail:
+  File: High Speed Rail
+  Icon: 856ddbac-6a386d26-6a47c000
+  Name: 2026960b-123007bb-6a47c000
+  Description: 2026960b-123006aa-6a47c000
+Ground High Speed Rail:
+  File: High Speed Rail
+  Icon: 856ddbac-6a386d26-6a47c200
+  Name: 2026960b-123007bb-6a47c200
+  Description: 2026960b-123006aa-6a47c200
+Ground High Speed Rail Station:
+  File: Xyloxadoria Modern Arched L0 High Speed Rail (GHSR) Station.SC4Lot
+  Icon: 856ddbac-6a386d26-de871019
+  Name: 2026960b-6a386d26-de871019
+  Description: 2026960b-5e870732-de871019
+Placeholder for old version - GHSR Station (Old) Placeholder:
+  File: Xyloxadoria Modern Arched L0 High Speed Rail (GHSR) Station.SC4Lot
+  Icon: 856ddbac-6a386d26-de871019
+  Name: 00000000-00000000-00000000
+  Description: 00000000-00000000-00000000
+Elevated High Speed Rail Station:
+  File: Xyloxadoria Modern Arched L2 High Speed Rail (HSR) Station.SC4Lot
+  Icon: 856ddbac-6a386d26-ce871165
+  Name: 2026960b-6a386d26-ce871165
+  Description: 2026960b-5e870732-ce871165
+Placeholder for old version - HSR Station (Old) Placeholder:
+  File: Xyloxadoria Modern Arched L2 High Speed Rail (HSR) Station.SC4Lot
+  Icon: 856ddbac-6a386d26-ce871165
+  Name: 00000000-00000000-00000000
+  Description: 00000000-00000000-00000000
+Diagonal High Speed Rail Station:
+  File: Xyloxadoria Modern Diagonal L2 HSR Station.SC4Lot
+  Icon: 856ddbac-6a386d26-77abd57a
+  Name: 2026960b-6a386d26-77abd57a
+  Description: 2026960b-d4c21cfc-77abd57a
+RealRailway RealHSR Hybrid Rail Straights:
+  File: RRW_RHSR_Hybrid_Icons
+  Icon: 856ddbac-6a386d26-6a47ca00
+  Name: 2026960b-123007bb-6a47ca00
+  Description: 2026960b-123006aa-6a47ca00
+RealRailway RealHSR Hybrid Rail:
+  File: RRW_RHSR_Hybrid_Icons
+  Icon: 856ddbac-6a386d26-6a47cb00
+  Name: 2026960b-123007bb-6a47cb00
+  Description: 2026960b-123006aa-6a47cb00
+RealRailway RealHSR RealRailway RealHSR Hybrid Rail Turnouts:
+  File: RRW_RHSR_Hybrid_Icons
+  Icon: 856ddbac-6a386d26-6a47cd00
+  Name: 2026960b-123007bb-6a47cd00
+  Description: 2026960b-123006aa-6a47cd00
+Hybrid Rail Elevated Pieces:
+  File: RRW_RHSR_Hybrid_Icons
+  Icon: 856ddbac-6a386d26-6a47ce00
+  Name: 2026960b-123007bb-6a47ce00
+  Description: 2026960b-123006aa-6a47ce00
+Hybrid Rail Station v1 - Dual Network (RRW-RHSR):
+  File: Hybrid Rail Station v1 - Dual Network (RRW-RHSR)
+  Icon: 856ddbac-6a386d26-7cd56e43
+  Name: 2026960b-6a386d26-7cd56e43
+  Description: 2026960b-9b9d22a8-7cd56e43
+Hybrid Rail Station v2 - RRW ONLY (Dual Network):
+  File: Hybrid Rail Station v2 - RRW ONLY
+  Icon: 856ddbac-6a386d26-2c5c300b
+  Name: 2026960b-6a386d26-2c5c300b
+  Description: 2026960b-9b9d22a8-2c5c300b
+Symphony Ramps:
+  File: z_highway_menu_blocker
+  Icon: 856ddbac-6a386d26-6a473143
+  Name: 2026960b-123007bb-6a473143
+  Description: 2026960b-123006aa-6a473143
+Symphony Prefabs:
+  File: z_highway_menu_blocker
+  Icon: 856ddbac-6a386d26-6a473141
+  Name: 2026960b-123007bb-6a473141
+  Description: 2026960b-123006aa-6a473141
+Symphony Transitions:
+  File: z_highway_menu_blocker
+  Icon: 856ddbac-6a386d26-6a475350
+  Name: 2026960b-123007bb-6a475350
+  Description: 2026960b-123006aa-6a475350
+Symphony Smooth Curves:
+  File: z_highway_menu_blocker
+  Icon: 856ddbac-6a386d26-6a475366
+  Name: 2026960b-123007bb-6a475366
+  Description: 2026960b-123006aa-6a475366
+FlexTurnLanes:
+  File: NetworkAddonMod_TurningLanes_Flexible
+  Icon: 856ddbac-6a386d26-6a470460
+  Name: 2026960b-123007bb-6a470460
+  Description: 2026960b-123006aa-6a470460
+QuickTurnLanes:
+  File: NetworkAddonMod_TurningLanes_Flexible
+  Icon: 856ddbac-6a386d26-6a4704a0
+  Name: 2026960b-123007bb-6a4704a0
+  Description: 2026960b-123006aa-6a4704a0
+NWM_NeighborConnectorPieces:
+  File: NetworkWideningMod_Core
+  Icon: 856ddbac-6a386d26-6a477bf0
+  Name: 2026960b-123007bb-6a477bf0
+  Description: 2026960b-123006aa-6a477bf0
+NWM_Transitions:
+  File: NetworkWideningMod_Core
+  Icon: 856ddbac-6a386d26-6a477b50
+  Name: 2026960b-123007bb-6a477b50
+  Description: 2026960b-123006aa-6a477b50
+NWM_CurvePieces:
+  File: NetworkWideningMod_Core
+  Icon: 856ddbac-6a386d26-6a477b30
+  Name: 2026960b-123007bb-6a477b30
+  Description: 2026960b-123006aa-6a477b30
+NWM_StarterPieces:
+  File: NetworkWideningMod_Core
+  Icon: 856ddbac-6a386d26-6a477b00
+  Name: 2026960b-123007bb-6a477b00
+  Description: 2026960b-123006aa-6a477b00
+ElRail over Road NWM intersection Icon:
+  File: NetworkWideningMod_ElRail_over_Road_NWM
+  Icon: 856ddbac-6a386d26-6a47b049
+  Name: 2026960b-123007bb-6a47b049
+  Description: 2026960b-123006aa-6a47b049
+REW Flex Curves (Disabled):
+  File: RealExpressway_Rotation_Rings
+  Icon: 856ddbac-6a386d26-6a478900
+  Name: 2026960b-123007bb-6a478900
+  Description: 2026960b-123006aa-6a478900
+REW Flex Overpass:
+  File: RealExpressway_Rotation_Rings
+  Icon: 856ddbac-6a386d26-6a478b00
+  Name: 2026960b-123007bb-6a478b00
+  Description: 2026960b-123006aa-6a478b00
+Bus Filter for L0 RHW-2:
+  File: Bus Filter for L0 RHW-2.SC4Lot
+  Icon: 856ddbac-6a386d26-bfaa7062
+  Name: 2026960b-6a386d26-bfaa7062
+  Description: 2026960b-d4c21cfc-bfaa7062
+Bus Filter for L1 RHW-2:
+  File: Bus Filter for L1 RHW-2.SC4Lot
+  Icon: 856ddbac-6a386d26-5faa7058
+  Name: 2026960b-6a386d26-5faa7058
+  Description: 2026960b-d4c21cfc-5faa7058
+Bus Filter for L2 RHW-2:
+  File: Bus Filter for L2 RHW-2.SC4Lot
+  Icon: 856ddbac-6a386d26-5f91875e
+  Name: 2026960b-6a386d26-5f91875e
+  Description: 2026960b-d4c21cfc-5f91875e
+EN_Elevated Road Bus Stop and Subway Station:
+  File: E-N BriPizza L2 Elevated Road Bus Stop
+  Icon: 856ddbac-6a386d26-59316320
+  Name: 2026960b-bc77e8b2-ad19faf7
+  Description: 2026960b-4b2f7aa5-66fe891d
+Modern Arched Bus Rapid Transit Station:
+  File: Xyloxadoria Modern Arch Bus Rapid Transit (BRT) Station.SC4Lot
+  Icon: 856ddbac-6a386d26-bfb794da
+  Name: 2026960b-6a386d26-bfb794da
+  Description: 2026960b-921d5df6-bfb794da
+RHW_FLEX_Turn_Lanes:
+  File: RealHighway_TurningLanes_Flexible
+  Icon: 856ddbac-6a386d26-6a475900
+  Name: 2026960b-123007bb-6a475900
+  Description: 2026960b-123006aa-6a475900
+3-Level Overpasses:
+  File: RealHighway_ThreeLevelCrossings
+  Icon: 856ddbac-6a386d26-6a475af6
+  Name: 2026960b-123007bb-6a475af6
+  Description: 2026960b-123006aa-6a475af6
+DirtRoad:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-5eee0000
+  Name: 2026960b-2a3858e4-0000001a
+  Description: 2026960b-2a3858e4-0000001b
+RHW_QuickChange:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475700
+  Name: 2026960b-123007bb-6a475700
+  Description: 2026960b-123006aa-6a475700
+RHW_FA_Ramps:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475f30
+  Name: 2026960b-123007bb-6a475f30
+  Description: 2026960b-123006aa-6a475f30
+RHW_FAR:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475f20
+  Name: 2026960b-123007bb-6a475f20
+  Description: 2026960b-123006aa-6a475f20
+RHW_FA-Intersections:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475f00
+  Name: 2026960b-123007bb-6a475f00
+  Description: 2026960b-123006aa-6a475f00
+RHW_Cosmetic_3tile:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475471
+  Name: 2026960b-123007bb-6a475471
+  Description: 2026960b-123006aa-6a475471
+RHW_Cosmetic_2tile:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475440
+  Name: 2026960b-123007bb-6a475440
+  Description: 2026960b-123006aa-6a475440
+RHW_Cosmetic_Transitions:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475410
+  Name: 2026960b-123007bb-6a475410
+  Description: 2026960b-123006aa-6a475410
+RHW_Cosmetic1:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475400
+  Name: 2026960b-123007bb-6a475400
+  Description: 2026960b-123006aa-6a475400
+RHW_Curves:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475220
+  Name: 2026960b-123007bb-6a475220
+  Description: 2026960b-123006aa-6a475220
+RHW_FlexRamps:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a4751f0
+  Name: 2026960b-123007bb-6a4751f0
+  Description: 2026960b-123006aa-6a4751f0
+RHW_RampInterfacesA:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475118
+  Name: 2026960b-123007bb-6a475118
+  Description: 2026960b-123006aa-6a475118
+RHW_Neighborhood Connectors:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475090
+  Name: 2026960b-123007bb-6a475090
+  Description: 2026960b-123006aa-6a475090
+RHW_Fillers:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475050
+  Name: 2026960b-123007bb-6a475050
+  Description: 2026960b-123006aa-6a475050
+RHW_Starters:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475000
+  Name: 2026960b-123007bb-6a475000
+  Description: 2026960b-123006aa-6a475000
+RHW_FLEXHeight_Transitions:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475330
+  Name: 2026960b-123007bb-6a475330
+  Description: 2026960b-123006aa-6a475330
+RHW_FLEXfly:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475b00
+  Name: 2026960b-123007bb-6a475b00
+  Description: 2026960b-123006aa-6a475b00
+RHW_FLEXWidth_Transitions:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a475336
+  Name: 2026960b-123007bb-6a475336
+  Description: 2026960b-123006aa-6a475336
+Specialized_Intersection_Pieces:
+  File: RealHighway_Core
+  Icon: 856ddbac-6a386d26-6a47991a
+  Name: 2026960b-123007bb-6a47991a
+  Description: 2026960b-123006aa-6a47991a
+SAM_PuzzlePieces:
+  File: SAM - Core
+  Icon: 856ddbac-6a386d26-6a476700
+  Name: 2026960b-123007bb-6a476700
+  Description: 2026960b-123006aa-6a476700
+Rail_PuzzlePieces:
+  File: NetworkAddonMod_RailViaducts
+  Icon: 856ddbac-6a386d26-6a47a005
+  Name: 2026960b-123007bb-6a47a005
+  Description: 2026960b-123006aa-6a47a005
+SubRail:
+  File: NetworkAddonMod_URail_Puzzle_Plugin
+  Icon: 856ddbac-6a386d26-6a47aa0f
+  Name: 2026960b-123007bb-6a47aa0f
+  Description: 2026960b-123006aa-6a47aa0f
+URailxPedMall Button:
+  File: NetworkAddonMod_URail_Puzzle_Plugin
+  Icon: 856ddbac-6a386d26-6a47aa10
+  Name: 2026960b-123007bb-6a47aa10
+  Description: 2026960b-123006aa-6a47aa10
+URailxMaxis Roadways Button:
+  File: NetworkAddonMod_URail_Puzzle_Plugin
+  Icon: 856ddbac-6a386d26-6a47aa11
+  Name: 2026960b-123007bb-6a47aa11
+  Description: 2026960b-123006aa-6a47aa11
+URailxRailways Button:
+  File: NetworkAddonMod_URail_Puzzle_Plugin
+  Icon: 856ddbac-6a386d26-6a47aa12
+  Name: 2026960b-123007bb-6a47aa12
+  Description: 2026960b-123006aa-6a47aa12
+URail Misc Button:
+  File: NetworkAddonMod_URail_Puzzle_Plugin
+  Icon: 856ddbac-6a386d26-6a47aa8a
+  Name: 2026960b-123007bb-6a47aa8a
+  Description: 2026960b-123006aa-6a47aa8a
+Rail:
+  File: RealRailway_Icons
+  Icon: 856ddbac-6a386d26-2a3ed76a
+  Name: 2026960b-0a554ae0-ea5ea6c1
+  Description: 2026960b-0a554ae0-ca5ea6c1
+ERRW:
+  File: RealRailway_Icons
+  Icon: 856ddbac-6a386d26-6a47a130
+  Name: 2026960b-123007bb-6a47a130
+  Description: 2026960b-123006aa-6a47a130
+Real Railway Flex Curve Pieces:
+  File: RealRailway_Icons
+  Icon: 856ddbac-6a386d26-6a47ac00
+  Name: 2026960b-123007bb-6a47ac00
+  Description: 2026960b-123006aa-6a47ac00
+Real Railway Flex Turnout Pieces:
+  File: RealRailway_Icons
+  Icon: 856ddbac-6a386d26-6a47ac10
+  Name: 2026960b-123007bb-6a47ac10
+  Description: 2026960b-123006aa-6a47ac10
+Real Railway Flex FARR Curve Pieces:
+  File: RealRailway_Icons
+  Icon: 856ddbac-6a386d26-6a47ad00
+  Name: 2026960b-123007bb-6a47ad00
+  Description: 2026960b-123006aa-6a47ad00
+Fractional Angle Starters:
+  File: RealRailway_Icons
+  Icon: 856ddbac-6a386d26-6a47cf00
+  Name: 2026960b-123007bb-6a47cf00
+  Description: 2026960b-123006aa-6a47cf00
+Modern Viaduct Rail Station:
+  File: Brenda_Xne Modern L2 Viaduct Rail Station.SC4Lot
+  Icon: 856ddbac-6a386d26-149b6c89
+  Name: 2026960b-6a386d26-149b6c89
+  Description: 2026960b-921d5df6-149b6c89
+Diagonal Viaduct Rail Station:
+  File: Xyloxadoria Modern Diagonal L2 Viaduct Rail Station.SC4Lot
+  Icon: 856ddbac-6a386d26-77abc776
+  Name: 2026960b-6a386d26-77abc776
+  Description: 2026960b-d4c21cfc-77abc776
+TrafficSim_CapacityMarker_Low:
+  File: NetworkAddonMod_TrafficSimCapacityMarker_Low
+  Icon: 856ddbac-6a386d26-6a47fffb
+  Name: 2026960b-123007bb-6a47fffb
+  Description: 2026960b-123006aa-6a47fffb
+Pedestrian Revolution - Crossings:
+  File: US_Common_Icons
+  Icon: 856ddbac-6a386d26-6a476100
+  Name: 2026960b-123007bb-6a476100
+  Description: 2026960b-123006aa-6a476100

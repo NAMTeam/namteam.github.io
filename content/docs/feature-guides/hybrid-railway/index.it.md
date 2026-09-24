@@ -21,23 +21,15 @@ The HRW is a FLEX network utilising dual-networking (Rail and Monorail) pieces m
 
 ## Menu Icons
 
-The HybridRailway menu icons are grouped together above the RealRailway and all of the HybridRailway content can be accessed from these buttons. The icons are courtesy of RVT or Rivit.
+The HybridRailway menu icons are grouped together above the RealRailway and all of the HybridRailway content can be accessed from these buttons.
 
-<table class="table table-striped table-bordered w-auto">
-    <tr>
-        <td rowspan="4" valign="middle">{{< menu-icon icon="images/_HRW-Icons.jpg" >}}</td>
-        <td><b>Straight Pieces</b><br/>Contains straight segments in both Orthogonal and Diagonal of various lengths.</td>
-    </tr>
-    <tr>
-        <td><b>Elevated Pieces [L1]</b><br/>Elevated starters including a L1 Flex Height Transition, Orthogonal and Diagonal FLEX onslope transitions.</td>
-    </tr>
-    <tr>
-        <td><b>Multi-Radius Curves</b><br/>Includes curves from R1 to R5. Smaller curves are wider than their RRW counterparts</td>
-    </tr>
-    <tr>
-        <td><b>Switches for the Hybrid Railway</b><br/>Switches for the HRW that include A2 types, B2 Types, Compounds and the FA-2 FLEX Switch pieces.</td>
-    </tr>
-</table>
+{{< menu-icon "RealRailway RealHSR Hybrid Rail Straights" "true" >}}
+
+{{< menu-icon "Hybrid Rail Elevated Pieces" "true" >}}
+
+{{< menu-icon "RealRailway RealHSR Hybrid Rail" "true" >}}
+
+{{< menu-icon "RealRailway RealHSR RealRailway RealHSR Hybrid Rail Turnouts" "true" >}}
 
 ## Multi-Radius Curves (MRCs)
 
@@ -110,8 +102,7 @@ In addition, the HRW has a number of station options capable of utilizing both h
 
 These stations have been created by **Tyberius06** and **ulisse99**.
 
-{{< menu-icon icon="images/T_Station-Icons.jpg" caption="An example of various stations that were created to accompany the Hybrid Railway Mod. These stations are highlighted by the icons shown on the left." >}}
-{{< menu-icon icon="images/U_Station-Icons.jpg" >}}
+
 
 In most situations, the monorail tool will need to be drawn through the station to make a successful connection to the Hybrid Railway. For the Station to function correctly with both Heavy Rail and High Speed/Monorail traffic, the station needs to use monorail. If only Heavy Rail is used, the station will only accept Heavy Rail traffic.
 

@@ -27,7 +27,7 @@ The Elevated Road, One-Way Road, and Avenue Viaducts are available under the **2
 
 The FLEX Overpasses feature provides a quick, easy to use option to build variable length overpasses for Road, One-Way Road, and Avenue.
 
-{{< menu-icon icon="images/icons/flex-overpass.jpg" caption="_FLEX Overpasses_" >}}
+{{< menu-icon "Road Viaduct Starter Pieces" "true" >}}
 
 {{< img-simple src="images/flex-overpass-overview.jpg" >}}
 
@@ -54,7 +54,7 @@ To build an overpass, plop the desired overpass, and then drag any networks you'
 
 The base set of Elevated Road Viaducts includes six override networks: Level 1 (L1, 7.5 meters high) and Level 2 (L2, 15 meters high) versions of the game's base Road, One-Way Road, and Avenue networks. Aside from being elevated off the ground, all other network properties, including capacity, remain intact. The menu button, which contains the starters and height transitions, can be found on the Roads menu.
 
-{{< menu-icon icon="images/icons/draggable-viaducts.jpg" caption="_Draggable Viaducts_" >}}
+
 
 {{< img-simple src="images/roadviaducts-networks.jpg" >}}
 

@@ -13,7 +13,7 @@ url: "docs/feature-guides/hole-diggers-and-raisers"
 
 The **Hole Diggers and Raisers** provided in the NAM are a tool used to raise or lower a single tile of terrain by a precise amount, allowing for fine control over terraforming. This can be particularly useful when dealing with elevated networks (and especially with On-Slope Transitions), and building tunnels and bridges. The Hole Diggers and Raisers can be found near the top of the Highways menu, as well as the the Roads, Rails, and Miscellaneous Transportation menus.
 
-{{< menu-icon icon="images/icons/hole-diggers-and-raisers" caption="_Hole Diggers and Raisers_" >}}
+{{< menu-icon "JENX Hole Digger and Raiser Lots" "true" >}}
 
 There are 15 different Hole Digger/Raiser pairs available, each resulting in a different amount of elevation change. **TAB** and **Shift-TAB** (**Ctrl-TAB** and **Ctrl-Shift-TAB** on MacOS) will cycle through the different elevation change levels, while **Home** and **End** toggles between Raisers (blue) and Diggers (red).
 

@@ -57,6 +57,14 @@ All other connections, such as South-to-North or East-to-West, are still allowed
 
 {{< img-simple src="images/commute-loop-fix.jpeg" class="img-fluid" caption="West ↔ North connections are blocked, thus preventing the loop from forming" >}}
 
+To be clear, this patch does not hinder Sims from commuting to any adjacent cities in any direction.
+Sims travelling *through* a neighboring city to look for a job in a third city is usually not desirable in the first place, as it means the Sims didn't find what they were looking for.
+This can be an indication that your networks aren't connected in the best way possible.
+
+The patch only kicks in precisely in this case, i.e. traveling through an entire city from edge to edge (but only North-to-West, or West-to-North).
+If commuters enter your city at one of those two edges, they will simply find a job in your city or travel southwards or eastwards.
+Note that this is similar to how Maxis has always blocked Sims from leaving a city at the same edge they entered, so loops couldn't form with just three cities.
+
 More information about the commute loop and the community's evolution of knowledge and workarounds can be found in multiple threads across the years: [A solution to the eternal commuter problem](https://www.sc4devotion.com/forums/index.php?topic=5271.0), [Eternal Commute](https://community.simtropolis.com/forums/topic/60791-eternal-commute/), [Further Clarification on the Eternal Commuter Bug](https://community.simtropolis.com/forums/topic/52887-further-clarification-on-the-eternal-commuter-bug/), [Help Removing A Commuter Loop](https://community.simtropolis.com/forums/topic/72324-help-removing-a-commuter-loop/), [Possible (Maybe Not) Solution to Eternal Commuter Problem?](https://community.simtropolis.com/forums/topic/75411-possible-maybe-not-solution-to-eternal-commuter-problem/), and [My Real Fix for Eternal Commute Loop problem](https://community.simtropolis.com/forums/topic/762585-my-real-fix-for-eternal-commute-loop-problem/).
 
 ### Slope Tolerance for Network Pieces
@@ -92,12 +100,22 @@ Multiple updates have been included for the street network:
 
 {{< img-simple src="images/diag-draggable-streets-and-tunnels.jpeg" class="img-fluid" >}}
 
-### Keyboard Shortcuts for Missing Networks.
-Out of the box, SC4 never provided keyboard shortcuts for certain networks. The NAM DLL adds these shortcuts via an included `KEYCFG` file:
+{{< alert context="info" >}}
+For street tunnels to work correctly, you need a compatible slope mod, such as [NAM Tunnel and Slope Mod](/docs/feature-guides/tunnel-and-slope-mod).
+Alternatively, installing the [Resource Loading Hooks DLL](https://community.simtropolis.com/files/file/36242-resource-loading-hooks-dll-for-simcity-4/) adds compatibility with all existing slope mods, as the NAM already includes an Exemplar Patch for use with that mod.
+{{< /alert >}}
+
+### Keyboard Shortcuts for Missing Networks
+Out of the box, SC4 never provided keyboard shortcuts for certain networks. The NAM DLL adds these shortcuts via an included KEYCFG subfile:
 - Monorail: <kbd>Ctrl</kbd> + <kbd>Y</kbd>
 - One-Way Road: <kbd>Shift</kbd> + <kbd>E</kbd>
 - Ground Highway: <kbd>Alt</kbd> + <kbd>E</kbd>
 - RHW: <kbd>Control</kbd> + <kbd>E</kbd>
+
+{{< alert context="warning">}}
+If you already have a custom KEYCFG file in your Plugins, they will conflict with each other.
+Either deselect the corresponding installer option (Miscellaneous → Additional Network Shortcuts) or make sure your file loads after the NAM.
+{{< /alert >}}
 
 ### Other Misc Changes
 Other minor changes now enabled by the DLL include:

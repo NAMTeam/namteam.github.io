@@ -113,59 +113,13 @@ The NAM includes several stations for the HSR family of override networks, all o
 
 ## List of Menu Items
 
-{{< menu-icon icon="images/ghsr-button.jpg" caption="_GHSR Pieces Button_" >}}
+{{< menu-icon "Ground High Speed Rail" "true" >}}
 
 This button includes the base starter piece for the Ground High Speed Rail override network, plus various puzzle piece-based crossings.
 
-1. Ground High Speed Rail Starter Piece
-2. Orth/Diag L2 Road Viaduct x Orth GHSR
-3. Orth/Diag L2 One-Way Road Viaduct x Orth GHSR
-4. Orth/Diag L2 Rail Viaduct x Orth GHSR
-5. Orth L2 Avenue Viaduct x Orth GHSR
-6. Orth L2 Elevated Maxis Highway x Orth GHSR
-7. Orth Elevated Rail x Orth GHSR
-8. Orth High Elevated Rail x Orth GHSR
-9. Orth Monorail x Orth GHSR
-10. Orth High Monorail x Orth GHSR
-11. Orth HSR x Orth GHSR
-12. GHSR S-Curve
-13. GHSR-to-HSR Transition Ramp
-14. GHSR-to-HSR On-Slope Transition with HSR Starter
-15. GHSR-to-HSR On-Slope Transition without HSR Starter
-16. Underground Routes (FLUPs) under Orth HSR (various configurations)
-17. Ortho URail under Orth/Diag HSR
-18. Diag URail under Orth/Diag HSR
-
-{{< menu-icon icon="images/hsr-button.jpg" caption="_HSR Pieces Button_" >}}
+{{< menu-icon "High Speed Rail" "true" >}}
 
 This button includes the base starter piece for the (elevated) High Speed Rail override network, plus various puzzle piece-based crossings.
-
-1. High Speed Rail Starter Piece
-2. High Speed Rail Filler Piece Orthogonal/Diagonal
-3. Orth HSR x Orth SAM Set 2 Crossing
-4. Orth HSR x Orth SAM Set 3 Crossing
-5. Orth HSR x Orth SAM Set 4 Crossing
-6. Orth HSR x Orth SAM Set 5 Crossing
-7. Orth HSR x Orth SAM Set 7 Crossing
-8. Orth HSR x Orth SAM Set 8 Crossing
-9. Orth HSR x Orth SAM Set 9 Crossing
-10. Orth HSR x Orth High El-Rail Crossing
-11. Orth HSR x Orth High Monorail Crossing
-12. Diag HSR x Orth Street
-13. Diag HSR x Orth Road
-14. Diag HSR x Orth One-Way Road
-15. Diag HSR x Orth Rail
-16. Diag HSR x Orth Avenue
-17. Diag HSR x Diag Street
-18. Diag HSR x Diag Road
-19. Diag HSR x Diag One-Way Road
-20. Diag HSR x Diag Rail
-21. Diag HSR x Diag Avenue
-22. Orth underground route (FLUPs) under Orth HSR No Pillar/Pillar
-23. Orth Perpendicular URail under Perpendicular Orth HSR
-24. Orth Perpendicular URail under Diag HSR
-25. Diag URail under Orth HSR
-26. Diag URail under Diag HSR
 
 ## Known Issues
 

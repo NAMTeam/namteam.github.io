@@ -13,14 +13,13 @@ url: "docs/feature-guides/network-eraser"
 
 The **Network Eraser** (previously known as the _RHW Disconnector_) is a special tool which erases a single tile of any network or FLEX Piece. It does not affect the surrounding sections of network, so the Network Eraser is safer to use and less destructive when one needs to remove or rebuild a section of network than the game's Bulldozer tool, especially when complex setups are involved. It can be found near the top of the Roads, Highways, Rails, and Misc. Transit menus.
 
-{{< menu-icon icon="images/icons/rhw-network-eraser-button" caption="_Network Eraser Button_" >}}
+{{< menu-icon "NAM Eraser" "true" >}}
 
 To use the Network Eraser, select it from the menu, hover it over the stretch of network you wish to erase, and then click to erase. The Network Eraser can be found near the top of the Highways menu, as well as the the Roads, Rails, and Miscellaneous Transportation menus.
 
 {{< gallery col-xl="2" col-lg="1" col-md="1">}}
     images/network-eraser-1.jpg
     images/network-eraser-2.jpg
-    images/network-eraser-3.jpg
 {{< /gallery >}}
 
 The Network Eraser can work on any draggable intersection combination between two different networks:
@@ -49,6 +48,6 @@ The base RealHighway network has auto-connect functionality, similar to the way 
 
 {{< override from="images/rhw-bulldozer-before.jpg" to="images/rhw-bulldozer-after.jpg">}}
 
-To combat this issue, use the Network Eraser instead. The Network Eraser is also used as part of some Pattern-Based Draggable setups used by the RealHighway, particularly the [Draggable Ramp Interfaces (DRIs)](/docs/feature-guides/realhighway#DRI). Additionally, it can be used in many situations with non-RHW networks as well.
+To combat this issue, use the Network Eraser instead. The Network Eraser is also used as part of some Pattern-Based Draggable setups used by the RealHighway, particularly the [Draggable Ramp Interfaces (DRIs)](/docs/feature-guides/realhighway#dri). Additionally, it can be used in many situations with non-RHW networks as well.
 
 {{< override from="images/rhw-eraser-before.jpg" to="images/rhw-eraser-after.jpg">}}

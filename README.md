@@ -15,17 +15,17 @@ Please note that it's assumed that you have a level of familiarity with [Git](ht
 
 In your command shell of choice, run the following:
 
-```
+``` sh
 git clone https://github.com/NAMTeam/namteam.github.io namdocs && cd namdocs
 ```
 
 Then run:
-```
+``` sh
 npm install
 ```
 
 To view the site locally:
-```
+``` sh
 npm run start
 ```
 
@@ -254,20 +254,31 @@ For an example of this in action, [check out the RRW documentation](https://www.
 #### Menu Icon
 
 A convenience function is included to show menu icons in a nice format.
+Specify the menu item's exemplar name, and the icon, title, and an optional description will automatically be filled in.
 
 ```
-{{< menu-icon icon="ICON" caption="CAPTION" >}}
+{{< menu-icon "exemplar_name" >}}
+
+{{< menu-icon "exemplar_name" "show_description" >}}
 ```
 
 Parameters:
 
-* `icon` - the menu icon. Icon can be blank, in which case it simply won't be displayed.
-* `caption` - a short caption describing the menu icon and the caption supports standard Markdown
+* `exemplar_name` - one of the exemplar name keys specified in `data\nam-icons.yaml`
+* `show_description` - to optionally show the menu item's description, specify this to be `"true"`
 
-For example, the below is what's used in the RHW documentation:
+Below are examples as they are used in the RHW documentation:
 
 ```
-{{< menu-icon icon="images/icons/rhw-network-button.jpg" caption="RHW-2 Network Button" >}}
+{{< menu-icon "DirtRoad" >}}
+
+{{< menu-icon "RHW_Starters" "true" >}}
+```
+
+The menu icons and related LTEXT titles and descriptions can be refreshed automatically via a script. Run:
+
+``` sh
+npm run icons:extract "C:\path\to\nam\install\folder"
 ```
 
 
